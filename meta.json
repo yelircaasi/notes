@@ -1,0 +1,23 @@
+{
+    "files": {
+        "notes": "/home/isaac/repos/notes/notes.json",
+        "subset": "/home/isaac/repos/notes/notes.json",
+        "general-tech": "/home/isaac/repos/notes/general-tech.json",
+        "general": "/home/isaac/repos/notes/general.json",
+        "projects": "/home/isaac/repos/notes/projects.json",
+        "music": "/home/isaac/repos/notes/music.json",
+        "philosophy": "/home/isaac/repos/notes/philosophy.json",
+        "math": "/home/isaac/repos/notes/math.json",
+        "proglangs": "/home/isaac/repos/notes/proglangs.json",
+        "cs-theory": "/home/isaac/repos/notes/cs-theory.json",
+        "config": "/home/isaac/repos/notes/config.json",
+        "phys-science": "/home/isaac/repos/notes/.json",
+        "neuroscience": "/home/isaac/repos/notes/.json",
+        "biology": "/home/isaac/repos/notes/.json"
+
+    },
+    "overarching-categories": {
+        "cs": [""],
+        "science": [""]
+    }
+}

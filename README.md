@@ -23,7 +23,7 @@ One of the advantaged of a tag-first system, rather than enforcing a strict hier
 
 ## Usage
 
-Each command is of the form `jn FILE_NAME ACTION [ARGS]`. If 'ALL' is passed for `FILE_NAME`, all files are treated jointly.
+Each command is of the form `jn [file:FILE_NAME] ACTION [ARGS]`. If 'ALL' is passed for `FILE_NAME`, all files are treated jointly.
 
 A special case is when 'meta' is passed as the filename, as this supports several commands for getting general information and help. See the 'Meta' section below for more information.
 

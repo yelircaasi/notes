@@ -1,0 +1,78 @@
+[
+    {
+        "id": 2,
+        "text": [
+            "just another sample"
+        ],
+        "status": null,
+        "rating": null,
+        "tags": [
+            "placeholder"
+        ],
+        "priority": null
+    },
+    {
+        "id": 3,
+        "text": [
+            "just another sample"
+        ],
+        "status": "unread",
+        "rating": null,
+        "tags": [
+            "placeholder",
+            "fluff"
+        ],
+        "priority": null
+    },
+    {
+        "id": 4,
+        "text": [
+            "[Loyola Marymount Notes on Parsing](https://cs.lmu.edu/~ray/notes/parsingtheory/)"
+        ],
+        "status": null,
+        "rating": null,
+        "tags": [],
+        "priority": null
+    },
+    {
+        "id": 5,
+        "text": [
+            "[Loyola Marymount Notes on Parsing](https://cs.lmu.edu/~ray/notes/parsingtheory/)"
+        ],
+        "status": null,
+        "rating": null,
+        "tags": [
+            "parsing",
+            "cs-gen",
+            "F.B"
+        ],
+        "priority": null
+    },
+    {
+        "id": 6,
+        "text": [
+            "this is a test"
+        ],
+        "status": null,
+        "rating": null,
+        "tags": [
+            "test",
+            "junk"
+        ],
+        "priority": null
+    },
+    {
+        "id": 7,
+        "text": [
+            "this is a test",
+            "and this is another line"
+        ],
+        "status": "",
+        "rating": "",
+        "tags": [
+            "test",
+            "junk"
+        ],
+        "priority": 0.5
+    }
+]
