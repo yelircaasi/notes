@@ -1,0 +1,9 @@
+https://pnp.github.io/cli-microsoft365/cmd/outlook/mail/mail-send/
+
+
+name idea: notae
+https://github.com/mintty/utils
+https://github.com/pkulak/matui/
+look for matrix-commander-tui (package it myself? re-(ckage matrix-commander to include tui?)
+https://github.com/pkulak/matui/
+

@@ -10,6 +10,9 @@ A command-line tool for managing notes, with an emphasis on tags and accessibili
 * easy to edit notes in a comfortable TUI or in a snappy CLI - low overhead; makes it comfortable to jot down ideas and save links without breaking my focus
 * support for import/export to/from a variety of data formats
 * easy to query and sort notes, with an informative set of attributes, especially tags, that make it easy to find what I am looking for
+* ACID transactions: each operation is atomic, consistent, isolated, and durable
+* Git-integrated and properly versioned notes
+* easily exportable to a variety of data formats
 * versioning and backup via git
 * streamlined note-to-task pipeline - easy to generate tasks from notes
 * storage format that is both human-readable and machine-readable: JSON, the GOAT of data formats! - allows me to harness the awesome power of Neovim and its finest plugins, as well as the many excellent command-line data-wrangling tools such as jq, ripgrep, ast-grep, regular expressions, and so on
@@ -27,20 +30,22 @@ Each command is of the form `jn [file:FILE_NAME] ACTION [ARGS]`. If 'ALL' is pas
 
 A special case is when 'meta' is passed as the filename, as this supports several commands for getting general information and help. See the 'Meta' section below for more information.
 
-### Actions
+### Commands
 
-* no action: enter interactive TUI mode
-* `add-file FILENAME` - add a new JSON file with the name `FILENAME`, where the .json ending is optional
-* `add FILENAME NOTE_TEXT [ATTR_NAME:ATTR_VALUE ...]` - add a new note
-* `show` - pretty-print notes matching the query
+* `jn` (no action)  -  enter interactive TUI mode
+* `jn add-file FILENAME` - add a new JSON file with the name `FILENAME`, where the .json ending is optional
+* `jn add NOTE_TEXT [ATTR_NAME:ATTR_VALUE ...]` - add a new note; use `file:FILENAME` to select the file; otherwise it will be chosen automatically
+* `jn edit ATTRIBUTE#TEXT`
+* `jn list` - list all files and file groups
+* `jn show` - pretty-print notes matching the query
 * `import FILETYPE FILEPATH` - import notes from a supported datatype, one of json, markdown, txt, yaml, toml, djot.
-* `export FILETYPE [PREDICATES]` - export notes to a supported datatype, one of json, markdown, djot, latex, yaml, toml, html, ... .
-* `summarize [PREDICATES]` - print a brief summary of the data matching the predicates
-* `summarize-visual` - like `summarize`, but enhanced with visual output
-* `split [NEW_FILENAME]` - split filename.json into {{FILENAME}}.json and (by default) {{FILENAME}}-subset.json, typically for more convenient editing
-* `join [OTHER_FILENAME]` - reverse `split`, taking by default {{FILENAME}}-subset.json
-* `fetch-email` - collect notes from emails whose subject line begins with 'jn '; additional attributes may be passed in the body (first line) or in the subject line following 'jn '. This follows the same general ATTRIBUTE:VALUE syntax and is parsed in the same way.
-`sort` - TODO
+* `jn export FILETYPE [PREDICATES]` - export notes to a supported datatype, one of json, markdown, djot, latex, yaml, toml, html, ... .
+* `jn summarize [PREDICATES]` - print a brief summary of the data matching the predicates
+* `jn summarize-visual [PREDICATES]` - like `summarize`, but enhanced with visual output
+* `jn split [NEW_FILENAME]` - split filename.json into {{FILENAME}}.json and (by default) {{FILENAME}}-subset.json, typically for more convenient editing
+* `jn join [OTHER_FILENAME]` - reverse `split`, taking by default {{FILENAME}}-subset.json
+* `jn fetch [email|matrix|signal]` - collect notes from emails whose subject line begins with 'jn '; additional attributes may be passed in the body (first line) or in the subject line following 'jn '. This follows the same general ATTRIBUTE:VALUE syntax and is parsed in the same way.
+* `jn sort` - TODO
 
 ### Meta Actions
 
@@ -70,4 +75,28 @@ For simplicity and consistency, each note object is required to have the same ke
 * `status` - one of "todo", "later", "urgent"
 * `rating` - one of "\*", "\*\*", "\*\*\*", "\*\*\*\*", "\*\*\*\*\*"
 * `depends` - uuid of the note 'blocking' the current note, i.e. a note that must be read or processed before the current note can be read/processed
-* `extra` - object contaiing arbitrary attributes
+* `extra` - object containing arbitrary attributes. For simplicity, no additional nesting inside this object is supported
+
+### Roadmap
+
+Integrate with Matrix
+
+Add colors to display
+
+```txt
+[ID] (tag icons) LANG(icon) 
+```
+
+Set up repo infrastructure.
+
+Make interactive `add-from-markdown` and `add-from-plaintext` commands.
+
+Add configurable rules for substitution, i.e. nerdfont characters etc., for compact display (similar to Starship prompt)
+
+Integrate with Qutebrowser, Nyxt, Vieb, potentially some text-based Lynx-style browser -> way to add a bookmark directly to notes, together with attributes and tags.
+
+Add a `dateAdded` attribute, as well as a `lastRead` attribute that can be automatically updated when a note is accessed.
+
+Implement borrowing concept: Subset of the data are exported to a format such as Markdown or xit. A copy of the exported file is then kept and the exported file is considered to 'own' these notes. Then the file can be edited, and the edited file can be checked back in and have its edits merged, following which the notes are added back in.
+
+Implement tag clustering and analysis.

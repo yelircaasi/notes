@@ -6,11 +6,16 @@ import json
 import re
 
 
-
 NOTES_PATH = "/home/isaac/repos/notes/notes.json"
 SUBSET_PATH = "/home/isaac/repos/notes/selected.json"
 DEFAULT_NOTE = {"id": None, "text": [], "status": "", "rating": "", "tags": [], "priority": 0.5}
 VALID_ADDITIONAL_KEYS = {"id", "tags", "status", "priority", "rating"}
+
+
+
+
+
+
 
 
 def open_notes():
@@ -149,30 +154,31 @@ def summarize_visual(): ...
 def tui(): ...
 def sort(): ...
 
-def fetch_email():
+def fetch():
+    # need to import matrix-commander to reverse-engineer 'matrix-commander -r '!KeeTeSkGHgkKZTrbpT:matrix.org' --listen-self --listen tail  --tail 15'
     ...
 
 if __name__ == "__main__":
-    clargs = sys.argv
+    clargs = sys.argv[1:]
 
     
     match len(clargs):
-        case 1:
+        case 0:
             command = "tui"
-        case 2: 
-            if (first := clargs[1]).startswith("file:") or first.endswith(".json"):
+        case 1: 
+            if (first := clargs[0]).startswith("file:") or first.endswith(".json"):
                 file_name = first.split(":")[-1]
                 command = "tui"
             else:
-                command = clargs[1]
+                command = clargs[0]
         case _:
-            if (first := clargs[1]).startswith("file:") or first.endswith(".json"):
+            if (first := clargs[0]).startswith("file:") or first.endswith(".json"):
                 file_name = first.split(":")[-1]
-                command = clargs[2]
-                args = clargs[3:]
+                command = clargs[1]
+                args = clargs[2:]
             else:
                 command = first
-                args = clargs[2:]
+                args = clargs[1:]
             
     print(command)
 
@@ -187,7 +193,7 @@ if __name__ == "__main__":
         "show": show,
         "summarize": summarize,
         "summarize-visual": summarize_visual,
-        "fetch-email": fetch_email,
+        "fetch": fetch,
         "tui": tui,
         "sort": sort,
     }[command]
