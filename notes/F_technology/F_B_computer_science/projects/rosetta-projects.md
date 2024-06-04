@@ -2,6 +2,8 @@
 
 -> Add "Build Your Own Lisp" to Rosetta Projects
 
+ simple HTTP 1.1 server - great exercise for Go and Rust especially
+
 https://github.com/marvincolgin/data-structures-and-algorithms
 * [eldritch-cookie/templates](https://github.com/eldritch-cookie/templates) $$$
 * [RosettaProjects](https://github.com/RosettaProjects) Next Step
