@@ -34,7 +34,7 @@ add deskew keyword to cv-analysis service
 * -> make all places pull from angles in .yaml
 * joint output? -> sign probability, regression, binary classification
 
-### DHL
+### Codes
 
 * LCS with poetry
 * Inferenzverfahren verfeinern

@@ -80,7 +80,7 @@
 * [Natural Language Processing: State of The Art, Current Trends and Challenges](https://arxiv.org/pdf/1708.05148.pdf)
 * [Natural Language-based Machine Learning Models for the Annotation of Clinical Radiology Reports.](https://www.ncbi.nlm.nih.gov/pubmed/29381109)
 * [NLU Paper](https://arxiv.org/pdf/1902.10909.pdf)
-* [Notes on Deep Learning for NLP (2018)
+* Notes on Deep Learning for NLP (2018)
 * [Patience-based Early Exit](https://github.com/JetRunner/PABEE)
 * [POLYGLOT-NER: Massive Multilingual Named Entity Recognition](https://arxiv.org/pdf/1410.3791.pdf)
 * [Realization of natural language interfaces using lazy functional programming](https://dl.acm.org/citation.cfm?id=1177353)
