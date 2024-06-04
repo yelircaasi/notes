@@ -1,5 +1,5 @@
 "^[\*\$] (.+)$"
-'{"text": "$1", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},'
+'{"text": "$1", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},'
 
 def process_line(s, tag=""):
     tags, meat = ([""] + s.split(" <|> "))[-2:]
