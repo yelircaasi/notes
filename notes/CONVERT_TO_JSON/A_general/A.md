@@ -183,6 +183,7 @@
 #### I. Autoconocencia, autodesarrolla y autogerencia - estudio de sí mismo y trabajo en sí mismo, esp. en la esfera de carácter
 
 * ## Metas y visión por área
+
 * ## Allusions
 * Sort
 * Norman Cohn's 1957 book The Pursuit of the Millennium.
