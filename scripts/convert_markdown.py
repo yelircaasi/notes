@@ -12,4 +12,3 @@ def process_lines(s, tag=""):
     def pl(line):
         return process_line(line, tag)
     print("\n".join((map(pl, lines))))
-
