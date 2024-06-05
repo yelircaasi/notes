@@ -1,4 +1,5 @@
 #-> nvimPlugin,@
+#-> nvimPlugin,@
 FIXME# REPL
 *  [iron.nvim](https://github.com/hkupty/iron.nvim)
 *  [yarepl.nvim](https://github.com/milanglacier/yarepl.nvim)
@@ -424,8 +425,7 @@ FIXME## print debug
 * ( ) [timber.nvim](https://github.com/kitallen23/timber.nvim)
 * ( ) [turbosalva.nvim](https://github.com/SFToro/turbosalva.nvim)
 * ( ) [zippy.nvim](https://github.com/PatschD/zippy.nvim)
-#-> nvimPlugin,@
-FIXME## Quickfix and Bug Navigation
+#-> nvimPlugin,quickfix
 *  [NeoWell.lua](https://github.com/nyngwang/NeoWell.lua)
 *  bqf.nvim
 *  [trouble.nvim](https://github.com/xero/trouble.nvim) popup, notifications
@@ -438,9 +438,8 @@ FIXME## Quickfix and Bug Navigation
 * ( ) [qfheight.nvim](https://github.com/delphinus/qfheight.nvim)
 * ( ) [quickfix_actually.nvim](https://github.com/izo0x90/quickfix_actually.nvim)
 * ( ) [unionbuf.nvim](https://github.com/notomo/unionbuf.nvim)
- [qf.nvim](https://github.com/ten3roberts/qf.nvim)
-#-> nvimPlugin,@
-FIXME## Refactoring
+*  [qf.nvim](https://github.com/ten3roberts/qf.nvim)
+#-> nvimPlugin,refactoring
 *  [refactoring.nvim](https://github.com/ThePrimeagen/refactoring.nvim)
 * ( ) [nvim-treesitter-refactor](https://github.com/nvim-treesitter/nvim-treesitter-refactor)
 * ( ) [inc-rename.nvim](https://github.com/smjonas/inc-rename.nvim)
@@ -785,10 +784,9 @@ FIXME### wrapping
 #-> nvimPlugin,@
 FIXME#### [Wrap line](https://yutkat.github.io/my-neovim-pluginlist/#wrap-line)
 * ( ) [wrapping-paper.nvim](https://github.com/benlubas/wrapping-paper.nvim)
-#-> nvimPlugin,@
-FIXME### casing
+#-> nvimPlugin,casing
 * ( ) [CamelCaseMotion](https://github.com/bkad/CamelCaseMotion)
-undo / redo
+#-> nvimPlugin,undoRedo
 * ( ) [vim-mundo](https://github.com/simnalamburt/vim-mundo)
 * ( ) [telescope-undo.nvim](https://github.com/debugloop/telescope-undo.nvim)
 * ( ) [undotree](https://github.com/mbbill/undotree)
@@ -823,8 +821,7 @@ FIXME### to sort
 * ( ) [nvim-lastplace](https://github.com/ethanholz/nvim-lastplace)
 * ( ) [vim-edgemotion](https://github.com/haya14busa/vim-edgemotion)
 * ( ) [clever-f.vim](https://github.com/rhysd/clever-f.vim)
-#-> nvimPlugin,@
-FIXME## Select
+#-> nvimPlugin,selection
 * ( ) [nvim-treeclimber](https://github.com/Dkendal/nvim-treeclimber)
 * ( ) [escape.nvim](https://github.com/m-gail/escape.nvim)
 * ( ) [SelectEase](https://github.com/ziontee113/SelectEase)
@@ -955,8 +952,7 @@ FIXME### [Web Service](https://yutkat.github.io/my-neovim-pluginlist/#web-servic
 FIXME### Matrix.org
 * ( ) [radio.nvim](https://github.com/n-shift/radio.nvim)
 * ( ) [msc.nvim](https://github.com/dkasak/msc.nvim)
-#-> nvimPlugin,@
-FIXME### Discord
+#-> nvimPlugin,specificTool,discord
 * ( ) [nvimcord](https://github.com/ObserverOfTime/nvimcord)
 * ( ) [presence.nvim](https://github.com/CatKoder123/presence.nvim)
 * ( ) [betterpresence.nvim](https://github.com/einKnuffy/betterpresence.nvim)
@@ -967,12 +963,10 @@ FIXME### Slack
 #-> nvimPlugin,@
 FIXME### Mastodon
 * ( ) [mastodon.nvim](https://github.com/kode-team/mastodon.nvim)
-#-> nvimPlugin,@
-FIXME### Notion
+#-> nvimPlugin,specificTool,notion
 * ( ) [impulse.nvim](https://github.com/chrsm/impulse.nvim)
 * ( ) [notion.nvim](https://github.com/Al0den/notion.nvim)
-#-> nvimPlugin,@
-FIXME### Jira
+#-> nvimPlugin,specificTool,jira
 * ( ) [jira.nvim](https://github.com/halfdan/jira.nvim)
 * ( ) [open-jira.nvim](https://github.com/ofirgall/open-jira.nvim)
 * ( ) [jira.nvim](https://github.com/jungyong0615dot/jira.nvim)
@@ -1040,29 +1034,20 @@ FIXME### paste.rs
 #-> nvimPlugin,@
 FIXME### Cloudinary
 * ( ) [cloudy.nvim](https://github.com/e2r2fx/cloudy.nvim)
-#-> nvimPlugin,@
-FIXME### Drupal
+#-> nvimPlugin,specificTool,web
 * ( ) [nvim-drupal-sh](https://github.com/everynameistaken1/nvim-drupal-sh)
-#-> nvimPlugin,@
-FIXME### Prefab
+#-> nvimPlugin,specificTool
 * ( ) [prefab.nvim](https://github.com/prefab-cloud/prefab.nvim)
-#-> nvimPlugin,@
-FIXME### CI
-#-> nvimPlugin,@
-FIXME### CircleCI
+#-> nvimPlugin,specificTool,ci
 * ( ) [circleci.nvim](https://github.com/tomoakley/circleci.nvim)
-#-> nvimPlugin,@
-FIXME### Jenkins
 * ( ) [jenkins-linter.nvim](https://github.com/cvanhoosear/jenkins-linter.nvim)
-#-> nvimPlugin,@
-FIXME### Docker
+#-> nvimPlugin,docker
 * ( ) [nvim-docker](https://github.com/dgrbrady/nvim-docker)
 * ( ) [crane.nvim](https://github.com/pwntester/crane.nvim)
 * ( ) [set-docker-compose-env.nvim](https://github.com/yohi/set-docker-compose-env.nvim)
 * ( ) [dockerlint.nvim](https://github.com/aloussase/dockerlint.nvim)
 * ( ) [lazydocker.nvim](https://github.com/mgierada/lazydocker.nvim)
-#-> nvimPlugin,@
-FIXME### Docker Compose
+#-> nvimPlugin,docker,dockerCompose
 * ( ) [docker-compose.nvim](https://github.com/pipoprods/docker-compose.nvim)
 * ( ) [docker-compose-info.nvim](https://github.com/nazo6/docker-compose-info.nvim)
 #-> nvimPlugin,@
@@ -1123,8 +1108,7 @@ FIXME### dotnet
 FIXME### ftp
 * ( ) [nvim-sync.nvim](https://github.com/SDGLBL/nvim-sync.nvim)
 * ( ) [transmit.nvim](https://github.com/DevDec/transmit.nvim)
-#-> nvimPlugin,@
-FIXME### rsync
+#-> nvimPlugin,specificTool,rsync
 * ( ) [nvim-rsync](https://github.com/noorwachid/nvim-rsync)
 * ( ) [rsync.nvim](https://github.com/uiofgh/rsync.nvim)
 * ( ) [rsync.nvim](https://github.com/OscarCreator/rsync.nvim)
@@ -1232,12 +1216,10 @@ FIXME## Emacs style
 * ( ) [dired.nvim](https://github.com/X3eRo0/dired.nvim)
 * ( ) [nlist.nvim](https://github.com/nkreiff/nlist.nvim)
 * ( ) [fex.nvim](https://github.com/2hdddg/fex.nvim)
-#-> nvimPlugin,@
-FIXME## nnn wrapper
+#-> nvimPlugin,fileBrowsing,nnn
 * ( ) [nnn.nvim](https://github.com/luukvbaal/nnn.nvim)
 * ( ) [nnn-dir.nvim](https://github.com/ggustafsson/nnn-dir.nvim)
-#-> nvimPlugin,@
-FIXME## ranger
+#-> nvimPlugin,fileBrowsing,ranger
 * ( ) [ranger.nvim](https://github.com/ipod825/ranger.nvim)
 * ( ) [ranger.nvim](https://github.com/kjuulh/ranger.nvim)
 * ( ) [ranger.nvim](https://github.com/kelly-lin/ranger.nvim)
@@ -1285,16 +1267,14 @@ FIXME# Folding
 * ( ) [better-folds.nvim](https://github.com/snelling-a/better-folds.nvim)
 * ( ) [inline-fold.nvim](https://github.com/malbertzard/inline-fold.nvim)
 * ( ) [simple-folds.nvim](https://github.com/lcroberts/simple-folds.nvim)
-#-> nvimPlugin,@
-FIXME## Conceal
+#-> nvimPlugin,conceal
 * ( ) [conceal.nvim](https://github.com/Jxstxs/conceal.nvim)
 * ( ) [conceal.nvim](https://github.com/nvim-jo/conceal.nvim)
 #-> nvimPlugin,@
 FIXME# Formatting config
 * ( ) [editorconfig.nvim](https://github.com/gpanders/editorconfig.nvim)
 * ( ) [nvim-strict](https://github.com/emileferreira/nvim-strict)
-#-> nvimPlugin,@
-FIXME## Formatter
+#-> nvimPlugin,formatting
 * ( ) [conform.nvim](https://github.com/stevearc/conform.nvim)
 * ( ) [format-on-save.nvim](https://github.com/elentok/format-on-save.nvim)
 * ( ) [formatter.nvim](https://github.com/mhartington/formatter.nvim)
@@ -1310,8 +1290,7 @@ FIXME## Formatter
 * ( ) [format.nvim](https://github.com/fwojciec/format.nvim)
 * ( ) [uncrustify.nvim](https://github.com/rickyelopez/uncrustify.nvim)
 * ( ) [minimal-format.nvim](https://github.com/cljoly/minimal-format.nvim)
-#-> nvimPlugin,@
-FIXME## Trim Whitespace
+#-> nvimPlugin,whitespace,trimming
 * ( ) [trim.nvim](https://github.com/cappyzawa/trim.nvim)
 * ( ) [tidy.nvim](https://github.com/McAuleyPenney/tidy.nvim)
 * ( ) [spaceless.nvim](https://github.com/lewis6991/spaceless.nvim)
@@ -1429,12 +1408,10 @@ FIXME## git grep
 * ( ) [nvim-tin](https://github.com/chrisgrieser/nvim-tin)
 * ( ) [git-worktree.windows.nvim](https://github.com/GitEdvard/git-worktree.windows.nvim)
 * ( ) [git-worktree.nvim](https://github.com/UncertainSchrodinger/git-worktree.nvim)
-#-> nvimPlugin,@
-FIXME## gitui
+#-> nvimPlugin,git,gitui
 * ( ) [gitui.nvim](https://github.com/aspeddro/gitui.nvim)
 * ( ) [nvim-gitui](https://github.com/mikinovation/nvim-gitui)
-#-> nvimPlugin,@
-FIXME## lazygit
+#-> nvimPlugin,git,lazygit
 * ( ) [nvim-laz](https://github.com/lostl1ght/nvim-laz)
 * ( ) [lazygit.nvim](https://github.com/oncomouse/lazygit.nvim)
 #-> nvimPlugin,@
@@ -1475,12 +1452,10 @@ FIXME## worktree
 #-> nvimPlugin,@
 FIXME## submodule
 * ( ) [telescope-git-submodules.nvim](https://github.com/agoodshort/telescope-git-submodules.nvim)
-#-> nvimPlugin,@
-FIXME## git utils
+#-> nvimPlugin,git
 * ( ) [convert-git-url.nvim](https://github.com/yutkat/convert-git-url.nvim)
 * ( ) [GitHub](https://yutkat.github.io/my-neovim-pluginlist/#gitgithub) / GitLab
-#-> nvimPlugin,@
-FIXME## GitLab
+#-> nvimPlugin,gitlab
 * ( ) [neovim/](https://docs.gitlab.com/ee/editor_extensions/neovim/)
 * ( ) [glab.nvim](https://github.com/thibthib18/glab.nvim)
 * ( ) [tanu.nvim](https://github.com/EpiCanard/tanu.nvim)
@@ -1488,37 +1463,29 @@ FIXME## GitLab
 * ( ) [gitlab.nvim](https://github.com/harrisoncramer/gitlab.nvim)
 * ( ) [gitlab.nvim](https://github.com/tachyons/gitlab.nvim)
 * ( ) [telescope-gitlab.nvim](https://github.com/lrfurtado/telescope-gitlab.nvim)
-#-> nvimPlugin,@
-FIXME## GitHub
-#-> nvimPlugin,@
-FIXME### Features like gh
+#-> nvimPlugin,github,gh
 * ( ) [gh.nvim](https://github.com/ldelossa/gh.nvim)
 * ( ) [nvim-muryp](https://github.com/muryp/nvim-muryp)
 * ( ) [githubutils.nvim](https://github.com/mistweaverco/githubutils.nvim)
 * ( ) [muryp-gh.nvim](https://github.com/muryp/muryp-gh.nvim)
-#-> nvimPlugin,@
-FIXME### GitHub tweaks
+#-> nvimPlugin,github,tweaks
 * ( ) [codeql.nvim](https://github.com/pwntester/codeql.nvim)
 * ( ) [github-notifications.nvim](https://github.com/rlch/github-notifications.nvim)
-#-> nvimPlugin,@
-FIXME### GitHub link
+#-> nvimPlugin,github,link
 * ( ) [gitlinker.nvim](https://github.com/linrongbin16/gitlinker.nvim)
 * ( ) [gitlinks.nvim](https://github.com/liouk/gitlinks.nvim)
 * ( ) [git_link.nvim](https://github.com/RyugaXhypeR/git_link.nvim)
 * ( ) [repolink.nvim](https://github.com/9seconds/repolink.nvim)
 * ( ) [github-browse.nvim](https://github.com/josephwoodward/github-browse.nvim)
 * ( ) [git-link.nvim](https://github.com/juacker/git-link.nvim)
-#-> nvimPlugin,@
-FIXME### Pull Request
+#-> nvimPlugin,github,pullRequest
 * ( ) [gopr.nvim](https://github.com/senkentarou/gopr.nvim)
 * ( ) [merge-request.nvim](https://github.com/rnprest/merge-request.nvim)
 * ( ) [pr_status.nvim](https://github.com/Velrok/pr_status.nvim)
 * ( ) [github-pr.nvim](https://github.com/josephwoodward/github-pr.nvim)
-#-> nvimPlugin,@
-FIXME### Actions
+#-> nvimPlugin,github,actions
 * ( ) [gh-actions.nvim](https://github.com/topaxi/gh-actions.nvim)
-#-> nvimPlugin,@
-FIXME### Link
+#-> nvimPlugin,link
 * ( ) [pointer.nvim](https://github.com/hkupty/pointer.nvim)
 * ( ) [gobf.nvim](https://github.com/senkentarou/gobf.nvim)
 * ( ) [openingh.nvim](https://github.com/Almo7aya/openingh.nvim)
@@ -1561,8 +1528,7 @@ FIXME## Popups, hints
 #-> nvimPlugin,@
 FIXME## [Manual](https://yutkat.github.io/my-neovim-pluginlist/#manual)
 * [updoc.nvim](https://github.com/loganswartz/updoc.nvim)   
-#-> nvimPlugin,@
-FIXME## [Help](https://yutkat.github.io/my-neovim-pluginlist/#help)
+#-> nvimPlugin,help
 * ( ) [cheatsheet.nvim](https://github.com/sudormrfbin/cheatsheet.nvim)
 * ( ) [cheat-sheet](https://github.com/Djancyp/cheat-sheet)
 * ( ) [help-vsplit.nvim](https://github.com/anuvyklack/help-vsplit.nvim)
@@ -1789,8 +1755,7 @@ FIXME### REPL
 * ( ) [nvim-python-repl](https://github.com/geg2102/nvim-python-repl)
 * ( ) [ipynb.nvim](https://github.com/meatballs/ipynb.nvim)
 * ( ) [python-nvim](https://github.com/Josiah-tan/python-nvim)
-#-> nvimPlugin,@
-FIXME### Debug
+#-> nvimPlugin,debug,dap
 * ( ) [nvim-dap-python](https://github.com/mfussenegger/nvim-dap-python)
 * ( ) [icecream.nvim](https://github.com/camilotorresf/icecream.nvim)
 * ( ) [debugwin.nvim](https://github.com/woosaaahh/debugwin.nvim)
@@ -1799,15 +1764,13 @@ FIXME### build manager
 * ( ) [py.nvim](https://github.com/vsedov/py.nvim)
 * ( ) [install-pip-package.nvim](https://github.com/yohi/install-pip-package.nvim)
 * ( ) [pipenv.nvim](https://github.com/jpfender/pipenv.nvim)
-#-> nvimPlugin,@
-FIXME### venv
+#-> nvimPlugin,venv
 * ( ) [swenv.nvim](https://github.com/AckslD/swenv.nvim)
 * ( ) [python_venv.nvim](https://github.com/SimonZehetner/python_venv.nvim)
 * ( ) [venv-selector.nvim](https://github.com/linux-cultist/venv-selector.nvim)
 * ( ) [chase.nvim](https://github.com/candango/chase.nvim)
 * ( ) [venv-lsp.nvim](https://github.com/jglasovic/venv-lsp.nvim)
-#-> nvimPlugin,@
-FIXME### Jupyter
+#-> nvimPlugin,jupyter
 * ( ) [jupynium.nvim](https://github.com/kiyoon/jupynium.nvim)
 * ( ) [jupyter-kernel.nvim](https://github.com/lkhphuc/jupyter-kernel.nvim)
 * ( ) [jupytext.nvim](https://github.com/GCBallesteros/jupytext.nvim)
@@ -1819,8 +1782,7 @@ FIXME### Anaconda
 #-> nvimPlugin,@
 FIXME### Scrapy
 * ( ) [nvim-scrapy-debug](https://github.com/Uszczi/nvim-scrapy-debug)
-#-> nvimPlugin,@
-FIXME### Neotest adapter
+#-> nvimPlugin,test,neotestAdapter
 * ( ) [neotest-vim-test](https://github.com/nvim-neotest/neotest-vim-test)
 * ( ) [neotest-plenary](https://github.com/nvim-neotest/neotest-plenary)
 * ( ) [neotest-rust](https://github.com/rouge8/neotest-rust)
@@ -1832,8 +1794,7 @@ FIXME### Neotest adapter
 * ( ) [neotest-go](https://github.com/nvim-neotest/neotest-go)
 * ( ) [neotest-vitest](https://github.com/marilari88/neotest-vitest)
 * ( ) [neotest-haskell](https://github.com/mrcjkb/neotest-haskell)
-#-> nvimPlugin,@
-FIXME### nvim-dap extension
+#-> nvimPlugin,debug,dap,dapExtension
 * ( ) [persistent-breakpoints.nvim](https://github.com/Weissle/persistent-breakpoints.nvim)
 * ( ) [cmp-dap](https://github.com/rcarriga/cmp-dap)
 * ( ) [sections-dap](https://github.com/sidebar-nvim/sections-dap)
@@ -1852,8 +1813,7 @@ FIXME### nvim-dap extension
 * ( ) [dap-helper.nvim](https://github.com/daic0r/dap-helper.nvim)
 * ( ) [nvim-dap-dotnet-helper](https://github.com/SteffenBlake/nvim-dap-dotnet-helper)
 * ( ) [vim-polyglot](https://vimawesome.com/plugin/vim-polyglot)
-#-> nvimPlugin,@
-FIXME#### [Typescript](https://yutkat.github.io/my-neovim-pluginlist/#javascripttypescript)
+#-> nvimPlugin,proglangSpecific,typescript
 * ( ) [web-tools.nvim](https://github.com/ray-x/web-tools.nvim)
 * ( ) [printer.nvim](https://github.com/blevantovych/printer.nvim)
 * ( ) [nvim-vtsls](https://github.com/yioneko/nvim-vtsls)
@@ -1862,10 +1822,7 @@ FIXME#### [Typescript](https://yutkat.github.io/my-neovim-pluginlist/#javascript
 * ( ) [typescript-tools.nvim](https://github.com/pmizio/typescript-tools.nvim)
 * ( ) [nvim-js-actions](https://github.com/llllvvuu/nvim-js-actions)
 * ( ) [auto-fold-imports.nvim](https://github.com/github-naresh/auto-fold-imports.nvim)
-#-> nvimPlugin,@
-FIXME### Toolchain
-#-> nvimPlugin,@
-FIXME### tsc(TypeScript compiler)
+#-> nvimPlugin,proglangSpecific,typescript,tsc
 * ( ) [tsc.nvim](https://github.com/dmmulroy/tsc.nvim)
 * ( ) [better-ts-errors.nvim](https://github.com/OlegGulevskyy/better-ts-errors.nvim)
 #-> nvimPlugin,@
@@ -1925,11 +1882,9 @@ FIXME### live server
 * ( ) [live-server.nvim](https://github.com/barrett-ruth/live-server.nvim)
 * ( ) [vite-server.nvim](https://github.com/liaohui5/vite-server.nvim)
 * ( ) [live-server.nvim](https://github.com/Rogerskelamen/live-server.nvim)
-#-> nvimPlugin,@
-FIXME### CSS
+#-> nvimPlugin,specificTool,html
 * ( ) [nvim-html-css](https://github.com/Jezda1337/nvim-html-css)
-#-> nvimPlugin,@
-FIXME### tailwind
+#-> nvimPlugin,specificTool,tailwind
 * ( ) [cmp-tw2css](https://github.com/jcha0713/cmp-tw2css)
 * ( ) [tailwindcss-colorizer-cmp.nvim](https://github.com/roobert/tailwindcss-colorizer-cmp.nvim)
 * ( ) [nvim-tailwind](https://github.com/sigmaSd/nvim-tailwind)
@@ -1947,31 +1902,18 @@ FIXME### SCSS
 #-> nvimPlugin,@
 FIXME### Bulma
 * ( ) [cmp_bulma.nvim](https://github.com/garyhurtz/cmp_bulma.nvim)
-#-> nvimPlugin,@
-FIXME### Framework
-#-> nvimPlugin,@
-FIXME### React
+#-> nvimPlugin,specificTool,react
 * ( ) [react-extract.nvim](https://github.com/napmn/react-extract.nvim)
 * ( ) [nvim-rename-state](https://github.com/olrtg/nvim-rename-state)
 * ( ) [nvim-react](https://github.com/s1n7ax/nvim-react)
 * ( ) [radon.nvim](https://github.com/dromse/radon.nvim)
-#-> nvimPlugin,@
-FIXME### Angular
+#-> nvimPlugin,specificTool,js
 * ( ) [nvim-treesitter-angular](https://github.com/abelfubu/nvim-treesitter-angular)
-#-> nvimPlugin,@
-FIXME### Svelte
 * ( ) [svelte-hop.nvim](https://github.com/weskeiser/svelte-hop.nvim)
-#-> nvimPlugin,@
-FIXME### Node.js
 * ( ) [nodejstools.nvim](https://github.com/stoleruradu/nodejstools.nvim)
-#-> nvimPlugin,@
-FIXME### Deno
 * ( ) [deno-nvim](https://github.com/sigmaSd/deno-nvim)
-#-> nvimPlugin,@
-FIXME### Bun
 * ( ) [bun.nvim](https://github.com/Fire-The-Fox/bun.nvim)
-#-> nvimPlugin,@
-FIXME### Bootstrap
+#-> nvimPlugin,completion,specificTool
 * ( ) [cmp_bootstrap](https://github.com/Jezda1337/cmp_bootstrap)
 #-> nvimPlugin,@
 FIXME### mjml
@@ -2028,8 +1970,7 @@ FIXME### OpenMP
 #-> nvimPlugin,@
 FIXME### Header
 * ( ) [header.nvim](https://github.com/Maduki-tech/header.nvim)
-#-> nvimPlugin,@
-FIXME#### [Go](https://yutkat.github.io/my-neovim-pluginlist/#go)
+#-> nvimPlugin,proglangSpecific,go
 * ( ) [nvim-markdown-preview](https://github.com/josa42/nvim-markdown-preview)
 * ( ) [go.nvim](https://github.com/ray-x/go.nvim)
 * ( ) [nvim-go](https://github.com/crispgm/nvim-go)
@@ -2046,11 +1987,9 @@ FIXME#### [Go](https://yutkat.github.io/my-neovim-pluginlist/#go)
 * ( ) [golang-code-actions.nvim](https://github.com/BoyerDamien/golang-code-actions.nvim)
 * ( ) [go-heat.nvim](https://github.com/lordvidex/go-heat.nvim)
 * ( ) [tinygo.nvim](https://github.com/pcolladosoto/tinygo.nvim)
-#-> nvimPlugin,@
-FIXME### gofmt
+#-> nvimPlugin,proglangSpecific,go,formatting
 * ( ) [gofmt.nvim](https://github.com/MaxwelMazur/gofmt.nvim)
-#-> nvimPlugin,@
-FIXME### go list
+#-> nvimPlugin,proglangSpecific,go,testing
 * ( ) [go-list.nvim](https://github.com/lukasl-dev/go-list.nvim)
 * ( ) [go-autotest.nvim](https://github.com/Azrealy/go-autotest.nvim)
 * ( ) [go-tester.nvim](https://github.com/NachoNievaG/go-tester.nvim)
@@ -2059,8 +1998,7 @@ FIXME### go list
 * ( ) [gott.nvim](https://github.com/sshelll/gott.nvim)
 * ( ) [gotest.nvim](https://github.com/KaFski/gotest.nvim)
 * ( ) [gotest.nvim](https://github.com/leoluz/gotest.nvim)
-#-> nvimPlugin,@
-FIXME### Markdown
+#-> nvimPlugin,formatSpecific,markdown
 * ( ) [follow-md-links.nvim](https://github.com/jghauser/follow-md-links.nvim)
 * ( ) [markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim)
 * ( ) [glow.nvim](https://github.com/ellisonleao/glow.nvim)
@@ -2075,8 +2013,7 @@ FIXME### Markdown
 * ( ) [vim-markdownfootnotes.git](https://github.com/vim-pandoc/vim-markdownfootnotes.git )
 * ( ) [tagbar-markdown](https://github.com/lvht/tagbar-markdown)
 * ( ) [github-preview.nvim](https://github.com/wallpants/github-preview.nvim)
-#-> nvimPlugin,@
-FIXME### DB
+#-> nvimPlugin,proglangSpecific,database
 * ( ) [dbsession.nvim](https://github.com/nvimdev/dbsession.nvim)
 * ( ) [vim-dadbod](https://github.com/tpope/vim-dadbod) ### database utils
 * ( ) [sqlite.lua](https://github.com/tami5/sqlite.lua)
@@ -2086,34 +2023,29 @@ FIXME### DB
 * ( ) [nvim-dbee](https://github.com/kndndrj/nvim-dbee)
 * ( ) [pgsql.vim](https://github.com/lifepillar/pgsql.vim)
 * ( ) [vim-dadbod-completion](https://github.com/kristijanhusak/vim-dadbod-completion)
-#-> nvimPlugin,@
-FIXME### Ruby
+#-> nvimPlugin,proglangSpecific,ruby
 * ( ) [gem-browse](https://github.com/tpope/gem-browse)
 * ( ) [vim-rbenv](https://github.com/tpope/vim-rbenv)
 * ( ) [vim-rails](https://github.com/tpope/vim-rails)
 * ( ) [vim-rake](https://github.com/tpope/vim-rake)
 * ( ) [vim-bundler](https://github.com/tpope/vim-bundler)
 * ( ) [ror.nvim](https://github.com/weizheheng/ror.nvim)
-#-> nvimPlugin,@
-FIXME### cpp
+#-> nvimPlugin,proglangSpecific,cpp,testing
 * ( ) [neotest-gtest](https://github.com/alfaix/neotest-gtest)
-#-> nvimPlugin,@
-FIXME### k8s & Co.
+#-> nvimPlugin,kubernetes
 * ( ) [kustomize.nvim](https://github.com/allaman/kustomize.nvim)
 * ( ) [vim-helm](https://github.com/towolf/vim-helm)
 * ( ) [vimkubectl](https://github.com/rottencandy/vimkubectl)
-#-> nvimPlugin,@
-FIXME### JSON
+#-> nvimPlugin,formatSpecific,json
 * ( ) [schemastore.nvim](https://github.com/b0o/schemastore.nvim)
 * ( ) [nvim-jqx](https://github.com/gennaro-tedesco/nvim-jqx)
 * ( ) [json.lua](https://github.com/rxi/json.lua)
 * ( ) [json.nvim](https://github.com/Sup3Legacy/json.nvim)
-#-> nvimPlugin,@
-FIXME### PHP
+#-> nvimPlugin,proglangSpecific,php
 * ( ) [PHP-Indenting-for-VIm](https://github.com/2072/PHP-Indenting-for-VIm)
 * ( ) [php.vim](https://github.com/StanAngeloff/php.vim)
 * ( ) [vim-twig](https://github.com/lumiliet/vim-twig)
-HTML / CSS
+#-> nvimPlugin,web
 * ( ) [emmet-vim](https://github.com/mattn/emmet-vim)
 * ( ) [emmet-ls](https://github.com/aca/emmet-ls)
 * ( ) [scss-syntax.vim](https://github.com/cakebaker/scss-syntax.vim)
@@ -2123,7 +2055,7 @@ HTML / CSS
 * ( ) [vim-stylus](https://github.com/wavded/vim-stylus)
 * ( ) [vim-stylus](https://github.com/iloginow/vim-stylus)
 * ( ) [html](https://github.com/othree/html)5.vim.git
-Lua, Stylua
+#-> nvimPlugin,proglangSpecific,lua
 * ( ) [stylua-nvim](https://github.com/ckipp01/stylua-nvim)
 * ( ) [emmylua-nvim](https://github.com/ii14/emmylua-nvim)
 * ( ) [tree-sitter-lua](https://github.com/tjdevries/tree-sitter-lua)
@@ -2133,8 +2065,7 @@ Lua, Stylua
 * ( ) [dart-vim-plugin](https://github.com/dart-lang/dart-vim-plugin)
 * ( ) [awesome-flutter-snippets](https://github.com/Neevash/awesome-flutter-snippets)
 search: flutter development in nvim
-#-> nvimPlugin,@
-FIXME### R
+#-> nvimPlugin,proglangSpecific,r
 nvim-R [] [nvim-r-plots/](https://hstern.ca/blog/posts/nvim-r-plots/)
 * ( ) [presence.nvim](https://github.com/andweeb/presence.nvim) (Discord Rich Presence)
 #-> nvimPlugin,@
@@ -2361,21 +2292,18 @@ FIXME## Documentation
 * ( ) [hnetxt-nvim](https://github.com/hneutr/hnetxt-nvim)
 * ( ) [neomark.nvim](https://github.com/alanfvn/neomark.nvim)
 * ( ) [markdown.nvim](https://github.com/tadmccorkle/markdown.nvim)
-#-> nvimPlugin,@
-FIXME### Markdown link
+#-> nvimPlugin,formatSpecific,markdown,link
 * ( ) [cmp-markdown-link](https://github.com/dburian/cmp-markdown-link)
 * ( ) [nothura.nvim](https://github.com/5eqn/nothura.nvim)
 * ( ) [telescope-filelinks.nvim](https://github.com/PhilippFeO/telescope-filelinks.nvim)
 * ( ) [muryp-link.nvim](https://github.com/muryp/muryp-link.nvim)
 * ( ) [wiki.nvim](https://github.com/RunfengTsui/wiki.nvim)
 * ( ) [traverse.nvim](https://github.com/Marcos-cat/traverse.nvim)
-#-> nvimPlugin,@
-FIXME### Markdown header
+#-> nvimPlugin,formatSpecific,markdown,header
 * ( ) [asciitree.nvim](https://github.com/riddlew/asciitree.nvim)
 * ( ) [md-headers.nvim](https://github.com/AntonVanAssche/md-headers.nvim)
 * ( ) [md-auto-filename.nvim](https://github.com/arthur-remy/md-auto-filename.nvim)
-#-> nvimPlugin,@
-FIXME### toc
+#-> nvimPlugin,formatSpecific,markdown,toc
 * ( ) [nvim-toc](https://github.com/richardbizik/nvim-toc)
 * ( ) [markdown-toc.nvim](https://github.com/hedyhli/markdown-toc.nvim)
 #-> nvimPlugin,@
@@ -2457,22 +2385,18 @@ FIXME### PlantUML
 * ( ) [nvim-modelizer](https://github.com/javio7/nvim-modelizer)
 * ( ) [plantuml.nvim](https://github.com/zapling/plantuml.nvim)
 * ( ) [plantuml.nvim](https://github.com/bnse/plantuml.nvim)
-#-> nvimPlugin,@
-FIXME### AsciiDoc
+#-> nvimPlugin,formatSpecific,asciidoc
 * ( ) [adoc-pdf-live.nvim](https://github.com/marioortizmanero/adoc-pdf-live.nvim)
 * ( ) [nvim-asciidoc-preview](https://github.com/tigion/nvim-asciidoc-preview)
 * ( ) [outline-asciidoc-provider.nvim](https://github.com/msr1k/outline-asciidoc-provider.nvim)
-#-> nvimPlugin,@
-FIXME### PDF
+#-> nvimPlugin,formatSpecific,pdf
 * ( ) [md-pdf.nvim](https://github.com/arminveres/md-pdf.nvim)
 * ( ) [nougat.nvim](https://github.com/IsaacTay/nougat.nvim)
 * ( ) [pdf.nvim](https://github.com/PaysanCorrezien/pdf.nvim)
-#-> nvimPlugin,@
-FIXME### Vimdoc
+#-> nvimPlugin,formatSpecific,vimdoc
 * ( ) [auto-pandoc.nvim](https://github.com/jghauser/auto-pandoc.nvim)
 * ( ) [panvimdoc](https://github.com/kdheepak/panvimdoc)
-#-> nvimPlugin,@
-FIXME### Tex
+#-> nvimPlugin,formatSpecific,tex
 -> see knap
 * ( ) [texmagic.nvim](https://github.com/jakewvincent/texmagic.nvim)
 * ( ) [rnoweb-nvim](https://github.com/bamonroe/rnoweb-nvim)
@@ -2499,7 +2423,7 @@ FIXME### Tex
 * ( ) [vim-bundle-vimtex](https://github.com/Traap/vim-bundle-vimtex)
 * ( ) [ltex-ls.nvim](https://github.com/vigoux/ltex-ls.nvim)
 * ( ) [mathjax-support-for-mkdp](https://github.com/iamcco/mathjax-support-for-mkdp)
- [] [neovim-latex-zathura-in-perfect-harmony/](https://www.preciouschicken.com/blog/posts/neovim-latex-zathura-in-perfect-harmony/)
+*  [] [neovim-latex-zathura-in-perfect-harmony/](https://www.preciouschicken.com/blog/posts/neovim-latex-zathura-in-perfect-harmony/)
 #-> nvimPlugin,@
 FIXME### Tex Preview
 * ( ) [latex_preview.nvim](https://github.com/anthonymolinari/latex_preview.nvim)
@@ -3759,8 +3683,7 @@ FIXME## Project Switcher
 * ( ) [telescope-projects.nvim](https://github.com/pbnj/telescope-projects.nvim)
 * ( ) [telescope-jumper.nvim](https://github.com/mskelton/telescope-jumper.nvim)
 * ( ) [my-spaces.nvim](https://github.com/yonchando/my-spaces.nvim)
-#-> nvimPlugin,@
-FIXME## Project Root Detector
+#-> nvimPlugin,project,rootDetector
 * ( ) [penvim](https://github.com/shaeinst/penvim)
 * ( ) [climbdir.nvim](https://github.com/kyoh86/climbdir.nvim)
 * ( ) [nvim-rooter.lua](https://github.com/notjedi/nvim-rooter.lua)
@@ -3924,7 +3847,7 @@ search & replace
 * ( ) [ReplaceWithSameIndentRegister search and replace](https://github.com/vim-scripts/ReplaceWithSameIndentRegister search and replace)
 * ( ) [nvim-spectre](https://github.com/windwp/nvim-spectre)
 * ( ) [replacer.nvim](https://github.com/gabrielpoca/replacer.nvim)
- - [vim-rooter](https://github.com/airblade/vim-rooter)
+* [vim-rooter](https://github.com/airblade/vim-rooter)
 * ( ) [telescope-frecency.nvim](https://github.com/nvim-telescope/telescope-frecency.nvim)
 * ( ) [telescope-hop.nvim](https://github.com/nvim-telescope/telescope-hop.nvim)
 * ( ) [telescope-live-grep-args.nvim](https://github.com/nvim-telescope/telescope-live-grep-args.nvim)
@@ -3983,8 +3906,7 @@ FIXME## Visual search
 #-> nvimPlugin,@
 FIXME## File search
 * ( ) [telescope-corrode.nvim](https://github.com/fdschmidt93/telescope-corrode.nvim)
-#-> nvimPlugin,@
-FIXME# Replace
+#-> nvimPlugin,replace
 * ( ) [buffersed.nvim](https://github.com/Blackmorse/buffersed.nvim)
 * ( ) [nvim-search-and-replace](https://github.com/s1n7ax/nvim-search-and-replace)
 * ( ) [rip.nvim](https://github.com/lucaspellegrinelli/rip.nvim)
@@ -3994,8 +3916,7 @@ FIXME# Replace
 * ( ) [nvim-search-replace](https://github.com/t-hg/nvim-search-replace)
 * ( ) [nvim-replace](https://github.com/srpmtt/nvim-replace)
 * ( ) [fnr.nvim](https://github.com/ctimmins96/fnr.nvim)
-#-> nvimPlugin,@
-FIXME# Grep
+#-> nvimPlugin,search,grep
 * ( ) [qfunleashed.nvim](https://github.com/lmenou/qfunleashed.nvim)
 * ( ) [livegrep.nvim](https://github.com/nathanmsmith/livegrep.nvim)
 * ( ) [nvim-ack](https://github.com/wwcd/nvim-ack)
@@ -4012,12 +3933,10 @@ FIXME# Grep
 * ( ) [rgflow.nvim](https://github.com/mangelozzi/rgflow.nvim)
 * ( ) [locate.nvim](https://github.com/ctfrancia/locate.nvim)
 * ( ) [magnet.nvim](https://github.com/rsreimer/magnet.nvim)
-#-> nvimPlugin,@
-FIXME## AST
+#-> nvimPlugin,search,grep,ast
 * ( ) [telescope-sg](https://github.com/Marskey/telescope-sg)
 * ( ) [telescope-ast-grep.nvim](https://github.com/ray-x/telescope-ast-grep.nvim)
-#-> nvimPlugin,@
-FIXME# Snippet
+#-> nvimPlugin,snippet
 *  [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
 *  [friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
 *  [nvim-snippy](https://github.com/dcampos/nvim-snippy)
@@ -4048,8 +3967,7 @@ FIXME# Snippet
 * ( ) [the-good-snippets](https://github.com/VonHeikemen/the-good-snippets) snippets
 * ( ) [vim-snippets](https://github.com/honza/vim-snippets)
 * ( ) [vim-vsnip](https://github.com/hrsh7th/vim-vsnip)
-#-> nvimPlugin,@
-FIXME## Template
+#-> nvimPlugin,termplate
 * ( ) [templar.nvim](https://github.com/vigoux/templar.nvim)
 * ( ) [telescope-sonictemplate.nvim](https://github.com/tamago324/telescope-sonictemplate.nvim)
 * ( ) [contemplate.nvim](https://github.com/nkhlmn/contemplate.nvim)
@@ -4059,9 +3977,7 @@ FIXME## Template
 * ( ) [new-file-template.nvim](https://github.com/otavioschwanck/new-file-template.nvim)
 * ( ) [CodeBox.nvim](https://github.com/FabrizioPerria/CodeBox.nvim)
 * ( ) [project-starter.nvim](https://github.com/KDesp73/project-starter.nvim)
-#-> nvimPlugin,@
-FIXME# Task Runner
-compiling / building / task running
+#-> nvimPlugin,taskRunning,compilation
 *  [toggletasks.nvim](https://github.com/jedrzejboczar/toggletasks.nvim)
 *  [overseer.nvim](https://github.com/stevearc/overseer.nvim)
 *  [compiler.nvim](https://github.com/Zeioth/compiler.nvim)
@@ -4071,8 +3987,7 @@ compiling / building / task running
 * ( ) [neomake](https://github.com/neomake/neomake)
 * ( ) [rapid.nvim](https://github.com/nvimdev/rapid.nvim)
 * ( ) [flow.nvim](https://github.com/arjunmahishi/flow.nvim)
-#-> nvimPlugin,@
-FIXME## Config file style
+#-> nvimPlugin,taskRunning,execFromConfigFile
 * ( ) [projectlaunch.nvim](https://github.com/sheodox/projectlaunch.nvim)
 * ( ) [code_runner.nvim](https://github.com/CRAG666/code_runner.nvim)
 * ( ) [vs-tasks.nvim](https://github.com/EthanJWright/vs-tasks.nvim)
@@ -4108,13 +4023,11 @@ FIXME## Config file style
 * ( ) [compile-mode.nvim](https://github.com/ej-shafran/compile-mode.nvim)
 * ( ) [custom-compile.nvim](https://github.com/treemcgee42/custom-compile.nvim)
 * ( ) [bsp.nvim](https://github.com/616b2f/bsp.nvim)
-#-> nvimPlugin,@
-FIXME### Shell
+#-> nvimPlugin,taskRunning,shell
 * ( ) [nvim-buildme](https://github.com/ojroques/nvim-buildme)
 * ( ) [scrips.nvim](https://github.com/LeonardsonCC/scrips.nvim)
 * ( ) [actions.nvim](https://github.com/Seba244c/actions.nvim)
-#-> nvimPlugin,@
-FIXME## Command style
+#-> nvimPlugin,taskRunner,commandStyle
 * ( ) [overseer.nvim(command)](https://github.com/stevearc/overseer.nvim)
 * ( ) [yabs.nvim(run_command)](https://github.com/pianocomposer321/yabs.nvim)
 * ( ) [jaq-nvim(bang)](https://github.com/is0n/jaq-nvim)
@@ -4136,19 +4049,16 @@ FIXME## Command style
 * ( ) [nvim-splitrun](https://github.com/Hubro/nvim-splitrun)
 * ( ) [terminal_run.nvim](https://github.com/isaac238/terminal_run.nvim)
 * ( ) [makegrep-job.nvim](https://github.com/msaher/makegrep-job.nvim)
-#-> nvimPlugin,@
-FIXME## Auto detect style
+#-> nvimPlugin,taskRunner,autoDetect
 * ( ) [nvim-acmetag](https://github.com/addcninblue/nvim-acmetag)
 * ( ) [async.nvim](https://github.com/sencer/async.nvim)
 * ( ) [runner.nvim](https://github.com/MarcHamamji/runner.nvim)
 * ( ) [coderunner.nvim](https://github.com/Egypt-Open-Source/coderunner.nvim)
 * ( ) [nvim-coderunner](https://github.com/joonasjouttijarvi/nvim-coderunner)
-#-> nvimPlugin,@
-FIXME## Other
+#-> nvimPlugin,taskRunning
 * ( ) [just.nvim](https://github.com/BeatScherrer/just.nvim)
 * ( ) [static.nvim](https://github.com/jaytyrrell13/static.nvim)
-#-> nvimPlugin,@
-FIXME## Partial execution
+#-> nvimPlugin,taskRunning,partialExecution
 * ( ) [run-code.nvim](https://github.com/arjunmahishi/run-code.nvim)
 * ( ) [lab.nvim](https://github.com/0x100101/lab.nvim)
 * ( ) [exec-cursorline-insert-stdout.nvim](https://github.com/sayanarijit/exec-cursorline-insert-stdout.nvim)
@@ -4186,23 +4096,19 @@ FIXME### Utils
 * ( ) [telescope-extension-maker.nvim](https://github.com/adoyle-h/telescope-extension-maker.nvim)
 * ( ) [togglescope](https://github.com/Theo-Steiner/togglescope)
 * ( ) [search.nvim](https://github.com/FabianWirth/search.nvim)
-#-> nvimPlugin,@
-FIXME### Grep
+#-> nvimPlugin,grep
 * ( ) [telescope-rg.nvim](https://github.com/nvim-telescope/telescope-rg.nvim)
 * ( ) [telescope-fzf-writer.nvim](https://github.com/nvim-telescope/telescope-fzf-writer.nvim)
-#-> nvimPlugin,@
-FIXME### Integration for another plugin
+#-> nvimPlugin,pluginIntegration
 * ( ) [telescope-packer.nvim](https://github.com/nvim-telescope/telescope-packer.nvim)
 * ( ) [telescope-github.nvim](https://github.com/nvim-telescope/telescope-github.nvim)
 * ( ) [telescope-dap.nvim](https://github.com/nvim-telescope/telescope-dap.nvim)
 * ( ) [telescope-luasnip.nvim](https://github.com/benfowler/telescope-luasnip.nvim)
 * ( ) [telescope-memo.nvim](https://github.com/delphinus/telescope-memo.nvim)
 * ( ) [telescope-bookmarks.nvim](https://github.com/dhruvmanila/telescope-bookmarks.nvim)
-#-> nvimPlugin,@
-FIXME# Terminal
+#-> nvimPlugin,terminal,specificTerminal
 *  [wezterm.nvim](...)
-#-> nvimPlugin,@
-FIXME## Terminal Enhancement
+#-> nvimPlugin,terminal
 *  [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
 * ( ) [FTerm.nvim](https://github.com/numToStr/FTerm.nvim)
 * ( ) [NeoTerm.lua](https://github.com/nyngwang/NeoTerm.lua)
@@ -4243,8 +4149,7 @@ FIXME### Open
 FIXME### Edit
 *  [term-edit.nvim](https://github.com/chomosuke/term-edit.nvim)
 * ( ) [term-gf.nvim](https://github.com/yutkat/term-gf.nvim)
-#-> nvimPlugin,@
-FIXME### External terminal
+#-> nvimPlugin,terminal,external
 * ( ) [kitty-runner.nvim](https://github.com/jghauser/kitty-runner.nvim)
 #-> nvimPlugin,@
 FIXME### Terminal Selector
@@ -4277,8 +4182,7 @@ FIXME# Testing & coverage
 * ( ) [testfile.nvim](https://github.com/freddyJarva/testfile.nvim)
 * ( ) [vim-test testing](https://github.com/vim-test/vim-test testing)
 * ( ) [vim-ultest](https://github.com/rcarriga/vim-ultest)
-#-> nvimPlugin,@
-FIXME# themes
+#-> nvimPlugin,colorTheme
 * ( ) [13824-naysayer88](https://plugins.jetbrains.com/plugin/13824-naysayer88) not found, but outstanding color theme!
 * ( ) [Abstract-cs](https://github.com/Abstract-IDE/Abstract-cs)
 * ( ) [NeoSolarized](https://github.com/icymind/NeoSolarized)
@@ -4379,15 +4283,13 @@ FIXME# themes
 * ( ) [zazen](https://github.com/zaki/zazen) ﻿
 * ( ) [zenbones.nvim](https://github.com/mcchrish/zenbones.nvim)
 * ( ) [zephyr-nvim](https://github.com/nvimdev/zephyr-nvim)
-#-> nvimPlugin,@
-FIXME# [Tutorial](https://yutkat.github.io/my-neovim-pluginlist/#tutorial) / Training
+#-> nvimPlugin,training
 * ( ) [bad-practices.nvim](https://github.com/antonk52/bad-practices.nvim)
 * ( ) [coach.nvim](https://github.com/xiantang/coach.nvim)
 * ( ) [delaytrain.nvim](https://github.com/ja-ford/delaytrain.nvim)
 * ( ) [hardtime.nvim](https://github.com/m4xshen/hardtime.nvim)
 * ( ) [vim-be-good](https://github.com/ThePrimeagen/vim-be-good)
-#-> nvimPlugin,@
-FIXME# [Treesitter](https://yutkat.github.io/my-neovim-pluginlist/#treesitter)
+#-> nvimPlugin,treesitter
 * ( ) [nvim-tree-docs](https://github.com/nvim-treesitter/nvim-tree-docs)
 * ( ) [nvim-yati](https://github.com/yioneko/nvim-yati)
 * ( ) [nvim-ts-utils](https://github.com/s1n7ax/nvim-ts-utils)
@@ -4402,25 +4304,19 @@ FIXME# [Background](https://yutkat.github.io/my-neovim-pluginlist/#background)
 * ( ) [bg.nvim](https://github.com/typicode/bg.nvim)
 * ( ) [ya-seiya.nvim](https://github.com/orumin/ya-seiya.nvim)
 * ( ) [auto-bg.nvim](https://github.com/wangl-cc/auto-bg.nvim)
-#-> nvimPlugin,@
-FIXME### scrolling
+#-> nvimPlugin,scrolling
 * ( ) [nvim-scrollbar](https://github.com/petertriho/nvim-scrollbar)
 * ( ) [neoscroll.nvim](https://github.com/karb94/neoscroll.nvim)
 * ( ) [vim-smoothie](https://github.com/psliwka/vim-smoothie)
-#-> nvimPlugin,@
-FIXME#### [Scrollbar](https://yutkat.github.io/my-neovim-pluginlist/#scrollbar)
 * ( ) [satellite.nvim](https://github.com/lewis6991/satellite.nvim)
 * ( ) [nvim-scrollview](https://github.com/dstein64/nvim-scrollview)
 * ( ) [scrollbar.nvim](https://github.com/Xuyuanp/scrollbar.nvim)
 * ( ) [nvim-scrlbkun](https://github.com/kensyo/nvim-scrlbkun)
 * ( ) [dmap.nvim](https://github.com/doums/dmap.nvim)
-#-> nvimPlugin,@
-FIXME### Scrolling
 * ( ) [cinnamon.nvim](https://github.com/declancm/cinnamon.nvim)
 * ( ) [endscroll.nvim](https://github.com/plax-00/endscroll.nvim)
 * ( ) [fsread.nvim](https://github.com/nullchilly/fsread.nvim)
-#-> nvimPlugin,@
-FIXME### Smooth scroll
+#-> nvimPlugin,scrolling,smooth
 * ( ) [SmoothCursor.nvim](https://github.com/gen740/SmoothCursor.nvim)
 * ( ) [view-tween.nvim](https://github.com/sindrets/view-tween.nvim)
 * ( ) [smartcolumn.nvim](https://github.com/m4xshen/smartcolumn.nvim)
@@ -4810,8 +4706,6 @@ FIXME## Enhanced Standard Features
 #-> nvimPlugin,@
 FIXME## Profiler
 * ( ) [profile.nvim](https://github.com/stevearc/profile.nvim)
-#-> nvimPlugin,@
-FIXME## CI
 #-> nvimPlugin,@
 FIXME### Template
 * ( ) [ci-template.nvim](https://github.com/lukas-reineke/ci-template.nvim)
