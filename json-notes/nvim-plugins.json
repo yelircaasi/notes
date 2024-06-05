@@ -3697,8 +3697,7 @@ FIXME## Project Switcher
 FIXME## Monorepo
 * ( ) [monorepo.nvim](https://github.com/imNel/monorepo.nvim)
 * ( ) [nvim-monorepos](https://github.com/sajjathossain/nvim-monorepos)
-#-> nvimPlugin,@
-FIXME## Project Local Config
+#-> nvimPlugin,project,projectConfig
 * ( ) [nvim-config-local](https://github.com/klen/nvim-config-local)
 * ( ) [nvim-projectconfig](https://github.com/windwp/nvim-projectconfig)
 * ( ) [workspaces.nvim](https://github.com/natecraddock/workspaces.nvim)
@@ -3711,15 +3710,11 @@ FIXME## Project Local Config
 * ( ) [nvimlocale.nvim](https://github.com/DrKGD/nvimlocale.nvim)
 * ( ) [workspace-folders.nvim](https://github.com/mhanberg/workspace-folders.nvim)
 * ( ) [exrc.nvim](https://github.com/jedrzejboczar/exrc.nvim)
-#-> nvimPlugin,@
-FIXME## Config switcher
+#-> nvimPlugin,project,projectConfig,configSwitching
 * ( ) [cheovim](https://github.com/NTBBloodbath/cheovim)
 * ( ) [projector.nvim](https://github.com/smolovk/projector.nvim)
 * ( ) [projectconf.nvim](https://github.com/saccarosium/projectconf.nvim)
-#-> nvimPlugin,@
-FIXME## [Plugin Manager](https://yutkat.github.io/my-neovim-pluginlist/#plugin-manager) & Package Management
-#-> nvimPlugin,@
-FIXME## [Plugin Manager](https://yutkat.github.io/my-neovim-pluginlist/plugin-manager.html#plugin-manager)
+#-> nvimPlugin,pluginManager
 * ( ) [Add runtime path (vim-plug like)](https://yutkat.github.io/my-neovim-pluginlist/plugin-manager.html#add-runtime-path-vim-plug-like)
 * ( ) [Use builtin package feature](https://yutkat.github.io/my-neovim-pluginlist/plugin-manager.html#use-builtin-package-feature)
 * ( ) [Update checker](https://yutkat.github.io/my-neovim-pluginlist/plugin-manager.html#update-checker)
@@ -3727,8 +3722,7 @@ FIXME## [Plugin Manager](https://yutkat.github.io/my-neovim-pluginlist/plugin-ma
 * ( ) [add](https://yutkat.github.io/my-neovim-pluginlist/plugin-manager.html#add)
 * ( ) [Lazy load](https://yutkat.github.io/my-neovim-pluginlist/plugin-manager.html#lazy-load)
 * ( ) [Plugin Config](https://yutkat.github.io/my-neovim-pluginlist/plugin-manager.html#plugin-config)
-#-> nvimPlugin,@
-FIXME## Session
+#-> nvimPlugin,project,session
 * ( ) [neovim-session-manager](https://github.com/Shatur/neovim-session-manager)
 * ( ) [possession.nvim](https://github.com/jedrzejboczar/possession.nvim)
 * ( ) [resession.nvim](https://github.com/stevearc/resession.nvim)
@@ -3755,11 +3749,9 @@ FIXME## Session
 * ( ) [retrospect.nvim](https://github.com/mrquantumcodes/retrospect.nvim)
 * ( ) [startup.nvim](https://github.com/keaising/startup.nvim)
 * ( ) [resurrect.nvim](https://github.com/Febri-i/resurrect.nvim)
-#-> nvimPlugin,@
-FIXME## Session Selector
+#-> nvimPlugin,project,session,selector
 * ( ) [telescope-session.nvim](https://github.com/HUAHUAI23/telescope-session.nvim)
-#-> nvimPlugin,@
-FIXME## [cd(change directory)](https://yutkat.github.io/my-neovim-pluginlist/#cdchange-directory)
+#-> nvimPlugin,changeDirectory
 * ( ) [telescope-z.nvim](https://github.com/nvim-telescope/telescope-z.nvim)
 * ( ) [cder.nvim](https://github.com/Zane-/cder.nvim)
 * ( ) [broot.nvim](https://github.com/9999years/broot.nvim)
@@ -3820,8 +3812,7 @@ search ### to sort
 * ( ) [telescope.nvim: Find, Filter, Preview, Pick. All lua, all the time.](http://neovimcraft.com/plugin/nvim-telescope/telescope.nvim/index.html)
 * ( ) [tree-grepper](https://github.com/BrianHicks/tree-grepper)
 * ( ) [hlsearch.nvim](https://github.com/nvimdev/hlsearch.nvim)
-#-> nvimPlugin,@
-FIXME#### [Fuzzy Finder](https://yutkat.github.io/my-neovim-pluginlist/#fuzzy-finder)
+#-> nvimPlugin,search,fuzzyFinder
 * ( ) [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 * ( ) [nvim-telescope-minimal-layout](https://github.com/josa42/nvim-telescope-minimal-layout)
 * ( ) [nvim-fzf-commands](https://github.com/vijaymarupudi/nvim-fzf-commands)
@@ -3837,7 +3828,7 @@ FIXME#### [Fuzzy Finder](https://yutkat.github.io/my-neovim-pluginlist/#fuzzy-fi
 * ( ) [pickup.nvim](https://github.com/tani/pickup.nvim)
 * ( ) [fzfx.nvim](https://github.com/linrongbin16/fzfx.nvim)
 * ( ) [mini.pick](https://github.com/echasnovski/mini.pick)
-search & replace
+#-> nvimPlugin,search,replace
 * ( ) [nvim-spectre](https://github.com/nvim-pack/nvim-spectre)
 * ( ) [ssr.nvim](https://github.com/cshuaimin/ssr.nvim)
 * ( ) [sad.nvim](https://github.com/ray-x/sad.nvim)
@@ -3855,10 +3846,7 @@ search & replace
 * ( ) [telescope-project.nvim](https://github.com/nvim-telescope/telescope-project.nvim)
 * ( ) [telescope-symbols.nvim](https://github.com/nvim-telescope/telescope-symbols.nvim)
 * ( ) [telescope-ui-select.nvim](https://github.com/nvim-telescope/telescope-ui-select.nvim)
-#-> nvimPlugin,@
-FIXME#### [Search, Replace, Select](https://yutkat.github.io/my-neovim-pluginlist/#search-replace-select)
-#-> nvimPlugin,@
-FIXME# Search
+#-> nvimPlugin,search
 * ( ) [highlight-current-n.nvim](https://github.com/rktjmp/highlight-current-n.nvim)
 * ( ) [memento.nvim](https://github.com/gaborvecsei/memento.nvim)
 * ( ) [reacher.nvim](https://github.com/notomo/reacher.nvim)
@@ -3872,39 +3860,32 @@ FIXME# Search
 * ( ) [magnifier.nvim](https://github.com/fsantand/magnifier.nvim)
 * ( ) [searchword.nvim](https://github.com/barklan/searchword.nvim)
 * ( ) [hapigo.nvim](https://github.com/SDGLBL/hapigo.nvim)
-#-> nvimPlugin,@
-FIXME## Line search
+#-> nvimPlugin,search,line
 * ( ) [telescope-lines.nvim](https://github.com/neanias/telescope-lines.nvim)
 * ( ) [telescope-buffer-extract](https://github.com/jtroo/telescope-buffer-extract)
-#-> nvimPlugin,@
-FIXME## Range Search
+#-> nvimPlugin,search,range
 * ( ) [nvim-rfind](https://github.com/Ajnasz/nvim-rfind)
 #-> nvimPlugin,@
 FIXME## n/N Improvement
 * ( ) [nice-scroll.nvim](https://github.com/shiradofu/nice-scroll.nvim)
 * ( ) [bling.nvim](https://github.com/ivyl/bling.nvim)
-#-> nvimPlugin,@
-FIXME## Current Word Search
+#-> nvimPlugin,search,currentWord
 * ( ) [star.nvim](https://github.com/loqusion/star.nvim)
 #-> nvimPlugin,@
 FIXME## Search count
 * ( ) [bistahieversor.nvim](https://github.com/rapan931/bistahieversor.nvim)
-#-> nvimPlugin,@
-FIXME## Word Count
+#-> nvimPlugin,wordCount
 * ( ) [nvim-prose](https://github.com/skwee357/nvim-prose)
 * ( ) [improved-search.nvim](https://github.com/backdround/improved-search.nvim)
-#-> nvimPlugin,@
-FIXME## Comment search
+#-> nvimPlugin,search,comment
 * ( ) [telescope-dev-comments.nvim](https://github.com/ram02z/telescope-dev-comments.nvim)
 #-> nvimPlugin,@
 FIXME## Search highlight
 * ( ) [auto-hlsearch.nvim](https://github.com/asiryk/auto-hlsearch.nvim)
 * ( ) [Hlsearch.nvim](https://github.com/aklk1ng/Hlsearch.nvim)
-#-> nvimPlugin,@
-FIXME## Visual search
+#-> nvimPlugin,search,visual
 * ( ) [search-in-visual-selection.nvim](https://github.com/bagohart/search-in-visual-selection.nvim)
-#-> nvimPlugin,@
-FIXME## File search
+#-> nvimPlugin,search|file
 * ( ) [telescope-corrode.nvim](https://github.com/fdschmidt93/telescope-corrode.nvim)
 #-> nvimPlugin,replace
 * ( ) [buffersed.nvim](https://github.com/Blackmorse/buffersed.nvim)
