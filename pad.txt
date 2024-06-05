@@ -7,3 +7,19 @@ https://github.com/pkulak/matui/
 look for matrix-commander-tui (package it myself? re-(ckage matrix-commander to include tui?)
 https://github.com/pkulak/matui/
 
+
+
+Key:
+* 1 ### definitely using in my first iteration
+* 2 ### to add once the core functionality is solid
+* 3 - want to add, but need to compare to alternatives
+* 4 ### nice functionality I would like to add
+* 5 - definitely to use someday, but not right now
+* 6 ### need to try out to see how it works
+* 7 ### probably not
+* 8 ### obsoleted by another plugin
+* 9 ### inherently obsolete
+
+https://www.reddit.com/r/neovim/comments/1bxmbki/when_you_want_to_use_neovim_but_dont_want_to/?share_id=8O3Yu6a-RuZst7KiMHBX4&utm_content=1&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=10
+
+https://github.com/yutkat/my-neovim-pluginlist <- get recent changes

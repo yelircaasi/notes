@@ -42,5 +42,5 @@ for line in filter(bool, map(str.strip, lines)):
     else:
         print("===============", line)
 
-# with open(p, "w") as f:
-#     json.dump(new, f, ensure_ascii=False)
+with open(p, "w") as f:
+    json.dump(new, f, ensure_ascii=False)
