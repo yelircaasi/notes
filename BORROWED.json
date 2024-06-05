@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "text": [
+        "note": [
             "just a sample"
         ],
         "status": "todo",
@@ -15,7 +15,7 @@
     },
     {
         "id": 1,
-        "text": [
+        "note": [
             "just another sample"
         ],
         "status": "todo",

@@ -1,7 +1,7 @@
 [
     {
         "id": 2,
-        "text": [
+        "note": [
             "just another sample"
         ],
         "status": null,
@@ -13,7 +13,7 @@
     },
     {
         "id": 3,
-        "text": [
+        "note": [
             "just another sample"
         ],
         "status": "unread",
@@ -26,7 +26,7 @@
     },
     {
         "id": 4,
-        "text": [
+        "note": [
             "[Loyola Marymount Notes on Parsing](https://cs.lmu.edu/~ray/notes/parsingtheory/)"
         ],
         "status": null,
@@ -36,7 +36,7 @@
     },
     {
         "id": 5,
-        "text": [
+        "note": [
             "[Loyola Marymount Notes on Parsing](https://cs.lmu.edu/~ray/notes/parsingtheory/)"
         ],
         "status": null,
@@ -50,7 +50,7 @@
     },
     {
         "id": 6,
-        "text": [
+        "note": [
             "this is a test"
         ],
         "status": null,
@@ -63,7 +63,7 @@
     },
     {
         "id": 7,
-        "text": [
+        "note": [
             "this is a test",
             "and this is another line"
         ],
