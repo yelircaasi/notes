@@ -1,6 +1,6 @@
 # Notes
 
-Note to self - add "subtags" attribute to distinguish universally meaningful tags from contextually meaningful tags.
+Note to self - add "subtags" attribute to distinguish universally meaningful tags from contextually meaningful tags. Or maybe `globalTags` and `localTags`.
 
 Note format: special value-dependent colors for type and status; fixed colors for ID, tags, and subtags. The most format
 should be on the note itself, with everything else dimmed slightly.
