@@ -1198,7 +1198,7 @@
 {"text": "[Complex Variables](https://bookstore.ams.org/amstext-16/)", "type": "book", "tags": ["math", "complex", ""], "status": "toRead", "language": ""},
 {"text": "[An Introduction to Complex Analysis and Geometry](https://bookstore.ams.org/amstext-12/)", "type": "book", "tags": ["math", "complex", ""], "status": "toRead", "language": ""},
 
-## Misc Reading
+FIXME## Misc Reading
 
 {"text": "Zeno's First Paradox of Motion: A Cartesian Perspective BBC Radio 4 - In Our Time, Zeno's Paradoxes", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "Calculus: A Liberal Art | WM Priestley", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -1613,7 +1613,7 @@
 {"text": "[Understanding the Covariance Matrix](https://datascienceplus.com/understanding-the-covariance-matrix/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Matrix algebra for linear models](https://search.lib.byu.edu/byu/record/elee.EBC1575633?holding=mmslu4icuyc4ve4h)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## Proofs
+FIXME## Proofs
 
 {"text": "[plus.maths.org/content/brief-introduction-proofs](https://plus.maths.org/content/brief-introduction-proofs)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[math.stackexchange.com/questions/178940/proofs-that-every-mathematician-should-know](https://math.stackexchange.com/questions/178940/proofs-that-every-mathematician-should-know)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -1623,7 +1623,7 @@
 {"text": "[pirate.shu.edu/~kahlnath/Top100.html](http://pirate.shu.edu/~kahlnath/Top100.html)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Why Do We Need Proof?](http://ife.ens-lyon.fr/publications/edition-electronique/cerme6/wg2-03-hemmi-lofwall.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## NN Math
+FIXME## NN Math
 
 {"text": "[11-785 Deep Learning](http://deeplearning.cs.cmu.edu/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Backpropagation](https://en.wikipedia.org/wiki/Backpropagation)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -1634,9 +1634,9 @@
 {"text": "[theclevermachine.wordpress.com/2014/09/06/derivation-error-backpropagation-gradient-descent-for-neural-networks/](https://theclevermachine.wordpress.com/2014/09/06/derivation-error-backpropagation-gradient-descent-for-neural-networks/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "Backpropagation explained | Part 2 - The mathematical notation", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## C.I Statistics
+FIXME## C.I Statistics
 
-### Error Clustering
+FIXME### Error Clustering
 
 {"text": "[A Practitioner’s Guide to Cluster-Robust Inference](http://cameron.econ.ucdavis.edu/research/Cameron_Miller_JHR_2015_February.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Cluster-Sample Methods in Applied Econometrics](http://people.stern.nyu.edu/wgreene/Lugano2013/Wooldridge-Cluster.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -1651,7 +1651,7 @@
 {"text": "[Slides Introduction to Robust and Clustered Standard Errors](http://econweb.umd.edu/~sarzosa/teach/2/Disc2_Cluster_handout.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Slides Clustered Errors in Stata](http://www.stata.com/meeting/13uk/nichols_crse.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-#### Teste
+FIXME#### Teste
 
 {"text": "[Statistical hypothesis testing](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Heteroskedastizit¨at](http://www.wiwi.uni-muenster.de/05/download/studium/econometrics2/ws1011/kapitel_6.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -1662,7 +1662,7 @@
 {"text": "[The Cochrane-Orcutt Procedure](http://economistsview.typepad.com/economics421/2009/02/the-cochraneorcutt-procedure.html)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Types of Statistical Tests](https://cyfar.org/types-statistical-tests)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-### Econometrics
+FIXME### Econometrics
 
 {"text": "[? bloccato](http://hse-da.narod.ru/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[? bloccato](http://hse-da.narod.ru/3kurs/3kurs.html)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -1701,18 +1701,18 @@
 {"text": "[Venezia Econometria](http://venus.unive.it/econometria/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[wlm.userweb.mwn.de/Ilmes/](http://wlm.userweb.mwn.de/Ilmes/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-### Regression
+FIXME### Regression
 
 {"text": "[La Régression Linéaire](http://tice.inpl-nancy.fr/modules/unit-stat/chapitre7/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Регрессионный анализ](http://www.intuit.ru/studies/courses/6/6/lecture/172?page=4)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Korrelation, lineare Regression und multiple Regression](http://www.ruhr-uni-bochum.de/imperia/md/content/mathematik3/lehre/ss09/statmethlehre2/teil2-regression220609.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Regressionsanalyse](http://www.mesosworld.ch/lerninhalte/Biv_Regression/de/html/index.html)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-### Multiple Regression
+FIXME### Multiple Regression
 
 {"text": "[La Régression Multiple](http://www.statsoft.fr/concepts-statistiques/regression-multiple/regression-multiple.htm)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-### Statistik mit Matrizen
+FIXME### Statistik mit Matrizen
 
 {"text": "[OLS in Matrix Form](http://web.stanford.edu/~mrosenfe/soc_meth_proj3/matrix_OLS_NYU_notes.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[THE REGRESSION MODEL IN MATRIX FORM](http://pages.stern.nyu.edu/~gsimon/B902301Page/CLASS02_24FEB10/MatrixModel.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -1723,7 +1723,7 @@
 {"text": "[A Matrix Formulation of the Multiple Regression Model](https://onlinecourses.science.psu.edu/stat501/node/382)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Khan Matrizes](https://pt.khanacademy.org/math/precalculus/precalc-matrices)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-### Schätzer und Modelle
+FIXME### Schätzer und Modelle
 
 {"text": "[OLS Proofs](https://en.wikipedia.org/wiki/Proofs_involving_ordinary_least_squares)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Linear Regression in Matrix Form](http://www.stat.purdue.edu/~jennings/stat514/stat512notes/topic3.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -1736,9 +1736,9 @@
 {"text": "[Gauß-Markov-Annahmen](https://www.uni-marburg.de/fb02/statistik/studium/vorl/mikoeko/linreg0.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Folien Empirische Wirtschaftsforschung](http://www.wifa.uni-leipzig.de/fileadmin/user_upload/iew-vwl/OEK-Lehre/EWF/VL/EWF_Kap5.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-### Clustering
+FIXME### Clustering
 
-### 2SLS
+FIXME### 2SLS
 
 {"text": "[?](http://russell.vcharite.univ-mrs.fr/EIE/fchap7.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[2SLS: Testing](http://www.eco.uc3m.es/~ricmora/MEI/materials/Session_10_Testing.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -1799,7 +1799,7 @@
 {"text": "[Метод инструментальных переменных](https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D1%85)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "Instrumental Variables (concise)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-### SORT
+FIXME### SORT
 
 {"text": "[SPSS Documentation](http://www-01.ibm.com/support/docview.wss?uid=swg27043946#ru)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[statsmodels/statsmodels/pull/1935](https://github.com/statsmodels/statsmodels/pull/1935)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -1851,7 +1851,7 @@
 {"text": "[stata.com/manuals14/teeteffects.pdf](http://www.stata.com/manuals14/teeteffects.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[timberlake.co.uk/software/stata-new-extended-models](https://www.timberlake.co.uk/software/stata-new-extended-models)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-#### Treatment Effects
+FIXME#### Treatment Effects
 
 {"text": "[statalist.org/forums/forum/general-stata-discussion/general/1372293-average-treatment-effect-in-panel-data](http://www.statalist.org/forums/forum/general-stata-discussion/general/1372293-average-treatment-effect-in-panel-data)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[stata.com/manuals13/teetregress.pdf](http://www.stata.com/manuals13/teetregress.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -1860,13 +1860,13 @@
 {"text": "[stata.com/manuals13/te.pdf](http://www.stata.com/manuals13/te.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[stata.com/stata-news/statanews.31.2.pdf](http://www.stata.com/stata-news/statanews.31.2.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-#### PLT
+FIXME#### PLT
 
 {"text": "[soderbom.net/metrix2/lec8.pdf](http://www.soderbom.net/metrix2/lec8.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[es.wikipedia.org/wiki/Modelo_Tobit](https://es.wikipedia.org/wiki/Modelo_Tobit)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[wlm.userweb.mwn.de/Ilmes/ilm_t19.htm](http://wlm.userweb.mwn.de/Ilmes/ilm_t19.htm)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-#### Momente
+FIXME#### Momente
 
 {"text": "[en.wikipedia.org/wiki/Moment_(mathematics)](https://en.wikipedia.org/wiki/Moment_(mathematics))", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[de.wikipedia.org/wiki/Moment_(Statistik)](https://de.wikipedia.org/wiki/Moment_(Statistik))", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -1895,7 +1895,7 @@
 {"text": "[stats.stackexchange.com/questions/88461/derive-variance-of-regression-coefficient-in-simple-linear-regression](https://stats.stackexchange.com/questions/88461/derive-variance-of-regression-coefficient-in-simple-linear-regression)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Mathematische Statistik](https://stat.ethz.ch/Teaching/kuensch/skript-ms.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-#### FE
+FIXME#### FE
 
 {"text": "[statalist.org/forums/forum/general-stata-discussion/general/1311877-fixed-effects-in-cross-sectional-data](http://www.statalist.org/forums/forum/general-stata-discussion/general/1311877-fixed-effects-in-cross-sectional-data)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[stats.stackexchange.com/questions/240281/can-i-use-the-fixed-effects-model-on-cross-sectional-data](https://stats.stackexchange.com/questions/240281/can-i-use-the-fixed-effects-model-on-cross-sectional-data)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -1907,7 +1907,7 @@
 {"text": "[courses.washington.edu/pbafadv/student%20presentations/Fixed%20Effects,%20Random%20Effects%20Model%20Cheat%20Sheet.pdf](https://courses.washington.edu/pbafadv/student%20presentations/Fixed%20Effects,%20Random%20Effects%20Model%20Cheat%20Sheet.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[ncbi.nlm.nih.gov/pmc/articles/PMC4208783/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4208783/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-#### Verschiedene Themen
+FIXME#### Verschiedene Themen
 
 {"text": "[cameron.econ.ucdavis.edu/research/papers.html](http://cameron.econ.ucdavis.edu/research/papers.html)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[link.springer.com/article/10.1186/1745-6215-12-151](https://link.springer.com/article/10.1186/1745-6215-12-151)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -1936,7 +1936,7 @@
 {"text": "[stata.com/manuals13/svy.pdf](http://www.stata.com/manuals13/svy.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[stata.com/manuals13/svysvyestimation.pdf](http://www.stata.com/manuals13/svysvyestimation.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-#### Andere
+FIXME#### Andere
 
 {"text": "[ssc.wisc.edu/~bhansen/econometrics/](http://www.ssc.wisc.edu/~bhansen/econometrics/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[en.wikipedia.org/wiki/Econometric_model](https://en.wikipedia.org/wiki/Econometric_model)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -1948,7 +1948,7 @@
 {"text": "[uk.wikipedia.org/wiki/%D0%9D%D0%B0%D1%80%D0%B8%D1%81_%D1%82%D0%B5%D0%BE%D1%80%D1%96%D1%97_%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B8](https://uk.wikipedia.org/wiki/%D0%9D%D0%B0%D1%80%D0%B8%D1%81_%D1%82%D0%B5%D0%BE%D1%80%D1%96%D1%97_%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B8)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[en.wikipedia.org/wiki/Descriptive_statistics](https://en.wikipedia.org/wiki/Descriptive_statistics)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-#### Papiere
+FIXME#### Papiere
 
 {"text": "[hha.dk/nat/WPER/03-2_bsr.pdf](http://www.hha.dk/nat/WPER/03-2_bsr.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[msu.edu/~telder/](https://msu.edu/~telder/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -1958,7 +1958,7 @@
 {"text": "[eml.berkeley.edu/~jrothst/publications/rothstein-hoxbycomment-AER-appendix.pdf](http://eml.berkeley.edu/~jrothst/publications/rothstein-hoxbycomment-AER-appendix.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[economics.mit.edu/faculty/angrist/data1](https://economics.mit.edu/faculty/angrist/data1)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-#### Interactions
+FIXME#### Interactions
 
 {"text": "[en.wikipedia.org/wiki/Interaction_(statistics)](https://en.wikipedia.org/wiki/Interaction_(statistics))", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[polsci.ucsb.edu/faculty/glasgow/ps15/dvint.pdf](http://www.polsci.ucsb.edu/faculty/glasgow/ps15/dvint.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -1967,7 +1967,7 @@
 {"text": "[Heckit Stata](http://www.learneconometrics.com/data/stata/heckit.txt)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[etregress question answered](http://www.stata.com/support/faqs/statistics/endogeneity-versus-sample-selection-bias/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-#### Stata
+FIXME#### Stata
 
 {"text": "[FHSSRSC Workshops](https://fhssrsc.byu.edu/SitePages/Stata%20Workshops.aspx)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Stata Princeton](http://data.princeton.edu/stata/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -1988,7 +1988,7 @@
 {"text": "[Research_Notes](http://researchnotes.eric-a-booth.com/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Kolesnikov Classes](http://staskolenikov.net/stata/Duke/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-#### ivtreatreg
+FIXME#### ivtreatreg
 
 {"text": "[Stata Treatment Effects](http://www.stata.com/manuals14/te.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[ivtreatreg help](http://fmwww.bc.edu/RePEc/bocode/i/ivtreatreg.html)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -1996,12 +1996,12 @@
 {"text": "[Cerulli](http://folk.uib.no/secaa/Public/VAM/Artikler/ivtreatreg_cerull.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Treatment Effects MIT](https://economics.mit.edu/files/32)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-#### Beispiele/Bücher für Stata
+FIXME#### Beispiele/Bücher für Stata
 
 {"text": "[Principles of Econometrics](http://www.principlesofeconometrics.com/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Wooldridge Examples](http://fmwww.bc.edu/gstat/examples/wooldridge/wooldridge.html)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-### Determinant
+FIXME### Determinant
 
 {"text": "[lem.ma/content/DVlhfW4GaPdOz2lEH08LvQ?book_id=AIApowDnjlDDQrp-uOZVow](https://www.lem.ma/content/DVlhfW4GaPdOz2lEH08LvQ?book_id=AIApowDnjlDDQrp-uOZVow) Dertiminant", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Jacobi's Formula for the Derivative of a Determinant](https://people.eecs.berkeley.edu/~wkahan/MathH110/jacobi.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -2012,13 +2012,13 @@
 {"text": "[mathoverflow.net/questions/214908/proof-for-the-derivative-of-the-determinant-of-a-matrix](https://mathoverflow.net/questions/214908/proof-for-the-derivative-of-the-determinant-of-a-matrix)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[math.stackexchange.com/questions/1781775/an-intuitive-way-to-understand-the-jacobis-formula](https://math.stackexchange.com/questions/1781775/an-intuitive-way-to-understand-the-jacobis-formula)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## Trace
+FIXME## Trace
 
 {"text": "[Trace_(linear_algebra)](https://en.wikipedia.org/wiki/Trace_(linear_algebra))", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## Topology
+FIXME## Topology
 
-## To Sort
+FIXME## To Sort
 
 {"text": "[20 Signs Your Partner Is Controlling | Psychology Today](https://www.psychologytoday.com/us/blog/friendship-20/201506/20-signs-your-partner-is-controlling?page=1)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Cisco Webex Meetings (Lerngruppe)](https://unistuttgart.webex.com/webappng/sites/unistuttgart/dashboard/pmr/kevin.kleinbeck)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -2154,7 +2154,7 @@
 {"text": "[Топология на пальцах / Хабр](https://habr.com/ru/post/168133/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Топология — все статьи и новости - Индикатор](https://indicator.ru/label/topologiya)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## Linear Algebra
+FIXME## Linear Algebra
 
 {"text": "[$$$ The Hadamard Product](http://buzzard.ups.edu/courses/2007spring/projects/million-paper.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Check that for a vector a in Rn, the functional f(x)=a'*x is linear functional - Buscar con Google](https://www.google.com/search?q=Check+that+for+a+vector+a+in+Rn%2C+the+functional+f(x)%3Da%27*x+is+linear+functional&rlz=1C1GGRV_enUS753US753&oq=Check+that+for+a+vector+a+in+Rn%2C+the+functional+f(x)%3Da%27*x+is+linear+functional+&aqs=chrome..69i57.36583j0j7&sourceid=chrome&ie=UTF-8)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -2186,14 +2186,14 @@
 {"text": "[ru.wikipedia.org/wiki/Процесс_Грама_―_Шмидта](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81_%D0%93%D1%80%D0%B0%D0%BC%D0%B0_%E2%80%95_%D0%A8%D0%BC%D0%B8%D0%B4%D1%82%D0%B0)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Подібні матриці — Вікіпедія](https://uk.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B4%D1%96%D0%B1%D0%BD%D1%96_%D0%BC%D0%B0%D1%82%D1%80%D0%B8%D1%86%D1%96)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## Tensors
+FIXME## Tensors
 
 {"text": "[scienceonline.it/blog/2018/08/07/tensori-e-basi-della-relativita-per-studenti-del-corso-di-laurea-in-fisica/](https://www.scienceonline.it/blog/2018/08/07/tensori-e-basi-della-relativita-per-studenti-del-corso-di-laurea-in-fisica/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[From Scalar to Tensor: Fundamental Mathematics for Machine Learning with Intuitive Examples Part 1/3](https://medium.com/datadriveninvestor/from-scalar-to-tensor-fundamental-mathematics-for-machine-learning-with-intuitive-examples-part-163727dfea8d)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Tensor-Gotman.pdf](https://vk.com/doc4287568_509004721?hash=9954c296cd17c8bdc2&dl=c35ad0ae4bb35e0f52)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "YouTube was ist ein Tensor?", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## Analysis
+FIXME## Analysis
 
 {"text": "How to Think about Analysis", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[davidlowryduda.com/an-intuitive-overview-of-taylor-series/](http://davidlowryduda.com/an-intuitive-overview-of-taylor-series/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -2207,7 +2207,7 @@
 {"text": "[en.wikipedia.org/wiki/Taylor%27s_theorem](https://en.wikipedia.org/wiki/Taylor%27s_theorem)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[math.uni-hamburg.de/home/riemenschneider/anvorl1.pdf](https://www.math.uni-hamburg.de/home/riemenschneider/anvorl1.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-### Jordan Normal Form
+FIXME### Jordan Normal Form
 
 {"text": "[rinconmatematico.com/libros.htm](http://www.rinconmatematico.com/libros.htm)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "JCF", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -2282,7 +2282,7 @@
 {"text": "[bodrenko.org/algebra/unit_5_8.htm](http://bodrenko.org/algebra/unit_5_8.htm)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[kpfu.ru/docs/F1418016545/ALG_2.pdf](https://kpfu.ru/docs/F1418016545/ALG_2.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-#### DE
+FIXME#### DE
 
 {"text": "[langer Beweis](http://home.mathematik.uni-freiburg.de/geometrie/lehre/ss2003/la2/skript/9.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[anderer Ansatz](https://www.mathi.uni-heidelberg.de/~alex/lehre/la1_ws03/skript/linalg15.pdf%20%20%20%20%20Inviato%20da%20iPhone)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -2296,7 +2296,7 @@
 {"text": "[mathematik.uni-kl.de/~gathmann/class/gdm-2019/gdm-2019-c20.p](https://www.mathematik.uni-kl.de/~gathmann/class/gdm-2019/gdm-2019-c20.p)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Thoma (Prozess)](https://martin-thoma.com/wie-berechnet-man-die-jordansche-normalform/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-#### ES
+FIXME#### ES
 
 {"text": "[proceso](https://ocw.ehu.eus/pluginfile.php/549/mod_page/content/1/Tema3.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[matematicas.uam.es/~fernando.chamizo/asignaturas/1819algII/resumen/tema3.pdf](http://matematicas.uam.es/~fernando.chamizo/asignaturas/1819algII/resumen/tema3.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -2304,7 +2304,7 @@
 {"text": "[mate.dm.uba.ar/~jeronimo/algebra_lineal/Capitulo7.pdf](http://mate.dm.uba.ar/~jeronimo/algebra_lineal/Capitulo7.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[An intuitive way to prove Jordan Normal Form. Help with the proof.](https://www.reddit.com/r/math/comments/5yppjb/an_intuitive_way_to_prove_jordan_normal_form_help/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-#### FR
+FIXME#### FR
 
 {"text": "[?](http://www.cirget.uqam.ca/~apostolo/MAT2011/expose12,13-14.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[code R](https://hal.inria.fr/hal-00779376/document)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -2340,7 +2340,7 @@
 {"text": "[math.stackexchange.com/questions/131819/are-jordan-chains-always-linearly-independent/131863#131863](https://math.stackexchange.com/questions/131819/are-jordan-chains-always-linearly-independent/131863#131863)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Jordan_normal_form](https://en.wikipedia.org/wiki/Jordan_normal_form)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-#### JNF Books
+FIXME#### JNF Books
 
 {"text": "Matrix Analysis (Horn & Johnson) Ch 3", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "Matrices and Linear Transformations 8.3", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -2388,7 +2388,7 @@
 {"text": "The Jordan Formal Form - Notes.pdf", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "fletchersorensenjordan.pdf", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-### Advanced LA
+FIXME### Advanced LA
 
 {"text": "[Advanced LA Schedule](https://www.uh.edu/nsm/math/undergraduate/courses/math4377-4378/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[ALA Summary](https://math.duke.edu/courses/advanced-linear-algebra)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -2407,7 +2407,7 @@
 {"text": "[ljll.math.upmc.fr/mazari/documents/coursalgav.pdf](https://www.ljll.math.upmc.fr/mazari/documents/coursalgav.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[ToC: Shapiro H. Linear algebra and matrices : topics for a second course (Providence, 2015)](http://www.prometeus.nsc.ru/acquisitions/17-12-05/cont36f.ssi)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-### PCA
+FIXME### PCA
 
 {"text": "[Hauptkomponentenanalyse – Wikipedia](https://de.wikipedia.org/wiki/Hauptkomponentenanalyse)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Principal Component Analysis (PCA) for Feature Selection and some of its Pitfalls · Johannes Otterbach](http://jotterbach.github.io/2016/03/24/Principal_Component_Analysis/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -2415,12 +2415,12 @@
 {"text": "[Линейная алгебра и аналитическая геометрия](https://www.lektorium.tv/linejnaya-algebra)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[towardsdatascience.com/visualizing-principal-component-analysis-with-matrix-transforms-d17dabc8230e](https://towardsdatascience.com/visualizing-principal-component-analysis-with-matrix-transforms-d17dabc8230e)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-### SVD
+FIXME### SVD
 
 {"text": "[Intuitive SVD](https://www.quora.com/What-is-an-intuitive-explanation-of-singular-value-decomposition-SVD)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Singular value decomposition - Wikipedia](https://en.wikipedia.org/wiki/Singular_value_decomposition)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## Derivation
+FIXME## Derivation
 
 {"text": "[Matrix Differentiation (and some other stuff)](https://atmos.washington.edu/~dennis/MatrixCalculus.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[The Matrix Calculus You Need For Deep Learning](https://explained.ai/matrix-calculus/index.html)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -2439,7 +2439,7 @@
 {"text": "[math.stackexchange.com/questions/2663014/derivative-of-vector-times-its-transposed-wrt-itself](https://math.stackexchange.com/questions/2663014/derivative-of-vector-times-its-transposed-wrt-itself)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "Matrix Differential Calculus with Applications in Statistics and Econometrics", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## Eigen*
+FIXME## Eigen*
 
 {"text": "[$$$ Eigenvectors and Eigenvalues explained visually](http://setosa.io/ev/eigenvectors-and-eigenvalues/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -2449,19 +2449,19 @@
 {"text": "[linear algebra - The intuition behind generalized eigenvectors - Mathematics Stack Exchange](https://math.stackexchange.com/questions/4495/the-intuition-behind-generalized-eigenvectors)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[hibit-at/EigenShader](https://github.com/hibit-at/EigenShader)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## Dot Product
+FIXME## Dot Product
 
 {"text": "[Dot product in matrix notation - Math Insight](http://mathinsight.org/dot_product_matrix_notation)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[How to prove invariance of dot-product to rotation of coordinate system - Mathematics Stack Exchange](https://math.stackexchange.com/questions/947867/how-to-prove-invariance-of-dot-product-to-rotation-of-coordinate-system#comment1952177_947928)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[users.math.msu.edu/users/gnagy/teaching/10-fall/mth234/w2-234-h.pdf](https://users.math.msu.edu/users/gnagy/teaching/10-fall/mth234/w2-234-h.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## Other Decompositions
+FIXME## Other Decompositions
 
 {"text": "[Matrix Factorization and Advanced Techniques](https://coursera.org/learn/matrix-factorization)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[en.wikipedia.org/wiki/Matrix_decomposition](https://en.wikipedia.org/wiki/Matrix_decomposition)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Triangular Factorizations & Operation Counts](https://people.sc.fsu.edu/~jburkardt/classes/gateway_2014/lecture_week03.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## Discrete Mathematics
+FIXME## Discrete Mathematics
 
 {"text": "[$$$ elementary number theory - Division of Factorials - Mathematics Stack Exchange](https://math.stackexchange.com/questions/2158/division-of-factorials/2192#2192)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[$$$ Sum of kth powers of first n natural numbers - GeeksforGeeks](https://www.geeksforgeeks.org/sum-of-kth-powers-of-first-n-natural-numbers/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -2496,7 +2496,7 @@
 {"text": "[quo.es/naturaleza/la-espiral-de-fibonacci](http://www.quo.es/naturaleza/la-espiral-de-fibonacci)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[brilliant.org/wiki/chinese-remainder-theorem/](https://brilliant.org/wiki/chinese-remainder-theorem/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## Set Theory
+FIXME## Set Theory
 
 {"text": "[en.wikipedia.org/wiki/De_Morgan%27s_laws#Informal_proof](https://en.wikipedia.org/wiki/De_Morgan%27s_laws#Informal_proof)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "Set theory and its philosophy: a critical introduction", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -2507,7 +2507,7 @@
 {"text": "[За страницами учебника математики. 10-11 классы Виленкин, Шибасов.djvu](https://vk.com/doc44301783_518614272?hash=942a7fe2618fe6b43f&dl=40653d16367f9ff91f)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Задачи по теории множеств, математической логике и теории алгоритмов [2004] Лавров.pdf](https://vk.com/doc44301783_517373107?hash=30b0ad75379d177e11&dl=7ee690d4e8bdf692ff)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## Geometry
+FIXME## Geometry
 
 {"text": "[$$$ First Steps in Tropical Geometry (for practice working through challenging math)](https://www.math.uni-frankfurt.de/~theobald/publications/tropical.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[$$$ Polar coordinate system - Wikipedia](https://en.wikipedia.org/wiki/Polar_coordinate_system)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -2541,7 +2541,7 @@
 {"text": "Лекция 1 | Алгебраическая геометрия | Николай Вавилов | Лекториум", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "Лекция 1 | Исключительные объекты в алгебре и геометрии | Николай Вавилов | Лекториум", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## Logic & Proof Reading
+FIXME## Logic & Proof Reading
 
 {"text": "[$$$ Mathematical induction - Wikipedia](https://en.wikipedia.org/wiki/Mathematical_induction)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[HANS LOGIK 1](https://www.ims.uni-stuttgart.de/document/team/hans/NotesLog2Ch1.pdf)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -2556,7 +2556,7 @@
 {"text": "[Logik Vorlesung 1: Einführung - PDF Kostenfreier Download](https://docplayer.org/22636217-Logik-vorlesung-1-einfuehrung.html)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[mat logika](https://vk.com/wall-104184663_51701)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## Stats Reading
+FIXME## Stats Reading
 
 {"text": "[Welcome to OPSTAT](http://14.139.232.166/opstat/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Todd Elder](https://msu.edu/~telder/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -2980,7 +2980,7 @@
 {"text": "[Introduction to Optimization with Genetic Algorithm](https://www.kdnuggets.com/2018/03/introduction-optimization-with-genetic-algorithm.html)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[[ANOVA tutorial with links to follow](https://influentialpoints.com/Training/Fully_replicated_factorial_ANOVA_use_and_misuse.htm#:~:text=The commonest misuse of factorial,combinations are not independently replicated.)](https://influentialpoints.com/Training/Fully_replicated_factorial_ANOVA_use_and_misuse.htm#:~:text=The%20commonest%20misuse%20of%20factorial,combinations%20are%20not%20independently%20replicated.))", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## Topology Reading
+FIXME## Topology Reading
 
 {"text": "[An Intuitive Guide to Linear Algebra – BetterExplained](https://betterexplained.com/articles/linear-algebra-guide/)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Low sex drive in women - Symptoms and causes - Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/low-sex-drive-in-women/symptoms-causes/syc-20374554)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -3040,7 +3040,7 @@
 {"text": "[Homotopy group - Wikipedia](https://en.wikipedia.org/wiki/Homotopy_group)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Separation Axiom](https://en.wikipedia.org/wiki/Separation_axiom)", "type": "readingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-# Math Videos
+FIXME# Math Videos
 
 {"text": "{video} [Графы и немного алгебры](https://www.lektorium.tv/node/36694)", "type": "viewingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "{video} [Интегрирование иррациональных функций](https://vk.com/video-16108331_456267018?list=58aabbe763246eb05a)", "type": "viewingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -3048,7 +3048,7 @@
 video Comment réussir en maths ?de Yvan Monka
 {"text": "{videos} [ICERM - Video Archive](https://icerm.brown.edu/video_archive/)", "type": "viewingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## Channels
+FIXME## Channels
 
 {"text": "[3Blue1Brown](http://www.3blue1brown.com/)", "type": "ytchannel", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[weitz.de/haw-videos/](http://weitz.de/haw-videos/)", "type": "ytchannel", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -3179,7 +3179,7 @@ video Comment réussir en maths ?de Yvan Monka
 {"text": "[Wandida, EPFL](https://www.youtube.com/user/TheWandida)", "type": "ytchannel", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[video](https://www.youtube.com/results?search_query=Clara+Grima)", "type": "ytchannel", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## Topology
+FIXME## Topology
 
 {"text": "[pnp.mathematik.uni-stuttgart.de/igt/eiserm/lehre/Topolywood/](https://pnp.mathematik.uni-stuttgart.de/igt/eiserm/lehre/Topolywood/)", "type": "viewingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[Topology and Analysis - YouTube](https://www.youtube.com/playlist?list=PLAvgI3H-gclZa-DVTMyUIAxM-X8NSikwu)", "type": "viewingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -3190,7 +3190,7 @@ video Comment réussir en maths ?de Yvan Monka
 {"text": "[*Загальна топологія з самого початку - YouTube](https://www.youtube.com/playlist?list=PLmHyZ3t74VpzebfMioXRTBLDwR1EfoS--)", "type": "viewingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[*Topology & Geometry by Dr Tadashi Tokieda - YouTube](https://www.youtube.com/playlist?list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ)", "type": "viewingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-## SORT
+FIXME## SORT
 
 {"text": "[video](https://www.youtube.com/c/JoernLoviscach/playlists)", "type": "viewingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[24.5 Kurvenintegral](https://www.youtube.com/watch?v=ksOhppxvjI0&list=PLCdSoAqmwXTChkgHDg3X00ou-8LTJgyH1&index=3)", "type": "viewingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
@@ -4305,9 +4305,9 @@ Calculus Made Easy: [amzn.to/3LKcO8S](https://www.youtube.com/redirect?event=vid
 {"text": "[primes video](https://youtu.be/j5s0h42GfvM)", "type": "viewingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 {"text": "[The Story of (almost) All Numbers](https://youtu.be/ggOPJ8gafPo)", "type": "viewingAtom", "tags": ["math", "", ""], "status": "toRead", "language": ""},
 
-# Math Resources
+FIXME# Math Resources
 
-## SORT
+FIXME## SORT
 
 * [tutorial.math.lamar.edu/](https://tutorial.math.lamar.edu/)
 [$$$ * [Archives – BetterExplained](https://betterexplained.com/archives/)
@@ -4390,21 +4390,21 @@ person* [Bilim Ne Güzel Lan](http://bilimneguzellan.net/)
 * {media} [privatdozent.co/](https://www.privatdozent.co/)
 media* [Cantor’s Paradise – Medium](https://medium.com/cantors-paradise)
 
-## People
+FIXME## People
 
 Clara Löh
 
-## Publications
+FIXME## Publications
 
-### Stats
+FIXME### Stats
 
 * **Квантиль](http://quantile.ru/eng/) - econometric journal in Russian
 
-### General Math Blogs
+FIXME### General Math Blogs
 
 * [Agustinus Kristiadi's Blog](https://wiseodd.github.io/)
 
-## Meta
+FIXME## Meta
 
 * [How to Learn Advanced Mathematics Without Heading to University - Part 1 | QuantStart](https://www.quantstart.com/articles/How-to-Learn-Advanced-Mathematics-Without-Heading-to-University-Part-1)
 * [How to Learn Advanced Mathematics Without Heading to University - Part 2 | QuantStart](https://www.quantstart.com/articles/How-to-Learn-Advanced-Mathematics-Without-Heading-to-University-Part-2)
@@ -4414,7 +4414,7 @@ Clara Löh
 * [What should a professional mathematician know?](http://www.math.harvard.edu/~mazur/preprints/math_ed_2.pdf)
 * [How I Rewired My Brain to Become Fluent in Math](https://getpocket.com/explore/item/how-i-rewired-my-brain-to-become-fluent-in-math)
 
-## Vocab / Glossaries / References
+FIXME## Vocab / Glossaries / References
 
 * [MIT OCW Notes](https://github.com/juanklopper/MIT_OCW_Linear_Algebra_18_06)
 * [Glossary](http://web.mit.edu/18.06/www/Essays/glossary.pdf)
@@ -4436,13 +4436,13 @@ Clara Löh
 * [Cheat Sheet Boxes](https://www.cheatography.com/spoopyy/cheat-sheets/linear-algebra/)
 Videos / Courses
 
-## Media, Blogs
+FIXME## Media, Blogs
 
 * [Statistical Modeling, Causal Inference, and Social Science](http://andrewgelman.com/)
 * [Stats Make Me Cry](http://www.statsmakemecry.com/smmctheblog/)
 * [Jeromy Anglim's Blog: Psychology and Statistics](http://jeromyanglim.blogspot.com/)
 
-## Educational Sites
+FIXME## Educational Sites
 
 * [Khan Academy](https://www.khanacademy.org/math/linear-algebra)
 * [Khan ES](https://es.khanacademy.org/math/linear-algebra)
@@ -4451,7 +4451,7 @@ Videos / Courses
 * [Khan PT](https://pt.khanacademy.org/math/linear-algebra)
 * [MIT OCW](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/)
 
-## Cheatsheets and Topic Maps
+FIXME## Cheatsheets and Topic Maps
 
 * [Calculus Cheat Sheet (Reduced) - Notes](https://tutorial.math.lamar.edu/getfile.aspx?file=B%2C41%2CN)
 * [minireference.com/static/tutorials/linear_algebra_in_4_pages.pdf](https://minireference.com/static/tutorials/linear_algebra_in_4_pages.pdf)
@@ -4461,11 +4461,11 @@ Videos / Courses
 * [probability_cheatsheet.pdf](https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf)
 * [Probability Cheatsheet v2.0](https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/144135201565)
 
-## Tools
+FIXME## Tools
 
 * [symbolica.io/](https://symbolica.io/) - tool for symbol computing with Python, Rust, and C++ bindings
 
-## General Sites
+FIXME## General Sites
 
 * Allgemeine Seiten
 * [betterexplained.com/](https://betterexplained.com/)
@@ -4517,7 +4517,7 @@ Videos / Courses
 * [Milefoot Mathematics](http://www.milefoot.com/math/index.htm)
 * [Personal Homepage of Oswald Riemenschneider](https://www.math.uni-hamburg.de/home/riemenschneider/)
 
-### Statistics
+FIXME### Statistics
 
 * [stattrek.com/probability-distributions/hypergeometric.aspx](http://stattrek.com/probability-distributions/hypergeometric.aspx)
 * [statlect.com/](https://www.statlect.com/)
@@ -4542,14 +4542,14 @@ Videos / Courses
 * [oestatistico.com.br/](http://oestatistico.com.br/)
 * [statpop.com.br/](http://www.statpop.com.br/)
 
-## Cheatsheets
+FIXME## Cheatsheets
 
 * [observablehq.com/@petulla/explorable-linear-algebra-cheatsheet](https://observablehq.com/@petulla/explorable-linear-algebra-cheatsheet)
 * [ml-cheatsheet.readthedocs.io/en/latest/linear_algebra.html](https://ml-cheatsheet.readthedocs.io/en/latest/linear_algebra.html)
 
-## Graphing
+FIXME## Graphing
 
-### Geogebra
+FIXME### Geogebra
 
 * [Tutorial:Introduction to GeoGebraScript - GeoGebra AccueilManuel](https://wiki.geogebra.org/en/Tutorial:Introduction_to_GeoGebraScript)
 * [GeoGebra](https://dev.geogebra.org/trac)
@@ -4562,7 +4562,7 @@ Videos / Courses
 * [svn - Revision 67364: /trunk/geogebra](https://dev.geogebra.org/svn/trunk/geogebra/)
 * [3b1b styled Linear Transformation – GeoGebra](https://www.geogebra.org/m/ftFx2tfp)
 
-## To Sort
+FIXME## To Sort
 
 * [fabpedigree.com/james/mathmen.htm](http://fabpedigree.com/james/mathmen.htm)
 * [mathprofi.ru/](http://mathprofi.ru/)

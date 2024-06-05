@@ -1,4 +1,4 @@
-# Neorg
+FIXME# Neorg
 
 * [pysan3/Norg-Tutorial2](https://github.com/pysan3/Norg-Tutorial2)
 * Not yet added to notes
@@ -192,11 +192,11 @@ Docs: make from wiki using mdbook → create norgbook by adding norg support to 
 * [search?q=neorg-notes&type=repositories](https://github.com/search?q=neorg-notes&type=repositories)
 
 
-# Nwovim Configs
+FIXME# Nwovim Configs
 
 -> [dotfyle](https://dotfyle.com/neovim/configurations/top/)
 
-## Sort
+FIXME## Sort
 
 * [behansa](https://github.com/las-nish/Behansa) $$$
 * $$$ [vsedov](https://github.com/vsedov/nvim) * good python and ML setup
@@ -223,7 +223,7 @@ Docs: make from wiki using mdbook → create norgbook by adding norg support to 
 * [rebelot](https://github.com/rebelot/dotfiles)
 * [pgosar](https://github.com/pgosar/CyberNvim)
 
-## Nix configs
+FIXME## Nix configs
 
 * [nocxium](https://github.com/Nocxium/nvim-flake)
 * [jakehamilton](https://github.com/jakehamilton/neovim) * very thorough, current, quite advanced Nix features
@@ -243,9 +243,9 @@ Docs: make from wiki using mdbook → create norgbook by adding norg support to 
 * [nixpkgs NVChad](https://search.nixos.org/packages?channel=23.11&show=vimPlugins.nvchad&from=0&size=50&sort=relevance&type=packages&query=nvchad)
 * [nixpkgs LazyVim](https://search.nixos.org/packages?channel=23.11&from=0&size=50&sort=relevance&type=packages&query=lazyvim)
 
-## Lazyman Configs
+FIXME## Lazyman Configs
 
-### Base
+FIXME### Base
 
 * [Lazyman](https://lazyman.dev/info/Lazyman.html)
 * [Abstract](https://lazyman.dev/info/Abstract.html) Preconfigured Neovim as IDE (see the [Abstract website](https://abstract-ide.github.io/site/))
@@ -387,13 +387,13 @@ Docs: make from wiki using mdbook → create norgbook by adding norg support to 
 * [StartLsp](https://lazyman.dev/info/StartLsp.html) Configures the built-in LSP client with autocompletion, based on `Opinionated`
 * [StartMason](https://lazyman.dev/info/StartMason.html) Same as `StartLsp` but uses [mason.nvim](https://github.com/williamboman/mason.nvim) to install language servers
 
-## My Config
+FIXME## My Config
 
 * nvim: run commands to open program and use i3 (or other) to change position (i.e. open in new workspace, open app + change layout, etc.)
 * overarching: how to interact with i3 (and other WMs) from shell
 * snazzy colortheme for Wezterm
 
-## Config meta
+FIXME## Config meta
 
 * [nvim distro advice](https://www.reddit.com/r/neovim/comments/12gj1ku/seeking_advice_on_various_neovim_configs/)
 * [Reddit * List of all the current neovim config distributions like Lunar Vim?](https://www.reddit.com/r/neovim/comments/s0eeg3/list_of_all_the_current_neovim_config/?xpromo_edp=enabled)
@@ -418,7 +418,7 @@ Docs: make from wiki using mdbook → create norgbook by adding norg support to 
 * [ntk148v neovim-config](https://github.com/ntk148v/neovim-config) A minimal neovim configuration written in Lua
 * [nvim-lua/kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
 
-## top non-nix configs
+FIXME## top non-nix configs
 
 * [doom-nvim](https://github.com/doom-neovim/doom-nvim) [doom-neovim/doom-nvim](https://github.com/doom-neovim/doom-nvim)
 * [doom-nvim](https://github.com/Fryuni/doom-nvim)
@@ -491,7 +491,7 @@ Docs: make from wiki using mdbook → create norgbook by adding norg support to 
 * [redyf/RedVim](https://github.com/redyf/RedVim)
 * ( ) [albingroen/quick.nvim](https://github.com/albingroen/quick.nvim)
 
-## other configs
+FIXME## other configs
 
 * [dotfiles](https://github.com/abhigyanmadhukalya/dotfiles)
 * [dotfiles/tree/main/config](https://github.com/alpha2phi/dotfiles/tree/main/config)
@@ -606,7 +606,7 @@ Docs: make from wiki using mdbook → create norgbook by adding norg support to 
   * telescope.nvim
   * toggleterm.nvim
 
-## oldvim configs
+FIXME## oldvim configs
 
 * [vim-sensible.git](https://github.com/tpope/vim-sensible.git)* good for server and shared machines
 * [wolandark/wim](https://github.com/wolandark/wim)
@@ -687,7 +687,7 @@ Docs: make from wiki using mdbook → create norgbook by adding norg support to 
 *   NVIM_APPNAME=$nv_app nvim $@* }
 * # nvims* if [[ -x /usr/local/bin/nvim || -x /opt/homebrew/bin/nvim ]]; then*   nvims_config="${XDG_CACHE_HOME:-$HOME/.cache}/nvims"*   nvims_app=$(cat "$nvims_config")*   #echo "Bind Neovim to $nvims_app"*   alias vi="NVIM_APPNAME=${nvims_app} nvim"*   export EDITOR="vi"*   bindkey -s "^v" "nvims\n"* fi
 
-# in terminal input nvims and enter not a valid number: ~50 nothing selected what's wrong?* # any news on this? I do have the same error while just using nvims without any argument. Using WSL2 * bash* # I had the same error.* # Fix was to make height=50% NOT height=~50%* ```
+FIXME# in terminal input nvims and enter not a valid number: ~50 nothing selected what's wrong?* # any news on this? I do have the same error while just using nvims without any argument. Using WSL2 * bash* # I had the same error.* # Fix was to make height=50% NOT height=~50%* ```
 
 ```
 
@@ -709,85 +709,85 @@ Docs: make from wiki using mdbook → create norgbook by adding norg support to 
 * [windwp/nvim-projectconfig](https://github.com/windwp/nvim-projectconfig)
 * [martini97/project-config.nvim](https://github.com/martini97/project-config.nvim)
 
-## [GUI](https://yutkat.github.io/my-neovim-pluginlist/#gui)
+FIXME## [GUI](https://yutkat.github.io/my-neovim-pluginlist/#gui)
 
-### Typescript
+FIXME### Typescript
 
 * [smolck/uivonim](https://github.com/smolck/uivonim)
 
-### Rust
+FIXME### Rust
 
 * [Kethku/neovide](https://github.com/Kethku/neovide)
 * [Lyude/neovim-gtk](https://github.com/Lyude/neovim-gtk)
 * [beeender/glrnvim](https://github.com/beeender/glrnvim)
 * [vhakulinen/gnvim](https://github.com/vhakulinen/gnvim)
 
-### Go
+FIXME### Go
 
 * [akiyosi/goneovim](https://github.com/akiyosi/goneovim)
 
-### C++
+FIXME### C++
 
 * [RMichelsen/Nvy](https://github.com/RMichelsen/Nvy)
 * [rohit-px2/nvui](https://github.com/rohit-px2/nvui)
 * [equalsraf/neovim-qt](https://github.com/equalsraf/neovim-qt)
 
-### Clojure
+FIXME### Clojure
 
 * [jebberjeb/javafx-neovimpane](https://github.com/jebberjeb/javafx-neovimpane)
 
-### F
+FIXME### F
 
 * [yatli/fvim](https://github.com/yatli/fvim)
 
-### Lua
+FIXME### Lua
 
 * [CosmicNvim/cosmic-ui](https://github.com/CosmicNvim/cosmic-ui)
 
-### MacOS
+FIXME### MacOS
 
 * [vv-vim/vv](https://github.com/vv-vim/vv)
 * [qvacua/vimr](https://github.com/qvacua/vimr)
 
-### VS Code
+FIXME### VS Code
 
 * [asvetliakov/vscode-neovim](https://github.com/asvetliakov/vscode-neovim)
 
-### GUI library
+FIXME### GUI library
 
-#### Font size
+FIXME#### Font size
 
 * [tenxsoydev/size-matters.nvim](https://github.com/tenxsoydev/size-matters.nvim)
 * [ktunprasert/gui-font-resize.nvim](https://github.com/ktunprasert/gui-font-resize.nvim)
 
-## ?
+FIXME## ?
 
 * [BeelzebubOfGluttony/NeoAsh](https://github.com/BeelzebubOfGluttony/NeoAsh)
 
 
-# Neovim
+FIXME# Neovim
 
 * $$$ [flake-awesome-neovim-plugins](https://github.com/m15a/flake-awesome-neovim-plugins)
 
-## References
+FIXME## References
 
 Vim Reference (book)
 
-## Reading List
+FIXME## Reading List
 
 * [learnbyexample.github.io/vim_reference/Regular-Expressions.html](https://learnbyexample.github.io/vim_reference/Regular-Expressions.html)
 
-## iron.nvim Maintenance
+FIXME## iron.nvim Maintenance
 
 * [app.element.io/#/room/#iron.nvim:matrix.org](https://app.element.io/#/room/#iron.nvim:matrix.org)
 
-## Other projects
+FIXME## Other projects
 
 * [glacambre/firenvim](https://github.com/glacambre/firenvim)
 * [lucc/nvimpager](https://github.com/lucc/nvimpager)
 * [dense-analysis](https://github.com/dense-analysis)
 
-## SORT
+FIXME## SORT
 
 * [Porting Neovim to Lua](https://www.adrian.idv.hk/2022-05-07-nvim-lua/)
 *[Rust and Neovim](https://rsdlt.github.io/posts/rust-nvim-ide-guide-walkthrough-development-debug/)
@@ -1285,7 +1285,7 @@ youtube watch v m devlog                           <|> [Here we go... | Rocks De
 {youtube watch v pp 3d                              } <|> [video](https://www.youtube.com/watch?v=A9he0682AK4&pp=QAFIAQ%3D%3D)
 {youtube watch v video                              } <|> [video](https://www.youtube.com/watch?v=ZWWxwwUsPNw) Primeagen video 1
 
-## Roadmap
+FIXME## Roadmap
 
 * [ ] get all lua plugins installed and imported with nix
 * [ ] package other plugins with external dependencies
@@ -1628,7 +1628,7 @@ ricing
 * tjdevries/colorbuddy.nvim: Your color buddy for making cool neovim color schemes
 * [r/neovim/comments/14ofbar/oc_neovim_rice/](https://www.reddit.com/r/neovim/comments/14ofbar/oc_neovim_rice/)
 
-## Sort
+FIXME## Sort
 
 * [startup time](https://aliquote.org/post/lazy-nvim/)
 
@@ -1670,7 +1670,7 @@ ricing
 * [dev.to/evilcel3ri/how-i-wrote-my-first-neovim-plugin-357h](https://dev.to/evilcel3ri/how-i-wrote-my-first-neovim-plugin-357h)
 * [metakirby5/codi.vim/](https://github.com/metakirby5/codi.vim/)
 
-## Roadmap2
+FIXME## Roadmap2
 
 * [ ]  get all lua plugins installed and imported with nix
 * [ ]  package other plugins with external dependencies
@@ -1737,7 +1737,7 @@ ricing
 * [ ]  Read Mouseless book section on Neovim
 * [ ]  Read Vim book (Robbins & Hannah)- [ ]  Read through Neovim docs
 
-## PDE Features → look through [plugin list here](https://github.com/pgosar/CyberNvim/blob/main/lua/core/plugins.lua), read through entire [pgosar/CyberNvim](https://github.com/pgosar/CyberNvim)
+FIXME## PDE Features → look through [plugin list here](https://github.com/pgosar/CyberNvim/blob/main/lua/core/plugins.lua), read through entire [pgosar/CyberNvim](https://github.com/pgosar/CyberNvim)
 
 * [ ]  togglable terminal
 * [ ]  file explorer

@@ -1,4 +1,4 @@
-# GitHoarder
+FIXME# GitHoarder
 
 Alt name: Gitshare
 
@@ -6,7 +6,7 @@ Android app to easily share links to a git repo, easier and better than emailing
 
 [Android shareability](https://developer.android.com/training/sharing/receive)
 
-# Keymapping
+FIXME# Keymapping
 
 * name ideas: teclado, accordo, keycritic
 
@@ -21,7 +21,7 @@ Android app to easily share links to a git repo, easier and better than emailing
 * key [veyxov/qanata: Application aware layer switching in](https://github.com/veyxov/qanata) [kanata](https://github.com/veyxov/qanata)
 * key keymaps convo [...](https://www.reddit.com/r/neovim/s/2j96StuexD)
 
-# Tmp
+FIXME# Tmp
 
 * [NorfairKing](https://github.com/NorfairKing)
 * [medevel.com/tag/productivity/](https://medevel.com/tag/productivity/) **
@@ -263,7 +263,7 @@ Android app to easily share links to a git repo, easier and better than emailing
 * [ramnes.github.io/notion-sdk-py/](https://ramnes.github.io/notion-sdk-py/)
 * [foambubble.github.io/foam/](https://foambubble.github.io/foam/)
 
-# juventas.nvim
+FIXME# juventas.nvim
 
 * [nbqa](https://github.com/nbQA-dev/nbQA)
 * [benlubas/molten-nvim/blob/main/docs/Notebook-Setup.md](https://github.com/benlubas/molten-nvim/blob/main/docs/Notebook-Setup.md)
@@ -320,7 +320,7 @@ Android app to easily share links to a git repo, easier and better than emailing
 * [millejoh.github.io/emacs-ipython-notebook/](https://millejoh.github.io/emacs-ipython-notebook/)
 * [isaacganoung.com/articles/tutorials/jupyter-notebook-in-emacs.html](https://isaacganoung.com/articles/tutorials/jupyter-notebook-in-emacs.html)
 
-## Virtual Text
+FIXME## Virtual Text
 
 * Yes, you can add virtual text to the beginning of each line in Neovim using a plugin or by directly configuring Neovim. Here's a way to achieve this:
 * You can use the `nvim_buf_set_virtual_text()` function provided by Neovim's API to add virtual text to each line. You can invoke this function through a script or by using Neovim's built-in functions.
@@ -354,7 +354,7 @@ Android app to easily share links to a git repo, easier and better than emailing
 * To execute this script, save it as `add_notebook_cells.lua` in your Neovim configuration directory and then invoke it from your Neovim configuration file (`init.lua`) using `:luafile add_notebook_cells.lua`. This will add the notebook-style cells to all buffers currently open in Neovim.
 * Please note that virtual text added using this method is purely visual and does not affect the underlying contents of the file. Additionally, you may need to adjust the ASCII art and styling to fit your preferences and display needs.
 
-## filetype-specific keybinds
+FIXME## filetype-specific keybinds
 
 * Yes, you can define key bindings that are specific to a certain file type (filetype) in Neovim. This is useful for defining mappings or commands that are relevant only when editing files of a particular type, such as Python, Markdown, or JavaScript.
 * Here's how you can define filetype-specific key bindings in Neovim:
@@ -375,7 +375,7 @@ Android app to easily share links to a git repo, easier and better than emailing
 * By using `<buffer>` in the mapping command, you ensure that the mapping is local to the current buffer. This means that the mapping will only be active when editing a file of the specified filetype, and it won't affect other buffers.
 * You can add these mappings to your `init.vim` or `init.lua` configuration file in Neovim to define filetype-specific key bindings according to your preferences.
 
-## Question for ChatGPT
+FIXME## Question for ChatGPT
 
 * What would be the most difficult parts of developing a neovim plugin providing a neovim-native interface to Jupyer notebook (.ipynb) files?
 * Developing a Neovim plugin to provide a Neovim-native interface to Jupyter notebook (.ipynb) files could present several challenges, including:
@@ -390,16 +390,16 @@ Android app to easily share links to a git repo, easier and better than emailing
 * Juventas.nvim (jove.nvim? Giove.nvim? Iuppiter.nvim): full Jupyter notebook functionality for nvim (comparable to VSCode)
 * cat/bat for Jupyter Notebooks
 
-# NBEditor.nvim (Plugin without Code Server)
+FIXME# NBEditor.nvim (Plugin without Code Server)
 
 * start simpler: : attractive viewing of jupyter notebooks, with nice frames
 * → tricky question: how to allow editing within cell to change contents? (perhaps not the simplest idea, but certainly enlightening)
 
-# Juventas.nvim
+FIXME# Juventas.nvim
 
 * add notebooks to goneovim! or focus on wezterm (yep, probably that)
 
-# VimQTConsole - qtconsole with full vim keybindings and nvim as a backend editing server
+FIXME# VimQTConsole - qtconsole with full vim keybindings and nvim as a backend editing server
 
 * [jupyter/jupyter_console](https://www.google.com/url?q=https://github.com/jupyter/jupyter_console&sa=D&source=editors&ust=1711378556488622&usg=AOvVaw3q1vDtf6fyEQu-p-e70-w_) - [...](https://www.google.com/url?q=https://jupyter-console.readthedocs.io/en/latest/&sa=D&source=editors&ust=1711378556488849&usg=AOvVaw31rrl63oIbbF1NC7VNIqC2)[Docs](https://www.google.com/url?q=https://jupyter-console.readthedocs.io/en/latest/&sa=D&source=editors&ust=1711378556489067&usg=AOvVaw2yjTrOFvZCSeRAVWj0JRKJ)
 * [jupyter/qtconsole](https://www.google.com/url?q=https://github.com/jupyter/qtconsole&sa=D&source=editors&ust=1711378556489338&usg=AOvVaw013fqtfUD4k1GUfIc8CgBv) - [...](https://www.google.com/url?q=https://qtconsole.readthedocs.io/en/stable/index.html&sa=D&source=editors&ust=1711378556489553&usg=AOvVaw0yu7A3bpgh5LKBfhA6ZHwb)[Docs](https://www.google.com/url?q=https://qtconsole.readthedocs.io/en/stable/index.html&sa=D&source=editors&ust=1711378556489780&usg=AOvVaw0t2Z5lll7G7F1yf0PN8fXL)
@@ -410,7 +410,7 @@ Android app to easily share links to a git repo, easier and better than emailing
 * [glacambre/firenvim](https://www.google.com/url?q=https://github.com/glacambre/firenvim&sa=D&source=editors&ust=1711378556490685&usg=AOvVaw1Ze8i3BaOuiGgY8kdmfquZ) - something like this for qtconsole, but for qt instead of browser
 * [Niche Vim/Neovim Plugins. Overview | by alpha2phi | Medium](https://www.google.com/url?q=https://alpha2phi.medium.com/niche-neovim-plugins-722b34f76291&sa=D&source=editors&ust=1711378556491115&usg=AOvVaw0aufc4LSu8XZcajrli6EWN) - maybe some of these
 
-# Related Projects
+FIXME# Related Projects
 
 * [GCBallesteros/NotebookNavigator.nvim](https://www.google.com/url?q=https://github.com/GCBallesteros/NotebookNavigator.nvim&sa=D&source=editors&ust=1711378556491565&usg=AOvVaw2J-w1XlOL7CNE6bHgRunb_) (old: [...](https://www.google.com/url?q=https://www.maxwellrules.com/misc/nvim_jupyter.html&sa=D&source=editors&ust=1711378556491832&usg=AOvVaw2zXrn72PM8EM9qFzngAt-s)[Maxwell Rules - NeoVim Notebooks](https://www.google.com/url?q=https://www.maxwellrules.com/misc/nvim_jupyter.html&sa=D&source=editors&ust=1711378556492003&usg=AOvVaw2k7ufUE6Fb-Bmxx4xxFZaO))
 * [benlubas/molten-nvim](https://www.google.com/url?q=https://github.com/benlubas/molten-nvim&sa=D&source=editors&ust=1711378556492218&usg=AOvVaw1TWxLrw7D3c4CHO3Js5Fyd)
@@ -443,7 +443,7 @@ Android app to easily share links to a git repo, easier and better than emailing
 * [Reddit - Nicer jupyter notebook workflow with neovim thanks to Jupytext and mini.ai](https://www.google.com/url?q=https://www.reddit.com/r/neovim/comments/x0hf25/nicer_jupyter_notebook_workflow_with_neovim/&sa=D&source=editors&ust=1711378556499263&usg=AOvVaw0t2rLTBexNVpi8h4gKFuH2)
 * [martibosch.github.io/jupyter-emacs-universe/](https://www.google.com/url?q=https://martibosch.github.io/jupyter-emacs-universe/&sa=D&source=editors&ust=1711378556499570&usg=AOvVaw0GiTcETqWwNGaka1uqYiG1)
 
-# General Resources
+FIXME# General Resources
 
 * [GitHub - fastai/nbdev: Create delightful software with Jupyter Notebooks](https://www.google.com/url?q=https://github.com/fastai/nbdev&sa=D&source=editors&ust=1711378556500045&usg=AOvVaw2CAoFdFPvKNPkgBuSPDWXS)
 * [Related projects — xeus documentation](https://www.google.com/url?q=https://xeus.readthedocs.io/en/latest/related.html&sa=D&source=editors&ust=1711378556500316&usg=AOvVaw3aHR-JG1zAukA3AN49azW1)
@@ -453,7 +453,7 @@ Android app to easily share links to a git repo, easier and better than emailing
 * [Quarto - Tutorial: Hello, Quarto](https://www.google.com/url?q=https://quarto.org/docs/get-started/hello/neovim.html&sa=D&source=editors&ust=1711378556501427&usg=AOvVaw0aHpNTtkkPpAWrvI4svgAw)
 * [Project Jupyter | Get Involved](https://www.google.com/url?q=https://jupyter.org/community&sa=D&source=editors&ust=1711378556501702&usg=AOvVaw1EFwDrHK5wAWbshaAJcSDR)
 
-# Miscellaneous
+FIXME# Miscellaneous
 
 * [Make Docker container with all the interesting Jupyter kernels → try on](https://www.google.com/url?q=https://jupyter.org/binder&sa=D&source=editors&ust=1711378556502148&usg=AOvVaw3q-bWaCG8zYJiNSbQl42sj)
 * [I don't like notebooks.- Joel Grus (Allen Institute for Artificial Intelligence)](https://www.google.com/url?q=https://youtu.be/7jiPeIFXb6U&sa=D&source=editors&ust=1711378556502459&usg=AOvVaw1SH4n_Id93LGPsGXS90h7u)
@@ -473,13 +473,13 @@ Android app to easily share links to a git repo, easier and better than emailing
 * [...](https://www.google.com/url?q=https://youtu.be/l7zS8Ld4_iA&sa=D&source=editors&ust=1711378556508051&usg=AOvVaw1SS8TSCja2gkifpHhYJyRp)[nbdev tutorial -- zero to published project in 90 minutes](https://www.google.com/url?q=https://youtu.be/l7zS8Ld4_iA&sa=D&source=editors&ust=1711378556508236&usg=AOvVaw1i2PaFOZGzw_K8KutPSHJZ)
 * [...](https://www.google.com/url?q=https://quarto.org/docs/get-started/&sa=D&source=editors&ust=1711378556508415&usg=AOvVaw2dlKu6BG0a6_BKPjjEijT5)[quarto.org/docs/get-started/](https://www.google.com/url?q=https://quarto.org/docs/get-started/&sa=D&source=editors&ust=1711378556508593&usg=AOvVaw1R2vbCfSllMvZRhI-m5trd)- [ ]  ‣ - [...](https://www.google.com/url?q=https://nbcommands.readthedocs.io/en/latest/&sa=D&source=editors&ust=1711378556508969&usg=AOvVaw0a78GIcs55ByjHwtwKF4xz)[nbcommands.readthedocs.io/en/latest/](https://www.google.com/url?q=https://nbcommands.readthedocs.io/en/latest/&sa=D&source=editors&ust=1711378556509132&usg=AOvVaw1S9L1h4zENYRxxF6BdcFhp)
 
-## SORT
+FIXME## SORT
 
 * [paw-lu/nbpreview](https://github.com/paw-lu/nbpreview)
 
-# nbbat
+FIXME# nbbat
 
-# cat/bat for Jupyter Notebooks
+FIXME# cat/bat for Jupyter Notebooks
 
 * also make command-line notebook viewer (way to learn Go?) → catnb, batnb, just like bat for notebooks → or capy (capybara?)
 * → [faculty.ai/tech-blog/viewing-jupyter-notebooks-on-the-command-line/](https://faculty.ai/tech-blog/viewing-jupyter-notebooks-on-the-command-line/)
@@ -487,11 +487,11 @@ Android app to easily share links to a git repo, easier and better than emailing
 * → [jsvine/nbpreview](https://github.com/jsvine/nbpreview) [-](https://github.com/jsvine/nbpreview) [towardsdatascience.com/preview-your-jupyter-notebooks-in-the-terminal-with-nbpreview-87601a92d0d1](https://towardsdatascience.com/preview-your-jupyter-notebooks-in-the-terminal-with-nbpreview-87601a92d0d1)
 * → eventually extend bat?
 
-# Project 1:
+FIXME# Project 1:
 
 * - nbcat-go repo, nbcat command for simple version
 
-# Project 2: `[bat](https://github.com/sharkdp/bat)` sibling (`nbbat` or  `vampyre`)
+FIXME# Project 2: `[bat](https://github.com/sharkdp/bat)` sibling (`nbbat` or  `vampyre`)
 
 * Naming: vampyre, capybara → vampyre is better, but use capybara for something else → also pygmy, from pygmy bats
 * create cool logo - vampire (or vampire bat) superimposed on planet Jupiter? or superimposed on a notebook? or both?
@@ -506,7 +506,7 @@ Android app to easily share links to a git repo, easier and better than emailing
 * [stablediffusionweb.com/#demo](https://stablediffusionweb.com/#demo)
 * fork bat codebase, or build on top of it → or incorporate as a dependency? → maybe use as a template, use syntext and maybe markdown processing
 
-# nand2tetris
+FIXME# nand2tetris
 
 * Key Resources
 * [Nand2tetris videos](https://www.youtube.com/playlist?list=PLrDd_kMiAuNmSb-CKWQqq9oBFN_KNMTaI)
@@ -514,21 +514,21 @@ Android app to easily share links to a git repo, easier and better than emailing
 * [jack-language · GitHub Topics](https://github.com/topics/jack-language)
 * [abhaynayar/genesis: Minimal OS written in Jack.](https://github.com/abhaynayar/genesis)
 
-# Other Code Projects
+FIXME# Other Code Projects
 
 * $$$ wezterm-python-pdf-reader - write a terminal PDF reader for wezterm using python, matplotlib, and matplotlib, together with python pdf library and matplotlib-backend-wezterm
 * [neurosciencenews.com/color-perception-retinal-cells-25935/](https://neurosciencenews.com/color-perception-retinal-cells-25935/)
 * Make NLP-based automatic sorter for notes (embedding-based). Use clustering and classification, experiment with different embedding approaches.
 
-## Projects
+FIXME## Projects
 
-## Software for Projects
+FIXME## Software for Projects
 
 * ( ) [...](https://blog.superhuman.com/personal-life-dashboard/)
 * ( ) [Horizon: The OpenStack Dashboard Project — horizon 23.4.0.dev76 documentation](https://docs.openstack.org/horizon/latest/)
 * ( ) [nand2tetris](https://www.nand2tetris.org/)
 
-## Notes
+FIXME## Notes
 
 Idea: get stylus drawing / writing tablet and set it up with rnote and also with a handwriting recognition engine that I train on my handwriting, so that I can write on the pad as an alternative to typing on the keyboard.
 
@@ -763,7 +763,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [tsoding/ded: Dramatic EDitor](https://github.com/tsoding/ded)
 * [TheAlgorithms/contributor_covenant](https://github.com/TheAlgorithms/contributor_covenant)
 
-## SORT
+FIXME## SORT
 
     ```txt
     Neural Networks from Scratch in Python.pdf
@@ -873,7 +873,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [lmb.informatik.uni-freiburg.de/Publications/2015/FDB15/image_orientation.pdf](https://lmb.informatik.uni-freiburg.de/Publications/2015/FDB15/image_orientation.pdf)
 * [OpenCV: Introduction to Julia OpenCV Binding](https://docs.opencv.org/4.x/d8/da4/tutorial_julia.html)
 
-## rosetta-regex
+FIXME## rosetta-regex
 
 * [rosettacode.org/wiki/Regular_expressions](https://rosettacode.org/wiki/Regular_expressions)
 * [en.wikipedia.org/wiki/Regular_expression](https://en.wikipedia.org/wiki/Regular_expression)
@@ -890,7 +890,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [geeksforgeeks.org/regular-expressions-in-c/](https://www.geeksforgeeks.org/regular-expressions-in-c/)
 * [blog.teamtreehouse.com/regular-expressions-10-languages](https://blog.teamtreehouse.com/regular-expressions-10-languages)
 
-## [keyboard-trainer](https://github.com/yelircaasi/keyboard-trainer-cpp) 🌱
+FIXME## [keyboard-trainer](https://github.com/yelircaasi/keyboard-trainer-cpp) 🌱
 
 * C/C++ typing test (first character→key mappings)
 * [Learning Scripts & Keyboards](https://docs.google.com/spreadsheets/d/1T_qAG4raIhJYq1mlgJCH8TN-ZNcUl9RM-p4a0aVh5EU/edit?usp=sharing)
@@ -900,7 +900,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [jrnxf/thokr](https://github.com/jrnxf/thokr)
 * [max-niederman/ttyper](https://github.com/max-niederman/ttyper)
 
-### Components
+FIXME### Components
 
 * 1) Scripts
 * Latin (accessible from U.S. Intl.)
@@ -922,7 +922,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * Guake
 * Generic Terminal
 
-### References
+FIXME### References
 
 * [doc.qt.io/](https://doc.qt.io/)
 * [gtk.org/](https://www.gtk.org/)
@@ -931,11 +931,11 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [stackoverflow.com/questions/29335758/using-kbhit-and-getch-on-linux](https://stackoverflow.com/questions/29335758/using-kbhit-and-getch-on-linux)
 * [javascript - Detect pressed modifier keys without triggering keyboard or mouse events - Stack Overflow](https://stackoverflow.com/questions/22086059/detect-pressed-modifier-keys-without-triggering-keyboard-or-mouse-events)
 
-## Android App
+FIXME## Android App
 
 * Design: to-do list with routine lists, scheduler, and corresponding notifications
 
-### Page structure
+FIXME### Page structure
 
 * Day
   * Morning Routine
@@ -953,7 +953,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * Planner
 * Record of accomplishments
 
-### Features
+FIXME### Features
 
 * Notifications
   * start/stop
@@ -966,7 +966,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
   * score over time
   * statistics for routine items
 
-### Operations
+FIXME### Operations
 
 * Schedule Item → add to Planner
 * Move Item
@@ -980,7 +980,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
   * pull forward in time
   * switch items
 
-## Reading
+FIXME## Reading
 
 * [ ]  [developer.android.com/guide/components/fundamentals](https://developer.android.com/guide/components/fundamentals)
 * [ ]  [developer.android.com/guide](https://developer.android.com/guide)
@@ -1008,9 +1008,9 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [ ]  [JonasWanke/com.jonaswanke.calendar](https://github.com/JonasWanke/com.jonaswanke.calendar)
 * [ ]
 
-### Steps
+FIXME### Steps
 
-### Extensions
+FIXME### Extensions
 
 * pomodoro-style timer
 * Integration with some external service, such as Notion or Google
@@ -1023,9 +1023,9 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [zapier.com/platform/partner-program](https://zapier.com/platform/partner-program)
 * [zapier.com/apps/google-sheets/integrations/webhook](https://zapier.com/apps/google-sheets/integrations/webhook)
 
-## [Proofs Book](...)
+FIXME## [Proofs Book](...)
 
-## Other
+FIXME## Other
 
 * Missing Semester 🌱
 * TensorFlow Certification (with Jesse)
@@ -1066,7 +1066,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
   * Nim
   * Tcl
 
-## hosted if-then game web app
+FIXME## hosted if-then game web app
 
 * Idea: use Genie.jl to host an if-then application on a Raspberry Pi
 * → [google.com/search?q=code your own jackbox](https://www.google.com/search?q=code%20your%20own%20jackbox&ie=utf-8&oe=utf-8&client=firefox-b-m)
@@ -1103,7 +1103,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * neural-image-processing-cheatsheet
 * [ ]  create
 
-## Trip Planner app (with Jesse) 🌱
+FIXME## Trip Planner app (with Jesse) 🌱
 
 * messages with Jesse:
 * [ ]  identify key inputs first; worry about getting them later via API
@@ -1134,7 +1134,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [ ]  PyTorch and TensorFlow pocket references - create spreadsheet of functionalities & corresponding snippets
 * [ ]  multiple code options ← D2L book source
 
-## algorithms (Beautiful Algorithms - Julia) 🌱
+FIXME## algorithms (Beautiful Algorithms - Julia) 🌱
 
 * learning-programming-languages 🌱
 * Code Deep Dives 🌱
@@ -1185,7 +1185,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * language-learning 🌱
 * cpp-machine-learning 🌱
 
-## Proverbs Project 🌱
+FIXME## Proverbs Project 🌱
 
 * → see also CLSEC, child project of Wiktionary4LL
 * [Polyglot Phraseological Database](https://docs.google.com/spreadsheets/d/1HYEgCsnmjhulEnM7tq53AV7IrRbYhFcUnfjAp0cCAGI/edit?usp=sharing)
@@ -1278,12 +1278,12 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * Combine WordNet and NSM with my own syntax to create paremiological (ontology and semrel set) markup language
 * [academia.edu/22245450/THE_METHODOLOGICAL_ASPECTS_OF_A_ROMANIAN_ENGLISH_CONTRASTIVE_COLLECTION_OF_FOOD_IDIOMS_AND_PROVERBS](https://www.academia.edu/22245450/THE_METHODOLOGICAL_ASPECTS_OF_A_ROMANIAN_ENGLISH_CONTRASTIVE_COLLECTION_OF_FOOD_IDIOMS_AND_PROVERBS)
 
-## RLCard
+FIXME## RLCard
 
 * [RLCard: A Toolkit for Reinforcement Learning in Card Games – arXiv Vanity](https://www.arxiv-vanity.com/papers/1910.04376/)
 * [Development — RLcard 0.0.1 documentation](https://rlcard.org/development.html#adding-new-environments)
 
-## “philosophers and philosophies on the issues”
+FIXME## “philosophers and philosophies on the issues”
 
     → automated search and question answering
 
@@ -1293,19 +1293,19 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 
     → also interesting to do by hand / with a hybrid approach
 
-## Book idea: Ancient Greek through the Stoics; Latin through the Stoics (or GR and LA in one book)
+FIXME## Book idea: Ancient Greek through the Stoics; Latin through the Stoics (or GR and LA in one book)
 
-## Sheet Music Player: OCR for scanned sheet music, audio generation (MIDI as intermediate?)
+FIXME## Sheet Music Player: OCR for scanned sheet music, audio generation (MIDI as intermediate?)
 
-## Other Projects 🌱
+FIXME## Other Projects 🌱
 
-## rl-games
+FIXME## rl-games
 
-### Projects Links
+FIXME### Projects Links
 
 * [ ]  [Drive link](https://drive.google.com/drive/folders/16RpQL0XysyuoJbsrwiZntbL1coD8CigE?usp=sharing)
 
-### Brainstorming
+FIXME### Brainstorming
 
 * → use evolutionary algorithm?
 * → combine RL and evolutionary algorithm?
@@ -1331,7 +1331,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 
         — another option: $f(\textbf{c}) \in \{0,1\}^{211}$: card score distribution ← (surplus tricks, size 2k+1, cards in my hand, probability of cards still being out there, position in queue, cards already played) → dimensionality 2k+1+60+60+4+60 = 2k+185 → add number still wanted by each opponent
 
-### References for RLCard
+FIXME### References for RLCard
 
 * [datamllab/rlcard](https://github.com/datamllab/rlcard) —> should contribute to as well
 * [medium.com/applied-data-science/how-to-train-ai-agents-to-play-multiplayer-games-using-self-play-deep-reinforcement-learning-247d0b440717](https://medium.com/applied-data-science/how-to-train-ai-agents-to-play-multiplayer-games-using-self-play-deep-reinforcement-learning-247d0b440717)
@@ -1355,9 +1355,9 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [ai.stackexchange.com/questions/17942/how-to-represent-a-state-in-a-card-game-environment-wizard](https://ai.stackexchange.com/questions/17942/how-to-represent-a-state-in-a-card-game-environment-wizard)
 * ?? [Towards Modern Card Games with Large-Scale Action Spaces Through Action Representation](https://arxiv.org/pdf/2206.12700.pdf)
 
-### Games
+FIXME### Games
 
-#### wizard
+FIXME#### wizard
 
 * model for each round: jester, wizard, trump, color A, color B, color C → how to achieve interchangeability between non-trump colors? will it learn this automatically if colors are assigned randomly to letters?
 * states:
@@ -1373,41 +1373,41 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * Probability that each player can beat each card
 * Probability that each player wants to beat each card
 
-#### blackjack
+FIXME#### blackjack
 
-#### bridge
+FIXME#### bridge
 
-#### canasta
+FIXME#### canasta
 
-#### codenames
+FIXME#### codenames
 
-#### haiclue
+FIXME#### haiclue
 
-#### hanabi
+FIXME#### hanabi
 
-#### lucky_numbers
+FIXME#### lucky_numbers
 
-#### mastermind
+FIXME#### mastermind
 
-#### poker
+FIXME#### poker
 
-#### rook
+FIXME#### rook
 
-#### rush_hour
+FIXME#### rush_hour
 
-#### scum
+FIXME#### scum
 
-#### skyjo
+FIXME#### skyjo
 
-#### stratego
+FIXME#### stratego
 
-#### sushigo
+FIXME#### sushigo
 
-#### ticket_to_ride
+FIXME#### ticket_to_ride
 
-#### whist
+FIXME#### whist
 
-## Daily Prophet 🌱
+FIXME## Daily Prophet 🌱
 
 * [hackaday.com/2021/10/29/muggle-uses-e-paper-for-daily-prophet-replica/](https://hackaday.com/2021/10/29/muggle-uses-e-paper-for-daily-prophet-replica/)
 * [deeptronix.wordpress.com/2020/09/02/a-proper-harry-potter-newspaper-irl/](https://deeptronix.wordpress.com/2020/09/02/a-proper-harry-potter-newspaper-irl/)
@@ -1803,7 +1803,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [libsdl.org/release/SDL-1.2.15/docs/html/guideinputkeyboard.html](https://www.libsdl.org/release/SDL-1.2.15/docs/html/guideinputkeyboard.html)
 * [nist.gov/itl/ssd/software-quality-group/safer-languages](https://www.nist.gov/itl/ssd/software-quality-group/safer-languages)
 
-## my projects
+FIXME## my projects
 
 * [makeuseof.com/set-up-raspberry-pi-as-server/](https://www.makeuseof.com/set-up-raspberry-pi-as-server/)
 * [toptal.com/raspberry-pi/how-to-turn-your-raspberry-pi-into-a-development-server](https://www.toptal.com/raspberry-pi/how-to-turn-your-raspberry-pi-into-a-development-server)
@@ -1911,9 +1911,9 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * Build nix tool for checking if hashes are up-to-date, updating them, outputting (json, etc.) a document of all installed packages, all config files, etc
 * nvim tool for more easily and intelligently navigating a nix directory -> use nixel or rnix-parser (name: nixjump? nixnav?)
 
-# Polyglot Toolkit
+FIXME# Polyglot Toolkit
 
-### PolyglotToolkit
+FIXME### PolyglotToolkit
 
 * Reader features (browser-based?) for parellel text, interlineator, etc.: make reference-languuage small and faint (and customizable) or togglable to make it easier to focus on the target language
 
@@ -1925,13 +1925,13 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 ```
 * other PolyglotToolkit Projects: translation-trainer: use tatoeba or supplied parallel text (optimally with multiple translations), compute metrics, show diff, display dashboard, etc.language utility (pre-processor) packages, esp for Arabic, Ancient Greek, ChineseAlignment Tool(s)make GUI tool (or nvim plugin) for manual sentence/word alignmentCLI for viewing parallel texts in the terminalVocalizer: add diacritics to language (seq2seq package) - for arabic, hebrew, ancient greek, latin (with macros → [Alatius/latin-macronizer),](https://github.com/Alatius/latin-macronizer),) [ictibus.blogspot.com/,](http://ictibus.blogspot.com/,) [ilovegooglebooks.blogspot.com/search/label/macrons,](http://ilovegooglebooks.blogspot.com/search/label/macrons,) russian → [russiangram.com/,](https://russiangram.com/,) easy test case for training data, ukrainianLatin error detector: fix wrong endings → right architecture for finding single location (here error) in a sequenceMaybe start with Ancient Greek diacritics: easy data, learnable objectiveuse PoS tagging, Wiktionary word info (via Wiktionary tool) → later dependency parsing?
 
-## Expression Translation Tables (→ Multi-Word Expression Project, Proverbs Project)
+FIXME## Expression Translation Tables (→ Multi-Word Expression Project, Proverbs Project)
 
 * [en.wiktionary.org/wiki/Category:Multiword_terms_by_language](https://en.wiktionary.org/wiki/Category:Multiword_terms_by_language)
 
-## Parallel Text Aligner
+FIXME## Parallel Text Aligner
 
-# Parallel Text Alignment (and Formatting)
+FIXME# Parallel Text Alignment (and Formatting)
 
 * [yelircaasi/parallel-text-aligner](https://github.com/yelircaasi/parallel-text-aligner)
 * [yelircaasi/parallel-text-finisher](https://github.com/yelircaasi/parallel-text-finisher)
@@ -2011,7 +2011,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
     Supervised Mover s Distance [google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjN8dyrmYL-AhXP-6QKHXaoBAoQFnoECAYQAQ&url=https%3A%2F%2Fpeerj.com%2Fpreprints%2F26847.pdf&usg=AOvVaw0U0yhoLXnJ1lxl0sbmIRCp](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjN8dyrmYL-AhXP-6QKHXaoBAoQFnoECAYQAQ&url=https%3A%2F%2Fpeerj.com%2Fpreprints%2F26847.pdf&usg=AOvVaw0U0yhoLXnJ1lxl0sbmIRCp)
 * [Massively Multilingual Document Alignment with Cross-lingualSentence-Mover’s Distance](https://youtu.be/0GmRL4rj_dA)
 
-## Roadmap
+FIXME## Roadmap
 
 * [x]  Find good text sources
 * [x]  Open a .txt file in Julia
@@ -2132,7 +2132,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [ ]  how do namespaces work in Julia?
 * [ ]  read about Julia plotting libraries
 
-## Architecture
+FIXME## Architecture
 
 * 1. Text input methods
 * 2. Text tokenization
@@ -2141,7 +2141,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * 5. Formatting options for LaTeX (choice between manual / YAML file)
 * 6. LaTeX compilation and outpu
 
-## Tech Stack
+FIXME## Tech Stack
 
 * Julia
 
@@ -2157,7 +2157,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 
     → how to host?
 
-## Text Sources
+FIXME## Text Sources
 
 * [gutenberg.org/](https://www.gutenberg.org/)
 * [en.wikisource.org/wiki/Main_Page](https://en.wikisource.org/wiki/Main_Page)
@@ -2165,7 +2165,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [fb2bookfree.com/](https://fb2bookfree.com/)
 * [archive.org/](https://archive.org/) (good for imperfect texts, OCR, etc.)
 
-## Preprocessing
+FIXME## Preprocessing
 
 * Input formats:
 * .txt
@@ -2180,7 +2180,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * Tokenization at each level given above → see [WordTokenizers.jl](https://www.theoj.org/joss-papers/joss.01956/10.21105.joss.01956.pdf) for sentence and word level; use regex and pattern recognition for others
 * Data structure:
 
-## Bitext Alignment Component
+FIXME## Bitext Alignment Component
 
 * Data structures:
 * text segment structures: string array?
@@ -2242,7 +2242,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * Modules
 * Noiser: take clean and aligned texts (alignment data structure) and add noise, split some segments, combine some segments, to imitate look of Wiktionary or Project Gutenberg, etc. formats → input to training algorithms, with ground truth available (use break point tags to keep track of equivalences → one set for each version, clean and noisy, and in master data structure both)
 
-### Relevant Algorithms
+FIXME### Relevant Algorithms
 
 * 1. Beam Search (adapted to bitex alignment
 * 2. Anchor point seeded beam search
@@ -2258,7 +2258,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * 3. anchor traversal: once p reliable good anchors are found (scores above a pre-determined threshold), reduce search space to feasible paths between anchors → algorithm to compute permissible paths / re-compute diagonals
 * 4.
 
-## Extensions
+FIXME## Extensions
 
 * juxtalinear LaTeX generator
 * interlinear LaTeX generator
@@ -2870,7 +2870,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [search?q=word+alignment&type=Repositories](https://github.com/search?q=word+alignment&type=Repositories)
 * [Text Technology Project - Hojas de cálculo de Google](https://docs.google.com/spreadsheets/d/1U0VKGtTF4XOXSPsnb8SFIP5z87IOiDTcwSgDv_SUQww/edit#gid=2056055344)
 
-# Notes
+FIXME# Notes
 
 * alignment rules: U{1:n} from both directions? blocks allowed? unaligned words also allowed?
 
@@ -3111,9 +3111,9 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 
     adjective-like
 
-## Parallel Text Finisher
+FIXME## Parallel Text Finisher
 
-# parallel-text-finisher
+FIXME# parallel-text-finisher
 
 * Create (in Go?) an interlinear LaTeX generator, easily configurable. → learn Go, see about OOP-like constructs, templating, string manipulations, etc.
 * look at source of taskwarrior search filtering
@@ -3123,9 +3123,9 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * Parallel text flutter app (or other cross-platform app, such as Doxius)
 * how to make hover effects?: word/span highlight → highlight aligned words in corresponding sentence(s)
 
-## WiktionaryTool.jl
+FIXME## WiktionaryTool.jl
 
-# WiktionaryTool.jl 🌱
+FIXME# WiktionaryTool.jl 🌱
 
 * [yelircaasi/wiktionary-etymology-tool](https://github.com/yelircaasi/wiktionary-etymology-tool)
 * Language Candidates
@@ -3285,14 +3285,14 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [JuliaLang/Example.jl](https://github.com/JuliaLang/Example.jl) [JuliaLang/METADATA.jl/issues](https://github.com/JuliaLang/METADATA.jl/issues) [tobanwiebe.com/blog/2016/08/julia-packaging](https://tobanwiebe.com/blog/2016/08/julia-packaging)
 * [stackoverflow.com/questions/59825336/how-can-i-do-web-scraping-in-julia](https://stackoverflow.com/questions/59825336/how-can-i-do-web-scraping-in-julia)
 
-## Grecromancer
+FIXME## Grecromancer
 
-## grecromancer (Classics TTS)
+FIXME## grecromancer (Classics TTS)
 
 * Name ideas: GrecRomancer (from Necromancer
 * To do: Divide into smaller sub-projects.
 
-### Data Ideas
+FIXME### Data Ideas
 
 * Align at word level by pre-trained ASR:
 * get output or intermediate output in another language (Italian for Latin, Italian / Modern Greek / Russian for Greek)
@@ -3303,13 +3303,13 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
   * forced alignment → look into off-the-shelf
 * using the time stamps for each word (ideally with both loose and tight to put bounds on estimate of temporal location of word), create different permutations
 
-### IP Concerns
+FIXME### IP Concerns
 
 * 1. learn about relevant IP law and legal precedent
 * 2. decide whether to contact and collaborate with relevant speakers
 * → after impressive samples have been generated?
 
-### Resources
+FIXME### Resources
 
 * [Valerio Velardo - The Sound of AI](https://www.youtube.com/@ValerioVelardoTheSoundofAI/playlists)
 * [Digital speech processing](https://www.youtube.com/playlist?list=PLvv3PyiCcNrFuT7CEIvIr4a4g4orascx3)
@@ -3410,14 +3410,14 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [What Classical Attic ACTUALLY sounded like 🤯 Vulgar Attic pronunciation (English & Latin subtitles) - YouTube](https://www.youtube.com/watch?v=TBIZ2WRfAgY)
 * [Introducing Voicebox: The Most Versatile AI for Speech Generation | Meta](https://about.fb.com/news/2023/06/introducing-voicebox-ai-for-speech-generation/)
 
-### Podium Arts
+FIXME### Podium Arts
 
-# Podium Arts
+FIXME# Podium Arts
 
 * [ancientgreek.eu/](https://ancientgreek.eu/)
 * [video](https://www.youtube.com/@Podium-arts)
 
-# YouTube
+FIXME# YouTube
 
 * 1. [Apology of Socrates, by Xenophon](https://www.youtube.com/watch?v=YGITyNb4CUo)
 * 2. [Aristotelian Physiognomics (reconstr. Ancient Attic Greek pronunciation)](https://www.youtube.com/watch?v=R92kiYZVXY0)
@@ -3489,7 +3489,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * 68. [Callimachus 2 in reconstructed ancient Greek pronunciation](https://www.youtube.com/watch?v=UXmpHKTuGGM)
 * 69. [Theogony 1-21 spoken in reconstructed Ancient Greek](https://www.youtube.com/watch?v=WjgnVvI1H7g)
 
-## Audiobooks in spoken Ancient Greek Language
+FIXME## Audiobooks in spoken Ancient Greek Language
 
 * [HIPPOCRATES the Medical Oath](https://ancientgreek.eu/free/oath.html) 4 / 0
 * [BERESFORD & DOUGLAS A First Greek Reader](https://ancientgreek.eu/edu/first-greek-reader.html) 106 / -
@@ -3549,9 +3549,9 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 
      ([ARISTOTLE *Nicomachean Ethics 01](https://ancientgreek.eu/#))*
 
-## Latinitium
+FIXME## Latinitium
 
-# Latinitium
+FIXME# Latinitium
 
 * [latinitium.com/category/2000-years-of-latin-prose/](https://latinitium.com/category/2000-years-of-latin-prose/)
 * [video](https://www.youtube.com/@Latinitium)
@@ -3563,7 +3563,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [store.latinitium.com/products/ritchie-s-fabulae-faciles-audiobook](https://store.latinitium.com/products/ritchie-s-fabulae-faciles-audiobook) (152 / 16)
 * → 1413 / 126 (23.5h)
 
-# [latinitium.com/latin-audio-archive](https://latinitium.com/latin-audio-archive)
+FIXME# [latinitium.com/latin-audio-archive](https://latinitium.com/latin-audio-archive)
 
 * [The Story Of Androclus And The Lion](https://latinitium.com/latin-audio-archive#The_Story_Of_Androclus_And_The_Lion)
 * [The Story Of Perseus Part 2 – Latin Texts](https://latinitium.com/latin-audio-archive#The_Story_Of_Perseus_Part_2_Latin_Texts)
@@ -3607,31 +3607,31 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [Why Pliny wants to be like Spurinna](https://latinitium.com/latin-audio-archive#Why_Pliny_wants_to_be_like_Spurinna)
 * [What did Cicero Feel Going into Exile?](https://latinitium.com/latin-audio-archive#What_did_Cicero_Feel_Going_into_Exile)
 
-### Latinum
+FIXME### Latinum
 
-# Latinum
+FIXME# Latinum
 
 * [patreon.com/posts/download-8843692](https://www.patreon.com/posts/download-8843692)
 
-## # interlineator
+FIXME## # interlineator
 
 * toolkit to create interlinear and juxtalinear annotations - especially for grammatical and phonetic glosses
 * toolkit for generating linguistic annotations (interlinear, juxtalinear, hover, etc.)
 * option to only gloss words under a certain frequency, or not contained in a certain list
 
-## # henry-higgins
+FIXME## # henry-higgins
 
 * A) Constrastive audio visualization (user vs target), normalizing for speed and pitch, also aligning to transcription and to each other
 * B) Convolutional (+ attention?) binary classifier native vs non-native, good for visualization, esp. in frequency domain, but also in time domain
 * → look at how to visualize activations and attention alignments
 
-## Resources
+FIXME## Resources
 
 * [Exploring Phoneme-Level Speech Representations for End-to-End Speech Translation](https://esalesky.github.io/assets/pdf/acl19_exploring.pdf)
 * Allosaurus → enhance and fine-tune, use in articulatory feedback??
 * [Phoneme-to-Audio Alignment with Recurrent Neural Networks for Speaking and Singing Voice](https://hal.science/hal-03552964/file/1676anav.pdf)
 
-## Considerations
+FIXME## Considerations
 
 * make as a plugin to Praat? or similar, but with a more polished interface?
 * [apps.kde.org/artikulate/](https://apps.kde.org/artikulate/)
@@ -3658,11 +3658,11 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 
     use PoS tagging, Wiktionary word info (via Wiktionary tool) → later dependency parsing?
 
-## Expression Translation Tables (→ Multi-Word Expression Project, Proverbs Project)
+FIXME## Expression Translation Tables (→ Multi-Word Expression Project, Proverbs Project)
 
 * [en.wiktionary.org/wiki/Category:Multiword_terms_by_language](https://en.wiktionary.org/wiki/Category:Multiword_terms_by_language)
 
-# Projects
+FIXME# Projects
 
 -> mypyc compilation (static?) codon? -> check licenses
 * bw CLI (bitwarden)
@@ -3721,14 +3721,14 @@ clockodo [clockodo api](https://www.clockodo.com/en/api/entries/)
 \-> other candidates: cython, codon, Kotlin native, Rust, safe subset of C or Cpp, Ocaml, Haskell, Go
 * Write LLM overview, with maybe 5 versions, differing in complexity and required background
 
-# Personal Website 🌱
+FIXME# Personal Website 🌱
 
-## Hosting
+FIXME## Hosting
 
 * Want something better than Hostinger
 * [hpanel.hostinger.com/hosting/isaacrriley.com/](https://hpanel.hostinger.com/hosting/isaacrriley.com/)
 
-## Structure
+FIXME## Structure
 
 * About Me
 * [ ]
@@ -3751,14 +3751,14 @@ clockodo [clockodo api](https://www.clockodo.com/en/api/entries/)
             * → button to change color scheme for different views corresponding to characteristics/history: paradigm(s), genealogy, application area, language features
 * Study Notes (port from LaTeX versions)
 
-## Learning
+FIXME## Learning
 
 * [ ]  [Build and deploy a portfolio website [Full Tutorial Course]](https://www.youtube.com/watch?v=_xkSvufmjEs)- [ ]  look at all examples in list of personal websites
 * [ ]  read [codingflicks.com/2020/08/simple-website-design-using-html-and-css.html](https://www.codingflicks.com/2020/08/simple-website-design-using-html-and-css.html)
 * [ ]  look at web books for notes
 * [ ]  look into mathjax, hugo, jekyll, and [unbuch](https://github.com/mrtzh/unbuch) for static site generation
 
-## My Site
+FIXME## My Site
 
 * [strapdownjs.com](https://strapdownjs.com/)
 * [yelircaasi.github.io/](https://yelircaasi.github.io/)
@@ -3777,7 +3777,7 @@ clockodo [clockodo api](https://www.clockodo.com/en/api/entries/)
 * [RyanFitzgerald/devportfolio](https://github.com/RyanFitzgerald/devportfolio)
 * [ashutosh1919/masterPortfolio](https://github.com/ashutosh1919/masterPortfolio)
 
-## Blogging
+FIXME## Blogging
 
 * [cms - Multilingual blogging platform - Software Recommendations Stack Exchange](https://softwarerecs.stackexchange.com/questions/7519/multilingual-blogging-platform)
 * [Create a site - Sites Help](https://support.google.com/sites/answer/98081?hl=en)
@@ -3791,7 +3791,7 @@ clockodo [clockodo api](https://www.clockodo.com/en/api/entries/)
 * [Welcome | Flask (A Python Microframework)
 * [Your stories](https://medium.com/me/stories/drafts)
 
-## Writing
+FIXME## Writing
 
 * [D2L for Reference (esp. code language tabs)](https://github.com/d2l-ai/d2l-en/blob/master/chapter_appendix-mathematics-for-deep-learning/information-theory.md)
 * [A Guide to Creating and Hosting a Personal Website on GitHub | Jonathan McGlone | Librarian, Front-End Developer, Digital Publisher, Project Manager, Music Enthusiast, Web Noodler.](http://jmcglone.com/guides/github-pages/)
@@ -3806,7 +3806,7 @@ clockodo [clockodo api](https://www.clockodo.com/en/api/entries/)
 * [Bookish (typesetting conversion library):](https://github.com/parrt/bookish)
 * [**Write for Towards Data Science - Towards Data Science](https://towardsdatascience.com/questions-96667b06af5)
 
-# proglang table
+FIXME# proglang table
 
 * [item_synchronizer](https://github.com/bergercookie/item_synchronizer)
 * [example of semantic diff](https://github.com/Ekleog/todiff) - look at algorithms and implementations in src
@@ -3854,7 +3854,7 @@ clockodo [clockodo api](https://www.clockodo.com/en/api/entries/)
 * [phoenixframework.org/](https://www.phoenixframework.org/)
 * [orgs/alpha2phi/repositories](https://github.com/orgs/alpha2phi/repositories)
 
-# [Minimal Working Examples](https://docs.google.com/spreadsheets/d/1hzRM9NpjLdlBnZmU2H2UTX_eWDRXf9jujuw61ov9Yso/edit?usp=sharing) 🌱
+FIXME# [Minimal Working Examples](https://docs.google.com/spreadsheets/d/1hzRM9NpjLdlBnZmU2H2UTX_eWDRXf9jujuw61ov9Yso/edit?usp=sharing) 🌱
 
 -> Add "Build Your Own Lisp" to Rosetta Projects
 
@@ -4071,7 +4071,7 @@ https://github.com/marvincolgin/data-structures-and-algorithms
 * Knapsack Problem
 * HackerRank Language Proficienc
 
-## C
+FIXME## C
 
 * "Hello World!" in C
 * Playing With Characters
@@ -4099,7 +4099,7 @@ https://github.com/marvincolgin/data-structures-and-algorithms
 * Post Transition
 * Structuring the Document
 
-## C++
+FIXME## C++
 
 * Say "Hello, World!" With C++
 * Input and Output
@@ -4145,7 +4145,7 @@ https://github.com/marvincolgin/data-structures-and-algorithms
 * C++ Variadics
 * Bit Array
 
-## Java
+FIXME## Java
 
 * Welcome to Java!
 * Java Stdin and Stdout I
@@ -4211,7 +4211,7 @@ https://github.com/marvincolgin/data-structures-and-algorithms
 * Java MD5
 * Java SHA-256
 
-## Python
+FIXME## Python
 
 * Say "Hello, World!" With Python
 * Python If-Else
@@ -4328,7 +4328,7 @@ https://github.com/marvincolgin/data-structures-and-algorithms
 * Polynomials
 * Linear Algebra
 
-## Bash Linux
+FIXME## Bash Linux
 
 * Let's Echo
 * Looping and Skipping
@@ -4395,7 +4395,7 @@ https://github.com/marvincolgin/data-structures-and-algorithms
 * Awk' - 1
 * Awk' - 2
 
-## Functional Programming
+FIXME## Functional Programming
 
 * Solve Me First FP
 * Hello World
@@ -4567,7 +4567,7 @@ https://github.com/marvincolgin/data-structures-and-algorithms
 * [proglib.io/p/40-proektov-na-python-dlya-novichkov-i-prodvinutyh-razrabotchikov-2022-05-13](https://proglib.io/p/40-proektov-na-python-dlya-novichkov-i-prodvinutyh-razrabotchikov-2022-05-13)
 * [danistefanovic/build-your-own-x](https://github.com/danistefanovic/build-your-own-x)
 
-## ML → See sklearn docs
+FIXME## ML → See sklearn docs
 
 * rosetta-projects: incorporate Modern C++ Challenge
 * rosetta-projects: also use Go by Example and Haskell by Example
@@ -4604,7 +4604,7 @@ https://github.com/marvincolgin/data-structures-and-algorithms
 * [examples.raku.org/index.html](https://examples.raku.org/index.html)
 * [yrwq/ccc](https://github.com/yrwq/ccc) - good parallel code project - add similar thing!
 
-## Tree
+FIXME## Tree
 
 -> also make it take and output JSON, YAML, lists of paths (with different separators)
 

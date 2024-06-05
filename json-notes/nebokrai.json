@@ -1,4 +1,4 @@
-# Nebokrai Notes
+FIXME# Nebokrai Notes
 
 https://github.com/phase1geo/Minder
 https://rednotebook.app/
@@ -8,7 +8,7 @@ https://github.com/saccarosium/shell-velocity
 https://github.com/hovancik/stretchly (glean)
 https://tetr.app/
 
-## General
+FIXME## General
 
 Ideal system:
 
@@ -25,7 +25,7 @@ Ideal system:
 * minimal cognitive overhead -> maximal focus and flow
 * informative feedback via diffs: planned|scheduled vs actual, prior plan vs updated plan, goal vs actual, goal vs updated goal
 
-### System Bridge
+FIXME### System Bridge
 
 Write CLI/TUI, probably in Rust, to connect all tools I use as part of my personal organization system.
 
@@ -42,7 +42,7 @@ Name ideas:
 
 Maybe prototype in Bash, Python, or Julia.
 
-### Nebokrai Overview
+FIXME### Nebokrai Overview
 
 * make signal-based or matrix-based apps for sending links to myself without email or notion → or use email client? XMPP, Matrix, SMTP, POP3, IMAP, IRC
 * CLI “Digital Assistant”
@@ -125,7 +125,7 @@ Maybe prototype in Bash, Python, or Julia.
 * routines, projects, and settings as input, schedule & summary statistics as output
 * schedule + tracking as input → log and performance metrics as output
 
-### Miscellaneous Ideas, Brainstorming
+FIXME### Miscellaneous Ideas, Brainstorming
 
 * read [this](https://cf020031308.github.io/blog/a-brief-history-of-my-task-management/)
 
@@ -145,7 +145,7 @@ Maybe prototype in Bash, Python, or Julia.
 * IRC?
 * learn about plugin architecture - neovim, qutebrowser, anki, qtile, xplr, emacs, awesome, hilbish, vim, wezterm, kitty, other lua-configurable apps, etc
 
-#### Feature Ideas
+FIXME#### Feature Ideas
 
 * ( ) Gantt chart (from Roadmaps spreadsheet)
 * ( ) support for different roadmaps, zipped together
@@ -175,7 +175,7 @@ Maybe prototype in Bash, Python, or Julia.
 * ( ) Calendar
 * ( ) Correspondence between all components
 
-### Theory and Best Practices
+FIXME### Theory and Best Practices
 
 * CODE Framework
   * C (Capture)
@@ -199,7 +199,7 @@ Here are some best practices for planning, organizing, and tracking your time:
 Remember, finding a system that works for you may take some trial and error. Experiment with different tools and techniques until you find what works best for you.
 ```
 
-### Naming Ideas
+FIXME### Naming Ideas
 
 * ganttstopme
 * ganttstopmenow
@@ -214,7 +214,7 @@ Remember, finding a system that works for you may take some trial and error. Exp
 * roadmapper
 * scrumbag
 
-## Entities
+FIXME## Entities
 
 * old: Entity Types
   * roadmap: a 'master plan' for some area such as "Rust programing language" or "muscular flexibility" involving multiple steps or projects
@@ -235,11 +235,11 @@ class AdjustmentType(Enum):
     DISPLACE = 5  #
 ```
 
-### Approach to Hierarchical Organization
+FIXME### Approach to Hierarchical Organization
 
 Switch fom Roadmaps::Project::Task hierarchy to Project::Task; use tags for organizing projects and tasks.
 
-### Tasks
+FIXME### Tasks
 
 * Task definition entry points:
   * nvim
@@ -250,7 +250,7 @@ Switch fom Roadmaps::Project::Task hierarchy to Project::Task; use tags for orga
   * from project editing
   * manual add
 
-### Entries
+FIXME### Entries
 
 * Ways to add an entry
         1. from calendar
@@ -265,7 +265,7 @@ Switch fom Roadmaps::Project::Task hierarchy to Project::Task; use tags for orga
   * from AdHoc, from adhoc file
   * from Routines, from routines file
 
-## Planning and Scheduling (shared)
+FIXME## Planning and Scheduling (shared)
 
 * Project and Task Dependency Logic
   * use only `.after` attribute; `.before` superfluous
@@ -290,7 +290,7 @@ Switch fom Roadmaps::Project::Task hierarchy to Project::Task; use tags for orga
 * ( ) rollover required (with priorities)
 * ( ) with dependencies
 
-### Solver Software
+FIXME### Solver Software
 
 https://github.com/i-am-tom/holmes/
 https://hackage.haskell.org/package/toysolver
@@ -314,7 +314,7 @@ https://news.ycombinator.com/item?id=31099186
 https://jump.dev/JuMP.jl/stable/
 https://github.com/TimefoldAI/timefold-solver
 
-#### Solvers - ChatGPT Assistance
+FIXME#### Solvers - ChatGPT Assistance
 
 I want to write a Haskell problem that assigns tasks to times subject to a set of constraints and so as to optimize some metric. Can you name appropriate Haskell libraries for this purpose?
 
@@ -407,7 +407,7 @@ taskAssignment = do
 
 Each of these libraries has its strengths and is suited for different kinds of problems. Choose the one that best matches the nature of your constraints and optimization metric. If your problem involves complex constraints and you need robust solving capabilities, using an SMT solver like SBV or Z3 might be the best choice. If your constraints are linear, then glpk-hs could be more appropriate. For more general and flexible constraint programming, monadiccp or haskell-cas can be very useful.
 
-### Planning
+FIXME### Planning
 
 * [WBS](https://en.wikipedia.org/wiki/Work_breakdown_structure)
 * Planning Features
@@ -427,7 +427,7 @@ Each of these libraries has its strengths and is suited for different kinds of p
 * Sort projects in dependency order -> dependency tree structure
 * Support earliest and latest dates, dependencies between tasks/projects/roadmaps -> raise error when declaration is impossible
 
-#### Dependency Sorting
+FIXME#### Dependency Sorting
 
 * need to write function `dependencySort` to put list of tasks in an order satisfying dependency constraints, raising an informative error if dependency constraints are irresoluble
 * need to do a literature/code search to find relevant algorithms, implementations, and resources
@@ -724,11 +724,11 @@ Notes:
 * During the topological sort, it respects the initial order to break ties, ensuring that dependencies are satisfied while maintaining the order as much as possible.
 * This method avoids re-sorting the entire list without regard to dependencies, preserving the initial sorting where possible.
 
-#### Further Reading
+FIXME#### Further Reading
 
 * [Topological Sort in Haskell](https://stackoverflow.com/questions/21675925/topological-sort-in-haskell)
 
-### Scheduling
+FIXME### Scheduling
 
 Possibly use Prolog/Datalog for constraint solving and schedule finding?
 
@@ -796,7 +796,7 @@ TODO: add `alignend` functionality (but first get it working without)
 * ( ) [teamdoapp.com/inspiration/increase-productivity-with-effective-task-scheduling](https://teamdoapp.com/inspiration/increase-productivity-with-effective-task-scheduling/)
 * ( ) [machine learning and optimization for production rescheduling in industry 4.0](https://link.springer.com/article/10.1007/s00170-020-05850-5)
 
-#### Entry Adding Cases
+FIXME#### Entry Adding Cases
 
 * ( ) empty
 * ( ) adding movable over empty
@@ -877,7 +877,7 @@ TODO: add `alignend` functionality (but first get it working without)
 * ( ) impossible: any on day without enough room
 * ( ) impossible: immovable on top of immovable
 
-## Tracking
+FIXME## Tracking
 
 * pre-programmed (still configurable) for:
 * food & drink, workout, finances (expenditures), adherence to schedule/time use
@@ -937,7 +937,7 @@ TODO: add `alignend` functionality (but first get it working without)
 * tracking; move dates more than 30 days old to the old store (more
 * efficient format?)
 
-## Apps
+FIXME## Apps
 
 ```txt
 
@@ -952,11 +952,11 @@ Regardless of which option you choose, it's important to make sure that you keep
 search “hosting” [discord.com/channels/903549834160635914/903553722804748309](https://discord.com/channels/903549834160635914/903553722804748309)
 ```
 
-### Android App Development
+FIXME### Android App Development
 
 * ( ) [kivy.org/doc/stable/guide/packaging-android.html](https://kivy.org/doc/stable/guide/packaging-android.html) (also suitable for desktop)
 
-### AppFlowy
+FIXME### AppFlowy
 
 * ( ) [appflowy-io/appflowy/issues/3125](https://github.com/AppFlowy-IO/AppFlowy/issues/3125)
 * ( ) Which conversions are necessary?
@@ -981,7 +981,7 @@ search “hosting” [discord.com/channels/903549834160635914/903553722804748309
 * ( ) TRACKING: manually via neorg, or via semaphore. One file per metric for easy tracking; move dates more than 30 days old to the old store (more efficient format?)
 * ( ) [packaging.python.org/en/latest/guides/creating-and-discovering-plugins](https://packaging.python.org/en/latest/guides/creating-and-discovering-plugins/)
 
-## Server, Sync, Multi-Device, Etc
+FIXME## Server, Sync, Multi-Device, Etc
 
 * possible to have app server and website server on same server VM?
 * sync
@@ -1008,7 +1008,7 @@ search “hosting” [discord.com/channels/903549834160635914/903553722804748309
         5. writing a tracked norg file results in pushing tasks back to the taskwarrior database and a sync with the server
         6. editing elsewhere triggers a sync with Notion; pulling from another app triggers a sync pulling from Notion, with optional manual trigger to sync with Notion
 
-### Signal Integration TODO: CLEANUP
+FIXME### Signal Integration TODO: CLEANUP
 
 * Signal module:
 
@@ -1024,7 +1024,7 @@ search “hosting” [discord.com/channels/903549834160635914/903553722804748309
     4. display (upon query) some (subset of) roadmap, plan, task, schedule, etc.
     5. show tracker information: streaks, percentage, habit strength, progress toward goals, …
 
-### Server Books
+FIXME### Server Books
 
 * [Web Hosting For Dummies](http://library.lol/main/15AB02F5EE821874E1269F1C1A2C6466)
 * [Linux Server Cookbook: Get Hands-on Recipes to Install, Configure, and Administer a Linux Server Effectively](http://library.lol/main/A9EC0C8B28BC4409DF0AF7BC266F92AC)
@@ -1042,20 +1042,20 @@ search “hosting” [discord.com/channels/903549834160635914/903553722804748309
 * [Linux Server Linux Server Hacks: Los Mejores Trucos the Best Tricks](http://library.lol/main/D65668D1220B40901544827FC45CC753)
 * [Linux Email. Set Up and Run a Small Office Email Server](http://library.lol/main/F2C6BA1A73A964710CB697A968518891)
 
-## Ganttouchthis / Ganttstop
+FIXME## Ganttouchthis / Ganttstop
 
 * change GTT to write only changed tasks / projects / days, but keep in-memory for speed (except backlog and done; unnecessary)
   * crystalize gtt API, database format, object API
   * GTT functionality: add project, edit project, edit task -> done to done DB, project from backlog, add to backlog, adjust task distribution: balanced|rollover|rigid, edit backlog item, project from backlog item, check validity & check data consistency (in memory & in database & between memory and database), exact & fuzzy search, TUI, export as SVG
   
-## Kanban View
+FIXME## Kanban View
 
 * can a Kanban board be combined with my system -> integrate as a view of the tasks
 * Personal Kanban
 
-## Data Formats
+FIXME## Data Formats
 
-### JSON-Based
+FIXME### JSON-Based
 
 * Nebokrai declaration types:
   * config
@@ -1070,13 +1070,13 @@ search “hosting” [discord.com/channels/903549834160635914/903553722804748309
 * [Taskwarrior JSON](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/task.md)
   -> [export](https://taskwarrior.org/docs/commands/export/)
 
-### Garmin: FIT, GPX, TCX
+FIXME### Garmin: FIT, GPX, TCX
 
 * [FIT](https://developer.garmin.com/fit/overview/)
 * [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format)
 * [TCX](https://en.wikipedia.org/wiki/Training_Center_XML)
 
-### Standards: WebDAV, CalDAV, iCalendar
+FIXME### Standards: WebDAV, CalDAV, iCalendar
 
 * [vdir](https://vdirsyncer.readthedocs.io/en/latest/vdir.html)
 * [CalDAV](https://en.wikipedia.org/wiki/CalDAV)
@@ -1087,9 +1087,9 @@ search “hosting” [discord.com/channels/903549834160635914/903553722804748309
 * [.ics](...)
 * [read](https://en.wikipedia.org/wiki/Comparison_of_CalDAV_and_CardDAV_implementations)
 
-## Data Conversion
+FIXME## Data Conversion
 
-### Converter Project
+FIXME### Converter Project
 
 Idea: Write a Taskwarrior/Timewarrior data conversion util for conversion to and from all relevant data formats:
 
@@ -1111,7 +1111,7 @@ Idea: Write a Taskwarrior/Timewarrior data conversion util for conversion to and
 * LaTeX (variety of templates)
 * Typst (variety of templates)
 
-# nebokrai
+FIXME# nebokrai
 
 Tool for planning, prioritizing, scheduling, and tracking. Designed by me for me to be an
 all-in-one way to stay organized and motivated by keeping short-term goals and plans aligned with
@@ -1124,7 +1124,7 @@ giving
 ['readme-driven development'](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
 a try.
 
-## Design Philosophy
+FIXME## Design Philosophy
 
 nebokrai is informed by a set of guiding principles, a few of which will likely sound familiar to
 anyone who has spent time in or around software development:
@@ -1157,9 +1157,9 @@ anyone who has spent time in or around software development:
 * **modularity**: the system consists of smaller parts, which in turn consist of smaller parts,
   and while they interact seamlessly, each is as coherent and self-contained as possible
 
-## Features
+FIXME## Features
 
-### Planning
+FIXME### Planning
 
 In keeping with the principle "Begin with the end in mind" - it is beneficial to set long-term
 goals, as it guides short- and medium-term action. To this end, nebokrai specifies a hierarchy of
@@ -1197,7 +1197,7 @@ me that I cannot and provides helpful information as to why the declaration was 
 realize. I then remedy the offending parts of the declaration and repeat the process until I have a
 feasible plan.
 
-### Scheduling
+FIXME### Scheduling
 
 From the plan, the next step is to create a schedule. Algorithmically, this turns out to be more
 involved - see [this](...) for details and discussion. The general process is as follows:
@@ -1231,7 +1231,7 @@ of the declaration, referenced on relevant days in the calendar, and then includ
 scheduling. To borrow yet another phrase from computer science, this is a sort of ahead-of-time
 compilation, which makes possible a high degree of optimization.
 
-### Tracking
+FIXME### Tracking
 
 To understand what is working and what is not, it is important to have a clear record of what
 actually happened. As psychological studies have shown, memory is often unreliable and deceptive.
@@ -1244,7 +1244,7 @@ attempting to facilitate tracking needs to mitigate this. An easy interactive CL
 interface via the Signal app (and later others) are two approaches that make tracking if not
 outright enjoyable, at least more pleasant and less of a chore.
 
-### CLI
+FIXME### CLI
 
 Commands are arranged hierarchically. Each command, unless run with options that specify otherwise,
 and unless otherwise specified in the description, defaults to interactive and has an `interactive`
@@ -1304,11 +1304,11 @@ nebokrai               # defaults to `interactive`
            ┗━━ png     #
 ```
 
-### Mobile Integration via Signal
+FIXME### Mobile Integration via Signal
 
 Coming soon...
 
-### 'Maybe later' Features
+FIXME### 'Maybe later' Features
 
 * something akin to GTD (Getting Things Done)
 * Taskwarrior and Timewarrior integration
@@ -1317,13 +1317,13 @@ Coming soon...
 * native Android app / Linux mobile / etc
 *
 
-## Usage
+FIXME## Usage
 
 ```shell
 nebokrai derive
 ```
 
-## Installation
+FIXME## Installation
 
 Use pipx, the silver bullet solution to installing Python CLI tools.
 
@@ -1331,14 +1331,14 @@ Use pipx, the silver bullet solution to installing Python CLI tools.
 pipx install nebokrai
 ```
 
-## Dev Notes
+FIXME## Dev Notes
 
 Nebokrai considerations:
 
 functions should be composable and, as much as posssible, do exactly one thing.
 This will make testing easier, as well as adding new functionalities.
 
-### Planning ========================================================================
+FIXME### Planning ========================================================================
 
 For flex entries, planning should take into account some combination of:
 
@@ -1362,7 +1362,7 @@ Potential other features:
 It may also make sense to add more complex planning modules, for things like meal
 planning and workout planning.
 
-### Scheduling ========================================================================
+FIXME### Scheduling ========================================================================
 
 Scheduling takes into account what is already scheduled and fixed, as well as
 what can be added to what. For flex entries (and among subtasks in the same
@@ -1380,7 +1380,7 @@ block), ordering is determined by:
 This allows me to conform to the principle "eat your frogs first", i.e. get unpleasant
 important tasks out of the way first to avoid procrastination.
 
-### Tracking ==========================================================================
+FIXME### Tracking ==========================================================================
 
 Currently, the tracking is fully defined from primitives in the declaration. This has
 the advantage of generality, but it is probably worth adding some classes to the source
@@ -1388,11 +1388,11 @@ for complex and idiosynchratic tracking tasks: WorkoutTracker, NutritionTracker,
 FinanceTracker (?), TimeTracker (?) (for general time tracking), especially
 where these might need to interact with the derivation to access goals from the plan.
 
-### General ===========================================================================
+FIXME### General ===========================================================================
 
 Change CLI so that modules are only imported as needed (i.e. laziness).
 
-## Roadmap
+FIXME## Roadmap
 
 * [x] create roadmap :)
 * [x] re-write in a functional style;
@@ -1421,9 +1421,9 @@ mypy errors
 * [x] src/nebokrai/util/prompt/prompt.py
 
 * [ ] re-wite in Rust with WASM (or Janet/Lua/Fennel/Teal?) plugin system -> [read](https://nullderef.com/series/rust-plugins/)
-# Nebokrai Roadmap
+FIXME# Nebokrai Roadmap
 
-## Roadmap
+FIXME## Roadmap
 
 1. Implement serde for declaration
 2. Minimal example for Aeson
@@ -1505,7 +1505,7 @@ Python might me a good productivity app / TUI language, after all - nothing abou
 
   # Nebokrai Roadmap
 
-## Roadmap
+FIXME## Roadmap
 
 1. Implement serde for declaration
 2. Minimal example for Aeson

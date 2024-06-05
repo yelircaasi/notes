@@ -1,8 +1,8 @@
-# Software Decisions (secondary)
+FIXME# Software Decisions (secondary)
 
-## Later
+FIXME## Later
 
-## Legend
+FIXME## Legend
 
 (0) - already installed and configured in nix-config
 (1) - already added to nix-config, but some work is needed
@@ -21,7 +21,7 @@
 (N) - Ready to package for Nix
 (R) - Read!
 
-### editors
+FIXME### editors
 
 * (_) [helix-editor/helix](https://github.com/helix-editor/helix) -   [helix](https://github.com/helix-editor/helix)) - Modal editor inspired by kakoune.
 * (_) [xyproto/orbiton](https://github.com/xyproto/orbiton) - config-free editor and IDE (valuable snippets on README)
@@ -49,7 +49,7 @@
 * (_) [Editor Bootstrap](https://github.com/editor-bootstrap)*
 * Kate
 
-### Science and Education
+FIXME### Science and Education
 
 * Bibliography Management
 * (_) [bib.awk](https://github.com/huijunchen9260/bib.awk) - Bibliography manager written in awk.
@@ -100,7 +100,7 @@
 * (_) [Go-L](https://github.com/Jeadie/Go-L) - Game of Life with different update rules and on a bunch of different topologies (sphere, torus, klein bottle, etc.).
 * (_) [Colobot](https://colobot.info/) - Colobot: Gold Edition is a real-time strategy game, where you can program your units (bots) in a language called CBOT, which is similar to C++ and Java.
 
-### Other
+FIXME### Other
 
 * Virtualization and Containerization - Later
 * Android
@@ -191,7 +191,7 @@
 * (_) [wordle-curses](https://github.com/knosmos/wordle-curses) - A simple TUI wordle game with curses.
 * (_) [Words](https://github.com/ludovicianul/words) - A set of word-based puzzle games for the CLI while you wait for the build to run.
 
-### Games*
+FIXME### Games*
 
 * City Building Simulation
 * (_) [Dwarf Fortress](http://www.bay12games.com/dwarves/) - A famously complex simulation of a High Fantasy Dwarf Fortress, fight goblins, and slay massive legendary beasts. Strike the earth!
@@ -270,7 +270,7 @@
 * (_) [HedgeWars](https://www.hedgewars.org/) - 2D game where teams compete in the style of the popular Worms games.
 * (_) [Tanks of Freedom](https://w84death.itch.io/tanks-of-freedom) - Pixel-art military strategy implemented in Godot game engine.
 
-## Machine Emulators - All-in-One
+FIXME## Machine Emulators - All-in-One
 
 * (_) [ares](https://ares-emu.net/) - A multi-system console emulation suite.
 * (_) [EmuDeck](https://www.emudeck.com/) - Emulator configurator for Steam Deck.
@@ -367,7 +367,7 @@
 * Development - Later
 * (_) [nve](https://github.com/ehmicky/nve) - Run any command on specific Node.js versions.
 
-### Mobile Development
+FIXME### Mobile Development
 
 * (_) [mobicon-cli](https://github.com/SamVerschueren/mobicon-cli)) - Mobile app icon generator.
 * (_) [mobisplash-cli](https://github.com/SamVerschueren/mobisplash-cli)) - Mobile app splash screen generator.
@@ -501,7 +501,7 @@
 * (_) [ ] [Gradience](https://gradienceteam.github.io/)
 * (_) [ ] [Graphs](https://github.com/Sjoerd1993/Graphs)
 
-## Back Pocket
+FIXME## Back Pocket
 
 * Email
 * (_) [KMail](https://apps.kde.org/kmail2/) - KMail is the email component of Kontact, the integrated personal information manager from KDE.
@@ -579,7 +579,7 @@
 * (_) [isitfit](http://github.com/autofitcloud/isitfit) - Manage AWS EC2 rightsizing.
 * (_) [ops](https://github.com/nanovms/ops) - Unikernel compilation and orchestration tool.
 
-### Npm
+FIXME### Npm
 
 * (_) [npm-name-cli](https://github.com/sindresorhus/npm-name-cli) - Check whether a package name is available on npm.
 * (_) [npm-user-cli](https://github.com/sindresorhus/npm-user-cli) - Get user info of a npm user.
@@ -631,7 +631,7 @@
 * (_) [Pisth](https://github.com/ColdGrub1384/Pisth): An SFTP and SSH client for iOS.
 * (_) [Fluent Terminal](https://github.com/felixse/FluentTerminal): A terminal emulator based on UWP and web technologies.
 
-## Nah, But Use as a Reference
+FIXME## Nah, But Use as a Reference
 
 * (_) [bash-it](https://github.com/Bash-it/bash-it) - A community Bash framework
 * (_) [Mercurial](https://www.mercurial-scm.org/repo/hg) - Free, distributed source control management tool.
@@ -742,7 +742,7 @@
 * (_) [Curlew](https://github.com/chamfay/Curlew) - A GTK media converter for the GNOME desktop.
 * (_) [Ubunsys](https://github.com/adgellida/ubunsys) - An application designed to allow you to change in-depth system features without the command line.
 
-## Dock
+FIXME## Dock
 
 * (_) [Cairo-Dock](https://glx-dock.org/) - Cairo-Dock is a desktop interface that takes the shape of docks, desklets, panel, etc.
 * (_) [Docky](https://launchpad.net/docky) - Docky is a full fledged dock application that makes opening common applications and managing windows easier and quicker.
@@ -778,7 +778,7 @@
 * (_) [sudocabulary](https://github.com/badarsh2/Sudocabulary) - Learn English Vocabulary from your terminal
 * (_) [OpenSIS](https://www.opensis.com/) - School Management Software that Increases Student Achievements & Teacher Performances.
 
-## Nah
+FIXME## Nah
 
 * Communication
 * (_) [YakYak](https://github.com/yakyak/yakyak) - Desktop chat client for Google Hangouts.
@@ -810,7 +810,7 @@
 * Intellij
 * (_) [keymap](https://github.com/jondot/keymaps/) - a hybrid Vim/ReSharper/Intellij keymap
 
-## Desktop OSX
+FIXME## Desktop OSX
 
 * (_) [Alfred](http://www.alfredapp.com/) - OSX productivity app `/OSX/`
 * (_) [hydra](https://github.com/sdegutis/hydra) - script your desktop `/OSX/`
@@ -820,7 +820,7 @@
 * (_) [IntelliJ IDEA Community Edition](https://github.com/JetBrains/intellij-community) - Java/Android IDE with the goal of maximizing developer productivity. ([Apache License 2.0](https://github.com/JetBrains/intellij-community/blob/master/LICENSE.txt))
 * (_) [Grayscale Mode](https://github.com/rkbhochalya/grayscale-mode) - An open source macOS app that lets you quickly toggle grayscale filter right from your menu bar or using a keyboard shortcut (⌥⌘G). ([MIT](https://github.com/rkbhochalya/grayscale-mode/blob/master/LICENSE))
 
-## Gaming Launchers
+FIXME## Gaming Launchers
 
 * (_) [Bottles](https://usebottles.com/) - Easily manage wine prefixes in a new way. Run Windows software and games on Linux.
 * (_) [GameHub](https://tkashkin.github.io/projects/gamehub/) - GameHub is a unified library for all your games. It allows you to store your games from different platforms into one program to make it easier for you to manage your games.
@@ -831,7 +831,7 @@
 * (_) [PlayOnLinux](https://www.playonlinux.com/) - A front-end for Wine.
 * (_) [Steam](https://store.steampowered.com/) - Gaming store, which opens the gates to many games.
 
-## Gaming Tools
+FIXME## Gaming Tools
 
 * (_) [BoilR](https://github.com/PhilipK/BoilR) - Synchronize games from other platforms into your Steam library.
 * (_) [Boxtron](https://github.com/dreamer/boxtron) - Steam Play compatibility tool to run DOS games using native Linux DOSBox. It is a sister project of Luxtorpeda and DOSBox Staging.
@@ -865,7 +865,7 @@
 * (_) [s3cmd](https://github.com/s3tools/s3cmd) - the S3 CLI tool for Amazon
 * (_) [Open Office](https://github.com/apache/openoffice) - Provides a full featured office productivity suite based on open standards. ([Apache License 2.0](https://github.com/apache/openoffice/blob/trunk/LICENSE))
 
-## Terminal Emulator
+FIXME## Terminal Emulator
 
 * (_) [Yakuake](https://apps.kde.org/yakuake/) - A Quake-style terminal emulator based on KDE Konsole technology.
 * (_) [Xterm](https://invisible-island.net/xterm/) - The Xterm program is a terminal emulator for the X Window System. It provides DEC VT102 and Tektronix 4014 compatible terminals for programs that can’t use the window system directly.
@@ -876,18 +876,18 @@
 * (_) [PowerShell](https://github.com/PowerShell/PowerShell) - Automation and configuration tool/framework that is optimized for dealing with structured data.*
 * (_) [Xfce Terminal](https://docs.xfce.org/apps/terminal/start) - Modern terminal emulator primarily for the Xfce desktop environment.
 
-### macOS Package Managers
+FIXME### macOS Package Managers
 
 * (_) [fink](http://www.finkproject.org/) - Wants to bring the full world of Unix Open Source software to Darwin and macOS.
 * (_) [homebrew](https://brew.sh/) - Missing package manager for macOS.
 * (_) [macports](https://www.macports.org/) - Package manager that simplifies the installation of software on the macOS and Darwin operating systems.
 * (_) [mas](https://github.com/mas-cli/mas) - Mac App Store command line interface.
 
-### ChromeOS Package Managers
+FIXME### ChromeOS Package Managers
 
 * (_) [chromebrew](https://github.com/skycocker/chromebrew) - Package manager for Chrome OS.
 
-### Windows Package Managers
+FIXME### Windows Package Managers
 
 * (_) [chocolatey](https://chocolatey.org/) - Package manager for Windows.
 * (_) [cygwin](https://cygwin.com/) - Linux-like environment for Windows making it possible to port software running on POSIX systems to Windows.

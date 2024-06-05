@@ -859,20 +859,20 @@
 {"text": "[thingos/package/Config.in at a650815d39d2aafbb15a26b3fdf1ddebdf8cff67 · ccrisan/thingos](https://github.com/ccrisan/thingos/blob/a650815d39d2aafbb15a26b3fdf1ddebdf8cff67/package/Config.in%23L110)", "type": "dotsSingleApp", "tags": ["config", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {"software": ["spacefm"]}},
 {"text": "[wok/spacefm/receipt at 86cfc9d82cfe669cb23142955dd8e313459dbde6 · SliTaz-official/wok](https://github.com/SliTaz-official/wok/blob/86cfc9d82cfe669cb23142955dd8e313459dbde6/spacefm/receipt%23L57)", "type": "dotsSingleApp", "tags": ["config", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {"software": ["spacefm"]}},
 
-# Non-Nix Dotfiles
+FIXME# Non-Nix Dotfiles
 
 * ( ) [newsletter $$$](https://substack.com/@dotfiles)
 * ( ) [unixporn-dots.github.io](https://unixporn-dots.github.io/)
 * ( ) [@mylinuxforwork](https://www.youtube.com/@mylinuxforwork)
 
-## Single-app
+FIXME## Single-app
 
 * ( ) [alphaTechnolog eww](https://github.com/AlphaTechnolog/eww-dotfiles)
 * ( ) [testertech eww](https://github.com/TesterTech/eww-from-scratch) [video](https://www.youtube.com/watch?v=rYlXF722RNw)
 * ( ) [deepaknegilachu](https://codeberg.org/deepaknegilachu/.dotfiles) - yambar) -
 * ( ) [How I use wezterm as toggle terminal](https://www.reddit.com/r/neovim/s/Lic4pxEQiZ)
 
-## Raw - to sort
+FIXME## Raw - to sort
 
 * -> see riverwm files on drive
 
@@ -1269,7 +1269,7 @@
 * ( ) [zmeyka3310](https://github.com/zmeyka3310/dotfiles-hyprland)
 * ( ) [zwork101](https://github.com/Zwork101/dotfiles)
 
-## Bare
+FIXME## Bare
 
 * ( ) [Riverwm with Yambar](https://www.reddit.com/r/UsabilityPorn/s/oE9xxCZZJq ) -
 * ( ) [alexmuxika](https://github.com/AlexMuxika/configs) -  [init](https://raw.githubusercontent.com/AlexMuxika/configs/main/init) -
@@ -1352,7 +1352,7 @@
 * ( ) [xero](https://github.com/xero/dotfiles) -
 * ( ) [xinux-org](https://github.com/xinux-org/configs) -
 
-## hyprland
+FIXME## hyprland
 
 * ( ) [jakoolit](https://github.com/JaKooLit/Hyprland-Dots) - editorconfig, scripts, kvantum, btop, cava, kitty, qt5ct, qt6ct, rofi, swappy, swaylock, swaync, wal, waybar, wlogout
 * ( ) [ipg0](https://github.com/ipg0/dotfiles-hypr) -
@@ -1451,13 +1451,13 @@
 * ( ) [reddit](https://www.reddit.com/r/unixporn/comments/132yzuw/hyprland_catppuccin_everything/)
 * ( ) [zerodya](https://github.com/Zerodya/dotfiles) - bemenu, cava, dunst, fish, hypr, kitty, carbonfox, mako, networkmanager-dmenu, nvim, picom, polybar, presets, sway, waybar, wofi, zathura
 
-## river
+FIXME## river
 
 * ( ) [river-rice](https://github.com/Soliprem/river-rice)- foot, river, rofi, waybar, wpg
 Robert Duchesneau RiverWM dotfiles)
 * ( ) [justinesmithies](https://codeberg.org/JustineSmithies/river-dotfiles) -
 
-## i3
+FIXME## i3
 
 * ( ) [rx-py](https://github.com/rx-py/i3wm-dotfi) -
 * ( ) [testertech i3](https://github.com/TesterTech/rice-i3-from-scratch-pywal) -
@@ -1540,7 +1540,7 @@ Robert Duchesneau RiverWM dotfiles)
 * ( ) [Reddit](https://www.reddit.com/r/unixporn/comments/12jlpuz/i3_i_spent_longer_on_the_color_scheme_than_id)
 * ( ) [willPower3309](https://github.com/WillPower3309/dotfiles) - plasma, i3-gaps, compton (tryone), rofi, oh-my-zsh, latte dock, feh, conky-cairo, flashfocus, unimatix, redshift, unclutter
 
-## sway
+FIXME## sway
 
 * ( ) [Madic-/Sway-DE: 🏠 Sway desktop environment dotfile installation for Arch Linux](https://github.com/Madic-/Sway-DE)
 * ( ) [gnulinux-projects](https://gitlab.com/gnulinux-projects/My_Linux_Files/-/tree/main/Debian/Sway/.config)
@@ -1559,7 +1559,7 @@ Robert Duchesneau RiverWM dotfiles)
 * ( ) [probitjk](https://github.com/ProbitJK/Dotfiles)
 * ( ) [Reddit](https://www.reddit.com/r/unixporn/comments/112ghyk/swaywm_riced_my_fedora_setup_to_replace_dmenu/)
 
-## qtile
+FIXME## qtile
 
 * ( ) [aaditeynair](https://github.com/aaditeynair/dots)
 * ( ) [Reddit](https://www.reddit.com/r/unixporn/comments/134isxl/qtile_borders_all_around/)
@@ -1600,11 +1600,11 @@ Robert Duchesneau RiverWM dotfiles)
 * ( ) [wittano ](https://github.com/Wittano/dotfiles) - qtile, doom-emacs, ideavim, tmux, zsh, gtk, git, scripts, alacritty, bspwm. conky, dunst, fish, i3, jetbrains, kitty, nitrogen, nvim, omf, openbox, picom, polybar, qutebrowser, ranger, rofi, sxhkd, terminator, tint2, yadm, redshift
 * ( ) [wittano](https://github.com/Wittano/dotfiles) - doom emacs, qtile, scripts. alacritty, bspwm, conky, dunst, fish, gtk, i3, jetbrains, kitty, nitrogen, nvim, omf, oh-my-fish, openbox, openttd, picom, polybar, qtile, qutebrowser, ranger, rofi, sxhkd, terminator, tint2, yadm, redshift
 
-## Wayfire
+FIXME## Wayfire
 
 * ( ) [Wayfire-dots](https://github.com/bluebyt/Wayfire-dots)
 
-## awesomewm
+FIXME## awesomewm
 
 * ( ) [3nwt](https://github.com/3NWT/mydotfilez)
 * ( ) [Reddit](https://www.reddit.com/r/unixporn/comments/10cfhf0/solarized_nokto_awesomewm_my_first_rice/)
@@ -1662,7 +1662,7 @@ Robert Duchesneau RiverWM dotfiles)
 * ( ) [zazedd](https://github.com/zazedd/.dotfiles)
 * ( ) [Reddit](https://www.reddit.com/r/unixporn/comments/1250f66/awesomewm_iceberg/)
 
-## bspwm
+FIXME## bspwm
 
 * ( ) [abxh](https://github.com/abxh/dotfiles) bspwm, dunst, kitty, mpv, nvim, picom, polybar, qutebrowser, rofi, scripts, sxhkd, xorg, zathura, zsh, stow
 * ( ) [alexMeuer](https://github.com/AlexMeuer/dotfiles) - void linux, alacritty, astronvim, bspwm, dunst, fish, kitty, lvim, nap, polybar, ranger, river, rofi, sxhkd
@@ -1728,7 +1728,7 @@ Robert Duchesneau RiverWM dotfiles)
 * ( ) [tanbinislam34](https://gitlab.com/Tanbinislam34/dotfiles) - arch, bspwm, st, alacritty, neofetch, neovim, firefox
 * ( ) [vaughnValle](https://github.com/VaughnValle/blue-sky)- alacritty, bspwm, dunst, picom, polybar, slim, slimlock, spicetify+dribblish, wallpapers, vim, picom, spotify-client, sxhkd, rofi
 
-## xmonad
+FIXME## xmonad
 
 * ( ) [altercation](https://github.com/altercation/dotfiles-tilingwm)altercation - xcape, xmonad, xresources, compton, dunst, xinit, xprofile, xscreensaver, taffybar
 * ( ) [axarva 2.0 *](https://github.com/Axarva/dotfiles-2.0) - xmonad, eww, firefox, rofi, ,[tint2-1,](https://github.com/Axarva/tint2-1,)acpi, playerctl, [brightnessctl](https://github.com/Hummer12007/brightnessctl), [candy-icons](https://github.com/EliverLara/candy-icons), dunst, Spotify, feh, NetworkManager, greenclip, alacritty, picom (fork of ibhagwan or jonaburg), jq, maim, xclip, mpv, alacritty, picom (fork of ibhagwan or jonaburg)
@@ -1744,7 +1744,7 @@ Robert Duchesneau RiverWM dotfiles)
 * ( ) [strazil001](https://github.com/Strazil001/dotfiles)
 * ( ) [szeligBalazs](https://github.com/SzeligBalazs/xmonad-dotfiles)- alacritty, picom, rofi, wallpaper, xmobar, xmonad - beautiful wallpaper colors
 
-## dwm
+FIXME## dwm
 
 * ( ) [6gk/polka](https://github.com/6gk/polka)- kiwmi, bspwm, openbox, dwm, good scripts and aliases, colours, dunst, feh, fontconfig, git, gtk, htop, mpd, mpv, ncmcpp, nvim, sh, startpage, sxhkd, xorg, picom, good css files!, chrome, discord, kmonad, torrent, rc,
 * ( ) [alexMuxika](https://github.com/AlexMuxika/configs)AlexMuxika - [Reddit - Live wallpaper using xwinwrap and mpv [dwm] Workflow](https://www.reddit.com/r/unixporn/comments/11532cj/comment/j8zdkmb/) - dmenu, dwm, st, surf, tabbed, picom. xinit, cmus, qutebrowser, vifm
@@ -1783,12 +1783,12 @@ Robert Duchesneau RiverWM dotfiles)
 * ( ) [Reddit](https://www.reddit.com/r/unixporn/comments/1219al5/dwm_my_bloated_config_with_pywal_and_clickable/)
 * ( ) [tch69](https://github.com/tch69/tavodotfiles)- dwm, dwmblocks, st, dmenu, Xresources, xinit, scripts, dwmbar, fontconfig, gtk, nvim
 
-## dwl
+FIXME## dwl
 
 * ( ) [VoidLinux-FreeBSD](https://github.com/willgreen946/VoidLinux-FreeBSD)
 * ( ) [Reddit](https://www.reddit.com/r/unixporn/comments/12v4ixj/dwl_fully_riced_now_feeling_content/)
 
-## other
+FIXME## other
 
 * ( ) [3r3bu5x9](https://github.com/3r3bu5x9/prismatic-night)
 * ( ) [ahmetb](https://github.com/ahmetb/dotfiles) - macOS, but vim, tmux, editorconfig, vim, git, copilot-cli, karabiner, ssh, vscode, zsh, gnupg, go scripts
@@ -1825,7 +1825,7 @@ Robert Duchesneau RiverWM dotfiles)
 * ( ) [tetzng/dotfiles: my dotfiles](https://github.com/tetzng/dotfiles) - fish, neovim, wezterm, macos
 * ( ) [whatsthatsmell](https://github.com/whatsthatsmell/dots) - alfred, bacom, broot, cargo, rust, gh-prs, gitui, iterm, lazygit, ripgrep, vifm, nvim, vimium, zsh, tmux, alacritty, starship* ( ) [yusa](https://codeberg.org/yusa/dotfiles)
 
-## ?
+FIXME## ?
 
 * ( ) [cpow](https://github.com/cpow/cpow-dotfiles)- tmux, nvim
 * ( ) [dark-evangelion-dotfiles](https://github.com/hiitsmatan/dark-evangelion-dotfiles)- zsh, astronvim. alacritty, Tokyo-Storm-BL-LB colors, Tela-purple-dark icons, spicetify, Gnome with extensions
@@ -1845,20 +1845,20 @@ Robert Duchesneau RiverWM dotfiles)
 * ( ) [xer0 ](https://github.com/xero/dotfiles) - perfect earthy green nvim, git, ssh, gpg, bash, tmux
 * ( ) [yorurxyhn](https://github.com/rxyhn/yorurxyhn)- zsh, starship, mpDris2, mpd, ncmcpp, wezterm
 
-# Malina
+FIXME# Malina
 
 * [Jente Hidskes' website - A purpose-built Linux OS for my Raspberry Pi 3B+ home automation system](https://www.hjdskes.nl/projects/rpi-linux/)
 * [RPI](http://libgen.rs/search.php?%26req%3Draspberry%2Bpi%26phrase%3D1%26view%3Dsimple%26column%3Ddef%26sort%3Dyear%26sortmode%3DDESC)
 * [forums.raspberrypi.com/viewtopic.php?t=312104](https://forums.raspberrypi.com/viewtopic.php?t%3D312104) Definitive guide to configure extremely lightweight GUI with Raspbian Lite + Openbox. - Raspberry Pi Forums
 
-## 1) Raspberry Pi OS
+FIXME## 1) Raspberry Pi OS
 
 * install
 * install Nix
 * run nebokrai flake (with poetry2nix preferWheels = true;)
 * look into differences with regular iso to understand why changes are automatically written to the SD card
 
-## 2) Raspberry Pi OS Lite
+FIXME## 2) Raspberry Pi OS Lite
 
 * read [downloads.raspberrypi.com/raspios_lite_arm64/release_notes.txt](https://downloads.raspberrypi.com/raspios_lite_arm64/release_notes.txt)
 * 2) Alpine Server (no DE)
@@ -1886,7 +1886,7 @@ Robert Duchesneau RiverWM dotfiles)
 * [whisperfish/presage/](https://github.com/whisperfish/presage/)
 * [rust-lang.github.io/rustup/cross-compilation.html](https://rust-lang.github.io/rustup/cross-compilation.html)
 
-## 3) Alpine Sigma OS
+FIXME## 3) Alpine Sigma OS
 
 * fork repo:  [rdbo/sigma-linux](https://github.com/rdbo/sigma-linux)
 * read [jensd.be/1126/linux/cross-compiling-for-arm-or-aarch64-on-debian-or-ubuntu](https://jensd.be/1126/linux/cross-compiling-for-arm-or-aarch64-on-debian-or-ubuntu)
@@ -1895,7 +1895,7 @@ Robert Duchesneau RiverWM dotfiles)
 * make changes needed to run on SD card (see Alpine Server)
 * try build
 
-## 4) NixOS Pi
+FIXME## 4) NixOS Pi
 
 * read [nix-community/nixos-generators](https://github.com/nix-community/nixos-generators) 
 * read [discourse.nixos.org/t/nixos-image-for-raspberry-pi-3b-armv7/18430](https://discourse.nixos.org/t/nixos-image-for-raspberry-pi-3b-armv7/18430)
@@ -1915,7 +1915,7 @@ Robert Duchesneau RiverWM dotfiles)
 * read [mtlynch.io/nixos-pi4/](https://mtlynch.io/nixos-pi4/)
 * read [labs.quansight.org/blog/2020/07/nixos-rpi-wifi-router](https://labs.quansight.org/blog/2020/07/nixos-rpi-wifi-router)
 
-## 5) TinyCore RPI
+FIXME## 5) TinyCore RPI
 
  read [tinycorelinux.net/9.x/armv6/releases/RPi/README](http://tinycorelinux.net/9.x/armv6/releases/RPi/README)
 
@@ -2272,7 +2272,7 @@ Robert Duchesneau RiverWM dotfiles)
 
  # Nix
 
-## Notes
+FIXME## Notes
 
 * Project idea: add .drv syntax highlighting to bat, or create a bat-based tool to format and display .drv all-in-one
 
@@ -2510,7 +2510,7 @@ Notes
 * note: add reasonably-minimal container CL environment to Nix flake
 * notes: create different configuration expressions to wrap and manage window managers and widgets and login managers etc: hyprland-ags.nix  hyprland-basic.nix  sway.nix  swayfx.nix riverwm.nix popos.nix
 
-## Code
+FIXME## Code
 
 snippet * deploy = homeManager.makeModule { modules = [ config.nixos ]; };
 
@@ -2573,7 +2573,7 @@ snippet * deploy = homeManager.makeModule { modules = [ config.nixos ]; };
 
 ```
 
-### Haskell CLI in Flake
+FIXME### Haskell CLI in Flake
 
 ```sh
 my-haskell-flake/
@@ -2610,7 +2610,7 @@ main = do
 
 ```nix
 
-# flake.nix
+FIXME# flake.nix
 
 {
   description = "My Haskell Flake with CLI functionality";
@@ -2636,12 +2636,12 @@ main = do
 
 ```nix
 
-# tree.nix
+FIXME# tree.nix
 
 { lib, nixpkgs ? import <nixpkgs> {} }:
 * let
 
-# Function to print a tree structure
+FIXME# Function to print a tree structure
 
 printTree = prefix: node: tree:
 * if lib.isAttrs node
@@ -2661,7 +2661,7 @@ printTree = prefix: node: tree:
 + (lib.concatStringsSep "\\n" subtree)
 * else "${prefix}${node}";
 
-# Function to build the import tree
+FIXME# Function to build the import tree
 
 * buildImportTree = derivation:
 * let
@@ -2683,7 +2683,7 @@ printTree = prefix: node: tree:
 
 ```nix
 
-# example.nix
+FIXME# example.nix
 
 { lib, nixpkgs ? import <nixpkgs> {}, tree ? import ./tree.nix { nixpkgs = nixpkgs; } }:
 * let
@@ -2707,7 +2707,7 @@ buildPythonPackage {
 
 ```nix
 
-# tree.nix
+FIXME# tree.nix
 
 { lib, nixpkgs ? import <nixpkgs> {} }:
 let
@@ -2725,7 +2725,7 @@ let
     else "${prefix}${lib.concatStringsSep "\\n" (lib.mapAttrsToList (name: value: "${value}") node)}" + (lib.concatStringsSep "\\n" subtree)
 * else "${prefix}${node}";
 
-# Function to build the import tree
+FIXME# Function to build the import tree
 
 * buildImportTree = derivation:
 * let
@@ -2744,7 +2744,7 @@ let
 { buildImportTree, printTree }
 * This script defines two functions: printTree for printing the tree structure and buildImportTree for building the import tree. The example assumes you have the nixpkgs attribute set available.To use this script, you can import it into another Nix expression and call the buildImportTree function, passing the derivation for the desired output. For example:nixCopy code
 
-# example.nix
+FIXME# example.nix
 
 { lib, nixpkgs ? import <nixpkgs> {}, tree ? import ./tree.nix { nixpkgs = nixpkgs; } }:
 * let
@@ -2850,7 +2850,7 @@ let
 
 * code * [t.me](https://t.me/nixos_en/114808?single)
 
-## Resources
+FIXME## Resources
 
 * {resource} [snowfallorg/lib](https://github.com/snowfallorg/lib)
 * {resource} [...](https://github.com/nix-community/NUR)
@@ -2900,13 +2900,13 @@ let
 * {resources} [nixos.org](https://nixos.org/manual/nixpkgs/stable/)
 * {resources} [ryantm.github.io](https://ryantm.github.io/nixpkgs/)
 
-### Blogs
+FIXME### Blogs
 
 * [cola-gang industries](https://cola-gang.industries/)
 * [tweag-nix-dev-update-16](https://discourse.nixos.org/t/tweag-nix-dev-update-16/14379)
 * [tweag-nix-dev-update-17](https://discourse.nixos.org/t/tweag-nix-dev-update-17/15037)
 
-### People
+FIXME### People
 
 * [/user/matthew-croughan/](https://www.reddit.com/user/matthew-croughan/)
 * {person} [ahoneybun blog](https://ahoneybun.net/blog/)
@@ -2918,9 +2918,9 @@ let
 * {person} [NyCodeGHG (Marie)](https://github.com/nycodeghg)
 * {person} [srid.ca](https://srid.ca/rust-nix)
 
-## Learning Nix
+FIXME## Learning Nix
 
-### Nix Reading Roadmap
+FIXME### Nix Reading Roadmap
 
 * [ ]  stylix
 * [ ]  poetry2nix source code
@@ -2932,7 +2932,7 @@ let
 * [ ]  home-manager docs
 * [ ]  home-manager code
 
-### Nix Internals
+FIXME### Nix Internals
 
 * {internal} [nix-release-schedule-and-roadmap](https://discourse.nixos.org/t/nix-release-schedule-and-roadmap/14204)
 internal * $$$ [jonathanlorimer.dev](https://jonathanlorimer.dev/posts/nix-thesis.html)
@@ -2950,7 +2950,7 @@ internal * $$$ [jonathanlorimer.dev](https://jonathanlorimer.dev/posts/nix-thesi
 * {internals} [packaging - How to package my software in nix or write my own package derivation for nixpkgs - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/717168/how-to-package-my-software-in-nix-or-write-my-own-package-derivation-for-nixpkgs)
 * ( ) [(Towards) stable C bindings for libutil, libexpr by yorickvP · Pull Request #8699 · NixOS/nix](https://github.com/NixOS/nix/pull/8699)
 
-## ## Nix Tools
+FIXME## ## Nix Tools
 
 * {tool} [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows)
 * {tool} [crane](https://crane.dev/)
@@ -3054,7 +3054,7 @@ use! [github.com](https://github.com/zhaofengli/colmena)
 * [reproducible-builds.org](https://reproducible-builds.org/)
 * [Nickel](https://nickel-lang.org/) ‣
 
-## Neovim via Nix
+FIXME## Neovim via Nix
 
 * {nvim} [(3) Neovim on NixOS? : neovim](https://www.reddit.com/r/neovim/comments/196fqno/neovim_on_nixos/)
 * {nvim} [(4) Manage Neovim plugins (and more!) with Nix and Home Manager : neovim](https://www.reddit.com/r/neovim/comments/106letr/manage_neovim_plugins_and_more_with_nix_and_home/)
@@ -3123,9 +3123,9 @@ nvim * name ideas: vixnim, (moshavim, VitaeVim)
 * {nvim config} [zachcoyle/vim-plugins-overlay](https://github.com/zachcoyle/vim-plugins-overlay)
 * {nvim config} [zmre/pwnvim](https://github.com/zmre/pwnvim)
 
-## SORT
+FIXME## SORT
 
-## Conf Checklist
+FIXME## Conf Checklist
 
 * .conf
 * from Betsy
@@ -3356,7 +3356,7 @@ nvim * name ideas: vixnim, (moshavim, VitaeVim)
 
 2
 
-## Top General Resources
+FIXME## Top General Resources
 
 * [nix-community/awesome-nix](https://github.com/nix-community/awesome-nix)
 * [nix-community/awesome-nix](https://github.com/nix-community/awesome-nix)
@@ -3454,7 +3454,7 @@ nvim * name ideas: vixnim, (moshavim, VitaeVim)
 * [programming.dev](https://programming.dev/c/nix)
 * [programming.dev](https://programming.dev/c/nix)
 
-## My Projects
+FIXME## My Projects
 
 * {iso} [Creating NixOS iso for an older Laptop with i686 (32bit) - Help - NixOS Discourse](https://discourse.nixos.org/t/creating-nixos-iso-for-an-older-laptop-with-i686-32bit/26002/2)
 * {me} [yelircaasi | Cachix](https://app.cachix.org/cache/yelircaasi%23pull)
@@ -3471,7 +3471,7 @@ nvim * name ideas: vixnim, (moshavim, VitaeVim)
 * {contrib} [NixOS/nixpkgs/issues/132206](https://github.com/NixOS/nixpkgs/issues/132206) fork and clone nixpkgs and home-manager [Nixpkgs/Contributing - NixOS Wiki](https://nixos.wiki/wiki/Nixpkgs/Contributing)
 * create script: nixos-report: like ls for all relevant directories, following all links to real file; also other important information
 
-### landscape build*
+FIXME### landscape build*
 
 * [blog.ielliott.io](https://blog.ielliott.io/nix-docs/mkDerivation.html#reference-inputs-installPhase)
 * [canonical/landscape-client/releases/](https://github.com/canonical/landscape-client/releases/) If there isn't an existing Nix expression, you might need to create one manually. Create a Nix expression (.nix file) for landscape-client by specifying its source, dependencies, and build instructions
@@ -3490,7 +3490,7 @@ nvim * name ideas: vixnim, (moshavim, VitaeVim)
 * {snap} [flake.lock: Update by github-actions[bot] · Pull Request #3 · io12/nix-snapd](https://github.com/io12/nix-snapd/pull/3/commits)
 * {snap} [This is how I roll](https://linuxmatters.sh/19/) snaps on nixos
 
-### Raspberry Pi
+FIXME### Raspberry Pi
 
 * {rpi} [Installing NixOS on a Raspberry Pi — nix.dev documentation](https://nix.dev/tutorials/nixos/installing-nixos-on-a-raspberry-pi.html)
 * {rpi} [Installing NixOS on a Raspberry Pi | eipi.xyz](https://eipi.xyz/blog/installing-nixos-on-a-raspberry-pi-3/)
@@ -3499,7 +3499,7 @@ nvim * name ideas: vixnim, (moshavim, VitaeVim)
 * {rpi} [NixOS on ARM/Raspberry Pi 4 - NixOS Wiki](https://nixos.wiki/wiki/NixOS_on_ARM/Raspberry_Pi_4)
 * {rpi} [rpi.nix](https://github.com/zupo/nix/blob/master/rpi.nix)
 
-### Mobile
+FIXME### Mobile
 
 * mobile search nixos-mobile on github
 * [nixos.wiki](https://nixos.wiki/wiki/PinePhone)
@@ -3515,7 +3515,7 @@ nvim * name ideas: vixnim, (moshavim, VitaeVim)
 * [...](https://media.ccc.de/v/nixcon-2023-36022-daily-driving-nixos-on-the-librem-5)
 * [media.ccc.de](https://media.ccc.de/v/nixcon-2023-36022-daily-driving-nixos-on-the-librem-5)
 
-### Development
+FIXME### Development
 
 * [Building a Rust service with Nix](https://fasterthanli.me/series/building-a-rust-service-with-nix)
 * [get-going-with-julia-on-nixos-in-under-an-hour](https://discourse.nixos.org/t/get-going-with-julia-on-nixos-in-under-an-hour/12530)
@@ -3524,7 +3524,7 @@ nvim * name ideas: vixnim, (moshavim, VitaeVim)
 * [rust development on nixos](https://drakerossman.com/blog/rust-development-on-nixos-bootstrapping-rust-nightly-via-flake)
 * [rust-in-nix-discussion-thread](https://discourse.nixos.org/t/rust-in-nix-discussion-thread/5092/16)
 
-### Python
+FIXME### Python
 
 * TRY THIS! [github.com](https://github.com/mjlbach/nix-shells/tree/master/lorri_tensorflow_nixgl_poetry2nix)
 * Goal: To create a Python develop environment where everything just works
@@ -3618,12 +3618,12 @@ python * fetch credentials provider [github.com](https://github.com/NixOS/nix/i
 * {python and more} [nix-community/dream2nix/tree/main/examples](https://github.com/nix-community/dream2nix/tree/main/examples)
 * {python auth} [Peter Kolloch - Blog - Nix: Authenticated Fetches from GitLab - Reading about Related Work](https://blog.eigenvalue.net/2023-nix-fetch-with-authentication/)
 
-### Nix Colors and Ricing
+FIXME### Nix Colors and Ricing
 
 * {colors} [Nix-colors Guide | Declaratively Rice Your Linux Desktop](https://www.youtube.com/watch?v=jO2o0IN0LPE&pp=ygUQbml4IGhvbWUgbWFuYWdlcg%3D%3D) 
 * {rice} [danth.github.io](https://danth.github.io/stylix/) 
 
-### Nvidia, Cuda,  OpenGL, etc
+FIXME### Nvidia, Cuda,  OpenGL, etc
 
 * [/search?client=firefox-b-d&q=nixOS+on+tuxedo+with+gpu](https://www.google.com/search?client=firefox-b-d&q=nixOS+on+tuxedo+with+gpu)
 * [accessing-gpus-inside-a-nix-generated-docker-container](https://discourse.nixos.org/t/accessing-gpus-inside-a-nix-generated-docker-container/21122)
@@ -3660,7 +3660,7 @@ python * fetch credentials provider [github.com](https://github.com/NixOS/nix/i
 * nvidia [Impossible to initialize nvidia nvml : Driver/library version mismatch · Issue #98328 · NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/issues/98328)
 * cuda [gist.github.com](https://gist.github.com/ChadSki/926e5633961c9b48131eabd32e57adb2) nix with cuda
 
-### SOPS
+FIXME### SOPS
 
 * [video](https://www.youtube.com/watch?v%3DG5f6GC7SnhU)
 * sops [konradmalik.com](https://konradmalik.com/posts/2023/02/sops-nix-simple-secrets-management-for-nix/)
@@ -3672,7 +3672,7 @@ python * fetch credentials provider [github.com](https://github.com/NixOS/nix/i
 * [konradmalik.com](https://konradmalik.com/posts/2023/02/sops-nix-simple-secrets-management-for-nix/)
 * [NixOS Secrets Management | SOPS-NIX - YouTube](https://www.youtube.com/watch?v%3DG5f6GC7SnhU)
 
-## Dev Env
+FIXME## Dev Env
 
 * [Building reproducible Development environment | by Ion Mudreac | Medium](https://mudrii.medium.com/building-reproducible-development-environment-b1d4fb51a302)
 * [cachix/devenv: Fast, Declarative, Reproducible, and Composable Developer Environments](https://github.com/cachix/devenv)
@@ -3710,7 +3710,7 @@ python * fetch credentials provider [github.com](https://github.com/NixOS/nix/i
 * [Getting started with Nix Flakes and devshell](https://yuanwang.ca/posts/getting-started-with-flakes.html)
 * [Julow/nix-workspaces: Reproducible workspaces using Nix modules.](https://github.com/Julow/nix-workspaces)
 
-## YouTube Channels*
+FIXME## YouTube Channels*
 
 * [/@jonringer117](https://www.youtube.com/@jonringer117) (Nix channel)*
 * [tweag.io](https://www.tweag.io/)
@@ -3734,7 +3734,7 @@ python * fetch credentials provider [github.com](https://github.com/NixOS/nix/i
 * [Chris McDonough](https://www.youtube.com/playlist?list=PLa01scHy0YEnsvjvMNNk-JSvTdL_ivsml)
 * [garnix.io](https://garnix.io/)
 
-## Next Steps
+FIXME## Next Steps
 
 * [nixos.org](https://nixos.org/download.html#nixos-iso) try install on Darlene -> first remember password, then learn about nom-graphical installation for nixos
 * debug nixGL alacritty
@@ -3744,17 +3744,17 @@ python * fetch credentials provider [github.com](https://github.com/NixOS/nix/i
 * install, understand, and use Nix
 * install NixOS on Allison, eventually also on Betsy
 
-## Config
+FIXME## Config
 
 * {keybinds} [Move keyboard settings to home-manager · edde4a11d5 - localhost - code.dumpstack.io](https://code.dumpstack.io/infra/localhost/commit/edde4a11d52394d87c9bbd61dcfdd172a7ea1de0#diff-dd9078c2c684f713290b9f17802a6d38970bea46)
 
-## Tools and Software SORT -----------------------------------------------------------------------------------------------------------------------------------------------------
+FIXME## Tools and Software SORT -----------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Videos
+FIXME## Videos
 
 * [/@ChrisMcDonough/playlists](https://www.youtube.com/@ChrisMcDonough/playlists)
 
-## Nix language
+FIXME## Nix language
 
 * [Nix Language Explained](https://www.youtube.com/watch?v=UgrwoAGSPOQ&pp=ygUMbml4IGxhbmd1YWdl)
 * [NixOS Introduction: Basics of Nix Language Explained](https://www.youtube.com/watch?v=cyPdh6gu2sw&pp=ygUMbml4IGxhbmd1YWdl)
@@ -3790,7 +3790,7 @@ python * fetch credentials provider [github.com](https://github.com/NixOS/nix/i
 * related to Nix 3.0 [github.com](https://github.com/NixOS/nix/issues/7701)
 * {nixlang types} [typednix](https://typednix.dev/) [github link](https://github.com/hsjobeki/nix-types)
 
-### Introduction
+FIXME### Introduction
 
 * {intro } [Learn how to use the Nix REPL effectively - Aldo Borrero](https://aldoborrero.com/posts/2022/12/02/learn-how-to-use-the-nix-repl-effectively/)
 * {intro} [ariya.io](https://ariya.io/2020/05/nix-package-manager-on-ubuntu-or-debian)
@@ -3804,7 +3804,7 @@ python * fetch credentials provider [github.com](https://github.com/NixOS/nix/i
 * {intro} [NixOS - Wikipedia](https://en.wikipedia.org/wiki/NixOS)
 * {intro} [Quick Start - Nix Reference Manual](https://nixos.org/manual/nix/stable/quick-start.html)
 
-## NixOS
+FIXME## NixOS
 
 * [NixOS is Mindblowing](https://www.youtube.com/watch?v=fuWPuJZ9NcU&pp=ygUFTml4T1M%3D)
 * [NixOS in 60 seconds](https://www.youtube.com/watch?v=Ukglm5KJFa8&pp=ygUFTml4T1M%3D)
@@ -3832,7 +3832,7 @@ python * fetch credentials provider [github.com](https://github.com/NixOS/nix/i
 * [Dieses OS ist eigentlich ein Paketmanager - NixOS 21.11 - #sonntagsOS - 19](https://youtu.be/CQMU3kSRhLU)
 * [Jake Hamilton NixOS Playlist](https://www.youtube.com/playlist?list=PLCy0xwW0SDST7VMInFJ4NIwG_SW0yO59y)
 
-## Nix/NixOS in the media
+FIXME## Nix/NixOS in the media
 
 * [Debian 12, openSUSE 15.5, NixOS, Huge Steam Update & more Linux news! - YouTube](https://www.youtube.com/watch?v=YojPjjavHbs)
 * [Dieses OS ist eigentlich ein Paketmanager - NixOS 21.11](https://www.youtube.com/watch?v=CQMU3kSRhLU)
@@ -3866,7 +3866,7 @@ python * fetch credentials provider [github.com](https://github.com/NixOS/nix/i
 * {media} [linux-community.de](https://www.linux-community.de/ausgaben/linuxuser/2018/08/nix-neues/)
 * {media} [linux-magazine.com](https://www.linux-magazine.com/Issues/2021/248/Nix-and-NixOS)
 
-## Flakes
+FIXME## Flakes
 
 * {flake } [Novice Nix: Flake Templates · peppe.rs](https://peppe.rs/posts/novice_nix:_flake_templates/)
 * [A Tour of Nix Flakes | Mattia Gheda](https://ghedam.at/a-tour-of-nix-flakes)
@@ -3919,7 +3919,7 @@ flake * flakes explanation [reddit](https://www.reddit.com/r/NixOS/s/eq9BlQ1sRj
 * [Intro to Flakes](https://youtu.be/K54KKAx2wNc)
 * [Nix flakes explained](https://www.youtube.com/watch?v=S3VBi6kHw5c)
 
-## Videos2
+FIXME## Videos2
 
 * [Streamline Your Linux Experience with Nix OS Deployment Tools! - YouTube](https://www.youtube.com/watch?v=qXBzpWIQwMY)
 * [The Most Exciting Linux Distro! - YouTube](https://www.youtube.com/watch?v=GkjBMy5ZdG0)
@@ -3970,7 +3970,7 @@ flake * flakes explanation [reddit](https://www.reddit.com/r/NixOS/s/eq9BlQ1sRj
 * {video} [Nix From Nothing #1 | Let's Learn Nix & NixOS! - YouTube](https://www.youtube.com/watch?v%3Dt8ydCYe9Y3M)
 * {video} [NixOS Explained - YouTube](https://www.youtube.com/watch?v%3DtQ446LjIv7k)
 
-## Miscellaneous / Specific Software*
+FIXME## Miscellaneous / Specific Software*
 
 * [Neovim Configuration in Nix: Unpacking Multiple Approaches - YouTube](https://www.youtube.com/watch?v=i68c6vZkSXc)
 * [NixOS + Hyprland challenge comes to an end, My final thoughts - YouTube](https://www.youtube.com/watch?v=eb2Cvdu6F18)
@@ -3978,7 +3978,7 @@ flake * flakes explanation [reddit](https://www.reddit.com/r/NixOS/s/eq9BlQ1sRj
 * [Nix vs Guix - YouTube](https://www.youtube.com/watch?v=S9V-pcTrdL8)
 * [The Nix Hour #32 [extending nixpkgs lib and Nix builtins, Nix plugins] - YouTube](https://www.youtube.com/watch?v=-ohLh-QHc_A)
 
-## Meta
+FIXME## Meta
 
 * [nixos-users-against-mic-sponsorship.github.io/](https://nixos-users-against-mic-sponsorship.github.io/)
 * {meta} [/r/voidlinux/comments/z8a727/how_do_you_guys_feel_about_flatpaks/](https://www.reddit.com/r/voidlinux/comments/z8a727/how_do_you_guys_feel_about_flatpaks/)
@@ -3998,7 +3998,7 @@ flake * flakes explanation [reddit](https://www.reddit.com/r/NixOS/s/eq9BlQ1sRj
 * {meta} [Upgrading Nix - Nix Reference Manual](https://nixos.org/manual/nix/stable/installation/upgrading)
 * {meta} [Who uses NixOS? Who are you people? (And good-bye) : NixOS](https://www.reddit.com/r/NixOS/comments/rctpu9/who_uses_nixos_who_are_you_people_and_goodbye/)
 
-## Nix Education
+FIXME## Nix Education
 
 * [brainrake/nixos-tutorial](https://github.com/brainrake/nixos-tutorial)
 * [Hacking Your First Package — nix-tutorial documentation](https://nix-tutorial.gitlabpages.inria.fr/nix-tutorial/first-package.html)
@@ -4013,7 +4013,7 @@ flake * flakes explanation [reddit](https://www.reddit.com/r/NixOS/s/eq9BlQ1sRj
 * [Writing your own NixOS modules for fun and (hopefully) profit - YouTube](https://www.youtube.com/watch?v%3DSzyuLVzS5Fg)
 * Informal intro to the Nix language, derivations and nixpkgs - YouTube [video](https://www.youtube.com/watch?v=9DJtHIpdp0Y&t=132s&pp=2AGEAZACAcoFFm5peCBsYW5ndWFnZSB0dXRvcmlhbCA%3D)
 
-## Blog Posts
+FIXME## Blog Posts
 
 * [...](https://blog.alper-celik.dev/posts/my-first-contributions-to-nixpkgs-and-open-source/)
 * [determinate.systems](https://determinate.systems/posts/experimental-does-not-mean-unstable)
@@ -4035,14 +4035,14 @@ flake * flakes explanation [reddit](https://www.reddit.com/r/NixOS/s/eq9BlQ1sRj
 * [blog post my nix workflow](https://bmcgee.ie/posts/2023/11/nix-my-workflow/)
 * [blog post - nikiv - nix](https://wiki.nikiv.dev/package-managers/nix/)
 
-## Forum
+FIXME## Forum
 
 * [Guix seems interesting but I almost stopped reading when I read "Nix". For all t... | Hacker News](https://news.ycombinator.com/item?id=18908591)
 * [NixOS Configuration File Organisation - Help - NixOS Discourse](https://discourse.nixos.org/t/nixos-configuration-file-organisation/19612/5)
 * [what-do-i-need-to-know-to-use-nix-and-where-to-find-more-a-concise-overview-for-new-users](https://discourse.nixos.org/t/what-do-i-need-to-know-to-use-nix-and-where-to-find-more-a-concise-overview-for-new-users/41656)
 * [where-did-you-get-stuck-in-the-nix-ecosystem-tell-me-your-story](https://discourse.nixos.org/t/where-did-you-get-stuck-in-the-nix-ecosystem-tell-me-your-story/31415)
 
-## NixOS Manual
+FIXME## NixOS Manual
 
 * [NixOS 24.05 manual | Nix & NixOS](https://nixos.org/manual/nixos/unstable/index.html%23sec-luks-file-systems)
 * [NixOS 24.05 manual | Nix & NixOS](https://nixos.org/manual/nixos/unstable/%23sec-installation)
@@ -4051,7 +4051,7 @@ flake * flakes explanation [reddit](https://www.reddit.com/r/NixOS/s/eq9BlQ1sRj
 * [NixOS 23.11 manual | Nix & NixOS](https://nixos.org/manual/nixos/stable/options%23opt-services.xserver.displayManager.autoLogin)
 * [NixOS 23.11 manual | Nix & NixOS](https://nixos.org/manual/nixos/stable/index.html%23sec-changing-config)
 
-## Tutorial
+FIXME## Tutorial
 
 * [nix.dev tutorial](https://nix.dev/tutorials/first-steps/declarative-shell.html)
 * [nix.dev tutorial](https://nix.dev/tutorials/first-steps/ad-hoc-shell-environments.html)
@@ -4059,7 +4059,7 @@ flake * flakes explanation [reddit](https://www.reddit.com/r/NixOS/s/eq9BlQ1sRj
 * [nix.dev tutorial](https://nix.dev/tutorials/%23tutorials)
 * [nix.dev tutorial](https://nix.dev/guides/recipes/python-environment)
 
-## Possible Nix Alternatives
+FIXME## Possible Nix Alternatives
 
 * [Fedora Silverblue](https://docs.fedoraproject.org/en-US/fedora-silverblue/)
 * [VanillaOS](https://vanillaos.org/)
@@ -4069,7 +4069,7 @@ flake * flakes explanation [reddit](https://www.reddit.com/r/NixOS/s/eq9BlQ1sRj
 * [...](...)
 * [...](...)
 
-## Garbage Collection
+FIXME## Garbage Collection
 
 * [Deleting Old System Profiles - What am I Missing? : r/NixOS](https://www.reddit.com/r/NixOS/comments/unwip2/deleting_old_system_profiles_what_am_i_missing/)
 * [Garbage Collection - Nix Reference Manual](https://nixos.org/manual/nix/stable/package-management/garbage-collection.html)
@@ -4081,7 +4081,7 @@ flake * flakes explanation [reddit](https://www.reddit.com/r/NixOS/s/eq9BlQ1sRj
 * [NixOS Generations Trimmer - NixOS Wiki](https://nixos.wiki/wiki/NixOS_Generations_Trimmer)
 * [nixos.org](https://nixos.org/guides/nix-pills/garbage-collector)
 
-## Installation
+FIXME## Installation
 
 * {install } [Installing NixOS with Full Disk Encryption](https://gist.github.com/mara-schulke/43e2632ce73d94028f50f438037c1578)
 * {install} [1. Get Nix running on your system](https://zero-to-nix.com/start/install)
@@ -4103,7 +4103,7 @@ flake * flakes explanation [reddit](https://www.reddit.com/r/NixOS/s/eq9BlQ1sRj
 * {install} [tinkering.xyz](https://tinkering.xyz/installing-nixos/)
 * {install luks} [NixOS: Full disk encryption with TPM and Secure Boot ? : r/NixOS](https://www.reddit.com/r/NixOS/comments/xrgszw/nixos_full_disk_encryption_with_tpm_and_secure/)
 
-## NixOS Software Search
+FIXME## NixOS Software Search
 
 * [NixOS Search - Packages - tre](https://search.nixos.org/packages?channel%3Dunstable%26show%3Dtre-command%26from%3D0%26size%3D50%26sort%3Drelevance%26type%3Dpackages%26query%3Dtre)
 * [NixOS Search - Packages - spacefm](https://search.nixos.org/packages?channel%3Dunstable%26from%3D0%26size%3D50%26sort%3Drelevance%26type%3Dpackages%26query%3Dspacefm)
@@ -4118,7 +4118,7 @@ flake * flakes explanation [reddit](https://www.reddit.com/r/NixOS/s/eq9BlQ1sRj
 * [NixOS Search - Packages - cosmic](https://search.nixos.org/packages?channel%3D23.11%26show%3Dcosmic-edit%26from%3D0%26size%3D50%26sort%3Drelevance%26type%3Dpackages%26query%3Dcosmic)
 * [NixOS Search - Options - nix.gc](https://search.nixos.org/options?channel%3D23.11%26from%3D0%26size%3D50%26sort%3Drelevance%26type%3Dpackages%26query%3Dnix.gc)
 
-## Home Manager
+FIXME## Home Manager
 
 How to install and nconfigure browser extension with Nix and Home Manager?
 * {hw} [TUXEDO Devices - NixOS Wiki](https://nixos.wiki/wiki/TUXEDO_Devices)
@@ -4204,7 +4204,7 @@ How to install and nconfigure browser extension with Nix and Home Manager?
 * {hm} [Ultimate NixOS Guide | Flakes | Home-manager - YouTube](https://www.youtube.com/watch?v%3Da67Sv4Mbxmc)
 * {hm resource} [schuelermine/xhmm: Extra home manager modules](https://github.com/schuelermine/xhmm)
 
-## Specific Topics
+FIXME## Specific Topics
 
 * {specific} [2023-07-31 Documentation team meeting notes #68 - Development / Documentation - NixOS Discourse](https://discourse.nixos.org/t/2023-07-31-documentation-team-meeting-notes-68/31127/2)
 * {specific} [depreciate-the-use-of-nix-env-to-install-packages](https://discourse.nixos.org/t/depreciate-the-use-of-nix-env-to-install-packages/20139/22)
@@ -4218,7 +4218,7 @@ How to install and nconfigure browser extension with Nix and Home Manager?
 * {specific} [unimport nix plugin? at DuckDuckGo](https://duckduckgo.com/?q%3Dunimport%2Bnix%2Bplugin%253F%26ia%3Dweb)
 * {specific} [using-imports-attribute-with-import-function](https://discourse.nixos.org/t/using-imports-attribute-with-import-function/36357/2)
 
-## Package Search
+FIXME## Package Search
 
 * [search](https://www.google.com/search?client%3Dfirefox-b-d%26q%3Dnixos%2Bdeclare%2Bdocker%2Bimages%2Bin%2Bconfig)
 * [search.nixos.org](https://search.nixos.org/packages?channel=23.11&show=nix-tree&from=0&size=50&sort=relevance&type=packages&query=nix-tree)
@@ -4226,7 +4226,7 @@ How to install and nconfigure browser extension with Nix and Home Manager?
 * [search.nixos.org](https://search.nixos.org/packages?channel%3D23.11%26show%3Dlibgen-cli%26from%3D0%26size%3D50%26sort%3Drelevance%26type%3Dpackages%26query%3Dlibgen)
 * [search.nixos.org](https://search.nixos.org/options)*
 
-## Reddit
+FIXME## Reddit
 
 * [r/unixporn/s/Fk9sUOv7FY](https://www.reddit.com/r/unixporn/s/Fk9sUOv7FY)
 * [r/NixOS/s/UhoOeQnx6T](https://www.reddit.com/r/NixOS/s/UhoOeQnx6T)
@@ -4251,12 +4251,12 @@ How to install and nconfigure browser extension with Nix and Home Manager?
 * [r/browsers/s/7RTbiwUx4q](https://www.reddit.com/r/browsers/s/7RTbiwUx4q)
 * [r/](https://www.reddit.com/r/NixOS/s/seSy4UDEuR)
 
-## Nix Cheats
+FIXME## Nix Cheats
 
 * {cheats} [[Feature Discussion] Declarative Flatpak Configuration? - Development - NixOS Discourse](https://discourse.nixos.org/t/feature-discussion-declarative-flatpak-configuration/26767/3)
 * {cheats} [What advantages does Flatpak offer over Nix? The](https://news.ycombinator.com/item?id%3D35170465)
 
-## Specific Apps
+FIXME## Specific Apps
 
 * [Android development on NixOS - Specific Solutions](https://specific.solutions.limited/projects/hanging-plotter/android-environment.md)
 * [Any documentation on keyd under NixOS? : r/NixOS](https://www.reddit.com/r/NixOS/comments/10ym1ed/any_documentation_on_keyd_under_nixos/)
@@ -4318,33 +4318,33 @@ How to install and nconfigure browser extension with Nix and Home Manager?
 * prog [hraban/cl-nix-lite: Common Lisp module for Nix, without Quicklisp](https://github.com/hraban/cl-nix-lite)
 * suckless [github.com](https://github.com/NixOS/nixpkgs/issues/23200)
 
-### TeX
+FIXME### TeX
 
 * [flyx.org](https://flyx.org/nix-flakes-latex/)
 * [nixos.wiki](https://nixos.wiki/wiki/TexLive)
 * [rgri/tex2nix](https://github.com/rgri/tex2nix)
 *[**Exploring Nix Flakes: Build LaTeX Documents Reproducibly](https://flyx.org/nix-flakes-latex/)
 
-### VSCode
+FIXME### VSCode
 
 * {vscode} [pietdevries94/nix-vscode-extensions](https://github.com/pietdevries94/nix-vscode-extensions)
 * {vscode} [Search results - Nix | Visual Studio Code , Visual Studio Marketplace](https://marketplace.visualstudio.com/search?term=Nix&target=VSCode&category=All%20categories&sortBy=Relevance)
 * {vscode} [Visual Studio Code - NixOS Wiki](https://nixos.wiki/wiki/Visual_Studio_Code)
 
-## 1s
+FIXME## 1s
 
 * [fluffynukeit.com](https://fluffynukeit.com/installing-essential-software-in-nixos/)
 
-## Misc
+FIXME## Misc
 
 * [nix-community/robotnix](https://github.com/nix-community/robotnix)
 * [nixos.wiki](https://nixos.wiki/wiki/Android)
 
-## Related Projects
+FIXME## Related Projects
 
 * [snowflakeos.org](https://snowflakeos.org/)
 
-# clavix: Keybindings and Shortcuts
+FIXME# clavix: Keybindings and Shortcuts
 
 * Major keybind sources:
 * Termulator: wezterm, kitty, alacritty
@@ -4368,7 +4368,7 @@ How to install and nconfigure browser extension with Nix and Home Manager?
 * mappable keys → use light AI; also make scores → convenience scores for
 * keymappings, coherence scores
 
-## Roadmap
+FIXME## Roadmap
 
 * [ ] compile list of applications (top, basic, extended, someday -
     according to priority)
@@ -4413,7 +4413,7 @@ How to install and nconfigure browser extension with Nix and Home Manager?
       including optional support for commenting out old keybindings lines,
       but also backing up the config to e.g. ~/.cache/clavix/\<timestamp\>)
 
-## notes
+FIXME## notes
 
 * use [dhall](https://dhall-lang.org/#) as a configuration language?
 * → focus on defining a consistent user experience (esp. keystrokes)
@@ -4429,7 +4429,7 @@ How to install and nconfigure browser extension with Nix and Home Manager?
     step: CLI to read configs (potentially from a config file listing
     all apps) and create keybindings table
 
-### Build on / draw from
+FIXME### Build on / draw from
 
 * [pawamoy/keycut](https://github.com/pawamoy/keycut) - A command line tool that helps
   you remembering ALL the numerous keyboard shortcuts of ALL your
@@ -4438,7 +4438,7 @@ How to install and nconfigure browser extension with Nix and Home Manager?
   sync (OS X/Linux) → get ideas for colorflip and kbgeneral
 * Keybinding Collection
 
-### shortcut lists
+FIXME### shortcut lists
 
 * [cheatography.com/tag/ubuntu/](https://cheatography.com/tag/ubuntu/)
 * [dgkim5360.github.io/blog/linux/2017/07/a-cheatsheet-for-ubuntu-shortcuts/](https://dgkim5360.github.io/blog/linux/2017/07/a-cheatsheet-for-ubuntu-shortcuts/)
@@ -4448,7 +4448,7 @@ How to install and nconfigure browser extension with Nix and Home Manager?
 * [defkey.com/](https://defkey.com/)
 * [defkey.com/ubuntu-shortcuts?pdf=true&modifiedDate=20210304T113257](https://defkey.com/ubuntu-shortcuts?pdf=true&modifiedDate=20210304T113257)
 
-### specific apps
+FIXME### specific apps
 
 * VScode crap
 * [code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
@@ -4459,7 +4459,7 @@ How to install and nconfigure browser extension with Nix and Home Manager?
 * -> [Anki Deck Control Center](https://docs.google.com/spreadsheets/d/1Lzr3GcZ2fpCONyJkTht8G-Ehn415gB2as3wXOvGlLHU/edit#gid=1690951121)
 * [Keyboard shortcuts for YouTube - YouTube Help](https://support.google.com/youtube/answer/7631406?hl=en)
 
-### semantic groups
+FIXME### semantic groups
 
 1. window management
 2. terminal multiplexing
@@ -4468,26 +4468,26 @@ How to install and nconfigure browser extension with Nix and Home Manager?
 5. web browsing
 6. system commands
 
-### espanso notes
+FIXME### espanso notes
 
 Need to integrate cleanly → separation of concerns
 
-### other keys to remap
+FIXME### other keys to remap
 
 home, end, page up, page down
 
-### proglang keywords
+FIXME### proglang keywords
 
 * → how to integrate with espanso? via special characters to begin triggers
 * → maybe don’t integrate this part with espanso; pure-kanata can be faster
 
-### Frequency of letter combinations
+FIXME### Frequency of letter combinations
 
 ```python
 ['BF', 'BG', 'BK', 'BQ', 'BW', 'BX', 'BZ', 'CJ', 'CV', 'CW', 'CX', 'DK', 'DX', 'DZ', 'FB', 'FD', 'FH', 'FJ', 'FK', 'FN', 'FP', 'FQ', 'FV', 'FW', 'FX', 'FZ', 'GB', 'GC', 'GJ', 'GK', 'GP', 'GQ', 'GV', 'GX', 'GZ', 'HG', 'HJ', 'HK', 'HQ', 'HV', 'HX', 'HZ', 'IY', 'JB', 'JC', 'JD', 'JF', 'JG', 'JH', 'JJ', 'JK', 'JL', 'JM', 'JN', 'JP', 'JQ', 'JR', 'JS', 'JT', 'JV', 'JW', 'JX', 'JY', 'JZ', 'KC', 'KJ', 'KK', 'KQ', 'KV', 'KX', 'KZ', 'LJ', 'LQ', 'LX', 'LZ', 'MJ', 'MK', 'MQ', 'MV', 'MX', 'MZ', 'PG', 'PJ', 'PQ', 'PV', 'PX', 'PZ', 'QA', 'QB', 'QC', 'QD', 'QE', 'QF', 'QG', 'QH', 'QI', 'QJ', 'QK', 'QL', 'QM', 'QN', 'QO', 'QP', 'QQ', 'QR', 'QS', 'QT', 'QV', 'QW', 'QX', 'QY', 'QZ', 'SJ', 'SX', 'SZ', 'TJ', 'TK', 'TQ', 'TX', 'UQ', 'UW', 'VB', 'VC', 'VD', 'VF', 'VG', 'VH', 'VJ', 'VK', 'VL', 'VM', 'VN', 'VP', 'VQ', 'VT', 'VV', 'VW', 'VX', 'VZ', 'WG', 'WJ', 'WQ', 'WV', 'WW', 'WX', 'WZ', 'XB', 'XD', 'XG', 'XJ', 'XK', 'XM', 'XN', 'XQ', 'XR', 'XS', 'XW', 'XZ', 'YJ', 'YK', 'YQ', 'YV', 'YX', 'YY', 'ZB', 'ZC', 'ZD', 'ZF', 'ZG', 'ZJ', 'ZK', 'ZM', 'ZN', 'ZP', 'ZQ', 'ZR', 'ZS', 'ZT', 'ZV', 'ZW', 'ZX', 'BH', 'BP', 'CB', 'CF', 'CG', 'CN', 'CP', 'CZ', 'DQ', 'FC', 'FG', 'FM', 'GF', 'GW', 'HC', 'HH', 'HP', 'IJ', 'IW', 'KB', 'KD', 'KP', 'KT', 'MD', 'MG', 'MH', 'MT', 'MW', 'OQ', 'PB', 'PC', 'PD', 'PF', 'PK', 'PN', 'PW', 'RJ', 'RQ', 'RX', 'RZ', 'SV', 'TD', 'TV', 'UH', 'UJ', 'UU', 'VR', 'VS', 'WB', 'WC', 'WK', 'WM', 'WP', 'WU', 'XL', 'YF', 'YH', 'YU', 'ZH', 'ZL', 'AQ', 'BC', 'BD', 'BN', 'CD', 'DP', 'HF', 'IH', 'KF', 'KM', 'KW', 'LH', 'SG', 'TG', 'UZ', 'VU', 'WF', 'WY', 'XF', 'XV', 'YZ', 'ZU', 'ZY', 'AA', 'BM', 'CM', 'DB', 'DC', 'DF', 'DT', 'GD', 'HD', 'JI', 'KG', 'KH', 'KR', 'KU', 'MR', 'NX', 'OZ', 'TB', 'UV', 'XO', 'XX', 'XY', 'YG', 'YW', 'ZZ', 'BV', 'HB', 'MC', 'MF', 'NB', 'NZ', 'TP', 'TZ', 'UX', 'WD', 'XH', 'YB', 'AO', 'CQ', 'DH', 'DJ', 'EJ', 'EZ', 'HW', 'ML', 'SD', 'UK', 'UY', 'VY', 'XU', 'FS', 'KO', 'KY', 'LG', 'LN', 'NP', 'NQ', 'NW', 'SR', 'TF', 'LB', 'OJ', 'SQ', 'WT', 'YD', 'ZO', 'DN', 'DW', 'SB', 'YR', 'FY', 'MN', 'NR', 'SN', 'GM', 'LR', 'TN', 'BB', 'IQ', 'KL', 'NH', 'NJ', 'UO', 'AE', 'AJ', 'AZ', 'LC', 'PY', 'ZI', 'HL', 'HM', 'LW', 'RW', 'YN', 'AH', 'YC', 'GT', 'HS', 'RH', 'WL', 'YL', 'EK', 'PM', 'YA', 'BT', 'IU', 'KA', 'SF', 'YT', 'DM', 'AX', 'DV', 'LP', 'OX', 'UF', 'LK', 'OH', 'IX', 'XE', 'BJ', 'CS', 'II', 'LM', 'SW', 'YM', 'GG', 'YP', 'ZA', 'EH', 'GY', 'HN', 'JA', 'TC', 'TM', 'XC', 'EB', 'RB', 'NM', 'YI', 'XA', 'DG', 'EU', 'WR', 'DL', 'RF', 'LV', 'WS', 'OY', 'OE', 'SK', 'XI', 'CY', 'RP', 'DD', 'IK', 'BS', 'XT', 'KS', 'DY', 'HY', 'ZE', 'GS', 'KN', 'JE', 'NK', 'NV', 'LF', 'JO', 'PS', 'SL', 'EQ', 'OA', 'SY', 'JU', 'AW', 'GL', 'MY', 'IZ', 'NL', 'OK', 'FL', 'SM', 'GN', 'NF', 'XP', 'RV', 'VO', 'EO', 'NN', 'AF', 'HU', 'NU', 'WN', 'FT', 'TW', 'CC', 'HR', 'DR', 'GU', 'RL', 'OI', 'IP', 'UB', 'MB', 'UD', 'MS', 'YE', 'OG', 'PH', 'FU', 'MM', 'OB', 'RK', 'YS', 'KI', 'NY', 'TL', 'IB', 'RG', 'UI', 'AK', 'PU', 'PT', 'BI', 'BR', 'MU', 'EW', 'CK', 'AU', 'EG', 'RC', 'RR', 'PI', 'LT', 'DS', 'RU', 'UG', 'HT', 'GO', 'LU', 'UA', 'UP', 'PP', 'UM', 'VA', 'LS', 'EY', 'BA', 'FF', 'UE', 'DU', 'GA', 'QU', 'CL', 'CR', 'YO', 'DA', 'GI', 'SC', 'RN', 'CU', 'EF', 'FA', 'OC', 'TT', 'EP', 'RM', 'BY', 'OV', 'EI', 'BU', 'DO', 'UC', 'RD', 'SP', 'BO', 'OD', 'GR', 'AP', 'IF', 'AG', 'AV', 'OO', 'FR', 'EX', 'KE', 'AY', 'SA', 'WO', 'OP', 'TY', 'GH', 'AB', 'BL', 'FE', 'MP', 'RY', 'LD', 'EV', 'IG', 'TU', 'PL', 'VI', 'CI', 'AM', 'FI', 'IA', 'IV', 'OS', 'ID', 'SU', 'IR', 'SH', 'AI', 'IM', 'MI', 'PA', 'OW', 'MO', 'TS', 'NI', 'UL', 'NA', 'PO', 'WE', 'RT', 'OL', 'AD', 'EM', 'WI', 'EE', 'WH', 'GE', 'IE', 'WA', 'LO', 'UN', 'RS', 'SO', 'SS', 'UT', 'ET', 'NC', 'LY', 'TR', 'IL', 'OT', 'AC', 'US', 'CT', 'NO', 'PR', 'EC', 'PE', 'HO', 'FO', 'DI', 'NS', 'LA', 'EL', 'TA', 'CA', 'UR', 'OM', 'SI', 'MA', 'BE', 'LL', 'CH', 'LI', 'CE', 'RA', 'EA', 'NE', 'IC', 'RO', 'RI', 'HI', 'DE', 'ME', 'CO', 'VE', 'LE', 'IO', 'OU', 'AS', 'HA', 'SE', 'NG', 'NT', 'TO', 'ST', 'AR', 'AL', 'IT', 'IS', 'ED', 'OF', 'TE', 'OR', 'ES', 'TI', 'ND', 'EN', 'AT', 'ON', 'RE', 'AN', 'ER', 'IN', 'HE', 'TH']
 ```
 
-### Good (hybrid) modifiers
+FIXME### Good (hybrid) modifiers
 
 * q → infrequently followed by most letters; map q+u to ‘qu’
 * semicolon → or permanent for all other non-alphabet characters? 15 good left-hand keys
@@ -4504,17 +4504,17 @@ home, end, page up, page down
 * backslash (even less comfortable) → modifier for keyboard layer switching?
 * backtick → less comfortable → maybe for application launching?
 
-### good hybrid modifier chords
+FIXME### good hybrid modifier chords
 
 * right shift + slash
 * right shift + dot
 * right shift + comma
 
-### other keybinding ideas
+FIXME### other keybinding ideas
 
 shift + shift -> caps lock or some other key
 
-### potentially ‘freed’ keys
+FIXME### potentially ‘freed’ keys
 
 * numbers → use for snippets? commands?
 * right bracket
@@ -4523,7 +4523,7 @@ shift + shift -> caps lock or some other key
 * shift + quote →
 * right alt + space
 
-## Kanata
+FIXME## Kanata
 
 * [jtroo/kanata](https://github.com/jtroo/kanata)
   * Kanata Documentation](...)
@@ -4596,7 +4596,7 @@ shift + shift -> caps lock or some other key
 * How to type Croatian, Polish, and Norwegian special characters on
   Ubuntu US Intl keyboard? → just use kanata or similar
 
-## Kmonad
+FIXME## Kmonad
 
 * [kmonad/kmonad](https://github.com/kmonad/kmonad)
 * [r/Kmonad/](https://www.reddit.com/r/Kmonad/)
@@ -4615,7 +4615,7 @@ shift + shift -> caps lock or some other key
 * [david-janssen/kmonad](https://github.com/david-janssen/kmonad) The inspiration for kanata
         (Linux, Windows, Mac)
 
-## Hybrid Modifier / Hypermodifier
+FIXME## Hybrid Modifier / Hypermodifier
 
 * [video](https://www.youtube.com/results?search_query=xcape+linux)
 * [manpages.ubuntu.com/manpages/xenial/man1/xcape.1.html](https://manpages.ubuntu.com/manpages/xenial/man1/xcape.1.html)
@@ -4641,7 +4641,7 @@ shift + shift -> caps lock or some other key
 * [XMonad Demo](https://www.youtube.com/watch?v=70IxjLEmomg&t=298s)
 * [search?q=repo%3Aaltercation%2Fdotfiles-tilingwm+xkb&type=code](https://github.com/search?q=repo%3Aaltercation%2Fdotfiles-tilingwm+xkb&type=code)
 
-## 1S Reading
+FIXME## 1S Reading
 
 * [Reddit - How do you manage your windows?](https://www.reddit.com/r/neovim/comments/11lqwrn/how_do_you_manage_your_windows/) → keybinds
 * (2) Is there a quick way to switch/swap tab with escape?
@@ -4807,7 +4807,7 @@ shift + shift -> caps lock or some other key
 )
 ```
 
-## SORT
+FIXME## SORT
 
 * → find software used to make keybinding images → SVG for zoomability?
 * Caps_lock 58, escape 1 -> get all keycodes
@@ -4823,9 +4823,9 @@ shift + shift -> caps lock or some other key
 * super ctrl space : dialog of all windows
 * super [0-9] : new window
 
-# Hank
+FIXME# Hank
 
-## Latest
+FIXME## Latest
 
 * Hank Ubuntu server (v2): install docker in install
 
@@ -4836,7 +4836,7 @@ flatpak install org.wezfurlong.wezterm
 sudo apt install landscape-client
 sudo landscape-config --computer-title "Isaac stellaris 15" --account-name standalone -p SpeakFriendAndEnter --url [landscape.knecon.com/message-system](https://landscape.knecon.com/message-system) --ping-url [landscape.knecon.com/ping](http://landscape.knecon.com/ping)
 
-# [teams.microsoft.com/l/message/19:0e375ad9-64aa-488b-bde0-9d643d768f57_5ae9b4e0-d8c6-47f1-ac08-c5cd013ac891@unq.gbl.spaces/1712647904617?context=%7B%22contextType%22%3A%22chat%22%7D](https://teams.microsoft.com/l/message/19:0e375ad9-64aa-488b-bde0-9d643d768f57_5ae9b4e0-d8c6-47f1-ac08-c5cd013ac891@unq.gbl.spaces/1712647904617?context=%7B%22contextType%22%3A%22chat%22%7D)
+FIXME# [teams.microsoft.com/l/message/19:0e375ad9-64aa-488b-bde0-9d643d768f57_5ae9b4e0-d8c6-47f1-ac08-c5cd013ac891@unq.gbl.spaces/1712647904617?context=%7B%22contextType%22%3A%22chat%22%7D](https://teams.microsoft.com/l/message/19:0e375ad9-64aa-488b-bde0-9d643d768f57_5ae9b4e0-d8c6-47f1-ac08-c5cd013ac891@unq.gbl.spaces/1712647904617?context=%7B%22contextType%22%3A%22chat%22%7D)
 
 sudo apt install nala
 sudo nala update -y && sudo nala upgrade -y
@@ -4903,7 +4903,7 @@ sudo nala install -y build-essential \
 mkdir HyprSource
 cd HyprSource
 
-## get Source
+FIXME## get Source
 
 wget [gitlab.freedesktop.org/mesa/drm/-/archive/libdrm-2.4.120/drm-libdrm-2.4.120.tar.gz](https://gitlab.freedesktop.org/mesa/drm/-/archive/libdrm-2.4.120/drm-libdrm-2.4.120.tar.gz)
 tar -xzf drm-libdrm-2.4.120.tar.gz
@@ -4920,29 +4920,29 @@ tar -xzvJf wayland-1.22.0.tar.xz
 wget [gitlab.freedesktop.org/emersion/libdisplay-info/-/releases/0.1.1/downloads/libdisplay-info-0.1.1.tar.xz](https://gitlab.freedesktop.org/emersion/libdisplay-info/-/releases/0.1.1/downloads/libdisplay-info-0.1.1.tar.xz)
 tar -xvJf libdisplay-info-0.1.1.tar.xz
 
-# build libdrm
+FIXME# build libdrm
 
 cd drm-libdrm-2.4.120 && meson builddir/ && sudo ninja -C builddir/ install
 
-# build wayland
+FIXME# build wayland
 
 cd wayland-1.22.0 && mkdir build && cd build && meson setup .. --prefix=/usr --buildtype=release -Ddocumentation=false && ninja
 sudo ninja install
 cd ../..
 
-# bulild wayland-protocols
+FIXME# bulild wayland-protocols
 
 cd wayland-protocols-1.35 && mkdir build && cd build && meson setup --prefix=/usr --buildtype=release && ninja
 sudo ninja install
 cd ../..
 
-# build libdisplay-info
+FIXME# build libdisplay-info
 
 cd libdisplay-info-0.1.1/ && mkdir build && cd build && meson setup --prefix=/usr --buildtype=release && ninja
 sudo ninja install
 cd ../..
 
-# build hyprcursor
+FIXME# build hyprcursor
 
 cd hyprcursor-source
 cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_INSTALL_PREFIX:PATH=/usr -S . -B ./build
@@ -4950,7 +4950,7 @@ cmake --build ./build --config Release --target all -j`nproc 2>/dev/null || getc
 sudo cmake --install build
 cd ..
 
-# build hyprlang
+FIXME# build hyprlang
 
 cd cd hyprlang-source
 cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_INSTALL_PREFIX:PATH=/usr -S . -B ./build
@@ -4958,7 +4958,7 @@ cmake --build ./build --config Release --target hyprlang -j`nproc 2>/dev/null ||
 cmake --install ./build
 cd ..
 
-# build Hyprland
+FIXME# build Hyprland
 
 chmod a+rw hyprland-source
 cd hyprland-source/
@@ -4989,7 +4989,7 @@ sudo nala install wezterm
 * [jakoolit](https://github.com/JaKooLit/Debian-Hyprland)
   -> [JaKooLit/Debian-Hyprland/tree/main/install-scripts](https://github.com/JaKooLit/Debian-Hyprland/tree/main/install-scripts)
 
-## Old
+FIXME## Old
 
 Vision:
 * Questions:
@@ -5017,7 +5017,7 @@ Vision:
 sudo apt install
 sudo apt update && sudo apt upgrade
 
-# sudo apt install spice-vdagent spice-webdavd
+FIXME# sudo apt install spice-vdagent spice-webdavd
 
 sudo apt install --no-install-recommends lightdm-gtk-greeter
 sudo apt install --no-install-recommends lightdm
@@ -5035,13 +5035,13 @@ reboot
 sudo vim /etc/netplan/00-installer-config-wifi.yaml
 
 '
-# This is the network config written by "subiquity"
+FIXME# This is the network config written by "subiquity"
 
-#network:
+FIXME#network:
 
-# version: 2
+FIXME# version: 2
 
-# wifis: {}
+FIXME# wifis: {}
 
 * network:
   version: 2
@@ -5055,14 +5055,14 @@ sh <(curl -L [nixos.org/nix/install)](https://nixos.org/nix/install)) --no-daemo
 * command -v zsh | sudo tee -a /etc/shells
 * chsh -s $(which zsh)
 
-# requires reboot
+FIXME# requires reboot
 
 sudo apt install nvidia-driver-530
 nix-channel --add [guibou/nixGL/archive/main.tar.gz](https://github.com/guibou/nixGL/archive/main.tar.gz) nixgl && nix-channel --update
 nix-env -iA nixgl.auto.nixGLDefault
 nix-env install -iA nixpkgs.wezterm
 
-# NIXGL GENERALLY WORKING, BUT NOT WITH WEZTERM, ALACRITTY, AND KITTY -> DEBUG
+FIXME# NIXGL GENERALLY WORKING, BUT NOT WITH WEZTERM, ALACRITTY, AND KITTY -> DEBUG
 
 sudo apt install kitty wezterm
 sudo apt install mesa-utils
@@ -5070,7 +5070,7 @@ sudo apt-get install libgl1-mesa-glx libgl1-mesa-dri # attempted fix -> REMOVE?
 
 sudo apt-get install mesa-common-dev libgl1-mesa-dev libglu1-mesa-dev
 
-# try driver version 510, or update nixGL to be 530 compatible
+FIXME# try driver version 510, or update nixGL to be 530 compatible
 
 mkdir ~/pkgs && cd ~/
 curl -LO [wez/wezterm/releases/download/20230408-112425-69ae8472/wezterm-20230408-112425-69ae8472.Ubuntu22.04.deb](https://github.com/wez/wezterm/releases/download/20230408-112425-69ae8472/wezterm-20230408-112425-69ae8472.Ubuntu22.04.deb)
@@ -5079,7 +5079,7 @@ sudo apt install kitty
 sudo add-apt-repository ppa:aslatter/ppa -y && sudo apt install alacritty
 nix-env -iA nixpkgs.glxinfo
 
-#######
+FIXME#######
 
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg
@@ -5096,71 +5096,71 @@ newgrp docker
 docker run hello-world
 sudo systemctl edit --force --full networking.service
 
-#Add the following line:
+FIXME#Add the following line:
 
-#TimeoutStartSec=10sec
+FIXME#TimeoutStartSec=10sec
 
-#(did not solve it, but I left it)
+FIXME#(did not solve it, but I left it)
 
-#follow instead:
+FIXME#follow instead:
 
-#https://ubuntuforums.org/showthread.php?t=2476963
+FIXME#https://ubuntuforums.org/showthread.php?t=2476963
 
-########
+FIXME########
 
 nix-env -iA nixpkgs.nitrogen
 mkdir ~/Pictures/wallpaper
 curl -o ~/Pictures/wallpaper/leaves.jpg [drive.google.com/file/d/1yNf0dBaKzl0OPSriKthrFBBRSkNePYPO](https://drive.google.com/file/d/1yNf0dBaKzl0OPSriKthrFBBRSkNePYPO)
 nitrogen --set-scaled ~/Pictures/wallpaper/leaves.jpg
 
-# add 'exec --no-startup-id nitrogen --restore' to i3 config
+FIXME# add 'exec --no-startup-id nitrogen --restore' to i3 config
 
 nix-env -iA nixpkgs.arandr
 
-#add picture to nitrogen and create bg-saved.cfg (from #9 here, mode=0)
+FIXME#add picture to nitrogen and create bg-saved.cfg (from #9 here, mode=0)
 
 sudo apt install flatpak
 flatpak remote-add --if-not-exists flathub [flathub.org/repo/flathub.flatpakrepo](https://flathub.org/repo/flathub.flatpakrepo)
 flatpak install flathub org.mozilla.firefox
 
-# NEED TO FIX THIS - arandr not saving file -> remove and script xrandr, bind to keystroke
+FIXME# NEED TO FIX THIS - arandr not saving file -> remove and script xrandr, bind to keystroke
 
-# [r/i3wm/comments/ln3zd7/making_arandr_setup_permanent/](https://www.reddit.com/r/i3wm/comments/ln3zd7/making_arandr_setup_permanent/)
+FIXME# [r/i3wm/comments/ln3zd7/making_arandr_setup_permanent/](https://www.reddit.com/r/i3wm/comments/ln3zd7/making_arandr_setup_permanent/)
 
-# -> [crivotz/dot_files/tree/master/linux](https://github.com/crivotz/dot_files/tree/master/linux)
+FIXME# -> [crivotz/dot_files/tree/master/linux](https://github.com/crivotz/dot_files/tree/master/linux)
 
-# [crivotz/dot_files/blob/master/linux/screenlayout/autoxrandr.sh](https://github.com/crivotz/dot_files/blob/master/linux/screenlayout/autoxrandr.sh)
+FIXME# [crivotz/dot_files/blob/master/linux/screenlayout/autoxrandr.sh](https://github.com/crivotz/dot_files/blob/master/linux/screenlayout/autoxrandr.sh)
 
 nix-env --uninstall arandr
 nix-store --gc
 
-# add ~/.local/bin to $PATH
+FIXME# add ~/.local/bin to $PATH
 
 nvim ~/.local/bin/twoscreen
 
-# then add to i3 config
+FIXME# then add to i3 config
 
 flatpak install flathub org.wezfurlong.wezterm
 
-# need to resolve nix, keeping apt wezterm for comparison and debugging purposes
+FIXME# need to resolve nix, keeping apt wezterm for comparison and debugging purposes
 
 sudo apt instal nala
  get dual monitor setup working
  get sound working
  fix icons
 
-#Add PipeWire repository
+FIXME#Add PipeWire repository
 
 sudo add-apt-repository ppa:pipewire-debian/pipewire-upstream
 sudo apt update
 
-#Install PipeWire
+FIXME#Install PipeWire
 
 sudo apt install pipewire pipewire-pulse
 sudo apt install pipewire-audio-client-libraries
 sudo apt install gstreamer1.0-pipewire libspa-0.2-bluetooth libspa-0.2-jack
 
-#Set PipeWire as default audio daemon
+FIXME#Set PipeWire as default audio daemon
 
 systemctl --user stop pulseaudio.service pulseaudio.socket
 systemctl --user disable pulseaudio.service pulseaudio.socket
@@ -5170,25 +5170,25 @@ systemctl --user start pipewire.socket pipewire-pulse.socket
 sudo nala install alsa-utils
 reboot
 
-# set up media keys to work with i3
+FIXME# set up media keys to work with i3
 
-## Media volume controls
+FIXME## Media volume controls
 
-#bindsym XF86AudioMute exec amixer sset 'Master' toggle
+FIXME#bindsym XF86AudioMute exec amixer sset 'Master' toggle
 
-#bindsym XF86AudioLowerVolume exec amixer sset 'Master' 5%-
+FIXME#bindsym XF86AudioLowerVolume exec amixer sset 'Master' 5%-
 
-#bindsym XF86AudioRaiseVolume exec amixer sset 'Master' 5%+
+FIXME#bindsym XF86AudioRaiseVolume exec amixer sset 'Master' 5%+
 
 flatpak install flathub org.gtk.Gtk3theme.Adwaita-dark
 
-#flatpak install flathub org.freedesktop.Platform.Icontheme.Adwaita (removed again because deprecated)
+FIXME#flatpak install flathub org.freedesktop.Platform.Icontheme.Adwaita (removed again because deprecated)
 
 nix-env -iA nixpkgs.lxappearance
 
-#sudo nala install dconf-editor (removed)
+FIXME#sudo nala install dconf-editor (removed)
 
-# not sure if this is useful or necessary
+FIXME# not sure if this is useful or necessary
 
 nix-env -iA nixpkgs.unzip
 nix-env -iA nixpkgs.bat
@@ -5207,37 +5207,37 @@ ssh-keygen -t ed25519 -C "Isaac Riley's Stellaris 15"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 
-# then add to github and gitlab
+FIXME# then add to github and gitlab
 
 flatpak install flathub com.github.Eloston.UngoogledChromium
 apt update
 apt install landscape-client
 landscape-config -p SpeakFriendAndEnter --account-name standalone --url [landscape.knecon.com/message-system](https://landscape.knecon.com/message-system) --ping-url [landscape.knecon.com/ping](https://landscape.knecon.com/ping)
 
-#nei xfce.thunar
+FIXME#nei xfce.thunar
 
-#necessary?
+FIXME#necessary?
 
 cd /usr/share/icons/Adwaita
 for size in 16x16 22x22 24x24 32x32 48x48 256x256; do (sudo mkdir -p $size/mimetypes && cd $size/mimetypes; sudo ln -vsf ../places/folder.png inode-directory.png); done
 
-#nei krusader
+FIXME#nei krusader
 
-#nei xfe
+FIXME#nei xfe
 
 nei spaceFM
 nei starship
 nei kanata-with-cmd
 
-# follow: [jtroo/kanata/blob/main/docs/avoid-sudo-linux.md](https://github.com/jtroo/kanata/blob/main/docs/avoid-sudo-linux.md)
+FIXME# follow: [jtroo/kanata/blob/main/docs/avoid-sudo-linux.md](https://github.com/jtroo/kanata/blob/main/docs/avoid-sudo-linux.md)
 
 flatpak install flathub org.gtk.Gtk3theme.Yaru-dark
 
-# download from [romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
+FIXME# download from [romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
 
-# install fonts
+FIXME# install fonts
 
-# to fix icons in vscode terminal
+FIXME# to fix icons in vscode terminal
 
 cd ~/pkgs
 wget [ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip)
@@ -5248,13 +5248,13 @@ rm *Windows*
 fc-cache -fv
 ```
 
-## Next Steps
+FIXME## Next Steps
 
 * try [flathub.org/apps/org.upscayl.Upscayl](https://flathub.org/apps/org.upscayl.Upscayl)
 * [flathub.org/apps/org.otfried.Ipe](https://flathub.org/apps/org.otfried.Ipe)
 * [flathub.org/apps/com.github.GradienceTeam.Gradience](https://flathub.org/apps/com.github.GradienceTeam.Gradience)
 
-## Hank - Installed
+FIXME## Hank - Installed
 
 * Terminal (non-GUI)
 * bash
@@ -8684,7 +8684,7 @@ echo 'export TERMINAL="/usr/bin/kitty"' >> ~/.bashrc && source ~/.bashrc
 ```
 * → replace dmenu with rofi: [gist.github.com/panicwithme/60d371ed85378154bf990fd1092a72c1](https://gist.github.com/panicwithme/60d371ed85378154bf990fd1092a72c1)
 
-## Mantis
+FIXME## Mantis
 
 * [sommaa/Mantis](https://github.com/sommaa/Mantis)
 * [averagelinuxuser.com/ssh-into-virtualbox/#connect-to-virtualbox-from-the-guest-os](https://averagelinuxuser.com/ssh-into-virtualbox/#connect-to-virtualbox-from-the-guest-os) 
@@ -8693,7 +8693,7 @@ echo 'export TERMINAL="/usr/bin/kitty"' >> ~/.bashrc && source ~/.bashrc
 sudo apt install
 sudo apt update && sudo apt upgrade
 
-#sudo apt install spice-vdagent spice-webdavd
+FIXME#sudo apt install spice-vdagent spice-webdavd
 
 sudo apt install --no-install-recommends lightdm-gtk-greeter
 sudo apt install --no-install-recommends lightdm
@@ -8711,15 +8711,15 @@ sudo apt install build-essential
 
 ----------------------------------------------------------sudo apt-get install virtualbox-guest-additions-iso
 
-#sudo add-apt-repository ppa:spvkgn/zathura-mupdf
+FIXME#sudo add-apt-repository ppa:spvkgn/zathura-mupdf
 
 sudo vim /etc/apt/sources.list
 
-#deb [ppa.launchpadcontent.net/spvkgn/zathura-mupdf/ubuntu](https://ppa.launchpadcontent.net/spvkgn/zathura-mupdf/ubuntu) focal main
+FIXME#deb [ppa.launchpadcontent.net/spvkgn/zathura-mupdf/ubuntu](https://ppa.launchpadcontent.net/spvkgn/zathura-mupdf/ubuntu) focal main
 
-##deb-src [ppa.launchpadcontent.net/spvkgn/zathura-mupdf/ubuntu](https://ppa.launchpadcontent.net/spvkgn/zathura-mupdf/ubuntu) focal main
+FIXME##deb-src [ppa.launchpadcontent.net/spvkgn/zathura-mupdf/ubuntu](https://ppa.launchpadcontent.net/spvkgn/zathura-mupdf/ubuntu) focal main
 
-###sudo add-apt-repository ppa:spvkgn/zathura-mupdf
+FIXME###sudo add-apt-repository ppa:spvkgn/zathura-mupdf
 
 sudo apt update
 sudo apt install zathura zathura-djvu zathura-pdf-mupdf
@@ -8733,21 +8733,21 @@ make CMAKE_BUILD_TYPE=Release
 sudo make install
 
 ----------------------------------------------------------#=====>
-#cd ~/pkgs/
+FIXME#cd ~/pkgs/
 
-#git clone --depth=1 [adi1090x/rofi.git](https://github.com/adi1090x/rofi.git)
+FIXME#git clone --depth=1 [adi1090x/rofi.git](https://github.com/adi1090x/rofi.git)
 
-#cd rofi
+FIXME#cd rofi
 
-#chmod +x setup.sh
+FIXME#chmod +x setup.sh
 
-#./setup.sh
+FIXME#./setup.sh
 
 pip install pycairo requests i3ipc
 git clone --depth 1 [AstroNvim/AstroNvim](https://github.com/AstroNvim/AstroNvim) ~/.config/nvim
 nvim
 
-# :q
+FIXME# :q
 
 sh -c "curl -fsSL raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh")
 curl -sS [starship.rs/install.sh](https://starship.rs/install.sh) | sh
@@ -8764,17 +8764,17 @@ pip install -r requirements.txt
 
 --------------------------------------------------------------# HERE IS WHERE IT GETS TRICKY
 
-#sudo apt-get install python3-pip git
+FIXME#sudo apt-get install python3-pip git
 
-#pip3 install i3ipc
+FIXME#pip3 install i3ipc
 
-#git clone [olemartinorg/i3-alternating-layout](https://github.com/olemartinorg/i3-alternating-layout)
+FIXME#git clone [olemartinorg/i3-alternating-layout](https://github.com/olemartinorg/i3-alternating-layout)
 
-# add to i3 config:
+FIXME# add to i3 config:
 
-#exec --no-startup-id /path/to/alternating_layouts.py
+FIXME#exec --no-startup-id /path/to/alternating_layouts.py
 
-#/usr/lib/apt/apt-helper download-file [debian.sur5r.net/i3/pool/main/s/sur5r-keyring/sur5r-keyring_2023.02.18_all.deb](https://debian.sur5r.net/i3/pool/main/s/sur5r-keyring/sur5r-keyring_2023.02.18_all.deb) keyring.deb SHA256:a511ac5f10cd811f8a4ca44d665f2fa1add7a9f09bef238cdfad8461f5239cc4
+FIXME#/usr/lib/apt/apt-helper download-file [debian.sur5r.net/i3/pool/main/s/sur5r-keyring/sur5r-keyring_2023.02.18_all.deb](https://debian.sur5r.net/i3/pool/main/s/sur5r-keyring/sur5r-keyring_2023.02.18_all.deb) keyring.deb SHA256:a511ac5f10cd811f8a4ca44d665f2fa1add7a9f09bef238cdfad8461f5239cc4
 
 sudo apt install ./keyring.deb
 echo "deb [debian.sur5r.net/i3/](http://debian.sur5r.net/i3/) $(grep '^DISTRIB_CODENAME=' /etc/lsb-release | cut -f2 -d=) universe" | sudo tee /etc/apt/sources.list.d/sur5r-i3.list
@@ -8793,7 +8793,7 @@ chmod +x setup.sh
 
 ./setup.sh
 
-# comment out block around line 54 in rofi config
+FIXME# comment out block around line 54 in rofi config
 
 cp -r ~/pkgs/Mantis/dots/kitty ~/.config
 cp -r ~/pkgs/Mantis/dots/ranger ~/.config
@@ -8815,7 +8815,7 @@ cp -r zathura $HOME/.config
 cp dunstrc $HOME/.config
 cp starship.toml $HOME/.config
 
-# combine manually
+FIXME# combine manually
 
 cp zshrc $HOME/_zshrc
 cp -r nvim $HOME/.config/_nvim
@@ -8825,7 +8825,7 @@ cp -r rofi $HOME/.config/rofi
 cp -r nvim $HOME/.config/nvim
 pip install neovim
 
-#TODO: find .otf instead of .ttf
+FIXME#TODO: find .otf instead of .ttf
 
 cd ~/pkgs
 wget [ryanoasis/nerd-fonts/releases/download/v2.1.0/Iosevka.zip](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Iosevka.zip)
@@ -8846,9 +8846,9 @@ export PATH=$PATH:/home/isaac/.spicetify
 
 ```
 
-# Color Themes
+FIXME# Color Themes
 
-## theme galleries
+FIXME## theme galleries
 
 * ( ) [Pling Store](https://www.pling.com/) - Desktop app of openDesktop.org, which is one of the largest communities where developers and artists share applications, themes and other content.
 * ( ) [Base16 Themes by AndrsDC](https://vscodethemes.com/e/andrsdc.base16-themes/base16-dark-3024?language=javascript)
@@ -8861,9 +8861,9 @@ export PATH=$PATH:/home/isaac/.spicetify
 * ( ) [repainter](https://repainter.app/themes)
 * ( ) [vscode-base16-term](https://glitchbone.github.io/vscode-base16-term/#/)
 
-## By Color
+FIXME## By Color
 
-### Green
+FIXME### Green
 
 *  [Midnight Forest](https://github.com/rezwan-hossain/Midnight-Forest) - one of the very best
 *  [merko](https://github.com/merko30/merko-green-theme)
@@ -9000,7 +9000,7 @@ export PATH=$PATH:/home/isaac/.spicetify
 * ( ) [...](https://github.com/sommaa/Mantis)
 * ( ) [...](https://dataswamp.org/~solene/) - green and yellow earthy
 
-### Purple
+FIXME### Purple
 
 *  [Tokyonight](https://www.reddit.com/r/unixporn/comments/12c7z80/tmux_simple_tokyo_night_theme_goes_well_with/)
 *  [...](https://github.com/rebelot/kanagawa.nvim)
@@ -9024,7 +9024,7 @@ export PATH=$PATH:/home/isaac/.spicetify
 * ( ) [...](https://raw.githubusercontent.com/rainglow/examples/master/vim/heroku.png)
 * ( ) [...](https://raw.githubusercontent.com/rainglow/examples/master/vim/crisp.png)
 
-### Brown / Other
+FIXME### Brown / Other
 
 *  [Enfocado](https://vscodethemes.com/e/wuelnerdotexe.vscode-enfocado/enfocado-dark-nature?language=javascript) - almost perfect on brown
 *  [perfect brown](https://vscodethemes.com/e/ermiyaszeleke.matrix/matrix-theme?language=javascript)
@@ -9045,7 +9045,7 @@ export PATH=$PATH:/home/isaac/.spicetify
 * ( ) [Base16 Marrakesh](https://base16.netlify.app/previews/base16-marrakesh.html)
 * ( ) [Base16 Bespin](https://base16.netlify.app/previews/base16-bespin.html) - brown background, but very good foreground colors
 
-### Gray
+FIXME### Gray
 
 *  [...](https://github.com/sainnhe/everforest) - one of the best
 *  [Subliminal Next](https://vscodethemes.com/e/konradkeska.subliminal-next/subliminal-next?language=javascript) - grey with excellent low-contrast for special characters and keywords → adopt this!
@@ -9063,7 +9063,7 @@ export PATH=$PATH:/home/isaac/.spicetify
 * ( ) [New Darcula](https://vscodethemes.com/e/e-simpson.new-darcula/new-darcula?language=javascript)
 * ( ) [Base16 Railscasts](https://base16.netlify.app/previews/base16-railscasts.html) (grayish)
 
-### Black
+FIXME### Black
 
 *  [BG Black](https://vscodethemes.com/e/kurodamaria.bg-black/bg-black?language=javascript) - almost perfect colors, but on near-black green background
 *  [Dark Hacker](https://vscodethemes.com/e/magson.dark-hacker-theme/dark-hacker-theme?language=javascript) - pretty good, green-brown-yellow
@@ -9077,7 +9077,7 @@ export PATH=$PATH:/home/isaac/.spicetify
 *  [Black background bright colors](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fqtile-maybe-my-last-rice-on-arch-linux-btw-v0-8yblg58aubva1.png%3Fs%3D9504a382a77e61bfd8b072ba54a76a9a9da5e205)
 * ( ) [Base16 Seti](https://base16.netlify.app/previews/base16-seti.html) - black and very colorful, but nice tones
 
-### Bluish
+FIXME### Bluish
 
 *  [React Theme](https://vscodethemes.com/e/jeans.jsx-awesome-theme/react-theme?language=javascript) - just need to change yellow
 *  [perfect manjaro](https://qtile.org/screenshots/longerhv/) qtile [config](https://gitlab.com/LongerHV/.dotfiles/blob/master/.config/qtile/config.py) green and blue
@@ -9127,15 +9127,15 @@ export PATH=$PATH:/home/isaac/.spicetify
 * ( ) [TMUX] [Minimal Nord theme for tmux](https://www.reddit.com/r/unixporn/comments/129b7vn/tmux_minimal_nord_theme_for_tmux/)
 * ( ) [...](https://github.com/clyde80/dotfiles) clyde80 blue and red
 
-### Light
+FIXME### Light
 
 * ( ) [Userscape Theme - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=gerane.Theme-Userscape) - not terrible, but not for me <<<
 
-## Templates
+FIXME## Templates
 
 * ( ) [gitlab.com/GasparVardanyan/solarized](https://gitlab.com/GasparVardanyan/solarized)
 
-## IDEAS
+FIXME## IDEAS
 
 (not unlike [nvim site](https://neovim.io/doc/user/options.html) [colors](https://github.com/neovim/neovim.github.io/search?q=color)):
 
@@ -9157,9 +9157,9 @@ export PATH=$PATH:/home/isaac/.spicetify
 * Apps
   * freetube
 
-## ChatGPT
+FIXME## ChatGPT
 
-### Request 1
+FIXME### Request 1
 
 Sure! Here's a base-16 color scheme with a very dark green background, shades of green and blue, and neutral colors like white, gray, and brown:
 
@@ -9181,7 +9181,7 @@ Sure! Here's a base-16 color scheme with a very dark green background, shades of
 * #aa8844 (brown)
 * These colors can be used for a variety of design purposes, such as web design, graphic design, or branding.
 
-### Request 2
+FIXME### Request 2
 
 * Sure! Here's a base-16 color scheme that incorporates shades of green, blue, white, gray, and brown, with a very dark green background:
 * Background:
@@ -9201,7 +9201,7 @@ Sure! Here's a base-16 color scheme with a very dark green background, shades of
 * Dark brown: #8b4513
 * These colors can be used for a variety of design elements, such as text, buttons, backgrounds, and borders. Let me know if you need any additional assistance!
 
-### Request 3
+FIXME### Request 3
 
 * Sure! Here's a base-16 color scheme with a dark green background and built around green and blue:
 * Background:
@@ -9220,7 +9220,7 @@ Sure! Here's a base-16 color scheme with a very dark green background, shades of
 * Black: #000000
 * These colors can be used for a variety of design elements, such as text, buttons, backgrounds, and borders. Let me know if you need any additional assistance!
 
-### Request 4
+FIXME### Request 4
 
 * Sure! Here's a base-16 color scheme with a dark green background, built around green and blue:
 * Background:
@@ -9239,7 +9239,7 @@ Sure! Here's a base-16 color scheme with a very dark green background, shades of
 * Black: #000000
 * These colors can be used for a variety of design elements, such as text, buttons, backgrounds, and borders. Let me know if you need any additional assistance!
 
-### Request 5
+FIXME### Request 5
 
 * Sure, here are a few base-16 color schemes that might be fitting for nature lovers:
 
@@ -9261,7 +9261,7 @@ Earthy Tones:
 * Neutrals: #f5f5f5, #dcdcdc, #b3b3b3, #5d5d5d
 * These color schemes incorporate colors commonly found in nature, such as browns, greens, blues, and grays. They can be used for a variety of design purposes, such as websites, logos, or branding.
 
-### Request 6
+FIXME### Request 6
 
 * Here's how the Solarized Dark color scheme can be mapped to the categories of a base-16 color scheme:
 * Background:
@@ -9280,7 +9280,7 @@ Earthy Tones:
 * Base03: #002b36
 * Note that the Solarized Dark color scheme has a slightly different structure than a traditional base-16 color scheme, as it includes multiple shades of gray instead of just one neutral color. However, the colors can still be categorized into backgrounds, primary colors, secondary colors, and neutrals as in a base-16 scheme.
 
-## VSCode
+FIXME## VSCode
 
 ```json
 {
@@ -9311,9 +9311,9 @@ Earthy Tones:
 }
 ```
 
-## Scratch
+FIXME## Scratch
 
-### Green Mountains wallpaper
+FIXME### Green Mountains wallpaper
 
 * #0F1E25
 * #06292F
@@ -9326,7 +9326,7 @@ Earthy Tones:
 * #77B188
 * #C8E690
 
-### Alacritty settings
+FIXME### Alacritty settings
 
 ```yaml
 colors:
@@ -9358,7 +9358,7 @@ cyan:    '0x2aa16d'
 white:   '0xa0f3c4'#'0xfdf6e3'
 ```
 
-### VSCode Style
+FIXME### VSCode Style
 
 ```jsonc
 {
@@ -9410,7 +9410,7 @@ white:   '0xa0f3c4'#'0xfdf6e3'
 }
 ```
 
-## Tairnbach
+FIXME## Tairnbach
 
 ```json
 {
@@ -9440,7 +9440,7 @@ white:   '0xa0f3c4'#'0xfdf6e3'
 }
 ```
 
-### Temporary Alacritty
+FIXME### Temporary Alacritty
 
 ```yaml
 colors:
@@ -9470,7 +9470,7 @@ cyan:    '0x2aa198'
 white:   '0xfdf6e3'
 ```
 
-### Mapping from Solarized Dark: Color scheme: solarized → tairnbach
+FIXME### Mapping from Solarized Dark: Color scheme: solarized → tairnbach
 
 * Base03 (darkest blue) →
 * Base02 (lighter blue) →
@@ -9490,7 +9490,7 @@ white:   '0xfdf6e3'
 * Green
 * Syntax highlighting Solarized Dark:keyword: orangeconstant: bluefunction: yellowbuilt-in kw: redstring: cyanother: graycomment: darker gray
 
-## Sort
+FIXME## Sort
 
 *  very dark purple [Reddit - [Fluxbox] Entre Dos Aguas](https://www.reddit.com/r/unixporn/comments/120sy8f/fluxbox_entre_dos_aguas/)
 *  purple [Reddit - [Xmonad] Another catppuccin convert](https://www.reddit.com/r/unixporn/comments/yw4l8h/xmonad_another_catppuccin_convert/)
@@ -9509,9 +9509,9 @@ white:   '0xfdf6e3'
 * ( ) [...](https://github.com/kolunmi/ttyscheme)
 * ( ) [...](https://github.com/heygleeson/Gruvbox-GMTheme)
 
-## Pictrix Notes (SORT) -------------------------------------------------------------------------------------------------------------
+FIXME## Pictrix Notes (SORT) -------------------------------------------------------------------------------------------------------------
 
-## Notes to Sort
+FIXME## Notes to Sort
 
 ```txt
 Idea: use non-linear NN to learn continuous mapping from one color space to another
@@ -9544,7 +9544,7 @@ or Mc = c^\prime
 * Map one colorscheme to another (closed-form mapping matrix vs FFNN vs attention-based NN / transformer)
 * ( ) [paletton.com/](https://paletton.com/)
 
-### pictrix: Tools for Color and Theme Management
+FIXME### pictrix: Tools for Color and Theme Management
 
 * make global-inputs with keybindings.nix and colors.nix, to be read into flake and fed into output in the let-in clause
 * lawyp (juwal? ruwal?)
@@ -9698,7 +9698,7 @@ print(transformed.shape)
 
 * ( ) [ImageGoNord - RGB image to Nordtheme](https://ign.schrodinger-hat.it/)
 
-## Roadmap
+FIXME## Roadmap
 
 * compile list of applications (top, basic, extended, someday - according to priority)
 * look carefully at existing projects and their respective approaches, before continuing iwht this roadmap: most notably nix-colors and stylix → possibly to integrate even more fully into Home Manager than a “Home Manager config file generation” step?
@@ -9709,7 +9709,7 @@ print(transformed.shape)
 * extend config parsers to write changed colors (with backup, including optional support for commenting out old colors lines, but also backing up the config to e.g. ~/.cache/pictrix/{timestamp}
 * Add increasingly advanced color functionality, to allow for both linear and perceptual function (esp interpolation) and eventually even different mappings of color schemes to and from images (last part as dependency, rather than just as constituent module in pictrix)
 
-### Notes
+FIXME### Notes
 
 * Alternative names: colorflip, pavo (Latin for peacock), iridesco, splendor, vanitas, vainglory, ostentatio, vanus (vanix? → good wordplay; pictrix? ostentatix?)
 * Goal: One tool for non-Nix Linux, one tool like Home Manager for colors (or make the latter nix-compatible?)
@@ -9735,7 +9735,7 @@ print(transformed.shape)
 * ( ) [sass-lang.com/dart-sass/](https://sass-lang.com/dart-sass/)
 * ( ) [sass/sassc](https://github.com/sass/sassc)
 
-## Browser Ricing Notes
+FIXME## Browser Ricing Notes
 
 * Vanilla Linux
 * ( ) [SingularisArt/Chameleon](https://github.com/SingularisArt/Chameleon) , → other projects by
@@ -9790,7 +9790,7 @@ print(transformed.shape)
   * nextcloud
   * fsf, Linux foundation, etc
 
-#### Userscripts and Site-Specific CSS
+FIXME#### Userscripts and Site-Specific CSS
 
 * ( ) [userstyles.org/styles/163722/wikipedia-math-fix-for-dark-theme](https://userstyles.org/styles/163722/wikipedia-math-fix-for-dark-theme)
 * ( ) [ ]  try Selenium on:
@@ -9822,9 +9822,9 @@ print(transformed.shape)
 * ( ) [userstyles mirror](https://github.com/uso-archive/data) and [site](https://uso.kkx.one/)
 * ( ) [usercss guide](https://github.com/openstyles/stylus/wiki/Usercss)
 * ( ) [writing usercss](https://github.com/openstyles/stylus/wiki/Writing-UserCSS)
-## SORT ---------------------------------------------------------------------------------------------------------------------------------
+FIXME## SORT ---------------------------------------------------------------------------------------------------------------------------------
 
-## Rice Font
+FIXME## Rice Font
 
 * ( ) [* Code search results](https://github.com/search?q%3Dfont-patcher%2Blanguage%253ANix%26type%3Dcode)
 * rice font Patched font name: $name Coterminous
@@ -9863,9 +9863,9 @@ print(transformed.shape)
 * ( ) [viperML/iosevka: My iosevka build, patched with nerd fonts](https://github.com/viperML/iosevka)
 * rice font e.g. Fira Coterminous - even width border on the edge (1/8th? 1 pixel? 2 pixel? dynamic max(1/8th, 2 pixel)?
 
-## Ricing Links
+FIXME## Ricing Links
 
-## Pictrix and Clavix Shared Notes
+FIXME## Pictrix and Clavix Shared Notes
 
 * ( ) [oxalica/nil](https://github.com/oxalica/nil) - nix language server in rust
 * ( ) [nix-community/rnix-lsp](https://github.com/nix-community/rnix-lsp) - WIP language server for Nix (in Rust)
@@ -9877,7 +9877,7 @@ print(transformed.shape)
 * Back up all overwritten config files
 * Color print info on operations performed, write to file, write logs
 
-## Sort -------------------------------------------------------------------------------------------------------------
+FIXME## Sort -------------------------------------------------------------------------------------------------------------
 
 * ( ) [vinceliuice/vimix-icon-theme](https://github.com/vinceliuice/vimix-icon-theme)
 * ( ) [niri](https://github.com/YaLTeR/niri)
@@ -9888,13 +9888,13 @@ print(transformed.shape)
 * ( ) [uncut.wtf/](https://uncut.wtf/) - font collection
 * flag [video](https://www.youtube.com/@Sephyrulz)
 
-## Colors
+FIXME## Colors
 
 * ( ) [jcarlosroldan.com/about](https://jcarlosroldan.com/about)
 * ( ) [media.discordapp.net/attachments/635625917623828520/1228755940887629885/screenshot.png?ex=66366da5&is=6623f8a5&hm=29a1c8817cc7f7c52456f5081152a7777e05df4a37d296320651f04a2ce1ba75&](https://media.discordapp.net/attachments/635625917623828520/1228755940887629885/screenshot.png?ex=66366da5&is=6623f8a5&hm=29a1c8817cc7f7c52456f5081152a7777e05df4a37d296320651f04a2ce1ba75&)
 * ( ) [olivercederborg/poimandres.nvim](https://github.com/olivercederborg/poimandres.nvim)
 
-## Ideal Setup
+FIXME## Ideal Setup
 
 * Minimal use of mouse
 * Unified, consistent, ergonomic keybindings
@@ -9926,11 +9926,11 @@ print(transformed.shape)
 * ( ) [nyxt/source/renderer/gtk.lisp at 0a288c573e40b8b7ac12264782e095ca08d9f507 · atlas-engineer/nyxt](https://github.com/atlas-engineer/nyxt/blob/0a288c573e40b8b7ac12264782e095ca08d9f507/source/renderer/gtk.lisp%23L68)
 * ( ) [sandesh236/sleek--themes](https://github.com/sandesh236/sleek--themes)
 
-## Rice Browser
+FIXME## Rice Browser
 
 * ( ) [Home | Stylebot](https://stylebot.dev/)
 
-## Rice Color
+FIXME## Rice Color
 
 * ( ) [Forest Green and Brown Color Palette](https://www.color-hex.com/color-palette/101985)
 * ( ) [Names of colors in English. Shades of green and brown | Colors name in english, Color, Color names](https://www.pinterest.com/pin/132856257736067260/)
@@ -9964,11 +9964,11 @@ print(transformed.shape)
 * ( ) [quickfix.es/2023/11/off-theme-presents-shades-of-purple/](https://quickfix.es/2023/11/off-theme-presents-shades-of-purple/)
 * ( ) [iTerm2-Color-Schemes/dynamic-colors/AlienBlood.sh at master · mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/dynamic-colors/AlienBlood.sh)
 
-## Rice Image
+FIXME## Rice Image
 
 * ( ) [peakpx.com/en/search?q=dark+green+forest](https://www.peakpx.com/en/search?q%3Ddark%2Bgreen%2Bforest)
 
-## Rice Teams
+FIXME## Rice Teams
 
 ```txt
 * rice teams 'is-ipad': app.layoutService.isIPad,
@@ -10000,7 +10000,7 @@ print(transformed.shape)
 * ( ) [0].split("-")
 ```
 
-## Dual Monitor
+FIXME## Dual Monitor
 
 * ( ) [fedoramagazine.org/how-to-setup-multiple-monitors-in-sway/](https://fedoramagazine.org/how-to-setup-multiple-monitors-in-sway/)
 * ( ) [nwg-piotr/nwg-displays](https://github.com/nwg-piotr/nwg-displays)
@@ -10008,11 +10008,11 @@ print(transformed.shape)
 * ( ) [wiki.hyprland.org/Configuring/Monitors/](https://wiki.hyprland.org/Configuring/Monitors/)
 * ( ) [r/swaywm/comments/jqj1ww/sway_on_ultrawide_monitor_tips_or_recommended/](https://www.reddit.com/r/swaywm/comments/jqj1ww/sway_on_ultrawide_monitor_tips_or_recommended/)
 
-## Colortheme Development
+FIXME## Colortheme Development
 
-### Repictor
+FIXME### Repictor
 
-## Recolor.jl, repictor (name?)
+FIXME## Recolor.jl, repictor (name?)
 
 * Name ideas: spaceman, colorwrap, reimage
 * DO repictor IN JULIA! good way to finally learn it for real
@@ -10038,7 +10038,7 @@ print(transformed.shape)
 * Random idea: Maybe clustering algorithms can help with this a bit → information theory
 * Someday: use TDA?
 
-### Color Theme Development
+FIXME### Color Theme Development
 
 * my own projectsto fork! [pensils](https://github.com/orsinium-labs/pencils) - interesting for exploring color themes via Python → fork and hack around on, maybe extend and turn into CLI*
 * ( ) [🎨Recolor.jl, repictor (name?)](...)*
@@ -10160,7 +10160,7 @@ print(transformed.shape)
 * ( ) [dash-dotfiles](https://github.com/cherrynoize/dash-dotfiles)
 * ( ) [bspwm dark light mode switcher](https://www.reddit.com/r/unixporn/comments/13hpfdv/bspwmpolybar_dark_mode_switcher/) [gh0stzk/dotfiles](https://github.com/gh0stzk/dotfiles) - bspwm
 
-## color switching
+FIXME## color switching
 
 * ( ) [stav121/i3wm-themer](https://github.com/stav121/i3wm-themer)
 * ( ) [shvedes/dotfiles](https://github.com/shvedes/dotfiles) (hyprland) - theme switching script**
@@ -10190,7 +10190,7 @@ print(transformed.shape)
 * ( ) [(2) Firefox retaining private data from uninstalled extensions : firefox](https://www.reddit.com/r/firefox/comments/g4m306/firefox_retaining_private_data_from_uninstalled/)10407e4f-a5b2-4f9f-84dc-b3934502b25e/manifest.jsonLocal StorageSession StorageCache StorageCookiesIndexed DBabout:support
 * ( ) [Gpick](http://www.gpick.org/) - Gpick allows you to sample any color from anywhere on your desktop, and it also provides some other advanced features!
 
-## Dotfiles & Configs, Colors, Ricing, WMs, Colorflip
+FIXME## Dotfiles & Configs, Colors, Ricing, WMs, Colorflip
 
 * ( ) [video](https://www.youtube.com/watch?v=avhEMANmfIk)
 * Custom Linux Kernels
@@ -10315,9 +10315,9 @@ print(transformed.shape)
 * Icons, Theming, Fonts
 * ( ) [ ]  Patch my own font (Conda logo, Nvidia logo) → [ryanoasis/nerd-fonts#font-patcher*](https://github.com/ryanoasis/nerd-fonts#font-patcher*)
 
-## Desktop Customization
+FIXME## Desktop Customization
 
-## Desktop Icon Packs)
+FIXME## Desktop Icon Packs)
 
 * ( ) [Candy Icons](https://github.com/EliverLara/candy-icons) - An icon theme colored with sweet gradients.
 * ( ) [Flat Remix](https://github.com/daniruiz/Flat-Remix) - Flat Remix is an icon theme inspired by material design. It is mostly flat using a colorful palette with some shadows, highlights, and gradients for some depth.
@@ -10350,12 +10350,12 @@ print(transformed.shape)
 * ( ) [Sweet](https://github.com/EliverLara/Sweet) - Light and dark colorful Gtk3.20+ theme.
 * ( ) [WhiteSur GTK Theme](https://github.com/vinceliuice/WhiteSur-gtk-theme) - MacOS Big Sur like theme for GNOME desktops.
 
-## Font management
+FIXME## Font management
 
 * ( ) [FIGlet](https://github.com/cmatsuoka/figlet) - Not exactly a font manager, but a nice program for making large letters out of ordinary text; an astonishing number of different fonts is available
 * ( ) [toilet](https://github.com/cacalabs/toilet) - A program that tries to improve `FIGlet`; can load FIGlet fonts; supports Unicode input and output, colour fonts and output, and various output formats, including HTML, IRC and ANSI; uses `libcaca` to produce nice textual effects.
 
-## GTK Themes, Icons, etc
+FIXME## GTK Themes, Icons, etc
 
 * ( ) [erikdubois.be/listing/](https://www.erikdubois.be/listing/)
 * ( ) [erikdubois.be/downloads/](https://www.erikdubois.be/downloads/)
@@ -10436,7 +10436,7 @@ rice * VanillaOS wallpaper channel
 * ( ) [Customizing Colors - Tailwind CSS](https://tailwindcss.com/docs/customizing-colors)
 * [perfect green](https://github.com/supabase-community/postgres_lsp/raw/main/docs/images/pls-github.png)
 
-## Harmonizing QT and GTK, KDE and Gnome
+FIXME## Harmonizing QT and GTK, KDE and Gnome
 
 * [possibly the gold-standard article](https://wiki.archlinux.org/title/Uniform_look_for_Qt_and_GTK_applications)
 * [KDE theming](https://www.reddit.com/r/unixporn/comments/1b3prdn/how_do_i_uniformly_theme_qt_and_gtk_apps_please/)

@@ -1,12 +1,12 @@
-# Julia
+FIXME# Julia
 
-## 1-Shot Reading
+FIXME## 1-Shot Reading
 
 https://genieframework.com/
 
 {"text": "$$$ [proceedings.juliacon.org/https://proceedings.juliacon.org/https://proceedings.juliacon.org/](https://proceedings.juliacon.org/https://proceedings.juliacon.org/https://proceedings.juliacon.org/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### > make Open Data Structures Julia Edition
+FIXME### > make Open Data Structures Julia Edition
 
 {"text": "[Hands-on Design Patterns and Best Practices with Julia](http://libgen.rs/book/index.php?md5=42BAB0AA178AA6A4CC0522CA7B2B3853)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[PacktPublishing/Hands-on-Design-Patterns-and-Best-Practices-with-Julia](https://github.com/PacktPublishing/Hands-on-Design-Patterns-and-Best-Practices-with-Julia)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -41,7 +41,7 @@ https://genieframework.com/
 {"text": "[Julia Programming Projects: Learn Julia 1.x by building apps for data analysis, visualization, machine learning, and the web](http://library.lol/main/0086C86218C52C8CC6AD2375A5D3AE02)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[PacktPublishing/Hands-on-Design-Patterns-and-Best-Practices-with-Julia](https://github.com/PacktPublishing/Hands-on-Design-Patterns-and-Best-Practices-with-Julia)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Reading List (5)
+FIXME### Reading List (5)
 
 {"text": "JuliaConstraints.jl", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "TypeDBClient.jl", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -94,7 +94,7 @@ https://genieframework.com/
 {"text": "Julia FR: [clopeau/Julia_Introduction/](https://github.com/clopeau/Julia_Introduction/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Julia open source", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Reading List (6)
+FIXME### Reading List (6)
 
 {"text": "Julia Plots Tutorial: [docs.juliaplots.org/latest/tutorial/](http://docs.juliaplots.org/latest/tutorial/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Julia PT: [JuliaLangPt](https://github.com/JuliaLangPt)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -147,7 +147,7 @@ https://genieframework.com/
 {"text": "[¡Tutorial de Julia en Español! - YouTube](https://www.youtube.com/watch?v=LbTbs-0pOuc&feature=youtu.be)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Julia and IJulia cheatsheet](http://math.mit.edu/~stevenj/Julia-cheatsheet.pdf)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Reading List (7)
+FIXME### Reading List (7)
 
 {"text": "[Learn Julia in a few minutes](https://learnxinyminutes.com/docs/julia/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Learn Julia the Hard Way](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -200,7 +200,7 @@ https://genieframework.com/
 {"text": "[Julia Community](https://julialang.org/community/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[julia DataFrames g[3][:ID] = map(x -> 3, g[3][:a]) - Ecosia](https://www.ecosia.org/search?q=julia+DataFrames+g%5B3%5D%5B%3AID%5D+%3D+map(x+-%3E+3%2C+g%5B3%5D%5B%3Aa%5D)&addon=chrome&addonversion=2.0.3)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Reading List (8)
+FIXME### Reading List (8)
 
 {"text": "[Julia in a nutshell — Agile](https://agilescientific.com/blog/2014/9/4/julia-in-a-nutshell.html)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "julia in assembly code", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -253,7 +253,7 @@ https://genieframework.com/
 {"text": "[Le blog de Julia](https://julialang.org/blog/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Le langage Julia](https://julialang.org/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Reading List (9)
+FIXME### Reading List (9)
 
 {"text": "[setzler/JuliaEconomics: Tutorial Scripts for JuliaEconomics.com](https://github.com/setzler/JuliaEconomics)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Why I’m Betting on Julia – Evan Miller](http://www.evanmiller.org/why-im-betting-on-julia.html)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -306,7 +306,7 @@ https://genieframework.com/
 {"text": "[6 Julia Frameworks to Create Desktop GUI’s and Web Apps](https://newsletter.juliacomputing.com/sendy/l/H7FGJ892sNbAoK7djevMZXIQ/PHp2CDMzyYc58YxJGSuhRA/n4jQ04hNnDftu1VkPyB9Zw) (Logan Kilpatrick)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[5 Julia Projects for Beginners — Easy Ideas to Get Started Coding in Julia](https://newsletter.juliacomputing.com/sendy/l/H7FGJ892sNbAoK7djevMZXIQ/892mMm7638928922ca8yTFwY763I1NtQ/n4jQ04hNnDftu1VkPyB9Zw) (Logan Kilpatrick)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Reading List (10)
+FIXME### Reading List (10)
 
 {"text": "[The Future of Machine Learning and Why It Looks a Lot Like Julia](https://newsletter.juliacomputing.com/sendy/l/H7FGJ892sNbAoK7djevMZXIQ/qR1CJPNVtjxvoH5g2ZpL7g/n4jQ04hNnDftu1VkPyB9Zw) (Logan Kilpatrick)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Julia Data Modeling: A Pointy Example](https://newsletter.juliacomputing.com/sendy/l/H7FGJ892sNbAoK7djevMZXIQ/fXCM1z763C892zu4hkv4mmM763eg/n4jQ04hNnDftu1VkPyB9Zw) (Matthijs Cox)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -362,11 +362,11 @@ https://genieframework.com/
 {"text": "[stackoverflow.com/questions/35328468/how-to-make-a-gui-in-julia](https://stackoverflow.com/questions/35328468/how-to-make-a-gui-in-julia)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[topics/topological-data-analysis?l=julia](https://github.com/topics/topological-data-analysis?l=julia)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## 1-Shot Watching
+FIXME## 1-Shot Watching
 
-## Resources
+FIXME## Resources
 
-### General Reference
+FIXME### General Reference
 
 {"text": "[Packages | Julia Observer](https://juliaobserver.com/packages)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[GitHub - greister/Awesome-Julia](https://github.com/greister/Awesome-Julia)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -374,7 +374,7 @@ https://genieframework.com/
 {"text": "[JuliaLang/julia/blob/master/CONTRIBUTING.md](https://github.com/JuliaLang/julia/blob/master/CONTRIBUTING.md)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Latest topics - Julia Programming Language](https://discourse.julialang.org/latest)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## To Sort
+FIXME## To Sort
 
 {"text": "[JuliaML](https://towardsdatascience.com/awesome-julia-machine-learning-packages-everyone-should-try-e36a84b8c361)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Flux ML](https://fluxml.ai/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -389,7 +389,7 @@ https://genieframework.com/
 {"text": "[GantZA/AttentionOCR.jl](https://github.com/GantZA/AttentionOCR.jl)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[merckxiaan/flux-seq2seq](https://github.com/merckxiaan/flux-seq2seq)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## General Reference
+FIXME## General Reference
 
 {"text": "[programming-julia.de/](http://programming-julia.de/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[juliahub.com/ui/Home](https://juliahub.com/ui/Home)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -407,7 +407,7 @@ https://genieframework.com/
 {"text": "[docs.julialang.org/en/v1/](https://docs.julialang.org/en/v1/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Julia Documentation · The Julia Language](https://docs.julialang.org/en/v1/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Courses and Tutorials
+FIXME### Courses and Tutorials
 
 {"text": "[Julia ML Course](https://bio322.epfl.ch/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[blog.quantinsti.com/julia-syntax/](https://blog.quantinsti.com/julia-syntax/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -427,7 +427,7 @@ https://genieframework.com/
 {"text": "[Github ^](https://github.com/mitmath/18S191/tree/68e5631f5658d779482aa546f8d324ad2b426b27)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Coursera - Julia Scientific Programming](https://www.coursera.org/learn/julia-programming/home/welcome)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Libraries
+FIXME### Libraries
 
 {"text": "[emmettgb/Emmetts-DS-NoteBooks/tree/master/Julia](https://github.com/emmettgb/Emmetts-DS-NoteBooks/tree/master/Julia)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Keno/LineEdit.jl](https://github.com/Keno/LineEdit.jl)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -440,15 +440,15 @@ https://genieframework.com/
 {"text": "[julialang.org/jsoc/gsoc/pluto/](https://julialang.org/jsoc/gsoc/pluto/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[juliapackages.com/p/pluto](https://juliapackages.com/p/pluto)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Projects
+FIXME### Projects
 
 {"text": "[c42f/Gameoji](https://github.com/c42f/Gameoji)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Institutions
+FIXME### Institutions
 
 {"text": "[jolin.io/](https://www.jolin.io/de/about-us/#our-expertise)  → [jolin.io/de/about-us/#our-expertise](https://www.jolin.io/de/about-us/#our-expertise)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Books
+FIXME### Books
 
 {"text": "[juliadatascience.io/pt/](https://juliadatascience.io/pt/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[julialang.org/learning/books/](https://julialang.org/learning/books/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -479,7 +479,7 @@ https://genieframework.com/
 {"text": "[open.umn.edu/opentextbooks/textbooks/first-semester-in-numerical-analysis-with-julia](https://open.umn.edu/opentextbooks/textbooks/first-semester-in-numerical-analysis-with-julia)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[PacktPublishing/Hands-on-Design-Patterns-and-Best-Practices-with-Julia](https://github.com/PacktPublishing/Hands-on-Design-Patterns-and-Best-Practices-with-Julia)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Media
+FIXME### Media
 
 {"text": "[gitter.im/JuliaLang/julia](https://gitter.im/JuliaLang/julia)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[discourse.julialang.org](https://discourse.julialang.org/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -488,30 +488,30 @@ https://genieframework.com/
 {"text": "1s: [talkjulia.com/10](https://www.talkjulia.com/10)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[talkjulia.com/](https://www.talkjulia.com/10)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### People
+FIXME### People
 
 {"text": "[emmettgb](https://github.com/emmettgb)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[erik-engheim.medium.com/](https://erik-engheim.medium.com/?source=post_page-----18ce1ce03153-----------------------------------)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[nassarhuda](https://github.com/nassarhuda)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Tools and Resources
+FIXME### Tools and Resources
 
 {"text": "[julia-vscode.org/](https://www.julia-vscode.org/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[cormullion.github.io/pages/2020-07-26-JuliaMono/](https://cormullion.github.io/pages/2020-07-26-JuliaMono/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[BlueStyle stylesheet](https://github.com/invenia/BlueStyle)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Video
+FIXME### Video
 
 {"text": "[Julia Software Engineering](https://www.youtube.com/watch?v=K1VBbpCFsdw&list=PLCXbkShHt01uKk7vX5aQrTVHTHQMZktfS)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[The Comprehensive Julia Tutorials](https://www.youtube.com/watch?v=APMrRY5BaDo&list=PLCXbkShHt01seTlnlVg6O7f6jKGTguFi7)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[emmett - YouTube channel with good and recent Julia playlists](https://www.youtube.com/channel/UCruzXIngBV2dlgjX1_HZRzw/playlists)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### ML
+FIXME### ML
 
 {"text": "[Julia ML Playlist](https://www.youtube.com/playlist?list=PLhQ2JMBcfAsi76O13sJzk4LXA_mu5sd9E)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[datascience.eu/machine-learning/machine-learning-in-julia/](https://datascience.eu/machine-learning/machine-learning-in-julia/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Julia
+FIXME### Julia
 
 {"text": "[tshort.github.io/Lorenz-WebAssembly-Model.jl/](https://tshort.github.io/Lorenz-WebAssembly-Model.jl/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[juliadatascience.io/pt/](https://juliadatascience.io/pt/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -523,13 +523,13 @@ https://genieframework.com/
 {"text": "[Lux.jl](https://lux.csail.mit.edu/stable/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Julia programming for Machine Learning](https://adrhill.github.io/julia-ml-course/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## General Resources
+FIXME## General Resources
 
-### People
+FIXME### People
 
 {"text": "[julbinb.github.io/](https://julbinb.github.io/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Software Libraries and Tools
+FIXME### Software Libraries and Tools
 
 {"text": "[FastAI.jl - FastAI.jl](https://fluxml.ai/FastAI.jl/dev/FastAI@dev/doc/README.md.html)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[JuliaCI/PkgTemplates.jl: Create new Julia packages, the easy way](https://github.com/JuliaCI/PkgTemplates.jl)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -545,7 +545,7 @@ https://genieframework.com/
 {"text": "[FluxML/model-zoo](https://github.com/FluxML/model-zoo)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[beautiful.makie.org/dev/](https://beautiful.makie.org/dev/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Package Creation
+FIXME### Package Creation
 
 {"text": "[Home · PkgTemplates.jl](https://docs.juliahub.com/PkgTemplates/IGiQL/0.6.4/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[How to develop a Julia package](https://julialang.org/contribute/developing_package/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -555,34 +555,34 @@ https://genieframework.com/
 {"text": "[Developing Julia Packages](https://youtu.be/QVmU29rCjaA)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Improvements in package precompilation | Tim Holy & Valentin Churavy | JuliaCon 2022](https://youtu.be/GnsONc9DYg0)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Setup
+FIXME### Setup
 
 {"text": "[JuliaCon 2020 | Using VS Code for Julia development | David Anthoff The Julia Programming Language The Julia Programming Language • • 33.724 visualizaciones hace 2 años](https://www.youtube.com/watch?v=IdhnP00Y1Ks&t=308s)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[VSCode Jupyter Notebook with Python, R, Julia [Visual Studio Code] - YouTube](https://www.youtube.com/watch?v=_10avr-dOSE)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Setting Up VS Code for Julia | Talk Julia #11 Talk Julia Talk Julia • • 5275 visualizaciones hace 10 meses](https://www.youtube.com/watch?v=KesuPOlBB_o)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[discourse.julialang.org/t/complete-end-to-end-guide-for-professional-julia-development-guide/46174/7](https://discourse.julialang.org/t/complete-end-to-end-guide-for-professional-julia-development-guide/46174/7)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Articles and Media
+FIXME### Articles and Media
 
 {"text": "[Julia for Biologists Nature Article](https://www.nature.com/articles/s41592-023-01832-z)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Talks
+FIXME### Talks
 
 {"text": "[Julia: Workflow tips, and what is new in v1.9 |  2nd DigiWell Julia Seminar](https://www.youtube.com/watch?v=qM9NtiYlXck)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Introduction to Julia | Jose Storopoli | JuliaCon 2022](https://youtu.be/uiQpwMQZBTA)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[JuliaCon 2019 | The Unreasonable Effectiveness of Multiple Dispatch | Stefan Karpinski - YouTube](https://www.youtube.com/watch?v=kc9HwsxE1OY)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Books
+FIXME### Books
 
 {"text": "[juliadatascience.io/](https://juliadatascience.io/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Julia as a Second Language", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[livebook.manning.com/book/julia-as-a-second-language](https://livebook.manning.com/book/julia-as-a-second-language)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Interop
+FIXME### Interop
 
 {"text": "[Using Python packages in Julia - New to Julia - Julia Programming Language](https://discourse.julialang.org/t/using-python-packages-in-julia/27183/8)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### 1-shot
+FIXME### 1-shot
 
 {"text": "[discourse.julialang.org/t/julia-better-rewritten-in-rust/84151/3](https://discourse.julialang.org/t/julia-better-rewritten-in-rust/84151/3)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[discourse.julialang.org/t/julia-better-rewritten-in-rust/84151](https://discourse.julialang.org/t/julia-better-rewritten-in-rust/84151)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -602,7 +602,7 @@ https://genieframework.com/
 {"text": "[discourse.julialang.org/t/best-all-purpose-text-or-website-for-learning-julia/104619/3](https://discourse.julialang.org/t/best-all-purpose-text-or-website-for-learning-julia/104619/3)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Julia Quick Syntax Reference: A Pocket Guide for Data Science Programming](http://library.lol/main/FD61CF1E5A4DFAB33A8E6DC938EEB276)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Reading List (0)
+FIXME### Reading List (0)
 
 {"text": "[bkamins.github.io/](https://bkamins.github.io/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[simtech.uni-stuttgart.de/events/simtech-summer-school/SuSch_2/program/](https://www.simtech.uni-stuttgart.de/events/simtech-summer-school/SuSch_2/program/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -813,28 +813,28 @@ https://genieframework.com/
 {"text": "[vaticle/typedb](https://github.com/vaticle/typedb)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[vaticle.com](http://vaticle.com/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-# C and C++
+FIXME# C and C++
 
-## Reference
+FIXME## Reference
 
 {"text": "[kernel coding style](https://www.kernel.org/doc/html/latest/process/coding-style.html)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[memory management](https://www.memorymanagement.org/)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## To Sort
+FIXME## To Sort
 
 {"text": "[aartaka.me/oop-c-primer](https://www.aartaka.me/oop-c-primer)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "search: Nooby C++ Habits", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Best Resources
+FIXME## Best Resources
 
 {"text": "[cpp-lang.net/](https://www.cpp-lang.net/)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Projects
+FIXME### Projects
 
 {"text": "dlib", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[godot](https://github.com/godotengine/godot)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## 1s
+FIXME## 1s
 
 {"text": "[awesome](https://awesomecpp.com/)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[nuklear](https://github.com/Immediate-Mode-UI/Nuklear)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -891,9 +891,9 @@ https://genieframework.com/
 {"text": "[xtensor.readthedocs.io/en/latest/numpy.html](https://xtensor.readthedocs.io/en/latest/numpy.html)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[r/cpp/comments/9d1w3o/c_implementation_of_the_python_numpy_library/](https://www.reddit.com/r/cpp/comments/9d1w3o/c_implementation_of_the_python_numpy_library/)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Resources
+FIXME## Resources
 
-### Books
+FIXME### Books
 
 {"text": "[C von A bis Z](https://openbook.rheinwerk-verlag.de/c_von_a_bis_z/index.htm)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[The Csound book](https://b-ok.cc/book/455687/83b91c)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -988,7 +988,7 @@ https://genieframework.com/
 {"text": "[Эффективный и современный C++](http://library.lol/main/E757EF12E6A842D9C78EDAE2BD97D952)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Эффективный C. Профессиональное программирование](http://library.lol/main/841C9031D1A4BFA1CD4D09275D73E100)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Video
+FIXME### Video
 
 {"text": "[Recursion in C](https://www.youtube.com/watch?v=kepBmgvWNDw&list=PLVWtXi_Jrj_2CjtJJGAArDfyzKg2IVgkp&index=104)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Die Programmiersprache C](https://www.youtube.com/watch?v=CeEfTlRFEA0&list=WL&index=408)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1042,7 +1042,7 @@ https://genieframework.com/
 {"text": "[C++ Full Course](https://www.youtube.com/watch?v=8jLOx1hD3_o)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[video](https://www.youtube.com/c/TheChernoProject/playlists)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Challenge / Interview
+FIXME### Challenge / Interview
 
 {"text": "[Solve C++ | HackerRank](https://www.hackerrank.com/domains/cpp?filters%5Bsubdomains%5D%5B%5D=cpp-introduction)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[The Modern C++ Challenge: Become an expert programmer by solving real-world problems](http://libgen.rs/book/index.php?md5=AE008E2D081A44F9DCA2F139206986A7)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1054,7 +1054,7 @@ https://genieframework.com/
 {"text": "[C Programming Examples on Stacks & Queues](https://www.sanfoundry.com/c-programming-examples-stacks/)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[arnavb/project-euler-solutions-cpp](https://github.com/arnavb/project-euler-solutions-cpp)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### CMake and Other Build Systems
+FIXME### CMake and Other Build Systems
 
 {"text": "[CMake Cookbook: Over 40 recipes enabling you to build, test, and package software for distribution using the CMake suite](http://library.lol/main/ECF89DA6185E63C44E748E0980911FEF)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[eigen.tuxfamily.org/index.php?title=Main_Page](http://eigen.tuxfamily.org/index.php?title=Main_Page)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1083,7 +1083,7 @@ https://genieframework.com/
 {"text": "[gitlab.kitware.com/cmake/community/-/wikis/home](https://gitlab.kitware.com/cmake/community/-/wikis/home)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[GNU Make Book | No Starch Press](https://nostarch.com/gnumake)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### IDE
+FIXME### IDE
 
 {"text": "[codelite.org/](https://codelite.org/)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[codeblocks.org/](http://www.codeblocks.org/)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1094,7 +1094,7 @@ https://genieframework.com/
 {"text": "[Debugging C/C++ with Visual Studio Code - YouTube](https://www.youtube.com/watch?v=X2tM21nmzfk)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[How to debug C code with GDB in VSCode (Linux) - YouTube](https://www.youtube.com/watch?v=aWIs6Kv1MvE)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Libraries / Projects
+FIXME### Libraries / Projects
 
 {"text": "[boost.org/](https://www.boost.org/)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[The GNU C library reference manual](http://library.lol/main/25882B380CB67EBAB99F35EAA1A78B55)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1138,7 +1138,7 @@ https://genieframework.com/
 {"text": "[dpilger26/NumCpp](https://github.com/dpilger26/NumCpp)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[xtensor.readthedocs.io/en/latest/index.html](https://xtensor.readthedocs.io/en/latest/index.html)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Small Projects
+FIXME### Small Projects
 
 {"text": "[pickfire/spt](https://github.com/pickfire/spt)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[abstractexpr.com/2023/04/19/how-to-create-a-modern-c-project-with-cmake-and-conan/](https://abstractexpr.com/2023/04/19/how-to-create-a-modern-c-project-with-cmake-and-conan/)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1164,13 +1164,13 @@ https://genieframework.com/
 {"text": "[СТРОКОВЫЙ КАЛЬКУЛЯТОР С++ СО СКОБКАМИ И ФУНКЦИЯМИ #1](https://www.youtube.com/watch?v=JX4fg1sS-_A&t=0s)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Программируем калькулятор со скобками и приоритетами действий, используя стек](https://www.youtube.com/watch?v=Vk-tGND2bfc)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Media / Fora
+FIXME### Media / Fora
 
 {"text": "[C++ Articles | QuantStart](https://www.quantstart.com/articles/topic/c)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Open Reddit Questions](https://www.reddit.com/r/cpp_questions/?f=flair_name%3A%22OPEN%22)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[thecppdev.wordpress.com](http://www.thecppdev.wordpress.com/)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Tools
+FIXME### Tools
 
 {"text": "[frama-c.com/](https://www.frama-c.com/)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[vcpkg.io/en/index.html](https://vcpkg.io/en/index.html)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1179,7 +1179,7 @@ https://genieframework.com/
 {"text": "[root-project/cling/blob/master/tools/Jupyter/README.md](https://github.com/root-project/cling/blob/master/tools/Jupyter/README.md)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Cling Build Instructions | ROOT a Data analysis Framework](https://root.cern.ch/cling-build-instructions)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### General References / Resources
+FIXME### General References / Resources
 
 {"text": "[devdocs.io/cpp](https://devdocs.io/cpp)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Learn C++](https://www.learncpp.com/)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1195,7 +1195,7 @@ https://genieframework.com/
 {"text": "[isocpp.org/](https://isocpp.org/)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[cppreference.net](http://cppreference.net/)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Courses / Tutorials
+FIXME### Courses / Tutorials
 
 {"text": "[Pointers in C / C++ [Full Course]](https://www.youtube.com/watch?v=zuegQmMdy8M)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[freecodecamp.org/news/the-c-beginners-handbook/](https://www.freecodecamp.org/news/the-c-beginners-handbook/)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1226,11 +1226,11 @@ https://genieframework.com/
 {"text": "[ladedu.com/cpp/](https://ladedu.com/cpp/)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Курсы по программированию на языке C++ от компании Яндекс.](https://vk.com/wall-79831840_54156)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## →
+FIXME## →
 
 {"text": "[Kyle Loudon](...)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Docs
+FIXME### Docs
 
 {"text": "[The GNU C Library - GNU Project - Free Software Foundation (FSF)](https://www.gnu.org/software/libc/manual/)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[The GNU C Library](https://www.gnu.org/software/libc/)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1241,7 +1241,7 @@ https://genieframework.com/
 {"text": "[en.cppreference.com/w/c/links/libs](https://en.cppreference.com/w/c/links/libs)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## SORT
+FIXME## SORT
 
 {"text": "[Modern C++ programming cookbook: over 100 recipes to help you overcome your difficulties with C++ programming and gain a deeper understanding of the working of modern C++](http://library.lol/main/65FDF3243927FC56BFC65B3369DBD436)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[C Programming Cookbook - Over 40 recipes exploring data structures, pointers, interprocess communication, and database in C.](http://library.lol/main/0B1AE983270520A94012D11AB96AF9CD)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1387,11 +1387,11 @@ https://genieframework.com/
 {"text": "[gnu.org/software/gnu-c-manual/gnu-c-manual.html](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[larmel/lacc](https://github.com/larmel/lacc)", "type": "", "tags": ["proglang", "c/c++", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-# Haskell
+FIXME# Haskell
 
 {"text": "https://github.com/srid/haskell-template $$$", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Exemplary Software
+FIXME## Exemplary Software
 
 {"text": "> search all notes files for 'haskell'", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "-> https://github.com/uhub/awesome-haskell", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1454,11 +1454,11 @@ https://genieframework.com/
 {"text": "https://github.com/ndmitchell/shake https://shakebuild.com/", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "https://www.yesodweb.com/", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## General Reference
+FIXME## General Reference
 
 {"text": "https://ksvi.mff.cuni.cz/~dingle/2021-2/npp/haskell_library.html", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Parsing in Haskell
+FIXME## Parsing in Haskell
 
 {"text": "[Functional Parsers (Paper)](https://www.researchgate.net/profile/Jeroen-Fokker/publication/2426266_Functional_Parsers/links/00b49525d6efe2ff4e000000/Functional-Parsers.pdf)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[parsec](https://en.wikipedia.org/wiki/Parsec_(parser))", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1467,16 +1467,16 @@ https://genieframework.com/
 {"text": "[Parsing with Haskell](https://serokell.io/blog/lexing-with-alex)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[SO](https://codereview.stackexchange.com/questions/253497/simple-haskell-parser)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Books
+FIXME## Books
 
 {"text": "[Programming in Haskell](http://www.cs.nott.ac.uk/~pszgmh/pih.html)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Drive - Haskell Books](../../../A_general/drive/F.json#L1984)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## CLI
+FIXME## CLI
 
 {"text": "[optparse-applicative example](https://learn-haskell.blog/05-glue/04-optparse.html)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## SORT
+FIXME## SORT
 
 {"text": "[explorer](https://github.com/alexwl/haskell-code-explorer)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "excellent: [jonascarpay/template-haskell](https://github.com/jonascarpay/template-haskell) [jonascarpay/template-haskell](https://github.com/jonascarpay/template-haskell)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1511,7 +1511,7 @@ https://genieframework.com/
 {"text": "[Impure Pics](https://www.youtube.com/@impurepics/playlists)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[tasklite](https://tasklite.org/)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Example Code
+FIXME## Example Code
 
 {"text": "→ [serokell.io/blog/best-haskell-open-source-projects](https://serokell.io/blog/best-haskell-open-source-projects)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[jgm/pandoc](https://github.com/jgm/pandoc)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1538,12 +1538,12 @@ https://genieframework.com/
 {"text": "[dhall-lang/dhall-lang](https://github.com/dhall-lang/dhall-lang)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[carp-lang/Carp](https://github.com/carp-lang/Carp)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Haskell CLI Guides* [qiita.com/kimagure/items/9b33a5fa48baf105abe4](https://qiita.com/kimagure/items/9b33a5fa48baf105abe4)
+FIXME## Haskell CLI Guides* [qiita.com/kimagure/items/9b33a5fa48baf105abe4](https://qiita.com/kimagure/items/9b33a5fa48baf105abe4)
 
 {"text": "[bollu.github.io/teleport/](https://bollu.github.io/teleport/)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[stephanschiffels.de/posts/2021-03-24-Haskell-CLI](https://www.stephanschiffels.de/posts/2021-03-24-Haskell-CLI)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## To Sort
+FIXME## To Sort
 
 {"text": "[hackage.haskell.org/package/refined-0.8.1/docs/Refined.html](https://hackage.haskell.org/package/refined-0.8.1/docs/Refined.html)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[hackage.haskell.org/package/refined-0.8.1/docs/src/Refined.html](https://hackage.haskell.org/package/refined-0.8.1/docs/src/Refined.html)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1635,9 +1635,9 @@ https://genieframework.com/
 {"text": "haskell.nix video-9 [...](https://www.youtube.com/watch?v=j71ZkinDeUM))", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[cmark](https://hackage.haskell.org/package/cmark) - for plt* [fpcomplete.com/haskell/syllabus/*](https://www.fpcomplete.com/haskell/syllabus/*) [fpcomplete.com/haskell/learn/](https://www.fpcomplete.com/haskell/learn/)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-# Python
+FIXME# Python
 
-## Sort
+FIXME## Sort
 
 {"text": "[r/Python/s/epbxOrm3iC](https://www.reddit.com/r/Python/s/epbxOrm3iC)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[lobste.rs/s/s1v57r/what_are_some_good_python_codebases_read](https://lobste.rs/s/s1v57r/what_are_some_good_python_codebases_read)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1656,7 +1656,7 @@ https://genieframework.com/
 {"text": "[sarge.readthedocs.io/en/latest/](https://sarge.readthedocs.io/en/latest/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[stefaniemolin.com/articles/devx/pre-commit/setup-guide/](https://stefaniemolin.com/articles/devx/pre-commit/setup-guide/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Excellent Software
+FIXME## Excellent Software
 
 {"text": "( ) [great-tables](https://github.com/posit-dev/great-tables)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "( ) [taichi-dev/taichi: Productive & portable high-performance programming in Python (GPU)](https://github.com/taichi-dev/taichi)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1674,13 +1674,13 @@ https://genieframework.com/
 {"text": "( ) [pyte](https://pyte.readthedocs.io/en/latest/tutorial.html) terminal", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "(2) [plumbum](https://github.com/tomerfiliba/plumbum)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Resources
+FIXME## Resources
 
-## Newsletters
+FIXME## Newsletters
 
 {"text": "[pythonweekly.com/archive/](https://www.pythonweekly.com/archive/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Reference
+FIXME## Reference
 
 {"text": "[(A Semi-Official) Python FAQ Zone](http://effbot.org/pyfaq/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[wiki.python.org.br/PythonBrasil](https://wiki.python.org.br/PythonBrasil)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1696,13 +1696,13 @@ https://genieframework.com/
 {"text": "[programcreek.com/python/](https://www.programcreek.com/python/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[PyCon Italia](https://www.youtube.com/c/pyconitalia)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Media / Fora
+FIXME## Media / Fora
 
 {"text": "[pythops.com/index.html](https://pythops.com/index.html)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Real Python Podcast", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[talkpython.fm/](https://talkpython.fm/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Tools
+FIXME## Tools
 
 {"text": "[isthisit.nz/posts/2023/building-a-chat-gpt-enhanced-python-repl/](https://isthisit.nz/posts/2023/building-a-chat-gpt-enhanced-python-repl/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[snyk.io/advisor/python](https://snyk.io/advisor/python)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1722,7 +1722,7 @@ https://genieframework.com/
 {"text": "[click](https://github.com/pallets/click/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[typer](https://github.com/tiangolo/typer)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Books
+FIXME## Books
 
 Automate the Boring Stuff with Python
 {"text": "Beyond the Basic Stuff with Python", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1756,7 +1756,7 @@ https://genieframework.com/
 {"text": "[Python in a Nutshell, 4th Edition](https://de.de1lib.org/book/19084903/7bd1da)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[bookflow.ru/spisok-voprosov-s-sobesedovanij-po-python/](https://bookflow.ru/spisok-voprosov-s-sobesedovanij-po-python/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Python and C/C++
+FIXME## Python and C/C++
 
 {"text": "[docs.python.org/fr/3/c-api/intro.html](https://docs.python.org/fr/3/c-api/intro.html)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[docs.python.org/fr/3/extending/extending.html#extending-simpleexample](https://docs.python.org/fr/3/extending/extending.html#extending-simpleexample)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1767,7 +1767,7 @@ https://genieframework.com/
 {"text": "[realpython.com/cpython-source-code-guide/](https://realpython.com/cpython-source-code-guide/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html](http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Jupyter
+FIXME## Jupyter
 
 {"text": "[gibiansky/IHaskell: A Haskell kernel for IPython.](https://github.com/gibiansky/IHaskell)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[SciRuby/iruby: Official gem repository: Ruby kernel for Jupyter/IPython Notebook](https://github.com/SciRuby/iruby)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1807,7 +1807,7 @@ https://genieframework.com/
 {"text": "[dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[IPython_notebook](http://nbviewer.jupyter.org/github/nicolasfauchereau/Python_NIWA_Wellington/blob/master/notebooks/IPython_notebook.html)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Regex
+FIXME## Regex
 
 {"text": "[openclassrooms.com/courses/apprenez-a-programmer-en-python/les-expressions-regulieres](https://openclassrooms.com/courses/apprenez-a-programmer-en-python/les-expressions-regulieres)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[python-course.eu/re.php](https://www.python-course.eu/re.php)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1829,7 +1829,7 @@ https://genieframework.com/
  re — Regular expression operations — Python 3.7.4 documentation
 {"text": "[Lesson 06_08 Regular expressions - YouTube](https://www.youtube.com/watch?v=snZetfzy_Fk&list=PLsu0TcgLDUiIznEhN165XmykqyLgzwY0Y&index=52&t=0s)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Repos
+FIXME## Repos
 
 {"text": "[pymedphys](https://github.com/pymedphys/pymedphys/) (poetry and extras)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[awesome-python](https://github.com/vinta/awesome-python)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1921,7 +1921,7 @@ https://genieframework.com/
 {"text": "[quart](https://github.com/pallets/quart)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[itsdangerous](https://github.com/pallets/itsdangerous)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Package List
+FIXME## Package List
 
 {"text": "[mesejo/trex](https://github.com/mesejo/trex)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[cleo.readthedocs.io/en/latest/](https://cleo.readthedocs.io/en/latest/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -2490,7 +2490,7 @@ https://genieframework.com/
 {"text": "zmq", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "zope.interface", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Projects
+FIXME## Projects
 
 {"text": "look through: [learnbyexample.github.io/practice_python_projects/](https://learnbyexample.github.io/practice_python_projects/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Build a Command-Line To-Do App With Python and Typer – Real Python](https://realpython.com/python-typer-cli/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -2499,7 +2499,7 @@ https://genieframework.com/
 {"text": "[Python Resume Projects - You Can Finish in a Weekend](https://youtu.be/jl5yUEdekEM)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[freecodecamp.org/news/learn-how-to-build-12-python-projects-in-one-course/](https://www.freecodecamp.org/news/learn-how-to-build-12-python-projects-in-one-course/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## 1-shot Video & Podcast
+FIXME## 1-shot Video & Podcast
 
 {"text": "[5 Tips To Organize Python Code - YouTube](https://www.youtube.com/watch?v=e9yMYdnSlUA)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Why Python 3.11 is so fast | Guido van Rossum and Lex Fridman - YouTube](https://www.youtube.com/watch?v=TLhRuZ9cJWc)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -2519,7 +2519,7 @@ https://genieframework.com/
 {"text": "[Bad Beat Poetry](https://pythonweekly.us2.list-manage.com/track/click?u=e2e180baf855ac797ef407fc7&id=54c5ff2b5c&e=501d687f26) - Lockfiles are great. They can also be hard to review and a source of malicious code injection.", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Functions vs Classes: When to Use Which and Why?](https://pythonweekly.us2.list-manage.com/track/click?u=e2e180baf855ac797ef407fc7&id=91436e3f84&e=501d687f26) - F**unctions vs. Classes?! Are you trying to decide which one to use in  your code? This video explores how and when to use each of them, so you can make sure your code is as efficient and effective as possible.", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Courses & Tutorials
+FIXME## Courses & Tutorials
 
 {"text": "[Learn Python in Y Minutes](https://learnxinyminutes.com/docs/python/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[**Advanced Python для сетевых инженеров](https://advpyneng.readthedocs.io/ru/latest/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -2536,7 +2536,7 @@ https://genieframework.com/
 {"text": "[freecodecamp.org/news/algorithmic-trading-using-python-course/](https://www.freecodecamp.org/news/algorithmic-trading-using-python-course/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[ics.uci.edu/~pattis/ICS-33/index.html](https://www.ics.uci.edu/~pattis/ICS-33/index.html)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Media & People
+FIXME## Media & People
 
 {"text": "[learnbyexample](https://learnbyexample.github.io/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Proceedings of the Python in Science Conferences](https://conference.scipy.org/proceedings/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -2557,7 +2557,7 @@ https://genieframework.com/
 {"text": "[diveintopython3.net/](https://diveintopython3.net/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[learntosolveit.com/](http://www.learntosolveit.com/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Docs
+FIXME## Docs
 
 {"text": "[docs.python.org/3.11/whatsnew/3.0.html](https://docs.python.org/3.11/whatsnew/3.0.html)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[docs.python.org/3.11/whatsnew/3.1.html](https://docs.python.org/3.11/whatsnew/3.0.html)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -2577,7 +2577,7 @@ https://genieframework.com/
 {"text": "[Survol de la bibliothèque standard](https://docs.python.org/3/tutorial/stdlib.html)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Python Documentation Index | Python.org](https://www.python.org/doc/essays/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Books
+FIXME## Books
 
 {"text": "speedread: [learnbyexample.github.io/100_page_python_intro/](https://learnbyexample.github.io/100_page_python_intro/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Crafting Test-Driven Software with Python: Write test suites that scale with your applications needs and complexity, using Python and PyTest](http://library.lol/main/9272ED92EC95D7D9A7D160593E92985A)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -2654,7 +2654,7 @@ https://genieframework.com/
 {"text": "[Python - Wikilibros](https://es.wikibooks.org/wiki/Python)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[http://gpiancastelli.altervista.org/dip3-it/](http://gpiancastelli.altervista.org/dip3-it/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## →
+FIXME## →
 
 {"text": "[Lista (in)completa de recursos para aprender Python](https://estrategiastrading.com/recursos-utiles/aprender-python/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Anki - python](https://ankiweb.net/shared/info/1021974894)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -2675,16 +2675,16 @@ https://genieframework.com/
 {"text": "[google.github.io/pytype/](https://google.github.io/pytype/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[pyre-check.org/](https://pyre-check.org/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Misc Topics
+FIXME## Misc Topics
 
-## regex
+FIXME## regex
 
 {"text": "[learnbyexample.github.io/py_regular_expressions/](https://learnbyexample.github.io/py_regular_expressions/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Groupings and backreferences - Python re(gex)?](https://learnbyexample.github.io/py_regular_expressions/groupings-and-backreferences.html)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[learnbyexample/py_regular_expressions: Learn Python Regular Expressions step by step from beginner to advanced levels](https://github.com/learnbyexample/py_regular_expressions)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Preface - Understanding Python re(gex)?](https://learnbyexample.github.io/py_regular_expressions/preface.html)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Packaging
+FIXME## Packaging
 
 {"text": "[dagster.io/blog/python-packages-primer-1](https://dagster.io/blog/python-packages-primer-1)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[pyinstaller/pyinstaller: Freeze (package) Python programs into stand-alone executables](https://github.com/pyinstaller/pyinstaller)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -2692,7 +2692,7 @@ https://genieframework.com/
 {"text": "[pypa/build](https://github.com/pypa/build)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Multiple related programs: one `pyproject.toml`, or multiple projects? - Packaging - Discussions on Python.org](https://discuss.python.org/t/multiple-related-programs-one-pyproject-toml-or-multiple-projects/17427/5)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Templating
+FIXME## Templating
 
 {"text": "[**puzzlepeaches/snickerdoodle: Python cookiecutter project template.](https://github.com/puzzlepeaches/snickerdoodle)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[sourcery-ai/python-best-practices-cookiecutter: Python best practices project cookiecutter 🍪](https://github.com/sourcery-ai/python-best-practices-cookiecutter)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -2703,7 +2703,7 @@ https://genieframework.com/
 {"text": "[dmyersturnbull/tyrannosaurus: Generate beautifully modern (2021+) Python projects with seamless, GitHub-based CI/CD, Docker and Conda support, and out-of-the-box integration with >30 best-practices tools and standards.](https://github.com/dmyersturnbull/tyrannosaurus)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[iterative/py-template: Hypermodern Python Cookiecutter](https://github.com/iterative/py-template)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Testing
+FIXME## Testing
 
 {"text": "[Test Automation in Python - Chapter 1 - YouTube](https://www.youtube.com/watch?v=tGzyAoVU1Ks&list=PLelD030IW7swU6n75wOIeCC9hqKipub_w)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Python 3 Unit Testing With PyTest - YouTube](https://www.youtube.com/playlist?list=PLS1QulWo1RIaNFUz4zrztWlCJgkpXht-H)    UsingSlots - Python Wikipython - Importing correctly with pytest - Stack Overflow", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -2714,7 +2714,7 @@ https://genieframework.com/
 {"text": "[Test Automation in Python - Chapter 1 - YouTube](https://www.youtube.com/watch?v=tGzyAoVU1Ks&list=PLelD030IW7swU6n75wOIeCC9hqKipub_w)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Installation and Getting Started — pytest documentation](https://docs.pytest.org/en/6.2.x/getting-started.html#getstarted)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Software and Libraries
+FIXME## Software and Libraries
 
 {"text": "[pydantic](https://docs.pydantic.dev/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[dynaconf/dynaconf](https://github.com/dynaconf/dynaconf)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -2822,14 +2822,14 @@ https://genieframework.com/
 {"text": "[GITHUB.COM/TEXTUALIZE](https://pycoders.com/link/10774/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[README-AI: Automated Tool for Generating README Files](https://pycoders.com/link/10786/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Tools and Resources
+FIXME## Tools and Resources
 
 {"text": "[Using Python Environments in Visual Studio Code](https://code.visualstudio.com/docs/python/environments)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[semgrep.dev/](https://semgrep.dev/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[spyder-ide.org/](https://www.spyder-ide.org/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Ochrona Security](https://ochrona.dev/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## 1-shot blog posts
+FIXME## 1-shot blog posts
 
 {"text": "[duckduckgo.com/?q=Программирование+на+Python+с+использованием+шаблонов+проектирования&ia=web](https://duckduckgo.com/?q=%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+%D0%BD%D0%B0+Python+%D1%81+%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC+%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%BE%D0%B2+%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F&ia=web)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Python behind the scenes #1: how the CPython VM works](https://tenthousandmeters.com/blog/python-behind-the-scenes-1-how-the-cpython-vm-works/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -2940,7 +2940,7 @@ https://genieframework.com/
 {"text": "[Django security releases issued: 4.2.1, 4.1.9, and 3.2.19](https://pythonweekly.us2.list-manage.com/track/click?u=e2e180baf855ac797ef407fc7&id=2a69141082&e=501d687f26)**", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Программирование на Python с использованием шаблонов проектирования](https://vk.com/@skladchik-rss-1457843707-2044471979)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## 1-shot Q & A
+FIXME## 1-shot Q & A
 
 {"text": "[none in yaml - Google Search](https://www.google.com/search?q=none+in+yaml&client=firefox-b-d&sxsrf=AJOqlzUgT0eZKXxsSlbK09ry2pcQ893WSQ%3A1674089105335&ei=kZLIY5T0E86D9u8Pyc2j4AY&ved=0ahUKEwjUgMjzs9L8AhXOgf0HHcnmCGwQ4dUDCA4&uact=5&oq=none+in+yaml&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQkQIyBggAEAUQHjIJCAAQBRAeEPEEMgUIABCGAzIFCAAQhgMyBQgAEIYDMgUIABCGAzoKCAAQRxDWBBCwAzoGCAAQCBAeOgYIABAHEB46CAgAEAgQBxAeOgsIABAIEAcQHhDxBEoECEEYAEoECEYYAFDIA1jnCmDiDGgBcAF4AIABaIgBywOSAQM1LjGYAQCgAQHIAQjAAQE&sclient=gws-wiz-serp)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[python - How to copy a class? - Stack Overflow](https://stackoverflow.com/questions/9541025/how-to-copy-a-class)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3109,7 +3109,7 @@ https://genieframework.com/
 {"text": "[PYTHON.ORG](https://pycoders.com/link/10634/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[More Python Jobs >>>](https://www.pythonjobshq.com/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Articles & Tutorials
+FIXME## Articles & Tutorials
 
 {"text": "[Syntactic Sugar](https://pycoders.com/link/10648/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
@@ -3142,7 +3142,7 @@ https://genieframework.com/
 • Shared by
 {"text": "[Michael Herman](https://pycoders.com/link/10620/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Projects & Code
+FIXME## Projects & Code
 
 {"text": "[Brought to you by Real Python for Teams](https://pycoders.com/link/10644/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[shedskin: Restricted-Python-to-C++ Compiler](https://pycoders.com/link/10625/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3182,7 +3182,7 @@ https://genieframework.com/
 {"text": "[pylint-dev/pylint](https://github.com/pylint-dev/pylint)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[mathspp.com/blog/module-pathlib-overview](https://mathspp.com/blog/module-pathlib-overview)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Packaging and Testing in Python
+FIXME## Packaging and Testing in Python
 
 {"text": "[Package docker-pyinstaller](https://github.com/white-gecko/docker-pyinstaller/pkgs/container/docker-pyinstaller)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[python - Can i use Docker for creating exe using pyinstaller - Stack Overflow](https://stackoverflow.com/questions/40177368/can-i-use-docker-for-creating-exe-using-pyinstaller)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3193,7 +3193,7 @@ https://genieframework.com/
 {"text": "[Wine on Docker - Lei Mao's Log Book](https://leimao.github.io/blog/Docker-Wine/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Running Wine within Docker - Ales Nosek - The Software Practitioner](https://alesnosek.com/blog/2015/07/04/running-wine-within-docker/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Reading
+FIXME## Reading
 
 {"text": "[Python Tkinter GUI Design Using ttkbootstrap - Complete Course](https://www.youtube.com/watch?v=0tM-l_ZsxjU)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Python Web Conf 2023 Talks + Tutorials](https://www.youtube.com/playlist?list=PLt4L3V8wVnF4GJb8dekLGTNx44FNIFwdv)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3260,7 +3260,7 @@ https://genieframework.com/
 {"text": "[Myśl w języku Python! Nauka programowania](https://en.de1lib.org/book/3606706/5bae1f)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[learnpythontherightway.com/#read](https://learnpythontherightway.com/#read)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-# Rust
+FIXME# Rust
 
 {"text": "[dl.acm.org/doi/10.1145/3591283](https://dl.acm.org/doi/10.1145/3591283) Flux: Liquid Types for Rust", "type": "", "tags": ["proglang", "rust", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[r/rust/comments/1bul9sr/is_rust_really_that_good/](https://www.reddit.com/r/rust/comments/1bul9sr/is_rust_really_that_good/)", "type": "", "tags": ["proglang", "rust", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3271,7 +3271,7 @@ https://genieframework.com/
 {"text": "[users.rust-lang.org/t/enforcing-pure-functional-style/101584](https://users.rust-lang.org/t/enforcing-pure-functional-style/101584)", "type": "", "tags": ["proglang", "rust", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[r/rust/comments/1bwz7iv/untwine_the_simple_patternmatching_parsing/?rdt=64671](https://www.reddit.com/r/rust/comments/1bwz7iv/untwine_the_simple_patternmatching_parsing/?rdt=64671)", "type": "", "tags": ["proglang", "rust", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Sample Code* [doc.rust-lang.org/stable/rust-by-example/](https://doc.rust-lang.org/stable/rust-by-example/)
+FIXME## Sample Code* [doc.rust-lang.org/stable/rust-by-example/](https://doc.rust-lang.org/stable/rust-by-example/)
 
 {"text": "[Command-Line Rust](https://drive.google.com/file/d/11otsnVI7E6nZXWV9MMig-4MPxspwtBIR/view?usp=sharing)", "type": "", "tags": ["proglang", "rust", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Practical Rust Projects](https://drive.google.com/file/d/1cBAykJ_XCmMRe_37vo5Nd1VR3cy0Vm1r/view?usp=sharing)", "type": "", "tags": ["proglang", "rust", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3281,7 +3281,7 @@ https://genieframework.com/
 {"text": "[rust-unofficial.github.io/too-many-lists/](https://rust-unofficial.github.io/too-many-lists/)", "type": "", "tags": ["proglang", "rust", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[macroquad](https://github.com/musjj/macroquad)", "type": "", "tags": ["proglang", "rust", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Excellent Software Libraries
+FIXME## Excellent Software Libraries
 
 {"text": "-> [r/rust/s/QqfsULxF1c](https://www.reddit.com/r/rust/s/QqfsULxF1c) rust dev env", "type": "", "tags": ["proglang", "rust", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "( ) [ratatui](https://ratatui.rs/)", "type": "", "tags": ["proglang", "rust", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3298,9 +3298,9 @@ https://genieframework.com/
 {"text": "( ) [pdf-writer](https://github.com/typst/pdf-writer) (rust library)", "type": "", "tags": ["proglang", "rust", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "( ) [gemini-rust](https://github.com/redpenguinyt/gemini-rust)", "type": "", "tags": ["proglang", "rust", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-# TeX
+FIXME# TeX
 
-## General Resources/ Sites
+FIXME## General Resources/ Sites
 
 {"text": "[TeX Resources on the Web - TeX Users Group](https://www.tug.org/interest.html)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[*LaTeX Cookbook](http://latex-cookbook.net/)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3326,18 +3326,18 @@ https://genieframework.com/
 {"text": "[LaTeX Templates](http://www.latextemplates.com/)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[MartinThoma/LaTeX-examples: Examples for the usage of LaTeX](https://github.com/MartinThoma/LaTeX-examples/)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Orgs
+FIXME## Orgs
 
 {"text": "[DANTE e.V. | Deutschsprachige Anwendervereinigung TeX e.V.](https://www.dante.de/)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[dante.de/hilfe.html](http://www.dante.de/hilfe.html)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Templates
+FIXME## Templates
 
 {"text": "[wzchen.com/probability-cheatsheet](http://www.wzchen.com/probability-cheatsheet)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Cheatsheet Code](https://github.com/tao-bian-nyu/Reinforcement-Learning-Cheat-Sheet)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[ARPA-FVG beamer presentation template - Overleaf, Online LaTeX Editor](https://www.overleaf.com/latex/templates/arpa-fvg-beamer-presentation-template/gvcjvvcxkhfx)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Tools, Distributions
+FIXME## Tools, Distributions
 
 {"text": "[LaTeX Equation Editor for Writing Maths on the Internet](https://www.codecogs.com/latex/eqneditor.php)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[tikzit.github.io/*](https://tikzit.github.io/*) 1. [tikzit/tikzit](https://github.com/tikzit/tikzit)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3363,7 +3363,7 @@ https://genieframework.com/
 {"text": "[Detexify LaTeX handwritten symbol recognition](http://detexify.kirelabs.org/classify.html)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[mendeley.com/library/](https://www.mendeley.com/library/)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Internals
+FIXME## Internals
 
 {"text": "[TeX: Reference and Examples by David Bausum](http://www.tug.org/utilities/plain/cseq.html)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "ftp://tug.ctan.org/pub/tex-archive/systems/knuth/dist/tex/tex.web", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3371,7 +3371,7 @@ https://genieframework.com/
 {"text": "[latex-project.org/help/documentation/source2e.pdf](https://www.latex-project.org/help/documentation/source2e.pdf)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[tug.org/texlive/scripts-sys-user.html](http://tug.org/texlive/scripts-sys-user.html)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Packages, Docs
+FIXME## Packages, Docs
 
 {"text": "[fontspec](https://mirror.physik.tu-berlin.de/pub/CTAN/macros/unicodetex/latex/fontspec/fontspec.pdf)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Pgfplots package - Overleaf, Онлайн редактор LaTeX](https://ru.overleaf.com/learn/latex/Pgfplots_package)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3380,23 +3380,23 @@ https://genieframework.com/
 {"text": "[TeXShop](https://pages.uoregon.edu/koch/texshop/documentation.html)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
 
-## Fonts
+FIXME## Fonts
 
 {"text": "[pdelfino/elon-analise-real](https://github.com/pdelfino/elon-analise-real) → get font!!!  (also .tex code) also email [pdelfino.com.br/](http://www.pdelfino.com.br/)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[The St Mary’s Road symbol font](http://ftp.gwdg.de/pub/ctan/fonts/stmaryrd/stmaryrd.pdf)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[tex.stackexchange.com/questions/24691/how-to-install-otf-fonts-with-otfinst-py](https://tex.stackexchange.com/questions/24691/how-to-install-otf-fonts-with-otfinst-py)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[tex.stackexchange.com/questions/69901/how-to-typeset-greek-letters](https://tex.stackexchange.com/questions/69901/how-to-typeset-greek-letters)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## People
+FIXME## People
 
 {"text": "[MartinThoma (Martin Thoma)](https://github.com/MartinThoma)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[MartinThoma](https://github.com/MartinThoma)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## →
+FIXME## →
 
 {"text": "[see links](https://www.linuxlinks.com/excellent-free-books-learn-latex/)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Books, Articles
+FIXME## Books, Articles
 
 {"text": "[LaTeX - Wikibooks, open books for an open world](https://en.wikibooks.org/wiki/LaTeX)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[The TeXbook](http://library.lol/main/24698EE5BEF9ECE2DD07ECF7972C2AFE)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3442,7 +3442,7 @@ https://genieframework.com/
 {"text": "[www1.essex.ac.uk/linguistics/external/clmt/latex4ling/](https://www1.essex.ac.uk/linguistics/external/clmt/latex4ling/)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[latex.silmaril.ie/formattinginformation/index.html](http://latex.silmaril.ie/formattinginformation/index.html)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Q & A
+FIXME## Q & A
 
 {"text": "[TeX und LaTeX, Fragen und Antworten - TeXwelt](https://texwelt.de/wissen/)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[LaTeX - TeXnique](http://texnique.fr/osqa/)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3450,9 +3450,9 @@ https://genieframework.com/
 {"text": "[Hilfe](http://www.dante.de/hilfe.html)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[LaTeX - TeXnique](https://texnique.fr/osqa/)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## READ!
+FIXME## READ!
 
-### SORT 1S Reading / Watching,
+FIXME### SORT 1S Reading / Watching,
 
 {"text": "[en.wikipedia.org/wiki/TeX](https://en.wikipedia.org/wiki/TeX)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[LaTeX Workshop for Linguists](https://www.adamliter.org/content/LaTeX/latex-workshop-for-linguists.pdf)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3476,7 +3476,7 @@ https://genieframework.com/
 {"text": "[en.wikipedia.org/wiki/Web_(programming_system)](https://en.wikipedia.org/wiki/Web_(programming_system))", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[adamliter.org/content/LaTeX/latex-workshop-for-linguists.pdf](https://www.adamliter.org/content/LaTeX/latex-workshop-for-linguists.pdf)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Interlinear, etc.
+FIXME### Interlinear, etc.
 
 {"text": "[tex.stackexchange.com/questions/45520/doing-an-interlinear-text](https://tex.stackexchange.com/questions/45520/doing-an-interlinear-text)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[LaTeX multiple columns](https://www.overleaf.com/learn/latex/Multiple_columns)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3506,7 +3506,7 @@ https://genieframework.com/
 {"text": "[r/LaTeX/comments/y29mg6/i_know_nothing_about_latex_i_have_a_very_specific/](https://www.reddit.com/r/LaTeX/comments/y29mg6/i_know_nothing_about_latex_i_have_a_very_specific/)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[tex.stackexchange.com/questions/45520/doing-an-interlinear-text](https://tex.stackexchange.com/questions/45520/doing-an-interlinear-text)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Plotting
+FIXME### Plotting
 
 {"text": "[Plotting in three dimensions | Recipe](http://latex-cookbook.net/cookbook/examples/3d-plot/)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[tikz pgf - Draw an animated gif of trigonometry function - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/291627/draw-an-animated-gif-of-trigonometry-function)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3521,14 +3521,14 @@ https://genieframework.com/
 {"text": "[Block diagram with Tikz - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/268878/block-diagram-with-tikz)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[ccs.neu.edu/home/lieber/papers/thomas/drawing/drawing2010.tex](http://www.ccs.neu.edu/home/lieber/papers/thomas/drawing/drawing2010.tex)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Misc
+FIXME### Misc
 
 {"text": "[LaTeX IPA](https://www.tug.org/tugboat/tb17-2/tb51rei.pdf)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[juliadatascience.io/using-latexstrings.jl](https://juliadatascience.io/using-latexstrings.jl)", "type": "", "tags": ["proglang", "tex", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-# Other Langs
+FIXME# Other Langs
 
-## Sort
+FIXME## Sort
 
 {"text": "{pi} [gokrazy](https://gokrazy.org/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "{proglang} [~sircmpwn/hare - The Hare programming language - sourcehut git](https://git.sr.ht/~sircmpwn/hare)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3565,12 +3565,12 @@ https://genieframework.com/
 {"text": "How to define / compute optimality of progrmming languages (i.e. determine/construct optimal programming language)?", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[lfe.io/](https://lfe.io/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Ocaml
+FIXME## Ocaml
 
 {"text": "[ocamlverse.net/content/systems_programming.html](http://ocamlverse.net/content/systems_programming.html)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[ocaml.github.io/ocamlunix/](https://ocaml.github.io/ocamlunix/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Multilingual / Meta
+FIXME## Multilingual / Meta
 
 {"text": "[Python, Perl And Tcl... That Just Work!](https://www.activestate.com/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Programming Language Jam Results](https://blog.repl.it/pljamresults?ref=newsletter)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3604,14 +3604,14 @@ https://genieframework.com/
 {"text": "[hirrolot.github.io/posts/why-static-languages-suffer-from-complexity.html](https://hirrolot.github.io/posts/why-static-languages-suffer-from-complexity.html)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[oxij.org/note/BrutalDepTypes/](https://oxij.org/note/BrutalDepTypes/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## regex
+FIXME## regex
 
 {"text": "[Jeffrey Friedl's Mastering Regular Expressions](http://regex.info/book.html)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[jkrumbiegel/ReadableRegex.jl: regexes for people who don't really want to learn or read regexes](https://github.com/jkrumbiegel/ReadableRegex.jl)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Vim Regular Expressions 101](https://vimregex.com/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[9 Regular Expressions](https://docs.racket-lang.org/guide/regexp.html)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Java
+FIXME## Java
 
 {"text": "[Java Map](https://www.youtube.com/watch?v=TE3LyYW-AHQ)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Java 8 in Action](https://www.academia.edu/31676908/Java_8_in_Action_Manning)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3829,7 +3829,7 @@ https://genieframework.com/
 {"text": "[Java: A Beginner’s Guide, Seventh Edition](https://www.amazon.com/Java-Beginners-Seventh-Herbert-Schildt/dp/1259589315?tag=javamysqlanta-20)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Java: The Complete Reference, Eleventh Edition: By Herbert Schildt", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## DB
+FIXME## DB
 
 {"text": "[MongoDB Questions and Answers](https://www.sanfoundry.com/1000-mongodb-questions-answers/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[SQL in 10 Minutes a Day, Sams Teach Yourself [5th ed.]](http://libgen.rs/book/index.php?md5=7EDF120EABDA725C3194CB9FDBDFA11C)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3978,7 +3978,7 @@ https://genieframework.com/
 {"text": "[Simon Riggs, Gianni Ciolli - PostgreSQL 14 Administration Cookbook: Over 175 proven recipes for database administrators to manage enterprise databases effectively, 3rd Edition](https://libgen.is/book/index.php?md5=E41E5BBE8E8BF285CBF3486F6278F9CB)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[freecodecamp.org/news/learn-nosql-in-3-hours/](https://www.freecodecamp.org/news/learn-nosql-in-3-hours/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Haskell
+FIXME## Haskell
 
 {"text": "[matthewrhone.dev/resources/haskell/](https://matthewrhone.dev/resources/haskell/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[serokell.io/blog/top-haskell-open-source-projects-for-linux](https://serokell.io/blog/top-haskell-open-source-projects-for-linux)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4055,7 +4055,7 @@ https://genieframework.com/
 {"text": "[Haskell Quick Syntax Reference: A Pocket Guide to the Language, APIs, and Library](http://library.lol/main/291213B16C51806F9A86AC30D43E1F0E)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[haskell.org/documentation/](https://www.haskell.org/documentation/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Fortran
+FIXME## Fortran
 
 {"text": "[Introduction to Programming with Fortran_Ian Chivers, Jane Sleightholme_4th ed. 2018](http://link.springer.com/openurl?genre=book&isbn=978-3-319-75502-1)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[ourcodingclub.github.io/tutorials/fortran-intro/](https://ourcodingclub.github.io/tutorials/fortran-intro/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4064,7 +4064,7 @@ https://genieframework.com/
 {"text": "[DJ's Office Hours](https://youtube.com/c/DJsOfficeHours) (Fortran)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[fortran-lang.discourse.group/](https://fortran-lang.discourse.group/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Golang
+FIXME## Golang
 
 {"text": "[CLI for building Go applications](https://github.com/go-nunu/nunu)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[project-template](https://github.com/golang-standards/project-layout)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4087,9 +4087,9 @@ https://genieframework.com/
 {"text": "[Getting Started with Go Programming](https://www.programiz.com/golang/getting-started)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Safari, an O'Reilly Media Company.; Torres, Aaron - Go Programming Cookbook: Over 85 recipes to build modular, readable, and testable Golang applications across various domains - Second Edition](https://libgen.is/book/index.php?md5=AE4C2DC519B526BDA45F0709C15CE769)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## JS / TS
+FIXME## JS / TS
 
-### Excellent Software
+FIXME### Excellent Software
 
 {"text": "( ) [vscode-html-languageservice](https://github.com/microsoft/vscode-html-languageservice)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "( ) [bprusinowski/plotteus: 🦋 Plotteus is a JavaScript data visualization library designed to help you tell better stories.](https://github.com/bprusinowski/plotteus)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4100,7 +4100,7 @@ https://genieframework.com/
 {"text": "( ) [facebook/hermes: A JavaScript engine optimized for running React Native.](https://github.com/facebook/hermes)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "( ) [toast](https://ui.toast.com/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Lisps
+FIXME## Lisps
 
 {"text": "[janet.guide/](https://janet.guide/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[azzamsa/awesome-cl-software](https://github.com/azzamsa/awesome-cl-software)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4193,14 +4193,14 @@ https://genieframework.com/
 {"text": "[scheme/scsh](https://github.com/scheme/scsh)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[tkych/cl-date-time-parser: Parse date-time-string, liberally.](https://github.com/tkych/cl-date-time-parser)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Nim
+FIXME## Nim
 
 {"text": "[nimyaml.org/](https://nimyaml.org/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Andreas Rumpf: Nim 2 (NimConf 2022) - YouTube](https://www.youtube.com/watch?v=aDi50K_Id_k)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[A Brief Introduction to Nim - YouTube](https://www.youtube.com/watch?v=rYDRCNFtRq0&t=216s)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "['Nim Nuggets: Systems Programming & Metaprogramming Magic' by Aditya Siram - YouTube](https://www.youtube.com/watch?v=d2VRuZo2pdA)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## JavaScript and TypeScript
+FIXME## JavaScript and TypeScript
 
 {"text": "[JavaScript: Algoritmos + Estruturas de Dados (6h)](https://youtube.com/playlist?list=PLpfKv2Mn_c-HTFozSx8iplzzBlQJnPs2j)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[JS Stuff](https://www.reddit.com/user/SkillupGenie)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4234,7 +4234,7 @@ https://genieframework.com/
 {"text": "[Clements, David Mark - Node Cookbook](https://libgen.is/book/index.php?md5=D09A3194F385EC9513892A95F59382DC)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Hands-On Functional Programming with TypeScript: Explore functional and reactive programming to create robust and testable TypeScript applicatons](http://library.lol/main/3D1518EAA1FFE2570360F403B3368925)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Kotlin
+FIXME## Kotlin
 
 {"text": "[libgen.is/search.php?&req=kotlin&phrase=1&view=simple&column=def&sort=year&sortmode=DESC](http://libgen.is/search.php?&req=kotlin&phrase=1&view=simple&column=def&sort=year&sortmode=DESC)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[kotlinlang.org/docs/home.html](https://kotlinlang.org/docs/home.html)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4242,13 +4242,13 @@ https://genieframework.com/
 {"text": "[Kotlin: Урок 0. Введение](https://youtu.be/L9k_NdTaMeI)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Ken Kousen - Kotlin Cookbook: A Problem-Focused Approach](https://libgen.is/book/index.php?md5=868921840C4AAC2726F63F3A28F3E70D)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### App Examples
+FIXME### App Examples
 
 {"text": "( ) [Goodtime](https://github.com/adrcotfas/Goodtime)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Lua
+FIXME## Lua
 
-### Excellent Lua Software
+FIXME### Excellent Lua Software
 
 {"text": "( ) [luarocks-build-rust-binary](https://github.com/vhyrro/luarocks-build-rust-binary)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "( ) [busted](https://lunarmodules.github.io/busted/) elegant lua testing", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4257,7 +4257,7 @@ https://genieframework.com/
 {"text": "( ) [luafun/luafun: Lua Fun is a high-performance functional programming library for Lua designed with LuaJIT's trace compiler in mind.](https://github.com/luafun/luafun)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "( ) [luvit](https://luvit.io/docs.html)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-### Other (unsorted)
+FIXME### Other (unsorted)
 
 {"text": "[lua.org/manual/5.1/pt/](https://www.lua.org/manual/5.1/pt/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[erde-lang.github.io/](https://erde-lang.github.io/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4301,7 +4301,7 @@ https://genieframework.com/
 {"text": "[groups.google.com/forum/#!topic/lua-br/vPoYVSRGKOc](https://groups.google.com/forum/#!topic/lua-br/vPoYVSRGKOc)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Curso de Programação Lua](https://www.youtube.com/playlist?list=PLa4jh645PxpfOYT5bNkim9yoevX8dCYpt)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## [**Curso de Programação Lua - YouTube - YouTube](https://www.youtube.com/playlist?list=PLa4jh645PxpfOYT5bNkim9yoevX8dCYpt)
+FIXME## [**Curso de Programação Lua - YouTube - YouTube](https://www.youtube.com/playlist?list=PLa4jh645PxpfOYT5bNkim9yoevX8dCYpt)
 
 {"text": "[A Linguagem de Programação Lua](http://www.lua.org/portugues.html)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[CURSO DE PROGRAMAÇÃO LUA - Grupos de Google](https://groups.google.com/forum/#!topic/lua-br/vPoYVSRGKOc)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4368,7 +4368,7 @@ https://genieframework.com/
 {"text": "[luau-lang.org/](https://luau-lang.org/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[loglog.games/blog/nanovoid-devlog-1/](https://loglog.games/blog/nanovoid-devlog-1/) → [r/rust_gamedev/comments/13rgj9t/nanovoid_devlog_1_lua_scripting/](https://www.reddit.com/r/rust_gamedev/comments/13rgj9t/nanovoid_devlog_1_lua_scripting/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Octave
+FIXME## Octave
 
 {"text": "[gnu.org/software/octave/](https://www.gnu.org/software/octave/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[_6e47e23eeaca5ffa8533f290f349500f_MATLAB-tutorials.pdf](https://d18ky98rnyall9.cloudfront.net/_6e47e23eeaca5ffa8533f290f349500f_MATLAB-tutorials.pdf?Expires=1542240000&Signature=eZwaVEV8vWyJ-pwGlx3ComNVXQMePs494yNLVY5yBKP2PVpp-BwNa8YhE5tSLF9YcaUMfNRS-lr8R9xXMLXUV9azWBj~DWujMGo8i8aQhPhsfCe-VO4jIXTHtFWbNdoTrjPAtEac5BNLqJtYvB2HS0JsEEoXiW~bbNLTUWE9J0I_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4379,7 +4379,7 @@ https://genieframework.com/
 {"text": "[Matlab](https://www.newsletter.datasciencecentral.com/click.html?x=a62e&lc=uby&mc=j&s=jFaI&u=F&y=f&z=we5UdM1&)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[MATLAB for Psychologists_Mauro Borgo, Alessandro Soranzo, Massimo Grassi_2012](http://link.springer.com/openurl?genre=book&isbn=978-1-4614-2197-9)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Perl
+FIXME## Perl
 
 {"text": "[Perl One-Liners](https://learnbyexample.github.io/learn_perl_oneliners/) (book)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[cpan.org/authors/id/E/EI/EIKEG/doc/perl-tutorial-DE_2.02.pdf](http://www.cpan.org/authors/id/E/EI/EIKEG/doc/perl-tutorial-DE_2.02.pdf)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4406,7 +4406,7 @@ https://genieframework.com/
 {"text": "[raku.guide/](https://raku.guide/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Library Genesis: Peteris Krumins - Perl One-Liners: 130 Programs That Get Things Done](http://libgen.rs/book/index.php?md5=9CA2A82EE44E703454B088BC62933D18)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## [cmatsuoka/asciiquarium](https://github.com/cmatsuoka/asciiquarium) - Enjoy the mysteries of the sea from the safety of your own terminal!* [Raku Fundamentals : A Primer with Examples, Projects, and Case Studies](http://library.lol/main/8FFF5971961E4BE29C265396BDCF39D2)
+FIXME## [cmatsuoka/asciiquarium](https://github.com/cmatsuoka/asciiquarium) - Enjoy the mysteries of the sea from the safety of your own terminal!* [Raku Fundamentals : A Primer with Examples, Projects, and Case Studies](http://library.lol/main/8FFF5971961E4BE29C265396BDCF39D2)
 
 {"text": "[Raku Recipes: A Problem-Solution Approach](http://library.lol/main/27E6D009FA818D326139DA82C76A4BB9)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Beginning Raku, A Two Day Course](http://library.lol/main/EDBB29E720B468871BEC312F78F0659F)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4422,7 +4422,7 @@ https://genieframework.com/
 {"text": "[An introduction to Perl6](https://www.youtube.com/watch?v=Q-t073TOFyw)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Perl 6 Quick Syntax Reference: A Pocket Guide to the Language, the Core Modules, and the Community](http://library.lol/main/5C6CA58FF276E689CDCC95FD5AECFED2)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Prolog
+FIXME## Prolog
 
 {"text": "[PROLOG Cheat Sheet](http://www.cs.oswego.edu/~odendahl/coursework/notes/prolog/synopsis/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[SWI-Prolog](https://github.com/SWI-Prolog)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4431,7 +4431,7 @@ https://genieframework.com/
 {"text": "[2_Inductive_Logical_Programming_proglib.pdf](https://vk.com/doc7608079_443009820?hash=7cca1916dede6f0a36&dl=af0321a3398ac90b72)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[prolog](https://libgen.is/search.php?&req=prolog+&phrase=1&view=simple&column=def&sort=year&sortmode=DESC)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## R
+FIXME## R
 
 {"text": "[R-bloggers | R news and tutorials contributed by (750) R bloggers](https://www.r-bloggers.com/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[book.rwithoutstatistics.com/](https://book.rwithoutstatistics.com/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4555,14 +4555,14 @@ https://genieframework.com/
 {"text": "[R 4 Quick Syntax Reference: A Pocket Guide to the Language, API’s and Library](http://library.lol/main/FE67CA67C6334B445E28F9AFAD0E090B)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[R Quick Syntax Reference: A Pocket Guide to the Language, APIs and Library](http://library.lol/main/5B5ACA469F6C3200FEA94AA5586CDB27)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Rust
+FIXME## Rust
 
 {"text": "[doc.rust-lang.org/stable/book/](https://doc.rust-lang.org/stable/book/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[doc.rust-lang.org/stable/rust-by-example/](https://doc.rust-lang.org/stable/rust-by-example/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[rust-lang-nursery.github.io/rust-cookbook/](https://rust-lang-nursery.github.io/rust-cookbook/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[How to Learn Rust](https://www.youtube.com/watch?v=2hXNd6x9sZs)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Web
+FIXME## Web
 
 {"text": "[actix.rs/](https://actix.rs/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[yew.rs/](https://yew.rs/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4662,7 +4662,7 @@ https://genieframework.com/
 {"text": "[containers/youki](https://github.com/containers/youki)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Rust for Rustaceans [2021] Jon Gjengset.pdf](https://vk.com/doc44301783_617206780?hash=32b56fd438b7accaa8&dl=ed1eab7470bc90d171)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## [*Are we learning yet?](http://www.arewelearningyet.com/)
+FIXME## [*Are we learning yet?](http://www.arewelearningyet.com/)
 
 {"text": "[7 Reasons Rust Is the Most Exciting New Programming Language](https://www.makeuseof.com/tag/reasons-rust-exciting-programming-language/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[BurntSushi/fst: Represent large sets and maps compactly with finite state transducers.](https://github.com/BurntSushi/fst)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4768,7 +4768,7 @@ https://genieframework.com/
 {"text": "[ratatui-org/ratatui](https://github.com/ratatui-org/ratatui) → [ratatui-org/ratatui/releases/tag/v0.21.0](https://github.com/ratatui-org/ratatui/releases/tag/v0.21.0)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Getting Started with Rust](https://www.programiz.com/rust/getting-started)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Scala
+FIXME## Scala
 
 {"text": "[Scala](https://github.com/TheAlgorithms/Scala)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Introduction | Tour of Scala | Scala Documentation](https://docs.scala-lang.org/tour/tour-of-scala.html)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4795,7 +4795,7 @@ https://genieframework.com/
 {"text": "[Scala Cookbook: Recipes for Object-Oriented and Functional Programming](http://libgen.is/book/index.php?md5=007C952965B3B4C2F3AD9F9A726D506D)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Alvin Alexander - Scala Cookbook: Recipes for Object-Oriented and Functional Programming](https://libgen.is/book/index.php?md5=007C952965B3B4C2F3AD9F9A726D506D)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## WASM
+FIXME## WASM
 
 {"text": "[WebAssembly/binaryen](https://github.com/WebAssembly/binaryen)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Main — Emscripten 3.1.33-git (dev) documentation](https://emscripten.org/index.html)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4803,25 +4803,25 @@ https://genieframework.com/
 {"text": "[wasm.builders/](https://www.wasm.builders/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[docker.com/blog/docker-wasm-technical-preview/](https://www.docker.com/blog/docker-wasm-technical-preview/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## C#, F#, etc
+FIXME## C#, F#, etc
 
 {"text": "[Format Your .NET Code with Git Hooks | by Randula Koralage | Medium](https://randulakoralage82.medium.com/format-your-net-code-with-git-hooks-a0dc33f68048)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Setting up pre-commit hooks for a .NET project](https://andrewnt.dev/setting-up-pre-commit-hooks-for-a-net-project)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[C# 10 Quick Syntax Reference: A Pocket Guide to the Language, APIs, and Library](http://library.lol/main/54DADB506E4A640AFAB2C33D1C30ACC9)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Zig
+FIXME## Zig
 
 {"text": "[ratfactor/ziglings](https://github.com/ratfactor/ziglings)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[My Zig Experience | Prime Reacts - YouTube](https://www.youtube.com/watch?v=SBe8DgBCjTc)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[How Zig Helped Us | Prime Reacts - YouTube](https://www.youtube.com/watch?v=wxx5_Xaw7zU)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Some Thoughts on Zig — Sympolymathesy, by Chris Krycho](https://v5.chriskrycho.com/journal/some-thoughts-on-zig/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Ruby
+FIXME## Ruby
 
 {"text": "( ) [Sorbet Type Checker](https://sorbet.org/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "( ) [tapioca](https://github.com/Shopify/tapioca)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Miscellaneous/ Other
+FIXME## Miscellaneous/ Other
 
 {"text": "[Ruby Regular Expressions](https://learnbyexample.github.io/Ruby_Regexp/) (book)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Ruby One-Liners Cookbook](https://learnbyexample.github.io/learn_ruby_oneliners/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4872,7 +4872,7 @@ https://genieframework.com/
 {"text": "[The Next Programming Language by Douglas Crockford - YouTube](https://www.youtube.com/watch?v=dAXUAg7H0fA)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[which programming languages were created in Germany - Google Search](https://www.google.com/search?q=which+programming+languages+were+created+in+Germany&client=firefox-b-d&sxsrf=AJOqlzU0zXhyW4thgJjFbBE1kuNhACZ8Aw:1677324252888&ei=3O_5Y4rhNYSZlQfY6YtY&start=10&sa=N&ved=2ahUKEwiKv5Dix7D9AhWETOUKHdj0AgsQ8tMDegQIAxAE&biw=1717&bih=757&dpr=1)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## To Sort
+FIXME## To Sort
 
 {"text": "[aplusplus.net/appintro.html](https://aplusplus.net/appintro.html)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Learn Bosque Programming: Discover the world's first regularized programming language](http://library.lol/main/1A5B5A5FE1F0E9EE563709DE169DB4E6)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -4994,7 +4994,7 @@ https://genieframework.com/
 {"text": "[mattgodbolt/path-tracer](https://github.com/mattgodbolt/path-tracer) rust", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[robnormal/papuascript](https://github.com/robnormal/papuascript)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## [Nickel](https://nickel-lang.org/)
+FIXME## [Nickel](https://nickel-lang.org/)
 
 {"text": "[pry/pry](https://github.com/pry/pry) - Ruby REPL", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[gboncoffee/webheadache](https://github.com/gboncoffee/webheadache)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -5015,11 +5015,11 @@ https://genieframework.com/
 {"text": "[docs.luaplusplus.org/overview/what-is-lua++](https://docs.luaplusplus.org/overview/what-is-lua++) [luapp-org](https://github.com/luapp-org) [luapp-org/luapp](https://github.com/luapp-org/luapp)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "try Kotlin Native for some of the CLI tools I am writing? [kotlinlang.org/docs/native-overview.html](https://kotlinlang.org/docs/native-overview.html)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## [ ]  [kdl-org/kdl](https://github.com/kdl-org/kdl)
+FIXME## [ ]  [kdl-org/kdl](https://github.com/kdl-org/kdl)
 
-## [ ]  [hashicorp/hcl](https://github.com/hashicorp/hcl)
+FIXME## [ ]  [hashicorp/hcl](https://github.com/hashicorp/hcl)
 
-## [ ]  [dhall-lang.org/](https://dhall-lang.org/)
+FIXME## [ ]  [dhall-lang.org/](https://dhall-lang.org/)
 
 {"text": "[mint-lang.com/](https://mint-lang.com/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[minoki/LunarML](https://github.com/minoki/LunarML)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -5027,7 +5027,7 @@ https://genieframework.com/
 {"text": "[typescripttolua.github.io/](https://typescripttolua.github.io/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[smithy.io/2.0/index.html](https://smithy.io/2.0/index.html)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Programming Languages, CS, Theory
+FIXME## Programming Languages, CS, Theory
 
 {"text": "[svix.com/blog/strong-typing-hill-to-die-on/](https://www.svix.com/blog/strong-typing-hill-to-die-on/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[book.purescript.org/](https://book.purescript.org/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -5088,12 +5088,12 @@ https://genieframework.com/
 {"text": "[nativescript](https://v7.docs.nativescript.org/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[bob](https://github.com/actuday6418/bob)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-# ProgrammingLangiages - Mixed, General, Miscellaneous
+FIXME# ProgrammingLangiages - Mixed, General, Miscellaneous
 
 {"text": "How to add Lua plugins to a Haskell application? Rust? -> Haskell plugins for Haskell application?", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Programming Languages - Hyperpolyglot", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## CLI/TUI Building Libraries
+FIXME## CLI/TUI Building Libraries
 
 {"text": "→ [shadawck/awesome-cli-frameworks](https://github.com/shadawck/awesome-cli-frameworks)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "all * unless otherwise indicated", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -5129,7 +5129,7 @@ Rust
 
 {"text": "[ceccopierangiolieugenio.github.io/pyTermTk/](https://ceccopierangiolieugenio.github.io/pyTermTk/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Sort
+FIXME## Sort
 
 ☒ GUI Development
 {"text": "$$ [azul.rs/](https://azul.rs/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -5205,7 +5205,7 @@ Rust
 {"text": " Kexi - Kexi is an open source visual database applications creator, a long-awaited competitor for programs like MS Access or Filemaker. [calligra.org/kexi/](https://calligra.org/kexi/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "bp<<<mycli [mycli.net/](https://www.mycli.net/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Java, JVM
+FIXME## Java, JVM
 
 {"text": "$$$  openjdk", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[U] sdkman", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -5213,7 +5213,7 @@ Rust
 {"text": "Clojure", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Julia", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## ?
+FIXME## ?
 
 {"text": "sbcl [sbcl.org/](http://www.sbcl.org/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "$$$  lua-sh: calling shell commands as functions", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -5234,11 +5234,11 @@ Rust
 {"text": "[fosskers/aura](https://github.com/fosskers/aura) [fosskers.github.io/aura/philosophy.html](https://fosskers.github.io/aura/philosophy.html)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "(PG) [com-lihaoyi/Ammonite](https://github.com/com-lihaoyi/Ammonite)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-# Web and App Development
+FIXME# Web and App Development
 
-## Resources
+FIXME## Resources
 
-### General Reference - TO SORT
+FIXME### General Reference - TO SORT
 
 {"text": "crud tech stack", "type": "", "tags": ["proglang", "web", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[5 JavaScript Books I Regret Not Reading as a Code Newbie](https://youtu.be/nn2fPWcCrKA)", "type": "", "tags": ["proglang", "web", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -5301,7 +5301,7 @@ Rust
 {"text": "[video](https://www.youtube.com/user/codingmath/videos)", "type": "", "tags": ["proglang", "web", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Как устроен JavaScript", "type": "", "tags": ["proglang", "web", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## App Programming Reading - TO SORT
+FIXME## App Programming Reading - TO SORT
 
 {"text": "[**GitHub - lltk/lltk: The Language Learning Toolkit (LLTK) performs a variety of tasks useful for (human) language learning.](https://github.com/lltk/lltk)", "type": "", "tags": ["proglang", "web", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[25. Graphical User Interfaces with Tk — Python 3.6.3 documentation](https://docs.python.org/3/library/tk.html)", "type": "", "tags": ["proglang", "web", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -5354,13 +5354,13 @@ Rust
 {"text": "[lifewire.com/get-apps-not-in-app-store-1999916](https://www.lifewire.com/get-apps-not-in-app-store-1999916)", "type": "", "tags": ["proglang", "web", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[quora.com/How-often-do-you-use-TkInter-for-GUI-in-Python](https://www.quora.com/How-often-do-you-use-TkInter-for-GUI-in-Python)", "type": "", "tags": ["proglang", "web", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## project
+FIXME## project
 
 {"text": "add word alignment as well? or phrase alignment, rather", "type": "", "tags": ["proglang", "web", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "android language-learning app: focus on pronunciation correction > ^ make prototype in julia / python / js / c++", "type": "", "tags": ["proglang", "web", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "make text aligner with gui: open two or more texts, give format parameters, create latex pdf with parallel texts", "type": "", "tags": ["proglang", "web", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## Reading TO SORT
+FIXME## Reading TO SORT
 
 {"text": "[Interactive Dashboards and Data Apps with Plotly and Dash: Harness the power of a fully fledged frontend web framework in Python – no JavaScript required](http://library.lol/main/A60FC45C6ED4F5FA674B4648C37E2BB0)", "type": "", "tags": ["proglang", "web", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Surgimento e evolução da Internetde VideosEducativos", "type": "book", "tags": ["web", "?", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},

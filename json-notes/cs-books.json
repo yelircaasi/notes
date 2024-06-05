@@ -1,3 +1,5 @@
+[
+#-> SORT 
 {"text": "[Algorithms for Optimization](http://library.lol/main/1BE77112D9E4058CBDBEEDFC2C46FE27)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Hacking: The Art of Exploitation](https://en.de1lib.org/book/1053096/4eac6c)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Hacking: The Art of Exploitation](https://en.de1lib.org/book/1661938/1c7825)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -38,7 +40,7 @@
 {"text": "The Linux Programming Interface", "type": "book", "tags": ["cs", "linux", "shell"], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Машинное обучение. Наука и искусство построения алгоритмов, которые извлекают знания из данных](https://b-ok.cc/book/2909078/7bc70e)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-## LLM Books
+#-> ml,llm
 {"text": "[Library Genesis: Mike Loukides - What Are ChatGPT and Its Friends?](http://libgen.is/book/index.php?md5=930099780BF17240C5C65CB58DE2690B)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Library Genesis: Donna McGeorge - The ChatGPT Revolution: How to Simplify Your Work and Life Admin with AI](http://libgen.is/book/index.php?md5=BC4BAC7AF148772A5AEC5CA5BBE86418)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Library Genesis: Sinan Ozdemir - Quick Start Guide to Large Language Models: Strategies and Best Practices for using ChatGPT and Other LLMs](http://libgen.is/book/index.php?md5=BABE444C707F205D22DD301AAF22B68F)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -58,7 +60,7 @@
 {"text": "[Library Genesis: Aiki Robot - Das große ChatGPT Buch - Wie künstliche Intelligenz (KI) unser Leben verändert: Chancen, Risiken und Herausforderungen der Entwicklung von künstlicher Intelligenz (KI) für Gesellschaft und Wirtschaft](http://libgen.is/book/index.php?md5=3E59021448D9358C056AEDBA8AE991EA)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Library Genesis: Kai Spriestersbach - Richtig texten mit KI - ChatGPT, GPT-4, GPT-3 & Co.: Texte schreiben mithilfe Künstlicher Intelligenz für Job, Uni und Websites - schneller und besser als je zuvor. Beispiele aus der Praxis inkl. über 100 Prompts ausführlich erklärt!](http://libgen.is/book/index.php?md5=A2D0BAEF0A025C782AA48B529F91D62E)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Library Genesis: Denis Rothman - Transformers for Natural Language Processing: Build, train, and fine-tune deep neural network architectures for NLP with Python, Hugging Face, and OpenAI's GPT-3, ChatGPT, and GPT-4, 2nd Edition](http://libgen.is/book/index.php?md5=6E55CD878CE9B3E325385EF65283C86B)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-### CV
+#-> ml,cv
 {"text": "Computer Vision. A Reference Guide", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "TensorFlow 2.0 Computer Vision Cookbook", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Mastering Computer Vision with TensorFlow 2.x", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -76,7 +78,7 @@
 {"text": "[techniques, and algorithms for computer vision and machine learning [3 ed](http://libgen.is/book/index.php?md5=9208FA33E5C1F93918E128F8E0781BEC)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Learning OpenCV 3: Computer Vision in C++ with the OpenCV Library [1 ed.]](http://libgen.is/book/index.php?md5=223AF6E7AF180D4D84C4133CF11BF788)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Reinforcement Learning From Scratch: Understanding Current Approaches - with Examples in Java and Greenfoot](http://library.lol/main/A571D1C872BF54E00FC2DEC784A1FE7E)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-### MLOps
+#-> ml,mlops
 {"text": "Applied Natural Language Processing in the Enterprise", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Machine Learning Engineering with MLFlow", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Engineering MLOps", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -84,7 +86,7 @@
 {"text": "Building Machine Learning Pipelines", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Machine Learning Design Patterns", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Machine Learning Engineering", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-### Clustering
+#-> ml,clustering
 {"text": "[Library Genesis: - Survey of Text Mining I: Clustering, Classification, and Retrieval](https://libgen.is/book/index.php?md5=C551C048520686368DB15F620DEE212A)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Library Genesis: Alboukadel Kassambara - Practical Guide to Cluster Analysis in R. Unsupervised Machine Learning](https://libgen.is/book/index.php?md5=7CBE43DE8C4F13ACDC7601338128BC36)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Library Genesis: Anil K. Jain, Richard C. Dubes - Algorithms for clustering data](https://libgen.is/book/index.php?md5=10EB6A5BFCEDE306EFA86D4DEDC6D5D4)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -102,11 +104,12 @@
 {"text": "[Library Genesis: Swagatam Das, Ajith Abraham, Amit Konar (auth.) - Metaheuristic Clustering](https://libgen.is/book/index.php?md5=D0898D4F26841E51847C5A047400CD71)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Library Genesis: V. Lemaire, F. Clérot (auth.), Dr. Saman K. Halgamuge, Dr. Lipo Wang (eds.) - Classification and Clustering for Knowledge Discovery](https://libgen.is/book/index.php?md5=283E3F09E583494CC5A0DF43FB57B1F1)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Library Genesis: Witold Pedrycz - Knowledge-based clustering: from data to information granules](https://libgen.is/book/index.php?md5=98EACD521082D52B09B6FC2890EAD7A7)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-### Autodiff    * [The Art of Differentiating Computer Programs: An Introduction to Algorithmic Differentiation](http://library.lol/main/85F1B05D3FD8A4F541460CE1BB6816D3)
+#-> ml,autodiff    
+{"text": "[The Art of Differentiating Computer Programs: An Introduction to Algorithmic Differentiation](http://library.lol/main/85F1B05D3FD8A4F541460CE1BB6816D3)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Recent Advances in Algorithmic Differentiation](http://library.lol/main/C27D847C466C743F10002FD6554D0533)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Evaluating derivatives: principles and techniques of algorithmic differentiation](http://library.lol/main/4099B9B0E52FDDDED80AF6750FFCB9B0)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Algorithmic Differentiation in Finance Explained](http://library.lol/main/E955C1FE1EA6D8C9FEA08D49FECB9776)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-### DL
+#-> ml,dl
 {"text": "Neural Networks and Deep Learning    Глубокое обучение", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "SLP 9. Deep Learning Architectures for Sequence Processing", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "AI, ML, and DL (Campesato)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -157,15 +160,15 @@
 {"text": "[Apprentissage artificiel: Concepts et algorithmes - De Bayes et Hume au Deep Learning](https://www.eyrolles.com/Informatique/Livre/apprentissage-artificiel-9782416001048/)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Haskell Data Analysis Cookbook](http://library.lol/main/37E36A4652A2355552FFFC7180D6E81B)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[libgen.is/search.php?&req=evolutionary+algorithms&phrase=1&view=simple&column=def&sort=year&sortmode=DESC](http://libgen.is/search.php?&req=evolutionary+algorithms&phrase=1&view=simple&column=def&sort=year&sortmode=DESC)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-### Deep RL
+#-> rl,deepRl
 {"text": "[Deep Reinforcement Learning in Action](http://libgen.is/book/index.php?md5=F2F28879523CAE239FFB89EA6A533A1A)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Foundations of Deep Reinforcement Learning: Theory and Practice in Python](http://libgen.is/book/index.php?md5=8363B2F5DA18CE9A2F0A9C633D96675D)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Deep Reinforcement Learning Hands-On: Apply modern RL methods to practical problems of chatbots, robotics, discrete optimization, web automation, and more, 2nd Edition](http://libgen.is/book/index.php?md5=F4D1A90C476A576238E8FE1F47602C67)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Grokking Deep Reinforcement Learning [1 ed.]](http://libgen.is/book/index.php?md5=F83946E7A76E64E0C309CB9A2086551E)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[HANDS-ON REINFORCEMENT LEARNING WITH PYTHON - : master reinforcement and deep reinforcement... learning from scratch using openai gym and tensorf.](http://libgen.is/book/index.php?md5=58DB6090F0F8EC2351AADBC6A70B47E5)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Deep Reinforcement Learning -- Das umfassende Praxis-Handbuch](https://de.de1lib.org/book/17917854/601596)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-## Web
-#### HTML and CSS (+ JavaScript, PHP, etc.)
+
+#-> webdev
 {"text": "[Jürgen Wolf - HTML5 und CSS3 Das umfassende Handbuch zum Lernen und Nachschlagen. Inkl. JavaScript, Bootstrap, Responsive Webdesign u. v. m](http://libgen.rs/book/index.php?md5=E3A77A243DD4F1CF26DE39C25664B761)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "CSS (Cascading Style Sheets) Visual Dictionary", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[HTML, CSS, and JavaScript All in One: Covering HTML5, CSS3, and ES6, Sams Teach Yourself](https://b-ok.cc/book/17379791/37f425)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -198,7 +201,7 @@
 {"text": "[Schrödinger lernt HTML5, CSS3 und JavaScript: das etwas andere Fachbuch](http://libgen.rs/book/index.php?md5=DDA87C3501CB0213A28E5D1DB4A244F1)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Sams Teach Yourself HTML, CSS & JavaScript Web Publishing in One Hour a Day](https://b-ok.cc/book/2652131/77c1ca)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Responsive Web Design with HTML5 and CSS: Develop future-proof responsive websites using the latest HTML5 and CSS techniques", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-#### PHP & Co.
+#-> webdev,php
 {"text": "[9. PHP and MySQL for Dynamic Web Sites](https://elementor.com/blog/best-web-development-books/#php-and-mysql-for-dynamic-web-sites): Visual QuickPro Guide", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[10. PHP Objects,](https://elementor.com/blog/best-web-development-books/#php-objects-patterns-and-practice) Patterns, and Practice", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Programming PHP](http://library.lol/main/4EEE20597C81294D21B10B338994DB31)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -215,7 +218,7 @@
 {"text": "[PHP & MySQL Novice to Ninja](https://www.amazon.in/PHP-MySQL-Novice-Ninja-5e/dp/0987153080?tag=hackr0df-21)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[PHP and MySQL Web Development](https://www.amazon.in/PHP-MySQL-Development-Developers-Library/dp/0672329166?tag=hackr0df-21)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[8. Learning PHP, MySQL & JavaScript: W](https://elementor.com/blog/best-web-development-books/#learning-php-mysql-javascript-css-and-html5)ith jQuery, CSS & HTML5", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-### Frameworks
+#-> webdev,framework
 {"text": "[React and React Native, Third Edition](https://www.amazon.com/React-Native-complete-hands-development/dp/1839211148)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[6. Road To React: Your Journey To Master](https://elementor.com/blog/best-web-development-books/#road-to-react) React.js in JavaScript", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Fullstack Vue: The Complete Guide to Vue.js](https://amzn.to/3wpBBrS)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -226,13 +229,13 @@
 {"text": "Learning Bootstrap 4", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Bootstrap: Responsive Web Development", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Bootstrap 4 Cookbook", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-### Fullstack / Web for Desktop
+#-> webdev,fullstack
 {"text": "[Modern Full-Stack Development: Using TypeScript, React, Node.js, Webpack, and Docker](https://amzn.to/3wnfGkT)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Hands-On Full Stack Development with Spring Boot 2 and React](https://amzn.to/3xgONz1)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Hands On JavaScript High Performance: Build faster web apps using Node.js, Svelte.js and WebAssembly](http://library.lol/main/728B19A4FD75B29D199DC2973A4EA64A)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "JavaScript Everywhere: Building Cross-Platform Applications with GraphQL, React, React Native, and Electron", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[The Full Stack Developer: Your Essential Guide to the Everyday Skills Expected of a Modern Full Stack Web Developer](https://amzn.to/3grZurL) by Chris Northwood", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-### Backend, Node & Co., etc.
+#-> backend,SORT
 {"text": "[Node Cookbook, Fourth Edition](https://www.packtpub.com/product/node-cookbook-fourth-edition/9781838558758)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Beginning Node.js: By Basarat Ali Syed", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Node.js Design Patterns – Second Edition](https://www.amazon.com/Node-js-Design-Patterns-Mario-Casciaro/dp/1785885588/)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -240,7 +243,7 @@
 {"text": "[Django for Beginners](https://www.amazon.in/gp/product/B079ZZLRRL/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=geeksforgeeks-21&creative=24630&linkCode=as2&creativeASIN=B079ZZLRRL&linkId=4d732c1f0385194bb62d4b97a9c006ef)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Python Crash Course](https://www.amazon.in/dp/1593276036?tag=hackr0df-21)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Django Web Development with Python](https://www.youtube.com/watch?v=yD0_1DPmfKM&list=PLQVvvaa0QuDe9nqlirjacLkBYdgc2inh3)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-### JavaScript-/TypeScript-Focused
+#-> javascript
 {"text": "JavaScript and JQuery: Interactive Front-End Web Development, by Jon Duckett", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[You Don’t Know JS – ES6 & Beyond](https://amzn.to/2PEVJ8e)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[JavaScript: The Good Parts](https://amzn.to/2ZNsRL1)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -253,7 +256,7 @@
 {"text": "[5. Secrets of the JavaScript Ninja](https://b-ok.cc/book/2861879/8ba3ec)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "JavaScript: The Good Parts", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Slay the JavaScript Interview: 100 Answers That Every Developer Needs to Know](https://www.amazon.com/Slay-JavaScript-Interview-answers-developer-ebook/dp/B08K9B5675)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-### WASM
+#-> webdev,wasm
 {"text": "[The Art of WebAssembly: Build Secure, Portable, High-Performance Applications](http://library.lol/main/A9F269802FD45872AA9A20FF5983E657)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[WebAssembly: The Definitive Guide: Safe, Fast, and Portable Code](http://library.lol/main/8F7CD7151FC7282056CF1E229C1A00B4)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[WebAssembly в действии](http://library.lol/main/CA70CB3F4E86240F13B475E7B06B8267)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -263,28 +266,28 @@
 {"text": "[WebAssembly in Action](http://library.lol/main/7472D5B97E5A0CD7F6C2948FB96D899A)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[WebAssembly for Cloud: A Basic Guide for Wasm-Based Cloud Apps](http://library.lol/main/985D100A891FD6463B1AF700EADDAD03)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Learn WebAssembly: build web applications with native performance using wasm and c/c++](http://library.lol/main/C6E8C68B806A76576FEA09B6C84749BB)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-### Other
+#-> webdev,?
 {"text": "[Creative Projects for Rust Programmers: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing](http://library.lol/main/69F202277193C9C7FD9495F17BFA0944)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-## Android, Flutter, etc.
-{"text": "[Madona S. Wambua - Modern Android 13 Development Cookbook: Over 70 recipes to solve Android development issues and create better apps with Kotlin and Jetpack Compose](https://libgen.is/book/index.php?md5=5CF25921D714EE3B6D555ED458F86F26)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"text": "[Simone Alessandria - Flutter Cookbook: 100+ step-by-step recipes for building cross-platform, professional-grade apps with Flutter 3.10.x and Dart 3.x,](https://libgen.is/book/index.php?md5=194F22FFDA763D6BC103B9450A89499F)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-### General
+#-> DONE
+{"text": "[Madona S. Wambua - Modern Android 13 Development Cookbook: Over 70 recipes to solve Android development issues and create better apps with Kotlin and Jetpack Compose](https://libgen.is/book/index.php?md5=5CF25921D714EE3B6D555ED458F86F26)", "type": "book", "tags": ["cs", "app", "mobile", "android"], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
+{"text": "[Simone Alessandria - Flutter Cookbook: 100+ step-by-step recipes for building cross-platform, professional-grade apps with Flutter 3.10.x and Dart 3.x,](https://libgen.is/book/index.php?md5=194F22FFDA763D6BC103B9450A89499F)", "type": "book", "tags": ["cs", "app", "mobile", "android"], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
+#-> linux
 {"text": "[Linux Bible](http://library.lol/main/68A63FA40A301299F4B21CB8899414D8)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Linux: The Ultimate Guide](http://library.lol/main/297F517AF8B6698C77D1F5EDA1DD6BA3)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Linux Command Line and Shell Scripting Bible](http://library.lol/main/83D73257C1AFD8DE91F3CA52DE118FCF)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-### Shell & Specific Shell Tools
+#-> shell
 {"text": "[Computing from the Command Line](https://learnbyexample.github.io/cli-computing/) (book)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Command-Line Text Processing with GNU Coreutils](https://learnbyexample.github.io/cli_text_processing_coreutils/) (book)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[GNU Grep and Ripgrep](https://learnbyexample.github.io/learn_gnugrep_ripgrep/) (book)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[GNU SED](https://learnbyexample.github.io/learn_gnused/) (book)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[GNU Awk](https://learnbyexample.github.io/learn_gnuawk/) (book)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-### Kernel, Low-Level
+#-> lowlevel,linuxkernel
 {"text": "[Linux Kernel Programming: A comprehensive guide to kernel internals, writing kernel modules, and kernel synchronization](http://library.lol/main/5101B7A38854D9EBD359C9A74D2686EF)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Foundations  of Linux Debugging, Disassembling, and Reversing: Analyze Binary Code,", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Understand Stack Memory Usage, and Reconstruct C/C++ Code with Intel x64](http://library.lol/main/7C3D6AAD13BD65F99F5981D8CA04728B)**", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-### Specific Topics
+#-> wm
 {"text": "[The anatomy of the modern window manager](http://library.lol/main/C392F948ADD053F40ABE01AACE37ED57)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-## Low-Level
+#-> lowlevel
 {"text": "[Computerhardware für Anfänger – Wikibooks, Sammlung freier Lehr-, Sach- und Fachbücher](https://de.wikibooks.org/wiki/Computerhardware_f%C3%BCr_Anf%C3%A4nger)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Electromagnetism](http://library.lol/main/E77C2F26808B7CE6D06EC1730130BAC0)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Lenguaje ensamblador. Para computadoras basadas en Intel](https://en.de1lib.org/book/7232940/fc2a85)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -294,7 +297,7 @@
 {"text": "^ [The Intel Microprocessors](http://library.lol/main/95EFF0E41BC82379161DF0C63EC6FA9A)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Шпаргалка по общей электронике и электротехнике", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Электроника и микропроцессорная техника, Гусев В.Г., Гусев Ю.М. (2013)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-### LLVM
+#-> lowlevel,llvm
 {"text": "[Использование платформы LLVM для динамической генерации машинного кода](http://libgen.is/book/index.php?md5=D0A6B907C268A7CF3D45A62FA9EC53CA)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Обфусцирующий компилятор на базе LLVM](http://libgen.is/book/index.php?md5=A00CCAC8CC106F5C071829434E5854CF)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[LLVM Cookbook](http://libgen.is/book/index.php?md5=41DDD204391262C262E0B0247529D322)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -307,8 +310,7 @@
 {"text": "[LLVM. инфраструктура для разработки компиляторов](http://library.lol/main/CA2D4A415DC0BC98DE2D488E13B8C711)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Getting Started with LLVM Core Libraries: Get to grips with LLVM essentials and use the core libraries to build advanced tools](http://libgen.is/book/index.php?md5=8B9B19F1DA135A51E7307B6B49900CD1)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[mlir.llvm.org](https://mlir.llvm.org/)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-# ML General
-{"text": "    * ->", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
+#-> ml,SORT
 {"text": "GANs in Action", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Grundlagen der digitalen Signalverarbeitung", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Smarte Maschinen", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -317,10 +319,13 @@
 {"text": "[3D Scientific Visualization with Blender](http://library.lol/main/656DF61A341E5E4E63E890B2FDCCC674)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Human Interaction with Graphs. A Visual Querying Perspective](http://library.lol/main/169541501B351E79CFB7A3C66F44458A)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[mlstory.org/](https://mlstory.org/)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-### Boot    * [The BIOS companion](http://library.lol/main/BBB4B14C71ACAEF74426BEFBFA25402D)
+#-> boot    
+{"text": "[The BIOS companion](http://library.lol/main/BBB4B14C71ACAEF74426BEFBFA25402D)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Beyond BIOS: Developing with the Unified Extensible Firmware Interface](http://library.lol/main/99ACD9F82FDDF5996238C6596D66AA5A)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[coreboot.org/](https://coreboot.org/)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Harnessing the Uefi Shell: Moving the Platform Beyond Dos](http://library.lol/main/9F60269484B41B81E4CCCE4FD78C05E7)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
+
+#-> ml,SORT
 {"text": "[The AI Dictionary](http://www.cse.unsw.edu.au/~billw/aidict.html)", "type": "book", "tags": ["ml", "ai", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Clever Algorithms: Nature-Inspired Programming Recipes](http://library.lol/main/318799EBAA81F7CC65D81DB3973D6F74)", "type": "book", "tags": ["ml", "algorithm", "recipe", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Handbook of Latent Semantic Analysis](https://libgen.is/book/index.php?md5=2A106AA4B74DD50AB5BB1F203F157D56)", "type": "book", "tags": ["ml", "analysi", "latent", "handbook", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -510,7 +515,7 @@
 {"text": "[Deep Learning Illustrated: A Visual, Interactive Guide to Artificial Intelligence](http://libgen.rs/book/index.php?md5=8D1BC33FD5031EBF991E91AB2C9CB82D)", "type": "book", "tags": ["ml", "deepLearning", "intelligence", "rs", "artificial", "guide", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Introduction au Deep Learning](https://de1lib.org/book/12340816/dc7f40)", "type": "book", "tags": ["ml", "deepLearning", "introduction", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[An Introduction to Statistical Learning - with Applications in R](http://library.lol/main/20297C56F38E00DE46F444F48B8B7789)", "type": "book", "tags": ["ml", "deepLearning", "introduction", "application", "r", "statistical", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"text": "{"text": "[Deep Learning with R](http://library.lol/main/7CEDBC8877F6D02EC575381444340A9A)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},", "type": "book", "tags": ["ml", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
+{"text": "[Deep Learning with R](http://library.lol/main/7CEDBC8877F6D02EC575381444340A9A)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Introduction to Deep Learning - Google Drive](https://drive.google.com/file/d/1xb7zhfYs6p6BseNeSPllfVJ14C-K1s_U/view)", "type": "book", "tags": ["ml", "deepLearning", "introduction", "view", "google", "d", "drive", "file", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Advanced Data Analytics Using Python with Machine Learning, Deep Learning and NLP Examples](http://library.lol/main/D433FD74DACE540156F6CAA802036520)", "type": "book", "tags": ["ml", "deepLearning", "machine", "data", "python", "using", "advanced", "example", "nlp", "analytic", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Intelligence artificielle vulgarisée: Le machine learning et le deep learning par la pratique](https://de1lib.org/book/5311191/7072b3)", "type": "book", "tags": ["ml", "deepLearning", "machine", "intelligence", "et", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -586,7 +591,7 @@
 {"text": "[Hands-On Machine Learning from Scratch](https://leanpub.com/hmls)", "type": "book", "tags": ["ml", "learning", "machine", "hand", "scratch", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Model-Based Machine Learning (Early Access): Table of Contents](http://mbmlbook.com/toc.html)", "type": "book", "tags": ["ml", "learning", "machine", "model", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Adversarial Machine Learning](http://library.lol/main/B54EABE4B4763CECA8B39FD28644C678)", "type": "book", "tags": ["ml", "learning", "machine", "model", "r", "example", "code", "graphical", "world", "adversarial", "probabilistic", "problem", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"text": "{"text": "[Learning Probabilistic Graphical Models in R: Familiarize yourself with probabilistic graphical models through real-world problems and illustrative code examples in R](http://library.lol/main/1A9BF161D84A1A9C52AAF99DC207C4AC)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},", "type": "book", "tags": ["ml", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
+{"text": "[Learning Probabilistic Graphical Models in R: Familiarize yourself with probabilistic graphical models through real-world problems and illustrative code examples in R](http://library.lol/main/1A9BF161D84A1A9C52AAF99DC207C4AC)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Machine Learning - The Basics](https://arxiv.org/pdf/1805.05052.pdf)", "type": "book", "tags": ["ml", "learning", "machine", "pdf", "arxiv", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Advanced ML with R](https://www.google.com/search?q=Advanced+Machine+Learning+with+R+pdf&rlz=1C5CHFA_enUS800US800&oq=Advanced+Machine+Learning+with+R+pdf&aqs=chrome..69i57.760j0j4&sourceid=chrome&ie=UTF-8)", "type": "book", "tags": ["ml", "learning", "machine", "pdf", "r", "google", "advanced", "search", "q", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Practical Machine Learning With Rust", "type": "book", "tags": ["ml", "learning", "machine", "practical", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -641,7 +646,7 @@
 {"text": "PyTorch Computer Vision Cookbook.pdf", "type": "book", "tags": ["ml", "pdf", "pytorch", "cookbook", "computer", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "PyTorch Recipes.pdf", "type": "book", "tags": ["ml", "pdf", "pytorch", "recipe", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "PyTorch Pocket Reference.pdf", "type": "book", "tags": ["ml", "pdf", "pytorch", "reference", "pocket", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"text": "{"text": "[Глубокое обучение.pdf - Google Drive](https://drive.google.com/file/d/1rtoJepwq1Pl64gHC7Mk7v-3zqM8NUhep/view)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},", "type": "book", "tags": ["ml", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
+{"text": "[Глубокое обучение.pdf - Google Drive](https://drive.google.com/file/d/1rtoJepwq1Pl64gHC7Mk7v-3zqM8NUhep/view)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[10_Introduction_To_Machine_Learning_proglib.pdf](https://vk.com/doc7608079_443009925?hash=0d291af83bc81a8108&dl=94fb47f6b340584325)", "type": "book", "tags": ["ml", "pdf", "vk", "dl", "hash", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[4_Information_Theory_Inference_and_Learning_Algorithms_proglib.pdf](https://vk.com/doc7608079_443009851?hash=4b540304678fcaf701&dl=215a1d38eecc787330)", "type": "book", "tags": ["ml", "pdf", "vk", "dl", "hash", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[5_Gaussian_Processes_for_Machine_Learning_proglib.pdf](https://vk.com/doc7608079_443009855?hash=33b72f55fd91760ff4&dl=bc2ee4bde4a1c150ab)", "type": "book", "tags": ["ml", "pdf", "vk", "dl", "hash", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -673,24 +678,24 @@
 {"text": "[everything processing](http://libgen.rs/book/index.php?md5=5B90FE8732A0CD9389288C7F4A88D4FB)", "type": "book", "tags": ["ml", "rs", "processing", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Pattern Recognition](http://datascience.getresponse360.com/click.html?x=a62e&lc=uf2&mc=j&s=jFaI&u=F&y=N&z=wwBOteb&)", "type": "book", "tags": ["ml", "s", "j", "z", "x", "y", "f", "getresponse360", "click", "a62e", "mc", "jfai", "lc", "u", "datascience", "recognition", "pattern", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Free Book: Classification and Regression In a Weekend](http://datascience.getresponse360.com/click.html?x=a62e&lc=ufQ&mc=j&s=jFaI&u=F&y=z&z=wSGojMP&)", "type": "book", "tags": ["ml", "s", "j", "z", "x", "y", "f", "getresponse360", "click", "a62e", "mc", "jfai", "lc", "u", "datascience", "regression", "free", "classification", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"text": "{"text": "[глубокое обучение](https://de1lib.org/s/%D0%B3%D0%BB%D1%83%D0%B1%D0%BE%D0%BA%D0%BE%D0%B5%20%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},", "type": "book", "tags": ["ml", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
+{"text": "[глубокое обучение](https://de1lib.org/s/%D0%B3%D0%BB%D1%83%D0%B1%D0%BE%D0%BA%D0%BE%D0%B5%20%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "The Art of Science", "type": "book", "tags": ["ml", "science", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Sciences of the Artificial", "type": "book", "tags": ["ml", "science", "artificial", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[International Encyclopedia of Statistical Science](http://library.lol/main/12935C77BC49EC8FE7F7FC4D407360DA)", "type": "book", "tags": ["ml", "science", "statistical", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[TensorFlow for Dummies](http://93.174.95.29/_ads/87AD36AA73A5E3B788F8D1AC0EE15233)", "type": "book", "tags": ["ml", "tensorflow", "_ad", "dummie", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Tensorflow 2.0 Quick Start Guide](http://93.174.95.29/_ads/34A2D31E9E915F8D60A7F4D76B96EA19)", "type": "book", "tags": ["ml", "tensorflow", "_ad", "guide", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"text": "{"text": "[Прикладное машинное обучение с помощью scikit-learn и tensorflow](http://93.174.95.29/_ads/3D8FC49632C78C16AEA77CA7D6894A6E)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},", "type": "book", "tags": ["ml", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
+{"text": "[Прикладное машинное обучение с помощью scikit-learn и tensorflow](http://93.174.95.29/_ads/3D8FC49632C78C16AEA77CA7D6894A6E)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Learn TensorFlow 2.0", "type": "book", "tags": ["ml", "tensorflow", "learn", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[ADVANCED NATURAL LANGUAGE PROCESSING WITH TENSORFLOW 2: Build Real-world Effective Nlp... Applications Using Ner, Rnns, Seq2seq Models, Tran](http://libgen.is/book/index.php?md5=4B85BB70DF43F539E2C009245B66C364)", "type": "book", "tags": ["ml", "tensorflow", "model", "application", "using", "processing", "advanced", "build", "nlp", "world", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Generative Adversarial Networks Projects : Build Next-Generation Generative Models Using TensorFlow and Keras.](http://93.174.95.29/_ads/5D1D282E63C595C33D8953768EC5DC0D)", "type": "book", "tags": ["ml", "tensorflow", "network", "model", "using", "_ad", "kera", "build", "adversarial", "generative", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[TensorFlow in 1 Day Make your own Neural Network](http://93.174.95.29/_ads/8414B90BB8253992152F64A9ABB95D6F)", "type": "book", "tags": ["ml", "tensorflow", "network", "neural", "_ad", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[TensorFlow 2 Pocket Reference](http://libgen.is/book/index.php?md5=A6372E87535BF7D8960C1986364C76B1)", "type": "book", "tags": ["ml", "tensorflow", "reference", "pocket", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[^ RU](https://drive.google.com/file/d/1rtoJepwq1Pl64gHC7Mk7v-3zqM8NUhep/view?usp=sharing)", "type": "book", "tags": ["ml", "view", "google", "d", "drive", "file", "usp", "sharing", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"text": "{"text": "[Глубокое обучение Погружение в мир нейронных сетей](https://drive.google.com/file/d/18_rngmSL5nAgwtpXifAzwfAm9FeGxIf7/view?usp=sharing)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},", "type": "book", "tags": ["ml", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
+{"text": "[Глубокое обучение Погружение в мир нейронных сетей](https://drive.google.com/file/d/18_rngmSL5nAgwtpXifAzwfAm9FeGxIf7/view?usp=sharing)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[libgen.rs/search.php?&req=Handbooks+of+Modern+Statistical+Methods&phrase=1&view=simple&column=def&sort=year&sortmode=DESC](http://libgen.rs/search.php?&req=Handbooks+of+Modern+Statistical+Methods&phrase=1&view=simple&column=def&sort=year&sortmode=DESC)", "type": "book", "tags": ["ml", "view", "rs", "statistical", "handbook", "modern", "search", "method", "simple", "phrase", "req", "def", "column", "year", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[<-](http://libgen.is/search.php?req=Andrew+Glassner+From+Basics+to+Practice&open=0&res=25&view=simple&phrase=1&column=def)", "type": "book", "tags": ["ml", "view", "search", "simple", "phrase", "req", "def", "column", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[neuronale Netze](https://libgen.is/search.php?&req=neuronale+netze&phrase=1&view=simple&column=def&sort=year&sortmode=DESC)", "type": "book", "tags": ["ml", "view", "search", "simple", "phrase", "req", "def", "column", "year", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"text": "{"text": "[Прагматичный ИИ. Машинное обучение и облачные технологии](https://vk.com/doc44301783_550770394?hash=710a74b90fbcd8bf61&dl=276885fd9f36b6bab0)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},", "type": "book", "tags": ["ml", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
+{"text": "[Прагматичный ИИ. Машинное обучение и облачные технологии](https://vk.com/doc44301783_550770394?hash=710a74b90fbcd8bf61&dl=276885fd9f36b6bab0)", "type": "book", "tags": ["cs", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "    Глубокое обучение. Погружение в мир нейронных сетей", "type": "book", "tags": ["ml", "обучение", "глубокое", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[X86 Assembly/NASM Syntax - Wikibooks, open books for an open world](https://en.wikibooks.org/wiki/X86_Assembly/NASM_Syntax)", "type": "book", "tags": ["linux", "assembly", "x86", "book", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "[Arbeitsbuch zur Elektrotechnik](https://b-ok.cc/book/2113953/4d1669)", "type": "book", "tags": ["linux", "cc", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -821,8 +826,8 @@
 {"text": "Think Like a Programmer (Spraul)", "type": "book", "tags": ["", "programmer", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Language Server Protocol and Implementation: Supporting Language-Smart Editing and Programming Tools", "type": "book", "tags": ["", "programming", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Programming Language Design Concepts", "type": "book", "tags": ["", "programming", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"text": "     * [Artificial Life Models in Software](http://library.lol/main/AE11D3B9C747AE9619EAB789F87AEF21)", "type": "book", "tags": ["", "software", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
+{"text": "[Artificial Life Models in Software](http://library.lol/main/AE11D3B9C747AE9619EAB789F87AEF21)", "type": "book", "tags": ["", "software", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Fundamentals of Software Architecture", "type": "book", "tags": ["", "software", "architecture", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "Software Source Code: Statistical Modeling (De Gruyter STEM)", "type": "book", "tags": ["", "software", "code", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"text": "head First Software Development. Edycja polska", "type": "book", "tags": ["", "software", "head", "first", "development", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"text": "     * [Software Development : An Open Source Approach](http://library.lol/main/9860DD42AC234585B304A54A9F31E707)", "type": "book", "tags": ["", "software", "open", "development", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
+{"text": "[Software Development : An Open Source Approach](http://library.lol/main/9860DD42AC234585B304A54A9F31E707)", "type": "book", "tags": ["", "software", "open", "development", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},

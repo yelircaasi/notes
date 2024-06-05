@@ -1,6 +1,6 @@
-# Work Notes
+FIXME# Work Notes
 
-## left-right mappings for table parsing
+FIXME## left-right mappings for table parsing
 
 * [mypy notes](https://stackoverflow.com/questions/57785471/why-does-mypy-think-library-imports-are-missing) $$$$$$$$$
 * move cv-analysis to gpu, rewrite in cpp with pybind11 and parallelize everything
@@ -8,7 +8,7 @@
 add deskew keyword to cv-analysis service
 * output "skewAngle": float
 
-## Projects
+FIXME## Projects
 
 * 1. sort ‘NLQ’
 * 2. sort ‘VanillaOS’
@@ -18,7 +18,7 @@ add deskew keyword to cv-analysis service
 * 6. sort ‘pytest’
 * 7. Read articles from ‘à lire’
 
-## Sort
+FIXME## Sort
 
 * [Remote Mob Programming | How we do Remote Mob Programming.](https://www.remotemobprogramming.org/)
 * [fasttext.cc/docs/en/aligned-vectors.html](https://fasttext.cc/docs/en/aligned-vectors.html)
@@ -34,7 +34,7 @@ add deskew keyword to cv-analysis service
 * -> make all places pull from angles in .yaml
 * joint output? -> sign probability, regression, binary classification
 
-### Codes
+FIXME### Codes
 
 * LCS with poetry
 * Inferenzverfahren verfeinern
@@ -118,7 +118,7 @@ add deskew keyword to cv-analysis service
   * numerical transformation (solve by e.g. regression
   * string operations: substring,character mapping, casing, substring transposition
 
-### ML Pipelines
+FIXME### ML Pipelines
 
 * Airflow + MLFlow + Kubernetes
 * airflow -> generality -> DAGs & scheduling
@@ -130,11 +130,11 @@ add deskew keyword to cv-analysis service
 * integrated with Docker?
 * graphical UI?
 
-# Organization, Meta
+FIXME# Organization, Meta
 
 * → [Timeline](https://knecon.atlassian.net/jira/software/c/projects/RES/boards/40/timeline)
 
-# Research Shared Packages
+FIXME# Research Shared Packages
 
 * [ ]  kn_utils: add datahash module
 * [Programming Languages | RabbitMQ - Blog](https://blog.rabbitmq.com/categories/programming-languages/)
@@ -165,7 +165,7 @@ add deskew keyword to cv-analysis service
 * [configparser — Configuration file parser — Python 3.11.2 documentation](https://docs.python.org/3/library/configparser.html#module-configparser)
 * [Env vars - Dynaconf - 3.1.11](https://www.dynaconf.com/envvars/)
 
-## Logging
+FIXME## Logging
 
 * [baeldung.com/java-log-json-output](https://www.baeldung.com/java-log-json-output)
 * [Marius Schummer: [knecon.atlassian.net/wiki/spaces/PM/pages/118784001/2023-...](https://teams.microsoft.com/l/message/19:meeting_YTBkZGY0YmYtZDQ5NS00NDliLThkZmEtNmI3NzQwZTcwZjJj@thread.v2/1697112494142?context=%7B%22contextType%22%3A%22chat%22%7D)
@@ -194,14 +194,14 @@ add deskew keyword to cv-analysis service
 * [A guided tour of Python logging PyCon AU PyCon AU • • 14.555 visualizaciones hace 4 años](https://www.youtube.com/watch?v=DxZ5WEo4hvU)
 * [Why … - structlog 22.3.0 documentation](https://www.structlog.org/en/stable/why.html)
 
-# Instantli2
+FIXME# Instantli2
 
-# NLQ
+FIXME# NLQ
 
 * [ ]  add attention to mode
 * [ ]  add CRF to model
 
-## Notes and Links
+FIXME## Notes and Links
 
 * ONNX        * [pytorch.org/docs/stable/onnx.html](https://pytorch.org/docs/stable/onnx.html)
 * Spelling Corrections        * [theautomatic.net/2019/12/10/3-packages-to-build-a-spell-checker-in-python/](https://theautomatic.net/2019/12/10/3-packages-to-build-a-spell-checker-in-python/)
@@ -216,17 +216,17 @@ add deskew keyword to cv-analysis service
 * [ ]  * [ ]  [Graph-Based NLP and IR](https://drive.google.com/file/d/1_yAyK1ZaBRorNLGL2upsOoiGjHq1HVbp/view?usp=sharing)- [ ]  .- [ ]  [Sentdex/Simple-kNN-Gzip](https://github.com/Sentdex/Simple-kNN-Gzip)
 * [ ]  [“Low-Resource” Text Classification: A Parameter-Free Classification Method with Compressors](https://aclanthology.org/2023.findings-acl.426.pdf)- [ ]  [gzip is all you need](https://www.youtube.com/watch?v=jkdWzvMOPuo)
 
-# Table Parsing
+FIXME# Table Parsing
 
 * feature/table_partitioning (cv_analysis / layout_parsing)
 
-# Deskewer
+FIXME# Deskewer
 
-# Grammar-Based Data Generation
+FIXME# Grammar-Based Data Generation
 
 * gramdatagen (GramDataGen.jl?) → desiderata: type safety, memory safety, efficiency, purity
 
-# LLMs
+FIXME# LLMs
 
 * LLMs        * [direct.mit.edu/neco/article/35/3/309/114731/Large-Language-Models-and-the-Reverse-Turing-Test](https://direct.mit.edu/neco/article/35/3/309/114731/Large-Language-Models-and-the-Reverse-Turing-Test)
 * [r/MachineLearning/comments/12omnxo/r_timeline_of_recent_large_language_models](https://www.reddit.com/r/MachineLearning/comments/12omnxo/r_timeline_of_recent_large_language_models)
@@ -245,20 +245,20 @@ add deskew keyword to cv-analysis service
 * [Chomsky on ChatGPT](https://www.google.com/search?client=firefox-b-m&sxsrf=APwXEdccHTRhTnyXrWPBeURbAnNhA86XlQ%3A1680896954010&q=noam+chomsky+on+chatgpt&oq=noam+chomsky+on+chatgpt&aqs=heirloom-srp..0l5)
 * [Eliezer Yudkowsky Lex Friedman](https://open.spotify.com/episode/2g6WjOL1J1Ovm1kndXk1nt?si=9R4zKfi7SmeN6gxLWsjJ_g)
 
-## Image Classification Service
+FIXME## Image Classification Service
 
 ```sh
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu”
-#apt install nvidia-cuda-toolkit
+FIXME#apt install nvidia-cuda-toolkit
 ```
 
-## Face Detection
+FIXME## Face Detection
 
-## Standards, Infrastructure, and Templates
+FIXME## Standards, Infrastructure, and Templates
 
-## Wiki
+FIXME## Wiki
 
-## Miscellaneous / Overarching
+FIXME## Miscellaneous / Overarching
 
 * Reading
 * TOD
@@ -283,7 +283,7 @@ export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu”
     deliver a platform, a toolkit with active-learning built-in
     graph-based approach: graph-embeddings?
 
-# Weiterbildung
+FIXME# Weiterbildung
 
 * use more RL! learn more RL!
 * [Queues — RabbitMQ](https://www.rabbitmq.com/queues.html)
