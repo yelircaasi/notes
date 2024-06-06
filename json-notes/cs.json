@@ -7,7 +7,7 @@
 
 #-> cs,# Low-Level
 
-#-> cs,## exercism
+#-> cs,assembler,exercism
 
 * [exercism.org/tracks/x86-64-assembly/](https://exercism.org/tracks/x86-64-assembly/)
 * [exercism.org/tracks/x86-64-assembly/exercises/hello-world/solutions](https://exercism.org/tracks/x86-64-assembly/exercises/hello-world/solutions)
@@ -28,7 +28,7 @@
 * [exercism.org/tracks/x86-64-assembly/exercises/binary-search/solutions](https://exercism.org/tracks/x86-64-assembly/exercises/binary-search/solutions)
 * [exercism.org/tracks/x86-64-assembly/exercises/collatz-conjecture/solutions](https://exercism.org/tracks/x86-64-assembly/exercises/collatz-conjecture/solutions)
 
-#-> cs,## Low-Level Reading
+#-> cs,lowlevel,reading,sORT
 
 * [How Binary Works](https://youtu.be/PMpNhbMjDj0)
 * [Book: Numbers and Computers](http://library.lol/main/0ED6B117074071DF946B58FF8AEDD36A)
@@ -38,16 +38,16 @@
 * [Embedded Systems with ARM Cortex-M Microcontrollers in Assembly Language and C](https://web.eece.maine.edu/~zhu/book/)
 * [Apress/learn-to-program-w-assembly](https://github.com/Apress/learn-to-program-w-assembly)
 
-#-> cs,## Boot etc
+#-> cs,lowlevel,boot
 
 * [de.wikipedia.org/wiki/Bootloader](https://de.wikipedia.org/wiki/Bootloader)
 * [de.wikipedia.org/wiki/Grand_Unified_Bootloader](https://de.wikipedia.org/wiki/Grand_Unified_Bootloader)
 
-#-> cs,## Cracking
+#-> cs,lowlevel,cracking
 
 * [gtfobins.github.io/](https://gtfobins.github.io/)
 
-#-> cs,## Other People’s Projects
+#-> cs,lowlevel,referenceProjects
 
 * [os.phil-opp.com/](https://os.phil-opp.com/)  * notes on writing an OS in Rust
 * [raymii.org/s/blog/Bare_Metal_Boot_to_Vi.html](https://raymii.org/s/blog/Bare_Metal_Boot_to_Vi.html)
@@ -57,7 +57,7 @@
 
 #-> cs,## Courses and Tutorials
 
-#-> cs,### Long
+#-> cs,lowlevel,longCourse
 
 * [x86 Assembly Course (whatsacreel)](https://www.youtube.com/playlist?list=PLKK11Ligqitg9MOX3-0tFT1Rmh3uJp7kA)
 * [Digitaltechnik-Tutorial](https://www.youtube.com/playlist?list=PLBF281451AA9A2E13)    nand2tetris    ‣
@@ -67,7 +67,7 @@
 * [Языки программирования и компиляторы (2013)](https://www.youtube.com/watch?v=RqPL2pLuZkk&list=PL-_cKNuVAYAUkjhvHtKoH5Of2F0w3I400)
 * [Assembly Programming Tutorial](https://www.tutorialspoint.com/assembly_programming/)
 
-#-> cs,### Short
+#-> cs,lowlevel,shortCourse
 
 * [Hello World with NASM Assembler | DevDungeon](https://www.devdungeon.com/content/hello-world-nasm-assembler)
 * [**Architecture of the central processing unit (CPU) - Computer Science Wiki](https://computersciencewiki.org/index.php/Architecture_of_the_central_processing_unit_(CPU))
@@ -81,9 +81,7 @@
 * [8086 Assembly - Pong](https://www.youtube.com/watch?v=dyANHsj2UOw&list=PLvpbDCl_H7mfgmEJPl1bTHlH5g-f0kWDM)
 * [andystanton/cmake-nasm-test: Building a nasm hello world app with cmake](https://github.com/andystanton/cmake-nasm-test)
 
-#-> cs,## Media
-
-#-> cs,### Video
+#-> cs,video,SORT
 
 * [youtube.com/c/LowLevelLearning](https://youtube.com/c/LowLevelLearning)    WebAssembly for Web Developers
 * [Intro to WA](https://www.youtube.com/watch?v=3sU557ZKjUs)
@@ -128,7 +126,7 @@
 * [compile nasm online](https://rextester.com/l/nasm_online_compiler)
 * [jj's useful and ugly FXT page](https://www.jjj.de/fxt/#fxt)
 
-#-> cs,## Docs
+#-> cs,lowlevel,documentation
 
 * [as. The GNU Assembler.pdf](https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=6C2EA7D9BCE553D77A12DFC96DB7A990?doi=10.1.1.32.4503&rep=rep1&type=pdf)
 * [GNU Assembler - CodeDocs](https://codedocs.org/what-is/gnu-assembler)
@@ -138,7 +136,7 @@
 * [NASM](https://www.nasm.us/)
 * [Getting Started with the LLVM System — LLVM 10 documentation](https://llvm.org/docs/GettingStarted.html)
 
-#-> cs,## Disassembly
+#-> cs,lowevel,disassembly
 
 * [ disassembler.io](https://onlinedisassembler.com/static/home/index.html)
 * [**tools - Is there any disassembler to rival IDA Pro? - Reverse Engineering Stack Exchange](https://reverseengineering.stackexchange.com/questions/1817/is-there-any-disassembler-to-rival-ida-pro)
@@ -148,7 +146,7 @@
 * [** ==> x86 Disassembly/Disassemblers and Decompilers - Wikibooks, open books for an open world](https://en.wikibooks.org/wiki/X86_Disassembly/Disassemblers_and_Decompilers)
 * [Hopper ==> see if I can learn anything from tutorial](https://www.hopperapp.com/)
 
-#-> cs,## Julia
+#-> cs,lowlevel,julia
 
 * [How to execute julia code in a bash shell script itself - Usage - JuliaLang](https://discourse.julialang.org/t/how-to-execute-julia-code-in-a-bash-shell-script-itself/30848)
 * [JuliaComputing/static-julia: Static AOT Julia compilation, demos and instructions](https://github.com/JuliaComputing/static-julia)
@@ -160,13 +158,11 @@
 
 * [Java Decompiler](http://java-decompiler.github.io/)
 
-#-> cs,## Python
+#-> cs,lowlevel,python
 
 * [[dis — Disassembler for Python bytecode — Python 3.8.4rc1 documentation](https://docs.python.org/3/library/dis.html#:~:text=The dis module supports the,in the file Include%2Fopcode.&text=No guarantees are made that,changed between versions of Python.)](https://docs.python.org/3/library/dis.html#:~:text=The%20dis%20module%20supports%20the,in%20the%20file%20Include%2Fopcode.&text=No%20guarantees%20are%20made%20that,changed%20between%20versions%20of%20Python.))
 
-#-> cs,## Reading List
-
-#-> cs,### SORT
+#-> cs,SORT
 
 * -> look into Risc-V
 * [What is Microarchitecture?](https://www.computerhope.com/jargon/m/microarchitecture.htm)
@@ -252,7 +248,7 @@
 * [video](https://www.youtube.com/user/TheWizadro)
 * [TheWizardo](https://www.youtube.com/user/TheWizadro)
 * [programminggroundup.blogspot.com/](http://programminggroundup.blogspot.com/)
-* [it-uroki.ru/*](http://it-uroki.ru/*) [Tony Gambacorta](https://www.youtube.com/channel/UCGbeTQOPHwFikUlme8Txzvw)
+* [it-uroki.ru/](http://it-uroki.ru/*) [Tony Gambacorta](https://www.youtube.com/channel/UCGbeTQOPHwFikUlme8Txzvw)
 * [disassembler.io](https://onlinedisassembler.com/static/home/index.html)
 * [onlinedisassembler.com/static/home/index.html](https://onlinedisassembler.com/static/home/index.html)
 * [onworks.net/programs/objdump-online?amp=0](https://www.onworks.net/programs/objdump-online?amp=0)
@@ -297,7 +293,7 @@
 * [Let's Build an 8-Bit Computer! - Codename: JCM-1 [Episode 1]](https://www.youtube.com/watch?v=lgK2X3qjgCg)
 * [How to Make an 8 bit Computer | Part 1](https://www.youtube.com/watch?v=4Ta1JuhYO7k)
 * [DUO ADEPT: An 8-bit Homebrew Computer](https://www.youtube.com/watch?v=qYvr0b8jqbg)
-* [Running "Hello World" on a 8-bit breadboard computer](https://www.youtube.com/watch?v=odEIWwqJOI4)
+* [Running 'Hello World' on a 8-bit breadboard computer](https://www.youtube.com/watch?v=odEIWwqJOI4)
 * [Eight bit transistor computer](https://www.youtube.com/watch?v=2eOaRF9VFdQ)
 * [CONSTRUA UM COMPUTADOR DE 8 BITS | 8-bit Computer #00](https://www.youtube.com/watch?v=2llmPWBYvQo)
 * [EightZero: Building an 8-bit Computer From Zero](https://www.youtube.com/watch?v=cKoRRA4MyM4)
@@ -350,7 +346,7 @@
 * [Таненбаум Э. - Современные операционные системы. 3-е изд. (Классика Computer Science) - 2010.djvu](https://vk.com/doc44301783_453645331?hash=317a46612f065704c0&dl=5df31c0734ec677184)
 * [**Basic CPU Configuration - ALU, MDR, CU, IR, MAR, Accumulator, Program Counter](https://www.tech-wonders.com/2008/12/basic-cpu-configuration-alu-mdr-cu-ir-mar-accumulator-program-counter.html)
 * [**commentaires de Ruddahbagga sur ELI5: What is information?](https://www.reddit.com/r/explainlikeimfive/comments/17iyys/eli5_what_is_information/c864h4n/)
-* [**ELI5: How do computers read and "produce" the 1 and 0 they use to send commands? : explainlikeimfive](https://www.reddit.com/r/explainlikeimfive/comments/1j3jnt/eli5_how_do_computers_read_and_produce_the_1_and/)
+* [**ELI5: How do computers read and 'produce' the 1 and 0 they use to send commands? : explainlikeimfive](https://www.reddit.com/r/explainlikeimfive/comments/1j3jnt/eli5_how_do_computers_read_and_produce_the_1_and/)
 * [**Lets Build - 8 Bit Computer Part 1 Introduction - YouTube](https://www.youtube.com/watch?v=bCVT1BtlZn0)
 * [Architecture des ordinateurs- Leçon 1 - YouTube](https://www.youtube.com/watch?v=UP61XnKW2eg)
 * [Arithmetik in Computern - Grundlagen Rechnerarchitektur](https://www.youtube.com/watch?v=0Exik_Q3kDk&list=PLgZuSc7xewdd9UiqudDJTqRiCpR6p7maj)
@@ -412,10 +408,10 @@ FPGAs
 * [NASM - The Netwide Assembler](https://www.nasm.us/doc/)
 * [Onur Mutlu Lectures](https://www.youtube.com/c/OnurMutluLectures/playlists)
 * [PC Assembly Book](https://pacman128.github.io/pcasm/)
-* [...](https://www.nand2tetris.org/software*) [pypi.org/project/vm-translator/*](https://pypi.org/project/vm-translator/*) [pypi.org/project/hack-assembler/*](https://pypi.org/project/hack-assembler/*) [nandgame.com/*](https://www.nandgame.com/*) [libgen.rs/search.php?req=Klaus+dembowski&open=0&res=25&view=simple&phrase=1&column=author](http://libgen.rs/search.php?req=Klaus+dembowski&open=0&res=25&view=simple&phrase=1&column=author)
-* Heidelberg: Klaus Dembowski: Die Computer-Werkstatt* [aur.archlinux.org/packages/nand2tetris/*](https://aur.archlinux.org/packages/nand2tetris/*) [Nanometer-Scale Ge-Based Adaptable Transistors Providing Programmable Negative Differential Resistance Enabling Multivalued Logic](https://pubs.acs.org/doi/10.1021/acsnano.1c06801)
+* [...](https://www.nand2tetris.org/software) [pypi.org/project/vm-translator/](https://pypi.org/project/vm-translator/*) [pypi.org/project/hack-assembler/](https://pypi.org/project/hack-assembler/) [nandgame.com/](https://www.nandgame.com/*) [libgen.rs/search.php?req=Klaus+dembowski&open=0&res=25&view=simple&phrase=1&column=author](http://libgen.rs/search.php?req=Klaus+dembowski&open=0&res=25&view=simple&phrase=1&column=author)
+* Heidelberg: Klaus Dembowski: Die Computer-Werkstatt* [aur.archlinux.org/packages/nand2tetris/](https://aur.archlinux.org/packages/nand2tetris/*) [Nanometer-Scale Ge-Based Adaptable Transistors Providing Programmable Negative Differential Resistance Enabling Multivalued Logic](https://pubs.acs.org/doi/10.1021/acsnano.1c06801)
 
-#-> cs,## [ project euler in NASM - Поиск в Google](https://www.google.com/search?q=project+euler+in+NASM&rlz=1C5CHFA_enUS800US800&oq=project+euler+in+NASM&aqs=chrome..69i57j33.3608j0j4&sourceid=chrome&ie=UTF-8)
+* [ project euler in NASM - Поиск в Google](https://www.google.com/search?q=project+euler+in+NASM&rlz=1C5CHFA_enUS800US800&oq=project+euler+in+NASM&aqs=chrome..69i57j33.3608j0j4&sourceid=chrome&ie=UTF-8)
 
 * [AidanFray/ProjectEuler_x86_Assembler: Some Project Euler challenges coded in x86 NASM Assembler](https://github.com/AidanFray/ProjectEuler_x86_Assembler)
 * [jfmatt-zz/euler-asm: Project Euler in x86 assembly](https://github.com/jfmatt-zz/euler-asm)
@@ -429,7 +425,8 @@ FPGAs
 * [NASM-X Manual](http://thlorenz.com/nasmx/nasmx1.html)
 * [Raymond's page](http://www.ray.masmcode.com/)
 
-#-> cs,## [**June | 2013 | Programming Logic](https://www.programminglogic.com/2013/06/)
+#-> cs,## 
+* [**June | 2013 | Programming Logic](https://www.programminglogic.com/2013/06/)
 
 * [Nasm X86 Segfault](https://progi.pro/nasm-x86-segfault-8899673)
 * [Ответы на Ваши Вопросы по Программированию!](https://progi.pro/)
@@ -437,7 +434,7 @@ FPGAs
 * [How to solve Project Euler 2 using x86 Assembly - YouTube](https://www.youtube.com/watch?v=AU-rgZF7d-Q)
 * [Project Euler exercise 1 in C, Python 3 and x86 assembly language | John Pierce](http://www.arti-sec.com/article/project-euler-exercise-1-c-python-3-and-x86-assembly-language)
 
-#-> cs,## [**Assembly Language Programming Tutorial - YouTube](https://www.youtube.com/watch?v=zEuvNYe7WG0)
+* [**Assembly Language Programming Tutorial - YouTube](https://www.youtube.com/watch?v=zEuvNYe7WG0)
 
 * [WebAssembly](https://webassembly.org/)
 * [GaetanoCausio/AssemblerOnMac: Assembler on your Mac? Yes We Can ! A quick tutorial together with a bunch of sample assembler programs for the Mac.](https://github.com/GaetanoCausio/AssemblerOnMac)
@@ -467,7 +464,7 @@ FPGAs
 * [Assembly Language Step-by-Step](https://drive.google.com/file/d/1EAdU3U0Yt3oFMj_glpb_vQc89r6_LeKw/view?usp=sharing)
 * [Язык ассемблера для процессоров Intel](https://drive.google.com/file/d/100KIiB91hcjrAqDAkugIWyLGhoQ8ZXX_/view?usp=sharing)
 
-#-> cs,## [** Even Better Tutorial](https://asmtutor.com/)
+* [** Even Better Tutorial](https://asmtutor.com/)
 
 * [101 of ELF Files](https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/)
 * [asm64-handout.dvi](https://www.cs.cmu.edu/~fp/courses/15213-s07/misc/asm64-handout.pdf)
@@ -546,7 +543,7 @@ FPGAs
 * [azure-docs/iot-hub-raspberry-pi-web-simulator-get-started.md at master · MicrosoftDocs/azure-docs · GitHub](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started.md)
 * [Raspberry Pi Azure IoT Web Simulator](https://azure-samples.github.io/raspberry-pi-web-simulator/)
 
-#-> cs,## [*Programming from the Ground Up Book - Accueil [Savannah]](http://savannah.nongnu.org/projects/pgubook/)
+* [*Programming from the Ground Up Book - Accueil [Savannah]](http://savannah.nongnu.org/projects/pgubook/)
 
 * [Programming from the Ground Up](http://programminggroundup.blogspot.com/)
 * [? Tech Docs | AMD](https://www.amd.com/en/support/tech-docs)
@@ -945,7 +942,7 @@ FPGAs
 * [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible)
 * [Bash Official Reference Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html)
 * [Bash Hackers Wiki](https://wiki.bash-hackers.org/)
-* [Greg Wooledge's (aka "greycat") wiki](https://mywiki.wooledge.org/). Specifically [Bash Guide](https://mywiki.wooledge.org/BashGuide), [Bash FAQ](https://mywiki.wooledge.org/BashFAQ) and [Bash Pitfalls](https://mywiki.wooledge.org/BashPitfalls)
+* [Greg Wooledge's (aka 'greycat') wiki](https://mywiki.wooledge.org/). Specifically [Bash Guide](https://mywiki.wooledge.org/BashGuide), [Bash FAQ](https://mywiki.wooledge.org/BashFAQ) and [Bash Pitfalls](https://mywiki.wooledge.org/BashPitfalls)
 * [Google's Shell Style Guide](https://google.github.io/styleguide/shell.xml)
 * [The Linux Documentation Project: Bash Programming - Intro/How-to](https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
 * [The Linux Documentation Project: Advanced Bash Scripting Guide](https://tldp.org/LDP/abs/html/)
@@ -1012,7 +1009,7 @@ FPGAs
 
 #-> cs,## Misc
 
-* > see "Challenge & Projects" section of "Learning" tab
+* > see 'Challenge & Projects' section of 'Learning' tab
 * [leachim6/hello-world](https://github.com/leachim6/hello-world)
 * [rosetta.alhur.es/](https://rosetta.alhur.es/)
 * [Віртуальна Академія](https://youtube.com/c/VirtuAka)
@@ -1600,7 +1597,7 @@ FPGAs
 * [Datenstrukturen - Alle Videos, besser sortiert auf www.thesimpleclub.de](https://www.youtube.com/watch?v=t43yaHT7aGw&list=PLgZuSc7xewdeOB9v1M7_GCnr-U7cHQ_Xj)
 * [Theoretische Informatik - Alle Videos besser sortiert auf www.thesimpleclub.de](https://www.youtube.com/watch?v=JAvIyh0rIV4&list=PLgZuSc7xewdddmRYu_n8YDEXbSvkXRq9u)
 * Алгоритмы. Справочник с примерами на C, C++, Java и Python
-* [Курс "Алгоритмы и структуры данных"](https://vk.com/wall-16108331_150221)
+* [Курс 'Алгоритмы и структуры данных'](https://vk.com/wall-16108331_150221)
 * [Матроиды и параметризованные алгоритмы](https://www.youtube.com/watch?v=yGMi6ObL25o&list=PL-_cKNuVAYAX-r648qpgkXXJ3hyW6VskQ)
 * [video](https://www.youtube.com/watch?v=_J-3nt9bhbI&list=PLVWtXi_Jrj_14rUJDWFEvyhOmYF2JdHmk&index=32)
 * [Параметризованные алгоритмы](https://www.youtube.com/watch?v=LuhPRMn4SRQ&list=PL-_cKNuVAYAUTZWj2o-ZnPUM5yYrHYq51)
@@ -1620,7 +1617,7 @@ FPGAs
 * Где решать задачи по программированию - Часть 2
 * CodinGame — Этот сайт отличается от перечисленных выше тем, что вместо обычного решения, на CodinGame вы пишете код непосредственно для того, чтобы сыграть в онлайн-игру. Это увлекательно и некоторые из игр очень забавны (см. пример). Игровая графика хороша, а пользовательский интерфейс редактора/игры очень плавный. В целом, это отличный веб-сайт для новичков, изучающих программирование.
 * TopCoder — одна из первых платформ для соревнований по онлайн-программированию. Популярные Single Round Matches происходят несколько раз в месяц в определенное время. Это возможность посоревноваться с другими разработчиками. Вот несколько тем, которые могут быть затронуты. Помимо решения головоломок для развлечения, предлагаются и соревнования, в которых вы можете выиграть призы от спонсоров (реальных компаний) за лучшее решение.
-* LeetCode — В LeetCode собрана одна из лучших коллекций задач на применение алгоритмов. Темы, которые охватывают задания, требуют знания структур данных (binary trees, heaps, linked lists, etc.) Задачи более сложные, чем на других сайтах, но они окажутся очень полезными, если использовать их при подготовке к собеседованию. Раздел "Mock Interview" (Пробное интервью) специально предназначен для подготовки к собеседованию. Также проводятся соревнования по программированию, и есть раздел статей, который поможет вам лучше понять определенные задания.
+* LeetCode — В LeetCode собрана одна из лучших коллекций задач на применение алгоритмов. Темы, которые охватывают задания, требуют знания структур данных (binary trees, heaps, linked lists, etc.) Задачи более сложные, чем на других сайтах, но они окажутся очень полезными, если использовать их при подготовке к собеседованию. Раздел 'Mock Interview' (Пробное интервью) специально предназначен для подготовки к собеседованию. Также проводятся соревнования по программированию, и есть раздел статей, который поможет вам лучше понять определенные задания.
 * CodeChef — это некоммерческая образовательная инициатива индийской софтверной компании. Это глобальное сообщество программистов, объединенное целью обучения и дружеской конкуренции в рамках платформы для соревновательного программирования. Каждый месяц CodeChef проводит три конкурса и раздает призы победителям в качестве поощрения.
 * GeeksforGeeks — имеет лучшую коллекцию статей, объяснений и решений по теме алгоритмов и структурам данных. По ссылке вы можете увидеть пример того, как сложный вопрос разбивается на более простые части, объяснение и код решения. Если вы готовитесь к собеседованию, советуем вам использовать этот сайт, чтобы подготовиться и освежить сложные темы в изучении алгоритмов.
 * Codeforces — российская платформа для соревнований по программированию, на которой регулярно проводятся турниры, в которых участвуют одни из лучших программистов в мире. Если вы начинающий кодер, задания, скорее всего, будут слишком сложны для вас — вот пример из недавнего соревнования. Для решения этих задач обычно требуются передовые знания в области математики и алгоритмов. Цель Codeforces — предложить разработчикам удобную платформу для создания, проведения и обсуждения соревнований по программированию.
@@ -1803,7 +1800,7 @@ FPGAs
 * [sanfoundry.com/](https://www.sanfoundry.com/)
 * [freecodecamp.org/news/10-common-coding-interview-problems-solved/](https://www.freecodecamp.org/news/10-common-coding-interview-problems-solved/)
 
-#-> cs,## Gen * & CS
+#-> cs,general,SORT
 
 * [In One Lesson - YouTube](https://www.youtube.com/@InOneLesson)
 * [How does Computer Hardware Work? 💻🛠🔬 [3D Animated Teardown] - YouTube](https://www.youtube.com/watch?v=d86ws7mQYIg)
@@ -2045,7 +2042,7 @@ FPGAs
 * [en.wikipedia.org/wiki/Linux_console](https://en.wikipedia.org/wiki/Linux_console)
 * [explainshell.com/](https://explainshell.com/)
 * [xtermjs/xterm.js/](https://github.com/xtermjs/xterm.js/)
-* [linusakesson.net/programming/tty/*](http://www.linusakesson.net/programming/tty/*) [read -r - Google Search](https://www.google.com/search?client=firefox-b-d&q=read+-r)
+* [linusakesson.net/programming/tty/](http://www.linusakesson.net/programming/tty/) [read -r - Google Search](https://www.google.com/search?client=firefox-b-d&q=read+-r)
 * [The Linux Kernel - Explained in an Easy to Understand Way - LinuxForDevices](https://www.linuxfordevices.com/tutorials/linux/linux-kernel)
 * learn the basics and theory behind booting and boot systems     * [Mastering Linux Device Driver Development: Write custom device drivers to support computer peripherals in Linux operating systems](http://library.lol/main/1AADA903BA5864B644936811371911A0)
 * [Linux Kernel Programming Part 2 - Char Device Drivers and Kernel Synchronization](http://library.lol/main/F3C3DD0F5D1B8400A53F04F6120E1497)
@@ -2058,7 +2055,7 @@ FPGAs
 * [gnome - Dead keys no longer work in some applications since Ubuntu Jammy - Ask Ubuntu](https://askubuntu.com/questions/1404613/dead-keys-no-longer-work-in-some-applications-since-ubuntu-jammy)
 * [Signatures couldn't be verified - public key - Ubuntu 20.04 Focal · Issue #1181 · nodesource/distributions](https://github.com/nodesource/distributions/issues/1181)
 * [Set Up SSH Keys on Ubuntu 20.04](https://www.cloudpanel.io/tutorial/set-up-ssh-keys-on-ubuntu-20-04/)
-* [apt - How do I fix the GPG error "NO_PUBKEY"? - Ask Ubuntu](https://askubuntu.com/questions/13065/how-do-i-fix-the-gpg-error-no-pubkey)
+* [apt - How do I fix the GPG error 'NO_PUBKEY'? - Ask Ubuntu](https://askubuntu.com/questions/13065/how-do-i-fix-the-gpg-error-no-pubkey)
 * [tree: ignore directories with patterns](https://zaiste.net/posts/tree-ignore-directories-patterns/)
 * [peropesis.org/](https://peropesis.org/)
 * [1000 Linux Questions & Answers](https://www.sanfoundry.com/technical-interview-questions/)
@@ -2096,7 +2093,7 @@ FPGAs
 * [The 8 Best Linux Laptops of 2019](https://www.lifewire.com/best-linux-laptops-4582617)
 * [The Best Linux Laptops - Top Laptops for Ubuntu & other Linux Distros](https://laptopunderbudget.com/best-linux-laptops/)
 * [24 Best laptops for Linux as of 2019 - Slant](https://www.slant.co/topics/1184/~best-laptops-for-linux)
-* [XPS 13"-4K-Laptop der 8. Generation mit Touchscreen und HD-Webcam | Dell Deutschland](https://www.dell.com/de-de/shop/laptops-2-in-1-pcs/xps-13-laptop/spd/xps-13-9380-laptop)
+* [XPS 13-inch -4K-Laptop der 8. Generation mit Touchscreen und HD-Webcam | Dell Deutschland](https://www.dell.com/de-de/shop/laptops-2-in-1-pcs/xps-13-laptop/spd/xps-13-9380-laptop)
 * [16 Places To Buy A Linux Laptop With Linux Preloaded - nixCraft](https://www.cyberciti.biz/hardware/laptop-computers-with-linux-installed-or-preloaded/)
 * [10 super sweet laptops that come with Linux pre-installed - Page 10 | ZDNet](https://www.zdnet.com/pictures/10-super-sweet-laptops-that-come-with-linux-pre-installed/10/)
 * [Best 10 Laptops for Linux – Linux Hint](https://linuxhint.com/best_10_laptops_linux/)
@@ -2168,7 +2165,7 @@ FPGAs
 * [Обзор Red Hat Enterprise Linux 6](https://www.youtube.com/watch?v=aChMK0wCXYQ&list=PL-_cKNuVAYAU0wszTQqn8uc-Kmhk5U1NE)
 * [Программное обеспечение GNU/Linux](https://www.youtube.com/watch?v=QXVkOj6i2sY&list=PL-_cKNuVAYAUpajPpCyqYTuzx7j_28zps)
 * [2020 Seminar Series: Slurm - YouTube](https://www.youtube.com/watch?v=grZVs1UUxug)
-* [bwHPC - E-learning module "Introduction to bwHPC"](https://training.bwhpc.de/ilias/ilias.php?baseClass=ilLMPresentationGUI&ref_id=275&cmd=resume)
+* [bwHPC - E-learning module 'Introduction to bwHPC'](https://training.bwhpc.de/ilias/ilias.php?baseClass=ilLMPresentationGUI&ref_id=275&cmd=resume)
 * [linuxfromscratch.org/](https://www.linuxfromscratch.org/)
 * [LinuxFilesystemTreeOverview - Community Help Wiki](https://help.ubuntu.com/community/LinuxFilesystemTreeOverview)
 * [Yocto Project – It's not an embedded Linux distribution – it creates a custom one for you](https://www.yoctoproject.org/)
@@ -2230,7 +2227,7 @@ FPGAs
 * ZaReason UltraLap 6440
 * ZaReason Verix-9100
 * [news.lenovo.com/pressroom/press-releases/lenovo-launches-linux-ready-thinkpad-and-thinkstation-pcs-preinstalled-with-ubuntu/#:~:text=Lenovo%20Launches%20Linux%2DReady%20ThinkPad%20and%20ThinkStation%20PCs%20Preinstalled%20with%20Ubuntu,-23%20September%202020&text=September%2023%2C%202020%20%E2%80%93%20Today%2C,Ubuntu%C2%AE%20LTS%20operating%20system.](https://news.lenovo.com/pressroom/press-releases/lenovo-launches-linux-ready-thinkpad-and-thinkstation-pcs-preinstalled-with-ubuntu/#:~:text=Lenovo%20Launches%20Linux%2DReady%20ThinkPad%20and%20ThinkStation%20PCs%20Preinstalled%20with%20Ubuntu,-23%20September%202020&text=September%2023%2C%202020%20%E2%80%93%20Today%2C,Ubuntu%C2%AE%20LTS%20operating%20system.)
-* [kofler.info/linux-notebook/*](https://kofler.info/linux-notebook/*) [support.lenovo.com/us/en/solutions/pd031426-linux-for-personal-systems](https://support.lenovo.com/us/en/solutions/pd031426-linux-for-personal-systems)
+* [kofler.info/linux-notebook/](https://kofler.info/linux-notebook/*) [support.lenovo.com/us/en/solutions/pd031426-linux-for-personal-systems](https://support.lenovo.com/us/en/solutions/pd031426-linux-for-personal-systems)
 * [google.com/search?q=best+pre-installed+linux+machine](https://www.google.com/search?q=best+pre-installed+linux+machine&rlz=1C5CHFA_enUS800US800&oq=best+&aqs=chrome.0.69i59l3j69i57j69i61j69i65l2j69i61.2605j0j4&sourceid=chrome&ie=UTF-8)
 * [pop-os](https://github.com/pop-os)
 * [pop.system76.com/](https://pop.system76.com/)
@@ -2258,7 +2255,7 @@ FPGAs
 * [PaddiM8/kalker: Kalker/kalk is a calculator with math syntax that supports user-defined variables and functions, complex numbers, and estimation of derivatives and integrals](https://github.com/PaddiM8/kalker)
 * [linuxsurvival.com/](https://linuxsurvival.com/)
 
-#-> cs,## Vim
+#-> cs,vim
 
 * [vimdoc.sourceforge.net/](http://vimdoc.sourceforge.net/)
 * [tnerual.eriogerg.free.fr/vimqrc.html](http://tnerual.eriogerg.free.fr/vimqrc.html)
@@ -2345,7 +2342,7 @@ FPGAs
 * [dev.to/mainendra/neovim-as-ide-1cnp](https://dev.to/mainendra/neovim-as-ide-1cnp)
 * [spacevim.org/use-vim-as-a-python-ide/](https://spacevim.org/use-vim-as-a-python-ide/)
 
-#-> cs,## Shell
+#-> cs,shell
 
 * [Resultados de búsqueda - shell scripting](https://drive.google.com/drive/search?q=shell%20scripting)
 * [Jürgen Wolf - Shell-Programmierung: Das umfassende Handbuch, 3. Auflage](http://libgen.rs/book/index.php?md5=7CCFBFA22DBC4A22AD79BA5189BEE788)
@@ -2413,7 +2410,7 @@ FPGAs
 * [The Bash environment](https://linux.die.net/Bash-Beginners-Guide/chap_03.html)
 * [Summary](https://linux.die.net/Bash-Beginners-Guide/sect_02_05.html)
 
-#-> cs,## Books
+#-> cs,books
 
 * [Arch Linux Books](http://libgen.is/search.php?req=arch+linux&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def)
 * [Building Embedded Linux Systems [2 ed.]](http://libgen.is/book/index.php?md5=A2E20D7FF8A88E34C33CCBAA218E53EC)
@@ -2449,13 +2446,11 @@ FPGAs
 * [Linux Kernel Crash Book Everything you need to know](http://libgen.is/book/index.php?md5=4235C4ACAAE3F9CEA960CA6FB25D0138)
 * [Concrete Architecture of the Linux Kernel](http://libgen.is/book/index.php?md5=4E15C97E21A8F49742CF467593AC4C6A)
 
-#-> cs,# Noteworthy Personal Sites ... and other sites worth taking note of
-
-#-> cs,## Collections - Well-Designed Sites
+#-> cs,resourceList,website,person
 
 * [personalsit.es/](https://personalsit.es/)
 
-#-> cs,### Phenomenal
+#-> cs,website,person,phenomenal
 
 * [blog.wesleyac.com/](https://blog.wesleyac.com/)
 * [Site example](https://codeyarns.github.io/tech/2012-11-30-how-to-set-a-specific-chapter-or-section-number-in-latex.html)
@@ -2464,7 +2459,7 @@ FPGAs
 * [ritchieng.live/](https://ritchieng.live/)
 * [shuzhanfan.github.io](https://shuzhanfan.github.io/)
 
-#-> cs,### Educational, Book, etc
+#-> cs,website,person,educational
 
 * [notesonai.com/Notes+on+AI](https://notesonai.com/Notes+on+AI)
 * [randomekek.github.io/deep/deeplearning.html](https://randomekek.github.io/deep/deeplearning.html)
@@ -2475,29 +2470,27 @@ FPGAs
 * [mlstory.org/](https://mlstory.org/)
 * [trinilearn.com/](https://www.trinilearn.com/)
 * [agill.xyz/](https://agill.xyz/)  [Notgnoshi (Austin Gill)](https://github.com/Notgnoshi)
-* [Game Math Series | Ming-Lun "Allen" Chou | 周明倫](http://allenchou.net/game-math-series/)
+* [Game Math Series | Ming-Lun 'Allen' Chou | 周明倫](http://allenchou.net/game-math-series/)
 
-#-> cs,## Interesting People
-
-#-> cs,### YouTube
+#-> cs,website,person,interesting
 
 * [Hugo Larochelle](https://www.youtube.com/user/hugolarochelle)
 * [cs-syd.eu/about](https://cs-syd.eu/about)
 * [mrossinek.gitlab.io/](https://mrossinek.gitlab.io/)
 
-#-> cs,### Tools & Tech
+#-> cs,website,person,tool
 
 * [RossKnapman/HugoTheme](https://github.com/RossKnapman/HugoTheme) (great icons)
 * [Academia Website](https://www.academia.edu/portfolio_creation)
 
-#-> cs,## TO SORT
+#-> cs,website,person,SORT
 
 * ( ) [Brian Reilly · Entrepreneurial Front-End Web Developer](http://brianreilly.me/)
 * ( ) [perso $$$](https://ariel-frischer.github.io/developerFolio/)
 * ( ) [vhyrro.github](https://vhyrro.github.io/)
 * ( ) [video](https://www.youtube.com/@unixbhaskar/videos) $$$
 
-#-> cs,### Econ People
+#-> cs,website,person,economics
 
 * [Albrecht Bohne](https://sites.google.com/site/albrechtbohne/welcome)
 * [Bobkova_CV_2017_11.pdf - Google Drive](https://drive.google.com/file/d/0B3ny1wDLYF6AV3pQVFJYWFlFUHM/view)
@@ -2521,7 +2514,7 @@ FPGAs
 * [WardFelix_CV.pdf - Google Drive](https://drive.google.com/file/d/1pp_G39Q4bKTj0hvi5b-lPmDYws1bsIMc/view)
 * [Xiaodi Wang](https://sites.google.com/view/xiaodiwang/home)
 
-#-> cs,### Personal Sites
+#-> cs,website,person,
 
 * [tlkh.dev/](https://tlkh.dev/)  
 * [adamspannbauer.github.io/](https://adamspannbauer.github.io/) 
@@ -2535,7 +2528,7 @@ FPGAs
 * [Chris McDonough - YouTube](https://www.youtube.com/@ChrisMcDonough)
 * [Chris McDonough - YouTube](https://www.youtube.com/@ChrisMcDonough/playlists)
 
-#-> cs,#### Not Looked at in a While
+#-> cs,website,person|notLookedAtInAWhile
 
 * [math.toronto.edu/ivan/mat327/?courseinfo](http://www.math.toronto.edu/ivan/mat327/?courseinfo)
 * [sebastianraschka.com/](https://sebastianraschka.com/)
@@ -2831,65 +2824,26 @@ FPGAs
 * [video](https://www.youtube.com/@levonog)
 * ansidev's blog
 
-#-> cs,# Research Ideas
 
-#-> cs,## Polyglot Phraseological Database
-
-#-> cs,### Main Questions / Thoughts:
-
-#-> cs,#### What data structure and format is best for our purposes?
-
-#-> cs,#### Which database type?
-
-#-> cs,#### What are the difference use cases for the database / corpus?
-
-#-> cs,### How can we create a semantic transcription for each phrase?
-
-* universal semantic language
-* Anna Wierzbicka (esp. on semantic primes and USM)
-* semantic features
-* semantic universals
-* cross-lingual semantic language
-* computational semantics
-* [Semantic analysis for Corpus Linguistics](https://www.aclweb.org/anthology/J93-2005.pdf)
-
-#-> cs,### How to classify proverbs?
-
+#-> cs,paremiology,project
 * [3 Categorization of Proverbs](https://content.sciendo.com/downloadpdf/book/9783110410167/10.2478/9783110410167.3.xml)
 * [A Proverb in Mind](https://books.google.de/books?id=umBt3Wu-CuUC&pg=PA19&lpg=PA19&dq=classification+schema+for+proverb&source=bl&ots=CFoeCsF300&sig=ACfU3U3kmnKJ2M3jHXN0psp-mmYlTwFUyA&hl=ru&sa=X&ved=2ahUKEwjrtvf7xsrnAhVFKewKHVsrDIkQ6AEwE3oECAYQAQ)
 * [Introduction to Paremiology](https://books.google.de/books?id=Rxs_CwAAQBAJ&pg=PT158&lpg=PT158&dq=classification+schema+for+proverb&source=bl&ots=n2LgM-GG3l&sig=ACfU3U1kF7xnsvFs2MKh6IEc5i6hamKrbg&hl=ru&sa=X&ved=2ahUKEwjrtvf7xsrnAhVFKewKHVsrDIkQ6AEwGHoECAcQAQ)
 * [Classification of Proverbs](https://studfile.net/preview/5427909/page:3/)
 
-#-> cs,### Brainstorming
 
-* Create a large multilingual resource containing idiomatic expression and proverbs, and possibly other non-analytic collocations        > develop semantic representations of both literal and figurative meanings of units        > identify values/morals as well as literal SVO        > dual classification scheme: literal and figurative meaning, network data structure
-
-#-> cs,### Features:
-
-* Basic phrase text
-* Variants
-* Equivalents (lists of exact, close, and distant matches on both literal and figurative similarity)
-* Literal semantic transcription(s) (each unambiguous)
-* Figurative semantic transcription(s) (each unambiguous)        (temporary?) Literal meaning in English        (temporary?) Figurative meaning in English        (?) List of entity codes (WordNet-style hierarchical code, marked as subject, object, neither)        (?) List of entity codes (WordNet-style hierarchical code)
-* Register(s) & (if applicable) dialect
-* Distance between literal and figurative (values? - identical, abstract word sense, close, stretch, entirely unapparent)
-* Source(s)
-* Earliest attestation
-* Corpus frequency (corpus-frequency pair)
-* Types (proverb, idiomatic expression, slang)
-
-#-> cs,### Collectioin
+#-> cs,paremiology,collection,data
 
 * [European Proverbs (Strauss) - Anki](https://docs.google.com/spreadsheets/d/1iSrCKxJ7R98VF8t1vFX7dTR4X_8MmE6afhjD4uglL5Q/edit?usp=sharing)
 * [Proverb Collection](https://docs.google.com/spreadsheets/d/13UNAdR0u_uLzgJPf-Tb8AtxpcD_m46rzCJYSQQB9ATs/edit?usp=sharing)
 * [Modismos diversos (borrador)](https://docs.google.com/spreadsheets/d/1_gtGJ-aPb-L98F3ylU9ADCoFLIPPo55waoiDgtvwgtU/edit?usp=sharing)
 * [Polyglot Phraseological Database](https://docs.google.com/spreadsheets/d/1xQE30iCryMege8m63T-KdK3JYeIry2oDZ1YU_EiFftM/edit?usp=sharing)    Read up in depth on semantics and develop a semantic representation language for proverbs    Digitize all Strauss proverbs    Gather and sort all EN, DE, RU, FR, ES proverbs and idioms
 
-#-> cs,### Storage
+#-> cs,paremiology,storage
 
 * [stackoverflow.com/questions/3287003/three-ways-to-store-a-graph-in-memory-advantages-and-disadvantages](https://stackoverflow.com/questions/3287003/three-ways-to-store-a-graph-in-memory-advantages-and-disadvantages)
 
-#-> cs,### Theory, esp. Semantics
+#-> nlp,semantics
 
 * [en.wikipedia.org/wiki/Computational_semantics](https://en.wikipedia.org/wiki/Computational_semantics)
 * [libgen.is/search.php?req=Representation+and+Inference+for+Natural+Language+&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def](https://libgen.is/search.php?req=Representation+and+Inference+for+Natural+Language+&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def)
@@ -2906,7 +2860,7 @@ FPGAs
 * [en.wikipedia.org/wiki/Semantic_feature](https://en.wikipedia.org/wiki/Semantic_feature)    semantische universalien    semantic universals    cross-lingual semantic language    universal semantic language
 * universal+semantic+language
 
-#-> cs,### Resources / References
+#-> cs,paremiology,paper
 
 * [A Multilingual Dictionary of Maxims and Proverbs](https://www.cambridgescholars.com/a-multilingual-dictionary-of-maxims-and-proverbs)
 * [wordnet.princeton.edu/](https://wordnet.princeton.edu/)
@@ -2920,7 +2874,7 @@ FPGAs
 * [Translation and Relevance: Cognition and Context](https://books.google.de/books?id=KsoJBAAAQBAJ&pg=PT182&lpg=PT182&dq=semantic+representations+of+proverbs&source=bl&ots=t5NZeIOcFa&sig=ACfU3U2AU_YwJ0hEHNJenhNHJkVh4_404g&hl=ru&sa=X&ved=2ahUKEwicw__W26nnAhXB6aQKHWgQA_QQ6AEwBXoECAoQAQ#v=onepage&q=semantic%20representations%20of%20proverbs&f=false)
 * [COMPARATIVE STRUCTURAL-SEMANTIC ANALYSIS OF ENGLISH AND RUSSIAN PROVERBS EXPRESSING THE MORAL-ETHIC SENSE DOMINANT “STUDYING, KNOWLEDGE, WISDOM”](https://www.researchgate.net/publication/325662325_COMPARATIVE_STRUCTURAL-SEMANTIC_ANALYSIS_OF_ENGLISH_AND_RUSSIAN_PROVERBS_EXPRESSING_THE_MORAL-ETHIC_SENSE_DOMINANT_STUDYING_KNOWLEDGE_WISDOM)
 
-#-> cs,## SORT Papers
+#-> ml,nlq,paper
 
 * ACOUSTIC PARAMETERS VERSUS PHONETIC FEATURES IN ASR.pdf
 * Analytical Methods for Interpretable Ultradense Word Embeddings.pdf
@@ -2964,9 +2918,7 @@ FPGAs
 * WordNet Embeddings.pdf
 * Zur Ontologie der Bedeutung sprachlicher Ausdrucke
 
-#-> cs,## TDA and NSM
-
-#-> cs,### NSM
+#-> cs,nsm
 
 * [x] Perform preliminary analysis with non-circular dictionary (norm propagation along definitions, distinguish between structure words and semantic content words)- [ ] scrape dictionar
 * [ ] create data structure for dictionar
@@ -2984,7 +2936,8 @@ FPGAs
 * geometry of word embeddings
 * [en.wikipedia.org/wiki/Topological_data_analysis](https://en.wikipedia.org/wiki/Topological_data_analysis)
 
-#-> cs,### [*Topological Data Analysis for Machine Learning](https://bastian.rieck.me/outreach/ecml_pkdd_2020/)
+#-> cs,### 
+* [Topological Data Analysis for Machine Learning](https://bastian.rieck.me/outreach/ecml_pkdd_2020/)
 
 * → check out whole site!* [A gentle introduction to persistent homology · Christian Bock](https://christian.bock.ml/posts/persistent_homology/)
 * [Persistent Homology — a Survey](https://www.maths.ed.ac.uk/~v1ranick/papers/edelhare.pdf)
@@ -3077,7 +3030,7 @@ FPGAs
 * [Sprachtypologie Und Sprachliche Universalien/Language Typology and Language Universals: Ein Internationales Handbuch/an International Handbook (Teilband, 1)](https://libgen.is/book/index.php?md5=414C8F04AE33037721C5C44AF305368F)
 * [Semantic language models with deep neural networks - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0885230815300309)
 * [qualitative-research.net/index.php/fqs/article/view/2580/4004](http://www.qualitative-research.net/index.php/fqs/article/view/2580/4004)
-* All files starting with "Semantic Representation"
+* All files starting with 'Semantic Representation'
 * [A graph model for words and their meanings](https://elib.uni-stuttgart.de/handle/11682/2618)
 * topology of word embeddings
 * what does each dimension of a word embedding represent
@@ -3116,7 +3069,7 @@ FPGAs
 * → potential applications of thesauri to word embeddings
 * [FCA](https://en.wikipedia.org/wiki/Formal_concept_analysis)
 * Use comparisons of derivational morphology and semantic spaces of morphological roots to refine semantic representations (probably not great; worth playing with; will almost certainly be good for language learning)
-* study (clear & consequential) word ambiguities in word embeddings: possible to add "switch" mechanism to determine which of the meanings to use
+* study (clear & consequential) word ambiguities in word embeddings: possible to add 'switch' mechanism to determine which of the meanings to use
 * → ambiguity spectrum: which words are truly monosemic, which marginally or partially or mostly ambiguous, which undebatably ambiguous?
 * [Interpretable and Compositional Relation Learning by Joint Training with an Autoencoder on Vimeo](https://vimeo.com/285805371)
 * [machine learning - Dimensionality and Manifold - Data Science Stack Exchange](https://datascience.stackexchange.com/questions/5694/dimensionality-and-manifold)
@@ -3125,7 +3078,8 @@ FPGAs
 * [tianran/glimvec: Graph to linear maps and vectors](https://github.com/tianran/glimvec)
 * → TDA on word embeddings to identify (persistent / invariant / etc.) word classes
 
-#-> cs,## -> day in the life of a ___ researcher (pharmaceutical, engineering)
+#-> cs,idea,thought,SORT
+* -> day in the life of a ___ researcher (pharmaceutical, engineering)
 
 * [YT Semantik](https://www.youtube.com/results?search_query=Ro%C3%9Fdeutscher+Semantik)
 * [La Neuroscienza della Coscienza - con Anil Seth](https://youtu.be/xRel1JKOEbI)
@@ -3151,7 +3105,7 @@ FPGAs
 * embedding unfamiliar proper nouns for neural NER applications
 * umberto eco perfect language
 * umberto eco il linguaggio perfetto
-* semantic "metalanguage" and deep learning
+* semantic 'metalanguage' and deep learning
 * [Library Genesis NSM](https://libgen.is/search.php?req=meaning+and+universal+grammar&open=0&res=25&view=simple&phrase=1&column=def)
 * [Semantic primes](https://intranet.secure.griffith.edu.au/schools-departments/natural-semantic-metalanguage/what-is-nsm/semantic-primes)
 * [b-ok.cc/s/Семантика](https://b-ok.cc/s/Семантика)
@@ -3194,84 +3148,7 @@ FPGAs
 * [de.wikipedia.org/wiki/Hauptkomponentenanalyse](https://de.wikipedia.org/wiki/Hauptkomponentenanalyse)
 * The Compreno Semantic Model as an Integral Framework for a Multilingual Lexical Database
 
-#-> cs,## Idea Space Modelling
-
-* Elevator Pitch: My work is distinct from previous work in a few ways: ||| it uses high-quality inputs and political writings in addition to social media (hopefully making the model more grounded in the deep theoretical issues of politics, not just shallow perceptions) ||| it does not assume a spectrum; rather it uses unsupervised learning to identify clusters and linkages between ideologies ||| it allows for a robust measuring of ideological similarity that is as general as possible, allowing a wide range of comparisons, even potentially across time, language, and culture, because the method is built on attitudes toward nearly-universal ideas and concepts, rather than toward specific people and organizations ||| it brings together several fairly technical NLP/IR/TM methods that have not been used for this before: topic extraction, emotion analysis, opinion mining ||| it combines the above methods with other more common methods, such as clustering, lexical analysis (i.e. tf-idf) ||| it can take advantage of a large and relatively underutilized body of text resources ||| it has the scope for other advanced techniques: topology, measure theory, advanced matrix analysis & linear algebra, etc. ||| it answers intrinsically important and interesting questions, questions of interest to a broad audience (in addition to finer points interesting to a computational linguist) ||| while every algorithm necessarily has assumptions baked into it, this will make explicit assumptions in a way that human annotation would mke impossible
-* Interesting method to build on (but automate): Globalization and the transformation of the national political space: Six European countries compared
-
-#-> cs,### Forschungsfragen:
-
-* Wie realitätsgetreu sind die zwei verbreiteten politischen Spektren?
-* a) links-rechts
-* b) Political Kompass
-* c) Hufeisentheorie
-
-#-> cs,### -> Black boxes aufmachen
-
-#-> cs,### -> wie Artikel über Rechtsextremist, aber mit zusätzlicher Frage: wie modellieren wir ihre Beziehung zu anderen?
-
-* Wie viele Hauptkomponente gibt es in der Ideologie?
-* Wie interpräterieren wir sie und was bedeuten sie?
-* Welche und wie viele politische Cluster gibt es, und wie beziehen sie sich zueinander?
-* D.h. welche politische Netzwerke bestehen?
-* Wie robust ist diese Analyse?
-* a) Wie verändern sich die Ergebnisse, wenn Störtermine eingeführt werden, bzw. wie groß dürfen die Störterme sein, ohne die Cluster und die Hauptkomponente grundsätzlich zu verändern?
-* b) Wie viel Text braucht man für eine zuverlässige ideologische Einbettung (oder Klassifikation)?
-* Was enthalten die Ideologie-Vektoren?
-* a) emotion in Bezug auf t1,...tk
-* ==> topic recognition (oder einfache regex) + dependency parsing + emotion analysis
-* b) tf-idf von wichtigsten (prädiktivsten?) n-gramme
-* Wie verändern sich die Cluster im Laufe der Zeit?
-* Wie variieren die Cluster über Landes-, Sprach- und Kulturgrenzen?
-* Welche Cluster gibt es in Bezug auf nur eine oder wenige Dimensionen?
-* a) ==> Transformation in weniger-dimensionale Räume
-* b) ==> Einbettung kleinerer Stichproben
-* Lassen sich die Ergebnisse mit Wikipedia-Daten bestätigen?
-* a) Einflüsse und Quelltext um Einflüsse herum
-* b) Artikel zu den Ideologien und Denker (nichtautomatisch?)
-* Wie repräsentieren wir ideologische Ähnlichkeit und relative Position?
-* Wie können wir ideologische Ähnlichkeit veranschaulichen?
-* a) In Bezug auf Grundmenge bekannter und einflussreicher Denker - entweder k nächste Denker (eventuell aus Grundliste) oder Ähnlichkeit mit vorbestimmter Liste Denker
-* b) Hauptkomponente verwenden
-* Wie können wir die Methoden flexibler gestalten, damit z.B. neue (spezifischere, vergänglichere) Themen berücksichtigt werden können?
-
-#-> cs,#### Approach:
-
-* Collect large and varied sample of political writings. Attempt to get a wide variety, approximate representativity is desirable, but perfect representativity is not required for clustering.
-* Identify list of political topics, striving for representativity of all possible ideologies.
-* For each individual (or for each work), create a vector consisting of attitudes toward the above topics (and normalize?).
-* Perform PCA on the matrix of attitude vectors (Monte Carlo?).
-* Cluster of principal components.
-* Interpret principal components and clusters.
-* Examine predictions and test unseen writings.
-* Possible extension:
-* Train classifier on document (or thinker) tokens and identify most indicative words / n-grams.
-* RUN SIMPLE VARIANT FIRSTː k ideologies and thinkers, n questions, PCA and visualization
-* 1) select ideologies
-* 2) select thinkers
-* 3) select questions
-* 4) create matrix
-* 5) perform PCA
-* 6) create visualization
-* how to "Monte Carlo" PCA?
-
-#-> cs,### -> give range (a,b) or even distribution, for each stance (entry in the ideology matrix), then sample from ramges/distributions
-
-#-> cs,### -> how to aggregate varying results? simple average?
-
-#-> cs,### -> topological anaylsis to determine invariant relationships?
-
-* Read up onːopinion mining
-* Read up onːstance detection
-* Read up onːquestion answering
-* Read up onːknowledge discovery
-* Read up onːsemantic relations
-* Read up onːdimensionality reduction
-* Read up onːTDA
-* Read up onːclustering
-* Read up onːvisualization
-
-#-> cs,### 
+#-> nlp,politics
 
 * Ideologies: ||| * Confucianism |||   * Confucius ||| * Conservatism / Reactionism |||   * Edmund Burke |||   * Georges Lemaistre |||   * Thomas Hobbes |||   * Roger Scruton |||   * George F. Will ||| * Anarchism |||   * Mikhail Bakunin |||   * Kropotkin |||   * Proudhon ||| * Left |||   * Michel Foucault |||   * Jean Baudrillard ||| * Mixed / Other
 * Wiki - how to create a wiki? (proverbs, ideology matrix, etc.)
@@ -3305,11 +3182,12 @@ FPGAs
 * [leiterreports.typepad.com/blog/2017/01/most-cited-anglophone-philosophy-books-published-since-wwii.html*](https://leiterreports.typepad.com/blog/2017/01/most-cited-anglophone-philosophy-books-published-since-wwii.html*) [duckduckgo.com/?q=core*](https://duckduckgo.com/?q=core*) [duckduckgo.com/?q=core*](https://duckduckgo.com/?q=core*) [duckduckgo.com/?q=core*](https://duckduckgo.com/?q=core*) [duckduckgo.com/?q=ideological*](https://duckduckgo.com/?q=ideological*) [webscience-journal.net/webscience/article/download/80/50*](https://webscience-journal.net/webscience/article/download/80/50*) [duckduckgo.com/?q=classification](https://duckduckgo.com/?q=classification)
 * PCA Issues
 
-#-> cs,### NLP and Politics
+#-> ml,nlp,politics,project
 
 * [connectedresearchers.com/online-tools-for-researchers/](http://connectedresearchers.com/online-tools-for-researchers/)
 
-#-> cs,### [**Sentiment Political Compass: A Data-driven Analysis of Online Newspapers regarding Political Orientation](https://www.aifb.kit.edu/images/e/e1/IPP2018_Falck.pdf)
+
+* [**Sentiment Political Compass: A Data-driven Analysis of Online Newspapers regarding Political Orientation](https://www.aifb.kit.edu/images/e/e1/IPP2018_Falck.pdf)
 
 * [DARIAH | Digital Research Infrastructure for the Arts and Humanities](https://www.dariah.eu/)
 * [DH Funding - Digital Humanities - Research Guides at University of Wisconsin-Madison](https://researchguides.library.wisc.edu/c.php?g=246897&p=1645212)
@@ -3322,7 +3200,8 @@ FPGAs
 * [External grants & funding | EADH - The European Association for Digital Humanities](https://eadh.org/support/external-grants-funding)
 * [Ranking Right-Wing Extremist Social Media Profiles by Similarity to Democratic and Extremist Groups - ACL Anthology](https://www.aclweb.org/anthology/W17-5204/)
 
-#-> cs,### -> Study networks in political discourse and writing using comp ling techniques.
+
+* -> Study networks in political discourse and writing using comp ling techniques.
 
 * test de Turing idéologique
 * Which political analytical framework already exist. Which are the best, and how are they structured?
@@ -3378,7 +3257,7 @@ FPGAs
 * trace ideological journeys of individuals and parties over time
 * compare ostensibly similar political parties and movements across countries
 * identify degree of linguistic slippage between terms (liberal, libérale, либеральный)
-* map the political left (eventually full "spectrum")
+* map the political left (eventually full 'spectrum')
 * political rhetoric GANS (keep meaning but transform to opposite rhetorical bias)
 * [politisches Spektrum](https://scholar.google.de/scholar?hl=it&as_sdt=0%2C5&q=politisches+Spektrum&btnG=#d=gs_qabs&u=%23p%3DjWZFGbYFMQIJ)
 * [politisches Spektrum](https://scholar.google.de/scholar?hl=it&as_sdt=0%2C5&q=politisches+Spektrum&btnG=#d=gs_qabs&u=%23p%3DKOPinvIxkJEJ)
@@ -3490,7 +3369,7 @@ FPGAs
 * [Corps: A corpus of tagged political speeches for persuasive communication processing](https://www.tandfonline.com/doi/abs/10.1080/19331680802149616)
 * [Taking sides: User classification for informal online political discourse](https://www.emerald.com/insight/content/doi/10.1108/10662240810862239/full/html?casa_token=4F264RAT1sEAAAAA:LNPvDNi35LHesw3N_pEm2OYs3FIBbMhedYSLtoGaX7IxMfdb2NDaF8HMU23qW2esSj1Y8VuNm7j7H4z_r9m6hqmtWDvxp6dMIB3K3O8dUAedbpDlE_k)
 * ideology+matrix
-* identify data sources and doc vectorization/comparison methods for political writings, esp. left (e.g. Chomsky vs Hedges vs Robinson or democratic candidates), also network analysis methods:"; also look at previous related research; --> multilingual?
+* identify data sources and doc vectorization/comparison methods for political writings, esp. left (e.g. Chomsky vs Hedges vs Robinson or democratic candidates), also network analysis methods:'; also look at previous related research; --> multilingual?
 * [informationisbeautifulawards.com/](https://www.informationisbeautifulawards.com/)
 * [Studying the History of Ideas Using Topic Models](https://www.aclweb.org/anthology/D08-1038.pdf)
 * [Reading tea leaves: How humans interpret topic models](http://papers.nips.cc/paper/3700-reading-tea-leaves-how-humans-interpret-topic-models.pdf)
@@ -3503,7 +3382,7 @@ FPGAs
 * [Syntactic topic models](http://papers.nips.cc/paper/3398-syntactic-topic-models)
 * [A two-dimensional topic-aspect model for discovering multi-faceted topics](https://www.aaai.org/ocs/index.php/AAAI/AAAI10/paper/viewPaper/1730)
 * [Sentiment analysis of citations using sentence structure-based features](https://dl.acm.org/citation.cfm?id=2000991)
-* identify data sources and doc vectorization/comparison methods for political writings, esp. left (e.g. Chomsky vs Hedges vs Robinson or democratic candidates), also network analysis methods:"; also look at previous related research; --> multilingual?
+* identify data sources and doc vectorization/comparison methods for political writings, esp. left (e.g. Chomsky vs Hedges vs Robinson or democratic candidates), also network analysis methods:'; also look at previous related research; --> multilingual?
 * Which political analytical framework already exist. Which are the best, and how are they structured?
 * [mariandoerk.de/edgemaps/demo/](https://mariandoerk.de/edgemaps/demo/)
 * [mariandoerk.de/edgemaps/](https://mariandoerk.de/edgemaps/)
@@ -3521,8 +3400,6 @@ FPGAs
 * [LeftValues](https://leftvalues.github.io/?fbclid=IwAR0Sb8267m_fdNdLHXvpWR8dn53EhoR2scrX2mPWE8JxSxZecQN7Vqkuk6w)
 * [LeftValues/leftvalues.github.io: LeftValues, a leftist political quiz](https://github.com/LeftValues/leftvalues.github.io)
 * [Voting Behavior, Coalitions and Government Strength through a Complex Network Analysis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0116046)
-
-#-> cs,### Project
 
 * [Concept-based knowledge discovery in texts extracted from the Web](https://www.researchgate.net/publication/234818008_Concept-based_knowledge_discovery_in_texts_extracted_from_the_Web)
 * (?) From KD
@@ -3544,7 +3421,8 @@ FPGAs
 * [bash - How to split a large text file into smaller files with equal number of lines? - Stack Overflow](https://stackoverflow.com/questions/2016894/how-to-split-a-large-text-file-into-smaller-files-with-equal-number-of-lines)
 * [Free Law Project](https://free.law/)
 
-#-> cs,### [*Bulk Data – CourtListener.com](https://www.courtlistener.com/api/bulk-info/)
+#-> cs,### 
+* [Bulk Data – CourtListener.com](https://www.courtlistener.com/api/bulk-info/)
 
 * [The SFU Opinion and Comments Corpus: A Corpus for the Analysis of Online News Comments | SpringerLink](https://link.springer.com/article/10.1007/s41701-019-00065-w)
 * [Advances in Knowledge Discovery and Data Mining: 17th Pacific-Asia ... - Google Книги](https://books.google.de/books?id=jVi5BQAAQBAJ&pg=PA177&lpg=PA177&dq=opinion+column+corpus&source=bl&ots=5LR-xh8t3X&sig=ACfU3U28vE2G1LwH44VjCWfVmYyzynd8Rw&hl=ru&sa=X&ved=2ahUKEwjCh_-E5ojqAhUByaYKHVB4DksQ6AEwDHoECAoQAQ#v=onepage&q=opinion%20column%20corpus&f=false)
@@ -3558,7 +3436,8 @@ FPGAs
 * [The 50 Most Influential Living Philosophers | TheBestSchools.org](https://thebestschools.org/features/most-influential-living-philosophers/)
 * [ilias3.uni-stuttgart.de/data/Uni_Stuttgart/lm_data/lm_2578750/KD_schedule.html](https://ilias3.uni-stuttgart.de/data/Uni_Stuttgart/lm_data/lm_2578750/KD_schedule.html)
 
-#-> cs,### [*KD Project Info](https://ilias3.uni-stuttgart.de/data/Uni_Stuttgart/lm_data/lm_2503061/KD_project.html)
+#-> cs,### 
+* [*KD Project Info](https://ilias3.uni-stuttgart.de/data/Uni_Stuttgart/lm_data/lm_2503061/KD_project.html)
 
 * [Presentation Slides](https://ilias3.uni-stuttgart.de/goto_Uni_Stuttgart_fold_1991912.html)
 * [MARDY](https://sites.google.com/view/mardy)
@@ -3593,7 +3472,7 @@ FPGAs
 
 #-> cs,### Project Outline
 
-* select "seed lists" on Wikipedia for political thinkers, ideas, and ideologies
+* select 'seed lists' on Wikipedia for political thinkers, ideas, and ideologies
 * scrape Wikipedia to create a network -articles -addresses -anchor text in links → create general scraper class test on Wiktionary to get etymology tables for Ancient Greek add Wikipedia-specific capabilities and add networkx functionality to create network directly
 * perform sentiment/opinion analysis on anchor text in links
 * identify clusters in the network
@@ -3665,14 +3544,15 @@ FPGAs
 * Quantum
 * [Extra History : Quantum Computing](https://www.youtube.com/watch?v=iol5936dZho&list=PLhyKYa0YJ_5ATEDqJRuoIvOH-eVkHP7ms)
 
-#-> cs,## Scratch
+#-> cs,nsm
 
 * [April 2020 - NSM Online Seminar - YouTube](https://www.youtube.com/playlist?list=PLnYrArdOUDVbmZiauY3qytX7B3VRz8eZZ)
 * [Traduction basé sur les proverbes](https://translationjournal.net/journal/54proverbs_fr.htm)
 * [Natural semantic metalanguage - Wikipedia](https://en.wikipedia.org/wiki/Natural_semantic_metalanguage#Semantic_primes)
 * [Natural Semantic Metalanguage - YouTube](https://www.youtube.com/results?search_query=Natural+Semantic+Metalanguage)
 
-#-> cs,## **word/phrase translation embeddings (compute or enhance embeddings using translation information)
+#-> cs,project,idea,SORT
+* word/phrase translation embeddings (compute or enhance embeddings using translation information)
 
 * Rehabilitate Patents Project
 * Modeling Structure Across Language and Modalities
@@ -3710,20 +3590,11 @@ FPGAs
 * Nand2Tetris.jl
 * Nand2TetrisHDL.jl
 
-#-> cs,## Language Similarity
+#-> cs,nlp,languageSimilarity
 
-* Similarity of two languages as amount of error that can be reduced by transformation rules, where n is the number of rules, eps(n) is the degree of error following application of rule n. Order the
-* [lh5.googleusercontent.com/GYN9j4xAbMLMSLtlh39laEax1mwj6tLAorZSoyxQORX9YbW8SI4rRoqSP9JDqqHaRUA7SRAN-U0P_FIA-rfglEHf4eI88qxM_LJu5QZOt8c9DSsS6dFEIue-fnKd4Z3ZxMecJRscdYUQZ51AxmBBHg](https://lh5.googleusercontent.com/GYN9j4xAbMLMSLtlh39laEax1mwj6tLAorZSoyxQORX9YbW8SI4rRoqSP9JDqqHaRUA7SRAN-U0P_FIA-rfglEHf4eI88qxM_LJu5QZOt8c9DSsS6dFEIue-fnKd4Z3ZxMecJRscdYUQZ51AxmBBHg)
-* in order of decreasing error reduction.
-* [lh3.googleusercontent.com/6RFXFqvD6XzC2Lw4tjALWwnVXeJ3hdaaS0HqdmvMiim3Zm2t6RFouI8kmpDrIHqkdFFU8spC7A-Mv9Y-orIVLg8zMQyDW6ehCu4g-BZ4ERCp3jwnNyXRrBo-AaBFq4bB8ejFWLLQUtNm9akawOZVgw](https://lh3.googleusercontent.com/6RFXFqvD6XzC2Lw4tjALWwnVXeJ3hdaaS0HqdmvMiim3Zm2t6RFouI8kmpDrIHqkdFFU8spC7A-Mv9Y-orIVLg8zMQyDW6ehCu4g-BZ4ERCp3jwnNyXRrBo-AaBFq4bB8ejFWLLQUtNm9akawOZVgw)
-* how to determine n: Apply rules until  is maximized. That is,
-* [lh4.googleusercontent.com/AE0atwKJ7M9HGkKuyZtcwtGxazjwh0q5rQCxUBeyh2kySQN-CH2jhj_LM5WpaP_fDckH9HBbOZRD5-vB3aDiUe9U4Ra7b-gUJmcOjgn9O9A22A2XwHjtMq63opQLTuhHSZrvxfRCwRQbnldjDpgRyw](https://lh4.googleusercontent.com/AE0atwKJ7M9HGkKuyZtcwtGxazjwh0q5rQCxUBeyh2kySQN-CH2jhj_LM5WpaP_fDckH9HBbOZRD5-vB3aDiUe9U4Ra7b-gUJmcOjgn9O9A22A2XwHjtMq63opQLTuhHSZrvxfRCwRQbnldjDpgRyw)
-* choose
-* [lh5.googleusercontent.com/18iKP_WNozMh2i9-ZYBNlVu9TmmtCrHUdfNLNntHkld2LriRzdeoYSXPCmezc9NbcSVIhV2O9VyUMNZunyPfto3KEhH4vQ7aAOBx8QweJ4wGw73xqza3GwiKrsToD2P0hIHdcii4v3NebW1qeLLmJg](https://lh5.googleusercontent.com/18iKP_WNozMh2i9-ZYBNlVu9TmmtCrHUdfNLNntHkld2LriRzdeoYSXPCmezc9NbcSVIhV2O9VyUMNZunyPfto3KEhH4vQ7aAOBx8QweJ4wGw73xqza3GwiKrsToD2P0hIHdcii4v3NebW1qeLLmJg)
-* . The second inequality implies that
-* [lh5.googleusercontent.com/9VsLCNRuND5S-JNswtAK_8znRgArCsARswZ6x0AMEMU3YQujzXklMYNuZsIEJc8r4Xhjs2tO1Nzh3zCvQqaAAT29RxUXYopBI5ZRWRh4jDsTOk3xTQKi54YDkMbrDztUs6YglOnMna4xtJIB6SdBSw](https://lh5.googleusercontent.com/9VsLCNRuND5S-JNswtAK_8znRgArCsARswZ6x0AMEMU3YQujzXklMYNuZsIEJc8r4Xhjs2tO1Nzh3zCvQqaAAT29RxUXYopBI5ZRWRh4jDsTOk3xTQKi54YDkMbrDztUs6YglOnMna4xtJIB6SdBSw)
+* Similarity of two languages as amount of error that can be reduced by transformation rules, where n is the number of rules, eps(n) is the degree of error following application of rule n. Order the ... in order of decreasing error reduction. ... how to determine n: Apply rules until  is maximized. That is, ... choose ... The second inequality implies that ... 
 
-#-> cs,# General Programming Reading List
+#-> cs,general,progrmming,reading,SORT
 
 * [How principled coders outperform the competition](https://m.youtube.com/watch?v=q1qKv5TBaOA&t=4s)
 * [cs.cmu.edu/~rwh/pfpl/](https://www.cs.cmu.edu/~rwh/pfpl/)
@@ -3733,7 +3604,7 @@ FPGAs
 * [fluxharmonic.com/](https://fluxharmonic.com/)
 * [systemcrafters.net/guides/](https://systemcrafters.net/guides/)
 
-#-> cs,## 1S Video
+#-> cs,video,SORT
 
 * [How One Line of Code Almost Blew Up the Internet - YouTube](https://www.youtube.com/watch?v=GEbn3nHyKnA)
 * [The Simplest Sorting Algorithm (You’ve Never Heard Of)](https://youtu.be/_W0yUJlscRA)
@@ -3741,20 +3612,20 @@ FPGAs
 * [Почему индийские и китайские разработчики нашим программистам не конкуренты?](https://youtu.be/M4nE1hiSDpQ)
 * [How to Contribute to Open Source](https://youtu.be/2L0sxPx4C18)
 * [How Quantum Computers Break The Internet... Starting Now - YouTube](https://www.youtube.com/watch?v=-UrdExQW0cs)
-* [Branchless Programming: Why "If" is Sloowww... and what we can do about it! - YouTube](https://www.youtube.com/watch?v=bVJ-mWWL7cE)
+* [Branchless Programming: Why 'If' is Sloowww... and what we can do about it! - YouTube](https://www.youtube.com/watch?v=bVJ-mWWL7cE)
 * [Code Practices - part 3 of 5 - YouTube](https://www.youtube.com/watch?v=2-G5WTghjYk&list=PL28704BC3557868CB&index=4)
 * [Build systems - Intro and Make](https://youtu.be/rF--wOD4H8I)
 * [What is a cryptocurrency Explained with animations](https://www.youtube.com/watch?v=wHWz6dboFhI)
 * [Functional Design Patterns - Scott Wlaschin - YouTube](https://www.youtube.com/watch?v=srQt1NAHYC0)
 * [Clean Code - Uncle Bob / Lesson 6 - YouTube](https://www.youtube.com/watch?v=l-gF0vDhJVI&t=1471s)
 * [Faster than Rust and C++: the PERFECT hash table - YouTube](https://www.youtube.com/watch?v=DMQ_HcNSOAI)
-* ["Clean" Code, Horrible Performance - YouTube](https://www.youtube.com/watch?v=tD5NrevFtbU)
+* ['Clean' Code, Horrible Performance - YouTube](https://www.youtube.com/watch?v=tD5NrevFtbU)
 * [What is Dependency Injection? - YouTube](https://www.youtube.com/watch?v=tYZd8hserms)
 * [Abstraction Can Make Your Code Worse - YouTube](https://www.youtube.com/watch?v=rQlMtztiAoA)
 * [Is Designing Different To Coding? - YouTube](https://www.youtube.com/watch?v=aPSk2f3Vkz0&t=73s)
 * [How am I suppose to get a job as a software engineer?](https://www.youtube.com/watch?v=nmhX3_m84Is)
 * [Maintaining Motivation as a Software Engineer - YouTube](https://www.youtube.com/watch?v=fBayRA8o3yQ)
-* [Fibonacci Heaps or "How to invent an extremely clever data structure" - YouTube](https://www.youtube.com/watch?v=6JxvKfSV9Ns)
+* [Fibonacci Heaps or 'How to invent an extremely clever data structure' - YouTube](https://www.youtube.com/watch?v=6JxvKfSV9Ns)
 * [10 Udemy Courses Every Developer SHOULD Own (NOT just coding) - YouTube](https://www.youtube.com/watch?v=hexfXc7-SsU)
 * [🚀 The Art of Visualising Software Architecture (Simon Brown)](https://youtu.be/zcmU-OE452k)
 * [Procedural Programming: It's Back? It Never Went Away - YouTube](https://www.youtube.com/watch?v=eEBOvqMfPoI)
@@ -3768,7 +3639,7 @@ FPGAs
 * [The S.O.L.I.D. Principles of OO & Agile Design - Uncle Bob Martin - YouTube](https://www.youtube.com/watch?v=t86v3N4OshQ&t=10s)
 * [A Comparison of Pathfinding Algorithms](https://youtu.be/GC-nBgi9r0U)
 * [Abstraction Can Make Your Code Worse](https://youtu.be/rQlMtztiAoA)
-* ["Clean" Code, Horrible Performance - by Casey Muratori](https://www.computerenhance.com/p/clean-code-horrible-performance)
+* ['Clean' Code, Horrible Performance - by Casey Muratori](https://www.computerenhance.com/p/clean-code-horrible-performance)
 * [How to code like the pros](https://www.youtube.com/watch?v=q1qKv5TBaOA)
 * [Arch Serv](https://youtu.be/9mZmc6a0tmM)
 * [Testen mit TDD: Eine Einführung in 100 Minuten // deutsch](https://www.youtube.com/watch?v=H943sC8r7nQ)
@@ -3912,7 +3783,7 @@ FPGAs
 * [Ера технократії або чому «тижпрограміст» — це перемога](https://medium.com/@vitalik/%D0%B5%D1%80%D0%B0-%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BA%D1%80%D0%B0%D1%82%D1%96%D1%97-%D0%B0%D0%B1%D0%BE-%D1%87%D0%BE%D0%BC%D1%83-%D1%82%D0%B8%D0%B6%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D1%96%D1%81%D1%82-%D1%86%D0%B5-%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%BE%D0%B3%D0%B0-d92d842f7b9e)
 * [О том, какие современные решения ученые придумали этим современным проблемам — в наших материалах!](https://vk.com/wall-168717779_5751)
 * [«Я зверь, а не человек!»](https://kp.ua/life/12201-ya-zver-a-ne-chelovek)
-* [Coronavirus. Un prestigioso investigador de Stanford advierte: "estamos tomando decisiones sin datos confiables" - LA NACION](https://www.lanacion.com.ar/el-mundo/coronavirus-un-prestigioso-investigador-stanford-advierte-estamos-nid2344630?fbclid=IwAR1TClqk6zxAIadFw200WMHqaHHFOd2qaNXuKOe-Nl0hh5lFUL8x7HBlGOw)
+* [Coronavirus. Un prestigioso investigador de Stanford advierte: 'estamos tomando decisiones sin datos confiables' - LA NACION](https://www.lanacion.com.ar/el-mundo/coronavirus-un-prestigioso-investigador-stanford-advierte-estamos-nid2344630?fbclid=IwAR1TClqk6zxAIadFw200WMHqaHHFOd2qaNXuKOe-Nl0hh5lFUL8x7HBlGOw)
 * [La célula de Ferrel, donde habita el coronavirus](https://www.lavozdegalicia.es/noticia/sociedad/2020/03/13/celula-ferrel-convive-coronavirus/00031584129419085406584.htm?fbclid=IwAR2OxgNKm9StbIS-3VfcdM-G-YLobhJvDRwqbGAlkA6shiQUJp9ATOrcVUw)
 * [Los fármacos contra la malaria, nueva baza contra el COVID-19](https://theconversation.com/los-farmacos-contra-la-malaria-nueva-baza-contra-el-covid-19-134013?fbclid=IwAR0O4CjlsUpUbkAguLswOnhPF6ptRs8C1UrRCMiq_-ro5KJIx1wkqtG5hfY)    Repräsentationismus — Was sonst?: Eine kritische Auseinandersetzung mit dem ...
 * [cedar.buffalo.edu/papers/articles/Online_Offline_2000.pdf](http://www.cedar.buffalo.edu/papers/articles/Online_Offline_2000.pdf)
@@ -4131,9 +4002,9 @@ FPGAs
 * [video](https://www.youtube.com/c/codigofacilito/playlists)
 * [video](https://www.youtube.com/c/DobricaPavlinu%C5%A1i%C4%87/playlists)
 * [video](https://www.youtube.com/c/Alphorm/playlists)
-* [Онлайн-курс "Основи тестування програмного забезпечення](https://www.youtube.com/watch?v=reNfzQtbZF0&list=PLxp0a3ulkwKfYXSo7GVrNeRftZ5NwnxJ2)
+* [Онлайн-курс 'Основи тестування програмного забезпечення](https://www.youtube.com/watch?v=reNfzQtbZF0&list=PLxp0a3ulkwKfYXSo7GVrNeRftZ5NwnxJ2)
 * [Code strukturieren](https://www.youtube.com/watch?v=X4-sbLIEC1s)
-* [use for MWEs: Branchless Programming: Why "If" is Sloowww... and what we can do about it!](https://youtu.be/bVJ-mWWL7cE)
+* [use for MWEs: Branchless Programming: Why 'If' is Sloowww... and what we can do about it!](https://youtu.be/bVJ-mWWL7cE)
 * [the native web GmbH](https://youtube.com/c/thenativewebGmbH)
 * [docker](http://libgen.rs/book/index.php?md5=1863B22A56C3E8E85D9C9786F46BFCEB)
 * [GitHub - thenativeweb/techlounge-docker: techlounge-docker contains the samples for the free tech:lounge video course on Docker.](https://github.com/thenativeweb/techlounge-docker)
@@ -4188,9 +4059,12 @@ FPGAs
 * [medium.com/osweekends/hace-un-mes-comenc%C3%A9-a-estudiar-programaci%C3%B3n-mundo-completamente-desconocido-para-mi-y-del-que-mis-711b34cdc36c](https://medium.com/osweekends/hace-un-mes-comenc%C3%A9-a-estudiar-programaci%C3%B3n-mundo-completamente-desconocido-para-mi-y-del-que-mis-711b34cdc36c)    Schaum's Outline of Software Engineering ( David Gustafson ). McGraw-Hill 2002, Schaum Colection    Думай как программист: креативный подход к созданию кода (Спрол Антон)    Scrum. Революционный метод управления проектами, Джефф Сазерленд (2016)    Ремесло программиста. Практика написания хорошего кода (Гудлиф П.)
 * [Оформление программного кода, А. В. Столяров (2019)
 
-#-> cs,###  danistefanovic/build-your-own-x: 🤓 Build your own (insert technology here)
+#-> cs,project,idea
+*  danistefanovic/build-your-own-x: 🤓 Build your own (insert technology here)
 
 * [Computing with Data. An Introduction to the Data Industry.](https://www.abebooks.de/servlet/BookDetailsPL?bi=30531170284&cm_sp=SEARCHREC-_-WIDGET-L-_-BDP-R&searchurl=kn%3DComputing%2Bwith%2BData%26sortby%3D17)
+* [From Nand to Tetris Part 1](https://youtube.com/playlist?list=PLrDd_kMiAuNmSb-CKWQqq9oBFN_KNMTaI)
+* [From Nand to Tetris Part 2](https://youtube.com/playlist?list=PLrDd_kMiAuNmllp9vuPqCuttC1XL9VyVh)
 * [From Nand to Tetris Part 1](https://youtube.com/playlist?list=PLrDd_kMiAuNmSb-CKWQqq9oBFN_KNMTaI)
 * [From Nand to Tetris Part 2](https://youtube.com/playlist?list=PLrDd_kMiAuNmllp9vuPqCuttC1XL9VyVh)
 
@@ -4198,6 +4072,8 @@ FPGAs
 * [Concepts, techniques, and models of computer programming](http://library.lol/main/DB945BB2247838385EA4A7FC1EBA38F5)
 * [Programmation : Concepts, techniques et modèles](http://library.lol/main/0D56FE10B972B21589F3ED9A3B3F25DE)
 * [Scrum UA](https://vk.com/wall-55985842_18991)
+
+#-> cs,top,SORT
 * [Structure and Interpretation of Computer Programs: SICP (Coding Tech)](https://www.youtube.com/watch?v=f7s8_PGpVT0)
 * [UC Berkeley CS 61A The Structure and Interpretation of Computer Programs, Spring 2010](https://www.youtube.com/watch?v=4leZ1Ca4f0g&list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1b-LFY9)
 * [codereport](https://github.com/codereport)
@@ -4212,8 +4088,6 @@ FPGAs
 * [freecodecamp.org/news/what-is-infrastructure-as-code/](https://www.freecodecamp.org/news/what-is-infrastructure-as-code/)
 * [freecodecamp.org/news/advanced-git-interactive-rebase-cherry-picking-reflog-and-more/](https://www.freecodecamp.org/news/advanced-git-interactive-rebase-cherry-picking-reflog-and-more/)
 * [Computing with Data. An Introduction to the Data Industry.](https://www.abebooks.de/servlet/BookDetailsPL?bi=30531170284&cm_sp=SEARCHREC-_-WIDGET-L-_-BDP-R&searchurl=kn%3DComputing%2Bwith%2BData%26sortby%3D17)
-* [From Nand to Tetris Part 1](https://youtube.com/playlist?list=PLrDd_kMiAuNmSb-CKWQqq9oBFN_KNMTaI)
-* [From Nand to Tetris Part 2](https://youtube.com/playlist?list=PLrDd_kMiAuNmllp9vuPqCuttC1XL9VyVh)
 * [Guidelines for collaboration](https://github.com/SciML/ColPrac)
 * [Software Project Survival Guide](http://library.lol/main/7A9256D6418E5D3E67C7F55D0014C414)
 * [Code Complete](http://library.lol/main/649C8EEE28C38CA1E062691E45DC9883)
@@ -4358,7 +4232,7 @@ FPGAs
 * [A beginner’s guide to BigQuery Sandbox and exploring public datasets](https://www.newsletter.datasciencecentral.com/click.html?x=a62e&lc=uku&mc=j&s=jFaI&u=F&y=r&z=weA4Wpn&)
 * [Kubernetes in 10 minutes](https://www.datasciencecentral.com/profiles/blogs/kubernetes-in-10-minutes)
 * [catherineh.github.io/programming/2016/11/25/tkinter-and-pyside-side-by-side](https://catherineh.github.io/programming/2016/11/25/tkinter-and-pyside-side-by-side)
-* [http://catherineh.github.io](http://catherineh.github.io/)    Qt vs Tinter vs Kivy
+* http://catherineh.github.io](http://catherineh.github.io/)    Qt vs Tinter vs Kivy
 * [Parsing gigabyes of JSON per second in Go](https://www.datasciencecentral.com/profiles/blogs/simdjson-go-parsing-gigabyes-of-json-per-second-in-go)
 * [Parsing gigabytes of JSON per second in Go](http://datascience.getresponse360.com/click.html?x=a62e&lc=usr&mc=j&s=jFaI&u=F&y=Y&z=wyzYl9W&)
 * [Cloud Adoption: Myths Enterprises Must Steer Clear Of](http://datascience.getresponse360.com/click.html?x=a62e&lc=5wQ&mc=j&s=jFaI&u=F&y=z&z=wW9vSA6&)
@@ -4434,7 +4308,7 @@ FPGAs
 * [docs.manim.community/en/v0.3.0/](https://docs.manim.community/en/v0.3.0/)
 * [17-hour Data Visualization course](https://www.freecodecamp.org/news/learn-data-visualization-in-this-free-17-hour-course/)    Oracle VirtualBox    Parallels Desktop    VMWare Fusion    Functional
 * [Thoughts on Functional Programming Podcast by Eric Normand](https://castbox.fm/channel/id2369186)
-* ["The Joy of Functional Programming (for Data Science)"](https://youtu.be/bzUmK0Y07ck)    OO
+* ['The Joy of Functional Programming (for Data Science)'](https://youtu.be/bzUmK0Y07ck)    OO
 * [Goodbye, Object Oriented Programming - Charles Scalfani - Medium](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53)
 * [geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/](https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/)
 * [geeksforgeeks.org/oops-object-oriented-design/](https://www.geeksforgeeks.org/oops-object-oriented-design/)    Предметно-ориентированные языки программирования. Мартин Фаулер
@@ -4710,16 +4584,16 @@ FPGAs
 * [Cloud Computing Specialization](https://coursera.org/specialization/cloud-computing)
 * [lowendbox.com/tag/germany/](https://lowendbox.com/tag/germany/)
 
-#-> cs,### Big Data, Cloud Computing, Data Science & Engineering | Roger Lee | download
+* Big Data, Cloud Computing, Data Science & Engineering | Roger Lee | download
 
-#-> cs,### *Cloud Computing: Theory and Practice | Dan C. Marinescu | download
+* Cloud Computing: Theory and Practice | Dan C. Marinescu | download
 
 * [Cloud Native Infrastructure: Patterns for Scalable Infrastructure and Applications in a Dynamic Environment | Justin Garrison, Kris Nova | download](https://b-ok.cc/book/3428382/9ea9a3)
 * [Pragmatic AI: An Introduction to Cloud-Based Machine Learning | Noah Gift | download](https://b-ok.cc/book/3682557/a90a58)
 
-#-> cs,### *Cloud Computing and Big Data: Technologies, Applications and Security | Mostapha Zbakh, Mohammed Essaaidi, Pierre Manneback, Chunming Rong | download
+* Cloud Computing and Big Data: Technologies, Applications and Security | Mostapha Zbakh, Mohammed Essaaidi, Pierre Manneback, Chunming Rong | download
 
-#-> cs,###  Cloud Computing | Nayan B. Ruparelia | download
+*  Cloud Computing | Nayan B. Ruparelia | download
 
 * [Beginning Serverless Computing: Developing with Amazon Web Services, Microsoft Azure, and Google Cloud | Maddie Stigler (auth.) | download](https://b-ok.cc/book/3420253/afe3cc)
 * [An overview of the new IBM Cloud Satellite distributed cloud – Build Smart. Build Secure. IBM Developer](https://developer.ibm.com/articles/overview-of-the-new-ibm-cloud-satellite-distributed-cloud/)
@@ -4744,7 +4618,7 @@ FPGAs
 * [Shooting yourself in the foot in various programming languages - Data Science Central](http://www.datasciencecentral.com/profiles/blogs/shooting-yourself-in-the-foot-in-various-programming-languages)
 * [Die passende Programmiersprache finden | c't Magazin](https://www.heise.de/ct/ausgabe/2015-18-Die-passende-Programmiersprache-finden-2767703.html)
 
-#-> cs,## 1S reading
+#-> cs,reading,SORT
 
 * [jetbrains.com/lp/devecosystem-2022/](https://www.jetbrains.com/lp/devecosystem-2022/)
 * [freecodecamp.org/news/file-systems-architecture-explained/*](https://www.freecodecamp.org/news/file-systems-architecture-explained/*) [hdmi](https://www.quora.com/q/source-code/How-does-a-single-wire-control-every-pixel-on-an-entire-TV-screen-How-can-it-convey-enough-information-for-that-many-pi?ch=99&share=7b9bf8c1&srid=HPb8)
@@ -4832,9 +4706,7 @@ FPGAs
 * [stackoverflow.com/questions/2704652/monad-in-plain-english-for-the-oop-programmer-with-no-fp-background](https://stackoverflow.com/questions/2704652/monad-in-plain-english-for-the-oop-programmer-with-no-fp-background)
 * [blog.jcoglan.com/2011/03/05/translation-from-haskell-to-javascript-of-selected-portions-of-the-best-introduction-to-monads-ive-ever-read/](https://blog.jcoglan.com/2011/03/05/translation-from-haskell-to-javascript-of-selected-portions-of-the-best-introduction-to-monads-ive-ever-read/)
 
-#-> cs,# General Resources for Programming and Computer Science
-
-#-> cs,## Sort
+#-> cs,SORT
 
 * [Curated learning resources](https://learnbyexample.github.io/curated_resources/) — Computer Science and Programming, Linux, Vim, Perl, Git and GitHub
 * [Hexlet](https://en.hexlet.io/): Practical programming courses (JavaScript, PHP, Unix, databases, functional programming). A steady path from the first line of code to the first job.
@@ -4844,7 +4716,7 @@ FPGAs
 *  [m7.rs/](https://m7.rs/)
 * [dmulholl](https://www.dmulholl.com/notes.html)
 
-#-> cs,## Cheatsheets, Reference, Wikipedia
+#-> cs,cheatsheet
 
 * [Cheatsheets Index | Codecademy](https://www.codecademy.com/resources/cheatsheets/all)
 * [en.wikipedia.org/wiki/Template:Information_theory](https://en.wikipedia.org/wiki/Template:Information_theory)
@@ -4856,7 +4728,8 @@ FPGAs
 * [Computer science - Wikipedia](https://en.wikipedia.org/wiki/Computer_science#Computer_architecture_and_computer_engineering)
 * [opensource.com/downloads/cheat-sheets](https://opensource.com/downloads/cheat-sheets)
 
-#-> cs,## Small Projects* [itp.nyu.edu/classes/cc-f21/little-coding-project-kaleidoscope/](https://itp.nyu.edu/classes/cc-f21/little-coding-project-kaleidoscope/)
+#-> cs,project|small
+* Small Projects* [itp.nyu.edu/classes/cc-f21/little-coding-project-kaleidoscope/](https://itp.nyu.edu/classes/cc-f21/little-coding-project-kaleidoscope/)
 
 * [Project Based Curriculum Lesson Plans](https://docs.google.com/spreadsheets/d/1KXEJvgnAziiePMp2Ovf_ssDqCFFWYuycXWBNp91k3qM/edit#gid=561004611)
 * [5 Projects Every Programmer Should Try - YouTube](https://www.youtube.com/watch?v=jOFco1xuIeo&feature=youtu.be)
@@ -4865,7 +4738,7 @@ FPGAs
 
 * [dev.to/yelircaasi](https://dev.to/yelircaasi)
 
-#-> cs,## Hardware
+#-> cs,hardware
 
 * [ryf.fsf.org/categories/laptops](https://ryf.fsf.org/categories/laptops)
 * [r/GUIX/comments/l1xx3g/laptop_recommendations_for_gnu_guix/](https://www.reddit.com/r/GUIX/comments/l1xx3g/laptop_recommendations_for_gnu_guix/)
@@ -4874,13 +4747,13 @@ FPGAs
 * [libreboot.org/docs/hardware/](https://libreboot.org/docs/hardware/)
 * [r/pcmasterrace/comments/1bh6t1p/what_would_you_change/](https://www.reddit.com/r/pcmasterrace/comments/1bh6t1p/what_would_you_change/)
 
-#-> cs,## Orgs
+#-> cs,institution
 
 * [higherorderco.com/](https://higherorderco.com/)
 * [ourcodingclub.github.io/](https://ourcodingclub.github.io/)
 * [midstall.com/](https://midstall.com/)
 
-#-> cs,## General Educational Resources
+#-> cs,general,resource,top
 
 * → [top resources insta](https://www.instagram.com/p/CqQQ2C5jUUa/?igshid=MDJmNzVkMjY=)
 * [CS Wikipedia](https://en.wikipedia.org/wiki/Template:Computer_science)
@@ -5028,7 +4901,7 @@ FPGAs
 * [Machine Thoughts](https://machinethoughts.wordpress.com/)
 * [Open Source: 2018 - Java/C++/Python/BigData/Android/](http://www.bogotobogo.com/index.php)
 
-#-> cs,## Gen * Media & People
+#-> cs,media,person,SORT
 
 * [srid.ca/](https://srid.ca/)
 * [rainingcomputers.blog/](https://rainingcomputers.blog/)
@@ -5077,12 +4950,12 @@ FPGAs
 * [journal.platonic.systems/](https://journal.platonic.systems/)
 * Linux Lads 103
 * [UnkertMedia.com – Welcome to UnkertMedia, the Trendiest Tech Blog](https://unkertmedia.com/)
-* search "Gradient" on spotify or other podcast search engine
+* search 'Gradient' on spotify or other podcast search engine
 * [Top 11 Forums for Developers to Collaborate and Grow](https://www.codemonk.ai/insights/best-developer-forums)
 * [video](https://www.youtube.com/@Gonkee)
 * [video](https://www.youtube.com/@adibhanna)
 
-#-> cs,## Blogs / Sites / Fora
+#-> cs,media,blog
 
 * [devtalk](https://devtalk.com/) -* Discussion forum around many different development topics/languages, ran as a joint venture between a lot of great programming publishers like Manning and Pragmatic Bookshelf.
 * [dev.to](https://dev.to/) -* Popular development community with an open source back end that was created as an alternative to Medium.
@@ -5138,7 +5011,7 @@ FPGAs
 * [uidotdev](https://www.youtube.com/channel/UCbAn7pVK2VIyo-UysfWGdZQ)
 * [$$$Brendan Fortuner – Medium](https://medium.com/@bfortuner)
 
-#-> cs,## YouTube
+#-> cs,media,video,youtube
 
 * [video](https://www.youtube.com/@KIT-Lehre-und-Wissen/playlists)
 * [video](https://www.youtube.com/@TraversyMedia)
@@ -5235,7 +5108,7 @@ FPGAs
 * [Google Developers Italia - YouTube - YouTube](https://www.youtube.com/user/DevelopersItaly)
 * [Hyperplexed](https://youtube.com/@Hyperplexed)
 
-#-> cs,## Podcasts
+#-> cs,media,podcast
 
 * [open.spotify.com/show/2nggqvCf2zVyRec9sFaZMY?si=ky0t23B1QuakyQ3-X1bmXQ](https://open.spotify.com/show/2nggqvCf2zVyRec9sFaZMY?si=ky0t23B1QuakyQ3-X1bmXQ)
 * [open.spotify.com/episode/4AN0l5IYZpLm9ND5UgJKT5?si=ET4a5PGxRaOE_cNIIqXdGg](https://open.spotify.com/episode/4AN0l5IYZpLm9ND5UgJKT5?si=ET4a5PGxRaOE_cNIIqXdGg)
@@ -5266,7 +5139,7 @@ FPGAs
 * [quora.com/What-are-the-best-podcasts-for-software-developers](https://www.quora.com/What-are-the-best-podcasts-for-software-developers)
 * [Kolophon Podcast | Die Gesprächsserie von O'Reilly Deutschland mit Tim Pritlove](https://kolophon.oreilly.de/)
 
-#-> cs,## [** [D] Does anyone know of any good ML podcasts I can listen to while at work? : MachineLearning](https://www.reddit.com/r/MachineLearning/comments/eoljno/d_does_anyone_know_of_any_good_ml_podcasts_i_can/)
+* [** [D] Does anyone know of any good ML podcasts I can listen to while at work? : MachineLearning](https://www.reddit.com/r/MachineLearning/comments/eoljno/d_does_anyone_know_of_any_good_ml_podcasts_i_can/)
 
 * [podcasts.apple.com/us/podcast/oreilly-data-show-podcast/id944929220](https://podcasts.apple.com/us/podcast/oreilly-data-show-podcast/id944929220)
 * [Pocho Costa](https://mytuner-radio.com/da/podcast/inteligencia-artificial-pocho-costa-1447402113)
@@ -5274,7 +5147,7 @@ FPGAs
 * [Cabeça de Lab - LuizaLabs | Magalu](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9hNGZlOWY4L3BvZGNhc3QvcnNz)
 * herzbergs Hörsaal. Informatik studieren mit den Ohren
 
-#-> cs,## Tools
+#-> cs,software,tool,SORT
 
 * [tweag](https://github.com/tweag)
 * [taskflow.github.io/](https://taskflow.github.io/)
@@ -5324,11 +5197,11 @@ flex
 * [BVLC](https://github.com/BVLC)
 * [nbviewer.jupyter.org/](http://nbviewer.jupyter.org/)
 
-#-> cs,## Career
+#-> cs,SORT
 
 * Ivy: [deep-ivy-ltd.breezy.hr/,](https://deep-ivy-ltd.breezy.hr/) [deep-ivy-ltd.breezy.hr/p/47a8d305734301-core-contributor](https://deep-ivy-ltd.breezy.hr/p/47a8d305734301-core-contributor)
 
-#-> cs,## Code Execution
+#-> cs,codeRunning
 
 * [dev.to/](https://dev.to/)
 * [replit.com/](https://replit.com/)
@@ -5337,7 +5210,7 @@ flex
 * [godbolt.org/](https://godbolt.org/)
 * [coliru.stacked-crooked.com/](https://coliru.stacked-crooked.com/)
 
-#-> cs,## Institutions
+#-> cs,institution
 
 * [Fachgruppe Maschinelle Sprachverarbeitung – Homepage der Fachgruppe Maschinelle Sprachverarbeitung](https://msv.stuvus.uni-stuttgart.de/?fbclid=IwAR1wk0uYyUTYrycXjEkCSe4dmui65CiOCq9ViV7HSVW66UUracxVKMXs9s0)
 * [FachschaftSprachwissenschaft](http://www.fs-sprachwissenschaft.uni-tuebingen.de/wiki/index.php?title=Main_Page)
@@ -5352,7 +5225,7 @@ flex
 * [Welcome to the Max Planck Institute for Psycholinguistics — Max Planck Institute for Psycholinguistics](http://www.mpi.nl/)
 * [Яндекс — інформація про компанію](https://yandex.ua/company/?ncrnd=2855)
 
-#-> cs,## People
+#-> cs,person
 
 * pers [Elteoremadebeethoven (Alexander Vázquez)](https://github.com/Elteoremadebeethoven) (manim)
 * perso  [xuefuzhao.github.io/](https://xuefuzhao.github.io/)
@@ -5444,7 +5317,7 @@ flex
 * → [gideonwolfe.com/](https://gideonwolfe.com/)
 * [kobzol](https://github.com/kobzol)
 
-#-> cs,## Media, Channels
+#-> cs,media,SORT
 
 * [refactoring.guru/uk](https://refactoring.guru/uk)
 * [VD](https://thevaluable.dev/page/about/)
@@ -5485,7 +5358,7 @@ flex
 * [video](https://www.youtube.com/@devopstoolbox) 
 * [zestedesavoir.com/bibliotheque/informatique/](https://zestedesavoir.com/bibliotheque/informatique/)
 
-#-> cs,## Course / Tutorial
+#-> cs,course
 
 * [From Nand to Tetris Part 1](https://www.youtube.com/playlist?list=PLrDd_kMiAuNmSb-CKWQqq9oBFN_KNMTaI)
 * [ACME 2022-2023 Materials](https://acme.byu.edu/2022-2023-materials)
@@ -5512,7 +5385,7 @@ flex
 * [freecodecamp.org/ukrainian/learn/](https://www.freecodecamp.org/ukrainian/learn/)
 * [Tutorials Point (India) Ltd.](https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg)
 
-#-> cs,## Projects, Tools, Libraries
+#-> cs,library,SORT
 
 * [orsinium-labs/python-lambda-calculus: Lambda Calculus things implemented on Python](https://github.com/orsinium-labs/python-lambda-calculus)
 * [Mojo](https://programmerweekly.us2.list-manage.com/track/click?u=72f68dcee17c92724bc7822fb&id=506258937d&e=b5a8df9a4a) A new programming language for all AI developers. Mojo combines the usability of Python with the performance of C, unlocking unparalleled programmability of AI hardware and extensibility of AI models
@@ -5536,7 +5409,7 @@ flex
 * gnuplot ASCII mode
 * [codesandbox.io/](https://codesandbox.io/)
 
-#-> cs,## Very Best Resources
+#-> cs,resource,top
 
 * [The Twelve-Factor App](https://12factor.net/config)
 * [roadmap.sh/](https://roadmap.sh/)
@@ -5557,7 +5430,7 @@ flex
 * [codereview.stackexchange.com/](https://codereview.stackexchange.com/)
 * FreeCodeCamp
 
-#-> cs,## Courses
+#-> cs,course,programming
 
 * [refactoring.guru/uk](https://refactoring.guru/uk)
 * [Foundations-of-Applied-Mathematics](https://github.com/Foundations-of-Applied-Mathematics)
@@ -5565,17 +5438,17 @@ flex
 * [csunplugged](http://csunplugged.org/wp-content/uploads/2015/03/CSUnplugged_OS_2015_v3.1.pdf)
 * [Computer Science Unplugged](https://classic.csunplugged.org/)
 
-#-> cs,## Docs
+#-> cs,documentation
 
 * [makeareadme.com/](https://www.makeareadme.com/)
 * [Beautiful Docs](https://github.com/matheusfelipeog/beautiful-docs) → create pull request, add Julia
 * [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme)
 
-#-> cs,## Learning
+#-> cs,learning,interview
 
 * [The BEST Coding Interview Roadmap in 2023 (free)](https://www.youtube.com/watch?v=jgQjes7MgTM)
 
-#-> cs,## Project Resources
+#-> cs,project,resource,idea
 
 * [github.blog/2023-04-03-calling-all-open-source-maintainers/](https://github.blog/2023-04-03-calling-all-open-source-maintainers/)
 * [Martyr2's Mega Project Ideas List! - Share Your Project | Dream.In.Code](https://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)
@@ -5588,7 +5461,7 @@ flex
 * [Free Code Camp Project](https://www.freecodecamp.org/news/plan-code-and-deploy-a-startup-in-2-hours/)
 * [Software Tools for Hobby-Scale Projects](https://rickcarlino.com/2019/11/02/software-tools-for-hobby-sized-projects-html.html)
 
-#-> cs,## Cheatsheets
+#-> cs,general,cheatsheet
 
 * [cheat-sheets.org/](http://www.cheat-sheets.org/)
 * [bookflow.ru/?s=%D0%A8%D0%BF%D0%B0%D1%80%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0](https://bookflow.ru/?s=%D0%A8%D0%BF%D0%B0%D1%80%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0)
@@ -5599,7 +5472,7 @@ flex
 * [bookflow.ru/besplatnye-materialy-dlya-programmistov/](https://bookflow.ru/besplatnye-materialy-dlya-programmistov/)
 * [cheatography.com/](https://www.cheatography.com/)
 
-#-> cs,## Resources
+#-> cs,resource,SORT
 
 * [Reddit - Cheat sheet repository for beginners.](https://www.reddit.com/r/learnprogramming/comments/110v8kw/cheat_sheet_repository_for_beginners/)
 * [Awesome Open Source](https://awesomeopensource.com/)
@@ -5620,7 +5493,7 @@ flex
 * [gitter.im/home/explore](https://gitter.im/home/explore)
 * [meetup.com/](https://www.meetup.com/)
 
-#-> cs,## Media
+#-> cs,media,SORT
 
 * [Sympolymathesy, by Chris Krycho](https://v5.chriskrycho.com/)
 * [joshcollinsworth.com/](https://joshcollinsworth.com/)
@@ -5648,7 +5521,7 @@ flex
 * [video](https://www.youtube.com/@StudyingWithAlex?app=desktop)
 * [video](https://www.youtube.com/@saraepaolo)
 
-#-> cs,### Podcasts 2
+#-> cs,media,podcast,audio
 
 * [Take Up Code](https://open.spotify.com/show/5i2jy4xzmOqUOvWmwrSOsm?si=ttxaYE9FSYCvzdzhMM5QrQ)
 * Techtiefen
@@ -5657,7 +5530,7 @@ flex
 * [radiopublic.com/commit-WYMXMl](https://radiopublic.com/commit-WYMXMl)
 * Kopec Explains Software
 
-#-> cs,### Video
+#-> cs,media,video
 
 * [video](https://www.youtube.com/c/EngineerMan/playlists)
 * [engineer-man/youtube](https://github.com/engineer-man/youtube)
@@ -5667,13 +5540,13 @@ flex
 * [Programmieren Starten](https://youtube.com/c/ProgrammierenStarten)
 * [video](https://www.youtube.com/@mycodeschool)
 
-#-> cs,### Newsletters
+#-> cs,media,newsletter
 
 * [techleaddigest.net/digests](https://techleaddigest.net/digests)
 * [programmingdigest.net/digests](https://programmingdigest.net/digests)
 * [dailytech.email/digests](https://dailytech.email/digests)
 
-#-> cs,## Tools and Software Resources
+#-> cs,software,SORT
 
 * [nbviewer.jupyter.org/](https://nbviewer.jupyter.org/)
 * [faust.grame.fr/](https://faust.grame.fr/) functional programming language for signal processing
@@ -5690,19 +5563,19 @@ flex
 * [paketo.io/docs/](https://paketo.io/docs/)
 * [nodepit.com/](https://nodepit.com/)
 
-#-> cs,### Build Systems
+#-> cs,software,build
 
 * [makefiletutorial.com/](https://makefiletutorial.com/)
 * [gnu.org/software/make/manual/make.html](https://www.gnu.org/software/make/manual/make.html)
 * [mesonbuild.com/](https://mesonbuild.com/)
 * [mesonbuild/meson](https://github.com/mesonbuild/meson)
 
-#-> cs,# Meetups, Social, etc
+#-> cs,social
 
 * [rheinneckar.social/@NixRust](https://rheinneckar.social/@NixRust)
 * [rheinneckar.events/events/f5549ff6-4317-4f2f-918b-6aef822a459a](https://rheinneckar.events/events/f5549ff6-4317-4f2f-918b-6aef822a459a)
 
-#-> cs,# Institutions, Organizations, etc.
+#-> cs,institution
 
 * [alugha.com/](https://alugha.com/)
 * [aleph-alpha.com/](https://aleph-alpha.com/)
