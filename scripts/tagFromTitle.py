@@ -33,14 +33,20 @@ for line in filter(bool, map(str.strip, lines)):
             exit()
         if not "subtags" in d:
             d.update({"subtags": []})
-        d["tags"].extend(tags)
+        for tag in tags:
+            if tag not in d["tags"]:
+                d["tags"].append(tag)
         d["subtags"].extend(subtags)
         new.append(d)
     elif line.startswith("* "):
         d = default()
         d["note"] = line[2:]
-        d["tags"].extend(tags)
-        d["subtags"].extend(subtags)
+        for tag in tags:
+            if tag not in d["tags"]:
+                d["tags"].append(tag)
+        for tag in subtags:
+            if tag not in d["subtags"]:
+                d["subtags"].append(tag)
         new.append(d)
 
     else:
