@@ -119,12 +119,12 @@
 * [SunGodRamen/.config](https://github.com/SunGodRamen/.config)
 * twig.nvim [hugginsio/twig.nvim](https://github.com/hugginsio/twig.nvim)
 * Notes (neorg-notes.github.io)
-Docs: make from wiki using mdbook → create norgbook by adding norg support to mdbook, generate automatically from [nvim-neorg/neorg.wiki.git](https://github.com/nvim-neorg/neorg.wiki.git)
+* Docs: make from wiki using mdbook → create norgbook by adding norg support to mdbook, generate automatically from [nvim-neorg/neorg.wiki.git](https://github.com/nvim-neorg/neorg.wiki.git)
 
-  → or simply draw upon wiki and tutorials, but create from scratch
+* → or simply draw upon wiki and tutorials, but create from scratch
 * [neorg-docs.github.io](https://neorg-docs.github.io) or (to hint at unofficial status) [neorg-notes.github.io](https://neorg-notes.github.io)
 
-    → “Disclaimer: These are my own notes, written for my own reference as I attempt to get up to speed on Neorg. I have made them public because I believe they have the potential to useful to others - as an annotated collection of relevant links, if nothing else.  However these are unofficial notes, and while I have attempted to make them accurate, there are no guarantees. As always, the sole source of truth is the source code.
+* → “Disclaimer: These are my own notes, written for my own reference as I attempt to get up to speed on Neorg. I have made them public because I believe they have the potential to useful to others - as an annotated collection of relevant links, if nothing else.  However these are unofficial notes, and while I have attempted to make them accurate, there are no guarantees. As always, the sole source of truth is the source code.
 * [docs.github.com/en/pages](https://docs.github.com/en/pages)
 * [rust-lang/mdBook/tree/master/guide](https://github.com/rust-lang/mdBook/tree/master/guide)
 * [rust-lang/mdBook/wiki/Automated-Deployment%3A-GitHub-Pages-(Deploy-from-branch)](https://github.com/rust-lang/mdBook/wiki/Automated-Deployment%3A-GitHub-Pages-%28Deploy-from-branch%29)
@@ -196,7 +196,7 @@ Docs: make from wiki using mdbook → create norgbook by adding norg support to 
 
 #-> nvim,config,resourceList
 
--> [dotfyle](https://dotfyle.com/neovim/configurations/top/)
+* -> [dotfyle](https://dotfyle.com/neovim/configurations/top/)
 
 FIXME## Sort
 
@@ -256,45 +256,23 @@ FIXME### Base
 * [Ecovim](https://lazyman.dev/info/Ecovim.html) Tailored for frontend development with React and Vue.js
 * [LazyVim](https://lazyman.dev/info/LazyVim.html) The [LazyVim starter](https://github.com/LazyVim/starter) configuration
 * [LunarVim](https://lazyman.dev/info/LunarVim.html) Installs LunarVim plus the [IfCodingWereNatural custom user config](https://youtu.be/Qf9gfx7gWEY)
-* [MagicVim](https://lazyman.dev/info/MagicVim.html)
-  * Custom Neovim configuration designed to be light and fast
-  * LSP, Treesitter & Code Completion all work out of the box
-  * Auto install when you open a file type that doesn’t have code completion for it yet
-  * Uses Packer plugin manager, installs in `~/.config/nvim-MagicVim`
+* [MagicVim](https://lazyman.dev/info/MagicVim.html) | Custom Neovim configuration designed to be light and fast | LSP, Treesitter & Code Completion all work out of the box | Auto install when you open a file type that doesn’t have code completion for it yet | Uses Packer plugin manager, installs in `~/.config/nvim-MagicVim`
 * [NvChad](https://lazyman.dev/info/NvChad.html) Advanced [customization of NvChad](https://github.com/doctorfree/NvChad-custom) Good [introductory video](https://youtu.be/Mtgo-nP_r8Y) to NvChad
-* [SpaceVim](https://lazyman.dev/info/SpaceVim.html)
-  * SpaceVim started in December 2016, mature and well supported
-  * Standard SpaceVim install uses `curl`:
-  * `curl -sLf [spacevim.org/install.sh](https://spacevim.org/install.sh) | bash`
-  * Lazyman custom SpaceVim configuration installed in `~/.SpaceVim.d/`
+* [SpaceVim](https://lazyman.dev/info/SpaceVim.html) | SpaceVim started in December 2016, mature and well supported | Standard SpaceVim install uses `curl`: | `curl -sLf [spacevim.org/install.sh](https://spacevim.org/install.sh) | bash` | Lazyman custom SpaceVim configuration installed in `~/.SpaceVim.d/`
 * Language:
 * [AlanVim](https://lazyman.dev/info/AlanVim.html) Oriented toward Python development
-* [Allaman](https://lazyman.dev/info/Allaman.html)
-  * One of the inspirations for `Lazyman`
-  * Excellent support for Python, Golang, Rust, YAML, and more
-* [CatNvim](https://lazyman.dev/info/CatNvim.html)
-  * Included in the `Language` category as the configuration is written in `C`
-  * Yes, this is a Neovim configuration written in the [C programming language](https://en.wikipedia.org/wiki/C_(programming_language))
-  * `CatNvim` is a `LazyVim` based configuration
+* [Allaman](https://lazyman.dev/info/Allaman.html) | One of the inspirations for `Lazyman` | Excellent support for Python, Golang, Rust, YAML, and more
+* [CatNvim](https://lazyman.dev/info/CatNvim.html) | Included in the `Language` category as the configuration is written in `C` | Yes, this is a Neovim configuration written in the [C programming language](https://en.wikipedia.org/wiki/C_(programming_language)) | `CatNvim` is a `LazyVim` based configuration
 * [Cpp](https://lazyman.dev/info/Cpp.html) `NvChad` based Neovim config with C++ formatting, debugging, and diagnostics Dreams of Code [video tutorial](https://youtu.be/lsFoZIg-oDs)
 * [Go](https://lazyman.dev/info/Go.html) `NvChad` based Neovim config with Go formatting, debugging, and diagnostics Dreams of Code [video tutorial](https://youtu.be/i04sSQjd-qo)
 * [Go2one](https://lazyman.dev/info/Go2one.html) Neovim Go development environment that does not touch standard Neovim configuration folders
 * [Insis](https://lazyman.dev/info/Insis.html) Out-of-the-box Neovim IDE solution with simple development environment setup
 * [Knvim](https://lazyman.dev/info/Knvim.html) Targets Python, Bash, LaTeX, Markdown, and C/C++ See the [Knvim Config Cheat Sheet](https://github.com/knmac/knvim/blob/main/res/cheatsheet.md)
-* [LaTeX](https://lazyman.dev/info/LaTeX.html)
-  * Neovim configuration optimized for writing in LaTeX
-  * Personal Neovim configuration of [Benjamin Brast-McKie](http://www.benbrastmckie.com/)
-  * Keymaps and more described in the configuration [Cheatsheet](https://github.com/benbrastmckie/.config/blob/master/CheatSheet.md)
-  * Blog article by the author detailing [tools used by his configuration](http://www.benbrastmckie.com/tools#access)
+* [LaTeX](https://lazyman.dev/info/LaTeX.html) | Neovim configuration optimized for writing in LaTeX | Personal Neovim configuration of [Benjamin Brast-McKie](http://www.benbrastmckie.com/) | Keymaps and more described in the configuration [Cheatsheet](https://github.com/benbrastmckie/.config/blob/master/CheatSheet.md) | Blog article by the author detailing [tools used by his configuration](http://www.benbrastmckie.com/tools#access)
 * [Video playlist](https://www.youtube.com/watch?v=_Ct2S65kpjQ&list=PLBYZ1xfnKeDRhCoaM4bTFrjCl3NKDBvqk) of tutorials on using this config for writing LaTeX in Neovim
 * [LazyIde](https://lazyman.dev/info/LazyIde.html) LazyVim IDE config for Neovim
-* [LunarIde](https://lazyman.dev/info/LunarIde.html)
-  * LunarVim config based on [Christian Chiarulli’s](https://github.com/ChristianChiarulli/lvim)
-  * Java, Python, Lua, Go, JavaScript, Typescript, React, and Rust IDE
-* [LvimIde](https://lazyman.dev/info/LvimIde.html)
-  * Not to be confused with `LunarVim`, this is a standalone Neovim configuration
-  * Modular configuration with LSP support for 60+ languages
-  * Debug support for c, cpp, dart, elixir, go, haskell, java, javascript/typescript, lua, php, python, ruby, rust
+* [LunarIde](https://lazyman.dev/info/LunarIde.html) | LunarVim config based on [Christian Chiarulli’s](https://github.com/ChristianChiarulli/lvim) | Java, Python, Lua, Go, JavaScript, Typescript, React, and Rust IDE
+* [LvimIde](https://lazyman.dev/info/LvimIde.html) | Not to be confused with `LunarVim`, this is a standalone Neovim configuration | Modular configuration with LSP support for 60+ languages | Debug support for c, cpp, dart, elixir, go, haskell, java, javascript/typescript, lua, php, python, ruby, rust
 * [Magidc](https://lazyman.dev/info/Magidc.html) Java, Python, Lua, and Rust IDE
 * [Nv](https://lazyman.dev/info/Nv.html) `LazyVim` based Neovim configuration Andreas Gerlach develops smart farming tech and maintains the `Sway` edition of `Manjaro-arm`
 * [NV-IDE](https://lazyman.dev/info/NV-IDE.html) Configuration oriented for web developers (rails, ruby, php, html, css, SCSS, javascript)
@@ -423,42 +401,19 @@ FIXME## Config meta
 FIXME## top non-nix configs
 
 * [doom-nvim](https://github.com/doom-neovim/doom-nvim) [doom-neovim/doom-nvim](https://github.com/doom-neovim/doom-nvim)
-* [doom-nvim](https://github.com/Fryuni/doom-nvim)
-  * [molleweide/doom-nvim](https://github.com/molleweide/doom-nvim)
-  * [LambertGreen/doom-nvim](https://github.com/LambertGreen/doom-nvim)
+* [doom-nvim](https://github.com/Fryuni/doom-nvim) | [molleweide/doom-nvim](https://github.com/molleweide/doom-nvim) | [LambertGreen/doom-nvim](https://github.com/LambertGreen/doom-nvim)
 * [CodeArt](https://github.com/artart222/CodeArt)
 * [nvim-ide](https://github.com/ldelossa/nvim-ide)* [A full featured IDE layer for Neovim. Heavily inspired by VSCode](https://github.com/ldelossa/nvim-ide)
 * [vimacs](https://github.com/UTFeight/vimacs)
 * [nyoom.nvim](https://github.com/nyoom-engineering/nyoom.nvim)(fennel)
 * [nv-ide](https://github.com/crivotz/nv-ide)
 * [ericwq/nvide](https://github.com/ericwq/nvide)
-* LazyVim
-  * [LazyVim/LazyVim](https://github.com/LazyVim/LazyVim)
-  * [Zero to IDE with LazyVim](https://youtu.be/N93cTbtLCIM)
-* AstroVim    * [AstroNvim/astrocommunity](https://github.com/AstroNvim/astrocommunity)
-  * [Getting Started | AstroNvim](https://astronvim.com/)
-  * [Reddit * AstroNvim v3.0 * Now with lazy.nvim and a plugin sharing community!](https://www.reddit.com/r/neovim/comments/11ntuef/astronvim_v30_now_with_lazynvim_and_a_plugin/)
-  * [Astrovim Video](https://www.youtube.com/watch?v=GEHPiZ10gOk)
-  * [Astro Vim * All in one Nvim config!!](https://youtu.be/JQLZ7NJRTEo)
-  * [Astrovim RU](https://youtu.be/LKnuIazeiM4)
-  * [AstroNvim/AstroNvim: AstroNvim is an aesthetic and feature-rich neovim config that is extensible and easy to use with a great set of plugins](http://neovimcraft.com/plugin/AstroNvim/AstroNvim/index.html)
-* Lunarnvim
-  * [Installation | LunarVim](https://www.lunarvim.org/docs/installation)
-  * [LunarVim | LunarVim](https://www.lunarvim.org/)
-  * [lunarvim-docker/Dockerfile at main · gigatexal/lunarvim-docker](https://github.com/gigatexal/lunarvim-docker/blob/main/Dockerfile)
-* [spacevim.org/quick-start-guide/](https://spacevim.org/quick-start-guide/)
-  * clean up spacevim folders
-  * [Home | SpaceVim](https://spacevim.org/)
-  * [A First Look At SpaceVim](https://youtu.be/iXPS_NHLj9k)
-* LunarVim
-  * lvim config outline [youtube.com/shorts/Mn9MRzSd7N0?feature=share](https://youtube.com/shorts/Mn9MRzSd7N0?feature=share)
-  * [LunarVim/nvim-basic-ide](https://github.com/LunarVim/nvim-basic-ide)
-    * read through lunarvim docs
-    * modify lunarvim desktop app and create shortcut
-* NVChad
-  * [siduck76/NvChad: An attempt to make neovim cli functional like an IDE while being very beautiful, blazing fast startuptime](http://neovimcraft.com/plugin/siduck76/NvChad/index.html)
-  * [Turn VIM into a full featured IDE with only one command](https://www.youtube.com/watch?v=Mtgo-nP_r8Y) (Chad nvim)
-  * [NvChad · Neovim with lua is cool](https://nvchad.com/)
+* LazyVim | [LazyVim/LazyVim](https://github.com/LazyVim/LazyVim) | [Zero to IDE with LazyVim](https://youtu.be/N93cTbtLCIM)
+* AstroVim    * [AstroNvim/astrocommunity](https://github.com/AstroNvim/astrocommunity) | [Getting Started | AstroNvim](https://astronvim.com/) | [Reddit * AstroNvim v3.0 * Now with lazy.nvim and a plugin sharing community!](https://www.reddit.com/r/neovim/comments/11ntuef/astronvim_v30_now_with_lazynvim_and_a_plugin/) | [Astrovim Video](https://www.youtube.com/watch?v=GEHPiZ10gOk) | [Astro Vim * All in one Nvim config!!](https://youtu.be/JQLZ7NJRTEo) | [Astrovim RU](https://youtu.be/LKnuIazeiM4) | [AstroNvim/AstroNvim: AstroNvim is an aesthetic and feature-rich neovim config that is extensible and easy to use with a great set of plugins](http://neovimcraft.com/plugin/AstroNvim/AstroNvim/index.html)
+* Lunarnvim | [Installation | LunarVim](https://www.lunarvim.org/docs/installation) | [LunarVim | LunarVim](https://www.lunarvim.org/) | [lunarvim-docker/Dockerfile at main · gigatexal/lunarvim-docker](https://github.com/gigatexal/lunarvim-docker/blob/main/Dockerfile)
+* [spacevim.org/quick-start-guide/](https://spacevim.org/quick-start-guide/) | clean up spacevim folders | [Home | SpaceVim](https://spacevim.org/) | [A First Look At SpaceVim](https://youtu.be/iXPS_NHLj9k)
+* LunarVim | lvim config outline [youtube.com/shorts/Mn9MRzSd7N0?feature=share](https://youtube.com/shorts/Mn9MRzSd7N0?feature=share) | [LunarVim/nvim-basic-ide](https://github.com/LunarVim/nvim-basic-ide) -> read through lunarvim docs -> modify lunarvim desktop app and create shortcut
+* NVChad | [siduck76/NvChad: An attempt to make neovim cli functional like an IDE while being very beautiful, blazing fast startuptime](http://neovimcraft.com/plugin/siduck76/NvChad/index.html) | [Turn VIM into a full featured IDE with only one command](https://www.youtube.com/watch?v=Mtgo-nP_r8Y) (Chad nvim) | [NvChad · Neovim with lua is cool](https://nvchad.com/)
 * [nvoid.org/](https://nvoid.org/)
 * [abstract-ide.github.io/site/](https://abstract-ide.github.io/site/)
 * [CosmicNvim/CosmicNvim: CosmicNvim is a lightweight and opinionated Neovim config for web development, specifically designed to provide a 💫 COSMIC programming experience!](https://github.com/CosmicNvim/CosmicNvim)
@@ -489,7 +444,7 @@ FIXME## top non-nix configs
 * [folke/dot](https://github.com/folke/dot)
 * [lvim-tech/lvim: LVIM IDE is a modular Neovim configuration written in LUA with full customization. LSP support for 60+ languages. Debug support for c, cpp, dart, elixir, go, haskell, java, javascript/typescript, lua, php, python, ruby, rust.](https://github.com/lvim-tech/lvim)
 * [LazyVim * A beautiful neovim config for the lazy | Barbarian Meets Coding](https://www.barbarianmeetscoding.com/notes/neovim-lazyvim/)
-* [AlphaTechnolog/nvide: simple code-base configuration that try to convert nvim into a """"IDE""""" :/](https://github.com/AlphaTechnolog/nvide)
+* [AlphaTechnolog/nvide: simple code-base configuration that try to convert nvim into a ''''IDE''''' :/](https://github.com/AlphaTechnolog/nvide)
 * [redyf/RedVim](https://github.com/redyf/RedVim)
 * ( ) [albingroen/quick.nvim](https://github.com/albingroen/quick.nvim)
 
@@ -578,35 +533,7 @@ FIXME## other configs
 * [theopn/theovim/](https://github.com/theopn/theovim/)
 * [gitlab.com/anhvo8836/neovim](https://gitlab.com/anhvo8836/neovim)
 * [ChrisTitusTech/neovim](https://github.com/ChrisTitusTech/neovim)
-* One Neorg Setup
-  * chatgpt
-  * codium
-  * conjure
-  * dirbuf
-  * gitsigns.nvim
-  * hologram
-  * kanagawa
-  * lsp_lines
-  * luvdocs
-  * markdown-preview
-  * neocomplete
-  * neogen
-  * neogit
-  * neorg
-  * nui.nvim
-  * nvim-lspconfig
-  * nvim-treesitter
-  * octo
-  * oil
-  * packer.nvim
-  * parinfer
-  * plenary.nvim
-  * parinfer
-  * plenary.nvim
-  * presence.nvim
-  * rust-tools
-  * telescope.nvim
-  * toggleterm.nvim
+* One Neorg Setup: chatgpt, codium, conjure, dirbuf, gitsigns.nvim, hologram, kanagawa, lsp_lines, luvdocs, markdown-preview, neocomplete, neogen, neogit, neorg, nui.nvim, nvim-lspconfig, nvim-treesitter, octo, oil, packer.nvim, parinfer, plenary.nvim, parinfer, plenary.nvim, presence.nvim, rust-tools, telescope.nvim, toggleterm.nvim
 
 FIXME## oldvim configs
 
@@ -615,8 +542,7 @@ FIXME## oldvim configs
 * [→ LeafVim video](https://www.youtube.com/watch?v=-0iTsWGZxsI)
 * ( ) [wooshdude/leafvim](https://github.com/wooshdude/leafvim)
 * [The Ultimate Vim Distribution](http://vim.spf13.com/) * spf13-vim is a distribution of vim plugins and resources for Vim, GVim and MacVim.
-
-   [vim.reaper](https://github.com/GideonWolfe/vim.reaper) - good for ricing, but only in Vimscript
+* [vim.reaper](https://github.com/GideonWolfe/vim.reaper) - good for ricing, but only in Vimscript
 
 * config management & switching
 
@@ -633,65 +559,6 @@ FIXME## oldvim configs
 * ( ) [Neovim Config Switcher](https://www.reddit.com/r/neovim/comments/123mf4g/neovim_config_switcher/) Reddit
 * ( ) [gist.github.com/elijahmanor/b279553c0132bfad7eae23e34ceb593b](https://gist.github.com/elijahmanor/b279553c0132bfad7eae23e34ceb593b)
 * ```jsx* ###########* # zsh* ###########
-
-```sh
-* alias nvim-lazy="NVIM_APPNAME=LazyVim nvim"* alias nvim-kick="NVIM_APPNAME=kickstart nvim"* alias nvim-chad="NVIM_APPNAME=NvChad nvim"* alias nvim-astro="NVIM_APPNAME=AstroNvim nvim"
-* function nvims() {*   items=("default" "kickstart" "LazyVim" "NvChad" "AstroNvim")*   config=$(printf "%s\n" "${items[@]}" | fzf --prompt=" Neovim Config  " --height=~50% --layout=reverse --border --exit-0)*   # config=$(printf "%s\n" "${items[@]}" | fzf --prompt="<ee><98><ab> Neovim Config <ef><98><bd> " --height=~50% --layout=reverse --border --exit-0)*   if [[ -z $config ]]; then*     echo "Nothing selected"*     return 0*   elif [[ $config == "default" ]]; then*     config=""*   fi*   NVIM_APPNAME=$config nvim $@* }
-* bindkey -s ^a "nvims\n"
-* ###########* # fish* ###########
-* function nvim-chad*     env NVIM_APPNAME=nvim-chad nvim* end
-* function nvim-yum*     env NVIM_APPNAME=nvim-yum nvim* end
-* function nvims*     set items nvim-yum nvim-chad*     set config (printf "%s\n" $items | fzf --prompt=" Neovim Config  " --height=~50% --layout=reverse --border --exit-0)*     if [ -z $config ]*      echo "Nothing selected"*      return 0*     else if [ $config = "default" ]*      set config ""*     end*     env NVIM_APPNAME=$config nvim $argv* end
-* bind \ca 'nvims\n'```
-* ###########* # bash v1* ###########
-* alias nvim-chad="NVIM_APPNAME=nvim-chad nvim"
-* nvims() {*   items=("default" "NvChad")*   config=$(printf "%s\n" "${items[@]}" | fzf --prompt=" Neovim Config  " --height=~50% --layout=reverse --border --exit-0)*   if [[ -z $config ]]; then*     echo "Nothing selected"*     return 0*   elif [[ $config == "default" ]]; then*     config=""*   fi*   NVIM_APPNAME=$config nvim $@* }
-* bindkey -s ^a "nvims\n"
-* ###########* # bash v2* ###########
-* # Neovim config switcher* alias nvim-chad="NVIM_APPNAME=nvim-chad nvim"
-* nvims() {*   items=("default" "NvChad")*   config=$(printf "%s\n" "${items[@]}" | fzf --prompt=" Neovim Config  " --height=~50% --layout=reverse --border --exit-0)*   if [[ -z $config ]]; then*     echo "Nothing selected"*     return 0*   elif [[ $config == "default" ]]; then*     config=""*   fi*   NVIM_APPNAME=$config nvim $@* }
-* bind -x '"\C-a": nvims'
-* ##########################* # for use with lazyman* ##########################
-* # $HOME/.config/nvim-Lazyman/.lazymanrc* # This file should be sourced from the shell initialization file* # e.g. $HOME/.bashrc or $HOME/.zshrc* #* # To use Vim* command -v vim > /dev/null && alias vi='vim'* # To use NeoVim* command -v nvim > /dev/null && {*   alias vi='nvim'*   items=()
-* [ -d ${HOME}/.config/nvim ] && {*     alias nvim-default="NVIM_APPNAME=nvim nvim"*     items+=("default")*   }*   # Add all previously installed Neovim configurations*   if [ -f ${HOME}/.config/nvim-Lazyman/.nvimdirs ]*   then*     cat ${HOME}/.config/nvim-Lazyman/.nvimdirs | while read nvimdir*     do
-* [ -d ${HOME}/.config/${nvimdir} ] && {*      alias ${nvimdir}="NVIM_APPNAME=${nvimdir} nvim"*      entry=$(echo ${nvimdir} | sed -e "s/nvim-//")*      items+=("${entry}")*       }*     done*   else*     # Add any supported config we find
-* [ -d ${HOME}/.config/nvim-Lazyman ] && {*       alias nvim-lazy="NVIM_APPNAME=nvim-Lazyman nvim"*       items+=("Lazyman")*     }
-* [ -d ${HOME}/.config/nvim-LazyVim ] && {*       alias nvim-lazy="NVIM_APPNAME=nvim-LazyVim nvim"*       items+=("LazyVim")*     }
-* [ -d ${HOME}/.config/nvim-Kickstart ] && {*       alias nvim-kick="NVIM_APPNAME=nvim-Kickstart nvim"*       items+=("Kickstart")*     }
-* [ -d ${HOME}/.config/nvim-NvChad ] && {*       alias nvim-chad="NVIM_APPNAME=nvim-NvChad nvim"*       items+=("NvChad")*     }
-* [ -d ${HOME}/.config/nvim-AstroNvim ] && {*       alias nvim-astro="NVIM_APPNAME=nvim-AstroNvim nvim"*       items+=("AstroNvim")*     }
-* [ -d ${HOME}/.config/nvim-Allaman ] && {*       alias nvim-aman="NVIM_APPNAME=nvim-Allaman nvim"*       items+=("Allaman")*     }
-* [ -d ${HOME}/.config/nvim-LunarVim ] && {*       alias nvim-lunar="NVIM_APPNAME=nvim-LunarVim nvim"*       items+=("LunarVim")*     }
-* [ -d ${HOME}/.config/nvim-MultiVim ] && {*       alias nvim-multi="NVIM_APPNAME=nvim-MultiVim nvim"*       items+=("MultiVim")*     }
-* [ -d ${HOME}/.config/nvim-SpaceVim ] && {*       alias nvim-space="NVIM_APPNAME=nvim-SpaceVim nvim"*       items+=("SpaceVim")*     }*   fi
-*   function nvims() {*     numitems=${#items[@]}*     if [ ${numitems} -eq 1 ]*     then*       config="${items[@]:0:1}"*     else*       config=$(printf "%s\n" "${items[@]}" | fzf --prompt=" Neovim Config  " --height=60% --layout=reverse --border --exit-0)*     fi*     if [[ -z $config ]]; then*       echo "Nothing selected"*       return 0*     elif [[ $config == "default" ]]; then*       config="nvim"*     else*       if [ -d ${HOME}/.config/nvim-${config} ]*       then*      config="nvim-${config}"*       else
-* [ -d ${HOME}/.config/${config} ] || {*        echo "Cannot locate ${config} Neovim configuration directory"*        return 0*      }*       fi*     fi*     NVIM_APPNAME=$config nvim $@*   }*   if [ -n "$($SHELL -c 'echo $ZSH_VERSION')" ]; then*    bindkey -s ^n "nvims\n"*   elif [ -n "$($SHELL -c 'echo $BASH_VERSION')" ]; then*    bind -x '"\C-n": nvims'*   else*    bindkey -s ^n "nvims\n"*   fi* }
-* #############* # cool trick* #############
-* alias vi="nvim"
-* alias nvim-lazy="NVIM_APPNAME=LazyVim nvim"* alias nvim-chad="NVIM_APPNAME=NvChad nvim"* alias nvim-astro="NVIM_APPNAME=AstroNvim nvim"
-* function nvims() {*   items=("default" "LazyVim" "NvChad" "AstroNvim")*   config=$(printf "%s\n" "${items[@]}" | fzf --prompt=" Neovim Config  " --height=~50% --layout=reverse --border --exit-0)*   if [[ -z $config ]]; then*     echo "Nothing selected"*     return 0*   elif [[ $config == "default" ]]; then*     config=""*   else*     alias vi="NVIM_APPNAME=${config} nvim"*   fi*   NVIM_APPNAME=$config nvim $@* }
-* ##############* # cool script * ##############
-* #!/usr/bin/env bash
-* # ANSI color codes* RED='\033[0;31m'* YELLOW='\033[1;33m'* GREEN='\033[0;32m'* PURPLE='\033[0;35m'* CYAN='\033[0;36m'* CLEAR='\033[0m'
-* DEFAULT_INSTANCE=nvim-default
-* show_help() {*   echo -e "Usage: ${YELLOW}nvim-starter ${PURPLE}[COMMAND]${CYAN} [NVIM_OPTIONS...]${CLEAR}"*   echo*   echo "Available commands: (no command start nvim natively)"*   echo -e "  ${PURPLE}sel, select${CLEAR}     Show a selector to choose the Neovim configuration"*   echo -e "  ${PURPLE}def, default${CLEAR}    Start the default instance of Neovim"*   echo -e "  ${PURPLE}help${CLEAR}         Display this help message"* }
-* select_config() {*   local items=("default" "nvim" "nvim-learning")*   local config=$(printf "%s\n" "${items[@]}" | fzf --prompt=" Neovim Config: " --height=~50% --layout=reverse --exit-0)
-*   if [[ -z $config ]]; then*   echo "${GREEN}Nothing selected${CLEAR}"*   exit 0*   elif [[ $config == "default" ]]; then*   config=$DEFAULT_INSTANCE*   fi
-*   NVIM_APPNAME=$config nvim "$@"* }
-* default_exec() {*   # Default behavior (no script commds)*   nvim "$@"*   exit 0* }
-* ( ) [[ $# -eq 0 ]] && default_exec
-* while [[ $# -gt 0 ]]; do*   key="$1"
-*   case $key in*   help)*   show_help*   exit 0*   ;;*   sel | select)*   shift # remove the -s or --select*   select_config "$@"*   exit 0*   ;;*   def | default)*   shift # remove the -d or --default*   NVIM_APPNAME=$DEFAULT_INSTANCE nvim "$@"*   exit 0*   ;;*   *)*   default_exec*   ;;*   esac* done
-* ##############* # alt version* ##############
-* function nvims() {*   local nv_items=("Vanilla" "LazyVim" "NvChad")*   local nv_app=$(printf "%s\n" "${nv_items[@]}" | fzf --prompt=" Neovim Config 󰶻  " --height=~50% --layout=reverse --border --exit-0)
-*   if [[ -z $nv_app ]]; then*     echo "Nothing selected"*     return 0*   elif [[ $nv_app == "Vanilla" ]]; then*     nv_app=""*   else*     echo "Set $nvims_config to $nv_app"*   fi
-*   echo "$nv_app" > "$nvims_config"*   alias vi="NVIM_APPNAME=${nv_app} nvim"
-*   NVIM_APPNAME=$nv_app nvim $@* }
-* # nvims* if [[ -x /usr/local/bin/nvim || -x /opt/homebrew/bin/nvim ]]; then*   nvims_config="${XDG_CACHE_HOME:-$HOME/.cache}/nvims"*   nvims_app=$(cat "$nvims_config")*   #echo "Bind Neovim to $nvims_app"*   alias vi="NVIM_APPNAME=${nvims_app} nvim"*   export EDITOR="vi"*   bindkey -s "^v" "nvims\n"* fi
-
-FIXME# in terminal input nvims and enter not a valid number: ~50 nothing selected what's wrong?* # any news on this? I do have the same error while just using nvims without any argument. Using WSL2 * bash* # I had the same error.* # Fix was to make height=50% NOT height=~50%* ```
-
-```
 
 * editorconfig
 * supported ootb in nvim; seems compatible with other approaches because focus is different (albeit related)
@@ -773,7 +640,7 @@ FIXME# Neovim
 
 FIXME## References
 
-Vim Reference (book)
+* Vim Reference (book)
 
 FIXME## Reading List
 
@@ -793,7 +660,7 @@ FIXME## SORT
 
 * [Porting Neovim to Lua](https://www.adrian.idv.hk/2022-05-07-nvim-lua/)
 *[Rust and Neovim](https://rsdlt.github.io/posts/rust-nvim-ide-guide-walkthrough-development-debug/)
-* {?} <|> "🭿" U+1FB7F: Right And Lower One Eighth Block (Unicode Character)
+* {?} <|> '🭿' U+1FB7F: Right And Lower One Eighth Block (Unicode Character)
 * {?} <|> [langserver.org/](https://langserver.org/)
 * {?} <|> Elteoremadebeethoven (Alexander Vázquez)
 * {?} <|> Ideas:
@@ -805,7 +672,7 @@ FIXME## SORT
 * {?} <|> neovimcraft
 * {?} <|> pyde, gode, rde, etc
 * {?} <|> repos
-* {?} <|> { "🭽", "▔", "🭾", "▕", "🭿", "▁", "🭼", "▏" }
+* {?} <|> { '🭽', '▔', '🭾', '▕', '🭿', '▁', '🭼', '▏' }
 
 {neovim youtube nix m                               } <|> [...](https://m.youtube.com/results?sp=mAEA&search_query=neovim+nix)
 {neovim youtube watch v                             } <|> [Entire Neovim Manual](https://www.youtube.com/watch?v%3DrT-fbLFOCy0)
@@ -944,7 +811,7 @@ FIXME## SORT
 * {neovim                                             } <|> [practical.li/neovim/introduction/fennel/](https://practical.li/neovim/introduction/fennel/)
 * {neovim a how question i do manager without vi install } <|> [vi.stackexchange.com/questions/36509/how-do-i-install-a-package-in-neovim-without-a-package-manager](https://vi.stackexchange.com/questions/36509/how-do-i-install-a-package-in-neovim-without-a-package-manager)
 * {neovim a python ide configuring                    } <|> [playfulpython.com/configuring-neovim-as-a-python-ide/](https://www.playfulpython.com/configuring-neovim-as-a-python-ide/)
-* {neovim a youtube with watch v do workflow me part  } <|> [Data Science Workflow with neovim - Watch Me Do Kaggle House Regression EDA (Part 1)!"](https://www.youtube.com/watch?v=V7vVq0fjAYs&lc=UgyPyqovYoxl7hS5lGt4AaABAg.A-NJPQ9TA8nA-NekO_Mkx2)
+* {neovim a youtube with watch v do workflow me part  } <|> [Data Science Workflow with neovim - Watch Me Do Kaggle House Regression EDA (Part 1)!'](https://www.youtube.com/watch?v=V7vVq0fjAYs&lc=UgyPyqovYoxl7hS5lGt4AaABAg.A-NJPQ9TA8nA-NekO_Mkx2)
 * {neovim config your substack p                      } <|> [psakalo.substack.com/p/simplify-your-neovim-config-navigation](https://psakalo.substack.com/p/simplify-your-neovim-config-navigation)
 * {neovim dotfyle                                     } <|> [dotfyle.com/this-week-in-neovim/58](https://dotfyle.com/this-week-in-neovim/58)
 * {neovim emac                                        } <|> [murilopereira.com/the-values-of-emacs-the-neovim-revolution-and-the-vscode-gorilla/](https://www.murilopereira.com/the-values-of-emacs-the-neovim-revolution-and-the-vscode-gorilla/)
@@ -959,333 +826,333 @@ FIXME## SORT
 * {neovim plugin dotfyle                              } <|> [dotfyle.com/neovim/plugins/top](https://dotfyle.com/neovim/plugins/top)
 * {neovim plugin flake                                } <|> [neovimcraft.com/plugin/jordanisaacs/neovim-flake](https://neovimcraft.com/plugin/jordanisaacs/neovim-flake)
 * {neovim plugin how my i dev                         } <|> [dev.to/evilcel3ri/how-i-wrote-my-first-neovim-plugin-357h](https://dev.to/evilcel3ri/how-i-wrote-my-first-neovim-plugin-357h)
-* {neovim r reddit comment                            } <|> [r/neovim/comments/12xundc/c_dev_environment_in_pure_lua_based_plugins/](https://www.reddit.com/r/neovim/comments/12xundc/c_dev_environment_in_pure_lua_based_plugins/)
-* {neovim r reddit comment                            } <|> [r/neovim/comments/15flmbm/wasm_plugins_finally_maybe_lol/](https://www.reddit.com/r/neovim/comments/15flmbm/wasm_plugins_finally_maybe_lol/)
-* {neovim r reddit comment                            } <|> [r/neovim/comments/172uiu1/yazi_a_new_tui_program_combines_rangernnnlf/](https://www.reddit.com/r/neovim/comments/172uiu1/yazi_a_new_tui_program_combines_rangernnnlf/)
-* {neovim r reddit comment                            } <|> [r/neovim/comments/18xtumq/poopnvim_embrace_the_code_smell/](https://www.reddit.com/r/neovim/comments/18xtumq/poopnvim_embrace_the_code_smell/)
-* {neovim r reddit comment                            } <|> [r/neovim/comments/nfm8ub/javakotlin_developers_that_use_neovim_as_their/](https://www.reddit.com/r/neovim/comments/nfm8ub/javakotlin_developers_that_use_neovim_as_their/)
-* {neovim r reddit comment                            } <|> [r/neovim/comments/tcusd9/best_plugin_for_per_project_config_changes_and/?rdt=36609](https://www.reddit.com/r/neovim/comments/tcusd9/best_plugin_for_per_project_config_changes_and/?rdt=36609)
-* {neovim r reddit comment                            } <|> [r/neovim/comments/xa4ca6/best_way_to_validate_and_format_json_files/](https://www.reddit.com/r/neovim/comments/xa4ca6/best_way_to_validate_and_format_json_files/)
-a with an install command                          <|> write function buildVimPluginOpt to install in an opt directory where it can be imported with a command or an autocommand
-alpha2phi                                          <|> alpha2phi
-blog post                                          <|> blog posts
-configuration                                      <|> Pylint configuration | Codeac
-discussion                                         <|>  HN discussion (general)
-documentation                                      <|> NvimTree - Documentation
-editor                                             <|> Translation Alignment Editor UGARIT
-feature full                                       <|> → Juventas (full-features Jupyter Notebook)
-ghttp io feature 0 documentation                   <|> [Features — rope 1.12.0 documentation](https://rope.readthedocs.io/en/latest/rope.html))
-ghttp youtube watch v 2021                         <|> [DIY quality of life improvements - Anton Kastritskiy - Vimconf 2021 - YouTube]([...](https://www.youtube.com/watch?v%3DpkyurqHhlXI))
-github                                             <|> [Dan7h3x/NvimPy](https://github.com/Dan7h3x/NvimPy)
-github                                             <|> [datsfilipe/datsnvim](https://github.com/datsfilipe/datsnvim)
-github                                             <|> [daUnknownCoder/NeutronVim](https://github.com/daUnknownCoder/NeutronVim)
-github                                             <|> [inshellisense](https://github.com/microsoft/inshellisense)
-github                                             <|> [NormalNvim/NormalNvim](https://github.com/NormalNvim/NormalNvim)
-github                                             <|> [orhnk/vimacs](https://github.com/orhnk/vimacs)
-github                                             <|> [sontungexpt/stinvim](https://github.com/sontungexpt/stinvim)
-github 2kabhishek                                  <|> [2kabhishek/tdo](https://github.com/2kabhishek/tdo)
-github dotfile alpha2phi                           <|>  [alpha2phi/dotfiles](https://github.com/alpha2phi/dotfiles)
-github ghttp io 0 import documentation             <|> [Pyflyby — pyflyby 1.9.0 documentation](https://deshaw.github.io/pyflyby/%23quick-start-tidy-imports))
-github io vhyrro                                   <|>  [vhyrro.github.io/](https://vhyrro.github.io/)
-github lazyvim                                     <|> [JackDerksen/viis-lazyvim](https://github.com/JackDerksen/viis-lazyvim)
-github lazyvim                                     <|> [JackDerksen/viis-lazyvim](https://github.com/JackDerksen/viis-lazyvim)
-github lsp dotfile commit                          <|> custom lsp format [xero/dotfiles/commit/a5a65df503be1456650b9aaebb5ffa0cdc8f21fc#diff-93da02ebea8df64527f86b7aade95fa82d243b23a18cd4b8004e591db618a9c9](https://github.com/xero/dotfiles/commit/a5a65df503be1456650b9aaebb5ffa0cdc8f21fc#diff-93da02ebea8df64527f86b7aade95fa82d243b23a18cd4b8004e591db618a9c9)
-github lua discussion                              <|> [Unisay/purescript-lua Ideas · Discussions · GitHub](https://github.com/Unisay/purescript-lua/discussions/categories/ideas)
-github lua main blob master                        <|> [kreatoo/dots/blob/master/main%2Fnvim%2Finit.lua](https://github.com/kreatoo/dots/blob/master/main%252Fnvim%252Finit.lua)
-github neovim ghttp for config my file             <|> [sagedemage/neovim-config: My config file for Neovim](https://github.com/sagedemage/neovim-config))
-github neovim ghttp other                          <|> [glacambre/firenvim: Embed Neovim in Chrome, Firefox & others.](https://github.com/glacambre/firenvim))
-github neovim io config scratch                    <|>  [martinlwx.github.io/en/config-neovim-from-scratch/](https://martinlwx.github.io/en/config-neovim-from-scratch/)
-github neovim io refactoring                       <|> [Refactoring - Neovim Wiki](https://zchee.github.io/neovim-wiki/Refactoring/)
-github neovim io setup jdhao                       <|>  [jdhao.github.io/2023/07/22/neovim-pylsp-setup/](https://jdhao.github.io/2023/07/22/neovim-pylsp-setup/)
-github neovim issue                                <|> wasm [neovim/neovim/issues/23579](https://github.com/neovim/neovim/issues/23579)
-github neovim lua io using vonheikemen tool devlog configuring <|>  [vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/](https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/)
-github neovim lua io using vonheikemen tool devlog configuring <|> [vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/](https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/)
-github neovim nix blob home manager master program community <|> [nix-community/home-manager/blob/master/modules/programs/neovim.nix#L33C34-L33C42](https://github.com/nix-community/home-manager/blob/master/modules/programs/neovim.nix#L33C34-L33C42)
-github neovim nix blob nixo nixpkg program         <|> $$$ [NixOS/nixpkgs/blob/2230a20f2b5a14f2db3d7f13a2dc3c22517e790b/nixos/modules/programs/neovim.nix](https://github.com/NixOS/nixpkgs/blob/2230a20f2b5a14f2db3d7f13a2dc3c22517e790b/nixos/modules/programs/neovim.nix)
-github neovim nix main tree                        <|> [jamibear/neovim.nix/tree/main](https://github.com/jamibear/neovim.nix/tree/main)
-github neovim nvim                                 <|>  nvim   [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
-github neovim nvim a ghttp for lua config          <|>  [xvzftube/nvim-lua-for-ds: A simple neovim config for data science](https://github.com/xvzftube/nvim-lua-for-ds))
-github neovim nvim a python ghttp for lua with config configuration file jdhao markdown modern tab full <|> [jdhao/nvim-config: A modern Neovim configuration with full battery for Python, Lua, C++, Markdown, LaTeX, and more...](https://github.com/jdhao/nvim-config?tab%3Dreadme-ov-file))
-github neovim nvim a python ghttp for lua with config configuration jdhao markdown modern full <|> [jdhao/nvim-config: A modern Neovim configuration with full battery for Python, Lua, C++, Markdown, LaTeX, and more...](https://github.com/jdhao/nvim-config))
-github neovim nvim file your open command terminal <|> [willothy/flatten.nvim: Open files and command output from wezterm, kitty, and neovim terminals in your current neovim instance](https://github.com/willothy/flatten.nvim)
-github neovim nvim for refactoring                 <|> [wakeLanaka/refactor.nvim: Refactoring for neovim](https://github.com/wakeLanaka/refactor.nvim)
-github neovim nvim plugin a your tab               <|> [nanozuki/tabby.nvim: A declarative, highly configurable, and neovim style tabline plugin. Use your nvim tabs as a workspace multiplexer!](https://github.com/nanozuki/tabby.nvim/)
-github neovim nvim plugin for                      <|> [sourcegraph/sg.nvim: The official Sourcegraph/Cody plugin for Neovim](https://github.com/sourcegraph/sg.nvim)
-github neovim nvim s a lua nix nixcat flake birdeehub user kickstart <|> [BirdeeHub/nixCats-nvim: A Lua-natic nix user's Neovim Flake, kickstart.nvim style](https://github.com/BirdeeHub/nixCats-nvim)
-github neovim nvim s a lua nix nixo nixcat flake birdeehub user user <|> [GitHub - BirdeeHub/nixCats-nvim: A Lua-natic nix user's Neovim Flake, - Announcements - NixOS Discourse](https://discourse.nixos.org/t/github-birdeehub-nixcats-nvim-a-lua-natic-nix-users-neovim-flake/38956/6)
-github neovim nvim s lsp feature based on command  <|> [smjonas/inc-rename.nvim: Incremental LSP renaming based on Neovim's command-preview feature.](https://github.com/smjonas/inc-rename.nvim)
-github neovim s a io config ide by blog guide scratch your <|> [Transform Your Neovim into a IDE: A Step-by-Step Guide - MartinLwx's Blog](https://martinlwx.github.io/en/config-neovim-from-scratch/)
-github neovim s a io guide jdhao markdown 01       <|> [Markdown Writing and Previewing in Neovim -- A Complete Guide - jdhao's digital space](https://jdhao.github.io/2019/01/15/markdown_edit_preview_nvim/)
-github neovim s a io guide jdhao markdown 01       <|> [Markdown Writing and Previewing in Neovim -- A Complete Guide - jdhao's digital space](https://jdhao.github.io/2019/01/15/markdown_edit_preview_nvim/%23google_vignette)
-github neovim scratch                              <|>  [LunarVim/Neovim-from-scratch](https://github.com/LunarVim/Neovim-from-scratch)
-github neovim scratch                              <|>  [LunarVim/Neovim-from-scratch](https://github.com/LunarVim/Neovim-from-scratch)
-github neovim with nix configure                   <|> [NixNeovim/NixNeovim: Configure Neovim with Nix!](https://github.com/NixNeovim/NixNeovim)
-github neovim with nix configure community         <|> [nix-community/nixvim: Configure Neovim with Nix! [maintainer=@pta2002, @traxys, @GaetanLepage]](https://github.com/nix-community/nixvim)
-github nvim                                        <|>  nvim   [adriankarlen/stsln.nvim](https://github.com/adriankarlen/stsln.nvim)
-github nvim                                        <|>  nvim   [mrcjkb/rustaceanvim](https://github.com/mrcjkb/rustaceanvim)
-github nvim                                        <|>  nvim   [oxfist/night-owl.nvim](https://github.com/oxfist/night-owl.nvim)
-github nvim                                        <|>  nvim   [simonmclean/triptych.nvim](https://github.com/simonmclean/triptych.nvim)
-github nvim                                        <|> [616b2f/bsp.nvim](https://github.com/616b2f/bsp.nvim)
-github nvim                                        <|> [AckslD/swenv.nvim](https://github.com/AckslD/swenv.nvim)
-github nvim                                        <|> [artemave/workspace-diagnostics.nvim](https://github.com/artemave/workspace-diagnostics.nvim)
-github nvim                                        <|> [backdround/global-note.nvim](https://github.com/backdround/global-note.nvim)
-github nvim                                        <|> [benlubas/image-save.nvim](https://github.com/benlubas/image-save.nvim)
-github nvim                                        <|> [cbochs/grapple.nvim](https://github.com/cbochs/grapple.nvim)
-github nvim                                        <|> [chrishrb/gx.nvim](https://github.com/chrishrb/gx.nvim)
-github nvim                                        <|> [dlvhdr/gh-blame.nvim](https://github.com/dlvhdr/gh-blame.nvim)
-github nvim                                        <|> [EnriqueBravo115/nvim](https://github.com/EnriqueBravo115/nvim)
-github nvim                                        <|> [ErdajtSopjani/nvim](https://github.com/ErdajtSopjani/nvim)
-github nvim                                        <|> [gmr458/nvim](https://github.com/gmr458/nvim)
-github nvim                                        <|> [gsuuon/model.nvim](https://github.com/gsuuon/model.nvim)
-github nvim                                        <|> [hrsh7th/nvim-insx](https://github.com/hrsh7th/nvim-insx)
-github nvim                                        <|> [icholy/lsplinks.nvim](https://github.com/icholy/lsplinks.nvim)
-github nvim                                        <|> [jghauser/kitty-runner.nvim](https://github.com/jghauser/kitty-runner.nvim)
-github nvim                                        <|> [kuznetsss/delegate.nvim](https://github.com/kuznetsss/delegate.nvim)
-github nvim                                        <|> [lukas-reineke/headlines.nvim](https://github.com/lukas-reineke/headlines.nvim)
-github nvim                                        <|> [marco-souza/term.nvim](https://github.com/marco-souza/term.nvim)
-github nvim                                        <|> [Nedra1998/nvim-mdlink](https://github.com/Nedra1998/nvim-mdlink)
-github nvim                                        <|> [otavioschwanck/arrow.nvim](https://github.com/otavioschwanck/arrow.nvim)
-github nvim                                        <|> [Selyss/mind.nvim](https://github.com/Selyss/mind.nvim)
-github nvim                                        <|> [SuperBo/fugit2.nvim](https://github.com/SuperBo/fugit2.nvim)
-github nvim                                        <|> [tamton-aquib/keys.nvim](https://github.com/tamton-aquib/keys.nvim)
-github nvim                                        <|> [tanloong/interlaced.nvim](https://github.com/tanloong/interlaced.nvim) partext
-github nvim                                        <|> [thallada/farout.nvim](https://github.com/thallada/farout.nvim)
-github nvim                                        <|> [wochap/nvim](https://github.com/wochap/nvim)
-github nvim                                        <|> esp nvim [probe2k/bspwm_rice](https://github.com/probe2k/bspwm_rice)
-github nvim                                        <|> macro nvim [Bekaboo/nvim](https://github.com/Bekaboo/nvim)
-github nvim 0                                      <|> [lukas-reineke/headlines.nvim/releases/tag/v4.0.0](https://github.com/lukas-reineke/headlines.nvim/releases/tag/v4.0.0)
-github nvim 2kabhishek                             <|> [2KAbhishek/tdo.nvim](https://github.com/2KAbhishek/tdo.nvim)
-github nvim config jdhao                           <|>  [jdhao/nvim-config](https://github.com/jdhao/nvim-config)
-github nvim config main tree                       <|> [aharoJ/nvim-config/tree/main](https://github.com/aharoJ/nvim-config/tree/main)
-github nvim discussion                             <|> [nvim-neotest/neotest/discussions/204](https://github.com/nvim-neotest/neotest/discussions/204)
-github nvim file tab                               <|> [sakhnik/nvim-gdb?tab=readme-ov-file](https://github.com/sakhnik/nvim-gdb?tab%3Dreadme-ov-file)
-github nvim file telescope                         <|> [nvim-telescope/telescope-file-browser.nvim](https://github.com/nvim-telescope/telescope-file-browser.nvim)
-github nvim ghttp                                  <|> [olimorris/codecompanion.nvim](https://github.com/olimorris/codecompanion.nvim))
-github nvim ghttp                                  <|> [otavioschwanck/arrow.nvim](https://github.com/otavioschwanck/arrow.nvim))
-github nvim ghttp by feature file refactoring based tab <|> [ThePrimeagen/refactoring.nvim: The Refactoring library based off the Refactoring book by Martin Fowler](https://github.com/ThePrimeagen/refactoring.nvim?tab%3Dreadme-ov-file%23refactoring-features))
-github nvim ghttp config main dotfile tree at alpha2phi <|> [dotfiles/config/nvim at main · alpha2phi/dotfiles](https://github.com/alpha2phi/dotfiles/tree/main/config/nvim))
-github nvim ghttp dev nui                          <|> [grapp-dev/nui-components.nvim](https://github.com/grapp-dev/nui-components.nvim))
-github nvim ghttp with                             <|> [nvim-pack/nvim-spectre: Find the enemy and replace them with dark power.](https://github.com/nvim-pack/nvim-spectre))
-github nvim ghttp with lsp feature question issue issue import <|> [Question/feature request: Auto-import with pyright LSP · Issue #426 · hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp/issues/426))
-github nvim home manager                           <|> [protex/home-manager.nvim](https://github.com/protex/home-manager.nvim)
-github nvim io blog 01                             <|> [hiphish.github.io/blog/2024/02/01/introducing-yo-dawg-nvim/](https://hiphish.github.io/blog/2024/02/01/introducing-yo-dawg-nvim/)
-github nvim io ide guide post development          <|>  nvim   [rsdlt.github.io/posts/rust-nvim-ide-guide-walkthrough-development-debug/](https://rsdlt.github.io/posts/rust-nvim-ide-guide-walkthrough-development-debug/)
-github nvim lua blob                               <|> [goolord/alpha-nvim/blob/41283fb402713fc8b327e60907f74e46166f4cfd/lua%2Falpha.lua#L780](https://github.com/goolord/alpha-nvim/blob/41283fb402713fc8b327e60907f74e46166f4cfd/lua%252Falpha.lua%23L780)
-github nvim lua main blob                          <|> [leet0rz/barebone-nvim/blob/main/init.lua#L63-L113](https://github.com/leet0rz/barebone-nvim/blob/main/init.lua%23L63-L113)
-github nvim main blob doc setup md                 <|> [benlubas/molten-nvim/blob/main/docs/Notebook-Setup.md](https://github.com/benlubas/molten-nvim/blob/main/docs/Notebook-Setup.md)
-github nvim main dotfile tree                      <|>  [dpetka2001/dotfiles/tree/main/dot_config/nvim](https://github.com/dpetka2001/dotfiles/tree/main/dot_config/nvim)
-github nvim neorg                                  <|> [neorg macro invocation flowchart](https://github.com/nvim-neorg/neorg/assets/76052559/08365f93-4b39-4f4a-88ed-e5807a209877)
-github nvim other                                  <|> [rgroli/other.nvim](https://github.com/rgroli/other.nvim)
-github nvim plugin lua issue issue                 <|> [compile plugins to lua bytecode · Issue #614 · wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim/issues/614)
-github nvim python                                 <|>  nvim   [python-rope/pylsp-rope](https://github.com/python-rope/pylsp-rope)
-github nvim tool                                   <|>  nvim   [MrcJkb/haskell-tools.nvim](https://github.com/MrcJkb/haskell-tools.nvim)
-github nvim watch                                  <|> [Makaze/watch.nvim](https://github.com/Makaze/watch.nvim)
-github nvim with tree open                         <|> [nvim-neo-tree/neo-tree.nvim/wiki/Recipes#open-with-system-viewer](https://github.com/nvim-neo-tree/neo-tree.nvim/wiki/Recipes%23open-with-system-viewer)
-github plugin a python ghttp lsp by server         <|> [Add a plugin to provide autoimport functionality by bagel897 · Pull Request #199 · python-lsp/python-lsp-server](https://github.com/python-lsp/python-lsp-server/pull/199))
-github plugin vim a python ghttp for lsp import without <|> [wookayin/vim-autoimport: A vim plugin for adding import statements (for python and more) without LSP](https://github.com/wookayin/vim-autoimport))
-github plugin vim python ghttp import import that  <|> [mgedmin/python-imports.vim: Vim plugin that adds Python import statements semi-automatically](https://github.com/mgedmin/python-imports.vim))
-github python ghttp blob lsp doc server at md      <|> [python-lsp-server/docs/autoimport.md at develop · python-lsp/python-lsp-server](https://github.com/python-lsp/python-lsp-server/blob/develop/docs/autoimport.md))
-github python ghttp ide lsp by language server project community <|> [python-lsp/python-lsp-server: Fork of the python-language-server project, maintained by the Spyder IDE team and the community](https://github.com/python-lsp/python-lsp-server))
-github python ghttp lsp server issue issue import  <|>  [Auto-import? · Issue #34 · python-lsp/python-lsp-server](https://github.com/python-lsp/python-lsp-server/issues/34))
-github vim                                         <|>  [LGUG2Z/helix-vim](https://github.com/LGUG2Z/helix-vim)
-github vim                                         <|> [wlemuel/vim-tldr](https://github.com/wlemuel/vim-tldr)
-github vim blob doc language nixo nixpkg md master <|> [NixOS/nixpkgs/blob/master/doc/languages-frameworks/vim.section.md](https://github.com/NixOS/nixpkgs/blob/master/doc/languages-frameworks/vim.section.md)
-github vim io documentation                        <|> [Introduction - Vim-Clap Documentation](https://liuchengxu.github.io/vim-clap/)
-lsp vhyrro                                         <|> Vhyrro #7 LSP
-lsp video                                          <|> lsp.zero video
-lua setting on                                     <|> load settings depending on environment variables -> query env vars in init.lua?
-main at tutorial md                                <|> norg Norg-Tutorial/norg_tutorial.md at main · pysan3/Norg-Tutorial
-neorg command on                                   <|> bot-commands channel on Neorg Discord
-neovim                                             <|>  [practical.li/neovim/](https://practical.li/neovim/) → [practical.li/neovim/neovim-basics/](https://practical.li/neovim/neovim-basics/)
-neovim                                             <|>  lean-neovim
-neovim                                             <|>  neovim-101
-neovim                                             <|>  neovim-pde
-neovim                                             <|> Neovim
-neovim                                             <|> Neovim revamp - aliquote.org
-neovim                                             <|> Understanding Neovim #1 - Installation
-neovim 0 open                                      <|> [http://libgen.rs/search.php?req=neovim&open=0&res=25&view=simple&phrase=1&column=def](http://libgen.rs/search.php?req%3Dneovim%26open%3D0%26res%3D25%26view%3Dsimple%26phrase%3D1%26column%3Ddef)
-neovim a for config dotfile                        <|> Pakrohk-DotFiles/NvPak: A clean config for neovim to be of particular complexity
-neovim a for starter                               <|> Olical/magic-kit: A starter kit for Conjure, Aniseed and Neovim
-neovim a for tab                                   <|> (3) Tab(buffer) navigation for a novice : neovim
-neovim a lua line                                  <|> A Neovim Task Runner in 30 lines of Lua
-neovim a python ide configuring                    <|>  [playfulpython.com/configuring-neovim-as-a-python-ide/](https://www.playfulpython.com/configuring-neovim-as-a-python-ide/)
-neovim a python with                               <|>  Coding Python in Neovim with IPython as a REPL :: semipol.de
-neovim a python your workflow help                 <|>  (2) Please help a newbie understand your workflow (python) : neovim
-neovim blog                                        <|> [blog.ezeanyinabia.com/integrating-tuis-into-neovim/](https://blog.ezeanyinabia.com/integrating-tuis-into-neovim/)
-neovim by emac medium you                          <|> Switching from Emacs to Neovim: The Surprising Relief and Benefits You Need to Know! | by Adam Poniatowski | Medium
-neovim by medium                                   <|> Must-Have Neovim Keymaps. Effective keymaps are essential to… | by Michael Bao | Unixification | Medium
-neovim code                                        <|> Advent of Code in neovim : neovim
-neovim configuration                               <|>  [builtin.com/software-engineering-perspectives/neovim-configuration](https://builtin.com/software-engineering-perspectives/neovim-configuration)
-neovim configuration                               <|> Popular Neovim Configurations
-neovim doc                                         <|> Repeat - Neovim docs
-neovim doc                                         <|> Syntax - Neovim docs
-neovim doc help                                    <|> Help - Neovim docs
-neovim dotfyle                                     <|> [dotfyle.com/this-week-in-neovim/65](https://dotfyle.com/this-week-in-neovim/65)
-neovim for                                         <|>  neovim-for-minimalist
-neovim for beginner                                <|>  neovim-for-beginner
-neovim for by git an                               <|> NeogitOrg/neogit: An interactive and powerful Git interface for Neovim, inspired by Magit
-neovim for configuration modern                    <|> ** niuiic/modern-neovim-configuration: Modern configuration for neovim.
-neovim for doc install                             <|> [Install Cody for Neovim - Sourcegraph docs](https://docs.sourcegraph.com/cody/overview/install-neovim)
-neovim for lua at code                             <|> [precompile lua code for neovim at DuckDuckGo](https://duckduckgo.com/?q%3Dprecompile%2Blua%2Bcode%2Bfor%2Bneovim%26ia%3Dweb)
-neovim for with lsp development dev telescope      <|> [Neovim basics for Ruby and Rails development with LSP, NERDTree, Teles](https://anchietajunior.hashnode.dev/neovim-for-ruby-with-lsp-nerdtree-telescope)
-neovim ghttp for by medium alpha2phi refactoring beginner <|> [Neovim for Beginners — Refactoring | by alpha2phi | Medium](https://archive.ph/kcEUk))
-neovim ghttp youtube with watch v do workflow me part <|> [Data Science Workflow with neovim - Watch Me Do Kaggle House Regression EDA (Part 1) - YouTube]([...](https://www.youtube.com/watch?v%3DV7vVq0fjAYs))
-neovim ide how blog                                <|>  [programmingpercy.tech/blog/learn-how-to-use-neovim-as-ide/](https://programmingpercy.tech/blog/learn-how-to-use-neovim-as-ide/)
-neovim ide how do an program                       <|> How do ya'll run, execute and debug programs like in an IDE? : neovim
-neovim lsp                                         <|> LSP Basics in Neovim
-neovim lua youtube scratch                         <|> Neovim Lua From Scratch - YouTube
-neovim m                                           <|> [google.com/search?q=quick](https://www.google.com/search?q%3Dquick) intro to neovim key mapping&ie=utf-8&oe=utf-8&client=firefox-b-m
-neovim modern                                      <|>  modern-neovim
-neovim nix at feature home                         <|> everything-nix/home/features/neovim/default.nix at develop · Mateiadrielrafael/everything-nix
-neovim nix main at home program                    <|> nix/home/programs/cli/neovim at main · calops/nix
-neovim nvim                                        <|> nvim-java/nvim-java: Painless Java in Neovim
-neovim nvim config with project                    <|> Neovim - Project Local Config with exrc.nvim • Munif Tanjim
-neovim nvim dotfyle                                <|>  nvim   [dotfyle.com/this-week-in-neovim/69](https://dotfyle.com/this-week-in-neovim/69)
-neovim nvim for guide                              <|> lukas-reineke/indent-blankline.nvim: Indent guides for Neovim
-neovim nvim io with blog development               <|>  nvim   [blog.jez.io/haskell-development-with-neovim/](https://blog.jez.io/haskell-development-with-neovim/)
-neovim nvim lua configuration                      <|> glepnir/nvim: neovim configuration written in lua
-neovim nvim plugin a for manager modern lazy       <|> folke/lazy.nvim: 💤 A modern plugin manager for Neovim
-neovim nvim plugin a lua help terminal             <|> akinsho/toggleterm.nvim: A neovim lua plugin to help easily manage multiple terminal windows
-neovim nvim plugin for line                        <|> willothy/moveline.nvim: Neovim plugin for moving lines up and down
-neovim nvim r reddit comment                       <|>  nvim   [r/neovim/comments/1c6ock7/refactoring_in_neovim_3_different_ways/?chainedPosts=t3_12t5ugp](https://www.reddit.com/r/neovim/comments/1c6ock7/refactoring_in_neovim_3_different_ways/?chainedPosts=t3_12t5ugp)
-neovim nvim r reddit s                             <|> [grapple.nvim](https://www.reddit.com/r/neovim/s/OBUYxjRoXb)
-neovim nvim r reddit s                             <|> [r/neovim/s/7T90167Lyd](https://www.reddit.com/r/neovim/s/7T90167Lyd) nvim
-neovim nvim r reddit s                             <|> [r/neovim/s/KSnn96S3co](https://www.reddit.com/r/neovim/s/KSnn96S3co) LPeg in nvim
-neovim nvim r reddit s                             <|> [r/neovim/s/TX9JxTTEqW](https://www.reddit.com/r/neovim/s/TX9JxTTEqW) nvim
-neovim nvim r reddit s                             <|> [r/neovim/s/vGdtXxBbjj](https://www.reddit.com/r/neovim/s/vGdtXxBbjj) retrospect.nvim
-neovim nvim r reddit s                             <|> boringcomment.nvim [r/neovim/s/vFszbEpCbS](https://www.reddit.com/r/neovim/s/vFszbEpCbS)
-neovim nvim s a lua guide using substack p configure part <|> [A Morlock's Guide to Lua, Part 3: Using Lua to Configure Nvim](https://neovim.substack.com/p/a-morlocks-guide-to-lua-part-3-using)
-neovim nvim with your editor                       <|>  nvim   **Neovim: Creating, Curating and Customising Your Ideal Editor (with TJ DeVries)*
-neovim plugin a how build                          <|> → [duckduckgo.com/?q=how+to+build+a+plugin+in+neovim&ia=web](https://duckduckgo.com/?q=how+to+build+a+plugin+in+neovim&ia=web)
-neovim plugin based part                           <|> [Perl-Based Neovim Plugins, part 1: Run Dat Service : Hacking thy fearful symmetry](https://techblog.babyl.ca/entry/neovim-plugins-part-1/)
-neovim plugin lua youtube watch v scratch pp 3d    <|> Neovim Lua Plugin From Scratch - YouTube [video](https://www.youtube.com/watch?v=n4Lp4cV8YR0&pp=ygURTmVvdmltIGx1YSBwbHVnaW4%3D)
-neovim plugin lua youtube watch v scratch pp 3d    <|> Neovim Lua Plugin From Scratch [video](https://www.youtube.com/watch?v=n4Lp4cV8YR0&t=113s&pp=2AFxkAIBygURTmVvdmltIGx1YSBwbHVnaW4%3D)
-neovim plugin plugin without lazy that other       <|> (3) Plugin that lazy loads other plugins without managing them? : neovim
-neovim plugin plugin without lazy that other       <|> (3) Plugin that lazy loads other plugins without managing them? : neovim
-neovim plugin you                                  <|> NeoVim Plugins You Don't Want To Miss
-neovim plugin youtube watch v m video pp           <|> neovim plugins video [...](https://m.youtube.com/watch?v=1f7l2-Fap2s&pp=ygUPbmVvdmltIHRlcm1pbmFs)
-neovim python config                               <|>  Complete Python focused neovim config.
-neovim python for configuration development my ultimate <|>  My ultimate Neovim configuration for Python development
-neovim python for youtube ide development tutorial setting beginner <|>  NeoVim for Python development 🔥: setting up for beginners | NeoVim tutorial, NeoVim Python IDE - YouTube
-neovim python for youtube setup                    <|>  The perfect Neovim setup for Python - YouTube
-neovim python for youtube setup                    <|>  The perfect Neovim setup for Python - YouTube
-neovim python ghttp for configuration post development my m ultimate 2021 <|> [My ultimate Neovim configuration for Python development | Mohammad M. Ramezanpour](https://ramezanpour.net/post/2021/04/24/My-ultimate-Neovim-configuration-for-Python-development))
-neovim python ghttp for ide post using an          <|> [Using Neovim as an IDE for Python | David Spencer](https://www.davidspencer.xyz/posts/neovim-as-an-ide-python/))
-neovim python ghttp for youtube watch v setup      <|> [The perfect Neovim setup for Python - YouTube]([...](https://www.youtube.com/watch?v%3D4BnVeOUeZxc%26t%3D336s))
-neovim python ide post an                          <|>  [davidspencer.xyz/posts/neovim-as-an-ide-python/](https://www.davidspencer.xyz/posts/neovim-as-an-ide-python/)
-neovim python io                                   <|>  dreamsofcode-io/neovim-python
-neovim python io config main at                    <|>  neovim-python/configs at main · dreamsofcode-io/neovim-python
-neovim python medium alpha2phi                     <|>  [alpha2phi.medium.com/neovim-pde-c-c-go-python-and-rust-35fe86c3517d](https://alpha2phi.medium.com/neovim-pde-c-c-go-python-and-rust-35fe86c3517d)
-neovim python with ide blog post setup             <|>  [blog.claude.nl/posts/setup-neovim-as-python-ide-with-virtualenvs/](https://blog.claude.nl/posts/setup-neovim-as-python-ide-with-virtualenvs/)
-neovim r comment my help me                        <|> New to Neovim, please help me fix the syntax highlighting. Left is CLion, right is Neovim. See my comment. : r/neovim
-neovim r emac                                      <|> Emacs to neovim (or vice versa, or both) stories : r/neovim
-neovim r lua using you                             <|> PSA: Now you can set global highlight groups (ie. Normal) using Lua : r/neovim
-neovim r reddit a ghttp comment using              <|> [using neovim as a machine learning engineer](https://www.reddit.com/r/neovim/comments/1bf9e8t/using_neovim_as_a_machine_learning_engineer))
-neovim r reddit comment                            <|>  [r/neovim/comments/12wjp3d/setting_up_neovim_for_python_code_development](https://www.reddit.com/r/neovim/comments/12wjp3d/setting_up_neovim_for_python_code_development)
-neovim r reddit comment                            <|>  [r/neovim/comments/12wjp3d/setting_up_neovim_for_python_code_development/](https://www.reddit.com/r/neovim/comments/12wjp3d/setting_up_neovim_for_python_code_development/)
-neovim r reddit comment                            <|>  [r/neovim/comments/1459afu/best_prebuilt_config_for_python_or_maybe_vscode/](https://www.reddit.com/r/neovim/comments/1459afu/best_prebuilt_config_for_python_or_maybe_vscode/)
-neovim r reddit comment                            <|>  [r/neovim/comments/165eokv/setup_python_in_neovim/](https://www.reddit.com/r/neovim/comments/165eokv/setup_python_in_neovim/)
-neovim r reddit comment                            <|>  [r/neovim/comments/175nxdr/nvchad_terminal/](https://www.reddit.com/r/neovim/comments/175nxdr/nvchad_terminal/)
-neovim r reddit comment                            <|>  [r/neovim/comments/1acwrzb/data_scientists_are_you_using_vimneovim/](https://www.reddit.com/r/neovim/comments/1acwrzb/data_scientists_are_you_using_vimneovim/)
-neovim r reddit comment                            <|>  [r/neovim/comments/pgiobu/neovim_setup_suggestions_for_python_development/](https://www.reddit.com/r/neovim/comments/pgiobu/neovim_setup_suggestions_for_python_development/)
-neovim r reddit comment                            <|>  [r/neovim/comments/vz30kb/whats_your_python_editing_setup/](https://www.reddit.com/r/neovim/comments/vz30kb/whats_your_python_editing_setup/)
-neovim r reddit comment                            <|> [Extmarks Example? : r/neovim](https://www.reddit.com/r/neovim/comments/ism2jl/extmarks_example/)
-neovim r reddit comment                            <|> [r/neovim/comments/108zzf0/some_plugins_make_my_nvim_slow/](https://www.reddit.com/r/neovim/comments/108zzf0/some_plugins_make_my_nvim_slow/)
-neovim r reddit comment                            <|> [r/neovim/comments/1aiphg8/which_is_better_nonels_or_nvimlint_conform/](https://www.reddit.com/r/neovim/comments/1aiphg8/which_is_better_nonels_or_nvimlint_conform/)
-neovim r reddit comment                            <|> [r/neovim/comments/1ak5lvd/tdonvim_new_plugin_for_simple_notetaking_system/](https://www.reddit.com/r/neovim/comments/1ak5lvd/tdonvim_new_plugin_for_simple_notetaking_system/)
-neovim r reddit ghttp comment                      <|> [Ditching PyCharm in favor of NeoVim : r/neovim](https://www.reddit.com/r/neovim/comments/m0o9eg/ditching_pycharm_in_favor_of_neovim/))
-neovim r reddit ghttp comment with how file do refactoring you <|> [How do you manage rename/file move with auto refactoring : r/neovim](https://www.reddit.com/r/neovim/comments/ywoejc/how_do_you_manage_renamefile_move_with_auto/))
-neovim r reddit plugin s                           <|> [r/neovim/s/qZHhLu4kQo](https://www.reddit.com/r/neovim/s/qZHhLu4kQo) plugin optimization tips
-neovim r reddit plugin s comment                   <|> comment-box plugin [r/neovim/s/wB58sNKQB5](https://www.reddit.com/r/neovim/s/wB58sNKQB5)
-neovim r reddit s                                  <|> [r/neovim/s/2j96StuexD](https://www.reddit.com/r/neovim/s/2j96StuexD)
-neovim r reddit s                                  <|> [r/neovim/s/6nuivNQJII](https://www.reddit.com/r/neovim/s/6nuivNQJII)
-neovim r reddit s                                  <|> [r/neovim/s/7T90167Lyd](https://www.reddit.com/r/neovim/s/7T90167Lyd)
-neovim r reddit s                                  <|> [r/neovim/s/a8YIUGr8xq](https://www.reddit.com/r/neovim/s/a8YIUGr8xq)
-neovim r reddit s                                  <|> [r/neovim/s/KXjK3gou0N](https://www.reddit.com/r/neovim/s/KXjK3gou0N) cfg
-neovim r reddit s                                  <|> [r/neovim/s/OBUYxjRoXb](https://www.reddit.com/r/neovim/s/OBUYxjRoXb)
-neovim r reddit s                                  <|> [r/neovim/s/Rkn9or93JY](https://www.reddit.com/r/neovim/s/Rkn9or93JY)
-neovim r reddit s                                  <|> advice [r/neovim/s/2rR61kbRTU](https://www.reddit.com/r/neovim/s/2rR61kbRTU)
-neovim r reddit s a                                <|> ## [Cool shortcuts to become a neovim wizard.](https://www.reddit.com/r/neovim/s/EHI2tlRrKP)
-neovim r reddit s ghttp                            <|> [r/neovim/s/3gCKdjdKTT](https://www.reddit.com/r/neovim/s/3gCKdjdKTT))
-neovim r reddit s kbigrep75h                       <|> [r/neovim/s/kBigREp75H](https://www.reddit.com/r/neovim/s/kBigREp75H)
-neovim r reddit s kbigrep75h                       <|> [r/neovim/s/kBigREp75H](https://www.reddit.com/r/neovim/s/kBigREp75H)
-neovim r reddit s language server kbigrep75h       <|> most lightweight language server [...](https://www.reddit.com/r/neovim/s/kBigREp75H)
-neovim r reddit s language server kbigrep75h       <|> most lightweight language server [reddit link](https://www.reddit.com/r/neovim/s/kBigREp75H)
-neovim r reddit s lua you                          <|> [[r/neovim] [Fzf-Lua] Awesome Colorschemes - the timewaster you never knew you wanted](https://www.reddit.com/r/neovim/s/bIEM8GEtP7)
-neovim r reddit s markdown                         <|> [r/neovim/s/W40AIzWz0K](https://www.reddit.com/r/neovim/s/W40AIzWz0K) markdown heading colors
-neovim r reddit s nix                              <|> neovim nix [reddit link](https://www.reddit.com/r/neovim/s/6nuivNQJII)
-neovim r reddit s nix nixo                         <|> [neovim nix](https://www.reddit.com/r/NixOS/s/DwuJoNo5Si)
-neovim r reddit s python nix nixo                  <|> nix py python neovim nixos [...](https://www.reddit.com/r/NixOS/s/bUsuKtHM9W)
-neovim r reddit s setup                            <|> Note-Taking Setup [r/neovim/s/E21mS1kkWk](https://www.reddit.com/r/neovim/s/E21mS1kkWk)
-neovim r reddit s using                            <|> favorite tricks using Neovim [r/neovim/s/5xGvEARvKO](https://www.reddit.com/r/neovim/s/5xGvEARvKO)
-neovim r reddit s with nui                         <|> [r/neovim/s/6axYpBTG07](https://www.reddit.com/r/neovim/s/6axYpBTG07) building ui forms with nui
-neovim r reddit vim comment                        <|> vim prezis [r/neovim/comments/18ftufi/which_software_do_you_use_to_create_presentations](https://www.reddit.com/r/neovim/comments/18ftufi/which_software_do_you_use_to_create_presentations)
-neovim s a ghttp youtube watch v build             <|> [Let's build a Neovim Distro - YouTube]([...](https://www.youtube.com/watch?v%3DvTalfnXiHY4))
-neovim s by i emac medium                          <|> I Switched From Neovim to Emacs, Here’s Why | by Michael Bao | Unixification | Medium
-neovim s ghttp youtube watch v using workflow git ultimate telescope <|> [The ULTIMATE Git workflow using Neovim's Fugitive, Telescope & Git-Signs! - YouTube]([...](https://www.youtube.com/watch?v%3DIyBAuDPzdFY))
-neovim setting                                     <|> Neovim Setting keymaps | Chris@Machine
-neovim vim a python my                             <|>  Python REPL In Vim Changed My Life As A Developer (Neovim, Codi, Virtual Text)
-neovim vim file that vi open                       <|> neovim - Open another file in split view that sits within the same directory as the currently opened file - Vi and Vim Stack Exchange
-neovim vim how question                            <|> [stackoverflow.com/questions/73841647/in-neovim-vim-how-to-know-all-used-key-combination](https://stackoverflow.com/questions/73841647/in-neovim-vim-how-to-know-all-used-key-combination)
-neovim with feature feature emac full              <|> orhnk/vimacs: Feature-full Neovim Experience - With Emacs, JetBrains features OOTB
-neovim youtube watch v i do                        <|> [Why do I use Neovim? - YouTube](https://www.youtube.com/watch?v%3Dby0E9Nm2Eco)
-neovim youtube watch v i user                      <|> [I Read the Entire Neovim User Manual - YouTube](https://www.youtube.com/watch?v%3DrT-fbLFOCy0)
-neovim youtube watch v ide scratch 0               <|> From 0 to IDE in Neovim from Scratch [video](https://www.youtube.com/watch?v=zHTeCSVAFNY)
-neovim youtube watch v pp                          <|> Understanding Neovim series [video](https://www.youtube.com/watch?v=87AXw9Quy9U&list=PLx2ksyallYzW4WNYHD9xOFrPRYGlntAft&pp=iAQB)
-neovim youtube watch v video pp                    <|> Neovim video [video](https://www.youtube.com/watch?v=87AXw9Quy9U&list=PLx2ksyallYzW4WNYHD9xOFrPRYGlntAft&pp=iAQB)
-nixcat                                             <|> → eventually move to NixNeovim , possible, or nixCats
-nvim                                               <|> zellij-nav.nvim
-nvim                                               <|>  gen.nvim
-nvim by refactoring based                          <|> ThePrimeagen/refactoring.nvim: The Refactoring library based off the Refactoring book by Martin Fowler
-nvim by using my project i medium setting started  <|> Per project settings in nvim. I recently started using nvim as my… | by Dan Reeves | Medium
-nvim commit                                        <|> Commits · HallerPatrick/py_lsp.nvim
-nvim config at project                             <|> manage nvim configs per project at DuckDuckGo
-nvim editor                                        <|> → JIRA Ticket editor, analogous to oil.nvim
-nvim flake                                         <|> Gerg-L/nvim-flake
-nvim for                                           <|> saadparwaiz1/cmp_luasnip: luasnip completion source for nvim-cmp
-nvim git                                           <|> [git.sr.ht/~rbdr/nota.nvim](https://git.sr.ht/~rbdr/nota.nvim)
-nvim io config git                                 <|> [cloud.thesola.io/git/thesola10/nvim-config](https://cloud.thesola.io/git/thesola10/nvim-config)
-nvim lazy commit                                   <|> Commits · folke/lazy.nvim
-nvim lsp 0                                         <|> quick.nvim v2.0 Update (Native LSP is Here!)
-nvim lua issue install kickstart                   <|> failed to install lua_ls. · Issue #214 · nvim-lua/kickstart.nvim
-nvim main at                                       <|> moveline.nvim/Makefile at main · willothy/moveline.nvim
-nvim neorg telescope commit                        <|> Commits · nvim-neorg/neorg-telescope
-nvim nix home                                      <|> cat /home/isaac/.nix-profile/bin/nvim
-nvim plugin                                        <|> 5 nvim plugins
-nvim plugin                                        <|> idea: colorvar.nvim: plugin to extend colorizer to also color variable names referring to color values
-nvim plugin s ghttp lua config with blog configure <|> [Manu`s website | Configure Nvim with Lua: Plugin/package management (3)](https://manujsdev.com/blog/config-nvim-with-lua-plugin-package-management))
-nvim plugin youtube watch v m pp 3d                <|> 5 nvim plugins [...](https://m.youtube.com/watch?v=NJDu_53T_4M&pp=ygUKbmVvdmltIGJxZg%3D%3D)
-nvim python                                        <|>  Python nvim inline eval
-nvim r reddit s                                    <|> [r/vimporn/s/JEiYy98Fcb](https://www.reddit.com/r/vimporn/s/JEiYy98Fcb) nvim
-plugin vhyrro                                      <|> Vhyrro Treesitter Plugins
-plugin vim with how do                             <|> How to do 90% of what plugins do with just vim
-post                                               <|> [willcodefor.beer/posts/keyvim](https://willcodefor.beer/posts/keyvim)
-python doc language feature                        <|>  [lunarvim.org/docs/features/supported-languages/python](https://www.lunarvim.org/docs/features/supported-languages/python)
-python post development ultimate                   <|>  [pythops.com/post/the-ultimate-python-development-environment.html](https://pythops.com/post/the-ultimate-python-development-environment.html)
-r reddit vim comment                               <|> [r/vim/comments/vwhdpa/way_to_list_internalbuiltin_vim_keybindings/?rdt=50098](https://www.reddit.com/r/vim/comments/vwhdpa/way_to_list_internalbuiltin_vim_keybindings/?rdt%3D50098)
-reddit lsp                                         <|> Reddit - Treesitter vs LSP. Differences ans overlap
-s vim with question                                <|> [10 Questions with Vim’s creator, Bram Moolenaar](https://www.binpress.com/vim-creator-bram-moolenaar-interview/)
-started tutorial                                   <|> tutorials, getting started
-vhyrro                                             <|> Entire Playlist Vhyrro
-video                                              <|> videos
-video neorg                                        <|> Neorg Update Video
-video vhyrro                                       <|> Vhyrro opt video
-vim                                                <|> (3) Vim coding practice? : vim
-vim                                                <|> [vim-bootstrap.com/](https://vim-bootstrap.com/)
-vim a ghttp how by question                        <|> [How to replace a character by a newline in Vim - Stack Overflow](https://stackoverflow.com/questions/71323/how-to-replace-a-character-by-a-newline-in-vim))
-vim a python                                       <|>  [realpython.com/vim-and-python-a-match-made-in-heaven/](https://realpython.com/vim-and-python-a-match-made-in-heaven/)
-vim a python ghttp youtube with watch v editor started <|> [Getting Started with VIM as a Python Editor - YouTube]([...](https://www.youtube.com/watch?v%3DHKJUILUvkGk))
-vim a with guide development modern                <|> [A guide to modern Web Development with (Neo)vim](https://www.freecodecamp.org/news/a-guide-to-modern-web-development-with-neo-vim-333f7efbf8e2/)
-vim config project dev based community             <|> Project based config in vim - DEV Community
-vim for youtube watch v beginner                   <|> [Vim Motions for absolute beginners!!! - YouTube](https://www.youtube.com/watch?v%3DlWTzqPfy1gE)
-vim game                                          <|> [vim-racer.com/](https://vim-racer.com/))
-vim python code                                    <|> hanschen/vim-ipython-cell: Seamlessly run Python code in IPython from Vim
-vim python ide emac code                           <|>  Best Python IDE: Vim, Emacs, PyCharm, or Visual Studio Code? | Guido van Rossum and Lex Fridman
-vim python workflow terminal                       <|>  Dank Vim + Terminal + Python workflow
-vim your workflow git                              <|> jreybert/vimagit: Ease your git workflow within Vim
-with build                                         <|> vimUtils.buildVimPlugin with build step - Google Search
-youtube guide ultimate                             <|> Ultimate Quickfix List Guide - YouTube
-youtube watch v m devlog                           <|> [Here we go... | Rocks Devlog #1 - YouTube](https://m.youtube.com/watch?v%3DJDTy5w7AriU)**
+* {neovim reddit comment                            } <|> [r/neovim/comments/12xundc/c_dev_environment_in_pure_lua_based_plugins/](https://www.reddit.com/r/neovim/comments/12xundc/c_dev_environment_in_pure_lua_based_plugins/)
+* {neovim reddit comment                            } <|> [r/neovim/comments/15flmbm/wasm_plugins_finally_maybe_lol/](https://www.reddit.com/r/neovim/comments/15flmbm/wasm_plugins_finally_maybe_lol/)
+* {neovim reddit comment                            } <|> [r/neovim/comments/172uiu1/yazi_a_new_tui_program_combines_rangernnnlf/](https://www.reddit.com/r/neovim/comments/172uiu1/yazi_a_new_tui_program_combines_rangernnnlf/)
+* {neovim reddit comment                            } <|> [r/neovim/comments/18xtumq/poopnvim_embrace_the_code_smell/](https://www.reddit.com/r/neovim/comments/18xtumq/poopnvim_embrace_the_code_smell/)
+* {neovim reddit comment                            } <|> [r/neovim/comments/nfm8ub/javakotlin_developers_that_use_neovim_as_their/](https://www.reddit.com/r/neovim/comments/nfm8ub/javakotlin_developers_that_use_neovim_as_their/)
+* {neovim reddit comment                            } <|> [r/neovim/comments/tcusd9/best_plugin_for_per_project_config_changes_and/?rdt=36609](https://www.reddit.com/r/neovim/comments/tcusd9/best_plugin_for_per_project_config_changes_and/?rdt=36609)
+* {neovim reddit comment                            } <|> [r/neovim/comments/xa4ca6/best_way_to_validate_and_format_json_files/](https://www.reddit.com/r/neovim/comments/xa4ca6/best_way_to_validate_and_format_json_files/)
+* {a with an install command} <|> write function buildVimPluginOpt to install in an opt directory where it can be imported with a command or an autocommand
+* {alpha2phi} <|> alpha2phi
+* {blog post} <|> blog posts
+* {configuration} <|> Pylint configuration | Codeac
+* {discussion} <|>  HN discussion (general)
+* {documentation} <|> NvimTree - Documentation
+* {editor} <|> Translation Alignment Editor UGARIT
+* {feature full} <|> → Juventas (full-features Jupyter Notebook)
+* {ghttp io feature 0 documentation} <|> [Features — rope 1.12.0 documentation](https://rope.readthedocs.io/en/latest/rope.html))
+* {ghttp youtube watch v 2021} <|> [DIY quality of life improvements - Anton Kastritskiy - Vimconf 2021 - YouTube]([...](https://www.youtube.com/watch?v%3DpkyurqHhlXI))
+* {github} <|> [Dan7h3x/NvimPy](https://github.com/Dan7h3x/NvimPy)
+* {github} <|> [datsfilipe/datsnvim](https://github.com/datsfilipe/datsnvim)
+* {github} <|> [daUnknownCoder/NeutronVim](https://github.com/daUnknownCoder/NeutronVim)
+* {github} <|> [inshellisense](https://github.com/microsoft/inshellisense)
+* {github} <|> [NormalNvim/NormalNvim](https://github.com/NormalNvim/NormalNvim)
+* {github} <|> [orhnk/vimacs](https://github.com/orhnk/vimacs)
+* {github} <|> [sontungexpt/stinvim](https://github.com/sontungexpt/stinvim)
+* {github 2kabhishek} <|> [2kabhishek/tdo](https://github.com/2kabhishek/tdo)
+* {github dotfile alpha2phi} <|>  [alpha2phi/dotfiles](https://github.com/alpha2phi/dotfiles)
+* {github ghttp io 0 import documentation} <|> [Pyflyby — pyflyby 1.9.0 documentation](https://deshaw.github.io/pyflyby/%23quick-start-tidy-imports))
+* {github io vhyrro} <|>  [vhyrro.github.io/](https://vhyrro.github.io/)
+* {github lazyvim} <|> [JackDerksen/viis-lazyvim](https://github.com/JackDerksen/viis-lazyvim)
+* {github lazyvim} <|> [JackDerksen/viis-lazyvim](https://github.com/JackDerksen/viis-lazyvim)
+* {github lsp dotfile commit} <|> custom lsp format [xero/dotfiles/commit/a5a65df503be1456650b9aaebb5ffa0cdc8f21fc#diff-93da02ebea8df64527f86b7aade95fa82d243b23a18cd4b8004e591db618a9c9](https://github.com/xero/dotfiles/commit/a5a65df503be1456650b9aaebb5ffa0cdc8f21fc#diff-93da02ebea8df64527f86b7aade95fa82d243b23a18cd4b8004e591db618a9c9)
+* {github lua discussion} <|> [Unisay/purescript-lua Ideas · Discussions · GitHub](https://github.com/Unisay/purescript-lua/discussions/categories/ideas)
+* {github lua main blob master} <|> [kreatoo/dots/blob/master/main%2Fnvim%2Finit.lua](https://github.com/kreatoo/dots/blob/master/main%252Fnvim%252Finit.lua)
+* {github neovim ghttp for config my file} <|> [sagedemage/neovim-config: My config file for Neovim](https://github.com/sagedemage/neovim-config))
+* {github neovim ghttp other} <|> [glacambre/firenvim: Embed Neovim in Chrome, Firefox & others.](https://github.com/glacambre/firenvim))
+* {github neovim io config scratch} <|>  [martinlwx.github.io/en/config-neovim-from-scratch/](https://martinlwx.github.io/en/config-neovim-from-scratch/)
+* {github neovim io refactoring} <|> [Refactoring - Neovim Wiki](https://zchee.github.io/neovim-wiki/Refactoring/)
+* {github neovim io setup jdhao} <|>  [jdhao.github.io/2023/07/22/neovim-pylsp-setup/](https://jdhao.github.io/2023/07/22/neovim-pylsp-setup/)
+* {github neovim issue} <|> wasm [neovim/neovim/issues/23579](https://github.com/neovim/neovim/issues/23579)
+* {github neovim lua io using vonheikemen tool devlog configuring} <|>  [vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/](https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/)
+* {github neovim lua io using vonheikemen tool devlog configuring} <|> [vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/](https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/)
+* {github neovim nix blob home manager master program community} <|> [nix-community/home-manager/blob/master/modules/programs/neovim.nix#L33C34-L33C42](https://github.com/nix-community/home-manager/blob/master/modules/programs/neovim.nix#L33C34-L33C42)
+* {github neovim nix blob nixo nixpkg program} <|> $$$ [NixOS/nixpkgs/blob/2230a20f2b5a14f2db3d7f13a2dc3c22517e790b/nixos/modules/programs/neovim.nix](https://github.com/NixOS/nixpkgs/blob/2230a20f2b5a14f2db3d7f13a2dc3c22517e790b/nixos/modules/programs/neovim.nix)
+* {github neovim nix main tree} <|> [jamibear/neovim.nix/tree/main](https://github.com/jamibear/neovim.nix/tree/main)
+* {github neovim nvim} <|>  nvim   [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+* {github neovim nvim a ghttp for lua config} <|>  [xvzftube/nvim-lua-for-ds: A simple neovim config for data science](https://github.com/xvzftube/nvim-lua-for-ds))
+* {github neovim nvim a python ghttp for lua with config configuration file jdhao markdown modern tab full} <|> [jdhao/nvim-config: A modern Neovim configuration with full battery for Python, Lua, C++, Markdown, LaTeX, and more...](https://github.com/jdhao/nvim-config?tab%3Dreadme-ov-file))
+* {github neovim nvim a python ghttp for lua with config configuration jdhao markdown modern full} <|> [jdhao/nvim-config: A modern Neovim configuration with full battery for Python, Lua, C++, Markdown, LaTeX, and more...](https://github.com/jdhao/nvim-config))
+* {github neovim nvim file your open command terminal} <|> [willothy/flatten.nvim: Open files and command output from wezterm, kitty, and neovim terminals in your current neovim instance](https://github.com/willothy/flatten.nvim)
+* {github neovim nvim for refactoring} <|> [wakeLanaka/refactor.nvim: Refactoring for neovim](https://github.com/wakeLanaka/refactor.nvim)
+* {github neovim nvim plugin a your tab} <|> [nanozuki/tabby.nvim: A declarative, highly configurable, and neovim style tabline plugin. Use your nvim tabs as a workspace multiplexer!](https://github.com/nanozuki/tabby.nvim/)
+* {github neovim nvim plugin for} <|> [sourcegraph/sg.nvim: The official Sourcegraph/Cody plugin for Neovim](https://github.com/sourcegraph/sg.nvim)
+* {github neovim nvim s a lua nix nixcat flake birdeehub user kickstart} <|> [BirdeeHub/nixCats-nvim: A Lua-natic nix user's Neovim Flake, kickstart.nvim style](https://github.com/BirdeeHub/nixCats-nvim)
+* {github neovim nvim s a lua nix nixo nixcat flake birdeehub user user} <|> [GitHub - BirdeeHub/nixCats-nvim: A Lua-natic nix user's Neovim Flake, - Announcements - NixOS Discourse](https://discourse.nixos.org/t/github-birdeehub-nixcats-nvim-a-lua-natic-nix-users-neovim-flake/38956/6)
+* {github neovim nvim s lsp feature based on command} <|> [smjonas/inc-rename.nvim: Incremental LSP renaming based on Neovim's command-preview feature.](https://github.com/smjonas/inc-rename.nvim)
+* {github neovim s a io config ide by blog guide scratch your} <|> [Transform Your Neovim into a IDE: A Step-by-Step Guide - MartinLwx's Blog](https://martinlwx.github.io/en/config-neovim-from-scratch/)
+* {github neovim s a io guide jdhao markdown 01} <|> [Markdown Writing and Previewing in Neovim -- A Complete Guide - jdhao's digital space](https://jdhao.github.io/2019/01/15/markdown_edit_preview_nvim/)
+* {github neovim s a io guide jdhao markdown 01} <|> [Markdown Writing and Previewing in Neovim -- A Complete Guide - jdhao's digital space](https://jdhao.github.io/2019/01/15/markdown_edit_preview_nvim/%23google_vignette)
+* {github neovim scratch} <|>  [LunarVim/Neovim-from-scratch](https://github.com/LunarVim/Neovim-from-scratch)
+* {github neovim scratch} <|>  [LunarVim/Neovim-from-scratch](https://github.com/LunarVim/Neovim-from-scratch)
+* {github neovim with nix configure} <|> [NixNeovim/NixNeovim: Configure Neovim with Nix!](https://github.com/NixNeovim/NixNeovim)
+* {github neovim with nix configure community} <|> [nix-community/nixvim: Configure Neovim with Nix! [maintainer=@pta2002, @traxys, @GaetanLepage]](https://github.com/nix-community/nixvim)
+* {github nvim} <|>  nvim   [adriankarlen/stsln.nvim](https://github.com/adriankarlen/stsln.nvim)
+* {github nvim} <|>  nvim   [mrcjkb/rustaceanvim](https://github.com/mrcjkb/rustaceanvim)
+* {github nvim} <|>  nvim   [oxfist/night-owl.nvim](https://github.com/oxfist/night-owl.nvim)
+* {github nvim} <|>  nvim   [simonmclean/triptych.nvim](https://github.com/simonmclean/triptych.nvim)
+* {github nvim} <|> [616b2f/bsp.nvim](https://github.com/616b2f/bsp.nvim)
+* {github nvim} <|> [AckslD/swenv.nvim](https://github.com/AckslD/swenv.nvim)
+* {github nvim} <|> [artemave/workspace-diagnostics.nvim](https://github.com/artemave/workspace-diagnostics.nvim)
+* {github nvim} <|> [backdround/global-note.nvim](https://github.com/backdround/global-note.nvim)
+* {github nvim} <|> [benlubas/image-save.nvim](https://github.com/benlubas/image-save.nvim)
+* {github nvim} <|> [cbochs/grapple.nvim](https://github.com/cbochs/grapple.nvim)
+* {github nvim} <|> [chrishrb/gx.nvim](https://github.com/chrishrb/gx.nvim)
+* {github nvim} <|> [dlvhdr/gh-blame.nvim](https://github.com/dlvhdr/gh-blame.nvim)
+* {github nvim} <|> [EnriqueBravo115/nvim](https://github.com/EnriqueBravo115/nvim)
+* {github nvim} <|> [ErdajtSopjani/nvim](https://github.com/ErdajtSopjani/nvim)
+* {github nvim} <|> [gmr458/nvim](https://github.com/gmr458/nvim)
+* {github nvim} <|> [gsuuon/model.nvim](https://github.com/gsuuon/model.nvim)
+* {github nvim} <|> [hrsh7th/nvim-insx](https://github.com/hrsh7th/nvim-insx)
+* {github nvim} <|> [icholy/lsplinks.nvim](https://github.com/icholy/lsplinks.nvim)
+* {github nvim} <|> [jghauser/kitty-runner.nvim](https://github.com/jghauser/kitty-runner.nvim)
+* {github nvim} <|> [kuznetsss/delegate.nvim](https://github.com/kuznetsss/delegate.nvim)
+* {github nvim} <|> [lukas-reineke/headlines.nvim](https://github.com/lukas-reineke/headlines.nvim)
+* {github nvim} <|> [marco-souza/term.nvim](https://github.com/marco-souza/term.nvim)
+* {github nvim} <|> [Nedra1998/nvim-mdlink](https://github.com/Nedra1998/nvim-mdlink)
+* {github nvim} <|> [otavioschwanck/arrow.nvim](https://github.com/otavioschwanck/arrow.nvim)
+* {github nvim} <|> [Selyss/mind.nvim](https://github.com/Selyss/mind.nvim)
+* {github nvim} <|> [SuperBo/fugit2.nvim](https://github.com/SuperBo/fugit2.nvim)
+* {github nvim} <|> [tamton-aquib/keys.nvim](https://github.com/tamton-aquib/keys.nvim)
+* {github nvim} <|> [tanloong/interlaced.nvim](https://github.com/tanloong/interlaced.nvim) partext
+* {github nvim} <|> [thallada/farout.nvim](https://github.com/thallada/farout.nvim)
+* {github nvim} <|> [wochap/nvim](https://github.com/wochap/nvim)
+* {github nvim} <|> esp nvim [probe2k/bspwm_rice](https://github.com/probe2k/bspwm_rice)
+* {github nvim} <|> macro nvim [Bekaboo/nvim](https://github.com/Bekaboo/nvim)
+* {github nvim 0} <|> [lukas-reineke/headlines.nvim/releases/tag/v4.0.0](https://github.com/lukas-reineke/headlines.nvim/releases/tag/v4.0.0)
+* {github nvim 2kabhishek} <|> [2KAbhishek/tdo.nvim](https://github.com/2KAbhishek/tdo.nvim)
+* {github nvim config jdhao} <|>  [jdhao/nvim-config](https://github.com/jdhao/nvim-config)
+* {github nvim config main tree} <|> [aharoJ/nvim-config/tree/main](https://github.com/aharoJ/nvim-config/tree/main)
+* {github nvim discussion} <|> [nvim-neotest/neotest/discussions/204](https://github.com/nvim-neotest/neotest/discussions/204)
+* {github nvim file tab} <|> [sakhnik/nvim-gdb?tab=readme-ov-file](https://github.com/sakhnik/nvim-gdb?tab%3Dreadme-ov-file)
+* {github nvim file telescope} <|> [nvim-telescope/telescope-file-browser.nvim](https://github.com/nvim-telescope/telescope-file-browser.nvim)
+* {github nvim ghttp} <|> [olimorris/codecompanion.nvim](https://github.com/olimorris/codecompanion.nvim))
+* {github nvim ghttp} <|> [otavioschwanck/arrow.nvim](https://github.com/otavioschwanck/arrow.nvim))
+* {github nvim ghttp by feature file refactoring based tab} <|> [ThePrimeagen/refactoring.nvim: The Refactoring library based off the Refactoring book by Martin Fowler](https://github.com/ThePrimeagen/refactoring.nvim?tab%3Dreadme-ov-file%23refactoring-features))
+* {github nvim ghttp config main dotfile tree at alpha2phi} <|> [dotfiles/config/nvim at main · alpha2phi/dotfiles](https://github.com/alpha2phi/dotfiles/tree/main/config/nvim))
+* {github nvim ghttp dev nui} <|> [grapp-dev/nui-components.nvim](https://github.com/grapp-dev/nui-components.nvim))
+* {github nvim ghttp with} <|> [nvim-pack/nvim-spectre: Find the enemy and replace them with dark power.](https://github.com/nvim-pack/nvim-spectre))
+* {github nvim ghttp with lsp feature question issue issue import} <|> [Question/feature request: Auto-import with pyright LSP · Issue #426 · hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp/issues/426))
+* {github nvim home manager} <|> [protex/home-manager.nvim](https://github.com/protex/home-manager.nvim)
+* {github nvim io blog 01} <|> [hiphish.github.io/blog/2024/02/01/introducing-yo-dawg-nvim/](https://hiphish.github.io/blog/2024/02/01/introducing-yo-dawg-nvim/)
+* {github nvim io ide guide post development} <|>  nvim   [rsdlt.github.io/posts/rust-nvim-ide-guide-walkthrough-development-debug/](https://rsdlt.github.io/posts/rust-nvim-ide-guide-walkthrough-development-debug/)
+* {github nvim lua blob} <|> [goolord/alpha-nvim/blob/41283fb402713fc8b327e60907f74e46166f4cfd/lua%2Falpha.lua#L780](https://github.com/goolord/alpha-nvim/blob/41283fb402713fc8b327e60907f74e46166f4cfd/lua%252Falpha.lua%23L780)
+* {github nvim lua main blob} <|> [leet0rz/barebone-nvim/blob/main/init.lua#L63-L113](https://github.com/leet0rz/barebone-nvim/blob/main/init.lua%23L63-L113)
+* {github nvim main blob doc setup md} <|> [benlubas/molten-nvim/blob/main/docs/Notebook-Setup.md](https://github.com/benlubas/molten-nvim/blob/main/docs/Notebook-Setup.md)
+* {github nvim main dotfile tree} <|>  [dpetka2001/dotfiles/tree/main/dot_config/nvim](https://github.com/dpetka2001/dotfiles/tree/main/dot_config/nvim)
+* {github nvim neorg} <|> [neorg macro invocation flowchart](https://github.com/nvim-neorg/neorg/assets/76052559/08365f93-4b39-4f4a-88ed-e5807a209877)
+* {github nvim other} <|> [rgroli/other.nvim](https://github.com/rgroli/other.nvim)
+* {github nvim plugin lua issue issue} <|> [compile plugins to lua bytecode · Issue #614 · wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim/issues/614)
+* {github nvim python} <|>  nvim   [python-rope/pylsp-rope](https://github.com/python-rope/pylsp-rope)
+* {github nvim tool} <|>  nvim   [MrcJkb/haskell-tools.nvim](https://github.com/MrcJkb/haskell-tools.nvim)
+* {github nvim watch} <|> [Makaze/watch.nvim](https://github.com/Makaze/watch.nvim)
+* {github nvim with tree open} <|> [nvim-neo-tree/neo-tree.nvim/wiki/Recipes#open-with-system-viewer](https://github.com/nvim-neo-tree/neo-tree.nvim/wiki/Recipes%23open-with-system-viewer)
+* {github plugin a python ghttp lsp by server} <|> [Add a plugin to provide autoimport functionality by bagel897 · Pull Request #199 · python-lsp/python-lsp-server](https://github.com/python-lsp/python-lsp-server/pull/199))
+* {github plugin vim a python ghttp for lsp import without} <|> [wookayin/vim-autoimport: A vim plugin for adding import statements (for python and more) without LSP](https://github.com/wookayin/vim-autoimport))
+* {github plugin vim python ghttp import import that} <|> [mgedmin/python-imports.vim: Vim plugin that adds Python import statements semi-automatically](https://github.com/mgedmin/python-imports.vim))
+* {github python ghttp blob lsp doc server at md} <|> [python-lsp-server/docs/autoimport.md at develop · python-lsp/python-lsp-server](https://github.com/python-lsp/python-lsp-server/blob/develop/docs/autoimport.md))
+* {github python ghttp ide lsp by language server project community} <|> [python-lsp/python-lsp-server: Fork of the python-language-server project, maintained by the Spyder IDE team and the community](https://github.com/python-lsp/python-lsp-server))
+* {github python ghttp lsp server issue issue import} <|>  [Auto-import? · Issue #34 · python-lsp/python-lsp-server](https://github.com/python-lsp/python-lsp-server/issues/34))
+* {github vim} <|>  [LGUG2Z/helix-vim](https://github.com/LGUG2Z/helix-vim)
+* {github vim} <|> [wlemuel/vim-tldr](https://github.com/wlemuel/vim-tldr)
+* {github vim blob doc language nixo nixpkg md master} <|> [NixOS/nixpkgs/blob/master/doc/languages-frameworks/vim.section.md](https://github.com/NixOS/nixpkgs/blob/master/doc/languages-frameworks/vim.section.md)
+* {github vim io documentation} <|> [Introduction - Vim-Clap Documentation](https://liuchengxu.github.io/vim-clap/)
+* {lsp vhyrro} <|> Vhyrro #7 LSP
+* {lsp video} <|> lsp.zero video
+* {lua setting on} <|> load settings depending on environment variables -> query env vars in init.lua?
+* {main at tutorial md} <|> norg Norg-Tutorial/norg_tutorial.md at main · pysan3/Norg-Tutorial
+* {neorg command on} <|> bot-commands channel on Neorg Discord
+* {neovim} <|>  [practical.li/neovim/](https://practical.li/neovim/) → [practical.li/neovim/neovim-basics/](https://practical.li/neovim/neovim-basics/)
+* {neovim} <|>  lean-neovim
+* {neovim} <|>  neovim-101
+* {neovim} <|>  neovim-pde
+* {neovim} <|> Neovim
+* {neovim} <|> Neovim revamp - aliquote.org
+* {neovim} <|> Understanding Neovim #1 - Installation
+* {neovim 0 open} <|> [http://libgen.rs/search.php?req=neovim&open=0&res=25&view=simple&phrase=1&column=def](http://libgen.rs/search.php?req%3Dneovim%26open%3D0%26res%3D25%26view%3Dsimple%26phrase%3D1%26column%3Ddef)
+* {neovim a for config dotfile} <|> Pakrohk-DotFiles/NvPak: A clean config for neovim to be of particular complexity
+* {neovim a for starter} <|> Olical/magic-kit: A starter kit for Conjure, Aniseed and Neovim
+* {neovim a for tab} <|> (3) Tab(buffer) navigation for a novice : neovim
+* {neovim a lua line} <|> A Neovim Task Runner in 30 lines of Lua
+* {neovim a python ide configuring} <|>  [playfulpython.com/configuring-neovim-as-a-python-ide/](https://www.playfulpython.com/configuring-neovim-as-a-python-ide/)
+* {neovim a python with} <|>  Coding Python in Neovim with IPython as a REPL :: semipol.de
+* {neovim a python your workflow help} <|>  (2) Please help a newbie understand your workflow (python) : neovim
+* {neovim blog} <|> [blog.ezeanyinabia.com/integrating-tuis-into-neovim/](https://blog.ezeanyinabia.com/integrating-tuis-into-neovim/)
+* {neovim by emac medium you} <|> Switching from Emacs to Neovim: The Surprising Relief and Benefits You Need to Know! | by Adam Poniatowski | Medium
+* {neovim by medium} <|> Must-Have Neovim Keymaps. Effective keymaps are essential to… | by Michael Bao | Unixification | Medium
+* {neovim code} <|> Advent of Code in neovim : neovim
+* {neovim configuration} <|>  [builtin.com/software-engineering-perspectives/neovim-configuration](https://builtin.com/software-engineering-perspectives/neovim-configuration)
+* {neovim configuration} <|> Popular Neovim Configurations
+* {neovim doc} <|> Repeat - Neovim docs
+* {neovim doc} <|> Syntax - Neovim docs
+* {neovim doc help} <|> Help - Neovim docs
+* {neovim dotfyle} <|> [dotfyle.com/this-week-in-neovim/65](https://dotfyle.com/this-week-in-neovim/65)
+* {neovim for} <|>  neovim-for-minimalist
+* {neovim for beginner} <|>  neovim-for-beginner
+* {neovim for by git an} <|> NeogitOrg/neogit: An interactive and powerful Git interface for Neovim, inspired by Magit
+* {neovim for configuration modern} <|> ** niuiic/modern-neovim-configuration: Modern configuration for neovim.
+* {neovim for doc install} <|> [Install Cody for Neovim - Sourcegraph docs](https://docs.sourcegraph.com/cody/overview/install-neovim)
+* {neovim for lua at code} <|> [precompile lua code for neovim at DuckDuckGo](https://duckduckgo.com/?q%3Dprecompile%2Blua%2Bcode%2Bfor%2Bneovim%26ia%3Dweb)
+* {neovim for with lsp development dev telescope} <|> [Neovim basics for Ruby and Rails development with LSP, NERDTree, Teles](https://anchietajunior.hashnode.dev/neovim-for-ruby-with-lsp-nerdtree-telescope)
+* {neovim ghttp for by medium alpha2phi refactoring beginner} <|> [Neovim for Beginners — Refactoring | by alpha2phi | Medium](https://archive.ph/kcEUk))
+* {neovim ghttp youtube with watch v do workflow me part} <|> [Data Science Workflow with neovim - Watch Me Do Kaggle House Regression EDA (Part 1) - YouTube]([...](https://www.youtube.com/watch?v%3DV7vVq0fjAYs))
+* {neovim ide how blog} <|>  [programmingpercy.tech/blog/learn-how-to-use-neovim-as-ide/](https://programmingpercy.tech/blog/learn-how-to-use-neovim-as-ide/)
+* {neovim ide how do an program} <|> How do ya'll run, execute and debug programs like in an IDE? : neovim
+* {neovim lsp} <|> LSP Basics in Neovim
+* {neovim lua youtube scratch} <|> Neovim Lua From Scratch - YouTube
+* {neovim m} <|> [google.com/search?q=quick](https://www.google.com/search?q%3Dquick) intro to neovim key mapping&ie=utf-8&oe=utf-8&client=firefox-b-m
+* {neovim modern} <|>  modern-neovim
+* {neovim nix at feature home} <|> everything-nix/home/features/neovim/default.nix at develop · Mateiadrielrafael/everything-nix
+* {neovim nix main at home program} <|> nix/home/programs/cli/neovim at main · calops/nix
+* {neovim nvim} <|> nvim-java/nvim-java: Painless Java in Neovim
+* {neovim nvim config with project} <|> Neovim - Project Local Config with exrc.nvim • Munif Tanjim
+* {neovim nvim dotfyle} <|>  nvim   [dotfyle.com/this-week-in-neovim/69](https://dotfyle.com/this-week-in-neovim/69)
+* {neovim nvim for guide} <|> lukas-reineke/indent-blankline.nvim: Indent guides for Neovim
+* {neovim nvim io with blog development} <|>  nvim   [blog.jez.io/haskell-development-with-neovim/](https://blog.jez.io/haskell-development-with-neovim/)
+* {neovim nvim lua configuration} <|> glepnir/nvim: neovim configuration written in lua
+* {neovim nvim plugin a for manager modern lazy} <|> folke/lazy.nvim: 💤 A modern plugin manager for Neovim
+* {neovim nvim plugin a lua help terminal} <|> akinsho/toggleterm.nvim: A neovim lua plugin to help easily manage multiple terminal windows
+* {neovim nvim plugin for line} <|> willothy/moveline.nvim: Neovim plugin for moving lines up and down
+* {neovim nvim r reddit comment} <|>  nvim   [r/neovim/comments/1c6ock7/refactoring_in_neovim_3_different_ways/?chainedPosts=t3_12t5ugp](https://www.reddit.com/r/neovim/comments/1c6ock7/refactoring_in_neovim_3_different_ways/?chainedPosts=t3_12t5ugp)
+* {neovim nvim r reddit s} <|> [grapple.nvim](https://www.reddit.com/r/neovim/s/OBUYxjRoXb)
+* {neovim nvim r reddit s} <|> [r/neovim/s/7T90167Lyd](https://www.reddit.com/r/neovim/s/7T90167Lyd) nvim
+* {neovim nvim r reddit s} <|> [r/neovim/s/KSnn96S3co](https://www.reddit.com/r/neovim/s/KSnn96S3co) LPeg in nvim
+* {neovim nvim r reddit s} <|> [r/neovim/s/TX9JxTTEqW](https://www.reddit.com/r/neovim/s/TX9JxTTEqW) nvim
+* {neovim nvim r reddit s} <|> [r/neovim/s/vGdtXxBbjj](https://www.reddit.com/r/neovim/s/vGdtXxBbjj) retrospect.nvim
+* {neovim nvim r reddit s} <|> boringcomment.nvim [r/neovim/s/vFszbEpCbS](https://www.reddit.com/r/neovim/s/vFszbEpCbS)
+* {neovim nvim s a lua guide using substack p configure part} <|> [A Morlock's Guide to Lua, Part 3: Using Lua to Configure Nvim](https://neovim.substack.com/p/a-morlocks-guide-to-lua-part-3-using)
+* {neovim nvim with your editor} <|>  nvim   **Neovim: Creating, Curating and Customising Your Ideal Editor (with TJ DeVries)*
+* {neovim plugin a how build} <|> → [duckduckgo.com/?q=how+to+build+a+plugin+in+neovim&ia=web](https://duckduckgo.com/?q=how+to+build+a+plugin+in+neovim&ia=web)
+* {neovim plugin based part} <|> [Perl-Based Neovim Plugins, part 1: Run Dat Service : Hacking thy fearful symmetry](https://techblog.babyl.ca/entry/neovim-plugins-part-1/)
+* {neovim plugin lua youtube watch v scratch pp 3d} <|> Neovim Lua Plugin From Scratch - YouTube [video](https://www.youtube.com/watch?v=n4Lp4cV8YR0&pp=ygURTmVvdmltIGx1YSBwbHVnaW4%3D)
+* {neovim plugin lua youtube watch v scratch pp 3d} <|> Neovim Lua Plugin From Scratch [video](https://www.youtube.com/watch?v=n4Lp4cV8YR0&t=113s&pp=2AFxkAIBygURTmVvdmltIGx1YSBwbHVnaW4%3D)
+* {neovim plugin plugin without lazy that other} <|> (3) Plugin that lazy loads other plugins without managing them? : neovim
+* {neovim plugin plugin without lazy that other} <|> (3) Plugin that lazy loads other plugins without managing them? : neovim
+* {neovim plugin you} <|> NeoVim Plugins You Don't Want To Miss
+* {neovim plugin youtube watch v m video pp} <|> neovim plugins video [...](https://m.youtube.com/watch?v=1f7l2-Fap2s&pp=ygUPbmVvdmltIHRlcm1pbmFs)
+* {neovim python config} <|>  Complete Python focused neovim config.
+* {neovim python for configuration development my ultimate} <|>  My ultimate Neovim configuration for Python development
+* {neovim python for youtube ide development tutorial setting beginner} <|>  NeoVim for Python development 🔥: setting up for beginners | NeoVim tutorial, NeoVim Python IDE - YouTube
+* {neovim python for youtube setup} <|>  The perfect Neovim setup for Python - YouTube
+* {neovim python for youtube setup} <|>  The perfect Neovim setup for Python - YouTube
+* {neovim python ghttp for configuration post development my m ultimate 2021} <|> [My ultimate Neovim configuration for Python development | Mohammad M. Ramezanpour](https://ramezanpour.net/post/2021/04/24/My-ultimate-Neovim-configuration-for-Python-development))
+* {neovim python ghttp for ide post using an} <|> [Using Neovim as an IDE for Python | David Spencer](https://www.davidspencer.xyz/posts/neovim-as-an-ide-python/))
+* {neovim python ghttp for youtube watch v setup} <|> [The perfect Neovim setup for Python - YouTube]([...](https://www.youtube.com/watch?v%3D4BnVeOUeZxc%26t%3D336s))
+* {neovim python ide post an} <|>  [davidspencer.xyz/posts/neovim-as-an-ide-python/](https://www.davidspencer.xyz/posts/neovim-as-an-ide-python/)
+* {neovim python io} <|>  dreamsofcode-io/neovim-python
+* {neovim python io config main at} <|>  neovim-python/configs at main · dreamsofcode-io/neovim-python
+* {neovim python medium alpha2phi} <|>  [alpha2phi.medium.com/neovim-pde-c-c-go-python-and-rust-35fe86c3517d](https://alpha2phi.medium.com/neovim-pde-c-c-go-python-and-rust-35fe86c3517d)
+* {neovim python with ide blog post setup} <|>  [blog.claude.nl/posts/setup-neovim-as-python-ide-with-virtualenvs/](https://blog.claude.nl/posts/setup-neovim-as-python-ide-with-virtualenvs/)
+* {neovim comment my help me} <|> New to Neovim, please help me fix the syntax highlighting. Left is CLion, right is Neovim. See my comment. : r/neovim
+* {neovim emacs} <|> Emacs to neovim (or vice versa, or both) stories : r/neovim
+* {neovim r lua using you} <|> PSA: Now you can set global highlight groups (ie. Normal) using Lua : r/neovim
+* {neovim reddit a ghttp comment using} <|> [using neovim as a machine learning engineer](https://www.reddit.com/r/neovim/comments/1bf9e8t/using_neovim_as_a_machine_learning_engineer))
+* {neovim reddit comment} <|>  [r/neovim/comments/12wjp3d/setting_up_neovim_for_python_code_development](https://www.reddit.com/r/neovim/comments/12wjp3d/setting_up_neovim_for_python_code_development)
+* {neovim reddit comment} <|>  [r/neovim/comments/12wjp3d/setting_up_neovim_for_python_code_development/](https://www.reddit.com/r/neovim/comments/12wjp3d/setting_up_neovim_for_python_code_development/)
+* {neovim reddit comment} <|>  [r/neovim/comments/1459afu/best_prebuilt_config_for_python_or_maybe_vscode/](https://www.reddit.com/r/neovim/comments/1459afu/best_prebuilt_config_for_python_or_maybe_vscode/)
+* {neovim reddit comment} <|>  [r/neovim/comments/165eokv/setup_python_in_neovim/](https://www.reddit.com/r/neovim/comments/165eokv/setup_python_in_neovim/)
+* {neovim reddit comment} <|>  [r/neovim/comments/175nxdr/nvchad_terminal/](https://www.reddit.com/r/neovim/comments/175nxdr/nvchad_terminal/)
+* {neovim reddit comment} <|>  [r/neovim/comments/1acwrzb/data_scientists_are_you_using_vimneovim/](https://www.reddit.com/r/neovim/comments/1acwrzb/data_scientists_are_you_using_vimneovim/)
+* {neovim reddit comment} <|>  [r/neovim/comments/pgiobu/neovim_setup_suggestions_for_python_development/](https://www.reddit.com/r/neovim/comments/pgiobu/neovim_setup_suggestions_for_python_development/)
+* {neovim reddit comment} <|>  [r/neovim/comments/vz30kb/whats_your_python_editing_setup/](https://www.reddit.com/r/neovim/comments/vz30kb/whats_your_python_editing_setup/)
+* {neovim reddit comment} <|> [Extmarks Example? : r/neovim](https://www.reddit.com/r/neovim/comments/ism2jl/extmarks_example/)
+* {neovim reddit comment} <|> [r/neovim/comments/108zzf0/some_plugins_make_my_nvim_slow/](https://www.reddit.com/r/neovim/comments/108zzf0/some_plugins_make_my_nvim_slow/)
+* {neovim reddit comment} <|> [r/neovim/comments/1aiphg8/which_is_better_nonels_or_nvimlint_conform/](https://www.reddit.com/r/neovim/comments/1aiphg8/which_is_better_nonels_or_nvimlint_conform/)
+* {neovim reddit comment} <|> [r/neovim/comments/1ak5lvd/tdonvim_new_plugin_for_simple_notetaking_system/](https://www.reddit.com/r/neovim/comments/1ak5lvd/tdonvim_new_plugin_for_simple_notetaking_system/)
+* {neovim reddit ghttp comment} <|> [Ditching PyCharm in favor of NeoVim : r/neovim](https://www.reddit.com/r/neovim/comments/m0o9eg/ditching_pycharm_in_favor_of_neovim/))
+* {neovim reddit ghttp comment with how file do refactoring you} <|> [How do you manage rename/file move with auto refactoring : r/neovim](https://www.reddit.com/r/neovim/comments/ywoejc/how_do_you_manage_renamefile_move_with_auto/))
+* {neovim reddit plugin s} <|> [r/neovim/s/qZHhLu4kQo](https://www.reddit.com/r/neovim/s/qZHhLu4kQo) plugin optimization tips
+* {neovim reddit plugin s comment} <|> comment-box plugin [r/neovim/s/wB58sNKQB5](https://www.reddit.com/r/neovim/s/wB58sNKQB5)
+* {neovim reddit} <|> [r/neovim/s/2j96StuexD](https://www.reddit.com/r/neovim/s/2j96StuexD)
+* {neovim reddit} <|> [r/neovim/s/6nuivNQJII](https://www.reddit.com/r/neovim/s/6nuivNQJII)
+* {neovim reddit} <|> [r/neovim/s/7T90167Lyd](https://www.reddit.com/r/neovim/s/7T90167Lyd)
+* {neovim reddit} <|> [r/neovim/s/a8YIUGr8xq](https://www.reddit.com/r/neovim/s/a8YIUGr8xq)
+* {neovim reddit} <|> [r/neovim/s/KXjK3gou0N](https://www.reddit.com/r/neovim/s/KXjK3gou0N) cfg
+* {neovim reddit} <|> [r/neovim/s/OBUYxjRoXb](https://www.reddit.com/r/neovim/s/OBUYxjRoXb)
+* {neovim reddit} <|> [r/neovim/s/Rkn9or93JY](https://www.reddit.com/r/neovim/s/Rkn9or93JY)
+* {neovim reddit} <|> advice [r/neovim/s/2rR61kbRTU](https://www.reddit.com/r/neovim/s/2rR61kbRTU)
+* {neovim reddit a} <|> ## [Cool shortcuts to become a neovim wizard.](https://www.reddit.com/r/neovim/s/EHI2tlRrKP)
+* {neovim reddit ghttp} <|> [r/neovim/s/3gCKdjdKTT](https://www.reddit.com/r/neovim/s/3gCKdjdKTT))
+* {neovim reddit kbigrep75h} <|> [r/neovim/s/kBigREp75H](https://www.reddit.com/r/neovim/s/kBigREp75H)
+* {neovim reddit kbigrep75h} <|> [r/neovim/s/kBigREp75H](https://www.reddit.com/r/neovim/s/kBigREp75H)
+* {neovim reddit language server kbigrep75h} <|> most lightweight language server [...](https://www.reddit.com/r/neovim/s/kBigREp75H)
+* {neovim reddit language server kbigrep75h} <|> most lightweight language server [reddit link](https://www.reddit.com/r/neovim/s/kBigREp75H)
+* {neovim reddit lua you} <|> [[r/neovim] [Fzf-Lua] Awesome Colorschemes - the timewaster you never knew you wanted](https://www.reddit.com/r/neovim/s/bIEM8GEtP7)
+* {neovim reddit markdown} <|> [r/neovim/s/W40AIzWz0K](https://www.reddit.com/r/neovim/s/W40AIzWz0K) markdown heading colors
+* {neovim reddit nix} <|> neovim nix [reddit link](https://www.reddit.com/r/neovim/s/6nuivNQJII)
+* {neovim reddit nix nixo} <|> [neovim nix](https://www.reddit.com/r/NixOS/s/DwuJoNo5Si)
+* {neovim reddit python nix nixo} <|> nix py python neovim nixos [...](https://www.reddit.com/r/NixOS/s/bUsuKtHM9W)
+* {neovim reddit setup} <|> Note-Taking Setup [r/neovim/s/E21mS1kkWk](https://www.reddit.com/r/neovim/s/E21mS1kkWk)
+* {neovim reddit using} <|> favorite tricks using Neovim [r/neovim/s/5xGvEARvKO](https://www.reddit.com/r/neovim/s/5xGvEARvKO)
+* {neovim reddit with nui} <|> [r/neovim/s/6axYpBTG07](https://www.reddit.com/r/neovim/s/6axYpBTG07) building ui forms with nui
+* {neovim reddit vim comment} <|> vim prezis [r/neovim/comments/18ftufi/which_software_do_you_use_to_create_presentations](https://www.reddit.com/r/neovim/comments/18ftufi/which_software_do_you_use_to_create_presentations)
+* {neovim s a ghttp youtube watch v build} <|> [Let's build a Neovim Distro - YouTube]([...](https://www.youtube.com/watch?v%3DvTalfnXiHY4))
+* {neovim s by i emac medium} <|> I Switched From Neovim to Emacs, Here’s Why | by Michael Bao | Unixification | Medium
+* {neovim s ghttp youtube watch v using workflow git ultimate telescope} <|> [The ULTIMATE Git workflow using Neovim's Fugitive, Telescope & Git-Signs! - YouTube]([...](https://www.youtube.com/watch?v%3DIyBAuDPzdFY))
+* {neovim setting} <|> Neovim Setting keymaps | Chris@Machine
+* {neovim vim a python my} <|>  Python REPL In Vim Changed My Life As A Developer (Neovim, Codi, Virtual Text)
+* {neovim vim file that vi open} <|> neovim - Open another file in split view that sits within the same directory as the currently opened file - Vi and Vim Stack Exchange
+* {neovim vim how question} <|> [stackoverflow.com/questions/73841647/in-neovim-vim-how-to-know-all-used-key-combination](https://stackoverflow.com/questions/73841647/in-neovim-vim-how-to-know-all-used-key-combination)
+* {neovim with feature feature emac full} <|> orhnk/vimacs: Feature-full Neovim Experience - With Emacs, JetBrains features OOTB
+* {neovim youtube watch v i do} <|> [Why do I use Neovim? - YouTube](https://www.youtube.com/watch?v%3Dby0E9Nm2Eco)
+* {neovim youtube watch v i user} <|> [I Read the Entire Neovim User Manual - YouTube](https://www.youtube.com/watch?v%3DrT-fbLFOCy0)
+* {neovim youtube watch v ide scratch 0} <|> From 0 to IDE in Neovim from Scratch [video](https://www.youtube.com/watch?v=zHTeCSVAFNY)
+* {neovim youtube watch v pp} <|> Understanding Neovim series [video](https://www.youtube.com/watch?v=87AXw9Quy9U&list=PLx2ksyallYzW4WNYHD9xOFrPRYGlntAft&pp=iAQB)
+* {neovim youtube watch v video pp} <|> Neovim video [video](https://www.youtube.com/watch?v=87AXw9Quy9U&list=PLx2ksyallYzW4WNYHD9xOFrPRYGlntAft&pp=iAQB)
+* {nixcat} <|> → eventually move to NixNeovim , possible, or nixCats
+* {nvim} <|> zellij-nav.nvim
+* {nvim} <|>  gen.nvim
+* {nvim by refactoring based} <|> ThePrimeagen/refactoring.nvim: The Refactoring library based off the Refactoring book by Martin Fowler
+* {nvim by using my project i medium setting started} <|> Per project settings in nvim. I recently started using nvim as my… | by Dan Reeves | Medium
+* {nvim commit} <|> Commits · HallerPatrick/py_lsp.nvim
+* {nvim config at project} <|> manage nvim configs per project at DuckDuckGo
+* {nvim editor} <|> → JIRA Ticket editor, analogous to oil.nvim
+* {nvim flake} <|> Gerg-L/nvim-flake
+* {nvim for} <|> saadparwaiz1/cmp_luasnip: luasnip completion source for nvim-cmp
+* {nvim git} <|> [git.sr.ht/~rbdr/nota.nvim](https://git.sr.ht/~rbdr/nota.nvim)
+* {nvim io config git} <|> [cloud.thesola.io/git/thesola10/nvim-config](https://cloud.thesola.io/git/thesola10/nvim-config)
+* {nvim lazy commit} <|> Commits · folke/lazy.nvim
+* {nvim lsp 0} <|> quick.nvim v2.0 Update (Native LSP is Here!)
+* {nvim lua issue install kickstart} <|> failed to install lua_ls. · Issue #214 · nvim-lua/kickstart.nvim
+* {nvim main at} <|> moveline.nvim/Makefile at main · willothy/moveline.nvim
+* {nvim neorg telescope commit} <|> Commits · nvim-neorg/neorg-telescope
+* {nvim nix home} <|> cat /home/isaac/.nix-profile/bin/nvim
+* {nvim plugin} <|> 5 nvim plugins
+* {nvim plugin} <|> idea: colorvar.nvim: plugin to extend colorizer to also color variable names referring to color values
+* {nvim plugin s ghttp lua config with blog configure} <|> [Manu`s website | Configure Nvim with Lua: Plugin/package management (3)](https://manujsdev.com/blog/config-nvim-with-lua-plugin-package-management))
+* {nvim plugin youtube watch v m pp 3d} <|> 5 nvim plugins [...](https://m.youtube.com/watch?v=NJDu_53T_4M&pp=ygUKbmVvdmltIGJxZg%3D%3D)
+* {nvim python} <|>  Python nvim inline eval
+* {nvim r reddit s} <|> [r/vimporn/s/JEiYy98Fcb](https://www.reddit.com/r/vimporn/s/JEiYy98Fcb) nvim
+* {plugin vhyrro} <|> Vhyrro Treesitter Plugins
+* {plugin vim with how do} <|> How to do 90% of what plugins do with just vim
+* {post} <|> [willcodefor.beer/posts/keyvim](https://willcodefor.beer/posts/keyvim)
+* {python doc language feature} <|>  [lunarvim.org/docs/features/supported-languages/python](https://www.lunarvim.org/docs/features/supported-languages/python)
+* {python post development ultimate} <|>  [pythops.com/post/the-ultimate-python-development-environment.html](https://pythops.com/post/the-ultimate-python-development-environment.html)
+* {r reddit vim comment} <|> [r/vim/comments/vwhdpa/way_to_list_internalbuiltin_vim_keybindings/?rdt=50098](https://www.reddit.com/r/vim/comments/vwhdpa/way_to_list_internalbuiltin_vim_keybindings/?rdt%3D50098)
+* {reddit lsp} <|> Reddit - Treesitter vs LSP. Differences ans overlap
+* {s vim with question} <|> [10 Questions with Vim’s creator, Bram Moolenaar](https://www.binpress.com/vim-creator-bram-moolenaar-interview/)
+* {started tutorial} <|> tutorials, getting started
+* {vhyrro} <|> Entire Playlist Vhyrro
+* {video} <|> videos
+* {video neorg} <|> Neorg Update Video
+* {video vhyrro} <|> Vhyrro opt video
+* {vim} <|> (3) Vim coding practice? : vim
+* {vim} <|> [vim-bootstrap.com/](https://vim-bootstrap.com/)
+* {vim a ghttp how by question} <|> [How to replace a character by a newline in Vim - Stack Overflow](https://stackoverflow.com/questions/71323/how-to-replace-a-character-by-a-newline-in-vim))
+* {vim a python} <|>  [realpython.com/vim-and-python-a-match-made-in-heaven/](https://realpython.com/vim-and-python-a-match-made-in-heaven/)
+* {vim a python ghttp youtube with watch v editor started} <|> [Getting Started with VIM as a Python Editor - YouTube]([...](https://www.youtube.com/watch?v%3DHKJUILUvkGk))
+* {vim a with guide development modern} <|> [A guide to modern Web Development with (Neo)vim](https://www.freecodecamp.org/news/a-guide-to-modern-web-development-with-neo-vim-333f7efbf8e2/)
+* {vim config project dev based community} <|> Project based config in vim - DEV Community
+* {vim for youtube watch v beginner} <|> [Vim Motions for absolute beginners!!! - YouTube](https://www.youtube.com/watch?v%3DlWTzqPfy1gE)
+* {vim game} <|> [vim-racer.com/](https://vim-racer.com/))
+* {vim python code} <|> hanschen/vim-ipython-cell: Seamlessly run Python code in IPython from Vim
+* {vim python ide emac code} <|>  Best Python IDE: Vim, Emacs, PyCharm, or Visual Studio Code? | Guido van Rossum and Lex Fridman
+* {vim python workflow terminal} <|>  Dank Vim + Terminal + Python workflow
+* {vim your workflow git} <|> jreybert/vimagit: Ease your git workflow within Vim
+* {with build} <|> vimUtils.buildVimPlugin with build step - Google Search
+* {youtube guide ultimate} <|> Ultimate Quickfix List Guide - YouTube
+* {youtube watch v m devlog} <|> [Here we go... | Rocks Devlog #1 - YouTube](https://m.youtube.com/watch?v%3DJDTy5w7AriU)**
 
 FIXME## Roadmap
 
@@ -1300,7 +1167,7 @@ FIXME## Roadmap
 * [ ] Read Mouseless book section on Neovim
 * [ ] Read Vim book (Robbins & Hannah)
 * [ ] Read through Neovim docs
-PDE Features → look through plugin list here, read through entire [pgosar/CyberNvim](https://github.com/pgosar/CyberNvim)
+FIXME# PDE Features → look through plugin list here, read through entire [pgosar/CyberNvim](https://github.com/pgosar/CyberNvim)
 * [ ] togglable terminal
 * [ ] file explorer
 * [ ] advanced and ergonomic search and replace
@@ -1325,10 +1192,10 @@ PDE Features → look through plugin list here, read through entire [pgosar/Cybe
 * [ ] [stackoverflow.com/questions/40028755/format-certain-json-objects-on-one-line](https://stackoverflow.com/questions/40028755/format-certain-json-objects-on-one-line)
 * [ ] maybe [mischavandenburg.com/zet/neovim-zettelkasten/*](https://mischavandenburg.com/zet/neovim-zettelkasten/*) [ ] code running: maybe [benlubas/molten-nvim](https://github.com/benlubas/molten-nvim) [MarcHamamji/runner.nvim](https://github.com/MarcHamamji/runner.nvim)
 * [ ] syncable LaTeX editing via zathura and synctex vimtex [lervag/vimtex](https://github.com/lervag/vimtex) [ejmastnak.com/tutorials/vim-latex/intro/](https://www.ejmastnak.com/tutorials/vim-latex/intro/) [latex-lsp/texlab](https://github.com/latex-lsp/texlab) [frabjous/knap](https://github.com/frabjous/knap) [jakewvincent/texmagic.nvim](https://github.com/jakewvincent/texmagic.nvim) [vi.stackexchange.com/questions/41551/vimtex-how-to-run-vimtexcompile-on-start-using-lua](https://vi.stackexchange.com/questions/41551/vimtex-how-to-run-vimtexcompile-on-start-using-lua) → see here [Neelfrost/nvim-config/blob/main/init.lua](https://github.com/Neelfrost/nvim-config/blob/main/init.lua)
-Vim Roadmap 🌱
-Neorg
-* [x] change border characters (in plugins) to remove ugly edge: chars = { "🭽", "▔", "🭾", "▕", "🭿", "▁", "🭼", "▏" }* [ ] migrate node.js to bun → →
-Curation, Collections
+FIXME# Vim Roadmap 🌱
+FIXME# Neorg
+* [x] change border characters (in plugins) to remove ugly edge: chars = { '🭽', '▔', '🭾', '▕', '🭿', '▁', '🭼', '▏' }* [ ] migrate node.js to bun → →
+FIXME# Curation, Collections
 * neovimcraft
 * Dotfyle
 * Weekly Dotfile Review Thread (→ check all others!)
@@ -1346,15 +1213,15 @@ Curation, Collections
 * [rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim)
 * [neoland.dev/plugins](https://neoland.dev/plugins)
 * Neovim lua plugins
-General Sites and Resources
+FIXME# General Sites and Resources
 * [r/neovim/wiki/index/getting-started](https://www.reddit.com/r/neovim/wiki/index/getting-started)
 * [r/neovim](https://www.reddit.com/r/neovim)
 * This Week In Neovim
 * [neovim.discourse.group/top?period=quarterly](https://neovim.discourse.group/top?period=quarterly)
 * → [neovim/neovim/wiki/Related-projects](https://github.com/neovim/neovim/wiki/Related-projects) 
-People, Media
+FIXME# People, Media
 * [gist.github.com/nat-418](https://gist.github.com/nat-418)
-Instruction
+FIXME# Instruction
 * Learn Neovim The Practical Way
 * Why Neovim is the best code editor / IDE for developers
 * Vim Mode
@@ -1413,24 +1280,24 @@ Instruction
 * Zero to Hundred in Neovim 🔥🚀 | Config Walkthrough | 2KAbhishek - YouTube
 * Zero to Hundred in Neovim 🔥🚀 | Config Walkthrough | 2KAbhishek - YouTube
 * [video](https://www.youtube.com/watch?v=8q_VPqA-KLs) - Setting up Neovim
-LLM, AI
+FIXME# LLM, AI
 * Local LLMs in Neovim: gen.nvim  → search on topic as well
 * [Exafunction/codeium.vim](https://github.com/Exafunction/codeium.vim)
 * [gitlab.com/jameshiew/nvim-magic](https://gitlab.com/jameshiew/nvim-magic)
 * OpenAI Codex
 * Cody from SourceGraph
-Next Steps
+FIXME# Next Steps
 * → make an IDE for each proglang using adapted Astro/Space/Lazy/Chad vim and shell script and Docker container (or via Nix)
 * download nix and nvim pages as pdf
 * collect top nix and nvim pages from Notion
-Plugin Development and Other Forms of Development
-Parallel viewer for nvim (neorg?): with corresponding highlighting features → also make alignment creation tool! one vertical and multiple horizontal lines → annotator.nvim (like prodigy but better) → good first plugin?
-make a simple plugin, read all docs on nvim plugins. What exactly is a buffer in nvim?
-keyboard shortcut list project
-how to open a file in read-only mode in nvim?
-develop MVP for this
-make GUI in Rust / C++ / Julia / Flutter / Python etc.
-Project: make neorg website in the style of neovim site, drawing upon wiki
+* Plugin Development and Other Forms of Development
+* Parallel viewer for nvim (neorg?): with corresponding highlighting features → also make alignment creation tool! one vertical and multiple horizontal lines → annotator.nvim (like prodigy but better) → good first plugin?
+* make a simple plugin, read all docs on nvim plugins. What exactly is a buffer in nvim?
+* keyboard shortcut list project
+* how to open a file in read-only mode in nvim?
+* develop MVP for this
+* make GUI in Rust / C++ / Julia / Flutter / Python etc.
+* Project: make neorg website in the style of neovim site, drawing upon wiki
 * Hey, forgive me for sliding in out of nowhere with a different topic... which areas of development most need additional people? New here and just tryna make myself useful
 * [medium.com/@srishanbhattarai/a-detailed-guide-to-writing-your-first-neovim-plugin-in-rust-a81604c606b1](https://medium.com/@srishanbhattarai/a-detailed-guide-to-writing-your-first-neovim-plugin-in-rust-a81604c606b1)
 * [folke/neodev.nvim](https://github.com/folke/neodev.nvim)
@@ -1444,16 +1311,16 @@ Project: make neorg website in the style of neovim site, drawing upon wiki
 * [mzte.de/git/LordMZTE/znvim](https://mzte.de/git/LordMZTE/znvim)
 * 5 Best Free and Open Source Terminal-Based Image Viewers - LinuxLinks
 * Terminal graphics protocol - kitty
-shortcuts
+FIXME# shortcuts
 * Understand Vim Mappings and Create Your Own Shortcuts! – all drops
 * neovim - How can I configure shortcut keys in all modes of vim? - Super User
-* (3) Can you use "chords" or "hyper keys" in Vim? : vim
+* (3) Can you use 'chords' or 'hyper keys' in Vim? : vim
 * Vim Keyboard Shortcuts
 * VIM Keyboard Shortcuts Cheatsheet - Make Tech Easier
 **[see for key shortcuts] ecosse3/nvim: A non-minimal Neovim config built to work most efficiently with Frontend Development - React & Vue.js
-Reddit - I made NVIM work with VSCode keybindings
+* Reddit - I made NVIM work with VSCode keybindings
 * Thread - Remapping ESC in neovim
-other relevant tools
+FIXME# other relevant tools
 * [atanunq/viu](https://github.com/atanunq/viu)
 * [arewesixelyet.com/](https://www.arewesixelyet.com/)
 * [MordechaiHadad/bob](https://github.com/MordechaiHadad/bob)
@@ -1461,12 +1328,12 @@ other relevant tools
 * treefmt
 * [gist.github.com/mlow/e381292da7521561fe723ac4bdc59275](https://gist.github.com/mlow/e381292da7521561fe723ac4bdc59275) (nvim dockerfile)
 * [gist.github.com/mlow/e381292da7521561fe723ac4bdc59275](https://gist.github.com/mlow/e381292da7521561fe723ac4bdc59275) nvim Dockerfile
-People / Channels
+FIXME# People / Channels
 * [video](https://www.youtube.com/@vim4life)
 * [redas24](https://github.com/redas24)
 * [alpha2phi.medium.com/](https://alpha2phi.medium.com/)
 * glepnir (Raphael)
-TeX
+FIXME# TeX
 * [anufrievroman/vim-tex-kawaii](https://github.com/anufrievroman/vim-tex-kawaii)
 * How I take notes as a Math major using Vim + LaTeX
 * How I take notes as a Math major using Vim + LaTeX
@@ -1479,9 +1346,7 @@ TeX
 * emakman/neovim-latex-previewer: A LaTeX Previewer for Neovim
 * (2) Latex: vim or neovim : vim
 * LaTeX in NeoVim
-Jupyter
-* → see here
-other langs
+FIXME# other langs
 * Using (neo)vim as a Julia development environment
 * Set up for C++/C Development in Neovim
 * A (neo)vim IDE setup for C/C++, that just works
@@ -1507,7 +1372,7 @@ other langs
 * [chiarulli.me/Neovim/24-neovim-and-java/](https://www.chiarulli.me/Neovim/24-neovim-and-java/)
 * [r/neovim/comments/te5olb/how_do_i_compile_and_run_java_with_neovim_for/](https://www.reddit.com/r/neovim/comments/te5olb/how_do_i_compile_and_run_java_with_neovim_for/)
 * [alpha2phi.medium.com/neovim-for-beginners-java-6a86cf1a91a5](https://alpha2phi.medium.com/neovim-for-beginners-java-6a86cf1a91a5)
-code running
+FIXME# code running
 * [rockerBOO/awesome-neovim#terminal-integration](https://github.com/rockerBOO/awesome-neovim#terminal-integration)
 * Neovim 101— Interactive Code Runner
 * ivanov/vim-ipython: A two-way integration between Vim and IPython 0.11+
@@ -1521,12 +1386,12 @@ code running
 * [hkupty/iron.nvim](https://github.com/hkupty/iron.nvim)
 * search: best way to run code in nvim
 * [miguelcrespo.co/how-to-debug-like-a-pro-using-neovim](https://miguelcrespo.co/how-to-debug-like-a-pro-using-neovim)
-Meta Tools
+FIXME# Meta Tools
 * editor-bootstrap/vim-bootstrap: Vim Bootstrap is a generator that provides a simple method of generating a configuration for vim / neovim.
 * Editor Bootstrap
 * [vim-bootstrap.com/](https://vim-bootstrap.com/)
 * MordechaiHadad/bob: A version manager for neovim
-Multiplexer
+FIXME# Multiplexer
 * [r/vimporn/comments/10eqj6z/neovim_zellij](https://www.reddit.com/r/vimporn/comments/10eqj6z/neovim_zellij)
 * [jceb/vmux](https://github.com/jceb/vmux)
 * TMUX-VIM PRODUCTIVITY SETUP
@@ -1539,12 +1404,12 @@ Multiplexer
 * Tmux has forever changed the way I write code. - YouTube
 * About - tmuxp 1.28.1 documentation
 * [r/neovim/comments/15kf5bs/i_cant_decide_whether_to_use_tmux_neovims_default/](https://www.reddit.com/r/neovim/comments/15kf5bs/i_cant_decide_whether_to_use_tmux_neovims_default/)
-tmux-specific configs
+FIXME# tmux-specific configs
 * gpakosz/.tmux: 🇫🇷 Oh my tmux! My self-contained, pretty & versatile tmux configuration made with ❤️
 * samoshkin/tmux-config: Tmux configuration, that supercharges your tmux to build cozy and cool terminal environment
 * tony/tmux-config: Example tmux configuration - screen + vim key-bindings, system stat, cpu load bar.
 * tony/tmux-config: Example tmux configuration - screen + vim key-bindings, system stat, cpu load bar.
-Top 1S
+FIXME# Top 1S
 * [vonheikemen.github.io/devlog/es/](https://vonheikemen.github.io/devlog/es/)
 * Reddit - I love vim but I don't want it as a hobby
 * [VSCodeVim/Vim](https://github.com/VSCodeVim/Vim)
@@ -1570,11 +1435,11 @@ Top 1S
 * My Neovim Config - YouTube
 * [r/neovim/comments/13u33vl/neovim_as_an_alternative_to_ssms_or_azure_data](https://www.reddit.com/r/neovim/comments/13u33vl/neovim_as_an_alternative_to_ssms_or_azure_data)
 * [neovim.discourse.group/t/is-migrating-to-lazy-nvim-worth-it/4292](https://neovim.discourse.group/t/is-migrating-to-lazy-nvim-worth-it/4292)
-Other 1S
+FIXME# Other 1S
 * [phaazon.net/blog/more-hindsight-vim-helix-kakoune](https://phaazon.net/blog/more-hindsight-vim-helix-kakoune)
 * 5 Reasons to Learn Emacs in 2021 - YouTube
 * 5 Reasons You Should Use Emacs (And 1 Reason Why You Shouldn't) - YouTube
-LSP
+FIXME# LSP
 * [python-lsp/python-lsp-server](https://github.com/python-lsp/python-lsp-server)
 * Tree sitter & LSP: Short Comparison
 * Tree-sitter for Dummies
@@ -1588,24 +1453,12 @@ LSP
 * rydesun/fennel-language-server: Fennel language server protocol (LSP) support.
 * [javadev.org/devtools/ide/neovim/lsp/](https://javadev.org/devtools/ide/neovim/lsp/)
 * [r/neovim/comments/15jxqgn/i_dont_get_why_treesitter_is_a_big_deal_and_at/](https://www.reddit.com/r/neovim/comments/15jxqgn/i_dont_get_why_treesitter_is_a_big_deal_and_at/)
-advanced
+FIXME# advanced
 * Why Vim Experts Do THIS Instead of Using Tabs... (wezterm and buffers)
 * [joshldavis.com/2014/04/05/vim-tab-madness-buffers-vs-tabs/](https://joshldavis.com/2014/04/05/vim-tab-madness-buffers-vs-tabs/)
-vim usage and commands
+FIXME# vim usage and commands
 * [r/neovim/comments/13qqie2/just_some_small_but_useful_commands_i_have_lying/](https://www.reddit.com/r/neovim/comments/13qqie2/just_some_small_but_useful_commands_i_have_lying/)
 * [r/neovim/comments/15kgf52/a_keyboardshortcut_cheat_sheet/](https://www.reddit.com/r/neovim/comments/15kgf52/a_keyboardshortcut_cheat_sheet/)
-apps
-Neovide build error → fonts
-
-```sh
-* linking with `cc` failed: exit status: 1
-  |
-  = note: LC_ALL="C" PATH="/home/isaac/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin:/home/isaac/.nix-profile/bin:/home/isaac/.local/bin:/home/isaac/.nvm/versions/node/v21.0.0/bin:/home/isaac/.nix-profile/bin:/home/isaac/.local/bin:/home/isaac/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin" VSLANG="1033" "cc" "-m64" "/tmp/rustcgL8co2/symbols.o" "/tmp/cargo-installxRn5uk/release/deps/neovide-786b4640db1c2a02.toml-0b5f81c85d84f4f4.toml.b3a4a82c0d178aad-cgu.00.rcgu.o.rcgu.o" "-Wl,--as-needed" "-L" "/tmp/cargo-installxRn5uk/release/deps" "-L" "/tmp/cargo-installxRn5uk/release/build/skia-bindings-6f212e8d5ec679a7/out/skia" "-L" "/home/isaac/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib" "-Wl,-Bstatic" "/tmp/rustcgL8co2/libskia_bindings-231c023c6201a80b.rlib" "/home/isaac/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-df2fb7f50dec519a.rlib" "-Wl,-Bdynamic" "-ldl" "-ldl" "-ldl" "-lstdc++" "-lfontconfig" "-lfreetype" "-lgcc_s" "-lutil" "-lrt" "-lpthread" "-lm" "-ldl" "-lc" "-Wl,--eh-frame-hdr" "-Wl,-z,noexecstack" "-L" "/home/isaac/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib" "-o" "/tmp/cargo-installxRn5uk/release/deps/neovide-786b4640db1c2a02" "-Wl,--gc-sections" "-pie" "-Wl,-z,relro,-z,now" "-Wl,-O1" "-Wl,--strip-all" "-nodefaultlibs"
-  = note: /usr/bin/ld: cannot find -lfontconfig: No such file or directory*       /usr/bin/ld: cannot find -lfreetype: No such file or directory*       collect2: error: ld returned 1 exit status
-error: could not compile `neovide` (bin "neovide") due to previous error
-error: failed to compile `neovide v0.11.2 (<https://github.com/neovide/neovide#85234dc3>)`, intermediate artifacts can be found at `/tmp/cargo-installxRn5uk`.
-To reuse those artifacts with a future compilation, set the environment variable `CARGO_TARGET_DIR` to that path.
-```
 
 * Using Nano Because Vim Is Scary? Use Micro Instead! - YouTube
 * OniVim 2: The Only Useful Graphical Vim Client - YouTube
@@ -1623,7 +1476,8 @@ To reuse those artifacts with a future compilation, set the environment variable
 * neovide/neovide: No Nonsense Neovim Client in Rust
 * equalsraf/neovim-qt: Neovim client library and GUI, in Qt5.
 * hismailbulut/Neoray: Simple and lightweight GUI client for Neovim
-ricing
+
+FIXME# ricing
 * nvim pywal
 * [echasnovski/mini.nvim/blob/main/readmes/mini-colors.md](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-colors.md)
 * (2) How to change icons and colors, to make my LSP diagnostics look better? : neovim
@@ -1779,14 +1633,14 @@ FIXME## PDE Features → look through [plugin list here](https://github.com/pgos
 * [ ]  [tnerual.eriogerg.free.fr/vimqrc.html](http://tnerual.eriogerg.free.fr/vimqrc.html)
 * [ ]  [vim adventures:](https://vim-adventures.com/)
 
-    h j k l : w W e E b B x X r d dd D ~ 0 ^ $ f F t T ; , % z zt zz zb g gg G
+* h j k l : w W e E b B x X r d dd D ~ 0 ^ $ f F t T ; , % z zt zz zb g gg G
 
-    digits (1-9) * # n N p P " y yy Y :reg "" "- "_ numbered-registers
+* digits (1-9) * # n N p P ' y yy Y :reg '' '- '_ numbered-registers
 
-    letter-registers i I a A c cc C s S o O { } ( )
+* letter-registers i I a A c cc C s S o O { } ( )
 * [{ ]} [( ]) . text-objects
 
-    H M L nu | / ? ` ' m :marks :delmarks u CTRL-R buffers (:b :ls) files (:w :e)
+* H M L nu | / ? ` ' m :marks :delmarks u CTRL-R buffers (:b :ls) files (:w :e)
 * [ ]  [openvim.com/](https://www.openvim.com/)
 * [ ]  [vimgenius.com/lessons](http://www.vimgenius.com/lessons)
 * [ ]  [How to Search and Replace in Vim With Examples](https://thevaluable.dev/vim-search-find-replace/)
@@ -1797,7 +1651,7 @@ FIXME## PDE Features → look through [plugin list here](https://github.com/pgos
 * [ ]  Go through tutorial
 * [x]  [How did I Replace PhpStorm by Vim in my Heart](https://thevaluable.dev/phpstorm-vs-vim/)- [ ]  [Vim for PHP: The Complete Guide for a Powerful PHP IDE](https://thevaluable.dev/vim-php-ide/)- [ ]  [A Vim Guide for Intermediate Users](https://thevaluable.dev/vim-intermediate/)- [ ]  [A Vim Guide for Advanced Users](https://thevaluable.dev/vim-advanced/)- [ ]  [A Vim Guide for Adept Users](https://thevaluable.dev/vim-adept/)- [ ]  [A Vim Guide For Veteran Users](https://thevaluable.dev/vim-veteran/)- [ ]  [A Vim Guide For Experts](https://thevaluable.dev/vim-expert/)- [ ]  [What's The Vim Runtime? A Guide With Examples](https://thevaluable.dev/vim-runtime-guide-example/)- [ ]  [libgen.is/search.php?&req=vim&phrase=1&view=simple&column=def&sort=language&sortmode=DESC](http://libgen.is/search.php?&req=vim&phrase=1&view=simple&column=def&sort=language&sortmode=DESC)
 * [ ]  [Learning the vi and vim Editors](https://drive.google.com/file/d/1iajLgI5q8CdxOswNjwOc-n04TP0bVmMJ/view?usp=sharing)- [ ]  [Practical Vim: Edit Text at the Speed of Thought](http://library.lol/main/A5A24A075C6882D5AC91BF797916E80F)- [ ]  [Pro vim: achieve greater understanding and practical workflows using this essential terminal application](http://library.lol/main/3A5BC4B7AA33A976ADB40EA53483E136)- [ ]  [vimcasts.org/categories/](http://vimcasts.org/categories/)
-* [x]  change border characters (in plugins) to remove ugly edge: chars = { "🭽", "▔", "🭾", "▕", "🭿", "▁", "🭼", "▏" }- [ ]  migrate node.js to bun [→](https://www.reddit.com/r/neovim/comments/11bpzmk/lsp_typescript_and_tailwind_with_bun_major/)
+* [x]  change border characters (in plugins) to remove ugly edge: chars = { '🭽', '▔', '🭾', '▕', '🭿', '▁', '🭼', '▏' }- [ ]  migrate node.js to bun [→](https://www.reddit.com/r/neovim/comments/11bpzmk/lsp_typescript_and_tailwind_with_bun_major/)
 * [→](https://github.com/letieu/nvim-config/commit/237a314d06f87c528582d6da50d84ecac0fa7b27)
 * Curation, Collections
 * [neovimcraft](https://neovimcraft.com/)
@@ -1882,11 +1736,11 @@ FIXME## PDE Features → look through [plugin list here](https://github.com/pgos
 * [gitlab.com/jameshiew/nvim-magic](https://gitlab.com/jameshiew/nvim-magic) OpenAI CodexCody from SourceGraph
 * Next Steps
 
-    → make an IDE for each proglang using adapted Astro/Space/Lazy/Chad vim and shell script and Docker container (or via Nix)
+* → make an IDE for each proglang using adapted Astro/Space/Lazy/Chad vim and shell script and Docker container (or via Nix)
 
-    download nix and nvim pages as pdf
+* download nix and nvim pages as pdf
 
-    collect top nix and nvim pages from Notion
+* collect top nix and nvim pages from Notion
 * Plugin Development and Other Forms of Development
 * Parallel viewer for nvim (neorg?): with corresponding highlighting features → also make alignment creation tool! one vertical and multiple horizontal lines → annotator.nvim (like prodigy but better) → good first plugin?
 * make a simple plugin, read all docs on nvim plugins. What exactly is a buffer in nvim?
@@ -1896,7 +1750,7 @@ FIXME## PDE Features → look through [plugin list here](https://github.com/pgos
 * make GUI in Rust / C++ / Julia / Flutter / Python etc.
 * Project: make neorg website in the style of neovim site, drawing upon wiki
 
-    Hey, forgive me for sliding in out of nowhere with a different topic... which areas of development most need additional people? New here and just tryna make myself useful
+* Hey, forgive me for sliding in out of nowhere with a different topic... which areas of development most need additional people? New here and just tryna make myself useful
 * [medium.com/@srishanbhattarai/a-detailed-guide-to-writing-your-first-neovim-plugin-in-rust-a81604c606b1](https://medium.com/@srishanbhattarai/a-detailed-guide-to-writing-your-first-neovim-plugin-in-rust-a81604c606b1)
 * [folke/neodev.nvim](https://github.com/folke/neodev.nvim)
 * [Borwe/wasm_nvim](https://github.com/Borwe/wasm_nvim)
@@ -1912,7 +1766,7 @@ FIXME## PDE Features → look through [plugin list here](https://github.com/pgos
 * shortcuts
 * [Understand Vim Mappings and Create Your Own Shortcuts! – all drops](https://alldrops.info/posts/vim-drops/2018-05-15_understand-vim-mappings-and-create-your-own-shortcuts/)
 * [neovim - How can I configure shortcut keys in all modes of vim? - Super User](https://superuser.com/questions/1702308/how-can-i-configure-shortcut-keys-in-all-modes-of-vim)
-* [(3) Can you use "chords" or "hyper keys" in Vim? : vim](https://www.reddit.com/r/vim/comments/iqumac/can_you_use_chords_or_hyper_keys_in_vim/)
+* [(3) Can you use 'chords' or 'hyper keys' in Vim? : vim](https://www.reddit.com/r/vim/comments/iqumac/can_you_use_chords_or_hyper_keys_in_vim/)
 * [Vim Keyboard Shortcuts](https://scaron.info/blog/vim-keyboard-shortcuts.html)
 * [VIM Keyboard Shortcuts Cheatsheet - Make Tech Easier](https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/)
 * [*[see for key shortcuts] ecosse3/nvim: A non-minimal Neovim config built to work most efficiently with Frontend Development - React & Vue.js](https://github.com/ecosse3/nvim)
@@ -2050,20 +1904,9 @@ FIXME## PDE Features → look through [plugin list here](https://github.com/pgos
 * vim usage and commands
 * [r/neovim/comments/13qqie2/just_some_small_but_useful_commands_i_have_lying/](https://www.reddit.com/r/neovim/comments/13qqie2/just_some_small_but_useful_commands_i_have_lying/)
 * [r/neovim/comments/15kgf52/a_keyboardshortcut_cheat_sheet/](https://www.reddit.com/r/neovim/comments/15kgf52/a_keyboardshortcut_cheat_sheet/)
-* apps
-* Neovide build error → fonts
-* linking with `cc` failed: exit status: 1
-
-|
-
-= note: LC_ALL="C" PATH="/home/isaac/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin:/home/isaac/.nix-profile/bin:/home/isaac/.local/bin:/home/isaac/.nvm/versions/node/v21.0.0/bin:/home/isaac/.nix-profile/bin:/home/isaac/.local/bin:/home/isaac/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin" VSLANG="1033" "cc" "-m64" "/tmp/rustcgL8co2/symbols.o" "/tmp/cargo-installxRn5uk/release/deps/neovide-786b4640db1c2a02.toml-0b5f81c85d84f4f4.toml.b3a4a82c0d178aad-cgu.00.rcgu.o.rcgu.o" "-Wl,--as-needed" "-L" "/tmp/cargo-installxRn5uk/release/deps" "-L" "/tmp/cargo-installxRn5uk/release/build/skia-bindings-6f212e8d5ec679a7/out/skia" "-L" "/home/isaac/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib" "-Wl,-Bstatic" "/tmp/rustcgL8co2/libskia_bindings-231c023c6201a80b.rlib" "/home/isaac/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-df2fb7f50dec519a.rlib" "-Wl,-Bdynamic" "-ldl" "-ldl" "-ldl" "-lstdc++" "-lfontconfig" "-lfreetype" "-lgcc_s" "-lutil" "-lrt" "-lpthread" "-lm" "-ldl" "-lc" "-Wl,--eh-frame-hdr" "-Wl,-z,noexecstack" "-L" "/home/isaac/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib" "-o" "/tmp/cargo-installxRn5uk/release/deps/neovide-786b4640db1c2a02" "-Wl,--gc-sections" "-pie" "-Wl,-z,relro,-z,now" "-Wl,-O1" "-Wl,--strip-all" "-nodefaultlibs"
-
-= note: /usr/bin/ld: cannot find -lfontconfig: No such file or directory
-
-/usr/bin/ld: cannot find -lfreetype: No such file or directory
 
 * collect2: error: ld returned 1 exit status
-* error: could not compile `neovide` (bin "neovide") due to previous error
+* error: could not compile `neovide` (bin 'neovide') due to previous error
 * error: failed to compile `neovide v0.11.2 (<https://github.com/neovide/neovide#85234dc3>)`, intermediate artifacts can be found at `/tmp/cargo-installxRn5uk`.
 * To reuse those artifacts with a future compilation, set the environment variable `CARGO_TARGET_DIR` to that path.
 * [Using Nano Because Vim Is Scary? Use Micro Instead! - YouTube](https://www.youtube.com/watch?v=S--IoOg4yo0)
@@ -2154,7 +1997,7 @@ FIXME## PDE Features → look through [plugin list here](https://github.com/pgos
 * [b-src/lazy-nix-helper.nvim](https://github.com/b-src/lazy-nix-helper.nvim)
 * [r/neovim/comments/12xundc/c_dev_environment_in_pure_lua_based_plugins/](https://www.reddit.com/r/neovim/comments/12xundc/c_dev_environment_in_pure_lua_based_plugins/)
 
-{ "🭽", "▔", "🭾", "▕", "🭿", "▁", "🭼", "▏" }
+{ '🭽', '▔', '🭾', '▕', '🭿', '▁', '🭼', '▏' }
 
 * [r/neovim/comments/172uiu1/yazi_a_new_tui_program_combines_rangernnnlf/](https://www.reddit.com/r/neovim/comments/172uiu1/yazi_a_new_tui_program_combines_rangernnnlf/)
 * [r/NixOS/comments/14e57dc/nvim_plugins/](https://www.reddit.com/r/NixOS/comments/14e57dc/nvim_plugins/)
@@ -2280,7 +2123,7 @@ FIXME## PDE Features → look through [plugin list here](https://github.com/pgos
 * favorite tricks using Neovim [r/neovim/s/5xGvEARvKO](https://www.reddit.com/r/neovim/s/5xGvEARvKO)
 * [Project based config in vim - DEV Community](https://dev.to/vonheikemen/project-based-config-in-vim-48pm)
 * [jreybert/vimagit: Ease your git workflow within Vim](https://github.com/jreybert/vimagit)
-* ["🭿" U+1FB7F: Right And Lower One Eighth Block (Unicode Character)](https://unicodeplus.com/U+1FB7F)
+* ['🭿' U+1FB7F: Right And Lower One Eighth Block (Unicode Character)](https://unicodeplus.com/U+1FB7F)
 * [Elteoremadebeethoven (Alexander Vázquez)](https://github.com/Elteoremadebeethoven)
 * [fwcd/kotlin-language-server](https://github.com/fwcd/kotlin-language-server)
 * [alpha2phi.medium.com/neovim-for-beginners-kotlin-1854312f51c](https://alpha2phi.medium.com/neovim-for-beginners-kotlin-1854312f51c)

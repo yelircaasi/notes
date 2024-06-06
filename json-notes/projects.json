@@ -1,25 +1,25 @@
 FIXME# GitHoarder
 
-Alt name: Gitshare
+* Alt name: Gitshare
 
-Android app to easily share links to a git repo, easier and better than emailing links to myself.
+* Android app to easily share links to a git repo, easier and better than emailing links to myself.
 
-[Android shareability](https://developer.android.com/training/sharing/receive)
+* [Android shareability](https://developer.android.com/training/sharing/receive)
 
 FIXME# Keymapping
 
 * name ideas: teclado, accordo, keycritic
 
-* key [Hacker's Corner: Complete Guide to Keylogging in Linux - Part 1 | L...](https://linuxsecurity.com/features/complete-guide-to-keylogging-in-linux-part-1)
-* key [Hacker's Corner: Complete Guide to Keylogging in Linux - Part 2 | L...](https://linuxsecurity.com/features/complete-guide-to-keylogging-in-linux-part-2)
-* key [Hacker's Corner: Complete Guide to Keylogging in Linux - Part 3 | L...](https://linuxsecurity.com/features/complete-guide-to-keylogging-in-linux-part-3)
-* key [dots/keyboard/.config/keyboard at main · veyxov/dots](https://github.com/veyxov/dots/tree/main/keyboard/.config/keyboard)
-* key [http://xahlee.info/comp/unicode_matching_brackets.html](http://xahlee.info/comp/unicode_matching_brackets.html)
-* key [houmain/keymapper](https://github.com/houmain/keymapper)
-* key [gitlab.com/interception/linux/plugins/dual-function-keys](https://gitlab.com/interception/linux/plugins/dual-function-keys)
-* key [kanata/docs/config.adoc at main · jtroo/kanata](https://github.com/jtroo/kanata/blob/main/docs/config.adoc)
-* key [veyxov/qanata: Application aware layer switching in](https://github.com/veyxov/qanata) [kanata](https://github.com/veyxov/qanata)
-* key keymaps convo [...](https://www.reddit.com/r/neovim/s/2j96StuexD)
+* [Hacker's Corner: Complete Guide to Keylogging in Linux - Part 1 | L...](https://linuxsecurity.com/features/complete-guide-to-keylogging-in-linux-part-1)
+* [Hacker's Corner: Complete Guide to Keylogging in Linux - Part 2 | L...](https://linuxsecurity.com/features/complete-guide-to-keylogging-in-linux-part-2)
+* [Hacker's Corner: Complete Guide to Keylogging in Linux - Part 3 | L...](https://linuxsecurity.com/features/complete-guide-to-keylogging-in-linux-part-3)
+* [dots/keyboard/.config/keyboard at main · veyxov/dots](https://github.com/veyxov/dots/tree/main/keyboard/.config/keyboard)
+* [http://xahlee.info/comp/unicode_matching_brackets.html](http://xahlee.info/comp/unicode_matching_brackets.html)
+* [houmain/keymapper](https://github.com/houmain/keymapper)
+* [gitlab.com/interception/linux/plugins/dual-function-keys](https://gitlab.com/interception/linux/plugins/dual-function-keys)
+* [kanata/docs/config.adoc at main · jtroo/kanata](https://github.com/jtroo/kanata/blob/main/docs/config.adoc)
+* [veyxov/qanata: Application aware layer switching in](https://github.com/veyxov/qanata) [kanata](https://github.com/veyxov/qanata)
+* [...](https://www.reddit.com/r/neovim/s/2j96StuexD)
 
 FIXME# Tmp
 
@@ -294,7 +294,7 @@ FIXME# juventas.nvim
 * same as Jupyter web, but using text view
 * Components: class Converter()
 
-.ipynb to textview nb2text(...)
+* .ipynb to textview nb2text(...)
 * textview to .ipynb text2nb(...)
 * class Buffer()
 * Converter.collect_textview_diffs()
@@ -320,81 +320,7 @@ FIXME# juventas.nvim
 * [millejoh.github.io/emacs-ipython-notebook/](https://millejoh.github.io/emacs-ipython-notebook/)
 * [isaacganoung.com/articles/tutorials/jupyter-notebook-in-emacs.html](https://isaacganoung.com/articles/tutorials/jupyter-notebook-in-emacs.html)
 
-FIXME## Virtual Text
-
-* Yes, you can add virtual text to the beginning of each line in Neovim using a plugin or by directly configuring Neovim. Here's a way to achieve this:
-* You can use the `nvim_buf_set_virtual_text()` function provided by Neovim's API to add virtual text to each line. You can invoke this function through a script or by using Neovim's built-in functions.
-* Here's an example script in Lua that adds virtual text to the beginning of each line:
-
-```lua
-
--- Define a function to add virtual text to the beginning of each line
-* function add_virtual_text(bufnr)local lines = vim.api.nvim_buf_get_lines(bufnr, 0, -1, false)* for i, line in ipairs(lines) do*     -- Add virtual text "| " to the beginning of each line*     vim.api.nvim_buf_set_virtual_text(bufnr, -1, i - 1, {{'| ', 'Comment'}}, {})* end
-* end
-
--- Call the function on each buffer
-* for _, bufnr in ipairs(vim.api.nvim_list_bufs()) do* add_virtual_text(bufnr)
-* end
-
-```
-* To achieve notebook-style cells with virtual text in Neovim, you can use the `nvim_buf_set_virtual_text()` function to add custom virtual text to specific lines in your buffer. Additionally, you can utilize ASCII art to create the visual boundaries for the cells.
-* Here's a Lua script that adds notebook-style cells around each line of Python code:
-
-```lua
-* function add_notebook_cells(bufnr)* local lines = vim.api.nvim_buf_get_lines(bufnr, 0, -1, false)* for i, line in ipairs(lines) do*     -- Add notebook-style cells around each line*     local notebook_line = '│  ' .. line .. '  │'*     local notebook_border = '┌' .. string.rep('─', #notebook_line - 2) .. '┐'
-*     -- Set virtual text for the notebook cell*     vim.api.nvim_buf_set_virtual_text(bufnr, -1, i - 1, {{notebook_border, 'Comment'}, {notebook_line, 'Comment'}, {notebook_border, 'Comment'}}, {})* end
-* end
-
--- Call the function on each buffer
-* for _, bufnr in ipairs(vim.api.nvim_list_bufs()) do* add_notebook_cells(bufnr)
-* end
-
-```
-* This Lua script iterates over each line of the buffer, adding notebook-style cells around the line content. It then uses `nvim_buf_set_virtual_text()` to add the custom virtual text to the buffer.
-* To execute this script, save it as `add_notebook_cells.lua` in your Neovim configuration directory and then invoke it from your Neovim configuration file (`init.lua`) using `:luafile add_notebook_cells.lua`. This will add the notebook-style cells to all buffers currently open in Neovim.
-* Please note that virtual text added using this method is purely visual and does not affect the underlying contents of the file. Additionally, you may need to adjust the ASCII art and styling to fit your preferences and display needs.
-
-FIXME## filetype-specific keybinds
-
-* Yes, you can define key bindings that are specific to a certain file type (filetype) in Neovim. This is useful for defining mappings or commands that are relevant only when editing files of a particular type, such as Python, Markdown, or JavaScript.
-* Here's how you can define filetype-specific key bindings in Neovim:
-
-```vim
-
-" Define a key binding that is valid only for Python files
-* autocmd FileType python nnoremap <buffer> <Leader>t :!pytest %<CR>
-
-" Define a key binding that is valid only for Markdown files
-* autocmd FileType markdown nnoremap <buffer> <Leader>c :!pandoc -s -o %:r.pdf %<CR>
-
-```
-* In these examples:
-* `autocmd FileType python` and `autocmd FileType markdown` set up autocmds (autocommands) that trigger when Neovim detects a buffer with the corresponding file type.
-* `nnoremap <buffer> <Leader>t :!pytest %<CR>` defines a normal mode mapping (`nnoremap`) that executes the `pytest` command when triggered by the leader key followed by `t` (`<Leader>t`). The `%` represents the current file's path, and `<CR>` simulates pressing the Enter key.
-* `nnoremap <buffer> <Leader>c :!pandoc -s -o %:r.pdf %<CR>` defines another normal mode mapping that runs the `pandoc` command to convert the Markdown file to PDF when triggered by the leader key followed by `c`.
-* By using `<buffer>` in the mapping command, you ensure that the mapping is local to the current buffer. This means that the mapping will only be active when editing a file of the specified filetype, and it won't affect other buffers.
-* You can add these mappings to your `init.vim` or `init.lua` configuration file in Neovim to define filetype-specific key bindings according to your preferences.
-
-FIXME## Question for ChatGPT
-
-* What would be the most difficult parts of developing a neovim plugin providing a neovim-native interface to Jupyer notebook (.ipynb) files?
-* Developing a Neovim plugin to provide a Neovim-native interface to Jupyter notebook (.ipynb) files could present several challenges, including:
-* 1. Parsing and Understanding the .ipynb Format: Jupyter notebook files are JSON-based and have a complex structure. Developing a robust parser to handle this format and extract relevant information such as code cells, markdown cells, outputs, metadata, etc., can be challenging.
-* 2. Rendering and Displaying Rich Content: Jupyter notebooks support rich content such as Markdown, HTML, images, LaTeX, and interactive widgets. Implementing a rendering engine within Neovim to display this rich content accurately and interactively could be non-trivial.
-* 3. Code Execution and Kernel Interaction: Jupyter notebooks rely on kernels to execute code. Providing a seamless interface for code execution, kernel management, and interaction with kernel outputs within Neovim would require integration with Jupyter's messaging protocol (e.g., Jupyter messaging over ZeroMQ or WebSockets).
-* 4. User Interface and Interactivity: Jupyter notebooks offer features like collapsible sections, cell execution status indicators, interactive widgets, and cell metadata. Replicating these features within Neovim while maintaining a consistent and intuitive user interface could be challenging.
-* 5. Maintaining Compatibility and Performance: Neovim runs in a terminal environment, which may impose limitations on rendering capabilities and interactivity compared to web-based Jupyter interfaces. Ensuring compatibility with different terminal emulators and maintaining acceptable performance levels for large notebooks could be challenging.
-* 6. Handling Notebook Structure and Modifications: Jupyter notebooks can have a hierarchical structure with nested cells and metadata. Implementing functionality to create, modify, rearrange, and delete cells while preserving the integrity of the notebook structure would require careful design and implementation.
-* 7. Testing and Documentation: Comprehensive testing, including unit tests, integration tests, and user acceptance tests, would be essential to ensure the plugin's reliability and robustness. Additionally, providing clear and comprehensive documentation to guide users on installation, configuration, and usage would be crucial.
-* Overall, while developing a Neovim plugin to interface with Jupyter notebook files could be challenging, it could also be a rewarding project that enhances the productivity and workflow of Neovim users who work with Jupyter notebooks.
-* Juventas.nvim (jove.nvim? Giove.nvim? Iuppiter.nvim): full Jupyter notebook functionality for nvim (comparable to VSCode)
-* cat/bat for Jupyter Notebooks
-
-FIXME# NBEditor.nvim (Plugin without Code Server)
-
-* start simpler: : attractive viewing of jupyter notebooks, with nice frames
-* → tricky question: how to allow editing within cell to change contents? (perhaps not the simplest idea, but certainly enlightening)
-
+FIXME## 
 FIXME# Juventas.nvim
 
 * add notebooks to goneovim! or focus on wezterm (yep, probably that)
@@ -497,9 +423,8 @@ FIXME# Project 2: `[bat](https://github.com/sharkdp/bat)` sibling (`nbbat` or  `
 * create cool logo - vampire (or vampire bat) superimposed on planet Jupiter? or superimposed on a notebook? or both?
 * logo
 
-    ![Selection_003.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e74f0423-4454-4dd0-ae43-e45cbc541e73/2b09fb99-064d-4c2f-8e04-8d7ff2938ddc/Selection_003.png)
 
-    ![Selection_002.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e74f0423-4454-4dd0-ae43-e45cbc541e73/99071ed2-1591-43ae-8629-67638c2f70cf/Selection_002.png)
+* ![Selection_002.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e74f0423-4454-4dd0-ae43-e45cbc541e73/99071ed2-1591-43ae-8629-67638c2f70cf/Selection_002.png)
 * [jupiter logo](https://www.google.com/search?q=jupiter+logo+vector+graphic&tbm=isch&ved=2ahUKEwiWsODT2JmCAxU7rycCHVQPBFcQ2-cCegQIABAA&oq=jupiter+logo+vector+graphic&gs_lcp=CgNpbWcQAzoECCMQJzoFCAAQgAQ6BAgAEB46BggAEAUQHjoGCAAQCBAeUN4UWNY6YOY7aABwAHgAgAFMiAG5CJIBAjE2mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=6H09ZZacK7vensEP1J6QuAU&bih=726&biw=1472&client=firefox-b-d)
 * [vampire logo](https://www.google.com/search?q=vampire+logo&tbm=isch&ved=2ahUKEwjguujc2JmCAxWnXqQEHeOzBpIQ2-cCegQIABAA&oq=vampire+logo&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgjECc6BwgAEIoFEENQihNYjyNgkCVoAHAAeACAAUyIAYMHkgECMTOYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=-309ZaDRK6e9kdUP4-eakAk&bih=726&biw=1472&client=firefox-b-d)
 * [notebook logo](https://www.google.com/search?q=notebook+logo&tbm=isch&ved=2ahUKEwjvqM_w2JmCAxVpdKQEHXaPAkMQ2-cCegQIABAA&oq=notebook+logo&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEAUQHjIGCAAQBRAeMgYIABAFEB46BAgjECc6BwgjEOoCECc6BwgAEIoFEENQlgpYmB1g7x5oAXAAeACAAVaIAe0HkgECMTSYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCsABAQ&sclient=img&ei=JX49Za-CD-nokdUP9p6KmAQ&bih=726&biw=1472&client=firefox-b-d)
@@ -530,11 +455,10 @@ FIXME## Software for Projects
 
 FIXME## Notes
 
-Idea: get stylus drawing / writing tablet and set it up with rnote and also with a handwriting recognition engine that I train on my handwriting, so that I can write on the pad as an alternative to typing on the keyboard.
+* Idea: get stylus drawing / writing tablet and set it up with rnote and also with a handwriting recognition engine that I train on my handwriting, so that I can write on the pad as an alternative to typing on the keyboard.
 
-* To Sort
+FIXME# To Sort
 * make (Flutter, Gnome, GTK, KDE, or other) GUI app for parallel text creation and viewing
-  * Packaging)
 * [PyInstaller Manual — PyInstaller 5.7.0 documentation](https://pyinstaller.org/en/stable/)
 * [How to Install Windows 10 in VirtualBox in Linux](https://itsfoss.com/install-windows-10-virtualbox-linux/)
 * [Install macOS Monterey, Big Sur Or Catalina In A Virtual Machine Using Docker-OSX - Linux Uprising Blog](https://www.linuxuprising.com/2021/03/install-macos-big-sur-or-catalina-in.html)
@@ -548,7 +472,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [Installing macOS on a Virtual Machine | Apple Developer Documentation](https://developer.apple.com/documentation/virtualization/installing_macos_on_a_virtual_machine)
 * [Creating and Running a Linux Virtual Machine | Apple Developer Documentation](https://developer.apple.com/documentation/virtualization/creating_and_running_a_linux_virtual_machine)
 
-        how to run Windows and Docker VMs (for app testing)
+* how to run Windows and Docker VMs (for app testing)
 * [MacStadium | Mac Servers and Cloud Solutions on Apple Hardware](https://www.macstadium.com/)
 * [pipx](https://pypa.github.io/pipx/)
 * [Widdershin/flask-desktop: flask-desktop lets you create first class desktop applications in Python with HTML/CSS](https://github.com/Widdershin/flask-desktop)
@@ -568,7 +492,7 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [Options for Python packaging: Wheels, Conda, Docker, and more](https://pythonspeed.com/articles/distributing-software/)
 * [Reddit - I made a Python compiler, that can compile Python source down to fast, standalone executables.](https://www.reddit.com/r/Python/comments/w7vlim/i_made_a_python_compiler_that_can_compile_python/)
 
-  * Algorithms
+FIXME# Algorithms
 * [TypeScript](https://github.com/TheAlgorithms/TypeScript)
 * [C](https://github.com/TheAlgorithms/C)
 * [Lua](https://github.com/TheAlgorithms/Lua)
@@ -588,19 +512,19 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [Elm](https://github.com/TheAlgorithms/Elm)
 * [Elixir](https://github.com/TheAlgorithms/Elixir)
 
-  * GUI Resources
+* GUI Resources
 * [GUI - Things and Stuff Wiki](https://wiki.thingsandstuff.org/GUI)
 * [themix-project/themix-gui](https://github.com/themix-project/themix-gui)
 * [Use Python? This GUI runs EVERYWHERE!](https://youtu.be/9r13xXMVo4s)
 
-  * Sponsorship
+* Sponsorship
 * [8 Best Patreon Alternatives & Competitors For 2023 (Comparison)](https://bloggingwizard.com/patreon-alternatives/)
 
-    browse & build LF_aligner (in pkgs)
+* browse & build LF_aligner (in pkgs)
 * [topics/pdflatex](https://github.com/topics/pdflatex)
 * [SDL Trados Studio - A Practical Guide](http://library.lol/main/705A598EFCA8D210EC4FF9638FEF7C37) (language learning tools)
 
-    Make folder for Udemy Cpp Course
+* Make folder for Udemy Cpp Course
 * [How to contribute to open source - YouTube](https://www.youtube.com/watch?v=2L0sxPx4C18)
 * [topics/pdftex](https://github.com/topics/pdftex)
 * [GitHub Sponsors accounts](https://github.com/sponsors/accounts)
@@ -614,17 +538,17 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [Jupyter kernels · jupyter/jupyter Wiki](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
 * [jupyter-xeus/xeus: Implementation of the Jupyter kernel protocol in C++](https://github.com/jupyter-xeus/xeus)
 
-    develop vim keybindings for google sheets
+* develop vim keybindings for google sheets
 
-    Nyxt extension: intelligent (and optionally interactive) page color scheme
+* Nyxt extension: intelligent (and optionally interactive) page color scheme
 
-    how to hack the color scheme and style of jupyter notebook and jupyterlab
+* how to hack the color scheme and style of jupyter notebook and jupyterlab
 * [ghaiklor/nand-2-tetris: Computer built from the ground up on top of own CPU, while compiler and assembler for it implemented in Rust language](https://github.com/ghaiklor/nand-2-tetris)
 
-    mathematics of dating at macro level, micro too
+* mathematics of dating at macro level, micro too
 * [Python Keylogger](https://www.youtube.com/watch?v=hL3rB9ttZFU)
 
-  * **norvig/pytudes -> add to polyglot-projects
+* **norvig/pytudes -> add to polyglot-projects
 * [norvig/paip-lisp: Lisp code for the textbook "Paradigms of Artificial Intelligence Programming"](https://github.com/norvig/paip-lisp)
 * [life4/textdistance: Compute distance between sequences. 30+ algorithms, pure python implementation, common interface, optional external libs usage.](https://github.com/life4/textdistance)
 * [python - Evaluating a mathematical expression in a string - Stack Overflow](https://stackoverflow.com/questions/2371436/evaluating-a-mathematical-expression-in-a-string)
@@ -639,222 +563,220 @@ Idea: get stylus drawing / writing tablet and set it up with rnote and also with
 * [adambard/learnxinyminutes-docs: Code documentation written as code! How novel and totally my idea!](https://github.com/adambard/learnxinyminutes-docs)
 * [Vigemus/iron.nvim](https://github.com/Vigemus/iron.nvim)
 
-    seriously pursue ancient greek and latin tts - need to pursue serious data collection
+* seriously pursue ancient greek and latin tts - need to pursue serious data collection
 
-    also add TTS option for parallel text
+* also add TTS option for parallel text
 * [everydaycodings/MimicMania](https://github.com/everydaycodings/MimicMania)
 
-    Google Drive dvc server -> look at alternatives like NextCloud
+* Google Drive dvc server -> look at alternatives like NextCloud
 
-    contrib: Julia pre-commit hooks
+* contrib: Julia pre-commit hooks
 
-    learn about how packageing works on github
+* learn about how packageing works on github
 
-    look into wine and darling for building PTTK apps for all 3 major platforms
+* look into wine and darling for building PTTK apps for all 3 major platforms
 
-    make web-based GUI for PTTK apps and find sponsor to host?
+* make web-based GUI for PTTK apps and find sponsor to host?
 
-    pipx best solution for quick and painless installation?
+* pipx best solution for quick and painless installation?
 
-    web-based GUI (Flask/Django) -> create flask-desktop package? -> contrip by adding to pypi
+* web-based GUI (Flask/Django) -> create flask-desktop package? -> contrip by adding to pypi
 
-    distribute as Docker container with associated CLI
+* distribute as Docker container with associated CLI
 
-    top priority for PTTK apps: 2 (and eventually more) CLI Python apps working for Bash/Zsh
+* top priority for PTTK apps: 2 (and eventually more) CLI Python apps working for Bash/Zsh
 
-    distribute parallel text apps as flatpaks, nix, and guix
+* distribute parallel text apps as flatpaks, nix, and guix
 
-    compare mkdocs and sphinx
+* compare mkdocs and sphinx
 
-    work harder on NLP and SP cheatsheet site
+* work harder on NLP and SP cheatsheet site
 
-    get serious about code generation with ChatGPT (and competitors)
+* get serious about code generation with ChatGPT (and competitors)
 
-    make interactive config scripts for parallel text apps
+* make interactive config scripts for parallel text apps
 
-    create directory of template directories to copy
+* create directory of template directories to copy
 
-    somehow link to or use The Algorithms in MWE
+* somehow link to or use The Algorithms in MWE
 
-    MWE: use PE, RC, BeautifulAlgorithms.jl, Hyperpolyglot -> draw upon for polyglot-programming-tasks
+* MWE: use PE, RC, BeautifulAlgorithms.jl, Hyperpolyglot -> draw upon for polyglot-programming-tasks
 
-    contribute to RosettaCode, Hyperpolyglot, Learn X in Y
+* contribute to RosettaCode, Hyperpolyglot, Learn X in Y
 
-    contact clarkgrubb about maintaining hyperpolyglot
+* contact clarkgrubb about maintaining hyperpolyglot
 
-    sup up snippets
+* sup up snippets
 
-    WayforPay
+* WayforPay
 
-    explore and grok nix-env vs nix-shell
+* explore and grok nix-env vs nix-shell
 
-    use Rinohtype in PTF?
+* use Rinohtype in PTF?
 
-    add Exercism, Leetcode, Hackerrank to peersonal site
+* add Exercism, Leetcode, Hackerrank to peersonal site
 
-    find better hoster for personal site (ideally same as app server, or free)
+* find better hoster for personal site (ideally same as app server, or free)
 
-    add prolyglot-snippets as counterpart to polyglot-tasks
+* add prolyglot-snippets as counterpart to polyglot-tasks
 
-    add RSA or other crypto algorithm to polyglot-tasks
+* add RSA or other crypto algorithm to polyglot-tasks
 
-    write shell functions to locate all relevant nvidia folders/files
+* write shell functions to locate all relevant nvidia folders/files
 
-    list important programs and where they are installed (all directories)
+* list important programs and where they are installed (all directories)
 
-    read Conda, Miniconda, Anaconda, Mamba docs
+* read Conda, Miniconda, Anaconda, Mamba docs
 
-    test out boost library
+* test out boost library
 
-    contribute new useful pre-commits
+* contribute new useful pre-commits
 
-    re-implement nand2tetris in other languages (Rust, Julia, Python, C++) as part of polyglot-programming-tasks
+* re-implement nand2tetris in other languages (Rust, Julia, Python, C++) as part of polyglot-programming-tasks
 
-    PTF workflow: open and validate bitest, open and validate config, use both to create bitext object, generate TeX string, save, compile
+* PTF workflow: open and validate bitest, open and validate config, use both to create bitext object, generate TeX string, save, compile
 
-    topics (PTF, but also others): packaging as AppImage, FlatPak, .exe (via Pyinstaller) unix container (docker-slim + Alpine) -> WSL, Nix, Guix, alt.: pure Python + system LaTeX
+* topics (PTF, but also others): packaging as AppImage, FlatPak, .exe (via Pyinstaller) unix container (docker-slim + Alpine) -> WSL, Nix, Guix, alt.: pure Python + system LaTeX
 
-    PTF: implement as Julia, Lua (+C), Perl, Java, C, Haskell, Rust -> add as project(s) to MWE repo; first steps: read files line-by-line and print line pairs side-by-side, then read and save bitext in simple bilingual format (side-by-side, or interlinear)
+* PTF: implement as Julia, Lua (+C), Perl, Java, C, Haskell, Rust -> add as project(s) to MWE repo; first steps: read files line-by-line and print line pairs side-by-side, then read and save bitext in simple bilingual format (side-by-side, or interlinear)
 
-    get study-notes looking presentable for public viewing on github
+* get study-notes looking presentable for public viewing on github
 
-    contrib: write onnx exporter for spacy and thinc models
+* contrib: write onnx exporter for spacy and thinc models
 
-    create a github repo to serve as a repository of ideas and "unfilled gaps" for people looking for a project
+* create a github repo to serve as a repository of ideas and "unfilled gaps" for people looking for a project
 
-    move all small ml & dl projects to polyglot-projects
+* move all small ml & dl projects to polyglot-projects
 
-    make a comparison of string formatting across languages
+* make a comparison of string formatting across languages
 
-    develop reader mode in indie browsers: Nyxt, Qutebrowser, Luakit, etc. -> make my own if none exists
+* develop reader mode in indie browsers: Nyxt, Qutebrowser, Luakit, etc. -> make my own if none exists
 
-    learn to cross-compile C/C#/Rust/Zig to .exe, Mach-O
+* learn to cross-compile C/C#/Rust/Zig to .exe, Mach-O
 
-    work: single-shot vs dialog methods for NLU query parsong
+* work: single-shot vs dialog methods for NLU query parsong
 
-    all pyproject.toml to RLCard
+* all pyproject.toml to RLCard
 
-    add color themes to my site, polyglot toolkit site, etc
+* add color themes to my site, polyglot toolkit site, etc
 * [iron.nvim call for help](https://www.reddit.com/r/neovim/comments/tjui61/ironnvim_help_wanted/)
 * [gource iron.nvim](https://www.youtube.com/watch?v=mRuJwU2FJkw)
 
-    Python: How to package something with options for usage as API/CLI/TUI/GUI? How to make all apps use vifm as default file browser?
+* Python: How to package something with options for usage as API/CLI/TUI/GUI? How to make all apps use vifm as default file browser?
 
-    Build full Zathura in Docker container / get full Zathura via Nix
+* Build full Zathura in Docker container / get full Zathura via Nix
 
-    Figure out how to edit extension .css stylesheets for browsers (sqlite / IndexedDB)
+* Figure out how to edit extension .css stylesheets for browsers (sqlite / IndexedDB)
 * [check out](https://github.com/dylanaraps/pywal)
 
-    how to make typing practice app intercept even control keys? → xdotool/wayland equivalent?
+* how to make typing practice app intercept even control keys? → xdotool/wayland equivalent?
 
-    transformer notes → study-notes
+* transformer notes → study-notes
 
-    make rlboard analogous to rlcard
+* make rlboard analogous to rlcard
 * [add to study-notes:](https://github.com/jonasbb/pre-commit-latex-hooks)
 
-    How do VSCode / Gnome intercept prefix keys for redefining shortcuts?
+* How do VSCode / Gnome intercept prefix keys for redefining shortcuts?
 
-    make gh templates for myself
+* make gh templates for myself
 
-    MAKE ANKI DECKS FROM PYTHON DOCS (BUILTINS, GLOSSARY, ETC) -> also julia, rust, etc
+* MAKE ANKI DECKS FROM PYTHON DOCS (BUILTINS, GLOSSARY, ETC) -> also julia, rust, etc
 * [mossr/BeautifulAlgorithms.jl: Concise and beautiful algorithms written in Julia](https://github.com/mossr/BeautifulAlgorithms.jl)
 
-    arabic speech corpus, arctic l2, buckeye, timit, LJSpeech
+* arabic speech corpus, arctic l2, buckeye, timit, LJSpeech
 * [tsoding/ded: Dramatic EDitor](https://github.com/tsoding/ded)
 * [TheAlgorithms/contributor_covenant](https://github.com/TheAlgorithms/contributor_covenant)
 
 FIXME## SORT
 
-    ```txt
-    Neural Networks from Scratch in Python.pdf
+* Neural Networks from Scratch in Python.pdf
 
-    Learn to type Greek polytonic
+* Learn to type Greek polytonic
 
-    Android
+* Android
 
-    cpp-machine-learning
+* cpp-machine-learning
 
-    fonts
+* fonts
 
-    keyboard-trainer-cpp
+* keyboard-trainer-cpp
 
-    learning-programming-languages
+* learning-programming-languages
 
-    minimal-working-examples
+* minimal-working-examples
 
-    nand2tetris
+* nand2tetris
 
-    nlp-and-sp-cheatsheet
+* nlp-and-sp-cheatsheet
 
-    NNfSiX
+* NNfSiX
 
-    ParallelTextToolkit
+* ParallelTextToolkit
 
-    personal-website
+* personal-website
 
-    playgrounds
+* playgrounds
 
-    rl-games
+* rl-games
 
-    study-notes
+* study-notes
 
-    Thesis
+* Thesis
 
-    Wiktionary4LL
+* Wiktionary4LL
 
-    SBT- scala build tool
+* SBT- scala build tool
 
-    sdkman
+* sdkman
 
-    buka
+* buka
 
-    chromium
+* chromium
 
-    mdless
+* mdless
 
-    learning-programming-languages
+* learning-programming-languages
 
-    playgrounds
+* playgrounds
 
-    git@github.com:yelircaasi/minimal-working-examples.git
+* git@github.com:yelircaasi/minimal-working-examples.git
 
-    git@github.com:yelircaasi/nand2tetris.git
+* git@github.com:yelircaasi/nand2tetris.git
 
-    git@github.com:yelircaasi/nlp-and-sp-cheatsheet.git
+* git@github.com:yelircaasi/nlp-and-sp-cheatsheet.git
 
-    git@github.com:yelircaasi/NNfSiX.git (pull from upstream)
+* git@github.com:yelircaasi/NNfSiX.git (pull from upstream)
 
-    git@github.com:yelircaasi/ParallelTextToolkit.git
+* git@github.com:yelircaasi/ParallelTextToolkit.git
 
-    git@github.com:yelircaasi/personal-website.git
+* git@github.com:yelircaasi/personal-website.git
 
-    git@github.com:yelircaasi/rl-games.git
+* git@github.com:yelircaasi/rl-games.git
 
-    git@github.com:yelircaasi/study-notes.git
+* git@github.com:yelircaasi/study-notes.git
 
-    git@github.com:yelircaasi/Wiktionary4LL.git
-    ```
+* git@github.com:yelircaasi/Wiktionary4LL.git
 
 * [cherylli/pomodoro-kotlin.git](https://github.com/cherylli/pomodoro-kotlin.git)
 * [SimpleMobileTools/Simple-Calendar.git](https://github.com/SimpleMobileTools/Simple-Calendar.git)
 * [powerline/fonts.git](https://github.com/powerline/fonts.git)
 * [tklitschi/Algorithmen-und-Datenstrukturen](https://github.com/tklitschi/Algorithmen-und-Datenstrukturen)
 
-     [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
+*  [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
 
-    remove *.pdf from .gitignore of study-notes
+* remove *.pdf from .gitignore of study-notes
 * [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
 * [Delgan stars](https://github.com/Delgan?tab=stars)
 * [yelircaasi/study-notes: LaTeX notes for the various topics I am studying. Focus on NLP, CS, Math. All topics fair game. May be in non-English languages.](https://github.com/yelircaasi/study-notes)
 * [Parsing English in 500 Lines of Python · Explosion](https://explosion.ai/blog/parsing-english-in-python)
 
-    I could make a good 3b1b-style video about two's complement.
+* I could make a good 3b1b-style video about two's complement.
 * [zty.pe/](https://zty.pe/)
 * [Writing to learn](https://www.arecadata.com/writing/)
 
-    Make list of general, useful programming tasks to solve in multiple languages (create Gsheet, add to project list) - get from language documentation examples, tutorials
+* Make list of general, useful programming tasks to solve in multiple languages (create Gsheet, add to project list) - get from language documentation examples, tutorials
 
-    Create project to write about Nature, Nurture, Aesthetics, Ethics and Free Will
+* Create project to write about Nature, Nurture, Aesthetics, Ethics and Free Will
 * [python-for-android — python-for-android 0.1 documentation](https://python-for-android.readthedocs.io/en/latest/)
 * [kivy/python-for-android: Turn your Python application into an Android APK](https://github.com/kivy/python-for-android)
 * [Kivy: Cross-platform Python Framework for GUI apps Development](https://kivy.org/)
@@ -864,11 +786,11 @@ FIXME## SORT
 * [craftinginterpreters.com/](http://craftinginterpreters.com/)
 * [ForeignGods/Sorting-Algorithms-Blender](https://github.com/ForeignGods/Sorting-Algorithms-Blender)
 
-    nn to predict gender of loan words in German, compare to surveys of Germans, visualize activations from letters and letter combinations, also how edits influence predictions -> topology? (letterwise input, most likely)
+* nn to predict gender of loan words in German, compare to surveys of Germans, visualize activations from letters and letter combinations, also how edits influence predictions -> topology? (letterwise input, most likely)
 
-    look back into accent transfer
+* look back into accent transfer
 
-    look into converting someone into a different race
+* look into converting someone into a different race
 * deskewer
 * [lmb.informatik.uni-freiburg.de/Publications/2015/FDB15/image_orientation.pdf](https://lmb.informatik.uni-freiburg.de/Publications/2015/FDB15/image_orientation.pdf)
 * [OpenCV: Introduction to Julia OpenCV Binding](https://docs.opencv.org/4.x/d8/da4/tutorial_julia.html)
@@ -915,7 +837,7 @@ FIXME### Components
 * Japanese Kana keyboard
 * 2) Keystrokes
 * Vim
-  * → key snippets from main programming languages
+* → key snippets from main programming languages
 * VSCode
 * Firefox + Vim Vixen
 * Ubuntu general
@@ -931,54 +853,7 @@ FIXME### References
 * [stackoverflow.com/questions/29335758/using-kbhit-and-getch-on-linux](https://stackoverflow.com/questions/29335758/using-kbhit-and-getch-on-linux)
 * [javascript - Detect pressed modifier keys without triggering keyboard or mouse events - Stack Overflow](https://stackoverflow.com/questions/22086059/detect-pressed-modifier-keys-without-triggering-keyboard-or-mouse-events)
 
-FIXME## Android App
 
-* Design: to-do list with routine lists, scheduler, and corresponding notifications
-
-FIXME### Page structure
-
-* Day
-  * Morning Routine
-  * Evening Routine
-  * Roadmap Items
-* Week
-  * Recurring
-  * Roadmap Items
-* Month
-  * Recurring
-  * Roadmap Items
-* Year
-  * Recurring
-  * Roadmap Items
-* Planner
-* Record of accomplishments
-
-FIXME### Features
-
-* Notifications
-  * start/stop
-  * n-minute warning
-  * n-minute interval
-* Schedule Item Stopwatch
-* Daily Score
-* Weekly Score
-* Statistics
-  * score over time
-  * statistics for routine items
-
-FIXME### Operations
-
-* Schedule Item → add to Planner
-* Move Item
-  * Year to quarter
-  * Quarter to month
-  * Month to Week
-  * Month to Day
-  * Week to Day
-* Change time
-  * push back in time
-  * pull forward in time
-  * switch items
 
 FIXME## Reading
 
@@ -1032,39 +907,7 @@ FIXME## Other
 * Book: Programming Language Concepts Illustrated: A Contrastive Guided Tour
 * Reference / Inspiration: [hyperpolyglot.org/,](https://hyperpolyglot.org/,)  [rosettacode.org/wiki/Rosetta_Code](https://rosettacode.org/wiki/Rosetta_Code)
 
-    Preferred languages:
-
-  * C
-  * C++
-  * Python
-  * Julia
-  * Go
-  * Rust
-  * Scala
-  * Kotlin
-  * Java
-  * JavaScript
-  * Bash
-  * Haskell
-  * Perl
-  * Prolog
-  * SQL (PostgreSQL)
-  * GASM
-  * Racket/Scheme
-  * Other
-  * OCaml
-  * Erlang
-  * Fortran
-  * Ada
-  * Lua
-  * TypeScript
-  * LaTeX
-  * Dart
-  * Ruby
-  * COBOL
-  * PHP
-  * Nim
-  * Tcl
+* Preferred languages: C | C++ | Python | Julia | Go | Rust | Scala | Kotlin | Java | JavaScript | Bash | Haskell | Perl | Prolog | SQL (PostgreSQL) | GASM | Racket/Scheme | Other | OCaml | Erlang | Fortran | Ada | Lua | TypeScript | LaTeX | Dart | Ruby | COBOL | PHP | Nim | Tcl | 
 
 FIXME## hosted if-then game web app
 
@@ -1084,22 +927,21 @@ FIXME## hosted if-then game web app
 * [ ]  [zdnet.com/article/best-raspberry-pi-kit/-](https://www.zdnet.com/article/best-raspberry-pi-kit/-) [ ]  [pimylifeup.com/raspberry-pi-web-server/-](https://pimylifeup.com/raspberry-pi-web-server/-) [ ]   [tomshardware.com/how-to/raspberry-pi-buying-guide](https://www.tomshardware.com/how-to/raspberry-pi-buying-guide)
 * [ ]  [genieframework.github.io/Genie.jl/dev/tutorials/92--Deploying_Genie_Server_Apps_with_Nginx.html](https://genieframework.github.io/Genie.jl/dev/tutorials/92--Deploying_Genie_Server_Apps_with_Nginx.html)
 * YouTube channel
-  * Multilingual YouTube channel: ml, math, languages, book reading, philosophy
+* Multilingual YouTube channel: ml, math, languages, book reading, philosophy
 
-        name ideas: Wannabe Polyglot Polymath
+* name ideas: Wannabe Polyglot Polymath
 * [ ]  graphics: Manim Community
 * [ ]  screen capture + camera
 * [ ]  keystroke capture
 * [ ]  which playlists?
 * [video](https://www.youtube.com/hashtag/manim?app=desktop)
 * [video](https://www.youtube.com/@TheoremofBeethoven)
-  * Ideas
 
-        How a Desktop is Built
+* How a Desktop is Built
 
-        How 2’s Compliment Works
+* How 2’s Compliment Works
 
-        nand2tetris video
+* nand2tetris video
 * neural-image-processing-cheatsheet
 * [ ]  create
 
@@ -1112,25 +954,7 @@ FIXME## Trip Planner app (with Jesse) 🌱
 * [ ]  lay down a route to optimize money, time, some combination → add additional constraints
 * NNfSiX 🌱
 * Lyrics Syncing App (with Jesse)
-* RosettaDL - parallel reference (Rosetta-style)
-
-    → start with PyTorch, TF, MXNet, and Flux.jl
-
-  * PyTorch
-  * TensorFlow Python (with Keras)
-  * MXNet
-  * Flux.jl -
-  * PyTorch Lightning
-  * FastAI
-  * HuggingFace
-  * PyTorch C++
-  * TensorFlow C++
-  * Sonnet
-  * CNTK
-  * DyNet
-  * SparkML
-  * Deeplearning4j
-  * C++ libraries →
+* RosettaDL - parallel reference (Rosetta-style) → start with PyTorch, TF, MXNet, and Flux.jl - software: PyTorch | TensorFlow Python (with Keras) | MXNet | Flux.jl | PyTorch Lightning | FastAI | HuggingFace | PyTorch C++ | TensorFlow C++ | Sonnet | CNTK | DyNet | SparkML | Deeplearning4j | C++ libraries →
 * [ ]  PyTorch and TensorFlow pocket references - create spreadsheet of functionalities & corresponding snippets
 * [ ]  multiple code options ← D2L book source
 
@@ -1141,7 +965,7 @@ FIXME## algorithms (Beautiful Algorithms - Julia) 🌱
 * [ ]  binaries
 * [opensource.com/article/20/4/linux-binary-analysis](https://opensource.com/article/20/4/linux-binary-analysis)
 * [ ]  [linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/](https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/)
-* [ ]    * [ ]  l
+* [ ]* [ ]  l
 * [ ]  c
 * [ ]  pytho
 * [ ]  juli
@@ -1175,7 +999,6 @@ FIXME## algorithms (Beautiful Algorithms - Julia) 🌱
 * [JuliaLang](https://github.com/JuliaLang)
 * [ ]  LaTeX
 * [tug.org/texlive/doc/tlbuild.html](https://www.tug.org/texlive/doc/tlbuild.html)
-        -
 * [ ]  Linux kernel
 * [torvalds/linux](https://github.com/torvalds/linux)
 * [kernel.org/doc/html/latest/](https://www.kernel.org/doc/html/latest/)
@@ -1285,13 +1108,13 @@ FIXME## RLCard
 
 FIXME## “philosophers and philosophies on the issues”
 
-    → automated search and question answering
+* → automated search and question answering
 
-    → matrix completion?
+* → matrix completion?
 
-    → product: database of answers to questions of the form “What does X say about Y?”
+* → product: database of answers to questions of the form “What does X say about Y?”
 
-    → also interesting to do by hand / with a hybrid approach
+* → also interesting to do by hand / with a hybrid approach
 
 FIXME## Book idea: Ancient Greek through the Stoics; Latin through the Stoics (or GR and LA in one book)
 
@@ -1305,31 +1128,6 @@ FIXME### Projects Links
 
 * [ ]  [Drive link](https://drive.google.com/drive/folders/16RpQL0XysyuoJbsrwiZntbL1coD8CigE?usp=sharing)
 
-FIXME### Brainstorming
-
-* → use evolutionary algorithm?
-* → combine RL and evolutionary algorithm?
-* → compare end-to-end with system that uses dynamic internal marking of cards (”need to win” / “need to get rid of”, etc.) and with system that uses probability of winning with each card
-* → comparing systems that focus solely on making the bet with systems that also try to ruin the game for others (aggressive strategy)
-* → different vector for each number of cards → output vector a score (softmax?) over cards in the hand, → action is to play the highest-scoring card
-    → drawback: many different models; advantage: each model is fixed-size and relatively straightforward: $N = \sum^{15}_{i=1} i = 120$ → or N = 15?
-    → parameters:
-        — $p_c(\textbf{c}) \in [0,1]^{k}$: probability of each card being out there — easy to calculate
-        — $p_d(\textbf{c}) \in [0,1]^{k}$: probability of each card being played by someone else — calculate via MC
-
-        — $w(\textbf{c}) \in [0,1]^{k}$: win probability of each card ← (remaining available to be made, wanted for each player, two probability vectors) — calculate via MC
-
-        — $d(\textbf{c}) \in \mathbb{R}^{k}: ||d(c)||=1$: win desirability of each card ← (remaining available, wanted, two probability vectors, win probabilities) — calculate via MC? policy gradient?
-
-        — $s(\textbf{c}) \in [0,1]$: overall hand strength ← (win probability, win desirability)
-
-        — $u(\textbf{c}) \in \mathbb{R}^{k}$: score (utility) per card ← (win probability, win desirability, expected change in overall hand strength)
-
-        — $m \in \{0, 1\}^{k}$: use a card mask to only update values for cards in my hand
-
-        — alternative: recursive formulation, beginning with last card of the round
-
-        — another option: $f(\textbf{c}) \in \{0,1\}^{211}$: card score distribution ← (surplus tricks, size 2k+1, cards in my hand, probability of cards still being out there, position in queue, cards already played) → dimensionality 2k+1+60+60+4+60 = 2k+185 → add number still wanted by each opponent
 
 FIXME### References for RLCard
 
@@ -1349,63 +1147,11 @@ FIXME### References for RLCard
 * Wizard RL Paper: [ieeexplore.ieee.org/document/6664846](https://ieeexplore.ieee.org/document/6664846)
 * ** Recent Advances in Deep Reinforcement Learning Applications for Solving
 * Partially Observable Markov Decision Processes (POMDP) Problems: Part 1 -
- Fundamentals and Applications in Games, Robotics and Natural Language
+* Fundamentals and Applications in Games, Robotics and Natural Language
 * [Processing](https://www.semanticscholar.org/paper/Recent-Advances-in-Deep-Reinforcement-Learning-for-Xiang-Foo/0a50454605da864cc4e1ac949e7a43055be11717)**
 * [Improving Bidding and Playing Strategies in the Trick-Taking game Wizard using Deep Q-Networks](https://www.semanticscholar.org/paper/Improving-Bidding-and-Playing-Strategies-in-the-Schumacher-Pleines/c68ea00041d84f90c2a443292a98c34146941481)
 * [ai.stackexchange.com/questions/17942/how-to-represent-a-state-in-a-card-game-environment-wizard](https://ai.stackexchange.com/questions/17942/how-to-represent-a-state-in-a-card-game-environment-wizard)
 * ?? [Towards Modern Card Games with Large-Scale Action Spaces Through Action Representation](https://arxiv.org/pdf/2206.12700.pdf)
-
-FIXME### Games
-
-FIXME#### wizard
-
-* model for each round: jester, wizard, trump, color A, color B, color C → how to achieve interchangeability between non-trump colors? will it learn this automatically if colors are assigned randomly to letters?
-* states:
-  * betting state: number of players, round number, trick number, cards in hand
-  * playing state: number of players, round number, trick number, tricks to make, cards already played → probability of cards , cards in hand
-* actions: bet made, card played
-* policies:
-  * betting policy: betting state → bet
-  * playing policy: playing state → card
-* → how to learn? simultaneously? iteratively? (seems better)
-* [semanticscholar.org/paper/Application-of-reinforcement-learning-to-the-card-Backhus-Nonaka/346bc4eaad1a89e84aa8cda08b623973ec0a2fb7](https://www.semanticscholar.org/paper/Application-of-reinforcement-learning-to-the-card-Backhus-Nonaka/346bc4eaad1a89e84aa8cda08b623973ec0a2fb7)
-* Combinatoric-probabilistic features:
-* Probability that each player can beat each card
-* Probability that each player wants to beat each card
-
-FIXME#### blackjack
-
-FIXME#### bridge
-
-FIXME#### canasta
-
-FIXME#### codenames
-
-FIXME#### haiclue
-
-FIXME#### hanabi
-
-FIXME#### lucky_numbers
-
-FIXME#### mastermind
-
-FIXME#### poker
-
-FIXME#### rook
-
-FIXME#### rush_hour
-
-FIXME#### scum
-
-FIXME#### skyjo
-
-FIXME#### stratego
-
-FIXME#### sushigo
-
-FIXME#### ticket_to_ride
-
-FIXME#### whist
 
 FIXME## Daily Prophet 🌱
 
@@ -1413,25 +1159,25 @@ FIXME## Daily Prophet 🌱
 * [deeptronix.wordpress.com/2020/09/02/a-proper-harry-potter-newspaper-irl/](https://deeptronix.wordpress.com/2020/09/02/a-proper-harry-potter-newspaper-irl/)
 * [deeptronix/dithering_halftoning](https://github.com/deeptronix/dithering_halftoning)
 
-    create an Anki extension 🌱
+* create an Anki extension 🌱
 
-    Build (Android / web) NN-driven app for pronunciation training 🌱
+* Build (Android / web) NN-driven app for pronunciation training 🌱
 
-    Attic Greek TTS 🌱
+* Attic Greek TTS 🌱
 
-    Classical Latin TTS 🌱
+* Classical Latin TTS 🌱
 
-    contribute to [VSCode](https://github.com/microsoft/vscode) 🌱
+* contribute to [VSCode](https://github.com/microsoft/vscode) 🌱
 
-    fork & contribute to [Anki](https://apps.ankiweb.net/docs/manual20.html#translations) 🌱
+* fork & contribute to [Anki](https://apps.ankiweb.net/docs/manual20.html#translations) 🌱
 
-    create board game analog of RLCard - or contribute a third-party environment to [Gymnasium](https://gymnasium.farama.org/environments/third_party_environments/)?
+* create board game analog of RLCard - or contribute a third-party environment to [Gymnasium](https://gymnasium.farama.org/environments/third_party_environments/)?
 
-    make verb and noun grammar trainers (C++? other language? GUI?)
+* make verb and noun grammar trainers (C++? other language? GUI?)
 
-    create reader for texts with grammatical parsing and translation
+* create reader for texts with grammatical parsing and translation
 
-    book "Philosophy of Proverbs" or "Proverbs and Ethics" → read on paremiology
+* book "Philosophy of Proverbs" or "Proverbs and Ethics" → read on paremiology
 * [aclanthology.org/2021.emnlp-main.664.pdf](https://aclanthology.org/2021.emnlp-main.664.pdf)
 * [configs-and-scripts](https://github.com/yelircaasi/configs-and-scripts)
 * [rl-games](https://github.com/yelircaasi/rl-games)
@@ -1468,8 +1214,7 @@ FIXME## Daily Prophet 🌱
 * [pltk](https://github.com/yelircaasi/pltk) → divide into smaller projects; see [README](http://README.md) in ~/Downloads/tmp_from_hank/repos/pltk
 * [scikit-and-tensorflow-workbooks](https://github.com/yelircaasi/scikit-and-tensorflow-workbooks) → deleted; see [bjpcjp/scikit-and-tensorflow-workbooks](https://github.com/bjpcjp/scikit-and-tensorflow-workbooks)
 * [lltk](https://github.com/yelircaasi/lltk) → port to Python 3 or
-  * Directory of Notes - clean up, clean out
-  * Favorite
+* Favorite
 * [ ]  [Your Projects - Overleaf](https://www.overleaf.com/project)
 * [ ]  [Resumen de Drive](https://docs.google.com/spreadsheets/d/19eeTBMKWrGLmp5VjTYbqJB2EiltURuQMNR7TOwMvHh8/edit)
 * [ ]  [Betsy and iPhone](https://docs.google.com/spreadsheets/d/15SxjiP8gScdGW2ayp0YEUmdejTaMPzNx6C-L9nQGALc/edit)
@@ -1477,7 +1222,7 @@ FIXME## Daily Prophet 🌱
 * [ ]  [Jornada](https://docs.google.com/document/d/1KkXQtsJNd2LhFRGPRrSYs0cO_5afTuIQtbRD4tDfRwk/edit)
 * [ ]  [Recursos por idioma](https://docs.google.com/spreadsheets/d/1dzhICu3pdzn8pdR-Q_BeDq3mwBAf3KwPZb-KqY5_Log/edit)
 * [ ]  [Scratch](https://docs.google.com/spreadsheets/d/1R_ROr2OD94U8y6DtSUSDPsqCpu3p5n4JKh7TKV-Pam4/edit#gid=753172436)
-  * Favorites - F.
+* Favorites - F.
 * [ ]  [F.B - General Programming and CS](https://docs.google.com/spreadsheets/d/1ZAD2DxQQu5nG9RX95rW4250OLx_C6AbmpiXfafvL51E/edit)
 * [ ]  [F.B - ML & DS](https://docs.google.com/spreadsheets/d/14drcOT1whQKBifgXc6-2JdRJDYGFM6teuEHCHfzQnqw/edit)
 * [ ]  [F.B - CL/NLP](https://docs.google.com/spreadsheets/d/1YGD7RvRwiA1kmBo-5yMOtL3jx7Q1cmZ08b20pi6mEwk/edit)
@@ -1492,7 +1237,7 @@ FIXME## Daily Prophet 🌱
 * [ ]  [F.B - Other Tools](https://docs.google.com/spreadsheets/d/1m-Zbr7bQx02t3ZydwI4UVz5U5eckmsCi2wYP7OwGmTI/edit)
 * [ ]  [F.B - Research](https://docs.google.com/spreadsheets/d/18Oe5bJqSVBJ8BqRtzVx0qMeF_amp1Je1SKb7DMgRuqs/edit)
 * [ ]  [F.B - Idea Space Modelling](https://docs.google.com/spreadsheets/d/1kLXQGddoY9BwLnKqsrLnGDUauguHxbyjqkCNrJtR4C0/edit?usp=sharing)
-  *
+
 * [ ]  [A. Formación general (notas)](https://docs.google.com/spreadsheets/d/1ysAz4Pkp-w7bkOp_IIL_mt3YTrJZRWU8MwbSSdfxTLk/edit)
 * [ ]  [A. Áreas de estudio](https://docs.google.com/document/d/15TTyLIIJeueV6HiK8mlDhmiv_XskDxrIlwOHnoJmFBM/edit)
 * [ ]  [A. Atributos (multilingual)](https://docs.google.com/spreadsheets/d/1_cPrkA2tBYtWeLQ3vYXkQypGH7-mUQtXti-t8FLnl5o/edit)
@@ -1517,7 +1262,7 @@ FIXME## Daily Prophet 🌱
 * [ ]  [Allusions and Quotations](https://docs.google.com/spreadsheets/d/1Sa0oUd5Pn6Vg1r8zleA13Vv4kGbA_lxV8KY-uvGQcS0/edit)
 * [ ]  [F. Complete Problem List](https://docs.google.com/spreadsheets/d/1aRvrDUZG_cFTfEIvTaHTXhPTKwwg3ru6yJ4mqF36png/edit)
 * [ ]  [F. Explicaciones (podcast, escritura, etc.)](https://docs.google.com/spreadsheets/d/1DYGQDmnzt54w_Pw9URyZdZi2mPA6__hRHE8qIMihYPM/edit?usp=sharing)
-  *
+
 * [ ]  [B. Filosofía (notas)](https://docs.google.com/spreadsheets/d/1rbAgqYURMknyNv3jQiawtbeasDPcR8ucgEfXoLbS94Y/edit)
 * [ ]  [B. Religión (notas)](https://docs.google.com/spreadsheets/d/1Dr-0auuh3GhvQ-czgWVG8JMXEYI5UW5ag3IBriG7Ka4/edit)
 * [ ]  [Philosophiæ quaestiones](https://docs.google.com/spreadsheets/d/1mckR1sqUcyY33UCJAi2-2yJ-BwXFONEPwI44tGdRmVk/edit)
@@ -1535,7 +1280,7 @@ FIXME## Daily Prophet 🌱
 * [ ]  [CES Letter French](https://docs.google.com/document/d/1BZ50LO54-IW-bIu5-0FPe8FZO6SznDoyd4VQDfCdhHs/edit)
 * [ ]  [Letter](https://docs.google.com/document/d/15fyw7T20f66wh6WM6VWwMFiYNoIKTevWN_U9rwj8uLU/edit)
 * [ ]  [Lista y análisis de fuentes de la duda](https://docs.google.com/document/d/1G8h7gHIsgixGQPm4V4F2axJFxdTK7ZcjwTK4yeIEISU/edit?usp=sharing)
-  *
+
 * [ ]  [C. Matemáticas](https://docs.google.com/spreadsheets/d/1RU8z6sIVkcinPuUW3Im6C2fMvHrU-mgwCOiowgSBQLM/edit#gid=140458224)
 * [ ]  [Math Vocab](https://docs.google.com/spreadsheets/d/1fPE4qalO6j9YSgpg8pyKpeT_-AHFDYadi1Yg1lLLuTE/edit#gid=1690798565)
 * [ ]  [C. Matemática (notas)](https://docs.google.com/spreadsheets/d/1NVzPirGXFwfEUs90QEIs5RzJo18xwNbmGC3QHhHxNp4/edit)
@@ -1552,7 +1297,7 @@ FIXME## Daily Prophet 🌱
 * [ ]  [Definitions from Multivariable Calculus (Stewart)](https://docs.google.com/spreadsheets/d/1uUGJVxTGl9QlzP7vWbG-tDzOCRwdTe8KZgGDQJttZQU/edit)
 * [ ]  [Definiciones de estadística](https://docs.google.com/spreadsheets/d/1ghHu6HPbeG0zqHXWzWAykKBMoEEKQG3NE3-_kjIzh9w/edit)
 * [ ]  [Aprendizaje de econometría](https://docs.google.com/spreadsheets/d/10bj9Fv43MMke7JzGWb5mfkst-5mhVZado7DZK05Wpu8/edit?usp=sharing)
-  *
+
 * [ ]  [D. Ciencias naturales físicas y generales](https://docs.google.com/spreadsheets/d/1FL7sBeBoRsOOCQM0kzLRWfL7idNvr3NrMslAGqI4xa8/edit)
 * [ ]  [Relativitätstheorie](https://docs.google.com/spreadsheets/d/1DMo8h1khrRGSJdv7OYimsSG6AvjfIgvG9egnQXqCXT8/edit)
 * [ ]  [Elementos](https://docs.google.com/spreadsheets/d/1WHg_pIVjjb-zFLwKB8VJqQHy48xzL6L1NbL-7CRmHy0/edit)
@@ -1560,12 +1305,12 @@ FIXME## Daily Prophet 🌱
 * [ ]  [Vocabulario de geografía](https://docs.google.com/spreadsheets/d/1XjvH5vrkGrOoghjDJzDwcfG3Fxd4WqLyrJwONU8MGcs/edit)
 * [ ]  [Constelaçãos](https://docs.google.com/spreadsheets/d/1ISRAXZWEyIJCZve6PTlk88VLvKPDff5h7BIgryorwbo/edit)
 * [ ]  [Conocimiento de geografía](https://docs.google.com/spreadsheets/d/11GfA0dKo3b9zHWNmCji8gzg-_26LczoSBM4sMULgqVg/edit?usp=sharing)
-  *
+
 * [ ]  [E. Ciencias naturales biológicas (notas sin neurociencias)](https://docs.google.com/spreadsheets/d/1Fpy-Ko7UaFJkYYbqaPmthhqAOqDMFekXVfzPs8BHPh4/edit)
 * [ ]  [E.I Neurociencias y ciencias de la mente](https://docs.google.com/spreadsheets/d/1YCNWNzdZUDMhZJWF9Kq6TPs8BT3mhwFnW4vkGBw2hjo/edit)
 * [ ]  [Conscience et le problème corps-esprit](https://docs.google.com/spreadsheets/d/1MGgr_K5b2VjWkdsZohy0VAXF16cvLo5uZJmsD3e1Fko/edit)
 * [ ]  [Neuroanatomie](https://docs.google.com/spreadsheets/d/18vXt_gnMp3vUvDNdW-zgIgb6eE4tu5zz8-mxW50x2yY/edit?usp=sharing)
-  *
+
 * [ ]  [F. Tecnología (notas, sin informática)](https://docs.google.com/spreadsheets/d/1NskNrlvu17kUy75viEYF-aiCUyz2mfAa07U14QolffA/edit)
 * [ ]  [Minimal Working Examples](https://docs.google.com/spreadsheets/d/1hzRM9NpjLdlBnZmU2H2UTX_eWDRXf9jujuw61ov9Yso/edit)
 * [ ]  [Speech and Language Processing (Jurafsky & Martin)](https://docs.google.com/spreadsheets/d/1QuIFPdJl9ZhciUuDkuKMI9msvhEs6BCdQdsdc9K1S-0/edit)
@@ -1577,11 +1322,11 @@ FIXME## Daily Prophet 🌱
 * [ ]  [Helpful Tips and Tricks (MSc CompLing 2019)](https://docs.google.com/document/d/173KSzQufTDKxob8JdEYYRVxPpmhpwe2TIw89VXfmvEM/edit)
 * [ ]  [Data Science Books](https://docs.google.com/spreadsheets/d/1_LQINiT3S_deoYRgQJPKtS6feY4BRWgHHt5AFyFfaNM/edit)
 * [ ]  [Language Similarity Research](https://docs.google.com/document/d/1p92Sselx5tUMEUNHleaE8408_AeCNBIga8IbmjvWy0g/edit?usp=sharing)
-  *
+
 * [ ]  [G. Ciencias sociales y humanas (notas)](https://docs.google.com/spreadsheets/d/1nrMklgQOga5wjFj1IVz4QBNLzl9kxxcXcd1oCibPb_0/edit)
 * [ ]  [Think Tanks](https://docs.google.com/spreadsheets/d/19wsrIOJfPn_iS0n4NYBMiLBlqF2x1OY8C8nGqQ46ioE/edit)
 * [ ]  [Book Idea: The West](https://docs.google.com/document/d/11pVuBO2RwletNDGHTOys0IaiLqxWNZeHKacDBDjVDGI/edit?usp=sharing)
-      *
+
 * [ ]  [G.B. Historia](https://docs.google.com/spreadsheets/d/14XUzC2EKy5nfGu5KxebK5wpmqBP6RlLP1M7JAqN_2Xg/edit)
 * [ ]  [9 anni casuali](https://docs.google.com/spreadsheets/d/1bgt9rx2Rbg2O0VOe23vU85yfLpjlRKOleE5WbLlH2dk/edit)
 * [ ]  [Outline History of the World](https://docs.google.com/document/d/12Mfd3KyIj3ZWc9du_ADFUGNbWhWLBByj28jaM_SDq4A/edit)
@@ -1593,19 +1338,19 @@ FIXME## Daily Prophet 🌱
 * [ ]  [1400-1700 C.E.](https://docs.google.com/spreadsheets/d/1BjFiRHDhwOgk4me_04j2V-3nv-KtKk4VhwpK5fFiTTs/edit)
 * [ ]  [1700-1900 C.E.](https://docs.google.com/spreadsheets/d/1kMKKxlHgiiUqdtV2VVL-Pvq7VMLt66OGW_3ClpkK65E/edit)
 * [ ]  [1900 C.E. - Present](https://docs.google.com/spreadsheets/d/106Z9LpEgWTKEHEf48p6yz8a7nRekQYqMGCn3aX4crGk/edit?usp=sharing)
-      *
+
 * [ ]  [G.C. Derecho y política](https://docs.google.com/spreadsheets/d/1H2WMSzPcuIzfjoqwT-H5itqwUA_-duFIv_g7KgJB7f8/edit)
 * [ ]  [Политические дебаты](https://docs.google.com/spreadsheets/d/1RWN2pNGlZSP8K4d6FhEuIZp3d_0lNIeMx5o3E54_XHY/edit)
 * [ ]  [Partidos políticos de 48 países](https://docs.google.com/spreadsheets/d/1dxuWE2UpH9U4ge77rN8J91GeBWMuZvIxnCZyUM2ooK4/edit)
 * [ ]  [Políticos de 20 paises](https://docs.google.com/spreadsheets/d/1OjbpYqrWQy3A-NLloHLNu11BeSZZduyUJiwNeLhV8Yg/edit)
 * [ ]  [Ukraine (Schlögel)](https://docs.google.com/spreadsheets/d/1eJ7ruWmaENaShA5cFhEQw-H3vpYNR5fpXidEOFohpH4/edit?usp=sharing)
-      *
+
 * [ ]  [G.D. Economía](https://docs.google.com/spreadsheets/d/1kP0OPfimGDpAWGVkKIahcppab9MlJDWXXcKJGmc6vhA/edit)
 * [ ]  [Revistas, sitios y blogs de la economía](https://docs.google.com/spreadsheets/d/1W7Ix1WbAkMgp-p2eBw7cvGNbUcLrzJzExyaZODFiNQc/edit)
 * [ ]  [OD Economics](https://docs.google.com/spreadsheets/d/1r2fNHlDQK0SBQgnmk19QEdeljN04v64T1fcA8gV_3KE/edit)
 * [ ]  [Topics List](https://docs.google.com/document/d/1To8muzK1fRTIanmAx1xYuxd1z3q_KXihY5u9EEbonyQ/edit)
 * [ ]  [36 Artikel](https://docs.google.com/spreadsheets/d/1oVCWFvtR8AnXTwxWftesoTGJipbp6JKZZ9VsMQQpXjk/edit?usp=sharing)
-      *
+
 * [ ]  [G.E. Lingüística](https://docs.google.com/spreadsheets/d/1porlMtn2iTGC2klBwUHq9HWzgTSg0NfFAyojRtufo_I/edit)
 * [ ]  [Ling Vocab](https://docs.google.com/spreadsheets/d/1szKVLhrPEg41hbtwYWEnK-rVYgh0Py_MkBZkHElYVxk/edit)
 * [ ]  [Dialectos del Inglés](https://docs.google.com/spreadsheets/d/1xbCtjynvwB0VtriHV7Oj8oPZyQNrK1IdIyF99KpuTHI/edit)
@@ -1616,12 +1361,12 @@ FIXME## Daily Prophet 🌱
 * [ ]  [Квиз по МФА (doc2)](https://docs.google.com/document/d/1Y1BFapn66PkJ2Yi-XbbYTTpwY69xPDkAB-bXV75kJzg/edit)
 * [ ]  [Aussprache und Phonetik](https://docs.google.com/spreadsheets/d/1TCjz-h6ToI5MnJ3djlm7SESEuyZo3Iqminlrj3zyBkg/edit)
 * [ ]  [G.F. Antropología y sociología](https://docs.google.com/spreadsheets/d/1Ut0rayUd1t5jr2i6YFBv5HS95GZV17dmyEdbe6Iyl-U/edit#gid=0)
-      *
+
 * [ ]  [G.G. Psicología](https://docs.google.com/spreadsheets/d/1rk4fE-L93iuDsPYF5yhk_9WC_s6YWVf68ZHuaL3soQw/edit#gid=0)
 * [ ]  [Psychologues](https://docs.google.com/spreadsheets/d/1xXHyEpE1zOmcKYTbVFAn2c5FxmgTc3KTxkFES-a0cOI/edit)
 * [ ]  [Thinking Errors](https://docs.google.com/document/d/1d-xPgeeXFf665C6edZjvOAPwlIEjVTBtqI5lNXFg_2Y/edit)
 * [ ]  [S1S2](https://docs.google.com/spreadsheets/d/1pyZ23VGHvqUppBaCwT6fxGOgbCXnDtDRIFxtSlCPntM/edit?usp=sharing)
-      *
+
 * [ ]  [G.H. Pedagogía](https://docs.google.com/spreadsheets/d/1qUEnXX6FZZCr6lMI7Ky1gARTwbpBYK4EcCCMIjrCfEQ/edit))
 * [ ]  [Study Resources and Methods](https://docs.google.com/document/d/1Q0ATMEuD9Qz6caRsr1vbLc1FOHD5UC0H9M42HYKPy-c/edit)
 * [ ]  [Principles for Question Analysis](https://docs.google.com/document/d/1C7QR0dFCUecvkRJivQQsDIMmkxxEcZ1sI-Weyjdrro0/edit)
@@ -1638,15 +1383,15 @@ FIXME## Daily Prophet 🌱
 * [ ]  [Investigadores y libros de pedagogía](https://docs.google.com/spreadsheets/d/11AxNDOjDxRwYDZKCmrIOPWRmzTcioxjRu9Kd1F8O1cI/edit)
 * [ ]  [Mejores investigadores de la teoría formacional](https://docs.google.com/document/d/1tiHmPcCorDDDwoSujJ_LdRTzfzPMoza8Wc2rpLKA-_g/edit?usp=sharing)
 
-  *
+
 * [ ]  [H. Humanidades (notas sin H.F)](https://docs.google.com/spreadsheets/d/101_rcqnW1XwIlpF0uZl9vrzPOOI5SvauswM-PzpX3HI/edit?usp=sharing)
-      *
+
 * [ ]  [Música y cantantes](https://docs.google.com/spreadsheets/d/1edx4RS8SLYLl3O-5zOk04iG1zb-rHAQI7ouCRQSGIsk/edit)
 * [ ]  [Música clásica para escuchar](https://docs.google.com/spreadsheets/d/1KsOjWpzPTw4HfRaDcV63GPFRU6YODVvcisbrjAOomNk/edit)
 * [ ]  [Music Plans](https://docs.google.com/spreadsheets/d/1Tw7GV_PonLHXvYoRVOlEnX69nABG7hqADBjQYpl6g1s/edit)
 * [ ]  [Scales and Arpeggios](https://docs.google.com/spreadsheets/d/17lGmEiORK4R4OHgEOcvXB_0RqBVx98KMVxPMq5gzDPY/edit)
 * [ ]  [Migliori prattiche del discurso publico](https://docs.google.com/document/d/1h4_KBZL6vER9KxBFvoDdg-bhfbtQ8sx3BcY6Rosr6EU/edit?usp=sharing)
-      *
+
 * [ ]  [H.F. Idiomas y lenguaje (notas)](https://docs.google.com/spreadsheets/d/1rhFUPMWYuGUUCYWlw8VyyBMJIKhJhmvoiH3Im_spClI/edit)
 * [ ]  [Altri testi paralleli](https://docs.google.com/spreadsheets/d/1DcDOEBc7ta_nah0C47MTdklou34TQ4VJr-uBSaO4sEw/edit)
 * [ ]  [Enfoque analítico al aprendizaje de Idiomas](https://docs.google.com/spreadsheets/d/1XBOvzs5FmwRxLJ_kM_FSBr9Ob4LmWwBjBfvlE2gYwZU/edit)
@@ -1762,40 +1507,24 @@ FIXME## Daily Prophet 🌱
 * [ ]  [Mission Outline](https://docs.google.com/document/d/1B1mOqM4WTGEKayKLC2aPyv97Bl6yWWPbnXfm3erdUUs/edit)
 * [ ]  [Journal (Questions) Feb 2016](https://docs.google.com/document/d/1cnPWF7CaIfOwZe8gcuUuMLMpVau9iQ55edrj1RHiyU8/edit?usp=sharing)
 
-  * Contrib Ideas
+#-> project,contrib,idea
 
-        update notion-sdk
+* update notion-sdk
+* make taskw compatible with Python 3.11-12
+* improve pytest documentation (more like the pytest book)
+* type hints in loguru
+* type hints in dynaconf
+* make pre-commit PR -> find gap
+* format pyenv output
+* fix pyenv for use in scripts
+* eventually: contribute to zathura-pdf-mupdf get running for Ubuntu 22.04
 
-        make taskw compatible with Python 3.11-12
+* Nautilus fix
+* need to make it possible to remove Music, Videos, Pictures from Nautilus sidebar
+* → get involved with Gnome project and understand the codebase
 
-        improve pytest documentation (more like the pytest book)
-
-        type hints in loguru
-
-        type hints in dynaconf
-
-        make pre-commit PR -> find gap
-
-        format pyenv output
-
-        fix pyenv for use in scripts
-
-        eventually: contribute to zathura-pdf-mupdf get running for Ubuntu 22.04
-
-  * Nautilus fix
-
-            need to make it possible to remove Music, Videos, Pictures from Nautilus sidebar
-
-            → get involved with Gnome project and understand the codebase
-
-  * model of optimal amount of information (informedness)
-  * related: idea system of aggregation of knowledge and insights - “How can everybody’s (informed) view matter?” (“trickle-up?”)
-  * related to optimal organizing forms ( → modeling, see Networks, Crowds, and Markets book)
-  * → write and article of different models/views of news media consumption
-        -
-  * Word Translation Graph
-  * start with prepositions
-  * use embeddings and compare embeddings to weighted combinations of translations’ embeddings?
+* model of optimal amount of information (informedness) -> related: idea system of aggregation of knowledge and insights - “How can everybody’s (informed) view matter?” (“trickle-up?”) | related to optimal organizing forms ( → modeling, see Networks, Crowds, and Markets book) | → write and article of different models/views of news media consumption
+* Word Translation Graph | start with prepositions | use embeddings and compare embeddings to weighted combinations of translations’ embeddings?
 * add to rosetta-projects: Rust port of nand2tetris suite
 * IDEA: AI-driven tool to generate or check git commit messages on the basis of the diff. → how does copilot work? how does codex work? how do alternative tools work?
 * Deskewer
@@ -1810,26 +1539,26 @@ FIXME## my projects
 * [toptal.com/raspberry-pi/how-to-turn-your-raspberry-pi-into-a-development-server](https://www.toptal.com/raspberry-pi/how-to-turn-your-raspberry-pi-into-a-development-server)
 * [json-schema.org/understanding-json-schema/structuring](https://json-schema.org/understanding-json-schema/structuring)
 
-    qutebrowser due to frozen teams:
+* qutebrowser due to frozen teams:
 * [112:152:0100/000000.790507:ERROR:broker_posix.cc(46)] Received unexpected number of handles  * [112:152:0100/000000.791120:ERROR:broker_posix.cc(46)] Received unexpected number of handles
 
-    move “other” from Recursos por idioma to Notion
+* move “other” from Recursos por idioma to Notion
 
-    → make Configurability Github organization with forks of apps that support custom colors and keybindings (or just patches?)
+* → make Configurability Github organization with forks of apps that support custom colors and keybindings (or just patches?)
 
-    Wie kann ich mich mehr politisch engagieren?
+* Wie kann ich mich mehr politisch engagieren?
 
-    Just re-write plt code in typescript/JavaScript to use a good highlighting library pre-html; use Perl for something else, like shell scripts
+* Just re-write plt code in typescript/JavaScript to use a good highlighting library pre-html; use Perl for something else, like shell scripts
 * [google.com/search?client=firefox-b-m&sca_esv=584934822&sxsrf=AM9HkKm9ojvgZM44drVwG0h7TGXNOfu28g%3A1700779676233&q=drop-down+library+ui+design+javascript&oq=drop-down+library+ui+design+javascript&aqs=heirloom-srp](https://www.google.com/search?client=firefox-b-m&sca_esv=584934822&sxsrf=AM9HkKm9ojvgZM44drVwG0h7TGXNOfu28g%3A1700779676233&q=drop-down+library+ui+design+javascript&oq=drop-down+library+ui+design+javascript&aqs=heirloom-srp)
 
-    Install Ubuntu server 23.10 and use complete install script for i3, picom, etc. - then install Nix and home-manager
+* Install Ubuntu server 23.10 and use complete install script for i3, picom, etc. - then install Nix and home-manager
 * [nix.dev/tutorials/nixos/installing-nixos-on-a-raspberry-pi.html](https://nix.dev/tutorials/nixos/installing-nixos-on-a-raspberry-pi.html)
 
-    DON'T Use Raspberry Pis for Servers! [video](https://www.youtube.com/watch?v=aKmKo_Ua7rQ&pp=ygUYbml4b3Mgb24gcmFzcGJlcnJ5IHBpIDQg)
+* DON'T Use Raspberry Pis for Servers! [video](https://www.youtube.com/watch?v=aKmKo_Ua7rQ&pp=ygUYbml4b3Mgb24gcmFzcGJlcnJ5IHBpIDQg)
 
-    look into how to make aliases for different programming languages and projects
+* look into how to make aliases for different programming languages and projects
 
-    xdg-settings set default-web-browser firefox.desktop → make work on hank with flatpak, vs [askubuntu.com/questions/16621/how-to-set-the-default-browser-from-the-command-line](https://askubuntu.com/questions/16621/how-to-set-the-default-browser-from-the-command-line)
+* xdg-settings set default-web-browser firefox.desktop → make work on hank with flatpak, vs [askubuntu.com/questions/16621/how-to-set-the-default-browser-from-the-command-line](https://askubuntu.com/questions/16621/how-to-set-the-default-browser-from-the-command-line)
 * [karabiner-elements.pqrs.org/docs/json/](https://karabiner-elements.pqrs.org/docs/json/) → see for ideas for Clavix format
 * [manwar/perlweeklychallenge-club/tree/master](https://github.com/manwar/perlweeklychallenge-club/tree/master) - many languages
 * [briandfoy/PerlPowerTools](https://github.com/briandfoy/PerlPowerTools) → for RosettaProjects
@@ -1844,7 +1573,7 @@ FIXME## my projects
 * [rdbo/sigma-linux](https://github.com/rdbo/sigma-linux)
 * [opensource.com/article/21/7/custom-raspberry-pi-image](https://opensource.com/article/21/7/custom-raspberry-pi-image)
 
-    HN Guix [news.ycombinator.com/item?id=17083209](https://news.ycombinator.com/item?id=17083209)
+* HN Guix [news.ycombinator.com/item?id=17083209](https://news.ycombinator.com/item?id=17083209)
 * [thiagowfx.github.io/2022/01/alpine-linux-on-raspberry-pi-diskless-mode-with-persistent-storage/](https://thiagowfx.github.io/2022/01/alpine-linux-on-raspberry-pi-diskless-mode-with-persistent-storage/)
 * [gitlab.com/raspi-alpine/builder](https://gitlab.com/raspi-alpine/builder)
 * [instructables.com/Booting-Raspberry-Pi-3-B-With-a-USB-Drive/](https://www.instructables.com/Booting-Raspberry-Pi-3-B-With-a-USB-Drive/)
@@ -1854,54 +1583,40 @@ FIXME## my projects
 * [rdbo/sigma-linux](https://github.com/rdbo/sigma-linux)
 * [askubuntu.com/questions/1329599/dual-boot-two-linux-distributions-on-one-disk](https://askubuntu.com/questions/1329599/dual-boot-two-linux-distributions-on-one-disk)
 
-    next step: figure out how to ssh into my work computer -> good for planager access from phone, etc
+* next step: figure out how to ssh into my work computer -> good for planager access from phone, etc
 
-    Open Weather Map API KEy 39f576bf65c9e540357e993fc955c7e5
+* Open Weather Map API KEy 39f576bf65c9e540357e993fc955c7e5
 
-    inthe_am/isaac.r.riley/f616213f-e590-4a3c-9b73-40733e137ad5
+* inthe_am/isaac.r.riley/f616213f-e590-4a3c-9b73-40733e137ad5
 
-    Look for software that can apply a complex (and continuous) color remapping to a PDF file, or patch my own!!!
+* Look for software that can apply a complex (and continuous) color remapping to a PDF file, or patch my own!!!
 
-    Re-write tree command to show view proportional to LoC or other metrics (tree + tokei, etc)
+* Re-write tree command to show view proportional to LoC or other metrics (tree + tokei, etc)
 * [mypy-lang.org/](https://www.mypy-lang.org/) → make PR: roadmap on site not found
 
-    → use mypyc for planager? → compile with codon / mypyc / rewrite in cython and compile?
+* → use mypyc for planager? → compile with codon / mypyc / rewrite in cython and compile?
 
-    Write Python script to parse poetry lockfile, query most recent version (pypi / [Github](https://stackoverflow.com/questions/76133390/how-to-use-github-api-to-retrieve-the-latest-version-of-a-package)) to identify which can be updated
+* Write Python script to parse poetry lockfile, query most recent version (pypi / [Github](https://stackoverflow.com/questions/76133390/how-to-use-github-api-to-retrieve-the-latest-version-of-a-package)) to identify which can be updated
 * [braille-txt.github.io/](https://braille-txt.github.io/)
 
-    Fork terminal matrix video and use braille for an improved image → even unicode [xahlee.info/comp/unicode_ascii_art.html](http://xahlee.info/comp/unicode_ascii_art.html)
+* Fork terminal matrix video and use braille for an improved image → even unicode [xahlee.info/comp/unicode_ascii_art.html](http://xahlee.info/comp/unicode_ascii_art.html)
 
-    → simple pixelwise regression → pixelwise regression weighted relative to edges? →
+* → simple pixelwise regression → pixelwise regression weighted relative to edges? →
 
-    write library for terminal art like ascii art, but with unicode!
+* write library for terminal art like ascii art, but with unicode!
 
-    → [elpa.gnu.org/packages/ascii-art-to-unicode.html](https://elpa.gnu.org/packages/ascii-art-to-unicode.html)
+* → [elpa.gnu.org/packages/ascii-art-to-unicode.html](https://elpa.gnu.org/packages/ascii-art-to-unicode.html)
 
-    Cool for images, but also for text → box lines and block characters, as well as curves
+* Cool for images, but also for text → box lines and block characters, as well as curves
 
-    Braille text art would also be cool → “brailletters” → write CLI in Nim, Zig, Vlang or something?
+* Braille text art would also be cool → “brailletters” → write CLI in Nim, Zig, Vlang or something?
 * [snyde875/ASCII-Art-Tool](https://github.com/snyde875/ASCII-Art-Tool)
 
-    Re-write Matrix terminal to use braille and alternatively to use (a suitable set of) unicode characters
+* Re-write Matrix terminal to use braille and alternatively to use (a suitable set of) unicode characters
 
-    Which font processing libraries already exist? How to interface with them?
+* Which font processing libraries already exist? How to interface with them?
 
-  * alignment
 
-        let "word" = "lemma" in what follows
-
-        given 2 sentences which may be a match:
-
-        what
-         is the probability of word ai and word bj co-occurring in a correct
-        match vs in an incorrect match? -> ratio, i.e. certainty gain
-
-        add up log certainty gain for all relevant word pairs found in the sentence
-
-        find most predictive words (i.e. word pairs)
-
-        Also negative aspect? -> words highly likely to be translated with another word should decrease certainty if it is not found
 * [ugarit.ialigner.com/userProfile.php?userid=3721](https://ugarit.ialigner.com/userProfile.php?userid=3721)
 * [ugarit.ialigner.com/about.php](https://ugarit.ialigner.com/about.php)
 * [huggingface.co/UGARIT](https://huggingface.co/UGARIT)
@@ -1917,12 +1632,6 @@ FIXME### PolyglotToolkit
 
 * Reader features (browser-based?) for parellel text, interlineator, etc.: make reference-languuage small and faint (and customizable) or togglable to make it easier to focus on the target language
 
-```
-* i \in [j-3, j + diff + 3]
-* r > c: j-3 \leq i \leq j+d+3
-* c > c: i-3 \leq j \leq i+d+3
-
-```
 * other PolyglotToolkit Projects: translation-trainer: use tatoeba or supplied parallel text (optimally with multiple translations), compute metrics, show diff, display dashboard, etc.language utility (pre-processor) packages, esp for Arabic, Ancient Greek, ChineseAlignment Tool(s)make GUI tool (or nvim plugin) for manual sentence/word alignmentCLI for viewing parallel texts in the terminalVocalizer: add diacritics to language (seq2seq package) - for arabic, hebrew, ancient greek, latin (with macros → [Alatius/latin-macronizer),](https://github.com/Alatius/latin-macronizer),) [ictibus.blogspot.com/,](http://ictibus.blogspot.com/,) [ilovegooglebooks.blogspot.com/search/label/macrons,](http://ilovegooglebooks.blogspot.com/search/label/macrons,) russian → [russiangram.com/,](https://russiangram.com/,) easy test case for training data, ukrainianLatin error detector: fix wrong endings → right architecture for finding single location (here error) in a sequenceMaybe start with Ancient Greek diacritics: easy data, learnable objectiveuse PoS tagging, Wiktionary word info (via Wiktionary tool) → later dependency parsing?
 
 FIXME## Expression Translation Tables (→ Multi-Word Expression Project, Proverbs Project)
@@ -1936,13 +1645,13 @@ FIXME# Parallel Text Alignment (and Formatting)
 * [yelircaasi/parallel-text-aligner](https://github.com/yelircaasi/parallel-text-aligner)
 * [yelircaasi/parallel-text-finisher](https://github.com/yelircaasi/parallel-text-finisher)
 
- example: [2books.su/](https://2books.su/)
+*  example: [2books.su/](https://2books.su/)
 * saved links to sort
-    * PTF
+* PTF
 
-        PTF Roadmap: simple end-to-end case: 2 aligned files, simple config, simple output PDFrefine project structurerefine config structure % options: first sample text, add book form with chapterswrite unit testswrite integration testsinstall texlive with all necessary packages in alpine container-> learn texlive structure & content of various packages (deb, but especially apk)-> slim down alpine texlive container (dockerslim? graph of files read during command execution?)
+* PTF Roadmap: simple end-to-end case: 2 aligned files, simple config, simple output PDFrefine project structurerefine config structure % options: first sample text, add book form with chapterswrite unit testswrite integration testsinstall texlive with all necessary packages in alpine container-> learn texlive structure & content of various packages (deb, but especially apk)-> slim down alpine texlive container (dockerslim? graph of files read during command execution?)
 
-        make config format for book, chapter, article, simple, etc.
+* make config format for book, chapter, article, simple, etc.
 * [Converting Markdown to Beautiful PDF with Pandoc - jdhao's digital space](https://jdhao.github.io/2019/05/30/markdown2pdf_pandoc/)
 * [mirror/busybox: BusyBox mirror](https://github.com/mirror/busybox)
 * [Alpine Linux](https://wiki.alpinelinux.org/wiki/Main_Page)
@@ -1950,18 +1659,18 @@ FIXME# Parallel Text Alignment (and Formatting)
 * [try this:](https://dvc.org/doc/user-guide/data-management/remote-storage/google-drive) → for parallel text data and also for my own pdfs
 * [Wandmalfarbe/pandoc-latex-template](https://github.com/Wandmalfarbe/pandoc-latex-template)
 
-        add Epictetus' works:
+* add Epictetus' works:
 * [Encheiridion Epictetus - Documentos de Google](https://docs.google.com/document/d/1sXjcRTugUiL0UN-QQUzfKv7BpZwJL-h6UTaQCpSlxSo/edit#)
 * [Sfoglia per autore | Traduci Versioni](https://traduciversioni.it/authors)
 
-    Free bilingual book French / English, The Adventures of Tom Sawyer,    CHAPITRE XIV —    CHAPTER XIV.
+* Free bilingual book French / English, The Adventures of Tom Sawyer,    CHAPITRE XIV —    CHAPTER XIV.
 * [http://bilinguis.com/book/tomsawyer/fr/en/c14/](https://languagefixation.wordpress.com/2011/02/23/how-to-create-parallel-texts-for-language-learning-part-2/)
 * [How to create parallel texts for language learning, part 2 | Language Fixation](https://languagefixation.wordpress.com/2011/02/23/how-to-create-parallel-texts-for-language-learning-part-2/)
 * [hunalign – sentence aligner | Média Oktató és Kutató Központ](http://mokk.bme.hu/resources/hunalign/)
 * [hunalign/src at master · danielvarga/hunalign](https://github.com/danielvarga/hunalign/tree/master/src)
 * [kindlychung/af-aligner: LF Aligner helps translators create translation memories from texts and their translations. It relies on Hunalign for automatic sentence pairing. Input: txt, doc, docx, rtf, pdf, html. Output: tab delimited txt, TMX and xls. With web features.](https://github.com/kindlychung/af-aligner)
 
-    Forced Alignment with Wav2Vec2 — Torchaudio nightly documentation
+* Forced Alignment with Wav2Vec2 — Torchaudio nightly documentation
 * [SimAlign: High Quality Word Alignments Without Parallel Training Data Using Static and Contextualized Embeddings - 2020.findings-emnlp.147.pdf](https://aclanthology.org/2020.findings-emnlp.147.pdf)
 * [LF Aligner - Browse Files at SourceForge.net](https://sourceforge.net/projects/aligner/files/)
 * [SuperAlign download | SourceForge.net](https://sourceforge.net/projects/superalign/)
@@ -1993,11 +1702,11 @@ FIXME# Parallel Text Alignment (and Formatting)
 * [Word alignment - Cutting the chicken-egg problem | MT talks #8](https://youtu.be/mqyMDLu5JPw)
 * [JelteF/PyLaTeX: A Python library for creating LaTeX files](https://github.com/JelteF/PyLaTeX)
 
-    Alignment approach:1) predict probability of text problems, use this to set k (number of superdiagonals)2) create length-based grid structure3) load models4) find anchor points5) solve alignment sub-problems between anchor points6) flag low-scoring alignments
+* Alignment approach:1) predict probability of text problems, use this to set k (number of superdiagonals)2) create length-based grid structure3) load models4) find anchor points5) solve alignment sub-problems between anchor points6) flag low-scoring alignments
 
-    Alignment:A) create grid visualization -> how to draw an uneven grid in Matplotlib -> view implementations in different gantt reposB) visualize diagonal distortion from deletion / insertion: how many additional sub-/superdiagonals are needed to cover the true alignment?C) create absolute length-based predictor for each language pair: fit distribution to absolute lengths  -> normal distribution with delta a function of lengths (2 lengths in pair), could be: OLS, quantile regression, logistic regression with 2 inputs -> use as text problem predictor
+* Alignment:A) create grid visualization -> how to draw an uneven grid in Matplotlib -> view implementations in different gantt reposB) visualize diagonal distortion from deletion / insertion: how many additional sub-/superdiagonals are needed to cover the true alignment?C) create absolute length-based predictor for each language pair: fit distribution to absolute lengths  -> normal distribution with delta a function of lengths (2 lengths in pair), could be: OLS, quantile regression, logistic regression with 2 inputs -> use as text problem predictor
 
-    Alignment: function word translation probabilities, BoW, BoW with relative position information
+* Alignment: function word translation probabilities, BoW, BoW with relative position information
 * [Sentence alignment - Gale & Church | MT talks #7](https://www.youtube.com/watch?app=desktop&v=_4lnyoC3mtQ)
 * [Beam Search in Seq2Seq Model. We learnt about a basic seq2seq model… | by Dharti Dhami | Medium](https://medium.com/@dhartidhami/beam-search-in-seq2seq-model-7606d55b21a5)
 * [Beam Search in Seq2Seq Model. We learnt about a basic seq2seq model… | by Dharti Dhami | Medium](https://medium.com/@dhartidhami/beam-search-in-seq2seq-model-7606d55b21a5)
@@ -2008,7 +1717,7 @@ FIXME# Parallel Text Alignment (and Formatting)
 * [alvations/NTU-MC/blob/master/ntumc/toolkit/gale_church.py](https://github.com/alvations/NTU-MC/blob/master/ntumc/toolkit/gale_church.py)
 * [dowobeha/Gale_and_Church_1993](https://github.com/dowobeha/Gale_and_Church_1993)
 
-    Supervised Mover s Distance [google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjN8dyrmYL-AhXP-6QKHXaoBAoQFnoECAYQAQ&url=https%3A%2F%2Fpeerj.com%2Fpreprints%2F26847.pdf&usg=AOvVaw0U0yhoLXnJ1lxl0sbmIRCp](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjN8dyrmYL-AhXP-6QKHXaoBAoQFnoECAYQAQ&url=https%3A%2F%2Fpeerj.com%2Fpreprints%2F26847.pdf&usg=AOvVaw0U0yhoLXnJ1lxl0sbmIRCp)
+* Supervised Mover s Distance [google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjN8dyrmYL-AhXP-6QKHXaoBAoQFnoECAYQAQ&url=https%3A%2F%2Fpeerj.com%2Fpreprints%2F26847.pdf&usg=AOvVaw0U0yhoLXnJ1lxl0sbmIRCp](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjN8dyrmYL-AhXP-6QKHXaoBAoQFnoECAYQAQ&url=https%3A%2F%2Fpeerj.com%2Fpreprints%2F26847.pdf&usg=AOvVaw0U0yhoLXnJ1lxl0sbmIRCp)
 * [Massively Multilingual Document Alignment with Cross-lingualSentence-Mover’s Distance](https://youtu.be/0GmRL4rj_dA)
 
 FIXME## Roadmap
@@ -2055,16 +1764,15 @@ FIXME## Roadmap
 * [ ]  Read [Overview of BA Algorithms](https://drive.google.com/file/d/1cVFNvbJ1Tjr-14yQh_l8kYnaOhVumxsp/view?usp=sharing)
 * [ ]  read neural alignment papers / tools
 
-* [ ]  ‣            * [ ]  ‣            * [ ]  [hunalign – sentence aligner | Média Oktató és Kutató Központ](http://mokk.bme.hu/resources/hunalign/)
+* [ ]  [hunalign – sentence aligner | Média Oktató és Kutató Központ](http://mokk.bme.hu/resources/hunalign/)
 * [ ]  [farkastranslations.com/alignment.php](https://farkastranslations.com/alignment.php)
-* [ ]  ‣            * [ ]  ‣            * [ ]  The protein-protein interaction network alignment using recurrent neural networ
+* [ ]  The protein-protein interaction network alignment using recurrent neural networ
 * [ ]  [Neural Network Alignment for Sentential Paraphrases](https://aclanthology.org/P19-1467.pdf)
 * [ ]  Accelerating DNA pairwise sequence alignment using FPGA and a customized convolutional neural networ
 * [ ]  [Enhanced Self-Organizing Map Neural Network for DNA Sequence Classification](https://file.scirp.org/pdf/IIM_2013012416282128.pdf)
 * [ ]  [Neural Time Warping For Multiple Sequence Alignment](https://arxiv.org/abs/2006.15753)
 * [ ]  [A Neural Multi-sequence Alignment TeCHnique (NeuMATCH)](https://openaccess.thecvf.com/content_cvpr_2018/papers/Dogan_A_Neural_Multi-Sequence_CVPR_2018_paper.pdf)
-* [ ]  [Gapped sequence alignment using artificial neural networks: application to
-            the MHC class I system](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6402319/)
+* [ ]  [Gapped sequence alignment using artificial neural networks: application to the MHC class I system](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6402319/)
 * [ ]  [NN-align. An artificial neural network-based alignment algorithm for MHC class II peptide binding prediction](https://pubmed.ncbi.nlm.nih.gov/19765293/)
 * [ ]  [TEMPORAL ALIGNMENT PREDICTION FOR SUPER- VISED REPRESENTATION LEARNING AND FEW-SHOT SEQUENCE CLASSIFICATION](https://openreview.net/pdf?id=p3DKPQ7uaAi)
 * [ ]  [High-speed all-optical DNA local sequence alignment based on a three-dimensional artificial neural network](https://www.osapublishing.org/josaa/abstract.cfm?uri=josaa-34-7-1173)
@@ -2074,7 +1782,7 @@ FIXME## Roadmap
 * [ ]  [An Empirical Investigation of Word Alignment Supervision for Zero-Shot Multilingual Neural Machine Translation](
 * [ ]  [Lesan -- Machine Translation for Low Resource Languages](https://arxiv.org/abs/2112.08191)
 * [ ]  [Link-Intensive Alignment for Incomplete Knowledge Graphs](https://arxiv.org/abs/2112.09266)
-* [ ]              * [ ]  [en.wikipedia.org/wiki/Parallel_text](https://en.wikipedia.org/wiki/Parallel_text) (see links!
+* [ ]  [en.wikipedia.org/wiki/Parallel_text](https://en.wikipedia.org/wiki/Parallel_text) (see links!
 * [ ]  [www-i6.informatik.rwth-aachen.de/web/Tools/GIZA++.html](http://www-i6.informatik.rwth-aachen.de/web/Tools/GIZA++.html)
 * [ ]  [terminotix.com/index.asp?content=item&item=49&lang=en](https://terminotix.com/index.asp?content=item&item=49&lang=en)
 * [ ]  [nlp.jhu.edu/parabank/](https://nlp.jhu.edu/parabank/)
@@ -2087,7 +1795,8 @@ FIXME## Roadmap
 * [ ]  Read Hands-on Design Patterns and Best Practices with Julia
 * [ ]  Read Julia 1.0 Programming Dynamic and High-Performance Programming to Build Fast Scientific Applications
 * [ ]  Read Julia Docs, especially sections on packaging and high-performance tips
-* [ ]  learn about diff algorithms → application to bitext alignment?        * [ ]  [4 Diff Algorithms in Git](https://link.springer.com/article/10.1007/s10664-019-09772-z)
+* [ ]  learn about diff algorithms → application to bitext alignment?    
+* [ ]  [4 Diff Algorithms in Git](https://link.springer.com/article/10.1007/s10664-019-09772-z)
 * [ ]  [git-scm.com/docs/git-diff](https://git-scm.com/docs/git-diff)
 * [ ]  [en.wikipedia.org/wiki/Diff](https://en.wikipedia.org/wiki/Diff)
 * [ ]  [luppeng.wordpress.com/2020/10/10/when-to-use-each-of-the-git-diff-algorithms/](https://luppeng.wordpress.com/2020/10/10/when-to-use-each-of-the-git-diff-algorithms/)
@@ -2097,7 +1806,7 @@ FIXME## Roadmap
 * [ ]  [Cross-Sentence Alignment with Deep Neural Networks](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj11fSdpaz1AhUG8rsIHQ7JCRUQFnoECAgQAQ&url=https%3A%2F%2Flink.springer.com%2Fchapter%2F10.1007%2F978-3-030-27947-9_16&usg=AOvVaw0r6O7LmghTzp_vvABO6PyI)
 * [ ]  [Word Alignment Modeling with Context Dependent Deep Neural Network](https://aclanthology.org/P13-1017.pdf)
 * [ ]  [Neural network alignment for sentential paraphrases](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj11fSdpaz1AhUG8rsIHQ7JCRUQgAMoAXoECAEQAw&url=https%3A%2F%2Fscholar.google.de%2Fscholar_url%3Furl%3D)
-        https%3A%2F%2Fwww.aclweb.org%2Fanthology%2FP19-1467.pdf%26hl%3Dit%26sa%3DX%26ei%3D1NPeYbnfC8CVy9YPkO25qAM%26scisig%3DAAGBfm2d9BeLWAihhOGm-qVK6R3pxYm9Yw%26oi%3Dscholarr&usg=AOvVaw3inDZXW5pNu1YjIykpxWeF)
+* https%3A%2F%2Fwww.aclweb.org%2Fanthology%2FP19-1467.pdf%26hl%3Dit%26sa%3DX%26ei%3D1NPeYbnfC8CVy9YPkO25qAM%26scisig%3DAAGBfm2d9BeLWAihhOGm-qVK6R3pxYm9Yw%26oi%3Dscholarr&usg=AOvVaw3inDZXW5pNu1YjIykpxWeF)
 * [ ]  The TransBank Aligner: Cross-Sentence Alignment with Deep Neural Networks
 * [ ]  [Iterative, MT-based Sentence Alignment of Parallel Texts](https://www.semanticscholar.org/paper/Iterative%2C-MT-based-Sentence-Alignment-of-Parallel-Sennrich-Volk/b74b3e52011a0b55f6f7187d3486fb3ae34d1e6e)
 * [ ]  [Inter-Weighted Alignment Network for Sentence Pair Modeling](https://aclanthology.org/D17-1122.pdf)
@@ -2143,19 +1852,13 @@ FIXME## Architecture
 
 FIXME## Tech Stack
 
-* Julia
-
-    → which gui?
-         → [towardsdatascience.com/6-julia-frameworks-to-create-desktop-guis-and-web-apps-9ae1a941f115](https://towardsdatascience.com/6-julia-frameworks-to-create-desktop-guis-and-web-apps-9ae1a941f115)
-
-    → [syl1.gitbook.io/julia-language-a-concise-tutorial/language-core/11-developing-julia-packages](https://syl1.gitbook.io/julia-language-a-concise-tutorial/language-core/11-developing-julia-packages)
+* Julia → which gui? → [towardsdatascience.com/6-julia-frameworks-to-create-desktop-guis-and-web-apps-9ae1a941f115](https://towardsdatascience.com/6-julia-frameworks-to-create-desktop-guis-and-web-apps-9ae1a941f115)
+* → [syl1.gitbook.io/julia-language-a-concise-tutorial/language-core/11-developing-julia-packages](https://syl1.gitbook.io/julia-language-a-concise-tutorial/language-core/11-developing-julia-packages)
 * LaTeX
 * Docker
 * Web interface
-
-    → which tools?
-
-    → how to host?
+* → which tools?
+* → how to host?
 
 FIXME## Text Sources
 
@@ -2176,93 +1879,15 @@ FIXME## Preprocessing
 * .xml (also common intermediate format?)
 * Hierarchy:
 
-      Chapter > Paragraph > Sentence > Phrase > Word (?)
+* Chapter > Paragraph > Sentence > Phrase > Word (?)
 * Tokenization at each level given above → see [WordTokenizers.jl](https://www.theoj.org/joss-papers/joss.01956/10.21105.joss.01956.pdf) for sentence and word level; use regex and pattern recognition for others
 * Data structure:
-
-FIXME## Bitext Alignment Component
-
-* Data structures:
-* text segment structures: string array?
-* alignment structure: text segment structures, corresponding alignment index arrays → how to most structure indices to allow for efficient frequent shifting of indices? mutable struct?
-* n x m grid of alignment scores → filled in on “diagonal” (relative positional overlap) and within k of the “diagonal” to be learned with a max-margin approach: softmax regression over features?
-* geometric grid, where side lengths represent relative weight → use to find diagonal
-* feature vector for each proposed alignment: punctuation counts, stop word counts, capitalization counts (where applicable), word length, relative word length, relative character length, basic part of speech counts, etc. → tensor? dataframe with vector entries? → einsum notation for computations?
-* n x m score matrix
-* segment type annotations (predicted probabilities, types: paragraph, chapter title, page number, footnote):  → to feature vector?
-* Scoring Models: TODO: [Draw diagram](https://app.diagrams.net/)
-* concatenation of both feature vectors (→ their difference will be learned internally in the small neural network) as input to a small scoring model (FFNN?)
-    * trained by max margin: gold alignment given 1, each alignment in both directions with neighbors no further than j positions away scored 0 → triplet loss?
-    * 1 basic relative weight-based model (linear regression likely sufficient) and many language-pair-specific models (FFNN likely superior)
-* Triplet / Siamese network to learn sentence pair scores from a relatively small set of function words (stop words) (and other very high-frequency lemmas?):
-* sentence → representation → aggregation → dense embedding model (except for models where aggregation and embedding occur together) → dot product / cosine distance as score (to be minimized)
-* Key assumption: this score will be - with very high probability - higher for correct than for incorrect alignments (especially for true alignments vs neighboring alignments)
-* → idea: add normalized length measures (character, token)
-    * function-word translation probabilities - using a small set of frequent (i.e. function) words, their co-occurrence probabilities (or perhaps relative probabilities → log-odds ratio?) can be used to generate a score for each sentence pair
-    * bag-of-words-based score
-    * expanded bag-of-words-based scores (many variations possible): use positional encodings / positional embeddings (as in Transformer, or more simply one-hot for word being in part k → see part about 2D input)? additional token types such as before/after function words, i.e. words mapped to likely types
-    → how to use positional encodings?
-    * very low-dimensional embeddings for k most frequent words (PCA or other dimensionality reduction technique from pre-trained)
-    * 2D input, convolutional element → variation on each model below
-    * LSTM-based embeddings
-    * simple encoder-decoder-based embeddings
-    * Transformer/attention-based embeddings
-* Approaches:
-* 1. Relative Weight-Based (i.e. length-based)
-    1. paragraph
-    2. sentence
-* 2. Content overlap-based
-    1. lexicon-based
-        1. stop-words (N most frequent) - more efficient
-        2. larger or even practically-full lexicon (or lemma) set to learn co-occurrence probabilities from - less efficient, greater accuracy possible → see above
-        3. recognition and use of proper nouns
-        4. word embedding-based? → see above
-    2. punctuation-based
-    3. consecutive n-gram overlap scores (with transliteration mapping rules)
-* 3. Neural approach
-    1. one idea: all easy-to-compute features as input to alignment model (cf. non-neural?)
-        1. baseline language-agnostic model from relative weight-based features
-        2. language pair-specific additional features: bigrams, punctuation, stop words (→ possibly better to have overlap of possible translations of stop words, potentially weighted by translation probability), proper noun recognition, etc.
-* 4. Parameter tuning from training data (for all or most of the above) - possible (more primitive) alternative to the neural approach
-* 5. binary predictor for matching segment pairs: match / no match → possibility of using and tuning word embeddings
-* → embed sentence and use triplet network training to maximize “closeness” of respective embeddings
-* → predict PoS for all words, use filler PoS embeddings for all words not in stop words, punctuation, N most common lemmas
-* → embed each token, use two sequence models to each output a “sentence” (text unit) embedding, tor input to triplet loss
-* → use beam search on the output of this to find most likely alignments
-* 6. translation-based approach
-    1. full neural / statistical MT
-    2.  → [opennmt.net/,](https://opennmt.net/,)
-* [huggingface.co/docs/transformers/model_doc/marian](https://huggingface.co/docs/transformers/model_doc/marian)
-* [marian-nmt.github.io/](https://marian-nmt.github.io/)
-     [opus.nlpl.eu/Opus-MT/](https://opus.nlpl.eu/Opus-MT/)
-* 7. RL-based approach: advantage of relatively small action space, typically limited number of look-aheads → how to parametrize environment, policy, etc.? → which algorithm(s) to use?
-* Other ideas:
-* use “breakpoints” - likely paragraph, section, chapter etc. breaks → indicator of likelihood of certain alignments (naturally not ironclad)
-* proper noun anchoring approach: identify proper nouns (NER + pattern matching?) → different approaches for different language pairs
-* Modules
-* Noiser: take clean and aligned texts (alignment data structure) and add noise, split some segments, combine some segments, to imitate look of Wiktionary or Project Gutenberg, etc. formats → input to training algorithms, with ground truth available (use break point tags to keep track of equivalences → one set for each version, clean and noisy, and in master data structure both)
-
-FIXME### Relevant Algorithms
-
-* 1. Beam Search (adapted to bitex alignment
-* 2. Anchor point seeded beam search
-    1. diagonal max overlap
-    2. k steps in either direction for $4k^2$  possible alignments
-    3. search over proposed alignments, narrowing the search space as much as possible when high-quality alignments are found
-    4. → see Bitext Alignment (2) for ideas on how to implement this
-    5. above, but with max lookahead, before selecting anchor points above a certain threshold and continuing from there
-* 3. multilingual alignment with modified version of 1. (more than 2 languages at a time for greater robustness)
-* → [en.wikipedia.org/wiki/Category:Search_algorithms](https://en.wikipedia.org/wiki/Category:Search_algorithms)
-* 1. RL-powered search?
-* 2. Score grid traversal: 7 lookaheads (possible next alignments), need to re-evaluate 4 of those to see if alignment scores improve after combining segments
-* 3. anchor traversal: once p reliable good anchors are found (scores above a pre-determined threshold), reduce search space to feasible paths between anchors → algorithm to compute permissible paths / re-compute diagonals
-* 4.
 
 FIXME## Extensions
 
 * juxtalinear LaTeX generator
 * interlinear LaTeX generator
-    * including from parallel texts
+* including from parallel texts
 * GUI app (in Rust? in Julia? in C++?)
 * [stackoverflow.com/questions/35328468/how-to-make-a-gui-in-julia](https://stackoverflow.com/questions/35328468/how-to-make-a-gui-in-julia)
 * [dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-gui-libraries-as-of-january-2021-40gl](https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-gui-libraries-as-of-january-2021-40gl)
@@ -2306,34 +1931,33 @@ FIXME## Extensions
 * [en.wikipedia.org/wiki/List_of_ISO_639-1_codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 * [Paper on model collapse](https://arxiv.org/abs/2305.17493v2) → reason for strict rule that all alignments in the dataset must be manually checked
 
-    goal: get 200 aligned articles and 10 aligned books, including  together with bible translations
+* goal: get 200 aligned articles and 10 aligned books, including  together with bible translations
 
-    eventually create a tool for (automatically) translating a tex file into another language
+* eventually create a tool for (automatically) translating a tex file into another language
 
-    look into using conTeXt or the Rust-based alternative
+* look into using conTeXt or the Rust-based alternative
 
-    eventually add word alignment
+* eventually add word alignment
 * Gale-Church
 * [Paper](https://s3.amazonaws.com/tm-town-nlp-resources/Gale-Church+alignment.pdf)
 * [dowobeha/Gale_and_Church_1993](https://github.com/dowobeha/Gale_and_Church_1993)
 
-    ‣ (python)
 * [groups.google.com/g/nltk-dev/c/o0AqFbvo46Y?pli=1](https://groups.google.com/g/nltk-dev/c/o0AqFbvo46Y?pli=1) (python)
 * [nltk.org/_modules/nltk/align/gale_church.html](https://www.nltk.org/_modules/nltk/align/gale_church.html)
 * [nltk.org/_modules/nltk/translate/gale_church.html](https://www.nltk.org/_modules/nltk/translate/gale_church.html)
 * [vosmann/galechurch: An implementation of a language-independent parallel text alignment algorithm by Gale & Church](https://github.com/vosmann/galechurch)
 * [GCA Alignment Algorithm](https://en.wikipedia.org/wiki/Gale%E2%80%93Church_alignment_algorithm)
 * Alignment
-    * Survey Papers
+* Survey Papers
 * [An Overview of Bitext Alignment Algorithms](https://www.ida.liu.se/~jodfo01/gslt/bitext-alignment-jody.pdf)
 
-    * Other Papers
+* Other Papers
 * [K-vec: A New Approach for Aligning Parallel Texts](https://arxiv.org/pdf/cmp-lg/9407021.pdf)
 * [Aligning Parallel Texts: Do Methods Developed for English-French Generalize to Asian Languages?](https://core.ac.uk/download/286946188.pdf)
 * [nlp.cs.nyu.edu/bma/](https://nlp.cs.nyu.edu/bma/)
 * [Fast-Champollion: A Fast and Robust Sentence Alignment Algorithm](https://aclanthology.org/C10-2081.pdf)
 
-        → [groups.google.com/g/alt.conspiracy.princess-diana/c/rgkd6fPPcM4](https://groups.google.com/g/alt.conspiracy.princess-diana/c/rgkd6fPPcM4)
+* → [groups.google.com/g/alt.conspiracy.princess-diana/c/rgkd6fPPcM4](https://groups.google.com/g/alt.conspiracy.princess-diana/c/rgkd6fPPcM4)
 * Sentence Embeddings
 * [sbert.net/](https://www.sbert.net/)
 * [Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond](https://arxiv.org/abs/1812.10464)
@@ -2341,112 +1965,89 @@ FIXME## Extensions
 * [tfhub.dev/google/collections/LEALLA](https://tfhub.dev/google/collections/LEALLA) → [tfhub.dev/google/LEALLA/LEALLA-small/1](https://tfhub.dev/google/LEALLA/LEALLA-small/1) → convert to pytorch/Flux.jl? → ‣
 * [tfhub.dev/google/collections/universal-sentence-encoder](https://tfhub.dev/google/collections/universal-sentence-encoder)
 
-    ‣
 * [Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation](https://arxiv.org/abs/2004.09813)
 * [A complete guide to transfer learning from English to other Languages using Sentence Embeddings BERT Models](https://towardsdatascience.com/a-complete-guide-to-transfer-learning-from-english-to-other-languages-using-sentence-embeddings-8c427f8804a9)
 
-    Language-agnostic BERT Sentence Embedding
+* Language-agnostic BERT Sentence Embedding
 * Existing Aligners
-    * nltk
+* nltk
 * [nltk.org/api/nltk.align.html](http://www.nltk.org/api/nltk.align.html)
 
-    * champollion
+* champollion
 * [champollion.sourceforge.net/](http://champollion.sourceforge.net/)
 
-        ‣
 * [ldc.upenn.edu/sites/www.ldc.upenn.edu/files/lrec2006-champollion-sentence-aligner.pdf](https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/lrec2006-champollion-sentence-aligner.pdf)
 
-    * gma
+* gma
 * [nlp.cs.nyu.edu/GMA/](https://nlp.cs.nyu.edu/GMA/)
 
-    * anymalign
-    * yalign
+* anymalign
+* yalign
 * [pypi.python.org/pypi/yalign](https://pypi.python.org/pypi/yalign)
 
-    * maligna
+* maligna
 
-        A new tool for the bilingual text aligning at the sentence level (2008)
+* A new tool for the bilingual text aligning at the sentence level (2008)
 
-    * tag-aligner (word-alignment)
+* tag-aligner (word-alignment)
 * [tag-aligner.sourceforge.net/](http://tag-aligner.sourceforge.net/)
 
-    * BleuAlign
+* BleuAlign
 
-        ‣
+* MT-based Sentence Alignment for OCR-generated Parallel Texts
 
-        MT-based Sentence Alignment for OCR-generated Parallel Texts
-
-    * hunalign
+* hunalign
 * [mokk.bme.hu/resources/hunalign/](http://mokk.bme.hu/resources/hunalign/)
 * [nlp.ilsp.gr/redmine/projects/ilsp-fc/wiki/Sentence_Alignment_Setup/11](http://nlp.ilsp.gr/redmine/projects/ilsp-fc/wiki/Sentence_Alignment_Setup/11)
 
-    * LF Aligner
-    * Gale-Church
+* LF Aligner
+* Gale-Church
 * [vosmann/galechurch](https://github.com/vosmann/galechurch)
 
-    * alignment-wit-openfst
+* alignment-wit-openfst
 
-        ‣
-
-    * text-alignment-tool (Python)
+* text-alignment-tool (Python)
 * [pypi.org/project/text-alignment-tool/](https://pypi.org/project/text-alignment-tool/)
-    * ‣
-    * ‣
-    * youalign
+* ‣
+* ‣
+* youalign
 * [youalign.com/](http://www.youalign.com/)
 * [youalign.com/](http://youalign.com/)
 * [youalign.com/AlignDocs.aspx](https://youalign.com/AlignDocs.aspx)
 
-    * bitext2tmx
+* bitext2tmx
 * [bitext2tmx.sourceforge.net/](http://bitext2tmx.sourceforge.net/)
 * [pypi.python.org/pypi/alignment/1.0.9](https://pypi.python.org/pypi/alignment/1.0.9)
 * [clab/fast_align](https://github.com/clab/fast_align)
 * Dependency Parsing
 * [maltparser](https://www.maltparser.org/)
 * → parallel-text-finisher
-* [neonnaut.github.io/](https://neonnaut.github.io/)    ‣
+* [neonnaut.github.io/](https://neonnaut.github.io/)
 
-    for slim docker container: [stackoverflow.com/questions/27428150/linux-how-to-track-all-files-accessed-by-a-process](https://stackoverflow.com/questions/27428150/linux-how-to-track-all-files-accessed-by-a-process)
+* for slim docker container: [stackoverflow.com/questions/27428150/linux-how-to-track-all-files-accessed-by-a-process](https://stackoverflow.com/questions/27428150/linux-how-to-track-all-files-accessed-by-a-process)
 
-    parallel vs reledpar etc.
+* parallel vs reledpar etc.
 * [ctan.org/topic/parallel](https://www.ctan.org/topic/parallel)
 
-    * reledpar / reledmac
+* reledpar / reledmac
 * [connectthefuture/ctan/tree/9a0b7c25144c53bd975bbf381687571915ff6a6c/contrib/reledmac/examples](https://github.com/connectthefuture/ctan/tree/9a0b7c25144c53bd975bbf381687571915ff6a6c/contrib/reledmac/examples)
 
-        ```
-        These 3 packages are deprecated :
-          * Ledmac is replace by eledmac.
-          * Ledpar is replace by eledpar
-          * Learab is unmaintened. You should consider using of XeLaTeX instead.
+* These 3 packages are deprecated : Ledmac is replace by eledmac. | Ledpar is replace by eledpar | Learab is unmaintened. You should consider using of XeLaTeX instead.
 
-        ```
 * [ctan.org/tex-archive/macros/latex/contrib/reledmac](https://ctan.org/tex-archive/macros/latex/contrib/reledmac)
 
-        ‣
+* → [koppor/LaTeX-fuer-Geisteswissenschaftler/blob/e2daed40dfc85c34e7776ceb7e2ff99405f63418/paralleleTexte.tex#L4](https://github.com/koppor/LaTeX-fuer-Geisteswissenschaftler/blob/e2daed40dfc85c34e7776ceb7e2ff99405f63418/paralleleTexte.tex#L4)
+* → [connectthefuture/ctan/blob/9a0b7c25144c53bd975bbf381687571915ff6a6c/contrib/reledmac/examples/3-reledpar_pages_different_languages_lualatex.tex#L4](https://github.com/connectthefuture/ctan/blob/9a0b7c25144c53bd975bbf381687571915ff6a6c/contrib/reledmac/examples/3-reledpar_pages_different_languages_lualatex.tex#L4)
 
-        ‣
 
-        → [koppor/LaTeX-fuer-Geisteswissenschaftler/blob/e2daed40dfc85c34e7776ceb7e2ff99405f63418/paralleleTexte.tex#L4](https://github.com/koppor/LaTeX-fuer-Geisteswissenschaftler/blob/e2daed40dfc85c34e7776ceb7e2ff99405f63418/paralleleTexte.tex#L4)
-
-        → [connectthefuture/ctan/blob/9a0b7c25144c53bd975bbf381687571915ff6a6c/contrib/reledmac/examples/3-reledpar_pages_different_languages_lualatex.tex#L4](https://github.com/connectthefuture/ctan/blob/9a0b7c25144c53bd975bbf381687571915ff6a6c/contrib/reledmac/examples/3-reledpar_pages_different_languages_lualatex.tex#L4)
-
-        etc.
-
-        ‣
 * [rrthomas/ledmac/blob/13db51ce02c26f05949f040f894f4de759522b06/examples/4-reledpar_inside-outside-columns.tex#L8](https://github.com/rrthomas/ledmac/blob/13db51ce02c26f05949f040f894f4de759522b06/examples/4-reledpar_inside-outside-columns.tex#L8)
 * [schlcht/microtype/blob/5ac9212a228c66969a63696d266d9449930b4731/testsuite/output-reledmac_lualatex.tex#L4](https://github.com/schlcht/microtype/blob/5ac9212a228c66969a63696d266d9449930b4731/testsuite/output-reledmac_lualatex.tex#L4)
 
-        ‣
-
-        ‣
 * [tla/sr2latex/tree/d47e0b98ae0cbc9216056d6e83e91c8a46c7904e](https://github.com/tla/sr2latex/tree/d47e0b98ae0cbc9216056d6e83e91c8a46c7904e)
 
-        ‣
 
-        → [tla](https://github.com/tla)
+* → [tla](https://github.com/tla)
 
-        ‣
 * [ctan.org/pkg/paracol](https://www.ctan.org/pkg/paracol)
 * [maieul/ledmac/tree/c64c334dccfc89a63f1ba8be43cefc9a93c9dfa8/examples](https://github.com/maieul/ledmac/tree/c64c334dccfc89a63f1ba8be43cefc9a93c9dfa8/examples)
 * [ilanpillemer/labzik/blob/59e6be5759a9d9b7e2c8b1d0340c6ad5f6e8c38c/labzik.tex#L8](https://github.com/ilanpillemer/labzik/blob/59e6be5759a9d9b7e2c8b1d0340c6ad5f6e8c38c/labzik.tex#L8)
@@ -2454,21 +2055,21 @@ FIXME## Extensions
 * [pcast/reader](https://github.com/pcast/reader)
 * [tomparys/bilingual-reader](https://github.com/tomparys/bilingual-reader)
 
-    * transread
+* transread
 * [TransRead: Designing a Bilingual Reading Experience with Machine Translation Technologies](https://aclanthology.org/N16-3006.pdf)
 * [transread.limsi.fr/resources.html](https://transread.limsi.fr/resources.html)
 
-    * AglonaReader
+* AglonaReader
 * [Aglona Reader](https://sites.google.com/site/aglonareader/home/lang-de)
 
-        Aglona, PB
+* Aglona, PB
 * [BlueD/Aglona-Reader: Aglona Reader for .NET - A program for reading, creating and editing parallel books (books in two languages) in the original ParallelBook format. Home site of the project:](https://github.com/BlueD/Aglona-Reader)
 * [Inego/Aglona-Reader: Aglona Reader for .NET - A program for reading, creating and editing parallel books (books in two languages) in the original ParallelBook format. Home site of the project:](https://github.com/Inego/Aglona-Reader)
 * [Initial version for Git. · Inego/Aglona-Reader@e7ea4c0](https://github.com/Inego/Aglona-Reader/commit/e7ea4c03bf6e317a7a4666dec2977d043fc91185)
 * [Inego/Aglona-Reader](https://github.com/Inego/Aglona-Reader)
 * [Inego/Aglona-Reader-Android](https://github.com/Inego/Aglona-Reader-Android)
 
-    * linguisticreader
+* linguisticreader
 * [sites.google.com/site/linguisticgym/home/lang-ru](https://sites.google.com/site/linguisticgym/home/lang-ru)
 * [sites.google.com/site/linguisticplayer/home/lang-ru](https://sites.google.com/site/linguisticplayer/home/lang-ru)
 * [sites.google.com/site/linguisticreader/home/lang-ru](https://sites.google.com/site/linguisticreader/home/lang-ru)
@@ -2484,26 +2085,24 @@ FIXME## Extensions
 * [Русский - Linguistic Reader](https://sites.google.com/site/linguisticreader/home/lang-ru)
 * [translate · PyPI](https://pypi.org/project/translate/)
 
-    ‣
 * Data Sources, Corpora
 
-    → Recursos por idioma
+* → Recursos por idioma
 * [OPUS Corpus](https://opus.nlpl.eu/)
-        * OPUS OpenSubtitles
+* OPUS OpenSubtitles
 
-        * Tatoeba
+* Tatoeba
 
-    * Global Voices
-    * EU
-    * UN
-    * World Bank
-    * IMF
+* Global Voices
+* EU
+* UN
+* World Bank
+* IMF
 * [childrenslibrary.org/](http://www.childrenslibrary.org/)
-    * TED
-    * YouTube
-        * Khan Academy
-        * 3b1b
-        * TED subtitles
+* TED
+* YouTube - Khan Academy
+* YouTube - 3b1b
+* YouTube - TED subtitles
 * [christos-c/bible-corpus](https://github.com/christos-c/bible-corpus)
 * [Search · tatoeba · GitHub](https://github.com/search?utf8=%E2%9C%93&q=tatoeba&type=)
 * [thejuicemedia - YouTube - YouTube](https://www.youtube.com/channel/UCKRw8GAAtm27q4R3Q0kst_g)
@@ -2556,14 +2155,14 @@ FIXME## Extensions
 * [r/programming/comments/1l248j/python_script_that_searches_subtitles_for/](https://www.reddit.com/r/programming/comments/1l248j/python_script_that_searches_subtitles_for/)
 * [researchgate.net/profile/Joerg_Tiedemann/publication/264849940_Parallel_Data_Tools_and_Interfaces_in_OPUS/links/54d8f66f0cf2970e4e7a6271.pdf](https://www.researchgate.net/profile/Joerg_Tiedemann/publication/264849940_Parallel_Data_Tools_and_Interfaces_in_OPUS/links/54d8f66f0cf2970e4e7a6271.pdf)
 
-    script to download opensubtitles - Cerca con Google
+* script to download opensubtitles - Cerca con Google
 * [Sentence Alignment](http://www.statmt.org/survey/Topic/SentenceAlignment)
 
-    Versione 11 - Cronologia - Sentence Alignment Setup - Sentence Alignment Setup - ILSP Focused Crawler - ILSP NLP
+* Versione 11 - Cronologia - Sentence Alignment Setup - Sentence Alignment Setup - ILSP Focused Crawler - ILSP NLP
 
-    string similarity measure for alternative translations
+* string similarity measure for alternative translations
 
-    * **bitext alignment code - Ecosia
+* **bitext alignment code - Ecosia
 * [emk (Eric Kidd)](https://github.com/emk)
 * [Evaluation of Alignment Methods for HTML Parallel Text | SpringerLink](https://link.springer.com/chapter/10.1007/11816508_29?no-access=true)
 * [booh.com/wp/blog/bilingual-text-2012](http://booh.com/wp/blog/bilingual-text-2012)
@@ -2631,13 +2230,13 @@ FIXME## Extensions
 * [Champollion Tool Kit download | SourceForge.net](https://sourceforge.net/projects/champollion/?source=typ_redirect)
 * [Champollion: A Robust Parallel Text Sentence Aligner](https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/lrec2006-champollion-sentence-aligner.pdf)
 
-    * TransRead
+* TransRead
 * [GitHub - ldmt-muri/alignment-with-openfst](https://github.com/ldmt-muri/alignment-with-openfst)
 * [GitHub - PhilippeFerreiraDeSousa/bitext-matching: Mise en correspondance de bitextes dans des langues différentes](https://github.com/PhilippeFerreiraDeSousa/bitext-matching/)
 * [transread.limsi.fr/Resources/AlibiAlignments/README_EN.txt](https://transread.limsi.fr/Resources/AlibiAlignments/README_EN.txt)
 * [transread.limsi.fr/Resources/AlibiAlignments/](https://transread.limsi.fr/Resources/AlibiAlignments/)
 
-    Parallel - Language Learning
+* Parallel - Language Learning
 * [lltk](https://github.com/lltk)
 * [incremental reader - perfect for memorizzation](http://www.charlieslanguagepage.com/incrementalreader.htm)
 * [Language Learning Toolkit](https://github.com/lltk)
@@ -2651,11 +2250,11 @@ FIXME## Extensions
 * [stackoverflow.com/questions/2907327/dual-line-bilingual-paragraph-in-latex](https://stackoverflow.com/questions/2907327/dual-line-bilingual-paragraph-in-latex)
 * [r/LaTeX/comments/44p1h6/bilingual_translations_in_two_columns/](https://www.reddit.com/r/LaTeX/comments/44p1h6/bilingual_translations_in_two_columns/)
 
-    * **translation - Dual-line bilingual paragraph in LaTeX - Stack Overflow
+* **translation - Dual-line bilingual paragraph in LaTeX - Stack Overflow
 * [CTAN: Paket parallel](https://ctan.org/pkg/parallel)
 * [ctan.org/pkg/parallel](https://ctan.org/pkg/parallel)
 
-    Bitext Alignment - Teidemann (Drive)
+* Bitext Alignment - Teidemann (Drive)
 * [Aligning Parallel Texts_百度文库](https://wenku.baidu.com/view/5ecc18b7d4d8d15abf234e03.html)
 * [Book Chapter on OPUS](https://books.google.com/books?hl=es&lr=&id=xUWRy8OUGZsC&oi=fnd&pg=PA237&dq=Open+Subtitles+Corpus&ots=47ioDq1gOX&sig=M1Zb5gdXLKP481z1G6QQoJBHTTo#v=onepage&q=Open%20Subtitles%20Corpus&f=false)
 * [Parallel Text Processing: Alignment and Use of Translation Corpora](http://library.lol/main/CB77F7882995430689CC21F5F9EFBEA9)
@@ -2732,15 +2331,15 @@ FIXME## Extensions
 * [sketchengine.co.uk/user-guide/user-manual/corpora/setting-up-parallel-corpora/](https://www.sketchengine.co.uk/user-guide/user-manual/corpora/setting-up-parallel-corpora/)
 * [[Corpora-List] Arabic Corpus work in Python](https://mailman.uib.no/public/corpora/2009-October/009362.html)
 
-    * ** Multilingual Bible Parallel Corpus
-    *  MTTK - Machine Translation Toolkit
-    *  OpenSubtitles2018
-    *  tatoeba to anki - Ecosia
-    *  The IMS Open Corpus Workbench
-    * **De Deo (Peña - es) | Ethicadb.org
-    * **Download sentences - Tatoeba
-    * **Sketch Engine | language corpus management and query system
-    * download*opensubtitles-parser/setup.sh at master · inikdom/opensubtitles-parser · GitHub
+* ** Multilingual Bible Parallel Corpus
+*  MTTK - Machine Translation Toolkit
+*  OpenSubtitles2018
+*  tatoeba to anki - Ecosia
+*  The IMS Open Corpus Workbench
+* **De Deo (Peña - es) | Ethicadb.org
+* **Download sentences - Tatoeba
+* **Sketch Engine | language corpus management and query system
+* download*opensubtitles-parser/setup.sh at master · inikdom/opensubtitles-parser · GitHub
 * [/c/1997c/tops/dvips](http://www.mitpressjournals.org/doi/pdf/10.1162/089120103322711578)
 * [A massively parallel corpus: the Bible in 100 languages](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4551210/)
 * [Add a corpus to the NLTK corpus and importing it : Python](https://www.reddit.com/r/Python/comments/5ctedp/add_a_corpus_to_the_nltk_corpus_and_importing_it/)
@@ -2795,7 +2394,7 @@ FIXME## Extensions
 * [Resource Report: Building Parallel Text Corpora for Multi-Domain Translation System](https://www.researchgate.net/profile/Riza_Hammam/publication/228848307_Resource_Report_Building_Parallel_Text_Corpora_for_Multi-Domain_Translation_System/links/54fadd950cf2040df21d2f86/Resource-Report-Building-Parallel-Text-Corpora-for-Multi-Domain-Translation-System.pdf)
 * [Text corpus - wikidoc](http://www.wikidoc.org/index.php/Text_corpus)
 
-    The list contains a variety of resources for natural language processing and linguistic research. Some notable resources include the Corpus of Quranic Arabic, the Classical Greek Core Vocabulary List, and the Perseus Digital Library. Additionally, there are several sentence alignment tools listed, including hunalign and LF Aligner, that may be useful for parallel corpus creation.
+* The list contains a variety of resources for natural language processing and linguistic research. Some notable resources include the Corpus of Quranic Arabic, the Classical Greek Core Vocabulary List, and the Perseus Digital Library. Additionally, there are several sentence alignment tools listed, including hunalign and LF Aligner, that may be useful for parallel corpus creation.
 * [Sampling-based Multilingual Alignment](https://aclanthology.org/R09-1040.pdf)
 * [Tool for parallel corpora filtering and aligning | Krzysztof Wołk - Specjalista IT](http://wolk.pl/tool-for-parallel-corpora-filtering-and-aligning/)
 * [TranslationParty - Find the equilibrium](http://www.translationparty.com/)
@@ -2807,12 +2406,12 @@ FIXME## Extensions
 * [ABBYY Aligner (CAT Tools Technical Help)](https://www.proz.com/forum/cat_tools_technical_help/280415-abbyy_aligner.html)
 * [sourceforge.net/projects/aligner/](https://sourceforge.net/projects/aligner/)
 
-    *  tiedemann / subalign / source / — Bitbucket
+*  tiedemann / subalign / source / — Bitbucket
 * [Bitext Maps and Alignment](http://nlp.cs.nyu.edu/bma/)
 * [bitext-matching/README.md at master · PhilippeFerreiraDeSousa/bitext-matching · GitHub](https://github.com/PhilippeFerreiraDeSousa/bitext-matching/blob/master/lib/README.md)
 * [Convert CSV files to PBO parallel bilingual books](https://gist.github.com/emk/a68c16bc1a8cd4840a5a)
 
-    * **rsennrich/Bleualign: Machine-Translation-based sentence alignment tool for parallel text
+* **rsennrich/Bleualign: Machine-Translation-based sentence alignment tool for parallel text
 * [rsennrich/Bleualign: Machine-Translation-based sentence alignment tool for parallel text](https://github.com/rsennrich/Bleualign)
 * [Vocabulary · PyPI](https://pypi.org/project/Vocabulary/)
 * [markuskiller/textblob-sent-align: ``TextBlob`` model extension: sentence alignment for parallel TextBlobs](https://github.com/markuskiller/textblob-sent-align)
@@ -2826,7 +2425,7 @@ FIXME## Extensions
 * [pcast/reader: Proof of concept for displaying parallel texts with phrase alignment.](https://github.com/pcast/reader)
 * [yalign 0.1.1 : Python Package Index](https://pypi.python.org/pypi/yalign)
 
-    * **gumblex/Bleualign: Machine-Translation-based sentence alignment tool for parallel text
+* **gumblex/Bleualign: Machine-Translation-based sentence alignment tool for parallel text
 * [Creating Bilingual Texts with AlSim Parallel Texts Reader - YouTube](https://www.youtube.com/watch?v=0Tvw9XNcgB0)
 * [sites.google.com/view/alsim](https://sites.google.com/view/alsim)
 * [bitbucket.org/tiedemann/lingua-align/wiki/Home](https://bitbucket.org/tiedemann/lingua-align/wiki/Home)
@@ -2835,10 +2434,10 @@ FIXME## Extensions
 * [loomchild/maligna: Bilingual sengence aligner](https://github.com/loomchild/maligna)
 * [mebubo/paragraph-align: Naive alignment of paragraphs in bilingual texts](https://github.com/mebubo/paragraph-align)
 
-    * *?Crear subtítulos dobles para películas en Foreign Languages Online
-    *  emk/substudy: Use SRT subtitle files to study foreign languages (in progress)
-    *  substudy: A tool for learning languages using TV shows and subtitles | Random Hacks
-    * **Extracting and analyzing subtitles - Lupyan Lab
+* *?Crear subtítulos dobles para películas en Foreign Languages Online
+*  emk/substudy: Use SRT subtitle files to study foreign languages (in progress)
+*  substudy: A tool for learning languages using TV shows and subtitles | Random Hacks
+* **Extracting and analyzing subtitles - Lupyan Lab
 * [hochulshin.com/python-subtitle-cleaningup/](http://hochulshin.com/python-subtitle-cleaningup/)
 * [kodi.wiki/view/Add-on:OpenSubtitles.org](http://kodi.wiki/view/Add-on:OpenSubtitles.org)
 * [opus.nlpl.eu/](http://opus.nlpl.eu/)
@@ -2859,9 +2458,9 @@ FIXME## Extensions
 * [subtitle-downloader/subtitle-downloader.py at master · manojmj92/subtitle-downloader · GitHub](https://github.com/manojmj92/subtitle-downloader/blob/master/subtitle-downloader.py)
 * [Subtitles The Lord of the Rings: The Fellowship of the Ring - subtitles english 1CD srt (eng)](https://www.opensubtitles.org/en/subtitles/7288827/the-lord-of-the-rings-the-fellowship-of-the-ring-en)
 
-    Crash Course
+* Crash Course
 
-    vlogbrothers
+* vlogbrothers
 * [search?q=bitext+alignment&type=Repositories](https://github.com/search?q=bitext+alignment&type=Repositories)
 * [gpetho/MScThesis](https://github.com/gpetho/MScThesis)
 * [alibaba-edu/simple-effective-text-matching-pytorch](https://github.com/alibaba-edu/simple-effective-text-matching-pytorch)
@@ -2870,72 +2469,12 @@ FIXME## Extensions
 * [search?q=word+alignment&type=Repositories](https://github.com/search?q=word+alignment&type=Repositories)
 * [Text Technology Project - Hojas de cálculo de Google](https://docs.google.com/spreadsheets/d/1U0VKGtTF4XOXSPsnb8SFIP5z87IOiDTcwSgDv_SUQww/edit#gid=2056055344)
 
-FIXME# Notes
-
-* alignment rules: U{1:n} from both directions? blocks allowed? unaligned words also allowed?
-
-```latex
-* P = \textbf{1}(\textrm{max}(\textrm{rowsoftmax}(Z), \textrm{colsoftmax}(Z)) > \tau)
-* Z_{[m \times n]} = L^{B}_{[m \times h]} (L_{[n \times h]}^{A})^T
-
-= R_{[m \times n]}^{B} V_{[n \times h]}^{B} (R_{[n \times m]}^{A} V_{[m \times h]}^{A} )^T
-
-= Q_{[m \times h]}^{A} (K^{B})^T_{[h \times n]} V_{[n \times h]}^{B} (Q_{[n \times h]}^{B} (K^{A})^T_{[h \times m]} V_{[m \times h]}^{A})^T
-
-= W_{Q[m \times m]}^{A} X_{[m \times h]}^{A} (W_{K[n \times n]}^{B} X_{[n \times h]}^{B})^T W_{V[n \times n]}^{B} X_{[n \times h]}^{B} (W_{Q[n \times n]}^{B} X_{[n \times h]}^{B} (W_{K[m \times m]}^{A} X_{[m \times h]}^{A})^T W_{V[m \times m]}^{A} X_{[m \times h]}^{A}
-
-)^T
-
-```
-* align English with LA, GRC, FR, DE, ES, RU, ZH (start with DE, FR, RU); write package for realignment: x:y, y:z → x:z (need to flag ambiguities and fix manually)
-* data for EN-DE
-    * 10k from bibles
-    * 10k Tatoeba (300k total)
-    * 20k from classic literature
-    * 10k from film subtitles
-    * 10k from TED talks
-    * 10k from YouTube
-    * 10k from assorted non-fiction: documentation, reports
-    * 10k from media: GlobalVoices, CafeBabel, EuroNews, SwissInfo (especially)
-* → search arxiv, neurips, acl for neural alignment
-* 6 languages → 21 pairs; 7 languages → 28 pairs, 8 → 36, 9 → 45
-* 10,000 aligned sentence pairs each
-* baseline word alignments: cross-lingual BERT similarity matrix (normalized weighted dot product? cosine similarity?) → add small-valued diagonal-normal matrix (multiplied by learnable scalar?) to learned alignments to slightly favor diagonal alignments (serve as tiebreaker) → learnable tiebreaker matrix per language pair
-* loss: cross-entropy?
-* operation: umax: union max: x → x in {rowmax(X), colmax(X)}
-* add Project Syndicate to parallel text dataset, Eurozine, ereb.eu,
-* alignment scheme:
-* i=j for minimal (100%)
-* i:j for strict (additional)
-* i;j for bisurjective (additional)
-* (i-j)<>(k-l) for MWE additional pairs
-* i<>j for non-literal corresponding pairs
-* characters: = , : ;  ’><’ ‘<>’ ( ) . ?
-* output 3- or 4-dimensional tensor to account for different classes of alignments? k different heads?
-
-```latex
-* A_{[4, h]} (\vec{v} \otimes \vec{w} )_{[h, 1]} = \vec{p}_{[4, 1]} (?)
-
-```
-* modulating matrix C; enables k different outputs for different alignment levels
-
-```latex
-* A_i = L^B_{[m, h]} C_{i[h, h]} (L^A)^T_{[h, n]}, i \in \{1,2,...,k\}
-
-```
 * learn rules of tensor multiplication (in ML context)
 * CRF in 3 dimensions?
 * use (cross-lingual?) embeddings to recognize figurative language (non-literal translations)
 * word-alignment-viewer: make feature in webpage to show predicted alignment via shading: color-coded by alignment type; for naïve cross-lingual embedding similarity, make high-similarity words darker (softmax scaling?), fade out low-similarity words
 * also add audio recordings & use alignment tool
-* alignment types: how to color-code alignments?
-    * semantic alignment
-    * figurative alignment
-    * syntactic alignment
-    * loners (unpaired)
-    * noise
-* Added value for language learners in language learning
-    * easy word-for-word reading
+* alignment types: how to color-code alignments? | semantic alignment | figurative alignment | syntactic alignment | loners (unpaired) | noise | Added value for language learners in language learning | easy word-for-word reading
 * Known Unknowns: Small-Vocabulary Sentence and Word Alignment [Using High-Frequency Closed-Class and Pattern-Matching Tokens]
 * End-to-End Neural Sentence and Word Alignment  / End-to-End Neural Bitext Alignment
 * Use CRF or related PGM for output layer? (word and alignment → read PGM book, section from SLP 3e on CRFs
@@ -2944,36 +2483,29 @@ FIXME# Notes
 * does HFCC approach gain from mapping not to a single <UNK> token, but instead to length-based tokens: <UNK1>, <UNK2>, <UNK3>, …
 * Parallel Text & PGTK
 
-    ‣
 * [SimAlign: High Quality Word Alignments without Parallel Training Data using Static and Contextualized Embeddings](https://arxiv.org/abs/2004.08728v4)
 * [Improving Word Alignment with Contextualized Embedding and Bilingual Dictionary](https://link.springer.com/chapter/10.1007/978-981-16-0705-9_13)
 * [ruder.io/cross-lingual-embeddings/](https://www.ruder.io/cross-lingual-embeddings/)
 
-    Drive: Line-a-line: A Tool for Annotating Word-Alignments
+* Drive: Line-a-line: A Tool for Annotating Word-Alignments
 * [inventory.clarin.gr/corpus/670](https://inventory.clarin.gr/corpus/670)
 * [clarin.eu/resource-families/parallel-corpora](https://www.clarin.eu/resource-families/parallel-corpora)
 * [huggingface.co/blog/how-to-train-sentence-transformers](https://huggingface.co/blog/how-to-train-sentence-transformers)
 
-    cross-attention: from each word embedding, learn query, key, and value vectors for querying the other sequence
+* cross-attention: from each word embedding, learn query, key, and value vectors for querying the other sequence
 * [stats.stackexchange.com/questions/421935/what-exactly-are-keys-queries-and-values-in-attention-mechanisms](https://stats.stackexchange.com/questions/421935/what-exactly-are-keys-queries-and-values-in-attention-mechanisms)
 * [paperswithcode.com/task/word-alignment/codeless](https://paperswithcode.com/task/word-alignment/codeless)
 * [ted.com/people/translators](https://www.ted.com/people/translators)
 
-    ‣
 * [tesseract-ocr.github.io/tessdoc/](https://tesseract-ocr.github.io/tessdoc/)
 * [ted.com/talks?sort=newest&language=pt-br](https://www.ted.com/talks?sort=newest&language=pt-br)
 * [statworx.com/content-hub/blog/finetuning-von-tesseract-ocr-fuer-deutsche-rechnungen/](https://www.statworx.com/content-hub/blog/finetuning-von-tesseract-ocr-fuer-deutsche-rechnungen/)
+* word-alignment: look into kearning word alignments from HFCC words, or HFCC + k most frequent, or that + pattern- and length-matched words (<UNK-LENGTH:7-PREFIX:VER-SUFFIX:EN>)
 
-    ‣
-
-    word-alignment: look into kearning word alignments from HFCC words, or HFCC + k most frequent, or that + pattern- and length-matched words (<UNK-LENGTH:7-PREFIX:VER-
-
-    SUFFIX:EN>)
-
-    use full bert or similar to generate manually-corrected gold labels
+* use full bert or similar to generate manually-corrected gold labels
 * [Word Alignment by Fine-tuning Embeddings on Parallel Corpora](https://arxiv.org/abs/2101.08231)
 
-    ¡¡Atención para las Redes Neuronales, Claramente Explicadas!!!
+* ¡¡Atención para las Redes Neuronales, Claramente Explicadas!!!
 * [researchgate.net/figure/Comparison-of-the-proposed-algorithm-with-Gale-and-Church-algorithm-for-a-text-where-the_fig2_1871685](https://www.researchgate.net/figure/Comparison-of-the-proposed-algorithm-with-Gale-and-Church-algorithm-for-a-text-where-the_fig2_1871685)
 * [The TransBank Aligner: Cross-Sentence Alignment with Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-030-27947-9_16)
 * [Improving neural machine translation with sentence alignment learning](https://www.sciencedirect.com/science/article/abs/pii/S0925231220313473)
@@ -3079,37 +2611,7 @@ FIXME# Notes
 * bisurjective: (best-one) - every word from each language aligned to best match
 * multi-word expressions: ranges aligned to ranges
 * [Multilingual Aligned Corpora From Movie Subtitles](https://giguete.users.greyc.fr/alignment/Subtitles_MM-EG.pdf)
-* HFCC detector
-
-    pronouns
-
-    prepositions
-
-    adverbs
-
-    conjunctions
-
-    articles
-
-    determiners
-
-    interjections
-
-    particles
-
-    numbers
-
-    very most common verbs: to be, to say, to do, to ask, can/be able to,  ...
-
-    auxiliary verbs
-
-    regex-based:
-
-    noun-like (capital in German, etc.)
-
-    verb-like
-
-    adjective-like
+* HFCC detector: pronouns | prepositions | adverbs | conjunctions | articles | determiners | interjections | particles | numbers | very most common verbs: to be, to say, to do, to ask, can/be able to,  ... | auxiliary verbs | regex-based: | noun-like (capital in German, etc.) | verb-like | adjective-like
 
 FIXME## Parallel Text Finisher
 
@@ -3119,7 +2621,7 @@ FIXME# parallel-text-finisher
 * look at source of taskwarrior search filtering
 * HTML generator in Julia for parallang (Franklin.jl, Genie? Genie Cloud? Pelican in Python?)
 
-(how to) earn money from parallel text toolkit?
+* (how to) earn money from parallel text toolkit?
 * Parallel text flutter app (or other cross-platform app, such as Doxius)
 * how to make hover effects?: word/span highlight → highlight aligned words in corresponding sentence(s)
 
@@ -3128,100 +2630,43 @@ FIXME## WiktionaryTool.jl
 FIXME# WiktionaryTool.jl 🌱
 
 * [yelircaasi/wiktionary-etymology-tool](https://github.com/yelircaasi/wiktionary-etymology-tool)
-* Language Candidates
-
-    Julia
-
-    Python
-
-    R
-
-    Scala
-
-    C++
-
-    Java
-
-    JavaScript (Node.js or Deno?)
-
-    Ruby?
-
-    PHP?
-
-    Go?
-
-    Rust?
-
-    Perl?
-
-    * Scheme / Racket / Common Lisp?
+* Language Candidates: Julia | Python | R | Scala | C++ | Java | JavaScript (Node.js or Deno?) | Ruby? | PHP? | Go? | Rust? | Perl? | Scheme / Racket / Common Lisp?
 * [lispcookbook.github.io/cl-cookbook/web-scraping.html](https://lispcookbook.github.io/cl-cookbook/web-scraping.html)
 * [⇒](http://pkgdocs.julialang.org/v1/creating-packages/)
 * Similar Projects
 * [...](https://github.com/wswu/yawipa)
 
-    → [pypi.org/search/?q=wiktionary](https://pypi.org/search/?q=wiktionary)
+* → [pypi.org/search/?q=wiktionary](https://pypi.org/search/?q=wiktionary)
 
-    → [Suyash458/WiktionaryParser: A Python Wiktionary Parser](https://github.com/Suyash458/WiktionaryParser)
+* → [Suyash458/WiktionaryParser: A Python Wiktionary Parser](https://github.com/Suyash458/WiktionaryParser)
 
-    → [wiktextract - PyPI](https://pypi.org/project/wiktextract/)
+* → [wiktextract - PyPI](https://pypi.org/project/wiktextract/)
 
-    → [Wiktionary Parser for Python 3.6_ only for definitions - Stack ...](https://stackoverflow.com/questions/45676443/wiktionary-parser-for-python-3-6-only-for-definitions)
+* → [Wiktionary Parser for Python 3.6_ only for definitions - Stack ...](https://stackoverflow.com/questions/45676443/wiktionary-parser-for-python-3-6-only-for-definitions)
 
-    → [Python: wiktionary (applications and programming libraries)](https://libs.garden/python/search?q=wiktionary)
+* → [Python: wiktionary (applications and programming libraries)](https://libs.garden/python/search?q=wiktionary)
 
-    → [farleyoli/wiktionary-parser - githubmemory](https://githubmemory.com/repo/farleyoli/wiktionary-parser)
+* → [farleyoli/wiktionary-parser - githubmemory](https://githubmemory.com/repo/farleyoli/wiktionary-parser)
 * [⇒](https://pypi.org/project/pyktionary/)
 * [⇒](https://pypi.org/project/wkt-scraper/)
 * [pypi.org/project/wiktextract/](https://pypi.org/project/wiktextract/)
 * [Suyash458/WiktionaryParser](https://github.com/Suyash458/WiktionaryParser)
 * Applications
 
-    Etymology Graphs
+* Etymology Graphs → semantic comparisons → measuring semantic drift
+* Intercomprehension Tables
 
-        → semantic comparisons
+* Wiktionary Gap Identification
 
-        → measuring semantic drift
+* False Friend Tables
+* Notes ⇒ Julia package for Wiktionary scraping: WiktionaryScraper.jl / wiktionaryscraper
 
-    Intercomprehension Tables
+* Wie soll das etymologische Netzwerk aussehen? Beziehungen: Elternteil / Kind | Cousin, gleiche Bedeutung | Cousin, falscher Freund | Cousin, irgendwo in der Mitte ⇒ Develop Python and Julia packages for scraping Wiktionary
 
-    Wiktionary Gap Identification
-
-    False Friend Tables
-* Notes
-
-    ⇒ Julia package for Wiktionary scraping
-
-    WiktionaryScraper.jl
-
-    wiktionaryscraper
-
-    * Wie soll das etymologische Netzwerk aussehen?
-
-        Beziehungen:
-
-        * Elternteil / Kind
-        * Cousin, gleiche Bedeutung
-        * Cousin, falscher Freund
-        * Cousin, irgendwo in der Mitte
-
-    ⇒ Develop Python and Julia packages for scraping Wiktionary
-
-    * Additional Ideas
-
-        → add different sources?
-
-        → identify missing entries on Wiktionary and generate suggestions
+* Additional Ideas → add different sources? → identify missing entries on Wiktionary and generate suggestions
 * Child Projects
-    * CLSEC (cross-lingual semantic and etymological contrasts)
-        * contrasting etymologies / root analysis
-        * translation persistence of various words
-        * contrasting embeddings for translation pairs
-        * semantically distinct multi-word expressions/phrases/idioms
-        * → use for NSM or similar semantic representation/metalanguage
-        * → closely related to paremiological projects → use common tools and methodologies where appropriat
-* [CLI-Dictionary](https://github.com/Lodobo/CLI-Dictionary) - Scripts for downloading and viewing wiktionary entries from Kaikki.org.
-    * Intercomprehension - Etymologically-Related Words
+* CLSEC (cross-lingual semantic and etymological contrasts) | contrasting etymologies / root analysis | translation persistence of various words | contrasting embeddings for translation pairs | semantically distinct multi-word expressions/phrases/idioms |  → use for NSM or similar semantic representation/metalanguage | → closely related to paremiological projects → use common tools and methodologies where appropriat* [CLI-Dictionary](https://github.com/Lodobo/CLI-Dictionary) - Scripts for downloading and viewing wiktionary entries from Kaikki.org.
+* Intercomprehension - Etymologically-Related Words
 * Dumps and Dump Parsing
 * [dan1wang/jsonbook-builder](https://github.com/dan1wang/jsonbook-builder)
 * Wiktionary API
@@ -3230,7 +2675,7 @@ FIXME# WiktionaryTool.jl 🌱
 * Etymology lists on Wiktionary and Other Data Sources
 * [en.wiktionary.org/wiki/Category:Terms_derived_from_Proto-Indo-European](https://en.wiktionary.org/wiki/Category:Terms_derived_from_Proto-Indo-European)
 
-    → [en.wiktionary.org/wiki/Category:Terms_derived_from_Ancient_Greek](https://en.wiktionary.org/wiki/Category:Terms_derived_from_Ancient_Greek)
+* → [en.wiktionary.org/wiki/Category:Terms_derived_from_Ancient_Greek](https://en.wiktionary.org/wiki/Category:Terms_derived_from_Ancient_Greek)
 * [en.wiktionary.org/wiki/Category:Terms_derived_from_Latin](https://en.wiktionary.org/wiki/Category:Terms_derived_from_Latin)
 * [en.wiktionary.org/wiki/Category:Terms_derived_from_Arabic](https://en.wiktionary.org/wiki/Category:Terms_derived_from_Arabic)
 * [en.wiktionary.org/wiki/Category:Terms_derived_from_Hebrew](https://en.wiktionary.org/wiki/Category:Terms_derived_from_Hebrew)
@@ -3247,7 +2692,6 @@ FIXME# WiktionaryTool.jl 🌱
 * [en.wiktionary.org/wiki/Category:Terms_derived_from_Yiddish](https://en.wiktionary.org/wiki/Category:Terms_derived_from_Yiddish)
 * [en.wiktionary.org/wiki/Category:Terms_derived_from_French](https://en.wiktionary.org/wiki/Category:Terms_derived_from_French)
 
-    etc.
 * [en.wiktionary.org/wiki/Category:Arabic_roots](https://en.wiktionary.org/wiki/Category:Arabic_roots)
 * [en.wikipedia.org/wiki/Category:Lists_of_loanwords](https://en.wikipedia.org/wiki/Category:Lists_of_loanwords)
 * [en.wikipedia.org/wiki/List_of_Germanic_and_Latinate_equivalents_in_English](https://en.wikipedia.org/wiki/List_of_Germanic_and_Latinate_equivalents_in_English)
@@ -3261,15 +2705,14 @@ FIXME# WiktionaryTool.jl 🌱
 * [en.wiktionary.org/wiki/Category:French_terms_derived_from_North_Germanic_languages](https://en.wiktionary.org/wiki/Category:French_terms_derived_from_North_Germanic_languages)
 * [List of Russian Roots](https://gist.github.com/oskarkv/c7aea99cbc2aeb5098ae)
 
-    → BYU roots book
-
-    → from frequency lists:
+* → BYU roots book
+* → from frequency lists:
 * [en.wiktionary.org/wiki/Wiktionary:Frequency_lists](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists)
 * [1000mostcommonwords.com](https://1000mostcommonwords.com/)
 
-    Ancient Greek Lemmas
+* Ancient Greek Lemmas
 
-    Latin Lemmas
+* Latin Lemmas
 * [English from Ancient Greek](https://en.wiktionary.org/w/index.php?title=Category:English_terms_derived_from_Ancient_Greek&pagefrom=AILUROPHILE%0Aailurophile#mw-pages)
 * [Terms derived from Ancient Greek](https://en.wiktionary.org/wiki/Category:Terms_derived_from_Ancient_Greek)
 * [Terms derived from Latin](https://en.wiktionary.org/wiki/Category:Terms_derived_from_Latin)
@@ -3297,10 +2740,7 @@ FIXME### Data Ideas
 * Align at word level by pre-trained ASR:
 * get output or intermediate output in another language (Italian for Latin, Italian / Modern Greek / Russian for Greek)
 * recover temporal alignment
-* align Latin / greek characters / syllables to corresponding best match in ASR output
-  * dynamic programming approach?
-  * beam search?
-  * forced alignment → look into off-the-shelf
+* align Latin / greek characters / syllables to corresponding best match in ASR output -> dynamic programming approach? | beam search? | forced alignment → look into off-the-shelf
 * using the time stamps for each word (ideally with both loose and tight to put bounds on estimate of temporal location of word), create different permutations
 
 FIXME### IP Concerns
@@ -3314,10 +2754,7 @@ FIXME### Resources
 * [Valerio Velardo - The Sound of AI](https://www.youtube.com/@ValerioVelardoTheSoundofAI/playlists)
 * [Digital speech processing](https://www.youtube.com/playlist?list=PLvv3PyiCcNrFuT7CEIvIr4a4g4orascx3)
 * [Deep Learning (for Audio) with Python](https://www.youtube.com/playlist?list=PL-wATfeyAMNrtbkCNsLcpoAyBBRJZVlnf)
-* Polytonic Representation
-  * atomic: each breathing / vowel / accent combination treated as a separate character
-  → same for diphthongs?
-  * sequential: each
+* Polytonic Representation: atomic: each breathing / vowel / accent combination treated as a separate character | → same for diphthongs? | sequential: each
 * ASR and Alignment
 * [ ]  [xinjli/allosaurus](https://github.com/xinjli/allosaurus)
 * [ ]  [readbeyond/aeneas](https://github.com/readbeyond/aeneas)
@@ -3341,13 +2778,13 @@ FIXME### Resources
 * [ ]  [app.litmaps.com/seed/238756929](https://app.litmaps.com/seed/238756929)
 * [ ]  [app.litmaps.com/seed/15327392](https://app.litmaps.com/seed/15327392)
 * [ ]  [MFA](https://www.semanticscholar.org/paper/Montreal-Forced-Aligner%3A-Trainable-Text-Speech-McAuliffe-Socolof/9e8b06c60722fee06d7f01d4eeaf3ae81e0247d7)
-* TTS
+
+#-> tts
 * [Papers with Code - Text-To-Speech Synthesis](https://paperswithcode.com/task/text-to-speech-synthesis/)
 * [Papers with Code - Text-To-Speech Synthesis](https://paperswithcode.com/task/text-to-speech-synthesis/codeless)
 
-    * Data Augmentatio
-* [ ]  → use all (or many) n-grams of appropriate length for early training, then only proper phrase/sentence splits for later finer training
-        → separate models for word-level and phrase/sentence-level TTS (but p/s-level highest priority
+* Data Augmentatio
+* [ ]  → use all (or many) n-grams of appropriate length for early training, then only proper phrase/sentence splits for later finer training → separate models for word-level and phrase/sentence-level TTS (but p/s-level highest priority
 * [ ]  Low-resource expressive text-to-speech using data augmentatio
 * [ ]  [Text-to-speech system for low-resource language using cross-lingual transfer learning and data augmentation](https://asmp-eurasipjournals.springeropen.com/articles/10.1186/s13636-021-00225-4)
 * [ ]  [SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition](https://arxiv.org/abs/1904.08779)
@@ -3365,9 +2802,7 @@ FIXME### Resources
 * [ ]  [TTS-GAN: A Transformer-based Time-Series Generative Adversarial Network](https://arxiv.org/abs/2202.02691)
 * [ ]  [wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2006.11477)
 * [ ]  for fine-tuning: use approach similar to TTS-by-TTS(2) by ensuring that synthetic data used for further training are recognizable by ASR model → will this work, or merely constrict the range of sounds properly generated?
-* [ ]  high-quality re-creation with autoencoder, denoising (probably not adding noise!), normalize speed, pitch, and volume, interpolate across 3 directions between original and normalized, (slight pitch increase / decrease), different word cut points (dependent upon correct word alignment), slight speed up, slight slow down,
-    → all perturbations should be quite small to maintain quality of the data
-    → how to normalize speed? what is one “unit”? →  regression problem? system of equations with weights to learn for each letter (here → variable)? how to maintain speech when speeding up?
+* [ ]  high-quality re-creation with autoencoder, denoising (probably not adding noise!), normalize speed, pitch, and volume, interpolate across 3 directions between original and normalized, (slight pitch increase / decrease), different word cut points (dependent upon correct word alignment), slight speed up, slight slow down, → all perturbations should be quite small to maintain quality of the data → how to normalize speed? what is one “unit”? →  regression problem? system of equations with weights to learn for each letter (here → variable)? how to maintain speech when speeding up?
 * [ ]  weight rarer phonemes and/or phoneme sequences more heavily in the training data?
 * [ ]  [r/LanguageTechnology/comments/rz8epu/coqui_introduces_yourtts_a_zerosample](https://www.reddit.com/r/LanguageTechnology/comments/rz8epu/coqui_introduces_yourtts_a_zerosample)
 * [ ]  [coqui-ai/TTS](https://github.com/coqui-ai/TTS)
@@ -3378,9 +2813,9 @@ FIXME### Resources
 * [ ]  [tensorflow.org/datasets/catalog/ljspeech](https://www.tensorflow.org/datasets/catalog/ljspeech)
 * [ ]  [A Survey on Neural Speech Synthesis](https://arxiv.org/abs/2106.15561)
 * [ ]  [imics-lab/tts-gan](https://github.com/imics-lab/tts-gan)
-* [ ]   [ogunlao.github.io/blog/2021/01/26/how-to-create-speech-dataset.html](https://ogunlao.github.io/blog/2021/01/26/how-to-create-speech-dataset.html)
-    → should use phrase and sentence breaks as much as possible
-    → use accent sequence patterns to identify likely grammatical phrases and reasonable breakpoints
+* [ ]   [ogunlao.github.io/blog/2021/01/26/how-to-create-speech-dataset.html](https://ogunlao.github.io/blog/2021/01/26/how-to-create-speech-dataset.html) 
+* → should use phrase and sentence breaks as much as possible
+* → use accent sequence patterns to identify likely grammatical phrases and reasonable breakpoints
 * [ ]  [pytorch.org/audio/main/tutorials/forced_alignment_tutorial.html](https://pytorch.org/audio/main/tutorials/forced_alignment_tutorial.html)
 * [ ]  [tiefenauer/forced-alignment](https://github.com/tiefenauer/forced-alignment)
 * [ ]
@@ -3410,209 +2845,6 @@ FIXME### Resources
 * [What Classical Attic ACTUALLY sounded like 🤯 Vulgar Attic pronunciation (English & Latin subtitles) - YouTube](https://www.youtube.com/watch?v=TBIZ2WRfAgY)
 * [Introducing Voicebox: The Most Versatile AI for Speech Generation | Meta](https://about.fb.com/news/2023/06/introducing-voicebox-ai-for-speech-generation/)
 
-FIXME### Podium Arts
-
-FIXME# Podium Arts
-
-* [ancientgreek.eu/](https://ancientgreek.eu/)
-* [video](https://www.youtube.com/@Podium-arts)
-
-FIXME# YouTube
-
-* 1. [Apology of Socrates, by Xenophon](https://www.youtube.com/watch?v=YGITyNb4CUo)
-* 2. [Aristotelian Physiognomics (reconstr. Ancient Attic Greek pronunciation)](https://www.youtube.com/watch?v=R92kiYZVXY0)
-* 3. ["A Greek Boy at Home" (Rouse) part 2 + appendix; reconstructed Ancient Attic Greek pronunciation.](https://www.youtube.com/watch?v=fFL8Vk1tVHE)
-* 4. [Genesis chapter 01 recited in reconstructed Ancient Attic Greek pronunciation, by Ioannis Stratakis](https://www.youtube.com/watch?v=-pQZ7XXRv4w)
-* 5. [Athenian Constitution (Xenophon) narrated in reconstructed Ancient Attic Greek, by Ioannis Stratakis](https://www.youtube.com/watch?v=izwQ30Q5bYg)
-* 6. [Categories by Aristotle (reconstructed Ancient Attic Greek pronunciation) by Ioannis Stratakis](https://www.youtube.com/watch?v=q8qElrxe7KU&t=6s)
-* 7. [Lucius or The Ass (Lucian) narrated in reconstructed Ancient Attic Greek by Ioannis Stratakis](https://www.youtube.com/watch?v=ksAoPtfkZjA)
-* 8. [Aristaenetus , love letter 1.1 read in reconstructed Ancient Attic Greek](https://www.youtube.com/watch?v=VCKMEWp7LlQ)
-* 9. [on Sleep & Waking by Aristotle. (reconstructed Ancient Attic Greek pronunciation)](https://www.youtube.com/watch?v=53cqETn4gCU)
-* 10. [on Sense & the Sensible, by Aristotle, (reconstructed Ancient Attic Greek pronunciation)](https://www.youtube.com/watch?v=h7rIePi3R64)
-* 11. ["A Greek Boy at Home" (Rouse) part 1. II-XVII reconstructed Ancient Attic Greek pronunciation.](https://www.youtube.com/watch?v=Bv9vFpGw3gg)
-* 12. [Iliad, rhapsody 20, by Homer recited in reconstructed Ancient Greek, by Ioannis Stratakis](https://www.youtube.com/watch?v=vGRA1nGQUFg)
-* 13. [Iliad, rhapsody 07, by Homer recited in reconstructed Ancient Greek, by Ioannis Stratakis](https://www.youtube.com/watch?v=4UEg3qIqhk4)
-* 14. [Gospel of John, part of chapter 17 (narrated in reconstructed Ancient Attic Greek pronunciation)](https://www.youtube.com/watch?v=URNXt72VoKY)
-* 15. ["A First Greek Reader" (Beresford & Douglas) reconstructed Ancient Greek pronunciation](https://www.youtube.com/watch?v=Cr0_lKX7UTM)
-* 16. ["Cleitophon" by Plato, (reconstructed Ancient Greek pronunciation)](https://www.youtube.com/watch?v=mUNhBolXP3w)
-* 17. [῾Critias῾ by Plato, narrated in reconstructed Ancient Greek pronunciation](https://www.youtube.com/watch?v=wN5ltc7pK-U)
-* 18. [Iliad, rhapsody 12, by Homer recited in reconstructed Ancient Greek, by Ioannis Stratakis](https://www.youtube.com/watch?v=v5cBn2X5NXE)
-* 19. [the Fables of Aesop, part-02 (ed. C.Halm)](https://www.youtube.com/watch?v=-Cwfs-TSvGk)
-* 20. [Iliad, rhapsody 03, by Homer recited in reconstructed Ancient Greek, by Ioannis Stratakis](https://www.youtube.com/watch?v=0KuSv38NDDo)
-* 21. [Iliad 19, by Homer (reconstructed Ancient Greek pronunciation)](https://www.youtube.com/watch?v=N8lrHTMf_Do&t=63s)
-* 22. [Euthyphro, by Plato (reconstructed Ancient Greek pronunciation)](https://www.youtube.com/watch?v=tHIGHELlnns)
-* 23. ["Characters" by Theophrastus, read in reconstructed Ancient Greek](https://www.youtube.com/watch?v=SpM8Da7x2lk)
-* 24. [the Book of Revelation (St. John the Divine) in reconstructed Koine Ancient Greek](https://www.youtube.com/watch?v=8vhDMvUHjRg)
-* 25. [Daphnis & Chloë (by Longus) - Δάφνις ϗ Χλόη (Λόγγος)](https://www.youtube.com/watch?v=jCUPC0vuiqs&t=36s)
-* 26. [On Memory & Recollection, by Aristotle (reconstructed Ancient Greek pronunciation)](https://www.youtube.com/watch?v=AHP3uV-8vk8)
-* 27. [Apology of Socrates, by Plato (reconstructed Ancient Greek pronunciation)](https://www.youtube.com/watch?v=k3tlBO3agFU&t=185s)
-* 28. [Aesop's fables (3, 4, 11, 23, 101 ed.Halm)](https://www.youtube.com/watch?v=8MejrGFg6g0&t=80s)
-* 29. ["Politics" (book 1, ch.12) by Aristotle (audiobook sample)](https://www.youtube.com/watch?v=g1mOT1RH8o8&t=27s)
-* 30. [Letter to Nicocles (audiobook) a.k.a. "the Royal Art"](https://www.youtube.com/watch?v=sYxZ3gGOz64)
-* 31. ["Meditations" book 01 (Marcus Aurelius) in reconstructed Ancient Attic Greek by Ioannis Stratakis](https://www.youtube.com/watch?v=p2DsUgSs72k)
-* 32. [Pindar "Olympian Odes"](https://www.youtube.com/watch?v=gEp7AVotbCE)
-* 33. [On the Heavens 1.09 (Aristotle) spoken reconstructed Ancient Greek pronunciation](https://www.youtube.com/watch?v=RNlzQ6Trr3Q)
-* 34. [Batrachomyomachia by "Homer" (spoken reconstructed Ancient Greek pronunciation)](https://www.youtube.com/watch?v=NXFVCDQE7uc)
-* 35. [the "Art of Grammar" by Dionysius Thrax (spoken reconstructed Ancient Greek)](https://www.youtube.com/watch?v=k9dxBH3RgaQ)
-* 36. [Aristotle "On Harmony" (On Music), Problemata XIX, in spoken reconstructed Ancient Greek](https://www.youtube.com/watch?v=tudLtIpLvuQ)
-* 37. [Pindar Olympian Ode .01 (spoken reconstructed Ancient Greek)](https://www.youtube.com/watch?v=mrfVRb7yW8M)
-* 38. [Aristotle: "On the Voice" (Problemata XI), spoken in reconstructed Ancient Greek](https://www.youtube.com/watch?v=1ithB9SdQcM)
-* 39. [Isocrates' "Letter to Demonicus" (audiobook spoken in reconstructed Ancient Greek)](https://www.youtube.com/watch?v=NuKjxVjnzN4)
-* 40. ["On the Refusal of a Pension" oration by Lysias (audiobook spoken in reconstructed Ancient Greek)](https://www.youtube.com/watch?v=GffSvdLsUgk)
-* 41. ["An EphesianTale" by Xenophon of Ephesus (audiobook spoken in reconstructed Ancient Greek)](https://www.youtube.com/watch?v=g7FIlh-eY2Q)
-* 42. [Homer, Odyssey rhapsody 01 (audiobook spoken in reconstructed Ancient Greek)](https://www.youtube.com/watch?v=UdyXlUmD3v4)
-* 43. [Aristotle's "On Interpretation" (audiobook spoken in reconstructed Ancient Greek)](https://www.youtube.com/watch?v=mcxQFC-4vWo)
-* 44. [Plato: "Ion" (audiobook spoken in reconstructed Ancient Greek)](https://www.youtube.com/watch?v=TTmCJDXktRY)
-* 45. [Aristotle: On the Soul, book 3, ch 8 (audiobook spoken in reconstructed Ancient Greek)](https://www.youtube.com/watch?v=tfr43gwAZOM)
-* 46. [the Tablet of Cebes (audiobook in reconstructed Ancient-Greek)](https://www.youtube.com/watch?v=eo5zzuZ_eLE)
-* 47. ["Poetics" by Aristotle (audiobook spoken reconstructed ancient Greek)](https://www.youtube.com/watch?v=Am71Njxz0eI)
-* 48. [Xenophon, Anabasis 1.1 (spoken reconstructed ancient Greek)](https://www.youtube.com/watch?v=vEcQxQRVa-A)
-* 49. [Xenophon "Spartan Constitution" (audiobook spoken in reconstructed ancient Greek)](https://www.youtube.com/watch?v=IbAnHCDUDiw)
-* 50. [Sappho to Aphrodite, fragm-1, sung in reconstructed ancient Greek](https://www.youtube.com/watch?v=XTHE-P4oZ9w)
-* 51. [Ψήγματα Ἀρχαίου Ἑλληνικοῦ Ἤχου (παρουσίασις/presentation 8/11/2015)](https://www.youtube.com/watch?v=RDt_XEy3SHM)
-* 52. [Sophocles, Oedipus at Colonus 1-13 (spoken reconstructed ancient Greek)](https://www.youtube.com/watch?v=ZYRKzOl_hV8)
-* 53. [Euripides, Helen 1-67 (spoken reconstructed ancient Greek)](https://www.youtube.com/watch?v=LkxmGuE4ae8)
-* 54. [Iliad A , 16 Feb 2015 (excerpts)](https://www.youtube.com/watch?v=o8aOL_w5vno)
-* 55. [Homer, iliad-A trailer (for the 16-02-2015 performance, Athens GR)](https://www.youtube.com/watch?v=8-T04m14HR0)
-* 56. [Homer, Odyssey a1-27 (spoken in reconstructed ancient Greek pronunciation)](https://www.youtube.com/watch?v=MOvVWiDsPWQ)
-* 57. [Empedocles of Agrigento, "On Nature" (fragm. 4) spoken reconstructed Ancient Greek](https://www.youtube.com/watch?v=PxdmjxNH7Pw)
-* 58. [Sappho, "the Brothers Poem" (spoken reconstructed Ancient Greek)](https://www.youtube.com/watch?v=GdMnNSuAW1g)
-* 59. [Herodotus, Histories 1.1-4 (spoken reconstructed ancient Greek)](https://www.youtube.com/watch?v=Fkuq1MWfaWc)
-* 60. ["Fox & Snake" (Aesop's fable 033, spoken reconstructed ancient Greek))](https://www.youtube.com/watch?v=AiYO1nUEyyA)
-* 61. ["Fox with swollen stomach" (Aesop's fable 030, in spoken ancient Greek))](https://www.youtube.com/watch?v=XriVDG-Z1q4)
-* 62. ["Virtues & Vices" of Aristotle (spoken reconstructed ancient Greek)](https://www.youtube.com/watch?v=Q_jnHuiB_5M)
-* 63. [longest word in the world (spoken reconstructed ancient Greek pronunciation)](https://www.youtube.com/watch?v=HZvg4Zy5rLs)
-* 64. [Hippocratic Oath (reconstructed ancient Greek pronunciation)](https://www.youtube.com/watch?v=Q5FHZx0oOqs)
-* 65. [Aesop's Fable 19 (spoken in reconstructed ancient Greek)](https://www.youtube.com/watch?v=VpMGZmtsfHI)
-* 66. [iliad 1. intro](https://www.youtube.com/watch?v=4ltPZxh_4ZQ)
-* 67. [Iliad of Homer production](https://www.youtube.com/watch?v=4iA1Ej84jCw)
-* 68. [Callimachus 2 in reconstructed ancient Greek pronunciation](https://www.youtube.com/watch?v=UXmpHKTuGGM)
-* 69. [Theogony 1-21 spoken in reconstructed Ancient Greek](https://www.youtube.com/watch?v=WjgnVvI1H7g)
-
-FIXME## Audiobooks in spoken Ancient Greek Language
-
-* [HIPPOCRATES the Medical Oath](https://ancientgreek.eu/free/oath.html) 4 / 0
-* [BERESFORD & DOUGLAS A First Greek Reader](https://ancientgreek.eu/edu/first-greek-reader.html) 106 / -
-* [OLD TESTAMENT Genesis 01](https://ancientgreek.eu/audiobooks/genesis-01.html) 8 / -
-* 5.4 [W.H.D. ROUSE A Greek boy at Home -01](https://ancientgreek.eu/edu/greek-boy-1.html) 135 / 25
-* 4.26 [W.H.D. ROUSE A Greek boy at Home -02](https://ancientgreek.eu/edu/greek-boy-2.html) 213 / 50
-* → 466 / 77
-* 2.8 [DIONYSIUS THRAX the Art of Grammar](https://ancientgreek.eu/audiobooks/grammar-dt.html) 42 / 15
-* 2.63 [ARISTOTLE On Sense and the Sensible](https://ancientgreek.eu/audiobooks/sense-aristotle.html) 79 / 30
-* 2.6 [ARISTOTLE Physiognomics](https://ancientgreek.eu/audiobooks/physiognomics-aristotle.html) 65 / 25
-* 2.6 [XENOPHON Spartan Constitution](https://ancientgreek.eu/audiobooks/spartan-c.html) 52 / 20
-* 2.52 [ARISTOTLE Poetics](https://ancientgreek.eu/audiobooks/poetics.html) 106 / 42
-* 2.52 [THEOPHRASTUS Characters](https://ancientgreek.eu/audiobooks/characters-theophrastus.html) 83 / 33
-* → 893 / 242
-* 2.5 [AESOP Fables 084-173b](https://ancientgreek.eu/audiobooks/aesop-02.html) 127 / 51
-* → 1020 / 293 (17h)
-* 2.5 [ARISTOTLE On the Voice](https://ancientgreek.eu/audiobooks/voice.html) 50 / 20
-* 2.5 [ISOCRATES Letter to Nicocles](https://ancientgreek.eu/audiobooks/isocrates-nicocles.html) 50 / 20
-* 2.44 [ARISTOTLE On Interpretation](https://ancientgreek.eu/audiobooks/interpretation.html) 61 / 25
-* 2.28 [CEBES the Tablet of Cebes](https://ancientgreek.eu/audiobooks/cebes.html) 57 / 25
-* 2.24 [XENOPHON OF EPHESUS An Ephesian Tale](https://ancientgreek.eu/audiobooks/ephesiantale.html) 179 / 80
-* 2.24 [PLATO Ion](https://ancientgreek.eu/audiobooks/ion.html) 38 / 17
-* 2.2 [AESOP Fables 001-083](https://ancientgreek.eu/audiobooks/aesop-01.html) 113 / 51
-* 2.2 [PLATO Apology of Socrates](https://ancientgreek.eu/audiobooks/apology-p.html) 101 / 46
-* 2.16 [PLATO Critias](https://ancientgreek.eu/audiobooks/plato-critias.html) 52 / 24
-* 2.1 [ARISTOTLE On Sleep and Waking](https://ancientgreek.eu/audiobooks/sleep-aristotle.html) 31 / 15
-* 2.04 [ARISTOTLE On the Soul](https://ancientgreek.eu/audiobooks/soul.html) 204 / 100
-* 2 [ARISTOTLE Categories](https://ancientgreek.eu/audiobooks/categories-aristotle.html) 100 / 50
-* 2 [ARISTOTLE Politics, book 1](https://ancientgreek.eu/audiobooks/politics-aristotle-1.html) 60 / 30
-* 1.89 [XENOPHON Athenian Constitution](https://ancientgreek.eu/audiobooks/athenian-constitution-xenophon.html) 34 / 18
-* 1.85 [LONGUS Daphnis & Chloë](https://ancientgreek.eu/audiobooks/daphnis-chloe.html) 223 / 120
-* 1.85 [ARISTOTLE On Harmony /Music](https://ancientgreek.eu/audiobooks/harmony.html) 37 / 20
-* 1.7 [PLATO Cleitophon](https://ancientgreek.eu/audiobooks/plato-cleitophon.html) 17 / 10
-* 1.7 [PLATO Euthyphro](https://ancientgreek.eu/audiobooks/euthyphro-plato.html) 51 / 30
-* 1.65 [ISOCRATES Letter to Demonicus](https://ancientgreek.eu/audiobooks/demonicus.html) 33 / 20
-* 1.58 [ARISTOTLE Virtues & Vices](https://ancientgreek.eu/audiobooks/vv.html) 19 / 12
-* 1.5 [AESOP Fables 001-012](https://ancientgreek.eu/audiobooks/aesop-1.html) 18 / 12
-* 1.5 [AESOP Fables 013-024](https://ancientgreek.eu/audiobooks/aesop-2.html) 18 / 12
-* 1.25 [AESOP Fables 025-036](https://ancientgreek.eu/audiobooks/aesop-3.html) 15 / 12
-* 1.49 [LUCIAN Lucius or The Ass](https://ancientgreek.eu/audiobooks/lucius-lucian.html) 107 / 72
-* 1.33 [LYSIAS Refusal of a Pension](https://ancientgreek.eu/audiobooks/lysias-pension.html) 16 / 12
-* 1.3 [MARCUS AURELIUS Meditations 01](https://ancientgreek.eu/audiobooks/marcus-aurelius-meditations-01.html) 20 / 15
-* 1.25 [ARISTOTLE On Memory & Recollection](https://ancientgreek.eu/audiobooks/memory-aristotle.html) 25 / 20
-* 0.94 [PARMENIDES On Being](https://ancientgreek.eu/audiobooks/parmenides.html) 17 / 18
-* 0.7 [XENOPHON Apology of Socrates](https://ancientgreek.eu/audiobooks/apology-x.html) 21 / 30
-* Maybe not
-* [HOMER Batrachomyomachia](https://ancientgreek.eu/audiobooks/batracho.html)
-* [HOMER Odyssey 01](https://ancientgreek.eu/audiobooks/odyssey-01.html)
-* [HOMER Iliad 20](https://ancientgreek.eu/audiobooks/iliad-20-homer.html)
-* [HOMER Iliad 07](https://ancientgreek.eu/audiobooks/iliad-07-homer.html)
-* [HOMER Iliad 12](https://ancientgreek.eu/audiobooks/iliad-12-homer.html)
-* [HOMER Iliad 03](https://ancientgreek.eu/audiobooks/iliad-03-homer.html)
-* [HOMER Iliad 19](https://ancientgreek.eu/audiobooks/iliad-19-homer.html)
-* [JOHN THE EVANGELIST The Gospel of John](https://ancientgreek.eu/audiobooks/gospel-john.html)
-* [JOHN OF PATMOS NT Book of Revelation](https://ancientgreek.eu/audiobooks/revelation-john.html)
-* [PINDAR Olympian Odes](https://ancientgreek.eu/audiobooks/pindar-o.html)
-
-     ([ARISTOTLE *Nicomachean Ethics 01](https://ancientgreek.eu/#))*
-
-FIXME## Latinitium
-
-FIXME# Latinitium
-
-* [latinitium.com/category/2000-years-of-latin-prose/](https://latinitium.com/category/2000-years-of-latin-prose/)
-* [video](https://www.youtube.com/@Latinitium)
-* [soundcloud.com/user-327529648](https://soundcloud.com/user-327529648)
-* [store.latinitium.com/products/evangelium-lucae-audiobook](https://store.latinitium.com/products/evangelium-lucae-audiobook) (224 / 16)
-* [store.latinitium.com/collections/pugio-bruti-a-crime-story-in-easy-latin,](https://store.latinitium.com/collections/pugio-bruti-a-crime-story-in-easy-latin,) [dokumen.pub/pugio-bruti.html](https://dokumen.pub/pugio-bruti.html) (102 / 16)
-* [store.latinitium.com/collections/ad-alpes-a-tale-of-roman-life](https://store.latinitium.com/collections/ad-alpes-a-tale-of-roman-life) (440 / 39)
-* [store.latinitium.com/collections/familia-romana-audiobook](https://store.latinitium.com/collections/familia-romana-audiobook) (495 / 39)
-* [store.latinitium.com/products/ritchie-s-fabulae-faciles-audiobook](https://store.latinitium.com/products/ritchie-s-fabulae-faciles-audiobook) (152 / 16)
-* → 1413 / 126 (23.5h)
-
-FIXME# [latinitium.com/latin-audio-archive](https://latinitium.com/latin-audio-archive)
-
-* [The Story Of Androclus And The Lion](https://latinitium.com/latin-audio-archive#The_Story_Of_Androclus_And_The_Lion)
-* [The Story Of Perseus Part 2 – Latin Texts](https://latinitium.com/latin-audio-archive#The_Story_Of_Perseus_Part_2_Latin_Texts)
-* [The Story Of Perseus Part I](https://latinitium.com/latin-audio-archive#The_Story_Of_Perseus_Part_I)
-* [City Life, Country Life (Pliny)](https://latinitium.com/latin-audio-archive#City_Life_Country_Life_Pliny)
-* [Cicero’s Story About Fraud](https://latinitium.com/latin-audio-archive#Ciceros_Story_About_Fraud)
-* [Erasmus’ Perilous Winter Journey](https://latinitium.com/latin-audio-archive#Erasmus_Perilous_Winter_Journey)
-* [Cicero on the Magical Ring of Gyges](https://latinitium.com/latin-audio-archive#Cicero_on_the_Magical_Ring_of_Gyges)
-* [Sallust on Glory and Virtue](https://latinitium.com/latin-audio-archive#Sallust_on_Glory_and_Virtue)
-* [Aurelius Victor on Romulus, the First King of Rome](https://latinitium.com/latin-audio-archive#Aurelius_Victor_on_Romulus_the_First_King_of_Rome)
-* [Cincinnatus](https://latinitium.com/latin-audio-archive#Cincinnatus)
-* [Demosthenes and The Donkey’s Shadow](https://latinitium.com/latin-audio-archive#Demosthenes_and_The_Donkeys_Shadow)
-* [The Story of the Shrewd Elephant](https://latinitium.com/latin-audio-archive#The_Story_of_the_Shrewd_Elephant)
-* [Suetonius on Julius Caesar](https://latinitium.com/latin-audio-archive#Suetonius_on_Julius_Caesar)
-* [The Story About The Wood-cutter And The Golden Axe](https://latinitium.com/latin-audio-archive#The_Story_About_The_Wood-cutter_And_The_Golden_Axe)
-* [Aurelius Commodus](https://latinitium.com/latin-audio-archive#Aurelius_Commodus)
-* [The Crime and Fate of Daedalus](https://latinitium.com/latin-audio-archive#The_Crime_and_Fate_of_Daedalus)
-* [Two Letters from Cicero](https://latinitium.com/latin-audio-archive#Two_Letters_from_Cicero)
-* [Caesar and the Pirates](https://latinitium.com/latin-audio-archive#Caesar_and_the_Pirates)
-* [Never Lose Hope in Your Studies](https://latinitium.com/latin-audio-archive#Never_Lose_Hope_in_Your_Studies)
-* [Ancient Roman Furniture](https://latinitium.com/latin-audio-archive#Ancient_Roman_Furniture)
-* [Sallust on the Death of Catiline](https://latinitium.com/latin-audio-archive#Sallust_on_the_Death_of_Catiline)
-* [The Story of Aeneas](https://latinitium.com/latin-audio-archive#The_Story_of_Aeneas)
-* [Cicero’s Quest for the Tomb of Archimedes](https://latinitium.com/latin-audio-archive#Ciceros_Quest_for_the_Tomb_of_Archimedes)
-* [Roman Houses](https://latinitium.com/latin-audio-archive#Roman_Houses)
-* [Gladiatorial Fights in Ancient Rome](https://latinitium.com/latin-audio-archive#Gladiatorial_Fights_in_Ancient_Rome)
-* [Cicero on True and Perfect Friendship](https://latinitium.com/latin-audio-archive#Cicero_on_True_and_Perfect_Friendship)
-* [The Story of the Avenging Pigs](https://latinitium.com/latin-audio-archive#The_Story_of_the_Avenging_Pigs)
-* [Tommaso Vallauri on Q. Curtius Rufus](https://latinitium.com/latin-audio-archive#Tommaso_Vallauri_on_Q_Curtius_Rufus)
-* [What Price did Philoxenus Pay for his Outspokenness?](https://latinitium.com/latin-audio-archive#What_Price_did_Philoxenus_Pay_for_his_Outspokenness)
-* [The Life of Cicero, Part 2](https://latinitium.com/latin-audio-archive#The_Life_of_Cicero_Part_2)
-* [The Life of Cicero, Part I](https://latinitium.com/latin-audio-archive#The_Life_of_Cicero_Part_I)
-* [The Life and Death of Brutus](https://latinitium.com/latin-audio-archive#The_Life_and_Death_of_Brutus)
-* [Cicero on the Circus Games](https://latinitium.com/latin-audio-archive#Cicero_on_the_Circus_Games)
-* [The Story of Theseus, Part II](https://latinitium.com/latin-audio-archive#The_Story_of_Theseus_Part_II)
-* [The Story of Theseus, Part I](https://latinitium.com/latin-audio-archive#The_Story_of_Theseus_Part_I)
-* [The Christmas Story X2 (Vulgate And Sebastien Châteillon)](https://latinitium.com/latin-audio-archive#The_Christmas_Story_X2_Vulgate_And_Sebastien_Chateillon)
-* [Catiline Addresses the Conspirators](https://latinitium.com/latin-audio-archive#Catiline_Addresses_the_Conspirators)
-* [The Audacious Architect of Alexandria (Vitruvius)](https://latinitium.com/latin-audio-archive#The_Audacious_Architect_of_Alexandria_Vitruvius)
-* [The Story of Mantacius the fraudster](https://latinitium.com/latin-audio-archive#The_Story_of_Mantacius_the_fraudster)
-* [Why Pliny wants to be like Spurinna](https://latinitium.com/latin-audio-archive#Why_Pliny_wants_to_be_like_Spurinna)
-* [What did Cicero Feel Going into Exile?](https://latinitium.com/latin-audio-archive#What_did_Cicero_Feel_Going_into_Exile)
-
-FIXME### Latinum
-
-FIXME# Latinum
-
-* [patreon.com/posts/download-8843692](https://www.patreon.com/posts/download-8843692)
-
 FIXME## # interlineator
 
 * toolkit to create interlinear and juxtalinear annotations - especially for grammatical and phonetic glosses
@@ -3640,23 +2872,23 @@ FIXME## Considerations
 * Should be invariant to pitch and timbre
 * other PolyglotToolkit Projects:
 
-    translation-trainer: use tatoeba or supplied parallel text (optimally with multiple translations), compute metrics, show diff, display dashboard, etc.
+* translation-trainer: use tatoeba or supplied parallel text (optimally with multiple translations), compute metrics, show diff, display dashboard, etc.
 
-    language utility (pre-processor) packages, esp for Arabic, Ancient Greek, Chinese
+* language utility (pre-processor) packages, esp for Arabic, Ancient Greek, Chinese
 
-    * Alignment Tool(s)
+* Alignment Tool(s)
 
-        make GUI tool (or nvim plugin) for manual sentence/word alignment
+* make GUI tool (or nvim plugin) for manual sentence/word alignment
 
-    * CLI for viewing parallel texts in the terminal
+* CLI for viewing parallel texts in the terminal
 
-    Vocalizer: add diacritics to language (seq2seq package) - for arabic, hebrew, ancient greek, latin (with macros → [Alatius/latin-macronizer),](https://github.com/Alatius/latin-macronizer),) [ictibus.blogspot.com/,](http://ictibus.blogspot.com/,) [ilovegooglebooks.blogspot.com/search/label/macrons,](http://ilovegooglebooks.blogspot.com/search/label/macrons,) russian → [russiangram.com/,](https://russiangram.com/,) easy test case for training data, ukrainian
+* Vocalizer: add diacritics to language (seq2seq package) - for arabic, hebrew, ancient greek, latin (with macros → [Alatius/latin-macronizer),](https://github.com/Alatius/latin-macronizer),) [ictibus.blogspot.com/,](http://ictibus.blogspot.com/,) [ilovegooglebooks.blogspot.com/search/label/macrons,](http://ilovegooglebooks.blogspot.com/search/label/macrons,) russian → [russiangram.com/,](https://russiangram.com/,) easy test case for training data, ukrainian
 
-    Latin error detector: fix wrong endings → right architecture for finding single location (here error) in a sequence
+* Latin error detector: fix wrong endings → right architecture for finding single location (here error) in a sequence
 
-    Maybe start with Ancient Greek diacritics: easy data, learnable objective
+* Maybe start with Ancient Greek diacritics: easy data, learnable objective
 
-    use PoS tagging, Wiktionary word info (via Wiktionary tool) → later dependency parsing?
+* use PoS tagging, Wiktionary word info (via Wiktionary tool) → later dependency parsing?
 
 FIXME## Expression Translation Tables (→ Multi-Word Expression Project, Proverbs Project)
 
@@ -3664,33 +2896,29 @@ FIXME## Expression Translation Tables (→ Multi-Word Expression Project, Prover
 
 FIXME# Projects
 
--> mypyc compilation (static?) codon? -> check licenses
+* -> mypyc compilation (static?) codon? -> check licenses
 * bw CLI (bitwarden)
 * clockodo CLI
 * libgen CLI
 * Jira CLI
 * jira [developer.atlassian.com/server/jira/platform/rest-apis/](https://developer.atlassian.com/server/jira/platform/rest-apis/)
-
-jira [Biscuit-Colorscheme/biscuit](https://github.com/Biscuit-Colorscheme/biscuit)
-
-jira [ralphbean/jira-tools](https://github.com/ralphbean/jira-tools)
-
-jira [npmjs.com/package/@rushdigital/confluence-cli](https://www.npmjs.com/package/@rushdigital/confluence-cli)
-
-jira [jira-cli](https://github.com/ankitpokhrel/jira-cli)
+* jira [Biscuit-Colorscheme/biscuit](https://github.com/Biscuit-Colorscheme/biscuit)
+* jira [ralphbean/jira-tools](https://github.com/ralphbean/jira-tools)
+* jira [npmjs.com/package/@rushdigital/confluence-cli](https://www.npmjs.com/package/@rushdigital/confluence-cli)
+* jira [jira-cli](https://github.com/ankitpokhrel/jira-cli)
 * jira [jira-tools](https://github.com/ralphbean/jira-tools)
 * jira [jira](https://www.npmjs.com/package/@rushdigital/confluence-cli)
 * {cli clockodo} [nyantec/clockodo.py: Python API for clocko:do](https://github.com/nyantec/clockodo.py)
 * clockodo  [Basics of the Clockodo REST API](https://www.clockodo.com/en/api/)
 * clockodo  [Control the stop clock with /api/v2/clock (REST-API)](https://www.clockodo.com/en/api/clock/)
 
-clockodo  [clockodo node](https://www.npmjs.com/package/clockodo)
+* clockodo  [clockodo node](https://www.npmjs.com/package/clockodo)
 * clockodo  [clockodo.py](https://github.com/nyantec/clockodo.py)
 * clockodo [Manage entries with /api/v2/entries (REST-API)](https://www.clockodo.com/en/api/entries/)
 * clockodo [clock api](https://www.clockodo.com/en/api/clock/)
 * clockodo [clockodo - npm](https://www.npmjs.com/package/clockodo)
 
-clockodo [clockodo api](https://www.clockodo.com/en/api/entries/)
+* clockodo [clockodo api](https://www.clockodo.com/en/api/entries/)
 * plt: C++ Lexilla, Lua Scintillua, Python pygments, Go Chroma, Rust Syntect, JavaScript Highlight.js / Prism.js
 * plt: Make binaries available on Github page.
 * plt: Write PLT static generation code in Go, Rust, Python, Lua, JavaScript, C++.
@@ -3702,7 +2930,7 @@ clockodo [clockodo api](https://www.clockodo.com/en/api/entries/)
 * envtools: rrpo and package containing commands envsumm and envdiff
 * envdiff: tool to find differences between environments, including files reachable from: $PATH, $LD_LIBRARY_PATH, etc, $INCLUDE (headers, linked libraries), env variables, config files, packages installed -> include nvidia-specific option
 
-\-> semantic modules:
+* -> semantic modules:
 * env var access
 * dir listing
 * writing to well-defined (human-readable) serialization
@@ -3710,7 +2938,7 @@ clockodo [clockodo api](https://www.clockodo.com/en/api/entries/)
 * diff logic and fuzzy file comparison using deserialized JSON (dictionary-like structure)
 * diff display (output)
 
-\-> inputs:
+* -> inputs:
 * currrent env vs json file
 * 2 json files
 * dotenv / dotenv vs [current, json]
@@ -3718,7 +2946,7 @@ clockodo [clockodo api](https://www.clockodo.com/en/api/entries/)
 * (wrapper for) Nix shell declarations
 * other dev shell tools
 
-\-> other candidates: cython, codon, Kotlin native, Rust, safe subset of C or Cpp, Ocaml, Haskell, Go
+* -> other candidates: cython, codon, Kotlin native, Rust, safe subset of C or Cpp, Ocaml, Haskell, Go
 * Write LLM overview, with maybe 5 versions, differing in complexity and required background
 
 FIXME# Personal Website 🌱
@@ -3736,19 +2964,17 @@ FIXME## Structure
 * Math & Programming Visualizations
 * [ ]  Bayes’ Theorem (rewrite and convert from TDS)
 * [ ]  algebraic structures
-        * ⇒ Idea: Math taxonomy interactive visualizations for personal site - spaces (Venn diagram), algebraic structures (flowchart? Venn diagram?)
+* ⇒ Idea: Math taxonomy interactive visualizations for personal site - spaces (Venn diagram), algebraic structures (flowchart? Venn diagram?)
 * [ ]  matrix types
 * [ ]  proglang table
 * [ ]  scalable webpage graphic of family tree of programming languages
-        * Link
 * [The Briefest Genealogy of Programming Languages](http://www.martinrinehart.com/pages/genealogy-programming-languages.html)
-            * Genealogy of Programming Languages.pdf on Drive
+* Genealogy of Programming Languages.pdf on Drive
 * [en.wikipedia.org/wiki/Generational_list_of_programming_languages](https://en.wikipedia.org/wiki/Generational_list_of_programming_languages)
 * [en.wikipedia.org/wiki/History_of_programming_languages](https://en.wikipedia.org/wiki/History_of_programming_languages)
 * [en.wikipedia.org/wiki/Timeline_of_programming_languages](https://en.wikipedia.org/wiki/Timeline_of_programming_languages)
 * [rigaux.org/language-study/diagram.html](http://rigaux.org/language-study/diagram.html)
-        * Notes
-            * → button to change color scheme for different views corresponding to characteristics/history: paradigm(s), genealogy, application area, language features
+* → button to change color scheme for different views corresponding to characteristics/history: paradigm(s), genealogy, application area, language features
 * Study Notes (port from LaTeX versions)
 
 FIXME## Learning
@@ -3827,13 +3053,6 @@ FIXME# proglang table
 * How to merge edits at the same block? Use a Python-wrapped got diff?
 * [ ] \*\*\*\*\*\*\*\*\* [teachcode](https://github.com/madlabsinc/teachcode) - Guide for the earliest lessons of coding.
 
-|— static
-
-  |— css
-
-   |— html
-
-   |— js
 * Design ideas:
 * Top bar, slightly lighter than main background, with title (’Programming Language Table’) and on the right the following icons (maybe rounded squares):
 *   documentation (scroll image, including friendly introduction - and disclaimer)
@@ -3856,23 +3075,23 @@ FIXME# proglang table
 
 FIXME# [Minimal Working Examples](https://docs.google.com/spreadsheets/d/1hzRM9NpjLdlBnZmU2H2UTX_eWDRXf9jujuw61ov9Yso/edit?usp=sharing) 🌱
 
--> Add "Build Your Own Lisp" to Rosetta Projects
+* -> Add "Build Your Own Lisp" to Rosetta Projects
 
- simple HTTP 1.1 server - great exercise for Go and Rust especially
+* simple HTTP 1.1 server - great exercise for Go and Rust especially
 
-https://github.com/marvincolgin/data-structures-and-algorithms
+* https://github.com/marvincolgin/data-structures-and-algorithms
 * [eldritch-cookie/templates](https://github.com/eldritch-cookie/templates) $$$
 * [RosettaProjects](https://github.com/RosettaProjects) Next Step
 * [x]  Rename: RosettaProjects (Github organization
 * [ ]  code template repos (use copier, ideally → rewrite copier in compiled language?
-  * copier-template-
-  * etc,    * [ ]  scripts & utility functions (keep index in README.md
+* copier-template   
+* [ ]  scripts & utility functions (keep index in README.md
 * [ ]  add nbcat (first in Go, later in Rust, then in others) → move nbcat-go to RosettaProjects or
 * [ ]  add cowsay project as a slightly more interesting hello world (project 2, basically)
-  * add nix & docker for each folder in polyglot-tasks -> rename to polyglot-programming-tasks in its own repo, add 40 algorithms book, also create new gh organization
+* add nix & docker for each folder in polyglot-tasks -> rename to polyglot-programming-tasks in its own repo, add 40 algorithms book, also create new gh organization
 * from Spreadshee
-  * DL Project
-  * Prototypes
+* DL Project
+* Prototypes
 * [PwC Intent Classification](https://paperswithcode.com/task/intent-classification)
 * [Concise Tutorial](https://github.com/netik1020/Concise-iPython-Notebooks-for-Deep-learning/tree/master/Intent_classifier)
 * [Corresponding Datasets](https://github.com/snipsco/nlu-benchmark/tree/master/2017-06-custom-intent-engines)
@@ -3907,9 +3126,9 @@ https://github.com/marvincolgin/data-structures-and-algorithms
 * [medium.com/@palashshinde6/how-to-build-simple-chatbot-in-python-from-scratch-using-rasa-nlu-nltk-5fb23aa702a4](https://medium.com/@palashshinde6/how-to-build-simple-chatbot-in-python-from-scratch-using-rasa-nlu-nltk-5fb23aa702a4)
 
 * Resources
-  * TF Cookbook
-  * TF for Dummies
-  * PyTorch Tutorials
+* TF Cookbook
+* TF for Dummies
+* PyTorch Tutorials
 
 * [tensorflow.org/resources/learn-ml](https://www.tensorflow.org/resources/learn-ml)
 * [tfhub.dev](https://tfhub.dev/)
@@ -3925,108 +3144,40 @@ https://github.com/marvincolgin/data-structures-and-algorithms
 * [RodneyShag/HackerRank_solutions](https://github.com/RodneyShag/HackerRank_solutions)
 * [Solve Programming Questions | HackerRank](https://www.hackerrank.com/domains/algorithms)
 
-```txt
-|  | compile | enter interpreter | exit interpreter | print |
-| --- | --- | --- | --- | --- |
-| C | $ gcc file.c OR gcc -o <execname> <file>.c | NA | NA |  |
-|  | $ ./execname OR ./a.out IF NO EXECNAME SPECIFIED |  |  |  |
-|  |  |  |  |  |
-| C++ | $ gcc file.cpp OR g++ -o <execname> <file>.cpp | NA | NA |  |
-|  | $ ./execname OR ./a.out IF NO EXECNAME SPECIFIED | (Jupyter Notebook) |  |  |
-|  | Code::Blocks, XCode, NetBeans |  |  |  |
-| Julia | $ julia <filename>.jl | $ julia | exit() | println("string") |
-|  |  | exit() |  | print("string") |
-|  |  | JuliaPro (Juno in Atom), Jupyter Notebook |  |  |
-| Python | $ python <filename>.py | $ python | exit() | print('string') |
-|  | $ py <filename>.py | exit() |  | print("string") |
-|  |  | Spyder, Jupyter Notebook, Atom |  |  |
-| R | $ R <file>.r | R Studio | NA | print("string") |
-|  |  | R App |  | print('string') |
-|  |  | Jupyter Notebook |  |  |
-| Scala | $ scala <filename>.scala | $ scala | :q | println("Hello, world!") |
-|  |  | Jupyter Notebook |  |  |
-|  |  |  |  |  |
-| Java | $ javac <filename>.java | NA | NA | System.out.println("string") |
-|  | $ java <filename> | (Jupyter Notebook for SciJava) |  |  |
-|  | Eclipse, NetBeans, IntelliJIdea, XCode |  |  |  |
-| Scheme | $ scheme --load <file>.scm | $ scheme | (exit) | (begin (display "Hello, World!") (newline)) |
-|  |  |  |  | (display "Hello, World!") |
-|  |  |  |  |  |
-| Racket | $ racket file.rkt | $ racket | (exit) | "Hello, world!" |
-|  |  | $ drracket |  |  |
-|  |  |  |  |  |
-| Haskell | $ ghc -o objname file.hs | $ haskell | :quit | putStrLn "Hello World!" |
-| [cheatsheet.codeslower.com/CheatSheet.pdf](https://cheatsheet.codeslower.com/CheatSheet.pdf) | $ ./ objname | $ ghci |  | main = putStrLn "Hello World!" |
-| [github.s3.amazonaws.com/downloads/jsoffer/cheatsheet/CheatSheetEs.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAISTNZFOVBIJMK3TQ%2F20191213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20191213T171655Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=3e018e451f290bb18731aad39af27d0ef52bb1357d937734d4d77acd8217b9f4](https://github.s3.amazonaws.com/downloads/jsoffer/cheatsheet/CheatSheetEs.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAISTNZFOVBIJMK3TQ%2F20191213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20191213T171655Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=3e018e451f290bb18731aad39af27d0ef52bb1357d937734d4d77acd8217b9f4) |  |  |  |  |
-| Prolog | $ prolog -q -l <filename>.pl OR <filename>.pro | $ prolog | halt. | write('string'), nl. |
-|  | $ swipl -q -l <filename>.pl OR <filename>.pro | $ swipl |  |  |
-|  |  |  |  |  |
-| Octave | $ octave <file>.m | $ octave | exit |  |
-|  |  | Octave GUI / Jupyter Notebook |  |  |
-|  |  |  |  |  |
-| Perl | $ perl <filename>.pl | $ perl6 | exit |  |
-|  | $ perl5 <filename>.p6 |  |  |  |
-|  |  |  |  |  |
-| Lua | $ lua <filename>.lua | $ lua | os.exit() |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-| Bash | $ ./<filename> | $ bash | NA |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-| NASM (Linux x86_64) | $ nasm -felf64 <filename>.asm && ld hello.o && ./a.out | NA | NA |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-| NASM (OSX x86_64) | $ nasm -fmacho64 <filename>.asm && ld hello.o && ./a.out | NA | NA |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-| HLA | $ hla <filename>.hla ==>CREATES <filename>.o and <filename> executable | NA | NA |  |
-|  | $ ./<filename> |  |  |  |
-|  |  |  |  |  |
-| Rust | $ rustc <filename>.rs | NA | NA |  |
-|  | $ ./<filename> |  |  |  |
-|  |  |  |  |  |
-| Ruby | $ ruby <filename>.rb | $ irb | exit |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-| Nim | $ nim c -r --verbosity:0 <file>.nim | NA | NA |  |
-|  |  | (Jupyter Notebook) |  |  |
-|  |  |  |  |  |
-| JavaScript | NA | NA | NA |  |
-```
-
 * [Spreadsheet](https://docs.google.com/spreadsheets/d/1hzRM9NpjLdlBnZmU2H2UTX_eWDRXf9jujuw61ov9Yso/edit?usp=sharing)
-    Add mustache template processor to projects: [mustache.github.io/](https://mustache.github.io/)
-    add
-    → Implement scheduling module in polyglot-projects, also corresponding visualizer
+* Add mustache template processor to projects: [mustache.github.io/](https://mustache.github.io/)
+* → Implement scheduling module in polyglot-projects, also corresponding visualizer
 * Resources / Lists## [Exercism Intro](https://www.youtube.com/playlist?list=PLpsileTZltjWrPQjTzJ8Fj2ah7JGBCss5)
 * [rosettacode.org/wiki/Category:Solutions_by_Programming_Task](https://rosettacode.org/wiki/Category:Solutions_by_Programming_Task)
-  * add this: [Bogdanp/awesome-advent-of-code](https://github.com/Bogdanp/awesome-advent-of-code)
-    * Basic
-    * print
-    * input
-    * addition
-    * subtraction
-    * float division
-    * multiplication
-    * modulo
-    * floor division
-    * exponent
-    * sum of products
-    * for-loop
-    * if loop
-    * while loop
-    * convert decimal to binary
-    * convert binary to decimal
-    * function to convert
-    * Misc Algorithms
+* add this: [Bogdanp/awesome-advent-of-code](https://github.com/Bogdanp/awesome-advent-of-code)
+
+#-> proglangTable
+* Basic
+* print
+* input
+* addition
+* subtraction
+* float division
+* multiplication
+* modulo
+* floor division
+* exponent
+* sum of products
+* for-loop
+* if loop
+* while loop
+* convert decimal to binary
+* convert binary to decimal
+* function to convert
+* Misc Algorithms
 * [Insertion sort](https://www.techiedelight.com/insertion-sort-iterative-recursive/)
 * [Selection sort](https://www.techiedelight.com/selection-sort-iterative-recursive/)
 * [Bubble sort](https://www.techiedelight.com/bubble-sort-iterative-recursive/)
 * [Merge Sort](https://www.techiedelight.com/merge-sort/)
 * [Quicksort](https://www.techiedelight.com/quicksort/)
-  * Bucket Sort
+* Bucket Sort
 * [Heap Sort](https://www.techiedelight.com/heap-sort-place-place-implementation-c-c/)
-  * Counting Sort
+* Counting Sort
 * [Binary Search](https://www.techiedelight.com/binary-search/)
 * [Breadth First Search (BFS)](https://www.techiedelight.com/breadth-first-search/)
 * [Depth First Search (DFS)](https://www.techiedelight.com/depth-first-search/)
@@ -4048,12 +3199,12 @@ https://github.com/marvincolgin/data-structures-and-algorithms
 * [Greedy Algorithms](https://www.techiedelight.com/list-of-problems/#Greedy)
 * [Hashing](https://www.techiedelight.com/Tags/hashing/)
 * [Recursion](https://www.techiedelight.com/Tags/recursion/)
-  * Exponentiation by Squaring
-  * KMP Algorithm
-  * Regular Expressions
-  * Sieve of Eratosthenes (deterministic)
-  * For any number n, incrementally testing upto sqrt(n) (deterministic)
-  * Fermat primality test and Miller–Rabin primality test(both are nondeterministic)
+* Exponentiation by Squaring
+* KMP Algorithm
+* Regular Expressions
+* Sieve of Eratosthenes (deterministic)
+* For any number n, incrementally testing upto sqrt(n) (deterministic)
+* Fermat primality test and Miller–Rabin primality test(both are nondeterministic)
 * [Lee algorithm | Shortest path in a Maze](https://www.techiedelight.com/lee-algorithm-shortest-path-in-a-maze/)
 * [Flood fill Algorithm](https://www.techiedelight.com/flood-fill-algorithm/)
 * [Floyd’s Cycle Detection Algorithm](https://www.techiedelight.com/detect-cycle-linked-list-floyds-cycle-detection-algorithm/)
@@ -4490,47 +3641,51 @@ FIXME## Functional Programming
 * Infer
 * BrainF__k interpreter
 
+#-> rosettaProjects,dataset
+
+* Datasets
+* Iris Flowers Dataset
+* Boston House Price Dataset
+* Wine Quality Dataset
+* Swedish Auto Insurance Dataset.
+* Sonar Dataset
+* Abalone Dataset.
+* Ionosphere Dataset.
+* Wheat Seeds Dataset.
+* Facial Image Dataset
+* HotpotQA
+* US Census Data (1990) Data Set
+* Banknote Authentication Dataset
+* Pima Indians Diabetics Dataset
+* Breast Cancer Wisconsin (Diagnostic) Data Set
+* BBCSport Dataset
+* Twitter Sentiment Analysis Dataset
+* BBC News Datasets
+* Amazon Reviews Dataset
+* Spam SMS Classifier Dataset
+* The Chars74K Dataset
+* MNIST
+* WordNet
+* CIFAR-10
+* Fashion-MNIST
+* IMDB Reviews
+* Twenty Newsgroups
+* Sentiment140
+* Yelp Reviews
+* Wikipedia Corpus
+* Open Subtitles
+* Free Spoken Digit Dataset
+
+#-> rosettaProjects
+
 * Rosetta Code (make folder)
-  * Datasets
-    * Iris Flowers Dataset
-    * Boston House Price Dataset
-    * Wine Quality Dataset
-    * Swedish Auto Insurance Dataset.
-    * Sonar Dataset
-    * Abalone Dataset.
-    * Ionosphere Dataset.
-    * Wheat Seeds Dataset.
-    * Facial Image Dataset
-    * HotpotQA
-    * US Census Data (1990) Data Set
-    * Banknote Authentication Dataset
-    * Pima Indians Diabetics Dataset
-    * Breast Cancer Wisconsin (Diagnostic) Data Set
-    * BBCSport Dataset
-    * Twitter Sentiment Analysis Dataset
-    * BBC News Datasets
-    * Amazon Reviews Dataset
-    * Spam SMS Classifier Dataset
-    * The Chars74K Dataset
-    * MNIST
-    * WordNet
-    * CIFAR-10
-    * Fashion-MNIST
-    * IMDB Reviews
-    * Twenty Newsgroups
-    * Sentiment140
-    * Yelp Reviews
-    * Wikipedia Corpus
-    * Open Subtitles
-    * Free Spoken Digit Dataset
 * [Machine Translation of Various Languages](http://statmt.org/wmt18/index.html)
-  * Visualizations
-    * Basis Vectors
-    * Unit Circle
-    * Linear transformations 2D
-    * Other Ideas and Resources for RosettaProject
-    * eert: reconstruct file tree from output of tre
-    * → replacement for tree with lines to look good with nerd font → call it tre (arbor, dendron, boom, baum, drevo PIE doru) ‣ ← multilingual* → make configurable
+* Visualization: Basis Vectors
+* Visualization: Unit Circle
+* Visualization: Linear transformations 2D
+* Visualization: Other Ideas and Resources for RosettaProject
+* Visualization: eert: reconstruct file tree from output of tre
+* Visualization: → replacement for tree with lines to look good with nerd font → call it tre (arbor, dendron, boom, baum, drevo PIE doru) ‣ ← multilingual* → make configurable
 * collect mathematical algorithms / projects / etc for ppp
 * [dlang.org/](https://dlang.org/) → see list of projects for PPP
 * [duckduckgo.com/?q=list if cool new github projects&ko=-1&ia=web](https://duckduckgo.com/?q=list%20if%20cool%20new%20github%20projects&ko=-1&ia=web)
@@ -4571,48 +3726,21 @@ FIXME## ML → See sklearn docs
 
 * rosetta-projects: incorporate Modern C++ Challenge
 * rosetta-projects: also use Go by Example and Haskell by Example
-* Lang Priority Lis
-  * Pytho
-  *
-  * bas
-  * Rus
-  * G
-  * C++
-  * Java 1
-  * Java 1
-  * Haskel
-  * CommonLis
-  * Lu
-  * Juli
-  * TypeScrip
-  * JavaScrip
-  * Dar
-  *
-  * zs
-  * Python + Cpp via pybind1
-  * Lua +
-  * Python + Rust via PyO3
-* parallang
-  * Create a website with a giant table to compare programming languages.
-  * Each row is some (relatively universal) feature or aspect of programming languages.
-  * Source     code for the website is a markdown file for each language and builder    code (heavily template-based) to generate html+css+js, as well as    interact with the source (e.g. add a row to all files, with default    "\<to be added...\>" placeholder).
-  * Languages     should be selectable, as should feature categories and features. The    table should then be exportable in different formats.
-  * The site should also support custom theming.
-  * make interactive website where it is possible to pick languages to compare - like hyperpolyglot, but with an interactive component8
-  * also add links to projects
+* Lang Priority List: Python | C | bash | Rust | Go | C++ | Java 11 | Java 21 | Haskell | CommonLisp | Lua | Julia | TypeScript | JavaScript | Dart| zsh | Python + Cpp via pybind11 | Lua + C | Python + Rust via PyO3
+
 * [ ]  [Sourcetrail](https://www.sourcetrail.com/) - Sourcetrail is a free and open-source cross-platform source explorer that helps you get productive on unfamiliar source code.
 * [examples.raku.org/index.html](https://examples.raku.org/index.html)
 * [yrwq/ccc](https://github.com/yrwq/ccc) - good parallel code project - add similar thing!
 
 FIXME## Tree
 
--> also make it take and output JSON, YAML, lists of paths (with different separators)
+* -> also make it take and output JSON, YAML, lists of paths (with different separators)
 
-https://github.com/quux00/tree
-https://github.com/kddnewton/tree
-https://github.com/a8m/tree
-https://oldmanprogrammer.net/source.php?dir=projects/tree
-https://github.com/dduan/tre
-https://github.com/jberryman/directory-tree
-https://github.com/kroitor/asciichart?tab=readme-ov-file#ports $$$$$$$$$
+* https://github.com/quux00/tree
+* https://github.com/kddnewton/tree
+* https://github.com/a8m/tree
+* https://oldmanprogrammer.net/source.php?dir=projects/tree
+* https://github.com/dduan/tre
+* https://github.com/jberryman/directory-tree
+* https://github.com/kroitor/asciichart?tab=readme-ov-file#ports $$$$$$$$$
 

@@ -4,8 +4,8 @@ FIXME## left-right mappings for table parsing
 
 * [mypy notes](https://stackoverflow.com/questions/57785471/why-does-mypy-think-library-imports-are-missing) $$$$$$$$$
 * move cv-analysis to gpu, rewrite in cpp with pybind11 and parallelize everything
-[evilmartians/lefthook](https://github.com/evilmartians/lefthook)
-add deskew keyword to cv-analysis service
+* [evilmartians/lefthook](https://github.com/evilmartians/lefthook)
+* add deskew keyword to cv-analysis service
 * output "skewAngle": float
 
 * image = image.resize((10, 10), Image.ANTIALIAS)
@@ -14,10 +14,7 @@ add deskew keyword to cv-analysis service
 * pixel_data = list(image.getdata())
 * avg_pixel = sum(pixel_data) / len(pixel_data)
 
-+++ b/redai/backend/image/utils.py
-
-@@ -80,7 +80,7 @@ def hash_image(image: Image):
-* Returns:
+* b/redai/backend/image/utils.py    @@ -80,7 +80,7 @@ def hash_image(image: Image):
 
 FIXME## Sort
 
@@ -34,90 +31,6 @@ FIXME## Sort
 * deskewing: use Gini coefficient? variance?
 * -> make all places pull from angles in .yaml
 * joint output? -> sign probability, regression, binary classification
-
-FIXME### Codes
-
-* LCS with poetry
-* Inferenzverfahren verfeinern
-* Pfadgeneralisierung für Schleifen in den Daten
-* Tests schreiben
-* Create paths object for managing all relevant paths
-* evaluation method for each rule -> check whether rule generalizes; bootstrap for mappings
-* composite (multi-input) rules
-* use protocol classes in Python
-
-```
-* UNA
-* UNB - Interchange Header
-* UNH - Message Header
-* BGM - Begnning of Message
-
-(TSR) - transport service requirements
-* MOA - monetary amount
-* FTX+AAA - Free Text
-* CNT+7 - Control Total
-* CNT+11
-* CNT+15
-* TOD - terms of delivery or transport
-* LOC - place / location identification
-  5 departure
-  7 delivery
-  8 destination
-* RFF - reference
-* GOR - governmental requirements
-* DTM - date/ time / period
-* NAD - name and address
-* CTA - contact information
-* COM - communication contact
-* GID - goods item details
-* MEA - measurements
-* DIM - dimensions
-* DOC - document / message details
-* PCI - package identification
-* GIN - goods identity number
-* EQD - line item (?)
-* TCC+INV - (?)
-* MOA - monetary amount
-* QTY - quantity
-* MEA - measurements
-* FTX - free text
-* UNT - message trailer
-* UNZ - interchange trailer
-* FTX+AAA - goods description
-* FTX+AAB
-* FTX+DIN
-* FTX_AAD
-* WT - weight
-* VOL - volume
-* MTQ -m^2
-
-+KGM - kg
-
-+AAE - item gross weight
-
-```
-
-```tex
-* y_i = f^*(\vec{x}) = argmax_{f_i} s(f_i)
-
-```txt
-* RL Model for DHL: (path, entity, all paths) -> (path, entity)                                            -> mapping: rules, constraints on rules
-
-```tex
-* a_t = \pi_\theta (\cdot | s_t)
-
-```
-
-* 0. path enumeration
-* 1. recognition of corresponding entities (values)
-   (rule-based) -> by type: string, num, date
-* 2. raw path2path count matrix
-* 3. Initialize mapping for each output path -> a priori probabilistic mapping
-* 4. generate rule space -> as tree
-   `f_i(path) = value` -> list of candidate rules
-* 5. increment rule score for each rule generating correct output    operations:    * identit
-  * numerical transformation (solve by e.g. regression
-  * string operations: substring,character mapping, casing, substring transposition
 
 FIXME### ML Pipelines
 
@@ -175,14 +88,14 @@ FIXME## Logging
 * [aspecto.io/blog/distributed-tracing-for-rabbitmq-with-opentelemetry-in-node/](https://www.aspecto.io/blog/distributed-tracing-for-rabbitmq-with-opentelemetry-in-node/)
 * [elastic.co/guide/en/apm/guide/current/apm-distributed-tracing.html](https://www.elastic.co/guide/en/apm/guide/current/apm-distributed-tracing.html)
 * [log.knecon.com/s/lannister/app/home#/](https://log.knecon.com/s/lannister/app/home#/)
-    {"timeMillis":1697720400062,"thread":"persistence-service_Worker-4","level":"INFO","loggerName":"com.iqser.red.service.persistence.management.v1.processor.service.job.DownloadCleanupJob","message":"Checking for downloads to delete at 2023-10-19T13:00:00.062Z","endOfBatch":false,"loggerFqcn":"org.apache.logging.slf4j.Log4jLogger","contextMap":{},"threadId":58,"threadPriority":5,"version":"2.0-SNAPSHOT"}
-    {"timeMillis":1697719406759,"thread":"main","level":"INFO","loggerName":"org.springframework.security.web.DefaultSecurityFilterChain","message":"Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@527d312e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39981ec, org.springframework.security.web.context.SecurityContextHolderFilter@5323c9a0, org.springframework.security.web.header.HeaderWriterFilter@bded3b53, org.springframework.security.web.authentication.logout.LogoutFilter@19cb4010, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@1a70fc24, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@614289f2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@177de634, org.springframework.security.web.session.SessionManagementFilter@9b46e97c, org.springframework.security.web.access.ExceptionTranslationFilter@568eff36, org.springframework.security.web.access.intercept.AuthorizationFilter@76c139e9]","endOfBatch":false,"loggerFqcn":"org.apache.commons.logging.LogAdapter$Log4jLog","contextMap":{},"threadId":1,"threadPriority":5,"version":"2.0-SNAPSHOT"}
-    LOGGING_TYPE (default: non-JSON)
+* {"timeMillis":1697720400062,"thread":"persistence-service_Worker-4","level":"INFO","loggerName":"com.iqser.red.service.persistence.management.v1.processor.service.job.DownloadCleanupJob","message":"Checking for downloads to delete at 2023-10-19T13:00:00.062Z","endOfBatch":false,"loggerFqcn":"org.apache.logging.slf4j.Log4jLogger","contextMap":{},"threadId":58,"threadPriority":5,"version":"2.0-SNAPSHOT"}
+* {"timeMillis":1697719406759,"thread":"main","level":"INFO","loggerName":"org.springframework.security.web.DefaultSecurityFilterChain","message":"Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@527d312e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39981ec, org.springframework.security.web.context.SecurityContextHolderFilter@5323c9a0, org.springframework.security.web.header.HeaderWriterFilter@bded3b53, org.springframework.security.web.authentication.logout.LogoutFilter@19cb4010, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@1a70fc24, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@614289f2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@177de634, org.springframework.security.web.session.SessionManagementFilter@9b46e97c, org.springframework.security.web.access.ExceptionTranslationFilter@568eff36, org.springframework.security.web.access.intercept.AuthorizationFilter@76c139e9]","endOfBatch":false,"loggerFqcn":"org.apache.commons.logging.LogAdapter$Log4jLog","contextMap":{},"threadId":1,"threadPriority":5,"version":"2.0-SNAPSHOT"}
+* LOGGING_TYPE (default: non-JSON)
 * [betterstack.com/community/guides/logging/loguru/](https://betterstack.com/community/guides/logging/loguru/)
 * [loguru.readthedocs.io/en/stable/api/logger.html](https://loguru.readthedocs.io/en/stable/api/logger.html)
 * [florian-dahlitz.de/articles/logging-made-easy-with-loguru](https://florian-dahlitz.de/articles/logging-made-easy-with-loguru)
 * [Delgan/loguru/issues/520](https://github.com/Delgan/loguru/issues/520)
-    ![logoutput.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e74f0423-4454-4dd0-ae43-e45cbc541e73/4d40805c-0f55-4bfa-a7b1-dbfbe8c75da8/logoutput.png)
+* ![logoutput.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e74f0423-4454-4dd0-ae43-e45cbc541e73/4d40805c-0f55-4bfa-a7b1-dbfbe8c75da8/logoutput.png)
 * [W1202 - logging-fstring-interpolation is not useful · Issue #2395 · PyCQA/pylint](https://github.com/PyCQA/pylint/issues/2395#issuecomment-715300290)
 * [Delgan/loguru: Python logging made (stupidly) simple](https://github.com/Delgan/loguru)
 * [Sentry Alternatives - Python Logging | LibHunt](https://python.libhunt.com/sentry-alternatives)
@@ -248,10 +161,7 @@ FIXME# LLMs
 
 FIXME## Image Classification Service
 
-```sh
-export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu”
-FIXME#apt install nvidia-cuda-toolkit
-```
+* ```sh  export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu" ||| FIXME#apt install nvidia-cuda-toolkit ```
 
 FIXME## Face Detection
 
@@ -267,7 +177,7 @@ FIXME## Miscellaneous / Overarching
 * pytest        * [cbohara/pytest: Notes from Python Testing with pytest by Brian Okken](https://github.com/cbohara/pytest)
 * [pytest-dev/pytest: The pytest framework makes it easy to write small tests, yet scales to support complex functional testing](https://github.com/pytest-dev/pytest)
 * [jashburn8020/python-testing-with-pytest: Excerpts from the book Python Testing with Pytest by Brian Okken](https://github.com/jashburn8020/python-testing-with-pytest)
-    Pytest and caplog doesn't work if InterceptHandler exists · Issue #474 · Delgan/loguru_pytest.python — pytest documentation        * [Pytest's caplog fixture doesn't seem to work · Issue #59 · Delgan/loguru](https://github.com/Delgan/loguru/issues/59)
+* Pytest and caplog doesn't work if InterceptHandler exists · Issue #474 · Delgan/loguru_pytest.python — pytest documentation        * [Pytest's caplog fixture doesn't seem to work · Issue #59 · Delgan/loguru](https://github.com/Delgan/loguru/issues/59)
 * [How to Measure Unit Test Execution Times in pytest - Howchoo](https://howchoo.com/python/how-to-measure-unit-test-execution-times-in-pytest)
 * [5 Advanced Pytest Tricks - Software Gems](https://benoitgoujon.com/post/six-advanced-pytest-tricks/)
 * [An example on how to capture and test logs with pytest.](https://gist.github.com/hectorcanto/981b49a83a9e15b68efe5302a643e5c0)
@@ -276,13 +186,7 @@ FIXME## Miscellaneous / Overarching
 * [ ]  prepare presentation on Python development in Nix for the team (create Docker container, go through Tweag tutorial on Nix + Python)
 * [cedaei.com/posts/python-poetry-pipx/](https://cedaei.com/posts/python-poetry-pipx/)
 * Segmentation        * [segment-anything.com/](https://segment-anything.com/)
-* Notes
-    JM: need for more cross-pollination
-    How to learn as much as possible from user feedback? regex, ML, RL?
-    justify everything, show full AI
-    PowerSGD, Byzantine Robust Training
-    deliver a platform, a toolkit with active-learning built-in
-    graph-based approach: graph-embeddings?
+* Notes: JM: need for more cross-pollination ||| How to learn as much as possible from user feedback? regex, ML, RL? ||| justify everything, show full AI ||| PowerSGD, Byzantine Robust Training ||| deliver a platform, a toolkit with active-learning built-in ||| graph-based approach: graph-embeddings?
 
 FIXME# Weiterbildung
 
@@ -313,8 +217,8 @@ FIXME# Weiterbildung
 * [knecon.atlassian.net/browse/RES-164?atlOrigin=eyJpIjoiYThlYzJiNjI1MzY1NDFmODkzMTJlZmU4OTk1MTVlZjgiLCJwIjoiaiJ9](https://knecon.atlassian.net/browse/RES-164?atlOrigin=eyJpIjoiYThlYzJiNjI1MzY1NDFmODkzMTJlZmU4OTk1MTVlZjgiLCJwIjoiaiJ9)
 * [knecon.atlassian.net/browse/RES-336?atlOrigin=eyJpIjoiMmJiODFkYTk4YzY3NGQzNmEwODg3OWFmZjgzYWEwODciLCJwIjoiaiJ9](https://knecon.atlassian.net/browse/RES-336?atlOrigin=eyJpIjoiMmJiODFkYTk4YzY3NGQzNmEwODg3OWFmZjgzYWEwODciLCJwIjoiaiJ9)
 * [knecon.atlassian.net/browse/RES-335?atlOrigin=eyJpIjoiYzViMTM2NDVmODBmNDg1Nzg1OTZmNWY1OWJhYjcyMTgiLCJwIjoiaiJ9](https://knecon.atlassian.net/browse/RES-335?atlOrigin=eyJpIjoiYzViMTM2NDVmODBmNDg1Nzg1OTZmNWY1OWJhYjcyMTgiLCJwIjoiaiJ9)
-* Config
-    search for (esp ml) projects usong dynaconf and hydra        * [lincolnloop/goodconf: Transparently load variables from environment or JSON/YAML/TOML file.](https://github.com/lincolnloop/goodconf)
+* Config: search for (esp ml) projects usong dynaconf and hydra
+* [lincolnloop/goodconf: Transparently load variables from environment or JSON/YAML/TOML file.](https://github.com/lincolnloop/goodconf)
 * [Dynaconf - 3.1.11](https://www.dynaconf.com/)
 * [The Twelve-Factor App](https://12factor.net/config)
 * [video](https://www.youtube.com/shorts/UU7cb1qiS64)
@@ -339,7 +243,8 @@ FIXME# Weiterbildung
 * [Kubernetes for Developers: A Deep Dive](https://bluexp.netapp.com/blog/kubernetes-for-developers-a-deep-dive)
 * [sergiohinojosa/kubernetes-deepdive](https://github.com/sergiohinojosa/kubernetes-deepdive)
 * [A few things I've learned about Kubernetes](https://jvns.ca/blog/2017/06/04/learning-about-kubernetes/)
-    Managing Containers at Scale with CoreOS and Kubernetes" by Kelsey Hightower - YouTube        * [kubernetes.io/docs/tasks/tools/](https://kubernetes.io/docs/tasks/tools/)
+* Managing Containers at Scale with CoreOS and Kubernetes by Kelsey Hightower - YouTube        
+* [kubernetes.io/docs/tasks/tools/](https://kubernetes.io/docs/tasks/tools/)
 * logging        * [test input()](https://stackoverflow.com/questions/35851323/how-to-test-a-function-with-input-call)
 * [elastic/kibana: Your window into the Elastic Stack](https://github.com/elastic/kibana)
 * [Library Genesis: Bahaaldine Azarmi; Anurag Srivastava - Learning Kibana 7 :build powerful elastic dashboards with Kibana's data visualizationcapabilities](https://libgen.is/book/index.php?md5=778E783AF7EA3EF58F5EC8BA7C24BBCC)
@@ -380,8 +285,7 @@ FIXME# Weiterbildung
 * [Practical Deep Learning at Scale with MLflow: Bridge the gap between offline experimentation and online production](http://library.lol/main/0953E75F2337ABA087CFCE87CAB9BB32)
 * [Beginning MLOps with MLFlow: Deploy Models in AWS SageMaker, Google Cloud, and Microsoft Azure](http://library.lol/main/7DCDD5D956C8174FD23C4DF2EBC44FAF)
 * [drive.google.com/drive/search?q=MLFlow](https://drive.google.com/drive/search?q=MLFlow)
-* NLQ
-    try this instead? [huggingface.co/course/chapter7/2](https://huggingface.co/course/chapter7/2)
+* NLQ: try this instead? [huggingface.co/course/chapter7/2](https://huggingface.co/course/chapter7/2)
 * [Embed, encode, attend, predict: The new deep learning formula for state-of-the-art NLP models · Explosion](https://explosion.ai/blog/deep-learning-formula-nlp)
 * [Model Architectures · spaCy API Documentation](https://spacy.io/api/architectures#TransitionBasedParser)
 * [Queries](https://git.iqser.com/projects/INST/repos/instantli-base/browse/src/Instantli.Base/Search/Queries)
@@ -392,7 +296,7 @@ FIXME# Weiterbildung
 * [xavierdupre.fr/app/mlprodict/helpsphinx/index.html](http://www.xavierdupre.fr/app/mlprodict/helpsphinx/index.html)
 * Text Understanding and Summarization        * [duckduckgo.com/?q=triplet%20lstm%20for%20text%20embedding&ko=-1&iax=images&ia=images](https://duckduckgo.com/?q=triplet%20lstm%20for%20text%20embedding&ko=-1&iax=images&ia=images)
 * [stats.stackexchange.com/questions/561872/triplet-loss-for-text-embedding-and-text-similarity](https://stats.stackexchange.com/questions/561872/triplet-loss-for-text-embedding-and-text-similarity)
-    triplet LSTM [researchgate.net/figure/Triplet-LSTM-architecture-of-our-DNN-projects-users-activities-to-a-high-dimensional_fig1_341228737](https://www.researchgate.net/figure/Triplet-LSTM-architecture-of-our-DNN-projects-users-activities-to-a-high-dimensional_fig1_341228737)
+* triplet LSTM [researchgate.net/figure/Triplet-LSTM-architecture-of-our-DNN-projects-users-activities-to-a-high-dimensional_fig1_341228737](https://www.researchgate.net/figure/Triplet-LSTM-architecture-of-our-DNN-projects-users-activities-to-a-high-dimensional_fig1_341228737)
 * [stats.stackexchange.com/questions/561872/triplet-loss-for-text-embedding-and-text-similarity](https://stats.stackexchange.com/questions/561872/triplet-loss-for-text-embedding-and-text-similarity)
 * [State of the Art Summarisation Techniques](https://humboldt-wi.github.io/blog/research/information_systems_1920/nlp_text_summarization_techniques/)
 * [ieeexplore.ieee.org/document/9328413](https://ieeexplore.ieee.org/document/9328413)
@@ -426,28 +330,29 @@ FIXME# Weiterbildung
 * [Confluence Wiki Markup | Confluence Data Center and Server 8.0 | Atlassian Documentation](https://confluence.atlassian.com/doc/confluence-wiki-markup-251003035.html)
 * [HTML Macro | Confluence Data Center and Server 8.0 | Atlassian Documentation](https://confluence.atlassian.com/doc/html-macro-38273085.html)
 * [Import HTML files into confluence](https://community.atlassian.com/t5/Confluence-questions/Import-HTML-files-into-confluence/qaq-p/804375)
-    python scalene
-    old working nvidia: 510.108.03, Cuda 11.6        * [hub.docker.com/layers/tensorflow/tensorflow/latest-gpu/images/sha256-ce32fe3c53f94938de1513b3fe5fa25aa655a2f4c4bced42cf598fb8ce911219?context=explore](https://hub.docker.com/layers/tensorflow/tensorflow/latest-gpu/images/sha256-ce32fe3c53f94938de1513b3fe5fa25aa655a2f4c4bced42cf598fb8ce911219?context=explore)
+* python scalene
+* old working nvidia: 510.108.03, Cuda 11.6
+* [hub.docker.com/layers/tensorflow/tensorflow/latest-gpu/images/sha256-ce32fe3c53f94938de1513b3fe5fa25aa655a2f4c4bced42cf598fb8ce911219?context=explore](https://hub.docker.com/layers/tensorflow/tensorflow/latest-gpu/images/sha256-ce32fe3c53f94938de1513b3fe5fa25aa655a2f4c4bced42cf598fb8ce911219?context=explore)
 * {    zenML       } [plasma-umass/scalene](https://github.com/plasma-umass/scalene)
-    how does Google do spelling correction?
-    Verlauf (letzte k) als Query / Kontext
-    What effect does the exact paragraph size / tokenization procedure have?
-    regelmaessig Grooming machen
-    Mission Brief fur alle aktuelle Themen verfassen
-    immer mit einer Loesung kommen
-    debug tf warnings
-    make wiki for shared NLP model knowledge
-    install sdkman and make error warnings go away from bamboo-specs        * [11:39 AM] Francisco SchulzIsaac kannst du bei knecon-py-utils Version Tags setzten, wenn du deine Features implementierst?Das geht easy mit poetry version patch, dann dreht es ein Increment hoch.Wenn deine Changes fertig sind, kannst du mit git tag -a $(poetry version -s) && git push -u origin $(poetry version -s) den tag setzen[11:39 AM] Francisco SchulzSollte einen Tag geben für jede Feature Branch, die in Master gemerged wird.[11:40 AM] Francisco SchulzSonst müssen wir immer von Master installieren und das birgt das Risiko von breaking changes        * [huggingface.co/docs/transformers/tokenizer_summary](https://huggingface.co/docs/transformers/tokenizer_summary)
-    fastai sub-word embeddings get nearest neighbors -> spelling corrections
-    Heise-Ausgabe zu ChatGPT lesen
-    update wiki for nvidia & cuda stuff
-    ask Ehssan about memory requirements
-    what to fixtures do?
-    worl: text summarization: focus on extractive, keep validation (Prolog? graph-based?) of abstractive methods on the back burner        * [onnx/models](https://github.com/onnx/models)
-    fix warnings on TF/PyTorch GPU
-    install PyTorch and GPU with Poetry
-    install Nvidia / Cuda / CuDNN files in Docker container        * [Trained Models & Pipelines · spaCy Models Documentation](https://spacy.io/models)
-    1) Tf-idf for all non-stopwords2) semrel / dependency parsing on original text3) lemmatization, partial n-grams step for rare words and frequent n-grams (oxy, etc)4) topic models built on top of semantic relation information
+* how does Google do spelling correction?
+* Verlauf (letzte k) als Query / Kontext
+* What effect does the exact paragraph size / tokenization procedure have?
+* regelmaessig Grooming machen
+* Mission Brief fur alle aktuelle Themen verfassen
+* immer mit einer Loesung kommen
+* debug tf warnings
+* make wiki for shared NLP model knowledge
+* install sdkman and make error warnings go away from bamboo-specs        * [11:39 AM] Francisco SchulzIsaac kannst du bei knecon-py-utils Version Tags setzten, wenn du deine Features implementierst?Das geht easy mit poetry version patch, dann dreht es ein Increment hoch.Wenn deine Changes fertig sind, kannst du mit git tag -a $(poetry version -s) && git push -u origin $(poetry version -s) den tag setzen[11:39 AM] Francisco SchulzSollte einen Tag geben für jede Feature Branch, die in Master gemerged wird.[11:40 AM] Francisco SchulzSonst müssen wir immer von Master installieren und das birgt das Risiko von breaking changes        * [huggingface.co/docs/transformers/tokenizer_summary](https://huggingface.co/docs/transformers/tokenizer_summary)
+* fastai sub-word embeddings get nearest neighbors -> spelling corrections
+* Heise-Ausgabe zu ChatGPT lesen
+* update wiki for nvidia & cuda stuff
+* ask Ehssan about memory requirements
+* what to fixtures do?
+* worl: text summarization: focus on extractive, keep validation (Prolog? graph-based?) of abstractive methods on the back burner        * [onnx/models](https://github.com/onnx/models)
+* fix warnings on TF/PyTorch GPU
+* install PyTorch and GPU with Poetry
+* install Nvidia / Cuda / CuDNN files in Docker container        * [Trained Models & Pipelines · spaCy Models Documentation](https://spacy.io/models)
+* 1) Tf-idf for all non-stopwords2) semrel / dependency parsing on original text3) lemmatization, partial n-grams step for rare words and frequent n-grams (oxy, etc)4) topic models built on top of semantic relation information
 * Face Detection        * [[RED-6050] Integration of face detection - IQSER Jira](https://jira.iqser.com/browse/RED-6050)
 * Work        * [src/ner/spacy/evaluation.py · bdr-annotation · Knecon / Research / ner-annotation · GitLab](https://gitlab.knecon.com/knecon/research/ner-annotation/-/blob/bdr-annotation/src/ner/spacy/evaluation.py)
 * [EudyContreras/Chronox.NetCore](https://github.com/EudyContreras/Chronox.NetCore)
@@ -500,28 +405,21 @@ FIXME# Weiterbildung
 * [raghavan/PdfGptIndexer: An efficient tool for indexing and searching PDF text data using OpenAI's GPT-2 model and FAISS (Facebook AI Similarity Search) index, designed for rapid information retrieval and superior search accuracy.](https://github.com/raghavan/PdfGptIndexer)
 * [ebnf.pdf](https://www.ics.uci.edu/~pattis/ICS-33/lectures/ebnf.pdf)
 * [[1910.01108] DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://arxiv.org/abs/1910.01108)
-* sort
-    add hash partition functionality to kn_utils?
-    Danar Java PDFs und CV PDFs schicken
-    discuss table caption parsing with Matthias and Julius
-    learn abstract methods (for hashing partitioning)
-    perceptual hash
-    md5 sum
-    rewrite data generation module in haskell (grammarator)
-    deduplication via embeddings for case where there is a tiny difference in files and the hash is thus different
-    read Kubernetes docs
-    learn Pytorch conv1d vs conv2d
-    Make MVP Go container for RabbitMQ
-* Knecon Roadmap Discussion
-    ## Documine
-    → components vs entities
-    Meier-Meyer problem:
-    → use soundex for recall, jaro-winkler to filter for precision
-    Iterative prompting - using LLM to help refine the prompt
-    Rule degrees, by probability of correctness / reliability
-    View rules as a graph → clustering → recombination and discovery → have we done this?
-    fforesight: base technology, should soon integrate all other services
-    indexes of laws and court decisions → large, queriable database
+
+#-> SORT
+* add hash partition functionality to kn_utils?
+* Danar Java PDFs und CV PDFs schicken
+* discuss table caption parsing with Matthias and Julius
+* learn abstract methods (for hashing partitioning)
+* perceptual hash
+* md5 sum
+* rewrite data generation module in haskell (grammarator)
+* deduplication via embeddings for case where there is a tiny difference in files and the hash is thus different
+* read Kubernetes docs
+* learn Pytorch conv1d vs conv2d
+* Make MVP Go container for RabbitMQ
+
+* Knecon Roadmap Discussion: ## Documine |  → components vs entities | Meier-Meyer problem: | → use soundex for recall, jaro-winkler to filter for precision | Iterative prompting - using LLM to help refine the prompt | Rule degrees, by probability of correctness / reliability | View rules as a graph → clustering → recombination and discovery → have we done this? | fforesight: base technology, should soon integrate all other services | indexes of laws and court decisions → large, queriable database
 * Check OS and software packaging guidelines for Knecon → ticket with write-up for Manuel to look at
 * [opentelemetry.io/docs/instrumentation/python/](https://opentelemetry.io/docs/instrumentation/python/)
 * [opentelemetry.io/docs/instrumentation/python/](https://opentelemetry.io/docs/instrumentation/python/)

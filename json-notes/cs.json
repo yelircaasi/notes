@@ -2,7 +2,7 @@
 * interesting OSes: Theseus, Redox, Fuchsia, Minix, Genode, Tock, Medley Interlisp, Mezzano(on old laptop?), Interim OS (also a language), Chrysalisp, Urbit OS, House OS
 * parallax
 
-“Code is like humor. When you have to explain it, it's bad.” - Cory House
+* “Code is like humor. When you have to explain it, it's bad.” - Cory House
 * FOSS contributions: Rust NLP, Julia NLP, Rasa, C++ GUI, Torch NLP
 
 FIXME# Low-Level
@@ -1001,122 +1001,18 @@ FIXME## Distro
 * {distro} [parametrized packages for guix](https://guix.gnu.org/blog/2023/parameterized-packages-for-gnu-guix/)
 * {distro guix} [channel-x](https://github.com/daviwil/channel-x)
 
-FIXME## Drivers
-
-* Torch install
-
-```bash
-* Collecting torch
-  Obtaining dependency information for torch from [files.pythonhosted.org/packages/e1/24/f7fe3fe82583e6891cc3fceeb390f192f6c7f1d87e5a99a949ed33c96167/torch-2.1.0-cp38-cp38-manylinux1_x86_64.whl.metadata](https://files.pythonhosted.org/packages/e1/24/f7fe3fe82583e6891cc3fceeb390f192f6c7f1d87e5a99a949ed33c96167/torch-2.1.0-cp38-cp38-manylinux1_x86_64.whl.metadata)
-  Downloading torch-2.1.0-cp38-cp38-manylinux1_x86_64.whl.metadata (25 kB)
-* Collecting torchvision
-  Obtaining dependency information for torchvision from [files.pythonhosted.org/packages/c9/52/d3f1c4253ad17e4ab08a2230fb184a3a180e2348db6c144c64977335b654/torchvision-0.16.0-cp38-cp38-manylinux1_x86_64.whl.metadata](https://files.pythonhosted.org/packages/c9/52/d3f1c4253ad17e4ab08a2230fb184a3a180e2348db6c144c64977335b654/torchvision-0.16.0-cp38-cp38-manylinux1_x86_64.whl.metadata)
-  Downloading torchvision-0.16.0-cp38-cp38-manylinux1_x86_64.whl.metadata (6.6 kB)
-* Requirement already satisfied: filelock in /root/.pyenv/versions/3.8.16/lib/python3.8/site-packages (from torch) (3.12.2)
-* Requirement already satisfied: typing-extensions in /root/.pyenv/versions/3.8.16/lib/python3.8/site-packages (from torch) (4.8.0)
-* Collecting sympy (from torch)
-  Downloading sympy-1.12-py3-none-any.whl (5.7 MB)
- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.7/5.7 MB 12.0 MB/s eta 0:00:00
-* Collecting networkx (from torch)
-  Downloading networkx-3.1-py3-none-any.whl (2.1 MB)
- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 19.0 MB/s eta 0:00:00
-* Collecting jinja2 (from torch)
-  Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.1/133.1 kB 12.7 MB/s eta 0:00:00
-* Collecting fsspec (from torch)
-  Obtaining dependency information for fsspec from [files.pythonhosted.org/packages/e8/f6/3eccfb530aac90ad1301c582da228e4763f19e719ac8200752a4841b0b2d/fsspec-2023.10.0-py3-none-any.whl.metadata](https://files.pythonhosted.org/packages/e8/f6/3eccfb530aac90ad1301c582da228e4763f19e719ac8200752a4841b0b2d/fsspec-2023.10.0-py3-none-any.whl.metadata)
-  Downloading fsspec-2023.10.0-py3-none-any.whl.metadata (6.8 kB)
-* Collecting nvidia-cuda-nvrtc-cu12==12.1.105 (from torch)
-  Downloading nvidia_cuda_nvrtc_cu12-12.1.105-py3-none-manylinux1_x86_64.whl (23.7 MB)
- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.7/23.7 MB 24.2 MB/s eta 0:00:00
-* Collecting nvidia-cuda-runtime-cu12==12.1.105 (from torch)
-  Downloading nvidia_cuda_runtime_cu12-12.1.105-py3-none-manylinux1_x86_64.whl (823 kB)
- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 823.6/823.6 kB 22.8 MB/s eta 0:00:00
-* Collecting nvidia-cuda-cupti-cu12==12.1.105 (from torch)
-  Downloading nvidia_cuda_cupti_cu12-12.1.105-py3-none-manylinux1_x86_64.whl (14.1 MB)
- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.1/14.1 MB 29.5 MB/s eta 0:00:00
-* Collecting nvidia-cudnn-cu12==8.9.2.26 (from torch)
-  Obtaining dependency information for nvidia-cudnn-cu12==8.9.2.26 from [files.pythonhosted.org/packages/ff/74/a2e2be7fb83aaedec84f391f082cf765dfb635e7caa9b49065f73e4835d8/nvidia_cudnn_cu12-8.9.2.26-py3-none-manylinux1_x86_64.whl.metadata](https://files.pythonhosted.org/packages/ff/74/a2e2be7fb83aaedec84f391f082cf765dfb635e7caa9b49065f73e4835d8/nvidia_cudnn_cu12-8.9.2.26-py3-none-manylinux1_x86_64.whl.metadata)
-  Downloading nvidia_cudnn_cu12-8.9.2.26-py3-none-manylinux1_x86_64.whl.metadata (1.6 kB)
-* Collecting nvidia-cublas-cu12==12.1.3.1 (from torch)
-  Downloading nvidia_cublas_cu12-12.1.3.1-py3-none-manylinux1_x86_64.whl (410.6 MB)
- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 410.6/410.6 MB 5.4 MB/s eta 0:00:00
-* Collecting nvidia-cufft-cu12==11.0.2.54 (from torch)
-  Downloading nvidia_cufft_cu12-11.0.2.54-py3-none-manylinux1_x86_64.whl (121.6 MB)
- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121.6/121.6 MB 16.4 MB/s eta 0:00:00
-* Collecting nvidia-curand-cu12==10.3.2.106 (from torch)
-  Downloading nvidia_curand_cu12-10.3.2.106-py3-none-manylinux1_x86_64.whl (56.5 MB)
- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.5/56.5 MB 23.2 MB/s eta 0:00:00
-* Collecting nvidia-cusolver-cu12==11.4.5.107 (from torch)
-  Downloading nvidia_cusolver_cu12-11.4.5.107-py3-none-manylinux1_x86_64.whl (124.2 MB)
- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 124.2/124.2 MB 16.6 MB/s eta 0:00:00
-* Collecting nvidia-cusparse-cu12==12.1.0.106 (from torch)
-  Downloading nvidia_cusparse_cu12-12.1.0.106-py3-none-manylinux1_x86_64.whl (196.0 MB)
- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 196.0/196.0 MB 11.6 MB/s eta 0:00:00
-* Collecting nvidia-nccl-cu12==2.18.1 (from torch)
-  Downloading nvidia_nccl_cu12-2.18.1-py3-none-manylinux1_x86_64.whl (209.8 MB)
- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 209.8/209.8 MB 11.1 MB/s eta 0:00:00
-* Collecting nvidia-nvtx-cu12==12.1.105 (from torch)
-  Downloading nvidia_nvtx_cu12-12.1.105-py3-none-manylinux1_x86_64.whl (99 kB)
- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 99.1/99.1 kB 9.4 MB/s eta 0:00:00
-* Collecting triton==2.1.0 (from torch)
-  Obtaining dependency information for triton==2.1.0 from [files.pythonhosted.org/packages/72/98/34f43ed68ee6455ea874f749a5515c0600243186301ecd83819d942ce08a/triton-2.1.0-0-cp38-cp38-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata](https://files.pythonhosted.org/packages/72/98/34f43ed68ee6455ea874f749a5515c0600243186301ecd83819d942ce08a/triton-2.1.0-0-cp38-cp38-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata)
-  Downloading triton-2.1.0-0-cp38-cp38-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.3 kB)
-* Collecting nvidia-nvjitlink-cu12 (from nvidia-cusolver-cu12==11.4.5.107->torch)
-  Obtaining dependency information for nvidia-nvjitlink-cu12 from [files.pythonhosted.org/packages/45/de/885b6d3e1fa07bf19124076b348d3cf30f68051f813cba99e103f53d2f75/nvidia_nvjitlink_cu12-12.3.52-py3-none-manylinux1_x86_64.whl.metadata](https://files.pythonhosted.org/packages/45/de/885b6d3e1fa07bf19124076b348d3cf30f68051f813cba99e103f53d2f75/nvidia_nvjitlink_cu12-12.3.52-py3-none-manylinux1_x86_64.whl.metadata)
-  Downloading nvidia_nvjitlink_cu12-12.3.52-py3-none-manylinux1_x86_64.whl.metadata (1.5 kB)
-* Collecting numpy (from torchvision)
-  Obtaining dependency information for numpy from [files.pythonhosted.org/packages/98/5d/5738903efe0ecb73e51eb44feafba32bdba2081263d40c5043568ff60faf/numpy-1.24.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata](https://files.pythonhosted.org/packages/98/5d/5738903efe0ecb73e51eb44feafba32bdba2081263d40c5043568ff60faf/numpy-1.24.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata)
-  Downloading numpy-1.24.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.6 kB)
-* Requirement already satisfied: requests in /root/.pyenv/versions/3.8.16/lib/python3.8/site-packages (from torchvision) (2.31.0)
-* Collecting pillow!=8.3.*,>=5.3.0 (from torchvision)
-  Obtaining dependency information for pillow!=8.3.*,>=5.3.0 from [files.pythonhosted.org/packages/1e/74/638f982ab43fb3b19c8a151b1a0065cafefe436f8590c1c57d5fdf2475f1/Pillow-10.1.0-cp38-cp38-manylinux_2_28_x86_64.whl.metadata](https://files.pythonhosted.org/packages/1e/74/638f982ab43fb3b19c8a151b1a0065cafefe436f8590c1c57d5fdf2475f1/Pillow-10.1.0-cp38-cp38-manylinux_2_28_x86_64.whl.metadata)
-  Downloading Pillow-10.1.0-cp38-cp38-manylinux_2_28_x86_64.whl.metadata (9.5 kB)
-* Collecting MarkupSafe>=2.0 (from jinja2->torch)
-  Obtaining dependency information for MarkupSafe>=2.0 from [files.pythonhosted.org/packages/de/e2/32c14301bb023986dff527a49325b6259cab4ebb4633f69de54af312fc45/MarkupSafe-2.1.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata](https://files.pythonhosted.org/packages/de/e2/32c14301bb023986dff527a49325b6259cab4ebb4633f69de54af312fc45/MarkupSafe-2.1.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata)
-  Downloading MarkupSafe-2.1.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.0 kB)
-* Requirement already satisfied: charset-normalizer<4,>=2 in /root/.pyenv/versions/3.8.16/lib/python3.8/site-packages (from requests->torchvision) (3.2.0)
-* Requirement already satisfied: idna<4,>=2.5 in /root/.pyenv/versions/3.8.16/lib/python3.8/site-packages (from requests->torchvision) (3.4)
-* Requirement already satisfied: urllib3<3,>=1.21.1 in /root/.pyenv/versions/3.8.16/lib/python3.8/site-packages (from requests->torchvision) (1.26.16)
-* Requirement already satisfied: certifi>=2017.4.17 in /root/.pyenv/versions/3.8.16/lib/python3.8/site-packages (from requests->torchvision) (2023.7.22)
-* Collecting mpmath>=0.19 (from sympy->torch)
-  Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 26.5 MB/s eta 0:00:00
-* Downloading torch-2.1.0-cp38-cp38-manylinux1_x86_64.whl (670.2 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 670.2/670.2 MB 4.3 MB/s eta 0:00:00
-* Downloading nvidia_cudnn_cu12-8.9.2.26-py3-none-manylinux1_x86_64.whl (731.7 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 731.7/731.7 MB 3.7 MB/s eta 0:00:00
-* Downloading triton-2.1.0-0-cp38-cp38-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (89.2 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 89.2/89.2 MB 18.2 MB/s eta 0:00:00
-* Downloading torchvision-0.16.0-cp38-cp38-manylinux1_x86_64.whl (6.9 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 32.7 MB/s eta 0:00:00
-* Downloading Pillow-10.1.0-cp38-cp38-manylinux_2_28_x86_64.whl (3.6 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 31.9 MB/s eta 0:00:00
-* Downloading fsspec-2023.10.0-py3-none-any.whl (166 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 166.4/166.4 kB 11.0 MB/s eta 0:00:00
-* Downloading numpy-1.24.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.3/17.3 MB 34.0 MB/s eta 0:00:00
-* Downloading MarkupSafe-2.1.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
-* Downloading nvidia_nvjitlink_cu12-12.3.52-py3-none-manylinux1_x86_64.whl (20.5 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.5/20.5 MB 31.4 MB/s eta 0:00:00
-* Installing collected packages: mpmath, triton, sympy, pillow, nvidia-nvtx-cu12, nvidia-nvjitlink-cu12, nvidia-nccl-cu12, nvidia-curand-cu12, nvidia-cufft-cu12, nvidia-cuda-runtime-cu12, nvidia-cuda-nvrtc-cu12, nvidia-cuda-cupti-cu12, nvidia-cublas-cu12, numpy, networkx, MarkupSafe, fsspec, nvidia-cusparse-cu12, nvidia-cudnn-cu12, jinja2, nvidia-cusolver-cu12, torch, torchvision
-* Successfully installed MarkupSafe-2.1.3 fsspec-2023.10.0 jinja2-3.1.2 mpmath-1.3.0 networkx-3.1 numpy-1.24.4 nvidia-cublas-cu12-12.1.3.1 nvidia-cuda-cupti-cu12-12.1.105 nvidia-cuda-nvrtc-cu12-12.1.105 nvidia-cuda-runtime-cu12-12.1.105 nvidia-cudnn-cu12-8.9.2.26 nvidia-cufft-cu12-11.0.2.54 nvidia-curand-cu12-10.3.2.106 nvidia-cusolver-cu12-11.4.5.107 nvidia-cusparse-cu12-12.1.0.106 nvidia-nccl-cu12-2.18.1 nvidia-nvjitlink-cu12-12.3.52 nvidia-nvtx-cu12-12.1.105 pillow-10.1.0 sympy-1.12 torch-2.1.0 torchvision-0.16.0 triton-2.1.0
-* WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: [pip.pypa.io/warnings/venv](https://pip.pypa.io/warnings/venv)
-
-```
-
 FIXME## SORT
 
 * [Welcome to linuxzoo](https://linuxzoo.net/)
 
-$$$ POSIX standard [pubs.opengroup.org/onlinepubs/9699919799/](https://pubs.opengroup.org/onlinepubs/9699919799/)
+* $$$ POSIX standard [pubs.opengroup.org/onlinepubs/9699919799/](https://pubs.opengroup.org/onlinepubs/9699919799/)
 * ( ) [blfs](https://www.linuxfromscratch.org/blfs/read.html)
 
 FIXME# Gen Prog Reading List Sorted
 
 FIXME## Misc
 
-    > see "Challenge & Projects" section of "Learning" tab
+* > see "Challenge & Projects" section of "Learning" tab
 * [leachim6/hello-world](https://github.com/leachim6/hello-world)
 * [rosetta.alhur.es/](https://rosetta.alhur.es/)
 * [Віртуальна Академія](https://youtube.com/c/VirtuAka)
@@ -1150,7 +1046,7 @@ FIXME## Privacy and Cryptography
 * [kssytsrk/nx-freestance-handler: nx-freestance-handler, a redirector from the mainstream sites (Youtube, Twittter, Instagram, Reddit) to their privacy-supporting mirrors](https://github.com/kssytsrk/nx-freestance-handler)
 * [20 most secure email providers to use in 2023 - PrivacySavvy](https://privacysavvy.com/email/best/secure-email-providers/)
 * [10 Best Private and Secure Email Services for 2023](https://restoreprivacy.com/email/secure/)
-    11 Best Free (& Private) Email Accounts & Service Providers of 2023 Best Secure Email Services For Privacy Concerned People
+* 11 Best Free (& Private) Email Accounts & Service Providers of 2023 Best Secure Email Services For Privacy Concerned People
 * [Email Services - Privacy Guides](https://www.privacyguides.org/en/email/)
 * [These 4 Gmail alternatives put your privacy first](https://www.fastcompany.com/90392612/these-4-gmail-alternatives-put-your-privacy-first)
 * [6 things to know about OpenAI's Mira Murati, the most interesting pers](https://www.fastcompany.com/90855799/6-things-to-know-about-openais-mira-murati-the-most-interesting-person-in-tech-right-now)
@@ -1158,7 +1054,7 @@ FIXME## Privacy and Cryptography
 * [What is PeerTube? | JoinPeerTube](https://joinpeertube.org/?ref=blog.cloudron.io)
 * [Ditch VSCode Spyware For VSCodium](https://youtu.be/iq6hbY_fzYg)
 * [joinpeertube.org/](https://joinpeertube.org/)
-    Gnoppix
+* Gnoppix
 * {    AdBlocker Ultimate   } [RSA (cryptosystem) - Wikipedia](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
 * [Rabin fingerprint - Wikipedia](https://en.wikipedia.org/wiki/Rabin_fingerprint)
 
@@ -1212,13 +1108,13 @@ FIXME## Practice
 
 FIXME## Graphics
 
-    Fundamentals of Computer Graphics
-    Computer Graphics : From Pixels to Programmable Graphics Hardware
-    Vector Analysis for Computer Graphics
-    Image Objects: An Archaeology of Computer Graphics
-    Introduction to Flat Panel Displays
+* Fundamentals of Computer Graphics
+* Computer Graphics : From Pixels to Programmable Graphics Hardware
+* Vector Analysis for Computer Graphics
+* Image Objects: An Archaeology of Computer Graphics
+* Introduction to Flat Panel Displays
 * [video](https://www.youtube.com/results?search_query=monitor+calibration)
-    Optimizing the Display and Interpretation of Data
+* Optimizing the Display and Interpretation of Data
 * handbook of Visual Display Technology
 
 FIXME## Media
@@ -1237,7 +1133,7 @@ FIXME## Media
 
 FIXME## Boot
 
-    Изучаем BIOS
+* Изучаем BIOS
 * [Hands-on Booting: Learn the Boot Process of Linux, Windows, and Unix](http://library.lol/main/92909EA7B3B12F3D742F5D1D7EA8FA6E)
 * [Секреты BIOS](http://library.lol/main/B51F2CA8EA16EAFE1CEB8A88CC29B1E2)
 * [Quick Boot: A Guide for Embedded Firmware Developers](http://library.lol/main/3B79E790F58D7E791281477FC7DDF515)
@@ -1391,8 +1287,8 @@ FIXME## History
 
 FIXME## Regex
 
-FIXME### * RegEx and the limits of Reg Langs
-
+FIXME### 
+* RegEx and the limits of Reg Langs
 * [python - reference length of regular expression group - Stack Overflow](https://stackoverflow.com/questions/42423601/reference-length-of-regular-expression-group)
 * [Regular expression - Wikipedia](https://en.wikipedia.org/wiki/Regular_expression)
 * [Limitations of Regular Expressions](http://www.yaldex.com/javascript_tutorial_2/LiB0059.html)
@@ -1645,13 +1541,13 @@ FIXME## Algorithms
 * [Needleman–Wunsch algorithm - Wikipedia](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm)
 * [String Algorithms](https://web.stanford.edu/class/cs97si/10-string-algorithms.pdf)
 * [Клейнберг Дж., Тардос Е. - Алгоритмы. Разработка и применение. (Классика Computer Science) - 2016.pdf](https://vk.com/doc44301783_453645372?hash=a35fecb6be75089f03&dl=f52f78cc6b807a2497)
-    Основы современных алгоритмов Макконнелл Дж (McConnell J.J.)
+* Основы современных алгоритмов Макконнелл Дж (McConnell J.J.)
 * [algorist.com/](http://www.algorist.com/)
 * [The Fast Fourier Transform (FFT): Most Ingenious Algorithm Ever? - YouTube](https://www.youtube.com/watch?v=h7apO7q16V0)
-    1. Алгоритмы и структуры данных. Введение | Технострим
+* 1. Алгоритмы и структуры данных. Введение | Технострим
 * [...](https://www.youtube.com/watch?v=qTRW7ELhhME&list=WL&index=1372)
 * [algor](https://vk.com/wall-16108331_143570)
-    Algorithm Design Manual
+* Algorithm Design Manual
 * [Algorithmen DE](https://visualgo.net/de)
 * [Algorithmic Game Theory](https://b-ok.cc/book/1175211/2a7be7)
 * [Algorithmique : Techniques fondamentales de programmation | Sébastien Rohaut | download](https://b-ok.cc/book/1236005/463716)
@@ -1677,11 +1573,11 @@ FIXME## Algorithms
 * [lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms2+SelfPaced/about](https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms2+SelfPaced/about)
 * [zhubert.com/blog/2012/11/21/the-algorithm-design-manual/](https://www.zhubert.com/blog/2012/11/21/the-algorithm-design-manual/)
 * [igraph – Network analysis software](https://igraph.org/)
-    Introduction to Algorithms ./    * [Los Algoritmos Tras la Primera Imagen de un Agujero Negro | Feat. QuantumFracture](https://www.youtube.com/watch?v=pTXCs3A6NEM&list=WL&index=568)
-    Neo4j
+* Introduction to Algorithms ./    * [Los Algoritmos Tras la Primera Imagen de un Agujero Negro | Feat. QuantumFracture](https://www.youtube.com/watch?v=pTXCs3A6NEM&list=WL&index=568)
+* Neo4j
 * [networkx.org](http://networkx.org/)
 * [Problems on algorithms | Ian Parberry | download](https://b-ok.cc/book/464115/9b5e62?dsource=recommend)
-    pykg2vec
+* pykg2vec
 * [Stepik - Математическая логика и теория алгоритмов](https://stepik.org/course/48679)
 * [subsequence matching algorithms - Поиск в Google](https://www.google.com/search?q=subsequence+matching+algorithms&rlz=1C5CHFA_enUS800US800&oq=subsequence+matching+algorithms&aqs=chrome..69i57j0l2.4970j0j9&sourceid=chrome&ie=UTF-8)
 * [The Algorithm Design Manual](http://www.algorist.com/)
@@ -1690,7 +1586,7 @@ FIXME## Algorithms
 * [Алгоритмические применения древесных декомпозиций | Федор Фомин](https://www.youtube.com/watch?v=F1Wml6ayRpY&list=PL-_cKNuVAYAVc-vBx2fQnjy7F18vzi9NK)
 * [Алгоритмы для NP-трудных задач](https://www.youtube.com/watch?v=P_YNGE4mbE8&list=PL-_cKNuVAYAUV2ChK_qb93NDXe7CDYv-P)
 * [Алгоритмы для NP-трудных задач (2013)](https://www.youtube.com/watch?v=QBS1N9LU4tI&list=PL-_cKNuVAYAWpKLONs_YYrEwH7KrSPn9u)
-    Алгоритмы и программы. Решение олимпиадных задач (Порублёв И., Ставровский А.)
+* Алгоритмы и программы. Решение олимпиадных задач (Порублёв И., Ставровский А.)
 * [Алгоритмы и структуры данных](https://vk.com/wall-16108331_148715)
 * [Алгоритмы и структуры данных](https://vk.com/wall-16108331_153900)
 * [Алгоритмы и структуры данных - JS](https://vk.com/wall-16108331_153624)
@@ -1698,36 +1594,36 @@ FIXME## Algorithms
 * [Алгоритмы и структуры данных 2 семестр](https://www.youtube.com/watch?v=cca8QY3tuCI&list=PL-_cKNuVAYAUhJ1CdU0wiEDQj58E51Zn-)
 * [Алгоритмы обработки потоковых данных](https://www.youtube.com/watch?v=hFTImjnvqbw&list=PL-_cKNuVAYAWQo0yasBn3kIcqJlgnjdTF)
 * [Алгоритмы, структуры данных и программирование на C++](https://vk.com/wall-16108331_148710)
-    Алгоритмы. Руководство по разработке, Стивен Скиена (2011)
+* Алгоритмы. Руководство по разработке, Стивен Скиена (2011)
 * [bookflow.ru/formalnaya-i-intuitivnaya-semantika-yazyka-programmirovaniya-na-primerah-js-i-jsx/](https://bookflow.ru/formalnaya-i-intuitivnaya-semantika-yazyka-programmirovaniya-na-primerah-js-i-jsx/)
 * [Automaten & Formale Sprachen - Alle Videos, besser sortiert auf www.thesimpleclub.de](https://www.youtube.com/watch?v=JAvIyh0rIV4&list=PLgZuSc7xewdfEJTZWhZ9qVVTg6acjVVda)
 * [Datenstrukturen - Alle Videos, besser sortiert auf www.thesimpleclub.de](https://www.youtube.com/watch?v=t43yaHT7aGw&list=PLgZuSc7xewdeOB9v1M7_GCnr-U7cHQ_Xj)
 * [Theoretische Informatik - Alle Videos besser sortiert auf www.thesimpleclub.de](https://www.youtube.com/watch?v=JAvIyh0rIV4&list=PLgZuSc7xewdddmRYu_n8YDEXbSvkXRq9u)
-    Алгоритмы. Справочник с примерами на C, C++, Java и Python
+* Алгоритмы. Справочник с примерами на C, C++, Java и Python
 * [Курс "Алгоритмы и структуры данных"](https://vk.com/wall-16108331_150221)
 * [Матроиды и параметризованные алгоритмы](https://www.youtube.com/watch?v=yGMi6ObL25o&list=PL-_cKNuVAYAX-r648qpgkXXJ3hyW6VskQ)
 * [video](https://www.youtube.com/watch?v=_J-3nt9bhbI&list=PLVWtXi_Jrj_14rUJDWFEvyhOmYF2JdHmk&index=32)
 * [Параметризованные алгоритмы](https://www.youtube.com/watch?v=LuhPRMn4SRQ&list=PL-_cKNuVAYAUTZWj2o-ZnPUM5yYrHYq51)
 * [Параметризованные алгоритмы](https://www.youtube.com/watch?v=xRqNxlrwXtg&list=PL-_cKNuVAYAUXg0Pv4xhL32qL5Igo7Lr-)
-    Учись писать, читать и понимать алгоритмы, Паронджанов Владимир (2012)
+* Учись писать, читать и понимать алгоритмы, Паронджанов Владимир (2012)
 * [How Dijkstra's Algorithm Works](https://youtu.be/EFg3u_E6eHU)
 * [1,606,240% FASTER algorithm - YouTube](https://www.youtube.com/watch?v=U16RnpV48KQ)
 * [The hidden beauty of the A* algorithm](https://youtu.be/A60q6dcoCjw)
 
 FIXME## Tasks/Challenges
 
-    E-olymp — один из крупнейших украинских сайтов для изучения информатики и подготовки к олимпиадам.
+* E-olymp — один из крупнейших украинских сайтов для изучения информатики и подготовки к олимпиадам.
 * hackerRank — это социальная платформа, которая предлагает задания разной сложности по программированию. Запущена платформа была в 2012 году. Сейчас аудитория проекта насчитывает около полутора миллиона пользователей. Статистику по результатам решений заданий своими пользователями ресурс регулярно публикует в виде рейтинга по 50 странам.
-    Coderbyte — предлагает 200+ соревновательных задач, которые вы можете решать в онлайн-редакторе, используя 10 различных языков программирования. Вы сможете ознакомиться с официальными решениями для некоторых задач, а также найти более 800 тысяч пользовательских решений. Coderbyte рекомендован командами многих известных образовательных курсов по программированию благодаря коллекции задач, полезных для подготовки к собеседованию.
-    Codewars — предоставляет разработчиками большую коллекцию интересных задач, созданных сообществом платформы. Вы можете выполнять задания непосредственно в online-редакторе, используя один из 20 языков программирования. Зарабатывайте очки и поднимайтесь в рейтинге. Вы можете просмотреть обсуждение как для каждой задачи, так и для пользовательский решений.
-    CodeFights — платформа, состоящая из коллекции задач, которые можно решать в онлайн-редакторе, и форума пользователей для обсуждения возникающих проблем. Отличительной особенностью является функция «Company Bots». Это возможность конкурировать с «ботами», которые были запрограммированы инженерами крупных технологических компаний. Вы когда-нибудь задумывались, насколько ваши навыки программирования соответствуют стандартам инженеров из Uber, Dropbox, Quora и других высокотехнологичных компаний? Посоревнуйтесь с этими ботами и узнайте.
-    Где решать задачи по программированию - Часть 2
-    CodinGame — Этот сайт отличается от перечисленных выше тем, что вместо обычного решения, на CodinGame вы пишете код непосредственно для того, чтобы сыграть в онлайн-игру. Это увлекательно и некоторые из игр очень забавны (см. пример). Игровая графика хороша, а пользовательский интерфейс редактора/игры очень плавный. В целом, это отличный веб-сайт для новичков, изучающих программирование.
-    TopCoder — одна из первых платформ для соревнований по онлайн-программированию. Популярные Single Round Matches происходят несколько раз в месяц в определенное время. Это возможность посоревноваться с другими разработчиками. Вот несколько тем, которые могут быть затронуты. Помимо решения головоломок для развлечения, предлагаются и соревнования, в которых вы можете выиграть призы от спонсоров (реальных компаний) за лучшее решение.
-    LeetCode — В LeetCode собрана одна из лучших коллекций задач на применение алгоритмов. Темы, которые охватывают задания, требуют знания структур данных (binary trees, heaps, linked lists, etc.) Задачи более сложные, чем на других сайтах, но они окажутся очень полезными, если использовать их при подготовке к собеседованию. Раздел "Mock Interview" (Пробное интервью) специально предназначен для подготовки к собеседованию. Также проводятся соревнования по программированию, и есть раздел статей, который поможет вам лучше понять определенные задания.
-    CodeChef — это некоммерческая образовательная инициатива индийской софтверной компании. Это глобальное сообщество программистов, объединенное целью обучения и дружеской конкуренции в рамках платформы для соревновательного программирования. Каждый месяц CodeChef проводит три конкурса и раздает призы победителям в качестве поощрения.
-    GeeksforGeeks — имеет лучшую коллекцию статей, объяснений и решений по теме алгоритмов и структурам данных. По ссылке вы можете увидеть пример того, как сложный вопрос разбивается на более простые части, объяснение и код решения. Если вы готовитесь к собеседованию, советуем вам использовать этот сайт, чтобы подготовиться и освежить сложные темы в изучении алгоритмов.
-    Codeforces — российская платформа для соревнований по программированию, на которой регулярно проводятся турниры, в которых участвуют одни из лучших программистов в мире. Если вы начинающий кодер, задания, скорее всего, будут слишком сложны для вас — вот пример из недавнего соревнования. Для решения этих задач обычно требуются передовые знания в области математики и алгоритмов. Цель Codeforces — предложить разработчикам удобную платформу для создания, проведения и обсуждения соревнований по программированию.
+* Coderbyte — предлагает 200+ соревновательных задач, которые вы можете решать в онлайн-редакторе, используя 10 различных языков программирования. Вы сможете ознакомиться с официальными решениями для некоторых задач, а также найти более 800 тысяч пользовательских решений. Coderbyte рекомендован командами многих известных образовательных курсов по программированию благодаря коллекции задач, полезных для подготовки к собеседованию.
+* Codewars — предоставляет разработчиками большую коллекцию интересных задач, созданных сообществом платформы. Вы можете выполнять задания непосредственно в online-редакторе, используя один из 20 языков программирования. Зарабатывайте очки и поднимайтесь в рейтинге. Вы можете просмотреть обсуждение как для каждой задачи, так и для пользовательский решений.
+* CodeFights — платформа, состоящая из коллекции задач, которые можно решать в онлайн-редакторе, и форума пользователей для обсуждения возникающих проблем. Отличительной особенностью является функция «Company Bots». Это возможность конкурировать с «ботами», которые были запрограммированы инженерами крупных технологических компаний. Вы когда-нибудь задумывались, насколько ваши навыки программирования соответствуют стандартам инженеров из Uber, Dropbox, Quora и других высокотехнологичных компаний? Посоревнуйтесь с этими ботами и узнайте.
+* Где решать задачи по программированию - Часть 2
+* CodinGame — Этот сайт отличается от перечисленных выше тем, что вместо обычного решения, на CodinGame вы пишете код непосредственно для того, чтобы сыграть в онлайн-игру. Это увлекательно и некоторые из игр очень забавны (см. пример). Игровая графика хороша, а пользовательский интерфейс редактора/игры очень плавный. В целом, это отличный веб-сайт для новичков, изучающих программирование.
+* TopCoder — одна из первых платформ для соревнований по онлайн-программированию. Популярные Single Round Matches происходят несколько раз в месяц в определенное время. Это возможность посоревноваться с другими разработчиками. Вот несколько тем, которые могут быть затронуты. Помимо решения головоломок для развлечения, предлагаются и соревнования, в которых вы можете выиграть призы от спонсоров (реальных компаний) за лучшее решение.
+* LeetCode — В LeetCode собрана одна из лучших коллекций задач на применение алгоритмов. Темы, которые охватывают задания, требуют знания структур данных (binary trees, heaps, linked lists, etc.) Задачи более сложные, чем на других сайтах, но они окажутся очень полезными, если использовать их при подготовке к собеседованию. Раздел "Mock Interview" (Пробное интервью) специально предназначен для подготовки к собеседованию. Также проводятся соревнования по программированию, и есть раздел статей, который поможет вам лучше понять определенные задания.
+* CodeChef — это некоммерческая образовательная инициатива индийской софтверной компании. Это глобальное сообщество программистов, объединенное целью обучения и дружеской конкуренции в рамках платформы для соревновательного программирования. Каждый месяц CodeChef проводит три конкурса и раздает призы победителям в качестве поощрения.
+* GeeksforGeeks — имеет лучшую коллекцию статей, объяснений и решений по теме алгоритмов и структурам данных. По ссылке вы можете увидеть пример того, как сложный вопрос разбивается на более простые части, объяснение и код решения. Если вы готовитесь к собеседованию, советуем вам использовать этот сайт, чтобы подготовиться и освежить сложные темы в изучении алгоритмов.
+* Codeforces — российская платформа для соревнований по программированию, на которой регулярно проводятся турниры, в которых участвуют одни из лучших программистов в мире. Если вы начинающий кодер, задания, скорее всего, будут слишком сложны для вас — вот пример из недавнего соревнования. Для решения этих задач обычно требуются передовые знания в области математики и алгоритмов. Цель Codeforces — предложить разработчикам удобную платформу для создания, проведения и обсуждения соревнований по программированию.
 * [ Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code)
 * [> By language](http://rosettacode.org/wiki/Category:Programming_Languages)
 * [> By task](http://rosettacode.org/wiki/Category:Programming_Tasks)
@@ -1923,9 +1819,9 @@ FIXME## Gen * & CS
 * [64-Bit Assembler Programmierung unter Linux](https://www.thalia.de/shop/home/artikeldetails/A1058736107)
 * [Linux. Der kompakte Grundkurs. So lernen Sie das Linux-System grundlegend kennen](https://www.thalia.de/shop/home/artikeldetails/A1060319206)
 * [heise.de/ratgeber/Programmieren-In-Assembler-hacken-wie-vor-40-Jahren-8928090.html](https://www.heise.de/ratgeber/Programmieren-In-Assembler-hacken-wie-vor-40-Jahren-8928090.html)
-Storytelling im UX-Design
+* Storytelling im UX-Design
 * handbuch moderner Softwarearchitektur
-Prinzipien des Softwaredesigns
+* Prinzipien des Softwaredesigns
 * [coderslegacy.com/comparison-of-sorting-algorithms/](https://coderslegacy.com/comparison-of-sorting-algorithms/)
 * [vadimkravcenko.com/shorts/managing-bad-engineers/](https://vadimkravcenko.com/shorts/managing-bad-engineers/)
 * [dealing with strong opinions in software development - YouTube](https://www.youtube.com/results?search_query=dealing+with+strong+opinions+in+software+development)
@@ -2332,7 +2228,7 @@ FIXME## SORT
 * [system76.com/laptops](https://system76.com/laptops)
 * [system76.com/laptops/galp5/configure*](https://system76.com/laptops/galp5/configure*) [zdnet.com/pictures/10-super-sweet-laptops-that-come-with-linux-pre-installed/6/*](https://www.zdnet.com/pictures/10-super-sweet-laptops-that-come-with-linux-pre-installed/6/*) [zdnet.com/pictures/10-super-sweet-laptops-that-come-with-linux-pre-installed/7/](https://www.zdnet.com/pictures/10-super-sweet-laptops-that-come-with-linux-pre-installed/7/)
 * ZaReason UltraLap 6440
-ZaReason Verix-9100
+* ZaReason Verix-9100
 * [news.lenovo.com/pressroom/press-releases/lenovo-launches-linux-ready-thinkpad-and-thinkstation-pcs-preinstalled-with-ubuntu/#:~:text=Lenovo%20Launches%20Linux%2DReady%20ThinkPad%20and%20ThinkStation%20PCs%20Preinstalled%20with%20Ubuntu,-23%20September%202020&text=September%2023%2C%202020%20%E2%80%93%20Today%2C,Ubuntu%C2%AE%20LTS%20operating%20system.](https://news.lenovo.com/pressroom/press-releases/lenovo-launches-linux-ready-thinkpad-and-thinkstation-pcs-preinstalled-with-ubuntu/#:~:text=Lenovo%20Launches%20Linux%2DReady%20ThinkPad%20and%20ThinkStation%20PCs%20Preinstalled%20with%20Ubuntu,-23%20September%202020&text=September%2023%2C%202020%20%E2%80%93%20Today%2C,Ubuntu%C2%AE%20LTS%20operating%20system.)
 * [kofler.info/linux-notebook/*](https://kofler.info/linux-notebook/*) [support.lenovo.com/us/en/solutions/pd031426-linux-for-personal-systems](https://support.lenovo.com/us/en/solutions/pd031426-linux-for-personal-systems)
 * [google.com/search?q=best+pre-installed+linux+machine](https://www.google.com/search?q=best+pre-installed+linux+machine&rlz=1C5CHFA_enUS800US800&oq=best+&aqs=chrome.0.69i59l3j69i57j69i61j69i65l2j69i61.2605j0j4&sourceid=chrome&ie=UTF-8)
@@ -2397,7 +2293,7 @@ FIXME## Vim
 * [learnvimscriptthehardway.stevelosh.com](https://learnvimscriptthehardway.stevelosh.com/)
 * [r/vim/comments/1x3my7/vimtronner_is_a_multiplayer_realtime_commandline/](https://www.reddit.com/r/vim/comments/1x3my7/vimtronner_is_a_multiplayer_realtime_commandline/)
 * [r/vim/comments/a7wusl/vim_games/](https://www.reddit.com/r/vim/comments/a7wusl/vim_games/)
-Vimtutor in MacVim app
+* Vimtutor in MacVim app
 * [vim.fandom.com/wiki/Vim_Tips_Wiki](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
 * [codecombat.com/](https://codecombat.com/)
 * [vim-adventures.com/](https://vim-adventures.com/)
@@ -2456,7 +2352,7 @@ FIXME## Shell
 * [Bash Shell Scripting - Wikibooks, open books for an open world](https://en.wikibooks.org/wiki/Bash_Shell_Scripting)
 * [Systems Programming in Unix/Linux_K.C. Wang_1st ed. 2018](http://link.springer.com/openurl?genre=book&isbn=978-3-319-92429-8)
 * Shell Scripting (Robbins & Beebe)
-What can't you do with shell scripting?
+* What can't you do with shell scripting?
 * [Shell Scripting Tutorial](https://www.youtube.com/watch?v=hwrnmQumtPw&list=WL&index=442)
 * [Bash Quick Start Guide Get Up and Running with Shell Scripting with Bash | Tom Ryder | download](https://b-ok.cc/book/3608878/a2f513)
 * [bash Cookbook: Solutions and Examples for bash Users | Carl Albing, JP Vossen | download](https://b-ok.cc/book/3382904/7f1b79)
@@ -2553,9 +2449,7 @@ FIXME## Books
 * [Linux Kernel Crash Book Everything you need to know](http://libgen.is/book/index.php?md5=4235C4ACAAE3F9CEA960CA6FB25D0138)
 * [Concrete Architecture of the Linux Kernel](http://libgen.is/book/index.php?md5=4E15C97E21A8F49742CF467593AC4C6A)
 
-FIXME# Noteworthy Personal Sites
-
-... and other sites worth taking note of
+FIXME# Noteworthy Personal Sites ... and other sites worth taking note of
 
 FIXME## Collections - Well-Designed Sites
 
@@ -3026,21 +2920,6 @@ FIXME### Resources / References
 * [Translation and Relevance: Cognition and Context](https://books.google.de/books?id=KsoJBAAAQBAJ&pg=PT182&lpg=PT182&dq=semantic+representations+of+proverbs&source=bl&ots=t5NZeIOcFa&sig=ACfU3U2AU_YwJ0hEHNJenhNHJkVh4_404g&hl=ru&sa=X&ved=2ahUKEwicw__W26nnAhXB6aQKHWgQA_QQ6AEwBXoECAoQAQ#v=onepage&q=semantic%20representations%20of%20proverbs&f=false)
 * [COMPARATIVE STRUCTURAL-SEMANTIC ANALYSIS OF ENGLISH AND RUSSIAN PROVERBS EXPRESSING THE MORAL-ETHIC SENSE DOMINANT “STUDYING, KNOWLEDGE, WISDOM”](https://www.researchgate.net/publication/325662325_COMPARATIVE_STRUCTURAL-SEMANTIC_ANALYSIS_OF_ENGLISH_AND_RUSSIAN_PROVERBS_EXPRESSING_THE_MORAL-ETHIC_SENSE_DOMINANT_STUDYING_KNOWLEDGE_WISDOM)
 
-| Toy example: |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| EN | Concepts | Entities | Actions | DE | ES | RU | IT |
-| A bird in the hand is worth two in the bush. | satisfaction, realism | bird, hand, birds, bush | _ | Ein Spatz in der Hand ist besser als eine Taube auf dem Dach. | Más vale pájaro en mano que ciento volando. | Не сули журавля в небе, а дай синицу в руки. | Meglio un uovo oggi che una gallina domani |
-| A friend in need is a friend indeed. | friendship, need | friend | _ | Freunde in der Not gehen tausend auf ein Lot. | En la necesidad se reconoce a un verdadero amigo. | Друг познается в беде | (Gli amici si vedono|Un amico si vede) nel momento del bisogno. / Il buon amico in mal si riconosce |
-| Birds of a feather flock together. | similarity, company | birds, feather | to congregate/assemble | Gleich und gleich gesellt sich gern. | Dios los cría y ellos se juntan. | Рыбак рыбака видит издалека. | Chi si somiglia, si piglia. / Dio li fa e poi li accoppia. / Chi si rassembra, s'assembra. |
-| A rolling stone gathers no moss. | ... | ... | ... | Wer rastet, der rostet. | _ | Под лежачий камень вода не течёт. | Pietra mossa non fa muschio. / Chi va piano non va lontano. |
-| Absence makes the heart grow fonder. |  |  |  | Durch die Ferne wächst die Liebe. | _ | Дальше с глаз, ближе к сердцу. / Разлука для любви, что ветер для искры: маленькую затушит, а большую сделает ещё сильнее.* | _ |
-| Actions speak louder than words. |  |  |  | Taten sagen mehr als Worte. | Acciones valen más que las palabras. | Дела говорят громче слов. | Più delle parole pesano i fatti. |
-| All's well that ends well |  |  |  | Ende gut alles gut. | Bien está lo que bien acaba. | Все хорошо, что | Tutto è bene (quel|ciò) che finisce bene. |
-| Blood is thicker than water. |  |  |  | Blut ist dicker als Wasser. | La sangre tira (mucho). | Свой своему рад. / Как не порадеть родному человечку. | Il sangue non e'acqua. |
-| Business before pleasure. |  |  |  | Erst die Arbeit, dann das Vergnügen. | Los negocios van primero. (?) | _ | Prima il dovere (e poi il piacere). |
-| Carry coal to Newcastle |  |  |  | Eulen nach Athen tragen | Llevar agua al mar / Llevar hierro a Vizcaya / Llevar leña al bosque. / Vender miel al colmenero. | Ехать в Тулу со своим самоваром. / Идти в лес со своими дровами. | Portare acqua al mare. |
-| Don't count (your|the) chickens before they are hatched. |  |  |  | Du sollst den Tag nicht vor dem Abend loben. / Man soll das Fell eines Bären nicht verteilen, bevor man ihn erlegt hat. / Die Toten werden nach der Schlacht gezählt." | No hay que vender la piel del oso antes de cazarlo. | Цыплят по осени считают. / Не делите шкуру неубитого медведя. | Non dire gatto se non l'hai nel sacco |
-
 FIXME## SORT Papers
 
 * ACOUSTIC PARAMETERS VERSUS PHONETIC FEATURES IN ASR.pdf
@@ -3142,8 +3021,7 @@ FIXME### [**Persistent homology - Wikipedia](https://en.wikipedia.org/wiki/Persi
 * [AyasdiAI Interview Podcast](https://open.spotify.com/episode/56c8sKY68Hx7qZT0JcljQr?si=0lEjVAmWRBSA8mi94B-nVw)
 * [Ayasdi Knowledge Center](https://www.ayasdi.com/knowledge-center/)
 * [Topological Surfaces](https://www.cis.upenn.edu/~jean/gbooks/surftop.html)
-* search: topological data analysis in Julia
-  ... and Word Embeddings
+* search: topological data analysis in Julia... and Word Embeddings
 * [arxiv.org/abs/1906.09068](https://arxiv.org/abs/1906.09068)
 * [A Novel Method of Extracting Topological Features from Word Embeddings](https://arxiv.org/abs/2003.13074)
 * [arxiv.org/abs/1705.08488](https://arxiv.org/abs/1705.08488)
@@ -3318,17 +3196,7 @@ FIXME## -> day in the life of a ___ researcher (pharmaceutical, engineering)
 
 FIXME## Idea Space Modelling
 
-* Elevator Pitch:
-  * My work is distinct from previous work in a few ways:
-  * it uses high-quality inputs and political writings in addition to social media (hopefully making the model more grounded in the deep theoreticcal issues of politics, not just shallow perceptions)
-  * it does not assume a spectrum; rather it uses unsupervised learning to identify clusters and linkages between ideologies
-  * it allows for a robust measuring of ideological similarity that is as general as possible, allowing a wide range of comparisons, even potentially across time, language, and culture, because the method is built on attitudes toward nearly-universal ideas and concepts, rather than toward specific people and organizations
-  * it brings together several fairly technical NLP/IR/TM methods that have not been used for this before: topic extraction, emotion analysis, opinion mining
-  * it combines the above methods with other more common methods, such as clustering, lexical analysis (i.e. tf-idf)
-  * it can take advantage of a large and relatively underutilized body of text resources
-  * it has the scope for other advanced techniques: topology, measure theory, advanced matrix analysis & linear algebra, etc.
-  * it answers intrinsically important and interesting questions, questions of interest to a broad audience (in addition to finer points interesting to a computational linguist)
-  * while every algorithm necessarily has assumptions baked into it, this will make explicit assumptions in a way that human annotation would mke impossible
+* Elevator Pitch: My work is distinct from previous work in a few ways: ||| it uses high-quality inputs and political writings in addition to social media (hopefully making the model more grounded in the deep theoretical issues of politics, not just shallow perceptions) ||| it does not assume a spectrum; rather it uses unsupervised learning to identify clusters and linkages between ideologies ||| it allows for a robust measuring of ideological similarity that is as general as possible, allowing a wide range of comparisons, even potentially across time, language, and culture, because the method is built on attitudes toward nearly-universal ideas and concepts, rather than toward specific people and organizations ||| it brings together several fairly technical NLP/IR/TM methods that have not been used for this before: topic extraction, emotion analysis, opinion mining ||| it combines the above methods with other more common methods, such as clustering, lexical analysis (i.e. tf-idf) ||| it can take advantage of a large and relatively underutilized body of text resources ||| it has the scope for other advanced techniques: topology, measure theory, advanced matrix analysis & linear algebra, etc. ||| it answers intrinsically important and interesting questions, questions of interest to a broad audience (in addition to finer points interesting to a computational linguist) ||| while every algorithm necessarily has assumptions baked into it, this will make explicit assumptions in a way that human annotation would mke impossible
 * Interesting method to build on (but automate): Globalization and the transformation of the national political space: Six European countries compared
 
 FIXME### Forschungsfragen:
@@ -3393,37 +3261,20 @@ FIXME### -> how to aggregate varying results? simple average?
 
 FIXME### -> topological anaylsis to determine invariant relationships?
 
-* Read up onː
-  * opinion mining
-  * stance detection
-  * question answering
-  * knowledge discovery
-  * semantic relations
-  * dimensionality reduction
-  * TDA
-  * clustering
-  * visualization
+* Read up onːopinion mining
+* Read up onːstance detection
+* Read up onːquestion answering
+* Read up onːknowledge discovery
+* Read up onːsemantic relations
+* Read up onːdimensionality reduction
+* Read up onːTDA
+* Read up onːclustering
+* Read up onːvisualization
 
-FIXME### Ideologies
+FIXME### 
 
-* Confucianism
-  * Confucius
-* Conservatism / Reactionism
-  * Edmund Burke
-  * Georges Lemaistre
-  * Thomas Hobbes
-  * Roger Scruton
-  * George F. Will
-* Anarchism
-  * Mikhail Bakunin
-  * Kropotkin
-  * Proudhon
-* Left
-  * Michel Foucault
-  * Jean Baudrillard
-* Mixed / Other
-* Wiki
-  * how to create a wiki? (proverbs, ideology matrix, etc.)
+* Ideologies: ||| * Confucianism |||   * Confucius ||| * Conservatism / Reactionism |||   * Edmund Burke |||   * Georges Lemaistre |||   * Thomas Hobbes |||   * Roger Scruton |||   * George F. Will ||| * Anarchism |||   * Mikhail Bakunin |||   * Kropotkin |||   * Proudhon ||| * Left |||   * Michel Foucault |||   * Jean Baudrillard ||| * Mixed / Other
+* Wiki - how to create a wiki? (proverbs, ideology matrix, etc.)
 
 FIXME### -> how does Wikipedia work? editing policies, moderation, dispute resolution, etc.
 
@@ -3738,10 +3589,7 @@ FIXME### [*KD Project Info](https://ilias3.uni-stuttgart.de/data/Uni_Stuttgart/l
 * [Ideology, Power, and the Structure of Policy Networks](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1541-0072.2011.00413.x)
 * [Typing Together? Clustering of Ideological Types in Online Social Networks](https://www.tandfonline.com/doi/abs/10.1080/19331680903031531?journalCode=witp20)
 * [The Social Structure of Political Echo Chambers:﻿Variation in Ideological Homophily in OnlineNetwork](https://pacscenter.stanford.edu/wp-content/uploads/2019/05/2f07d4_8925c23e378940c49f91f91b95f85408.pdf)
-* Check out:
-  * Tinkerpop
-  * pykg2vec (sp?)
-  * Neo4j
+* Check out: Tinkerpop, pykg2vec (sp?), Neo4j
 
 FIXME### Project Outline
 
@@ -4943,8 +4791,7 @@ FIXME## 1S reading
 * [dzone.com/refcardz/designing-quality-software](https://dzone.com/refcardz/designing-quality-software)
 * [dzone.com/refcardz/refactoring-patterns](https://dzone.com/refcardz/refactoring-patterns)
 * [How Deno’s Founder Is Rebuilding the Runtime of the Web](https://programmerweekly.us2.list-manage.com/track/click?u=72f68dcee17c92724bc7822fb&id=885c7973ff&e=b5a8df9a4a) This article provides an overview of the Deno JavaScript/TypeScript  runtime and its features, highlighting its improved security, simplified  module system, and better developer experience compared to Node.js.
-* [Beautiful Branchless Binary Search](https://programmerweekly.us2.list-manage.com/track/click?u=72f68dcee17c92724bc7822fb&id=f825542ccb&e=b5a8df9a4a) This post explains how to implement a branchless binary search algorithm
- that is both faster and more power-efficient than traditional binary search algorithms. It provides a detailed  alkthrough of the implementation and offers benchmarks to showcase its effectiveness.
+* [Beautiful Branchless Binary Search](https://programmerweekly.us2.list-manage.com/track/click?u=72f68dcee17c92724bc7822fb&id=f825542ccb&e=b5a8df9a4a) This post explains how to implement a branchless binary search algorithm that is both faster and more power-efficient than traditional binary search algorithms. It provides a detailed  alkthrough of the implementation and offers benchmarks to showcase its effectiveness.
 * [Thoughtworks Technology Radar 28](https://programmerweekly.us2.list-manage.com/track/click?u=72f68dcee17c92724bc7822fb&id=2f07685780&e=b5a8df9a4a) A latest issue of the Technology Radar which is an opinionated guide to technology frontiers.
 * [The future of programming: Research at CHI 2023](https://programmerweekly.us2.list-manage.com/track/click?u=72f68dcee17c92724bc7822fb&id=9fce33eaae&e=b5a8df9a4a) Research on programming tools published at CHI 2023.
 * [Navigating the High Cost of AI Compute](https://programmerweekly.us2.list-manage.com/track/click?u=72f68dcee17c92724bc7822fb&id=8045e2278a&e=b5a8df9a4a)The generative AI boom is compute-bound and, as a result, a predominant factor driving the industry is simply the cost of training and inference.* [How LinkedIn Adopted A GraphQL Architecture for Product Development](https://programmerweekly.us2.list-manage.com/track/click?u=72f68dcee17c92724bc7822fb&id=debd7c2b1a&e=b5a8df9a4a) In our previous post on GraphQL, we explained how LinkedIn uses GraphQL to expedite the process of onboarding new use-cases for external API
@@ -4994,8 +4841,8 @@ FIXME## Sort
 * [preslavmihaylov/booknotes](https://github.com/preslavmihaylov/booknotes)
 * [video](https://www.youtube.com/@IogaMaster)
 * [prmadev](https://github.com/prmadev)
- [m7.rs/](https://m7.rs/)
-I* [dmulholl](https://www.dmulholl.com/notes.html)
+*  [m7.rs/](https://m7.rs/)
+* [dmulholl](https://www.dmulholl.com/notes.html)
 
 FIXME## Cheatsheets, Reference, Wikipedia
 
@@ -5398,7 +5245,7 @@ FIXME## Podcasts
 * [Front End Happy Hour](http://frontendhappyhour.com/) -* Fun podcast with a roundtable of professional developers that tackle languages, frameworks, and other related things.
 * [The Changelog](https://changelog.com/podcast) -* Conversations with the hackers, the leaders, and the innovators of software development.
 * [devtools.fm/episodes](https://www.devtools.fm/episodes)
-changelog master feed
+* changelog master feed
 * [adspthepodcast.com/2022/04/08/Episode-72.html](https://adspthepodcast.com/2022/04/08/Episode-72.html)
 * [fossandcrafts.org/](https://fossandcrafts.org/)
 * the technium
@@ -5612,7 +5459,7 @@ FIXME## Media, Channels
 * [increment.com/issues/](https://increment.com/issues/)
 * [towardsdatascience.com/a-primer-on-architectural-patterns-fd1b22a4389d](https://towardsdatascience.com/a-primer-on-architectural-patterns-fd1b22a4389d)
 * [Software Engineering Blog & Programming Tutorials | Toptal®](https://www.toptal.com/developers/blog)
-LibHunt - Trending open-source projects and their alternatives
+* LibHunt - Trending open-source projects and their alternatives
 * [yet another insignificant… Programming Notes](https://www3.ntu.edu.sg/home/ehchua/programming/index.html)
 * [blog. - Jayway](https://blog.jayway.com/)
 * [codemotion.com/magazine](https://www.codemotion.com/magazine)
@@ -5768,7 +5615,7 @@ FIXME## Resources
 * [mame/quine-relay](https://github.com/mame/quine-relay)
 * [programminghistorian.org/](https://programminghistorian.org/)
 * [In favour of recursive functions, not imperative constructs,, to make loops](https://www.gresearch.co.uk/article/in-favour-of-recursive-functions-not-imperative-constructs-to-make-loops/)
-    Java, Python, React, Angular, PP, PostgreSQL, Redis, MogoDB, AWS, S3, EC2, ECS, EKS, *nix system administration, Git and CI with TDD, Docker, Kubernetes
+* Java, Python, React, Angular, PP, PostgreSQL, Redis, MogoDB, AWS, S3, EC2, ECS, EKS, *nix system administration, Git and CI with TDD, Docker, Kubernetes
 * [exams.ubccsss.org/potential/](https://exams.ubccsss.org/potential/)
 * [gitter.im/home/explore](https://gitter.im/home/explore)
 * [meetup.com/](https://www.meetup.com/)
@@ -5804,7 +5651,7 @@ FIXME## Media
 FIXME### Podcasts 2
 
 * [Take Up Code](https://open.spotify.com/show/5i2jy4xzmOqUOvWmwrSOsm?si=ttxaYE9FSYCvzdzhMM5QrQ)
-Techtiefen
+* Techtiefen
 * [deploy.codenation.com.br/podcasts/home](https://deploy.codenation.com.br/podcasts/home)
 * Programming Throwdown
 * [radiopublic.com/commit-WYMXMl](https://radiopublic.com/commit-WYMXMl)

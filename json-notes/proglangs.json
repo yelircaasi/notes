@@ -2,7 +2,7 @@ FIXME# Julia
 
 FIXME## 1-Shot Reading
 
-https://genieframework.com/
+* https://genieframework.com/
 
 {"note": "$$$ [proceedings.juliacon.org/https://proceedings.juliacon.org/https://proceedings.juliacon.org/](https://proceedings.juliacon.org/https://proceedings.juliacon.org/https://proceedings.juliacon.org/)", "type": "", "tags": ["proglang", "julia", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
@@ -1570,7 +1570,7 @@ FIXME## To Sort
 {"note": "Liquid Haskell [video](https://www.youtube.com/watch?v=zCJV0xNY06o&pp=ygUObGlxdWlkIGhhc2tlbGw%3D)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[rosettacode.org/wiki/Category:Haskell](https://rosettacode.org/wiki/Category:Haskell) → follow links and see projects described", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[Liquid Haskell Workshop](https://www.youtube.com/watch?v=zCJV0xNY06o)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
- [haskell resources](https://discord.com/channels/834325286664929280/902554373094252554/1198694610436882590)
+* [haskell resources](https://discord.com/channels/834325286664929280/902554373094252554/1198694610436882590)
 {"note": "Haskell x Nix[Nixifying a Haskell project using nixpkgs – NixOS Asia](https://nixos.asia/en/nixify-haskell-nixpkgs)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[99 haskell problems](https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[A simple task & time manager written in Haskell : r/commandline](https://www.reddit.com/r/commandline/comments/fbf8ej/a_simple_task_time_manager_written_in_haskell/)", "type": "", "tags": ["proglang", "haskell", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1724,7 +1724,7 @@ FIXME## Tools
 
 FIXME## Books
 
-Automate the Boring Stuff with Python
+* Automate the Boring Stuff with Python
 {"note": "Beyond the Basic Stuff with Python", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "Expert Python Programming", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "The Python Journeyman", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1781,7 +1781,7 @@ FIXME## Jupyter
 {"note": "[Calysto/calysto_prolog: A Prolog kernel for Jupyter](https://github.com/Calysto/calysto_prolog)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[achesnais/clj-jupyter: A Clojure Kernel for Jupyter Notebooks](https://github.com/achesnais/clj-jupyter)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[guysv/ilua: Portable Lua kernel for Jupyter](https://github.com/guysv/ilua)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-*Jupyter kernels · jupyter/jupyter Wiki
+* Jupyter kernels · jupyter/jupyter Wiki
 {"note": "[BeakerX](http://beakerx.com/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[zqfang/ICpp: Interactive C++ for Data Analysis](https://github.com/zqfang/ICpp)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[Interactive Workflows for C++ with Jupyter – Jupyter Blog](https://blog.jupyter.org/interactive-workflows-for-c-with-jupyter-fe9b54227d92)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1800,7 +1800,7 @@ FIXME## Jupyter
 {"note": "[The Jupyter Notebook — Jupyter Notebook 5.7.4 documentation](https://jupyter-notebook.readthedocs.io/en/stable/index.html)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[NumFOCUS: Open Code = Better Science - NumFOCUS](https://numfocus.org/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[Calysto](https://github.com/Calysto)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-Making kernels for Jupyter — jupyter_client 6.0.0.dev documentation
+*  Making kernels for Jupyter — jupyter_client 6.0.0.dev documentation
 {"note": "[Kernel not detected by jupyter · Issue #1094 · gibiansky/IHaskell](https://github.com/gibiansky/IHaskell/issues/1094)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 *Run Jupyter Notebook script from terminal – Deep Learning Garden
 {"note": "[Hydrogen: Interactive computing in Atom – nteract](https://blog.nteract.io/hydrogen-interactive-computing-in-atom-89d291bcc4dd)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1826,7 +1826,7 @@ FIXME## Regex
 {"note": "[pythex.org/](https://pythex.org/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[re — Regular expression operations — Python 3.7.2rc1 documentation](https://docs.python.org/3/library/re.html)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[python regex by example - Поиск в Google](https://www.google.com/search?q=python+regex+by+example&rlz=1C5CHFA_enUS800US800&oq=python+regex+by+example&aqs=chrome..69i57j0l5.4250j0j7&sourceid=chrome&ie=UTF-8)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
- re — Regular expression operations — Python 3.7.4 documentation
+*  re — Regular expression operations — Python 3.7.4 documentation
 {"note": "[Lesson 06_08 Regular expressions - YouTube](https://www.youtube.com/watch?v=snZetfzy_Fk&list=PLsu0TcgLDUiIznEhN165XmykqyLgzwY0Y&index=52&t=0s)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
 FIXME## Repos
@@ -2903,7 +2903,7 @@ FIXME## 1-shot blog posts
 {"note": "[Breaking down Reverse shell commands](https://programmerweekly.us2.list-manage.com/track/click?u=72f68dcee17c92724bc7822fb&id=839d011f2a&e=b5a8df9a4a) - The article discusses reverse shell payloads, which can be used by hackers to gain remote access to a target computer. It provides an overview of different types of reverse shells, how they work, and includes examples of how to create and use them in various scenarios.", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[What is a Vector Database?](https://programmerweekly.us2.list-manage.com/track/click?u=72f68dcee17c92724bc7822fb&id=a3ea47847c&e=b5a8df9a4a) - A vector database is a type of database that is optimized for storing and searching vector data. Vector data is data that is represented as a list of numbers, such as the results of a machine learning algorithm. Vector databases can be used to perform similarity search, which is the task of finding the most similar items in a dataset.", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[HTMX is the Future](https://programmerweekly.us2.list-manage.com/track/click?u=72f68dcee17c92724bc7822fb&id=6082ed777d&e=b5a8df9a4a) - The article argues that HTMX, a JavaScript library for building web interfaces with minimal JavaScript, represents the future of web development. It discusses the benefits of HTMX, including reduced complexity, improved performance, and better accessibility, and provides", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
- examples of how it can be used in practice.
+* htmx -> examples of how it can be used in practice.
 {"note": "[Migrating Critical Traffic At Scale with No Downtime — Part 1](https://programmerweekly.us2.list-manage.com/track/click?u=72f68dcee17c92724bc7822fb&id=08e391ede6&e=b5a8df9a4a) - The article is part one of a two-part series that discusses Netflix's approach to migrating critical traffic at scale with zero downtime. It covers the challenges of migrating traffic between data centers, and describes the techniques and tools used by Netflix to ensure a seamless transition for users.", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[Building a culture of excellence](https://programmerweekly.us2.list-manage.com/track/click?u=72f68dcee17c92724bc7822fb&id=e6e843425c&e=b5a8df9a4a) - David Singleton, CTO of Stripe, shares his thoughts on building a culture of excellence. He emphasizes the importance of hiring the right people, building a product-minded engineering team, and operationalizing meticulousness.", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[Functional Programming with Elixir](https://programmerweekly.us2.list-manage.com/track/click?u=72f68dcee17c92724bc7822fb&id=bb2312460b&e=b5a8df9a4a) - Learn Elixir and functional programming in this coruse for beginners. By the end of this course, you'll be able to build your own Elixir applications and confidently apply functional programming concepts in your projects.", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -2934,8 +2934,7 @@ FIXME## 1-shot blog posts
 {"note": "[PyGotham TV 2023 Call for Proposals](https://pycoders.com/link/10778/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[WebAssembly Platforms & Distilling a Minimum Viable Python](https://pycoders.com/link/10762/mkivfelsav) - Are you familiar with the different versions of WebAssembly? Could WASM be the “write once, run everywhere” solution that developers have searched for? Where does distributing Python applications fit in the narrative? This week on the show, we have CPython core developer Brett Cannon to discuss his recent articles about WebAssembly and MVPy.", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[Automate Slack and Microsoft Teams Notifications using Python](https://pycoders.com/link/10755/mkivfelsav) - Integrating with the Slack and Microsoft APIs is fairly straightforward, implementing these tools as a part of a full-featured notification system that embeds with your app experience can be far more daunting. Make these tools a seamless part of how your app communicates with users.", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"note": "[How to Implement Screen Navigation in Your Kivy App](https://pycoders.com/link/10767/mkivfelsav) - A  step-by-step guide to implement Screen Navigation in a Kivy app. How to go from an App idea, into Screen design to full implementation. The guide also touches topics related to structuring the codebase. Plus some", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
- tips and tricks.
+{"note": "[How to Implement Screen Navigation in Your Kivy App](https://pycoders.com/link/10767/mkivfelsav) - A  step-by-step guide to implement Screen Navigation in a Kivy app. How to go from an App idea, into Screen design to full implementation. The guide also touches topics related to structuring the codebase. Plus some tips and tricks.", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "py c [habr.com/ru/company/ru_mts/blog/667568/](https://habr.com/ru/company/ru_mts/blog/667568/)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[Django security releases issued: 4.2.1, 4.1.9, and 3.2.19](https://pythonweekly.us2.list-manage.com/track/click?u=e2e180baf855ac797ef407fc7&id=2a69141082&e=501d687f26)**", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[Программирование на Python с использованием шаблонов проектирования](https://vk.com/@skladchik-rss-1457843707-2044471979)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3039,20 +3038,6 @@ FIXME## 1-shot Q & A
 {"note": "“Moving into a management role may be a rewarding step in your career, but you should know about the things you’re leaving behind.”", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[KARL HUGHES](https://pycoders.com/link/10658/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[Unravelling `global`](https://pycoders.com/link/10664/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"note": "Dive deep into", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-
-```
-{"note": "global", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-
-```
-
-, how it works, its relationship with
-
-```
-{"note": "builtins", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-
-```
-{"note": "and the namespace differences in Python.", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[BRETT CANNON](https://pycoders.com/link/10664/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[Building LLM applications for production](https://programmerweekly.us2.list-manage.com/track/click?u=72f68dcee17c92724bc7822fb&id=d436d10b4c&e=b5a8df9a4a)**", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "This post discusses the challenges of productionizing large language model (LLM) applications. It covers topics such as prompt engineering, cost and latency, task composability, and promising use cases for LLMs. The post argues that LLMs can be powerful tools for a variety of tasks, but that they require careful engineering to be used effectively in production.", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3113,13 +3098,13 @@ FIXME## Articles & Tutorials
 
 {"note": "[Syntactic Sugar](https://pycoders.com/link/10648/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-“In computer science, syntactic sugar is syntax within a programming language that is designed to make things easier to read or to express. It makes the language ‘sweeter’ for human use: things can be expressed more clearly, more concisely, or in an alternative style that some may prefer.”
+* “In computer science, syntactic sugar is syntax within a programming language that is designed to make things easier to read or to express. It makes the language ‘sweeter’ for human use: things can be expressed more clearly, more concisely, or in an alternative style that some may prefer.”
 {"note": "[BRETT CANNON](https://pycoders.com/link/10648/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[The New Notification Stack for Python Developers](https://pycoders.com/link/10608/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "SPONSOR", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[Algebraic Data Types in (Typed) Python](https://pycoders.com/link/10633/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-“Algebraic Data Types (not to be confused with abstract data types) can transform certain types of invalid states from runtime errors into type-checking errors, making them an excellent method for representing data and managing state.”
+* “Algebraic Data Types (not to be confused with abstract data types) can transform certain types of invalid states from runtime errors into type-checking errors, making them an excellent method for representing data and managing state.”
 {"note": "[TIN TVRTKOVIĆ](https://pycoders.com/link/10633/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[Groovy Datasets for Test Databases](https://pycoders.com/link/10626/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "When you experiment with a new-to-you data science skill, you need some sort of data to work with. Why be boring? This article talks about several available data sets you can use when you practice your coding skills.", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -3130,17 +3115,12 @@ FIXME## Articles & Tutorials
 {"note": "[HERLAND, EL MAWASS, KNORPS, & REUTER](https://pycoders.com/link/10649/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[From Hell to HTML: Working With Wikimedia Dumps](https://pycoders.com/link/10624/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "This article describe the journey of", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"note": "[mwparserfromhtml](https://pycoders.com/link/10641/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-
-, a tool for dealing with the XML data dumps from Wikimedia.
+{"note": "[mwparserfromhtml](https://pycoders.com/link/10641/mkivfelsav), a tool for dealing with the XML data dumps from Wikimedia.", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[JOHNSON AND NAZIA TASNIM](https://pycoders.com/link/10624/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "SPONSOR", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[An Education Platform With ChatGPT and Django](https://pycoders.com/link/10621/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "This tutorial shows how to build an intelligent educational platform using OpenAI’s GPT-3 and Django.", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[TESTDRIVEN.IO](https://pycoders.com/link/10621/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-
-• Shared by
-{"note": "[Michael Herman](https://pycoders.com/link/10620/mkivfelsav)", "type": "", "tags": ["proglang", "python", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
 FIXME## Projects & Code
 
@@ -4333,29 +4313,6 @@ FIXME## [**Curso de Programação Lua - YouTube - YouTube](https://www.youtube.c
 {"note": "[The Programming Language Lua](https://www.lua.org/home.html)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[Lua: download](https://www.lua.org/download.html)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[lua-users wiki: Tables Tutorial](http://lua-users.org/wiki/TablesTutorial)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"note": "Remember that this structure is a starting point, and you can adapt it based on your project's specific needs and preferences. It's essential to maintain a logical and organized structure to make your project more maintainable and understandable for yourself and others who might contribute to or use your code.", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"note": "1. `README.md`: It's a best practice to include a README file that provides an overview of your project, installation instructions, usage examples, and any other pertinent information.", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"note": "2. `docs/`: This directory can be used to store project documentation, such as API references, guides, or any other relevant documentation files.", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"note": "3. `tests/`: This directory is reserved for unit tests. It can contain test scripts or subdirectories to organize tests for different components of your codebase.", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"note": "4. `src/`: This directory is where you place your Lua source code files. It can contain different subdirectories based on the organization and structure of your code. One common practice is to have a `modules/` directory to store reusable Lua modules that encapsulate specific functionalities.", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"note": "5. `assets/`: This directory is used to store static assets such as images, sounds, or other files that your project relies on. Organize the assets according to their types or categories to maintain a clean structure.", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"note": "6. `config.lua`: This file can hold configuration settings and constants for your project. It's often used to store variables that may change across different environments or deployment scenarios.", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"note": "7. `main.lua`: This file serves as the entry point of your Lua application. It typically contains the main logic or function calls to start and run your program.", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"note": "Let's explore each component in more detail:", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-
-```sh
-{"note": "luaCopy code", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-{"note": "project/", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-  |- main.lua          -- The entry point of your application
-  |- config.lua        -- Configuration file for your project
-  |- assets/           -- Directory for storing static assets (images, sounds, etc.)
-  |- src/              -- Directory for your Lua source code*   |- modules/      -- Directory for your custom Lua modules
-  |- tests/            -- Directory for unit tests
-  |- docs/             -- Directory for documentation
-  |- README.md         -- Project README file
-
-```
-
 {"note": "The structure of a Lua project can vary depending on the specific requirements, frameworks, or libraries being used. However, there are some common conventions and practices that can be followed to organize a Lua project. Here's a standard structure that you can use as a starting point:", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[Algebraic Data Types in Lua](https://mrcjkb.dev/posts/2023-08-17-lua-adts.html)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[MhadhbiXissam/pythonicLua](https://github.com/MhadhbiXissam/pythonicLua)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -5098,8 +5055,8 @@ FIXME## CLI/TUI Building Libraries
 {"note": "→ [shadawck/awesome-cli-frameworks](https://github.com/shadawck/awesome-cli-frameworks)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "all * unless otherwise indicated", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "JS", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
- [npmjs.com/package/chalk](https://www.npmjs.com/package/chalk) - color library
-Python
+* [npmjs.com/package/chalk](https://www.npmjs.com/package/chalk) - color library
+#-> python
 {"note": "[google/python-fire](https://github.com/google/python-fire)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[jsonargparse.readthedocs.io/](https://jsonargparse.readthedocs.io/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[python-poetry/cleo](https://github.com/python-poetry/cleo)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -5107,7 +5064,7 @@ Python
 {"note": "[pwaller/pyfiglet](https://github.com/pwaller/pyfiglet)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[pallets/click](https://github.com/pallets/click)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[tiangolo/typer](https://github.com/tiangolo/typer) [typer.tiangolo.com/](https://typer.tiangolo.com/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-Go
+#-> go
 {"note": "[pterm/pterm/](https://github.com/pterm/pterm/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[spf13/cobra](https://github.com/spf13/cobra)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[charmbracelet/gum](https://github.com/charmbracelet/gum)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -5115,11 +5072,11 @@ Go
 {"note": "[jedib0t/go-pretty](https://github.com/jedib0t/go-pretty)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[awesome-gocui/gocui](https://github.com/awesome-gocui/gocui)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[olekukonko/tablewriter](https://github.com/olekukonko/tablewriter)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-Haskell
+#-> haskell
 {"note": "[jtdaugherty/brick](https://github.com/jtdaugherty/brick)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-Crystal
+#-> crystall
 {"note": "Crystal cli", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-Rust
+#-> rust
 {"note": "[mackwic/colored](https://github.com/mackwic/colored) - CLI coloring tool for Rust", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[clap-rs/clap](https://github.com/clap-rs/clap)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[TeXitoi/structopt](https://github.com/TeXitoi/structopt)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -5131,7 +5088,7 @@ Rust
 
 FIXME## Sort
 
-☒ GUI Development
+#-> gui,development
 {"note": "$$ [azul.rs/](https://azul.rs/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "$$  [tauri.app/](https://tauri.app/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": " [wxPython(https://wxpython.org/index.html)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -5140,8 +5097,7 @@ FIXME## Sort
 {"note": " [ocornut/imgui](https://github.com/ocornut/imgui)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "* [tcl.tk/,](https://www.tcl.tk/,) tkinter", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": " PHP App Server: Create lightweight, installable almost-native applications for desktop OSes. ExecTerminal (nicely wraps the xterm.js Terminal), TerminalManager, and RunProcessSDK are self-contained, reusable ES5+ compliant Javascript components.", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-☒ Programming Languages, Specific Code Libraries
-☒ Multiple
+#-> multilang,library
 {"note": " [monkslc/hyperpolyglot](https://github.com/monkslc/hyperpolyglot) A fast programming language detector -", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": " [github-linguist/linguist](https://github.com/github-linguist/linguist) Language Savant. If your repository's language is being reported incorrectly, send us a pull request!", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "$$ flex", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -5150,7 +5106,7 @@ FIXME## Sort
 {"note": "$$ llvm", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": " [bouml.fr/](https://www.bouml.fr/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": " [asdf-vm/asdf](https://github.com/asdf-vm/asdf) - Manage multiple runtime versions with a single CLI tool. - probably no because Nix is superior, but still interesting to try out", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
-☒Python
+#-> python
 {"note": "→ make a fancy powerline/starship-style Python REPL?", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "→ read conda, miniconda, and mamba docs [docs.conda.io/projects/conda/en/stable/user-guide/index.html](https://docs.conda.io/projects/conda/en/stable/user-guide/index.html) [anaconda.com/blog/understanding-and-improving-condas-performance](https://www.anaconda.com/blog/understanding-and-improving-condas-performance)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "→ python_startup.py", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -5180,7 +5136,7 @@ FIXME## Sort
 {"note": "[U] [conda/conda](https://github.com/conda/conda)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[pex.readthedocs.io/en/v2.1.154/](https://pex.readthedocs.io/en/v2.1.154/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-☒ Database
+#-> database
 {"note": "$$$  PostgreSQL - PostgreSQL is a powerful, open source object-relational database system with more than 15 year development. PostgreSQL is not controlled by any corporation or other private entity and the source code is available free of charge. [postgresql.org/download/](https://www.postgresql.org/download/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "$$$  pgcli - Pgcli is a command line interface for Postgres with auto-completion and syntax highlighting. [pgcli.com/](https://www.pgcli.com/)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "$$$  Sqlite - SQLite is an in-process library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine. [sqlite.org/download.html](https://sqlite.org/download.html)", "type": "", "tags": ["proglang", "", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
