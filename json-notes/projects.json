@@ -18,8 +18,8 @@ FIXME# Keymapping
 * key [houmain/keymapper](https://github.com/houmain/keymapper)
 * key [gitlab.com/interception/linux/plugins/dual-function-keys](https://gitlab.com/interception/linux/plugins/dual-function-keys)
 * key [kanata/docs/config.adoc at main · jtroo/kanata](https://github.com/jtroo/kanata/blob/main/docs/config.adoc)
-* key [veyxov/qanata: Application aware layer switching in](https://github.com/veyxov/qanata) [kanata](https://github.com/veyxov/qanata)
-* key keymaps convo [...](https://www.reddit.com/r/neovim/s/2j96StuexD)
+* key [veyxov/qanata: Application aware layer switching in](https://github.com/veyxov/qanata) [kanata](https://github.com/veyxov/qanata)
+* key keymaps convo [...](https://www.reddit.com/r/neovim/s/2j96StuexD)
 
 FIXME# Tmp
 
@@ -401,18 +401,18 @@ FIXME# Juventas.nvim
 
 FIXME# VimQTConsole - qtconsole with full vim keybindings and nvim as a backend editing server
 
-* [jupyter/jupyter_console](https://www.google.com/url?q=https://github.com/jupyter/jupyter_console&sa=D&source=editors&ust=1711378556488622&usg=AOvVaw3q1vDtf6fyEQu-p-e70-w_) - [...](https://www.google.com/url?q=https://jupyter-console.readthedocs.io/en/latest/&sa=D&source=editors&ust=1711378556488849&usg=AOvVaw31rrl63oIbbF1NC7VNIqC2)[Docs](https://www.google.com/url?q=https://jupyter-console.readthedocs.io/en/latest/&sa=D&source=editors&ust=1711378556489067&usg=AOvVaw2yjTrOFvZCSeRAVWj0JRKJ)
-* [jupyter/qtconsole](https://www.google.com/url?q=https://github.com/jupyter/qtconsole&sa=D&source=editors&ust=1711378556489338&usg=AOvVaw013fqtfUD4k1GUfIc8CgBv) - [...](https://www.google.com/url?q=https://qtconsole.readthedocs.io/en/stable/index.html&sa=D&source=editors&ust=1711378556489553&usg=AOvVaw0yu7A3bpgh5LKBfhA6ZHwb)[Docs](https://www.google.com/url?q=https://qtconsole.readthedocs.io/en/stable/index.html&sa=D&source=editors&ust=1711378556489780&usg=AOvVaw0t2Z5lll7G7F1yf0PN8fXL)
+* [jupyter/jupyter_console](https://www.google.com/url?q=https://github.com/jupyter/jupyter_console&sa=D&source=editors&ust=1711378556488622&usg=AOvVaw3q1vDtf6fyEQu-p-e70-w_) - [...](https://www.google.com/url?q=https://jupyter-console.readthedocs.io/en/latest/&sa=D&source=editors&ust=1711378556488849&usg=AOvVaw31rrl63oIbbF1NC7VNIqC2)[Docs](https://www.google.com/url?q=https://jupyter-console.readthedocs.io/en/latest/&sa=D&source=editors&ust=1711378556489067&usg=AOvVaw2yjTrOFvZCSeRAVWj0JRKJ)
+* [jupyter/qtconsole](https://www.google.com/url?q=https://github.com/jupyter/qtconsole&sa=D&source=editors&ust=1711378556489338&usg=AOvVaw013fqtfUD4k1GUfIc8CgBv) - [...](https://www.google.com/url?q=https://qtconsole.readthedocs.io/en/stable/index.html&sa=D&source=editors&ust=1711378556489553&usg=AOvVaw0yu7A3bpgh5LKBfhA6ZHwb)[Docs](https://www.google.com/url?q=https://qtconsole.readthedocs.io/en/stable/index.html&sa=D&source=editors&ust=1711378556489780&usg=AOvVaw0t2Z5lll7G7F1yf0PN8fXL)
 * → download and try out both console and qtconsole
 * fork - add vim keybindings and color scheme support, eventually even make controllable from within nvim (wm/launcher pre-configured layout to open both, ready-to-use)
 * [Neovim and Qtconsole setup for Data Science with Python | My Blog](https://www.google.com/url?q=https://www.blog.gambitaccepted.com/2020/04/26/neovim-qtconsole-setup/&sa=D&source=editors&ust=1711378556490220&usg=AOvVaw0387vkYb4K8OJ7yBboOGoa)
 * [Demonstration of the Jupyter QtConsole + Vim integration](https://www.google.com/url?q=https://youtu.be/Fi_Xd6h4ncw&sa=D&source=editors&ust=1711378556490428&usg=AOvVaw1S3Bijs78WicgnKS6skWpd)
-* [glacambre/firenvim](https://www.google.com/url?q=https://github.com/glacambre/firenvim&sa=D&source=editors&ust=1711378556490685&usg=AOvVaw1Ze8i3BaOuiGgY8kdmfquZ) - something like this for qtconsole, but for qt instead of browser
-* [Niche Vim/Neovim Plugins. Overview | by alpha2phi | Medium](https://www.google.com/url?q=https://alpha2phi.medium.com/niche-neovim-plugins-722b34f76291&sa=D&source=editors&ust=1711378556491115&usg=AOvVaw0aufc4LSu8XZcajrli6EWN) - maybe some of these
+* [glacambre/firenvim](https://www.google.com/url?q=https://github.com/glacambre/firenvim&sa=D&source=editors&ust=1711378556490685&usg=AOvVaw1Ze8i3BaOuiGgY8kdmfquZ) - something like this for qtconsole, but for qt instead of browser
+* [Niche Vim/Neovim Plugins. Overview | by alpha2phi | Medium](https://www.google.com/url?q=https://alpha2phi.medium.com/niche-neovim-plugins-722b34f76291&sa=D&source=editors&ust=1711378556491115&usg=AOvVaw0aufc4LSu8XZcajrli6EWN) - maybe some of these
 
 FIXME# Related Projects
 
-* [GCBallesteros/NotebookNavigator.nvim](https://www.google.com/url?q=https://github.com/GCBallesteros/NotebookNavigator.nvim&sa=D&source=editors&ust=1711378556491565&usg=AOvVaw2J-w1XlOL7CNE6bHgRunb_) (old: [...](https://www.google.com/url?q=https://www.maxwellrules.com/misc/nvim_jupyter.html&sa=D&source=editors&ust=1711378556491832&usg=AOvVaw2zXrn72PM8EM9qFzngAt-s)[Maxwell Rules - NeoVim Notebooks](https://www.google.com/url?q=https://www.maxwellrules.com/misc/nvim_jupyter.html&sa=D&source=editors&ust=1711378556492003&usg=AOvVaw2k7ufUE6Fb-Bmxx4xxFZaO))
+* [GCBallesteros/NotebookNavigator.nvim](https://www.google.com/url?q=https://github.com/GCBallesteros/NotebookNavigator.nvim&sa=D&source=editors&ust=1711378556491565&usg=AOvVaw2J-w1XlOL7CNE6bHgRunb_) (old: [...](https://www.google.com/url?q=https://www.maxwellrules.com/misc/nvim_jupyter.html&sa=D&source=editors&ust=1711378556491832&usg=AOvVaw2zXrn72PM8EM9qFzngAt-s)[Maxwell Rules - NeoVim Notebooks](https://www.google.com/url?q=https://www.maxwellrules.com/misc/nvim_jupyter.html&sa=D&source=editors&ust=1711378556492003&usg=AOvVaw2k7ufUE6Fb-Bmxx4xxFZaO))
 * [benlubas/molten-nvim](https://www.google.com/url?q=https://github.com/benlubas/molten-nvim&sa=D&source=editors&ust=1711378556492218&usg=AOvVaw1TWxLrw7D3c4CHO3Js5Fyd)
 * [dccsillag/magma-nvim](https://www.google.com/url?q=https://github.com/dccsillag/magma-nvim&sa=D&source=editors&ust=1711378556492419&usg=AOvVaw3PMJofJ0yMfkGR-pU6aghr)
 * [milanglacier/quarto-nvim](https://www.google.com/url?q=https://github.com/milanglacier/quarto-nvim&sa=D&source=editors&ust=1711378556492609&usg=AOvVaw3KO8gZvDA4ET3gC_nTPMFg)
@@ -424,7 +424,7 @@ FIXME# Related Projects
 * [kiyoon/jupynium.nvim](https://www.google.com/url?q=https://github.com/kiyoon/jupynium.nvim&sa=D&source=editors&ust=1711378556493994&usg=AOvVaw2edSaIUAN4R20v-B2_DN6K)
 * [...](https://www.google.com/url?q=https://github.com/kiyoon/jupynium.nvim&sa=D&source=editors&ust=1711378556494126&usg=AOvVaw2G5PjyFNMyAB6H-k50MS1W)[Selenium-automated Jupyter Notebook that is synchronised with NeoVim in real-time.](https://www.google.com/url?q=https://github.com/kiyoon/jupynium.nvim&sa=D&source=editors&ust=1711378556494274&usg=AOvVaw2EplP-OuBGb0ce0w8EEziO)
 * [ubaldot/vim-replica](https://www.google.com/url?q=https://github.com/ubaldot/vim-replica&sa=D&source=editors&ust=1711378556494580&usg=AOvVaw3aWha7BH_buz6RJjL8ljzJ)
-* [davidbrochart/jpterm](https://www.google.com/url?q=https://github.com/davidbrochart/jpterm&sa=D&source=editors&ust=1711378556494835&usg=AOvVaw1WybNLEjR3KjHAcfSjjrvQ) 
+* [davidbrochart/jpterm](https://www.google.com/url?q=https://github.com/davidbrochart/jpterm&sa=D&source=editors&ust=1711378556494835&usg=AOvVaw1WybNLEjR3KjHAcfSjjrvQ) 
 * [luk400/vim-jukit](https://www.google.com/url?q=https://github.com/luk400/vim-jukit&sa=D&source=editors&ust=1711378556495091&usg=AOvVaw3l525nq9qylB62CNPXL2lx)
 * [WhiteBlackGoose/magma-nvim-goose](https://www.google.com/url?q=https://github.com/WhiteBlackGoose/magma-nvim-goose&sa=D&source=editors&ust=1711378556495361&usg=AOvVaw3IAkwDos8rsnLMqfiNDKZo)
 * [untitled-ai/jupyter_ascending.vim](https://www.google.com/url?q=https://github.com/untitled-ai/jupyter_ascending.vim&sa=D&source=editors&ust=1711378556495632&usg=AOvVaw3n1qJPHhWl1ISrXRlKtDJF)
@@ -449,7 +449,7 @@ FIXME# General Resources
 * [Related projects — xeus documentation](https://www.google.com/url?q=https://xeus.readthedocs.io/en/latest/related.html&sa=D&source=editors&ust=1711378556500316&usg=AOvVaw3aHR-JG1zAukA3AN49azW1)
 * [jupytext.readthedocs.io/en/latest/using-cli.html](https://www.google.com/url?q=https://jupytext.readthedocs.io/en/latest/using-cli.html&sa=D&source=editors&ust=1711378556500596&usg=AOvVaw1FZDj4EZ2IYbQu2FOF2-wz)
 * [Installation · IRkernel](https://www.google.com/url?q=https://irkernel.github.io/installation/&sa=D&source=editors&ust=1711378556500859&usg=AOvVaw2PW6qOrsozpEJvd0l91_at)
-* [Toomey books](https://www.google.com/url?q=http://libgen.is/search.php?%26req%3Dtoomey%26phrase%3D1%26view%3Dsimple%26column%3Ddef%26sort%3Dyear%26sortmode%3DDESC&sa=D&source=editors&ust=1711378556501132&usg=AOvVaw1rRwEG7oKiPdxWRFAsFzTq) (Jupyter)
+* [Toomey books](https://www.google.com/url?q=http://libgen.is/search.php?%26req%3Dtoomey%26phrase%3D1%26view%3Dsimple%26column%3Ddef%26sort%3Dyear%26sortmode%3DDESC&sa=D&source=editors&ust=1711378556501132&usg=AOvVaw1rRwEG7oKiPdxWRFAsFzTq) (Jupyter)
 * [Quarto - Tutorial: Hello, Quarto](https://www.google.com/url?q=https://quarto.org/docs/get-started/hello/neovim.html&sa=D&source=editors&ust=1711378556501427&usg=AOvVaw0aHpNTtkkPpAWrvI4svgAw)
 * [Project Jupyter | Get Involved](https://www.google.com/url?q=https://jupyter.org/community&sa=D&source=editors&ust=1711378556501702&usg=AOvVaw1EFwDrHK5wAWbshaAJcSDR)
 
@@ -461,7 +461,7 @@ FIXME# Miscellaneous
 * [VIM for Data Science [2020]](https://www.google.com/url?q=https://youtu.be/gfa2_6OeOkk&sa=D&source=editors&ust=1711378556503092&usg=AOvVaw2e1ecT4Yhn53Wf7Vhug4Nv)
 * [Jupyter Notebook Complete Beginner Guide 2023 - From Jupyter to Jupyterlab, Google Colab and Kaggle! Rob Mulla Rob Mulla • • 39.332 visualizaciones hace 11 meses](https://www.google.com/url?q=https://www.youtube.com/watch?v%3D5pf0_bpNbkw&sa=D&source=editors&ust=1711378556503422&usg=AOvVaw1wj7RX1S_bqpLaC1WbGOrB)
 * [Niche Vim/Neovim Plugins. Overview | by alpha2phi | Medium](https://www.google.com/url?q=https://alpha2phi.medium.com/niche-neovim-plugins-722b34f76291&sa=D&source=editors&ust=1711378556503751&usg=AOvVaw0agTGe_81cJmt1cctbdkb_)
-* ☐ Jupyter & Notebook-Related [...](https://www.google.com/url?q=https://github.com/justmarkham/scikit-learn-videos&sa=D&source=editors&ust=1711378556504117&usg=AOvVaw1Dj15mms2swMcMKl-bgHdo)[justmarkham/scikit-learn-videos: Jupyter notebooks from the scikit-learn video series](https://www.google.com/url?q=https://github.com/justmarkham/scikit-learn-videos&sa=D&source=editors&ust=1711378556504319&usg=AOvVaw2F8DdSNoEmIxCcOyYiH13O)
+* ☐ Jupyter & Notebook-Related [...](https://www.google.com/url?q=https://github.com/justmarkham/scikit-learn-videos&sa=D&source=editors&ust=1711378556504117&usg=AOvVaw1Dj15mms2swMcMKl-bgHdo)[justmarkham/scikit-learn-videos: Jupyter notebooks from the scikit-learn video series](https://www.google.com/url?q=https://github.com/justmarkham/scikit-learn-videos&sa=D&source=editors&ust=1711378556504319&usg=AOvVaw2F8DdSNoEmIxCcOyYiH13O)
 * [...](https://www.google.com/url?q=https://www.youtube.com/watch?v%3DutNl9f3gqYQ&sa=D&source=editors&ust=1711378556504684&usg=AOvVaw1noh9YpaGwn_GD7IAsf7Ke)
 * [...](https://www.google.com/url?q=https://github.com/jupyterlab/jupyterlab&sa=D&source=editors&ust=1711378556504851&usg=AOvVaw1Q97Bhd6NBhQG2p5sATMne)[jupyterlab/jupyterlab: JupyterLab computational environment.](https://www.google.com/url?q=https://github.com/jupyterlab/jupyterlab&sa=D&source=editors&ust=1711378556505034&usg=AOvVaw1q_rtwO_ECV5jnM2Z4xRW6)
 * [...](https://www.google.com/url?q=https://www.youtube.com/watch?v%3DstYs_8quGUM&sa=D&source=editors&ust=1711378556505868&usg=AOvVaw1zQEYPkTz3C0FSCf0ooFxs)
@@ -471,7 +471,7 @@ FIXME# Miscellaneous
 * [...](https://www.google.com/url?q=https://github.com/voila-gallery&sa=D&source=editors&ust=1711378556507331&usg=AOvVaw1DoVoLJpx4hINxA2Mrhqk7)[Voilà Gallery](https://www.google.com/url?q=https://github.com/voila-gallery&sa=D&source=editors&ust=1711378556507525&usg=AOvVaw0lEEJZI82ma4LnRVsKsYYm)
 * [...](https://www.google.com/url?q=https://youtu.be/l7zS8Ld4_iA&sa=D&source=editors&ust=1711378556507703&usg=AOvVaw2RCzTBanHzLT59r1FICHmL)[nbdev tutorial](https://www.google.com/url?q=https://youtu.be/l7zS8Ld4_iA&sa=D&source=editors&ust=1711378556507889&usg=AOvVaw2Szc9TOcLCVN4HsawLl3d9)
 * [...](https://www.google.com/url?q=https://youtu.be/l7zS8Ld4_iA&sa=D&source=editors&ust=1711378556508051&usg=AOvVaw1SS8TSCja2gkifpHhYJyRp)[nbdev tutorial -- zero to published project in 90 minutes](https://www.google.com/url?q=https://youtu.be/l7zS8Ld4_iA&sa=D&source=editors&ust=1711378556508236&usg=AOvVaw1i2PaFOZGzw_K8KutPSHJZ)
-* [...](https://www.google.com/url?q=https://quarto.org/docs/get-started/&sa=D&source=editors&ust=1711378556508415&usg=AOvVaw2dlKu6BG0a6_BKPjjEijT5)[quarto.org/docs/get-started/](https://www.google.com/url?q=https://quarto.org/docs/get-started/&sa=D&source=editors&ust=1711378556508593&usg=AOvVaw1R2vbCfSllMvZRhI-m5trd)- [ ]  ‣ - [...](https://www.google.com/url?q=https://nbcommands.readthedocs.io/en/latest/&sa=D&source=editors&ust=1711378556508969&usg=AOvVaw0a78GIcs55ByjHwtwKF4xz)[nbcommands.readthedocs.io/en/latest/](https://www.google.com/url?q=https://nbcommands.readthedocs.io/en/latest/&sa=D&source=editors&ust=1711378556509132&usg=AOvVaw1S9L1h4zENYRxxF6BdcFhp)
+* [...](https://www.google.com/url?q=https://quarto.org/docs/get-started/&sa=D&source=editors&ust=1711378556508415&usg=AOvVaw2dlKu6BG0a6_BKPjjEijT5)[quarto.org/docs/get-started/](https://www.google.com/url?q=https://quarto.org/docs/get-started/&sa=D&source=editors&ust=1711378556508593&usg=AOvVaw1R2vbCfSllMvZRhI-m5trd)- [ ]  ‣ - [...](https://www.google.com/url?q=https://nbcommands.readthedocs.io/en/latest/&sa=D&source=editors&ust=1711378556508969&usg=AOvVaw0a78GIcs55ByjHwtwKF4xz)[nbcommands.readthedocs.io/en/latest/](https://www.google.com/url?q=https://nbcommands.readthedocs.io/en/latest/&sa=D&source=editors&ust=1711378556509132&usg=AOvVaw1S9L1h4zENYRxxF6BdcFhp)
 
 FIXME## SORT
 
@@ -3099,7 +3099,7 @@ FIXME# Notes
 
     numbers
 
-    very most common verbs: to be, to say, to do, to ask, can/be able to,  ...
+    very most common verbs: to be, to say, to do, to ask, can/be able to,  ...
 
     auxiliary verbs
 
@@ -3220,7 +3220,7 @@ FIXME# WiktionaryTool.jl 🌱
         * semantically distinct multi-word expressions/phrases/idioms
         * → use for NSM or similar semantic representation/metalanguage
         * → closely related to paremiological projects → use common tools and methodologies where appropriat
-* [CLI-Dictionary](https://github.com/Lodobo/CLI-Dictionary) - Scripts for downloading and viewing wiktionary entries from Kaikki.org.
+* [CLI-Dictionary](https://github.com/Lodobo/CLI-Dictionary) - Scripts for downloading and viewing wiktionary entries from Kaikki.org.
     * Intercomprehension - Etymologically-Related Words
 * Dumps and Dump Parsing
 * [dan1wang/jsonbook-builder](https://github.com/dan1wang/jsonbook-builder)
@@ -3565,20 +3565,20 @@ FIXME# Latinitium
 
 FIXME# [latinitium.com/latin-audio-archive](https://latinitium.com/latin-audio-archive)
 
-* [The Story Of Androclus And The Lion](https://latinitium.com/latin-audio-archive#The_Story_Of_Androclus_And_The_Lion)
-* [The Story Of Perseus Part 2 – Latin Texts](https://latinitium.com/latin-audio-archive#The_Story_Of_Perseus_Part_2_Latin_Texts)
-* [The Story Of Perseus Part I](https://latinitium.com/latin-audio-archive#The_Story_Of_Perseus_Part_I)
+* [The Story Of Androclus And The Lion](https://latinitium.com/latin-audio-archive#The_Story_Of_Androclus_And_The_Lion)
+* [The Story Of Perseus Part 2 – Latin Texts](https://latinitium.com/latin-audio-archive#The_Story_Of_Perseus_Part_2_Latin_Texts)
+* [The Story Of Perseus Part I](https://latinitium.com/latin-audio-archive#The_Story_Of_Perseus_Part_I)
 * [City Life, Country Life (Pliny)](https://latinitium.com/latin-audio-archive#City_Life_Country_Life_Pliny)
-* [Cicero’s Story About Fraud](https://latinitium.com/latin-audio-archive#Ciceros_Story_About_Fraud)
+* [Cicero’s Story About Fraud](https://latinitium.com/latin-audio-archive#Ciceros_Story_About_Fraud)
 * [Erasmus’ Perilous Winter Journey](https://latinitium.com/latin-audio-archive#Erasmus_Perilous_Winter_Journey)
-* [Cicero on the Magical Ring of Gyges](https://latinitium.com/latin-audio-archive#Cicero_on_the_Magical_Ring_of_Gyges)
+* [Cicero on the Magical Ring of Gyges](https://latinitium.com/latin-audio-archive#Cicero_on_the_Magical_Ring_of_Gyges)
 * [Sallust on Glory and Virtue](https://latinitium.com/latin-audio-archive#Sallust_on_Glory_and_Virtue)
-* [Aurelius Victor on Romulus, the First King of Rome](https://latinitium.com/latin-audio-archive#Aurelius_Victor_on_Romulus_the_First_King_of_Rome)
+* [Aurelius Victor on Romulus, the First King of Rome](https://latinitium.com/latin-audio-archive#Aurelius_Victor_on_Romulus_the_First_King_of_Rome)
 * [Cincinnatus](https://latinitium.com/latin-audio-archive#Cincinnatus)
 * [Demosthenes and The Donkey’s Shadow](https://latinitium.com/latin-audio-archive#Demosthenes_and_The_Donkeys_Shadow)
 * [The Story of the Shrewd Elephant](https://latinitium.com/latin-audio-archive#The_Story_of_the_Shrewd_Elephant)
 * [Suetonius on Julius Caesar](https://latinitium.com/latin-audio-archive#Suetonius_on_Julius_Caesar)
-* [The Story About The Wood-cutter And The Golden Axe](https://latinitium.com/latin-audio-archive#The_Story_About_The_Wood-cutter_And_The_Golden_Axe)
+* [The Story About The Wood-cutter And The Golden Axe](https://latinitium.com/latin-audio-archive#The_Story_About_The_Wood-cutter_And_The_Golden_Axe)
 * [Aurelius Commodus](https://latinitium.com/latin-audio-archive#Aurelius_Commodus)
 * [The Crime and Fate of Daedalus](https://latinitium.com/latin-audio-archive#The_Crime_and_Fate_of_Daedalus)
 * [Two Letters from Cicero](https://latinitium.com/latin-audio-archive#Two_Letters_from_Cicero)
@@ -3591,21 +3591,21 @@ FIXME# [latinitium.com/latin-audio-archive](https://latinitium.com/latin-audio-a
 * [Roman Houses](https://latinitium.com/latin-audio-archive#Roman_Houses)
 * [Gladiatorial Fights in Ancient Rome](https://latinitium.com/latin-audio-archive#Gladiatorial_Fights_in_Ancient_Rome)
 * [Cicero on True and Perfect Friendship](https://latinitium.com/latin-audio-archive#Cicero_on_True_and_Perfect_Friendship)
-* [The Story of the Avenging Pigs](https://latinitium.com/latin-audio-archive#The_Story_of_the_Avenging_Pigs)
-* [Tommaso Vallauri on Q. Curtius Rufus](https://latinitium.com/latin-audio-archive#Tommaso_Vallauri_on_Q_Curtius_Rufus)
+* [The Story of the Avenging Pigs](https://latinitium.com/latin-audio-archive#The_Story_of_the_Avenging_Pigs)
+* [Tommaso Vallauri on Q. Curtius Rufus](https://latinitium.com/latin-audio-archive#Tommaso_Vallauri_on_Q_Curtius_Rufus)
 * [What Price did Philoxenus Pay for his Outspokenness?](https://latinitium.com/latin-audio-archive#What_Price_did_Philoxenus_Pay_for_his_Outspokenness)
-* [The Life of Cicero, Part 2](https://latinitium.com/latin-audio-archive#The_Life_of_Cicero_Part_2)
-* [The Life of Cicero, Part I](https://latinitium.com/latin-audio-archive#The_Life_of_Cicero_Part_I)
+* [The Life of Cicero, Part 2](https://latinitium.com/latin-audio-archive#The_Life_of_Cicero_Part_2)
+* [The Life of Cicero, Part I](https://latinitium.com/latin-audio-archive#The_Life_of_Cicero_Part_I)
 * [The Life and Death of Brutus](https://latinitium.com/latin-audio-archive#The_Life_and_Death_of_Brutus)
-* [Cicero on the Circus Games](https://latinitium.com/latin-audio-archive#Cicero_on_the_Circus_Games)
-* [The Story of Theseus, Part II](https://latinitium.com/latin-audio-archive#The_Story_of_Theseus_Part_II)
-* [The Story of Theseus, Part I](https://latinitium.com/latin-audio-archive#The_Story_of_Theseus_Part_I)
+* [Cicero on the Circus Games](https://latinitium.com/latin-audio-archive#Cicero_on_the_Circus_Games)
+* [The Story of Theseus, Part II](https://latinitium.com/latin-audio-archive#The_Story_of_Theseus_Part_II)
+* [The Story of Theseus, Part I](https://latinitium.com/latin-audio-archive#The_Story_of_Theseus_Part_I)
 * [The Christmas Story X2 (Vulgate And Sebastien Châteillon)](https://latinitium.com/latin-audio-archive#The_Christmas_Story_X2_Vulgate_And_Sebastien_Chateillon)
 * [Catiline Addresses the Conspirators](https://latinitium.com/latin-audio-archive#Catiline_Addresses_the_Conspirators)
 * [The Audacious Architect of Alexandria (Vitruvius)](https://latinitium.com/latin-audio-archive#The_Audacious_Architect_of_Alexandria_Vitruvius)
 * [The Story of Mantacius the fraudster](https://latinitium.com/latin-audio-archive#The_Story_of_Mantacius_the_fraudster)
 * [Why Pliny wants to be like Spurinna](https://latinitium.com/latin-audio-archive#Why_Pliny_wants_to_be_like_Spurinna)
-* [What did Cicero Feel Going into Exile?](https://latinitium.com/latin-audio-archive#What_did_Cicero_Feel_Going_into_Exile)
+* [What did Cicero Feel Going into Exile?](https://latinitium.com/latin-audio-archive#What_did_Cicero_Feel_Going_into_Exile)
 
 FIXME### Latinum
 
@@ -3825,15 +3825,15 @@ FIXME# proglang table
 * Write in Python to use Pygments library
 * → need to write bidirectional update logic for diffs. Use Pandas? Possibly overkill, but undeniably useful
 * How to merge edits at the same block? Use a Python-wrapped got diff?
-* [ ] \*\*\*\*\*\*\*\*\* [teachcode](https://github.com/madlabsinc/teachcode) - Guide for the earliest lessons of coding.
+* [ ] \*\*\*\*\*\*\*\*\* [teachcode](https://github.com/madlabsinc/teachcode) - Guide for the earliest lessons of coding.
 
 |— static
 
-  |— css
+  |— css
 
-   |— html
+   |— html
 
-   |— js
+   |— js
 * Design ideas:
 * Top bar, slightly lighter than main background, with title (’Programming Language Table’) and on the right the following icons (maybe rounded squares):
 *   documentation (scroll image, including friendly introduction - and disclaimer)
@@ -4600,7 +4600,7 @@ FIXME## ML → See sklearn docs
   * The site should also support custom theming.
   * make interactive website where it is possible to pick languages to compare - like hyperpolyglot, but with an interactive component8
   * also add links to projects
-* [ ]  [Sourcetrail](https://www.sourcetrail.com/) - Sourcetrail is a free and open-source cross-platform source explorer that helps you get productive on unfamiliar source code.
+* [ ]  [Sourcetrail](https://www.sourcetrail.com/) - Sourcetrail is a free and open-source cross-platform source explorer that helps you get productive on unfamiliar source code.
 * [examples.raku.org/index.html](https://examples.raku.org/index.html)
 * [yrwq/ccc](https://github.com/yrwq/ccc) - good parallel code project - add similar thing!
 

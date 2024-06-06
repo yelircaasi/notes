@@ -8,15 +8,16 @@ FIXME## left-right mappings for table parsing
 add deskew keyword to cv-analysis service
 * output "skewAngle": float
 
-FIXME## Projects
+* image = image.resize((10, 10), Image.ANTIALIAS)
+* image = image.resize((10, 10), Image.LANCZOS)
+* image = image.convert("L")
+* pixel_data = list(image.getdata())
+* avg_pixel = sum(pixel_data) / len(pixel_data)
 
-* 1. sort ‘NLQ’
-* 2. sort ‘VanillaOS’
-* 3. Read ‘a lire’
-* 4. sort ‘Config’
-* 5. sort ‘Logging’
-* 6. sort ‘pytest’
-* 7. Read articles from ‘à lire’
++++ b/redai/backend/image/utils.py
+
+@@ -80,7 +80,7 @@ def hash_image(image: Image):
+* Returns:
 
 FIXME## Sort
 

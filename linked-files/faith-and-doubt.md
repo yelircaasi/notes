@@ -113,7 +113,7 @@
 * 8.2 Pride and Humility in the Eyes of a Believer
 * To a believer, humility is the essence of discipleship. To be humble means to follow Jesus Christ and "lean not unto thine own understanding." It entails trusting the church leaders and acknowledging the possibility (or rather, the likelihood) that they know more than one does, especially in spiritual matters. Humility is the antithesis of the pride of, for example, the "learned who think they are wise … and hearken not unto the counsels of God." The sneering condescension of those who have left the fold is a perfect example of what they hope to avoid.
 * 8.3 Pride and Humility in the Eyes of a Skeptic
-* To a skeptic, the most important form of humility is often what they might call epistemic humility - openness to the possibility of being mistaken (at least in theory; this trait seems to be  more common in the abstract than in the real world). Uncertainty is a key aspect of humility, to be contrasted with the certainty of believers and the grandiose claims they advance.
+* To a skeptic, the most important form of humility is often what they might call epistemic humility - openness to the possibility of being mistaken (at least in theory; this trait seems to be  more common in the abstract than in the real world). Uncertainty is a key aspect of humility, to be contrasted with the certainty of believers and the grandiose claims they advance.
 * 8.4 Applying the Principle of Charity
 * 11) Popular Fallacies, Pitfalls, and Underhanded Tactics: A Sampler
 * Confirmation Bias

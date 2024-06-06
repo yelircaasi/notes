@@ -68,7 +68,7 @@ FIXME## > use panel data estimation methods
 FIXME## > simply concatenate both vector sequences?
 FIXME## > use smoothing (of target posteriorgram) for more realistic-sounding audio
 * Use fine-grained phonetic information to investigate how mother tongue influences pronunciation of a foreign language. R-squared -> how much can be predicted from mother tongue alone?
-* Cluster analysis on spectrograms? -> good for outlier analysis
+* Cluster analysis on spectrograms? -> good for outlier analysis
 * 2 approaches:
 * 1) GAN with dual loss: difference between target accent-specific ASR output and original text; classification probability for non-target accent
 * 2) GAN on phonetics only (some kind of constraint for content or search on space of possible sounds for words) and subsequent speech synthesis

@@ -788,9 +788,9 @@ TODO: add `alignend` functionality (but first get it working without)
 * ( ) [tutorialspoint.com/operating_system/os_process_scheduling_algorithms.htm](https://www.tutorialspoint.com/operating_system/os_process_scheduling_algorithms.htm)
 * ( ) [academia.edu/6718638/scheduling_problems_an_overview](https://www.academia.edu/6718638/Scheduling_problems_An_overview)
 * ( ) [types of task scheduling algorithms in cloud computing environment](https://www.intechopen.com/chapters/71902)
-* ( ) [natural intelligence for scheduling, planning and packing problems *[1 ed.]](http://libgen.rs/book/index.php?md5=9BC05329D09109CF82B0FB7386889764)*
-* ( ) [decision analysis, location models, and scheduling problems *[1 ed.]*](http://libgen.rs/book/index.php?md5=805513A81A24B94975F802FE4F3C2ECF)
-* ( ) [constraint-based scheduling: applying constraint programming to scheduling problems *[1 ed.]*](http://libgen.rs/book/index.php?md5=9D333284F1AF9D661620AD274CF113B7)
+* ( ) [natural intelligence for scheduling, planning and packing problems *[1 ed.]](http://libgen.rs/book/index.php?md5=9BC05329D09109CF82B0FB7386889764)*
+* ( ) [decision analysis, location models, and scheduling problems *[1 ed.]*](http://libgen.rs/book/index.php?md5=805513A81A24B94975F802FE4F3C2ECF)
+* ( ) [constraint-based scheduling: applying constraint programming to scheduling problems *[1 ed.]*](http://libgen.rs/book/index.php?md5=9D333284F1AF9D661620AD274CF113B7)
 * ( ) [web-static.stern.nyu.edu/om/faculty/pinedo/scheduling/sched.pdf](https://web-static.stern.nyu.edu/om/faculty/pinedo/scheduling/sched.pdf)
 * ( ) [javatpoint.com/activity-or-task-scheduling-problem](https://www.javatpoint.com/activity-or-task-scheduling-problem)
 * ( ) [teamdoapp.com/inspiration/increase-productivity-with-effective-task-scheduling](https://teamdoapp.com/inspiration/increase-productivity-with-effective-task-scheduling/)
@@ -1445,7 +1445,7 @@ Python might me a good productivity app / TUI language, after all - nothing abou
 * [alt cal](https://github.com/frossm/cal)
 * ( ) [tui example c++](https://github.com/ggerganov/wtf-tui?tab=readme-ov-file)
 * ( ) neorg
-* ( ) orgmode -> * {prod org} [...](https://www.reddit.com/r/emacs/s/HJemdxK4sd) reorg
+* ( ) orgmode -> * {prod org} [...](https://www.reddit.com/r/emacs/s/HJemdxK4sd) reorg
 * ( ) todo.txt
 * ( ) [taskwarrior json](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/task.md)
 * ( ) jira (via API)
@@ -1527,7 +1527,7 @@ Python might me a good productivity app / TUI language, after all - nothing abou
 * [alt cal](https://github.com/frossm/cal)
 * ( ) [tui example c++](https://github.com/ggerganov/wtf-tui?tab=readme-ov-file)
 * ( ) neorg
-* ( ) orgmode -> * {prod org} [...](https://www.reddit.com/r/emacs/s/HJemdxK4sd) reorg
+* ( ) orgmode -> * {prod org} [...](https://www.reddit.com/r/emacs/s/HJemdxK4sd) reorg
 * ( ) todo.txt
 * ( ) [taskwarrior json](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/task.md)
 * ( ) jira (via API)

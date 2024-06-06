@@ -3960,3 +3960,14 @@ eval "$(starship init zsh)"
 export PATH=$PATH:/home/isaac/.spicetify
 
 ```
+
+* /var/snap/landscape-client/common/etc/landscape-client.conf  :
+* [client]
+* log_level = info
+* url = * [landscape.knecon.com/message-system](https://landscape.knecon.com/message-system)
+* ping_url = * [landscape.knecon.com/ping](https://landscape.knecon.com/ping)
+* data_path = /var/lib/landscape/client
+* computer_title = stellaris15
+* account_name = standalone
+* registration_key = SpeakFriendAndEnter
+* include_manager_plugins = ScriptExecution

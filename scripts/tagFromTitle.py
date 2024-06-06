@@ -19,6 +19,7 @@ lines = txt.split("\n")
 
 new = []
 tags = []
+subtags = []
 for line in filter(bool, map(str.strip, lines)):
     if line.startswith("#->"):
         tags, subtags = parse_tags(line)
@@ -28,7 +29,10 @@ for line in filter(bool, map(str.strip, lines)):
             d = json.loads(line.strip(","))
         except:
             print(line)
+            print("failed")
             exit()
+        if not "subtags" in d:
+            d.update({"subtags": []})
         d["tags"].extend(tags)
         d["subtags"].extend(subtags)
         new.append(d)

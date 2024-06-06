@@ -2,17 +2,17 @@ If you suspect a race condition, where kernel modules may not be loaded fast eno
 * 1. Delay Display Manager Start:
 * One approach is to introduce a delay in the startup process of the display manager. This can be achieved by modifying the service or init script that launches the display manager. However, this is a workaround and not a definitive solution.
 * 1. Check Module Loading:
-* Examine the logs to see if there are any messages related to the loading of kernel modules. You can use the dmesg command or check specific log files for module loading information. Look for any errors or delays in loading the necessary modules.
+* Examine the logs to see if there are any messages related to the loading of kernel modules. You can use the dmesg command or check specific log files for module loading information. Look for any errors or delays in loading the necessary modules.
 * 1. Adjust Module Loading Configuration:
-* Depending on your distribution, you may have a configuration file specifying which modules to load during the boot process. This file is often located in /etc/modules or /etc/modules-load.d/. Review the contents of these files to ensure that the required modules are listed.
+* Depending on your distribution, you may have a configuration file specifying which modules to load during the boot process. This file is often located in /etc/modules or /etc/modules-load.d/. Review the contents of these files to ensure that the required modules are listed.
 * 1. Check Dependencies:
 * Ensure that the display manager service has proper dependencies set, especially dependencies related to the availability of necessary kernel modules. Adjust the dependencies if needed.
 * 1. Systemd Service Unit:
-* If your system uses systemd, check the service unit for the display manager (lightdm.service, gdm.service, etc.). You can find these unit files in /etc/systemd/system/ or /lib/systemd/system/. Look for dependencies and ordering directives and adjust them if necessary.
+* If your system uses systemd, check the service unit for the display manager (lightdm.service, gdm.service, etc.). You can find these unit files in /etc/systemd/system/ or /lib/systemd/system/. Look for dependencies and ordering directives and adjust them if necessary.
 * 1. Investigate Startup Scripts:
 * Examine any scripts or systemd units responsible for the initialization of the system, display manager, or relevant components. Check if they explicitly wait for certain conditions before proceeding.
 * 1. Kernel Module Auto-Loading:
-* Ensure that the necessary kernel modules are set to load automatically during boot. This is often configured in files such as /etc/modules or /etc/modules-load.d/*.conf.
+* Ensure that the necessary kernel modules are set to load automatically during boot. This is often configured in files such as /etc/modules or /etc/modules-load.d/*.conf.
 * 1. Check for Module Load Errors:
-* Look for any errors related to module loading in the logs. Use commands like dmesg | grep -i 'error\\|module' to identify potential issues.
+* Look for any errors related to module loading in the logs. Use commands like dmesg | grep -i 'error\\|module' to identify potential issues.
 * By investigating these areas, you may be able to identify the cause of the race condition and take appropriate measures to address it. If the issue persists, consider seeking assistance from your distribution's community forums or support channels, as they may have insights specific to the distribution and display manager you are using.
