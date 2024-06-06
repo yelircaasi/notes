@@ -1,9 +1,9 @@
-FIXME# Recursos por idioma
+#-> languageLearning,# Recursos por idioma
 
 * Vídeo
-FIXME## 0*     * Top*     * Good*     * Not Sure*     * Meh
+#-> languageLearning,## 0*     * Top*     * Good*     * Not Sure*     * Meh
 
-FIXME## 1
+#-> languageLearning,## 1
 {"note": "[wisecrack.co/thug-notes/](http://www.wisecrack.co/thug-notes/) ", "type": "video/channel", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "EN"},
 {"note": "[The Global Philosopher](http://www.bbc.co.uk/programmes/b075ft6f/episodes/guide) (Michael Sandel) ", "type": "video/channel", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "EN"},
 {"note": "[Лекториум](https://www.lektorium.tv/)", "type": "video/channel", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "RU"},
@@ -457,7 +457,7 @@ FIXME## 1
 {"note": "[Russian Pronunciation, Video 2: Russian Vowels](https://www.youtube.com/watch?v=tENgvnbf-Iw&list=PLVWtXi_Jrj_2CjtJJGAArDfyzKg2IVgkp&index=53)", "type": "video/channel", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "RU"},
 {"note": "[Russian Pronunciation, Video 3: Some Quirks of Russian's Spelling System](https://www.youtube.com/watch?v=lSloMYY81yA&list=PLVWtXi_Jrj_2CjtJJGAArDfyzKg2IVgkp&index=54)", "type": "video/channel", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "RU"},
 
-FIXME## 3
+#-> languageLearning,## 3
 {"note": "[Wissenschaft im Dialog](https://www.youtube.com/user/wissenschaftimdialog)", "type": "video/channel", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "DE"},
 {"note": "Algorithmen verstehen", "type": "video/channel", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "DE"},
 {"note": "DW Deutsch", "type": "video/channel", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "DE"},
@@ -1032,7 +1032,7 @@ FIXME## 3
 {"note": "[Der Fall (Schweizerdeutsch mit Hochdeutsch Untertitel)](https://www.youtube.com/watch?v=jY8pgh_TAac&list=PLVWtXi_Jrj_28HdMUYyp2rkr5aIQNLQEu&index=1)", "type": "video/channel", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "DE-CH"},
 {"note": "[Prometheus](https://edx.prometheus.org.ua/dashboard)", "type": "video/channel", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "DE-CH"},
 
-FIXME## 4
+#-> languageLearning,## 4
 
 {"note": "[kinoukr.com/](https://kinoukr.com/)", "type": "video/channel", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "UK"},
 {"note": "[Dima Maleev](https://www.youtube.com/user/SunnyDimKo)", "type": "video/channel", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "UK"},
@@ -2880,7 +2880,7 @@ FIXME## 4
 
 * Lectura
 
-FIXME## 0
+#-> languageLearning,## 0
 
 {"note": "[forum-helveticum.ch/fr/](https://forum-helveticum.ch/fr/)", "type": "readingMaterial", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "multi"},
 {"note": "[libgen.is/search.php?&req=scrum&phrase=1&view=simple&column=def&sort=language&sortmode=DESC](http://libgen.is/search.php?&req=scrum&phrase=1&view=simple&column=def&sort=language&sortmode=DESC)", "type": "readingMaterial", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "multi"},
@@ -2929,7 +2929,7 @@ FIXME## 0
 {"note": "Polyglot memes.", "type": "readingMaterial", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "multi"},
 {"note": "[Political Science Library](https://vk.com/politicalbooksion)", "type": "readingMaterial", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "multi"},
 
-FIXME## 1
+#-> languageLearning,## 1
 {"note": "[everything2.com/](http://everything2.com/)", "type": "readingMaterial", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "EN"},
 {"note": "[loyalbooks.com/](http://www.loyalbooks.com/)", "type": "readingMaterial", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "EN"},
 {"note": "[thriftbooks.com/](http://www.thriftbooks.com/)", "type": "readingMaterial", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "EN"},
@@ -5746,7 +5746,7 @@ FIXME## 1
 {"note": "[mah.se/PageFiles/62109/Bildning%20och%20kunskap.pdf](https://www.mah.se/PageFiles/62109/Bildning%20och%20kunskap.pdf)", "type": "readingMaterial", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "NO/SV/DA"},
 {"note": "[nikk.no/](http://www.nikk.no/)", "type": "readingMaterial", "tags": ["languageLearning", "", ""], "status": "toRead", "language": "NO/SV/DA"},
 
-FIXME## 17
+#-> languageLearning,## 17
 * [Beowulf - Wikisource, the free online library](https://en.wikisource.org/wiki/Beowulf)
 * [beowulf.pdf](http://www.mit.edu/~jrising/webres/beowulf.pdf)
 * [I. Beówulf: an Anglo-Saxon poem. II. The fight at Finnsburh: a fragment : Harrison, James Albert, 1848-1911, ed : Free Download, Borrow, and Streaming : Internet Archive](https://archive.org/details/cu31924031292604/page/n11)
@@ -5760,7 +5760,7 @@ FIXME## 17
 * [The Canterbury Tales](http://www.librarius.com/cantales.htm)
 * [The Canterbury Tales by Geoffrey Chaucer](http://www.gutenberg.org/files/22120/22120-h/22120-h.htm#prologue)
 
-FIXME## 18
+#-> languageLearning,## 18
 * [Идиш с Шолом-Алейхемом. Избранные рассказы.](http://library.lol/main/9EF9B74C633A083A1164157EC1B875F8)
 * [Sholem Aleichem Works (Open Library)](https://openlibrary.org/authors/OL144345A/Sholem_Aleichem)
 * [booknik.ru/today/non-fiction/kak-perestat-boyatsya-ivrita-i-nachat-ego-uchit/](http://booknik.ru/today/non-fiction/kak-perestat-boyatsya-ivrita-i-nachat-ego-uchit/)
@@ -5778,7 +5778,7 @@ FIXME## 18
 * [The Aramaic New Testament | Galilean Aramaic in the Context of Early Christianity](http://aramaicnt.org/)
 * Hébreu Biblique.
 
-FIXME## 19
+#-> languageLearning,## 19
 * [Sanskrit Periodicals : Newspapers and Magazines](https://sanskritdocuments.org/newspapers/)
 * [Learning Hindi!](http://www.learning-hindi.com/)
 * [matthew1.pdf](http://www.sanskritweb.net/sansdocs/matthew1.pdf)
@@ -5793,7 +5793,7 @@ FIXME## 19
 * [Today's News](http://mpinfo.org/news/sanskritnews.aspx)
 * [Hindi Alphabet](http://learn-hindi-online.com/hindi-alphabet/)
 
-FIXME## 20
+#-> languageLearning,## 20
 * [Хирагана](https://ru.wiktionary.org/wiki/%E3%81%AE)
 * [nkmk note](https://note.nkmk.me/)
 * [Imparare il giapponese con impararegiapponese.com –](http://impararegiapponese.com/)
@@ -5801,12 +5801,12 @@ FIXME## 20
 * [Aprende Japones.com - Tu Curso gratis para Aprender Japonés](http://www.aprendejapones.com/)
 * [Easy Japanese, free audio &amp; text lessons | NHK WORLD RADIO JAPAN](https://www.nhk.or.jp/lesson/)
 
-FIXME## 20b
+#-> languageLearning,## 20b
 * [Хангиль — Вікіпедія](https://uk.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BD%D0%B3%D0%B8%D0%BB%D1%8C)
 * [Apprendre le coréen - Grammaire et Vocabulaire](http://mylanguages.org/fr/coreen_apprendre.php)
 * [**Coréen Actuel | Apprendre le coréen - Cours gratuits de coréen en ligne](http://www.coreen-actuel.com/)
 * [**Cours de Coréen](http://www.cours-coreen.fr/index.php)
-FIXME## 21
+#-> languageLearning,## 21
 * [Learn Swahili - Grammar and Vocabulary](http://mylanguages.org/learn_swahili.php)
 * [wendybelcher.com/african-literature/translated-african-language-novels/](https://wendybelcher.com/african-literature/translated-african-language-novels/)
 * [de1lib.org/s/?languages%5B%5D=swahili](https://de1lib.org/s/?languages%5B%5D=swahili)
@@ -5817,14 +5817,14 @@ FIXME## 21
 * [Les yeux de la ville](http://www.childrenslibrary.org/icdl/BookPreview?bookid=machoya_00460007&route=text&lang=French&msg=&ilang=French)*
 * [Generales](https://de.wikivoyage.org/wiki/Sprachf%C3%BChrer)
 
-FIXME## 22
+#-> languageLearning,## 22
 * [quechua-ayacucho.org/](http://quechua-ayacucho.org/)
 
-FIXME## 23
+#-> languageLearning,## 23
 * [Leer Indonesisch online - E-learning gratis](https://www.loecsen.com/nl/cursussen-indonesisch)
 * [LINE WEBTOON - Global Digital Free Comics Service Platform](http://www.webtoons.com/id)
 
-FIXME## 24
+#-> languageLearning,## 24
 * [Djalãl ed-Din Roemi](http://www.khamush.com/dutch/)
 * [rumi](https://www.youtube.com/results?search_query=rumi+poetry+farsi)
 * [Rumi Poetry page 1 - Persian and Iranian Poetry at Best Iran Travel.com](http://www.bestirantravel.com/culture/poetry/rumi_poetry.html)
@@ -5832,10 +5832,10 @@ FIXME## 24
 * [Masnavi Farsi and English : Free Download &amp; Streaming : Internet Archive](https://archive.org/details/Masnavi1Faen)
 * [Persian with Rumi (transl.)
 
-FIXME## 25
+#-> languageLearning,## 25
 * Suomi
 
-FIXME## 2
+#-> languageLearning,## 2
 * [**Esperanto – Esperanto: the international language](http://esperanto.net/en/)
 * [Interlingua (IALA) — Wikipédia](https://fr.wikipedia.org/wiki/Interlingua_%28IALA%29)
 * [Site multilingue pour apprendre la langue internationale espéranto - lernu.net](https://lernu.net/fr)
@@ -5850,7 +5850,7 @@ FIXME## 2
 * [Esperanto Books](https://b-ok.cc/s/?language=esperanto)
 * Esperanto Books*
 * Audio
-FIXME## 0
+#-> languageLearning,audio,## 0
 * [lumenvox.com/tts-demonstration/](https://www.lumenvox.com/tts-demonstration/)
 * [Linguae per Carmina](https://docs.google.com/spreadsheets/d/1dPj6PNHYxvdu8o69EnLkLnaHmCzOs4rEncdqlnVm_mE/edit?usp=sharing)
 * [The Little Prince 小王子, 星の王子さま, Hoàng Tử Bé in Chinese, Japanese, Vietnamese Comparing Translations](http://cjvlang.com/petitprince/index.html)
@@ -5869,7 +5869,7 @@ FIXME## 0
 * [speechpool.net/fr/login?view=registration](http://speechpool.net/fr/login?view=registration)
 * [webgate.ec.europa.eu/sr/](https://webgate.ec.europa.eu/sr/)
 
-FIXME## 1
+#-> languageLearning,audio,## 1
 * [fods12.podbean.com/](https://fods12.podbean.com/)
 * [The Daily Stoic](https://castbox.fm/channel/id1399054?country=fr)
 * [Very Bad Wizards](https://castbox.fm/channel/id2120302?country=fr)
@@ -6035,7 +6035,7 @@ FIXME## 1
 * [Practical AI](https://changelog.com/practicalai)
 * [Manifold](https://manifoldlearning.com/podcasts/)
 
-FIXME## 2
+#-> languageLearning,audio,## 2
 * [myaudiolib.ru/](http://myaudiolib.ru/)
 * [arzamas.academy/](http://arzamas.academy/)
 * [Newочем](https://newochem.podster.fm/)
@@ -6147,7 +6147,7 @@ FIXME## 2
 * LS Philosophy | Философия
 * [ochenporusski.com/](http://ochenporusski.com/)
 
-FIXME## 3
+#-> languageLearning,audio,## 3
 * [99podcasts.de/](http://99podcasts.de/)
 * [live.audials.com/de#!podcast](http://live.audials.com/de#!podcast)
 * Braincast
@@ -6347,7 +6347,7 @@ FIXME## 3
 * [SchwätzerCast](https://www.podcast.de/podcast/625090/archiv/)
 * [Knete und Rakete!](https://www.podcast.de/podcast/157888/archiv/)
 
-FIXME## 4
+#-> languageLearning,audio,## 4
 * [ФІЛОСОФІЯ - КУРС ЛЕКЦІЙ | Аудіокнига](https://www.youtube.com/watch?v=fD4rcNXuynk&list=PL47_m_Ga4AecjUmVRXaWZnV4olQTXr-c2)
 * [Байки програміста](https://podcaster.in.ua/category/channel/tales-of-programmer/)
 * [Культурний лекторій](https://podtail.com/ru/podcast/%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%BD%D0%B8%D0%B9-%D0%BB%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D1%96%D0%B9/)
@@ -6425,7 +6425,7 @@ FIXME## 4
 * [Океан Ельзи - Етюд](https://www.youtube.com/watch?v=AqwmV0RmKgU&list=PLVWtXi_Jrj_107IGfxlFXnWNHz-vhPGm6&index=13)
 * [ТНМК - Восени (480р)](https://www.youtube.com/watch?v=61zrPzcNMgI&list=PLVWtXi_Jrj_107IGfxlFXnWNHz-vhPGm6&index=8)
 
-FIXME## 5
+#-> languageLearning,audio,## 5
 * [theconversation.com/fr/topics/podcasts-37406](https://theconversation.com/fr/topics/podcasts-37406)
 * 100% foot anglais
 * [Actu Foot](https://www.youtube.com/channel/UC83d2OKjumc4ypLqHrA5qKQ)
@@ -6583,7 +6583,7 @@ FIXME## 5
 * Album: Michel Onfray: laïcité et religion
 * [Tech Café](https://techcafe.fr/)
 
-FIXME## 6
+#-> languageLearning,audio,## 6
 * [Cómo funcionan las cosas](https://www.ivoox.com/en/podcast-como-funcionan-cosas_sq_f11332188_1.html)
 * [Spanish Brief Dialogues](https://www.123teachme.com/learn_spanish/spanish_dialogues_index)
 * [cadenaser.com/tag/filosofia/a/](http://cadenaser.com/tag/filosofia/a/)
@@ -6666,7 +6666,7 @@ FIXME## 6
 * [No Sé Qué Hacemos Aquí – Podcast – Podtail](https://podtail.com/es/podcast/no-se-que-hacemos-aqui/)
 * [ted.com/talks?language=es&sort=newest](https://www.ted.com/talks?language=es&sort=newest)
 
-FIXME## 7
+#-> languageLearning,audio,## 7
 * [Cidadão não!](https://castbox.fm/vc/3445014)
 * [Filosofia Pop](https://filosofiapop.com.br/category/podcast/)
 * [Portal Deviante](https://www.listennotes.com/podcasts/portal-deviante-portal-deviante-m2HBYSaICXu/)
@@ -6745,7 +6745,7 @@ FIXME## 7
 * Podcast a la N
 * Antropocast: navegando pela Antropologia
 
-FIXME## 8
+#-> languageLearning,audio,## 8
 * [ted.com/talks?language=it&sort=newest](https://www.ted.com/talks?language=it&sort=newest)
 * [Audiocast](http://www.audiocast.it/)
 * [audiocast.it/podlist](http://www.audiocast.it/podlist)
@@ -6827,7 +6827,7 @@ FIXME## 8
 * Storie di geopolitica
 * [NEK. Una parte de mí (full album/álbum completo)](https://www.youtube.com/watch?v=FPu6zcuzlyw&list=PLVWtXi_Jrj_107IGfxlFXnWNHz-vhPGm6&index=10)
 
-FIXME## 9
+#-> languageLearning,audio,## 9
 * [LPP](https://www.youtube.com/playlist?list=PL5s047tsk6s4Xfmgi2BJ3kt6keVf5z_0N)
 * [Sciware](https://www.sciwarepod.com/)
 * [sciwarepod.com/](https://sciwarepod.com/)
@@ -6885,7 +6885,7 @@ FIXME## 9
 * [arabicpod.net/](http://arabicpod.net/)
 * [facebook.com/podcastarabia](https://www.facebook.com/podcastarabia)
 
-FIXME## 9b
+#-> languageLearning,audio,## 9b
 * → [News in Levantine?](https://www.reddit.com/r/learn_arabic/comments/adh1kp/news_in_levantine/)
 * [Levantine Arabic, made easier](https://open.spotify.com/show/07m30MkTlU6FRjZ6UE70rV)
 * [soundcloud.com/talkinarabic](https://soundcloud.com/talkinarabic)
@@ -6906,7 +6906,7 @@ FIXME## 9b
 * Leb with Leina
 * Alhasan's Arabic Pod
 
-FIXME## 10
+#-> languageLearning,audio,## 10
 * <> [broadcast-live.com/china.html](https://broadcast-live.com/china.html)
 * <> [ttsmp3.com/text-to-speech/Chinese%20Mandarin/](https://ttsmp3.com/text-to-speech/Chinese%20Mandarin/)
 * <> [learn-chinese.com/chinese-reading-practice/](https://www.learn-chinese.com/chinese-reading-practice/)
@@ -6937,7 +6937,7 @@ FIXME## 10
 * [ChinesePod](https://www.youtube.com/user/ChinesePodTV)
 * [Audio Chapters from Chinese Book of Mormon](https://www.mandarintools.com/cbom/audiobom/index.html)
 
-FIXME## 11
+#-> languageLearning,audio,## 11
 * <> [Dickinson Audio and Text](http://dcc.dickinson.edu/view-audio)
 * <> [Latinitium](https://www.latinitium.com/latin-audio-archive)
 * → [rhapsodes.fll.vt.edu/Latin.htm](http://www.rhapsodes.fll.vt.edu/Latin.htm)
@@ -6971,7 +6971,7 @@ FIXME## 11
 * Aeneid Book 1 , Latin poetry recited lines 1 - 60 arma virumque ad dare jussus habenas.avide Evan der Millner
 * [Home Page of Evan Miller](http://www.evanmiller.org/)
 
-FIXME## 11/12
+#-> languageLearning,audio,## 11/12
 * Radio Bremen: Nuntii Latini
 * [luke-ranieri.myshopify.com/products/gospel-of-john-english-latin-greek-trilingual-audiobook-text](https://luke-ranieri.myshopify.com/products/gospel-of-john-english-latin-greek-trilingual-audiobook-text)
 * [John 09 Luke Ranieri](https://vk.com/wall-70079725_26945)
@@ -6982,7 +6982,7 @@ FIXME## 11/12
 * [TEXTOS Y AUDIOS EN GRIEGO | Faetonte | Lenguas y cultura grecolatina, textos y audio](https://helenika.wordpress.com/about/1o-de-bachillerato-griego/)
 * [Latine audio - Ἑλληνιστὶ ἀκούω](https://www.facebook.com/Latine-audio-%E1%BC%99%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CF%83%CF%84%E1%BD%B6-%E1%BC%80%CE%BA%CE%BF%CF%8D%CF%89-106559531403731/?__cft__[0]=AZXzrPIJZJk3nEQ6obhyPxHjKua_zjhK_1En60gtTyqf4Z7AwdkUzaPf-hflJDrtkwhIiaxcWAGHWQFuIRpRa7aP2LdoFkhOGg0flTky_skJZwNR2YB0iwg4_9kdPax0Tpgfhn9BsJkxtB_mzV08Wp1RxI7e9fIVVNE_b-0eW3uWf6mXJst6bCkrnxTczkdJrb0Ijy2HbOCBznA5SAKdE4bA4fa_lar4-AHh62YHJhCAjOKJ_HvbEjQccR19gpnbL5E&__tn__=-UC%2CP-y-R)
 
-FIXME## 1
+#-> languageLearning,audio,## 1
 * [** [heautonpaideuomenos.blogspot.com/2015/01/blog-post.html](https://heautonpaideuomenos.blogspot.com/2015/01/blog-post.html)**](https://heautonpaideuomenos.blogspot.com/2015/01/blog-post.html](https://heautonpaideuomenos.blogspot.com/2015/01/blog-post.html)**)
 * [GRC Reconstructed Podcast](https://open.spotify.com/show/1Mi8qFuBFCcSnf4lPeIb8u?si=Ofltq-drTjujc6HAK4d-RQ)
 * [ὁ διὰ νυκτὸς διάλογος](https://open.spotify.com/show/0JgV3V6FiZF2YqVZhM2Xyu?si=KCXG6VG2TyqfOTbugKz5jA)
@@ -7034,10 +7034,10 @@ FIXME## 1
 * [solo cd audio greco antico](https://www.assimil.it/catalogo/libro/9614/il-greco-antico-4-cd-audio)
 * [podomatic.com/podcasts/odianuktosdialogos](https://www.podomatic.com/podcasts/odianuktosdialogos)
 
-FIXME## 12b
+#-> languageLearning,audio,## 12b
 * [Helene Kemiktsi on Vimeo](https://vimeo.com/user11593007)
 
-FIXME## 13
+#-> languageLearning,audio,## 13
 * <><><> [F. M. Dostojevski: Zločin i kazna ❇️ AUDIO KNJIGA na hrvatskom](https://youtu.be/CFFbqvi8BpY)
 * → [Spisak svih audio knjiga](https://www.facebook.com/notes/mp3book-srbija-audio-knjige/spisak-svih-audio-knjiga/1508312522514797/)
 * → [podkast hrvatski sport - Ecosia](https://www.ecosia.org/search?p=1&q=podkast+hrvatski+sport)
@@ -7083,12 +7083,12 @@ FIXME## 13
 * Frekvenca X
 * Granice Nauki
 
-FIXME## 13b
+#-> languageLearning,audio,## 13b
 * [Пошук аудіозаписів за запитом Malý princ](https://vk.com/search?c%5Bper_page%5D=200&c%5Bq%5D=Mal%C3%BD%20princ&c%5Bsection%5D=audio)
 * [RTS Obrazovno-naučni program - Zvanični kanal](https://youtube.com/user/ObrazovnoNaucniRTS?feature=hovercard)
 * [Žoga je okrogla](https://val202.rtvslo.si/zoga-je-okrogla/)
 
-FIXME## 14
+#-> languageLearning,audio,## 14
 * [open.spotify.com/episode/4cLwiILtHAdwiDbhWHsV9Q?si=y9pvLqs_ROq2fBxDWQBaJQ&nd=1](https://open.spotify.com/episode/4cLwiILtHAdwiDbhWHsV9Q?si=y9pvLqs_ROq2fBxDWQBaJQ&nd=1) - Celibacy pod
 * <> [kritischdenken.info/](https://www.kritischdenken.info/)
 * <> [deburen.eu/nl/podcasts-feeds](http://www.deburen.eu/nl/podcasts-feeds)
@@ -7122,7 +7122,7 @@ FIXME## 14
 * Nederlands leren met Fatiha
 * Zeg het in Nederlands
 
-FIXME## 15
+#-> languageLearning,audio,## 15
 * <> [audycje.tokfm.pl/audycje-tokfm](https://audycje.tokfm.pl/audycje-tokfm)
 * <> [Historia Polski dla Dzieci](https://historiawgdzieci.pl/podkast/lista)
 * Pod Budą
@@ -7141,7 +7141,7 @@ FIXME## 15
 * [Pan Tadeusz + audio](https://vk.com/wall-42002404_76884)
 * [HP3 PL](https://vk.com/wall-143932385_192)
 
-FIXME## 16a
+#-> languageLearning,audio,## 16a
 * <> [lydbok.to](https://lydbok.to/)
 * <> [Eventyrstund for de små](https://www.youtube.com/playlist?list=PLkx8SNtI41hFePPEc9SlCWQwysET4BOrL)
 * <> [Learn Norwegian Naturally | Learn Norwegian with NorwegianLearning - Subtitlesde Learn Norwegian Naturally](https://www.youtube.com/channel/UCXCgk1-m-KnuAI2Xmf85wNw)
@@ -7231,7 +7231,7 @@ FIXME## 16a
 * Hvorfor det?
 * Sprâksnakk
 
-FIXME## 16b
+#-> languageLearning,audio,## 16b
 * <> [poddtoppen.se/](https://poddtoppen.se/)
 * <> IFN poddradio
 * <> [Internet radio Sverige, lyssna på webbradio FM, radiokanaler](http://www.radio.org.se/)
@@ -7241,24 +7241,25 @@ FIXME## 16b
 * Schwedisch Kostenlos
 * [Allsvenska Podden - Aftonbladet Podcast](https://podcast.aftonbladet.se/p/allsvenska-podden/)
 
-FIXME## 16c
+#-> languageLearning,audio,## 16c
 * [podtail.com/podcast/deutschstunde](https://podtail.com/podcast/deutschstunde/related/)
 * [Filosofikum](https://podtail.com/podcast/filosofikum/)
 * [Fjelles Fodboldfjol | Lytbare podcasts](http://lytbar.dk/wordpress/?cat=12)
 
-FIXME## 18
+#-> languageLearning,audio,## 18
 * [Tevye der Milkhiker](https://archive.org/details/251SholemAleichemKatontiIAmUnworthy.ReadByShmuelAtzmon)
 * [Tevye text](https://archive.org/details/nybc202585/page/n18/mode/2up)
 * [Greek & Hebrew One-Year Bible](https://open.spotify.com/show/4LJa8zipNwQU9rVNAVT03s?si=tQsI1NVVSs6_XrBdTq88Cg)
 
-FIXME## 19
+#-> languageLearning,audio,## 19
 * Short Sanskrit Stories
 
-FIXME## 20+
+#-> languageLearning,audio,## 20+
 * [Esperanto Self-Taught with Phonetic Pronunciation, Volume 1](https://castbox.fm/vc/22315)
 * [Esperanto AniBooks by BookBox | Official Playlist](https://www.youtube.com/playlist?list=PLPDzF0B97OtGYLPwIiGpRjIXigF6tn1tb)*
 * Otros
 
+#-> languageLearning,SORT
 * Netflix List
 * Haus des Geldes
 * Rick and Morty
@@ -7439,75 +7440,13 @@ FIXME## 20+
 * [ ]  Parks and Rec
 * [ ]  The Good Place
 * [ ]  The Office UK
-* Multilingual
-FIXME## General
-FIXME## Muchos / subtítulos / otros
-FIXME## Instrucción
-FIXME## Mejores
-FIXME## <-
-FIXME## Misc
-FIXME## Mixed
-FIXME## IPA
-FIXME## Teoria
-FIXME## Escritura
-FIXME## Fora
-FIXME## YouTube
-FIXME## Lectura
-FIXME## ex.ua abonnements
-FIXME## Podcast
-FIXME## Escucha
-FIXME## Audiolibros
-FIXME## Paremiology
-FIXME## Musica
-FIXME## Vocab
-FIXME## Frases y modismos
-FIXME## Traduccion
-FIXME## Tools
-FIXME## Ling
-FIXME## Videos
-* Parallel
-FIXME## LPP
-FIXME## HP
-FIXME## Daily Stoic
-FIXME## Why Evolution Is True
-FIXME## Sapiens
-FIXME## Kahneman
-FIXME## Encheiridion
-FIXME## DVC
-FIXME## HP and the Methods of Rationality
-FIXME## Alice in Wonderland
-FIXME## 7 Habits
-FIXME## BoM
-FIXME## Qur’an
-FIXME## Other
-* Language pairs
-* → see [docs.google.com/spreadsheets/d/1dzhICu3pdzn8pdR-Q_BeDq3mwBAf3KwPZb-KqY5_Log/edit#gid=999626011](https://docs.google.com/spreadsheets/d/1dzhICu3pdzn8pdR-Q_BeDq3mwBAf3KwPZb-KqY5_Log/edit#gid=999626011)
 
-FIXME## 1   ✓
-FIXME## 2   ✓
-FIXME## 3   ✓
-FIXME## 3b   ✓
-FIXME## 4   ✓
-FIXME## 5   ✓
-FIXME## 6   ✓
-FIXME## 7   ✓
-FIXME## 8   ✓
-FIXME## 9   ✓
-FIXME## 10   ✓
-FIXME## 11   ✓
-FIXME## 12   ✓
-FIXME## 13
-FIXME## 14
-FIXME## 15
-FIXME## 15b
-FIXME## 16
-FIXME## 16b
-FIXME## 16c
-FIXME## 19
-FIXME## 20
-FIXME## 21
-FIXME## 23
-* Check out
+#-> languageLearning,resource
+* Multilingual Resources: General | Muchos / subtítulos / otros | Instrucción | Mejores | <- | Misc | Mixed | IPA | Teoria | Escritura | Fora | YouTube | Lectura | ex.ua abonnements | Podcast | Escucha | Audiolibros | Paremiology | Musica | Vocab | Frases y modismos | Traduccion | Tools | Ling | Videos
+* Parallel Resources: LPP | HP | Daily Stoic | Why Evolution Is True | Sapiens | Kahneman | Encheiridion | DVC | HP and the Methods of Rationality | Alice in Wonderland | 7 Habits | BoM | Qur’an | Other | Language pairs | → see [docs.google.com/spreadsheets/d/1dzhICu3pdzn8pdR-Q_BeDq3mwBAf3KwPZb-KqY5_Log/edit#gid=999626011](https://docs.google.com/spreadsheets/d/1dzhICu3pdzn8pdR-Q_BeDq3mwBAf3KwPZb-KqY5_Log/edit#gid=999626011)
+
+
+#-> languageLearning,dictionary
 * [fluentin3months.com/free-dictionaries/](http://www.fluentin3months.com/free-dictionaries/)
 * [premium.oxforddictionaries.com/us/](https://premium.oxforddictionaries.com/us/)
 * [eudict.com/](http://eudict.com/)
@@ -7564,9 +7503,9 @@ FIXME## 23
 * [Dictionaries by Subject](https://www.lexicool.com/online-dictionaries-by-subject.asp)
 * [dictionary.cambridge.org/](http://dictionary.cambridge.org/)
 
-FIXME# Language Learning
+#-> languageLearning,# Language Learning
 
-FIXME## LA/GRC Books (Berlin Library)
+#-> languageLearning,## LA/GRC Books (Berlin Library)
 
 * Latin Synonyms for Language Lovers. Christine Meyer
 * Aesop's Fables in Latin. Laura Gibbs
@@ -7588,7 +7527,7 @@ FIXME## LA/GRC Books (Berlin Library)
 * Learn to Read Greek. Part 1  [libgen.rs/search.php?req=learn+to+read+greek&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def](https://libgen.rs/search.php?req=learn+to+read+greek&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def)
 * Learn to Read Greek. Part 2
 
-FIXME## To Sort
+#-> languageLearning,SORT
 
 * translation: [translate.fedoraproject.org/](https://translate.fedoraproject.org/)
 * feemeil [video](https://www.youtube.com/watch?v=unmUYwUATGY&pp=ygUq2YHZitmF2YrZhCBmZW1hbGUgdHYgc2hvdyBqb3JkYW4gZXBpc29kZSAx)

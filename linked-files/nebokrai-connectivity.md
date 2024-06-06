@@ -25,7 +25,7 @@
         5. writing a tracked norg file results in pushing tasks back to the taskwarrior database and a sync with the server
         6. editing elsewhere triggers a sync with Notion; pulling from another app triggers a sync pulling from Notion, with optional manual trigger to sync with Notion
 
-FIXME### Signal Integration TODO: CLEANUP
+### Signal Integration TODO: CLEANUP
 
 * Signal module:
 

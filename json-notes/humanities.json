@@ -1,6 +1,8 @@
-FIXME# H
 
-FIXME## To Sort
+#-> humanities,# H
+
+
+#-> humanities,## To Sort
 
 * Aднажды в Америке, или Чисто русская сказкn
 * Atalienische Sketch-Comedy-Gruppen
@@ -691,7 +693,8 @@ FIXME## To Sort
 * خلينا نحلم - مسجلة الأحلام من تونس ومصر    Let's Dream    Tunisia/Egypt
 * لتنزيل "رقصة ليلى" من iTunes: [apple.co/2fSojkI](http://apple.co/2fSojkI) للاستماع لأغنية "رقصة ليلى" على Apple Music: [apple.co/2ekJSsS](http://apple.co/2ekJSsS) Mashrou' Leila - Raksit Leila
 * مشروع ليلى - فساتين
-FIXME# Listening List (1)
+
+#-> humanities,# Listening List (1)
 * Carlos y Alexandra
 * Black Snow: Music of Russian Composers for Viola and Piano
 * Dmitry Paperno (piano)
@@ -1413,7 +1416,8 @@ FIXME# Listening List (1)
 * Danube
 * Schindler's List
 
-FIXME## Music Theory
+
+#-> humanities,## Music Theory
 
 * [twitchax/kord](https://github.com/twitchax/kord)
 * [kord.twitchax.com/describe](https://kord.twitchax.com/describe)
@@ -1439,7 +1443,8 @@ FIXME## Music Theory
 * [theguardian.com/music/series/a-guide-to-contemporary-classical-music](https://www.theguardian.com/music/series/a-guide-to-contemporary-classical-music)
 * [es.wikipedia.org/wiki/Anexo:Glosario_de_terminolog%C3%ADa_musical](http://es.wikipedia.org/wiki/Anexo:Glosario_de_terminolog%C3%ADa_musical)
 
-FIXME## Reading
+
+#-> humanities,## Reading
 
 * [Devil Music: A History of the Occult in Rock & Roll](https://medium.com/cuepoint/devil-music-a-history-of-the-occult-in-rock-roll-3e671a821ba5)
 * [edutopia.org/arts-music-curriculum-child-development](http://www.edutopia.org/arts-music-curriculum-child-development)
@@ -1449,7 +1454,8 @@ FIXME## Reading
 * [Вся история музыки в 65 карточках • Arzamas](https://arzamas.academy/mag/594-muztabl)
 * [wqxr.org/story/leonard-bernstein-bookshelf-intimate-look/](https://www.wqxr.org/story/leonard-bernstein-bookshelf-intimate-look/)
 
-FIXME## Books
+
+#-> humanities,## Books
 
 * [Musik in der Zeit - Zeit in der Musik](https://vk.com/doc6576953_409905954?hash=ee6b61cef2e2a13b15&dl=6f29ee3bd722fe3bae)*
 * [Musikästhetik](https://vk.com/doc6576953_409905957?hash=0ab03e1e99815d7d96&dl=1a91d2de19d391ea80)*
@@ -1470,7 +1476,8 @@ FIXME## Books
 * [see links](https://b-ok.cc/book/455687/83b91c)*
 * [The Origins of Music (see also links)](https://b-ok.cc/book/541380/0e679d)
 
-FIXME## Writing
+
+#-> humanities,## Writing
 
 * [hacklily.org/](https://www.hacklily.org/)
 * [lilypond.org/doc/v2.18/Documentation/notation/](http://lilypond.org/doc/v2.18/Documentation/notation/)
@@ -1478,7 +1485,8 @@ FIXME## Writing
 * -> ~/code/other/LaTeX\ templates/music* - Notes
 * [imslp.org/wiki/Pagina_principale](http://imslp.org/wiki/Pagina_principale)
 
-FIXME## Classical
+
+#-> humanities,## Classical
 
 * [Boccherini: String Quintets, Op. 10, 11 & 13 - YouTube](https://www.youtube.com/watch?v=mTL3ItzPIec)*
 * [Brahms - Cello Sonata No.1 in E minor, Op. 38 - YouTube](https://www.youtube.com/watch?v=9XiYrzsgWto)*
@@ -1527,7 +1535,8 @@ FIXME## Classical
 * [Robert Schumann - Piano Quintet in E flat major, Op. 44 - YouTube](https://www.youtube.com/watch?v=UQQxpJ7Pn1g)*
 * [Tchaikovsky - &quot;Invocation to Sleep&quot; (a capella) - YouTube](https://www.youtube.com/watch?v=P7E5S1EcGXs)
 
-FIXME## List of Lists
+
+#-> humanities,## List of Lists
 
 * [Quality](https://www.youtube.com/watch?v=4SOGCC6o1vw&list=PLBC44EF157FAA6385)
 * [ethnomusicologie.net/](http://www.ethnomusicologie.net/)
@@ -1576,7 +1585,8 @@ FIXME## List of Lists
 * [Bandas Do Sul 50 Sucessos As Melhores - YouTube](https://www.youtube.com/watch?v=uWgyuTMrgZ0)*
 * [Best Portuguese Rock Bands of All Time - Top Ten List - TheTopTens®](https://www.thetoptens.com/portuguese-rock-bands/)
 
-FIXME## Songs by language
+
+#-> humanities,## Songs by language
 
 * [Alison Krauss Greatest hits Full Album | The Best Of Alison Krauss, Union Station - YouTube](https://www.youtube.com/watch?v=TX-Q6JUJ2oA)*
 * [Abba - The Winner Takes It All (Extended Version) - YouTube](https://www.youtube.com/watch?v=qUmUiofIrmA)*
@@ -1652,14 +1662,16 @@ FIXME## Songs by language
 * [Relax Music - Around The World - Africa - ONE HOUR of stressless african instrumental music](https://www.youtube.com/watch?v=a3lYEigrrqI)*
 * [BEAUTIFUL AFRICAN MUSIC - FARAFI](https://www.youtube.com/watch?v=ISy5WPqUWs4)
 
-FIXME## Sheet Music
+
+#-> humanities,## Sheet Music
 
 * [free-scores.com/PDF_EN/brahms-johannes-hungarian-dances-nos-20483.pdf](https://www.free-scores.com/PDF_EN/brahms-johannes-hungarian-dances-nos-20483.pdf)
 * [onlinepianist.com/sheets/viewer/?id=2122](http://www.onlinepianist.com/sheets/viewer/?id=2122)
 * [musopen.org/sheetmusic/993/franz-liszt/hungarian-rhapsody-no-2-s-2442/](https://musopen.org/sheetmusic/993/franz-liszt/hungarian-rhapsody-no-2-s-2442/)
 * [henseltlibrary.files.wordpress.com/2009/12/grieg_piano_concerto_solo-arrbygrieg.pdf](https://henseltlibrary.files.wordpress.com/2009/12/grieg_piano_concerto_solo-arrbygrieg.pdf)
 
-FIXME## List
+
+#-> humanities,## List
 
 * [video](https://www.youtube.com/watch?v=u2pySXCmwpc)
 * [2a) ЛМ [teksty-pesenok.ru/rus-nautilus-pompilius/tekst-pesni-letuchaya-mysh-1996-akustika-lu/1866117/](http://teksty-pesenok.ru/rus-nautilus-pompilius/tekst-pesni-letuchaya-mysh-1996-akustika-lu/1866117/)
@@ -1705,7 +1717,8 @@ FIXME## List
 * SW)
 * JA)
 
-FIXME## Lieblingsmusik
+
+#-> humanities,## Lieblingsmusik
 
 * Lieblingsmusik
 * Brahms Sonate für Cello und Klavier No. 1 in E-Moll
@@ -2248,18 +2261,21 @@ FIXME## Lieblingsmusik
 * [http://inopressa.ru](http://inopressa.ru/)*
 * [perevodika.ru/*](http://perevodika.ru/*)
 * [nytimesinmoscow.livejournal.com/](https://nytimesinmoscow.livejournal.com/)
-FIXME FR
+
+#-> humanities, FR
 * [actuarabe.com/*](http://actuarabe.com/*)
 * [ritimo.org/Articles-et-traductions*](https://www.ritimo.org/Articles-et-traductions*)
 * [courrierinternational.com/*](https://www.courrierinternational.com/*)
 * [fr.sputniknews.com/presse/*](https://fr.sputniknews.com/presse/*)
 * [ru.ambafrance.org/-Revues-de-la-presse-russe-](https://ru.ambafrance.org/-Revues-de-la-presse-russe-)
-FIXME DE*
+
+#-> humanities, DE*
 * [deutschlandfunk.de/internationale-presseschau.2860.de.html*](https://www.deutschlandfunk.de/internationale-presseschau.2860.de.html*)
 * [dekoder.org/de*](https://www.dekoder.org/de*)
 * [ar.qantara.de/*](https://ar.qantara.de/*)
 * [de.sputniknews.com/zeitungen/](https://de.sputniknews.com/zeitungen/)
-FIXME IT*
+
+#-> humanities, IT*
 * [ildialogo.org/index.htm*](https://www.ildialogo.org/index.htm*)
 * [largine.it/index.php/category/la-stampa-internazionale/](http://www.largine.it/index.php/category/la-stampa-internazionale/)
 * [(https://www.lastampa.it/esteri](https://www.lastampa.it/esteri))*
@@ -2270,11 +2286,13 @@ FIXME IT*
 * ES*
 * [prensa-internacional-traducida.com/*](https://prensa-internacional-traducida.com/*)
 * [mundo.sputniknews.com/prensa/](https://mundo.sputniknews.com/prensa/)
-FIXME PT*
+
+#-> humanities, PT*
 * [dn.pt/tag/revista-de-imprensa-internacional.html](https://www.dn.pt/tag/revista-de-imprensa-internacional.html)
 * [ipri.pt/index.php/pt/publicacoes/revista-imprensa-int*](http://www.ipri.pt/index.php/pt/publicacoes/revista-imprensa-int*)
 * [eco.pt/topico/internacional/](https://eco.pt/topico/internacional/)
-FIXME AR*
+
+#-> humanities, AR*
 * [memri.org/*](https://www.memri.org/*)
 * [mc-doualiya.com/chronicles/world-press-mcd*](https://www.mc-doualiya.com/chronicles/world-press-mcd*)
 * [bbc.com/arabic/inthepress*](http://www.bbc.com/arabic/inthepress*)
@@ -2284,22 +2302,27 @@ FIXME AR*
 * [worldinarabic.com/category/daily-digest/*](http://worldinarabic.com/category/daily-digest/*)
 * [aljazeera.net/news/presstour*](http://www.aljazeera.net/news/presstour*)
 * [cpa.hypotheses.org/](https://cpa.hypotheses.org/)
-FIXME PL*
+
+#-> humanities, PL*
 * [wiadomosci.onet.pl/swiatowe-media-o-polsce*](https://wiadomosci.onet.pl/swiatowe-media-o-polsce*)
 * [dw.com/pl/start/prasa/s-11397*](https://www.dw.com/pl/start/prasa/s-11397*)
 * [oko.press/](https://oko.press/)
 * [(https://oko.press/swiatowa-prasa-o-polsce-jednym-glosem-rzadzacy-reka-w-reke-z-faszystami/](https://oko.press/swiatowa-prasa-o-polsce-jednym-glosem-rzadzacy-reka-w-reke-z-faszystami/))
-FIXME NL*
+
+#-> humanities, NL*
 * [360magazine.nl/](https://www.360magazine.nl/)
-FIXME HR*
+
+#-> humanities, HR*
 * [dw.com/hr/teme/s-9747*](https://www.dw.com/hr/teme/s-9747*)
 * [index.hr/tag/173018/strani-mediji.aspx?page=1&take=14](https://www.index.hr/tag/173018/strani-mediji.aspx?page=1&take=14)
-FIXME ZH*
+
+#-> humanities, ZH*
 * [sputniknews.cn/tags/event_waiguomeitikanzhongguo/*](http://sputniknews.cn/tags/event_waiguomeitikanzhongguo/*)
 * [big5.sputniknews.cn/tags/event_waiguomeitikanzhongguo/*](http://big5.sputniknews.cn/tags/event_waiguomeitikanzhongguo/*)
 * [epochtimes.com/gb/tag/%E5%A4%96%E5%9B%BD%E5%AA%92%E4%BD%93.html*](http://www.epochtimes.com/gb/tag/%E5%A4%96%E5%9B%BD%E5%AA%92%E4%BD%93.html*)
 * [guancha.cn/WaiMeiKanZhongGuo](https://www.guancha.cn/WaiMeiKanZhongGuo)
-FIXME 16*
+
+#-> humanities, 16*
 * [NRK](https://www.nrk.no/)
 * [Dagbladet](http://www.dagbladet.no/)
 * [Aftenposten](http://www.aftenposten.no/)
@@ -2315,7 +2338,8 @@ FIXME 16*
 * [Kristeligt Dagblad](https://www.kristeligt-dagblad.dk/)
 * [FourFourTwo - Dagbladet](https://www.dagbladet.no/fourfourtwo)
 * [Klassekampen](https://dagens.klassekampen.no/)
-FIXME 15*
+
+#-> humanities, 15*
 * [Wyborcza](http://wyborcza.pl/0,0.html?disableRedirects=true)
 * [Gazeta](http://www.gazeta.pl/0,0.html)
 * [Na Temat](http://natemat.pl/)
@@ -2325,7 +2349,8 @@ FIXME 15*
 * [Business Insider Polska](https://businessinsider.com.pl/?IR=C)
 * [Sławomir Sierakowski — Wikipédia](https://fr.wikipedia.org/wiki/S%C5%82awomir_Sierakowski)
 * [Wiadomości | Culture.pl](http://culture.pl/pl/news)
-FIXME 14*
+
+#-> humanities, 14*
 * [NRC](https://www.nrc.nl/)
 * [Vpro](https://www.vpro.nl/)
 * [Volkskrant](http://www.volkskrant.nl/)
@@ -2338,7 +2363,8 @@ FIXME 14*
 * [Joop](https://joop.bnnvara.nl/)
 * [Kunst en Cultuur artikelen: Informatie van Geschiedenis tot Feestdagen](https://kunst-en-cultuur.infonu.nl/)
 * [Omroep PowNed - YouTube - YouTube](https://www.youtube.com/channel/UCHTtspK-G7Wt68awRpTSkiw)
-FIXME 13*
+
+#-> humanities, 13*
 * [LMD](https://lemondediplomatique.hr/)
 * [Aljazeera Balkans](http://balkans.aljazeera.net/)
 * [Novosti](http://novosti.hr/)
@@ -2371,13 +2397,16 @@ FIXME 13*
 
 * [Sportnet.hr](https://sportnet.rtl.hr/)
 * [WWW.HR - CROATIAN HOMEPAGE](http://www.hr/wwwhr/news/magazines/index.en.html)
-FIXME 12*
+
+#-> humanities, 12*
 * [Akropolis World News](http://www.akwn.net/)
-FIXME 11*
+
+#-> humanities, 11*
 * [Ephemeris](http://ephemeris.alcuinus.net/)*
 * [YLE](http://areena.yle.fi/1-1931339)*
 * [RB Latein](http://www.radiobremen.de/nachrichten/latein/latein-startseite100.html)
-FIXME 10
+
+#-> humanities, 10
 * [taipeitimes.com/News/lang](http://www.taipeitimes.com/News/lang)
 * [RFI ZH](http://cn.rfi.fr/)
 * [Chinese Tools - News](http://www.chinese-tools.com/news)
@@ -2385,7 +2414,8 @@ FIXME 10
 * [News in Chinese](http://www.popupchinese.com/tools/newsinchinese)
 * [Chinesisch mit Nachrichten](http://www.new-chinese.org/chinesische-nachrichten.html)
 * [Safety Valve or Pressure Cooker? Blogs in Chinese Political Life - Hassid - 2012 - Journal of Communication - Wiley Online Library](http://onlinelibrary.wiley.com/doi/10.1111/j.1460-2466.2012.01634.x/full)
-FIXME 9*
+
+#-> humanities, 9*
 * [الجزيرة](http://www.aljazeera.net/portal)
 * [الأوسط](http://aawsat.com/)
 * [الخليج](http://www.alkhaleej.ae/portal)
@@ -2406,7 +2436,8 @@ FIXME 9*
 * [رياضة الجزيرة - الصفحة الرئيسية](http://sport.aljazeera.net/)
 * [مجلة المجلة - المجلة](http://arb.majalla.com/)*
 * [raya.com/](https://www.raya.com/)
-FIXME 8*
+
+#-> humanities, 8*
 * [Lercio](http://www.lercio.it/)
 * [Limes](http://www.limesonline.com/)
 * [Radio Vaticana](http://it.radiovaticana.va/)
@@ -2436,7 +2467,8 @@ FIXME 8*
 * [Ultime Notizie Online | Agenzia Giornalistica Italia | AGI](https://www.agi.it/)
 * [OA Sport](https://www.oasport.it/)
 * [Fondazione Italianieuropei](http://www.italianieuropei.it/)
-FIXME 7*
+
+#-> humanities, 7*
 * [Veja](http://veja.abril.com.br/)
 * [Isto é](http://www.istoe.com.br/capa)
 * [Intercept BR](https://theintercept.com/brasil/)
@@ -2476,7 +2508,8 @@ FIXME 7*
 * [Repórter Eco (Eco)](https://www.youtube.com/channel/UCxXiasLNEA7gO3k22qRsaUA)
 * [Cultura Livre](https://www.youtube.com/user/culturalivre)
 * [Cocoricó (Children)](https://www.youtube.com/user/tvcocorico)
-FIXME 6*
+
+#-> humanities, 6*
 * [WSJ ES](http://online.wsj.com/public/page/espanol-inicio.html)
 * [Democracy Now! ES](https://www.democracynow.org/es)
 * [Europa Press](https://www.youtube.com/channel/UCh_chnQ7OJPQ8mZ7vbXFpIQ)
@@ -2547,7 +2580,8 @@ FIXME 6*
 * [Milenio](http://www.milenio.com/)
 * [Democracy Now ES](https://www.democracynow.org/es)
 * [Mediomundo](http://marinaparra.blogspot.com/)
-FIXME 5*
+
+#-> humanities, 5*
 * [Toute l'Europe](https://www.touteleurope.eu/)
 * [Jeune Afrique](http://www.jeuneafrique.com/)
 * [Courier International](http://www.courrierinternational.com/)
@@ -2621,7 +2655,8 @@ FIXME 5*
 * [Recently created items in French](https://www.playbuzz.com/Latest/French/1)
 * [Les Inrocks](https://www.lesinrocks.com/)
 * [International Press Japan ES](https://internationalpress.jp/)
-FIXME 4*
+
+#-> humanities, 4*
 * [ВІСТКАР](https://www.vistkar.com/)
 * [ГРОМАДСЬКЕ](https://hromadske.ua/)
 * [Зрада](http://zrada.today/)
@@ -2666,7 +2701,8 @@ FIXME 4*
 * [znaj.ua/*](https://znaj.ua/*)
 * [hvylya.net/*](http://hvylya.net/*)
 * [polychka.com/](https://polychka.com/)
-FIXME 3*
+
+#-> humanities, 3*
 * [FAZ](http://www.faz.net/)
 * [NZZ](http://www.nzz.ch/)
 * [Zeit](http://www.zeit.de/index)
@@ -2712,7 +2748,8 @@ FIXME 3*
 * [Wilkommen Österreich - YouTube](https://www.youtube.com/results?search_query=Wilkommen+%C3%96sterreich)
 * [ZEITmagazin ONLINE](https://www.zeit.de/zeit-magazin/index)
 * [Zeitpunkt-Magazin - News](http://www.zeitpunkt-magazin.de/News)
-FIXME 2*
+
+#-> humanities, 2*
 * [Новая газета](http://www.novayagazeta.ru/)
 * [Газета](http://www.gazeta.ru/)
 * [Сноб](https://snob.ru/)
@@ -2762,7 +2799,8 @@ FIXME 2*
 * [Сноб](https://snob.ru/)
 * [Кто в курсе](https://ktovkurse.com/)
 * [novayagazeta.ru](https://novayagazeta.ru/)
-FIXME 1*
+
+#-> humanities, 1*
 * [Acculturated](http://acculturated.com/)
 * [Economist](http://economist.com/)
 * [Guardian](http://guardian.com/)
@@ -2841,24 +2879,29 @@ FIXME 1*
 * [Maven](https://www.themaven.net/economonitor/europe/)
 * [Haaretz - Israel News | Haaretz.com](https://www.haaretz.com/)
 * [guardian.ng/](https://guardian.ng/)
-FIXME 18
+
+#-> humanities, 18
 * [חדשות, ידיעות מהארץ והעולם - עיתון הארץ](https://www.haaretz.co.il/)
 * [Haaretz](https://www.haaretz.co.il/)
-FIXME 20
+
+#-> humanities, 20
 
 * [ニュース速報：読売新聞（YOMIURI ONLINE）](http://www.yomiuri.co.jp/)
 * [知乎 - 发现更大的世界](https://www.zhihu.com/)
 * [経済、株価、ビジネス、政治のニュース:日経電子版](https://www.nikkei.com/)
 * [The Asahi Shimbun](http://www.asahi.com/ajw/)
-FIXME 21
+
+#-> humanities, 21
 * [Mwananchi | Gazeti la Kiswahili linaloongoza Tanzania](http://www.mwananchi.co.tz/)
-FIXME 23
+
+#-> humanities, 23
 * [Berita Indonesia Terkini - ANTARA News](https://www.antaranews.com/)
 * [Category:Southeast Asian newspapers - Wikipedia](https://en.wikipedia.org/wiki/Category:Southeast_Asian_newspapers)
 * [Home | New Straits Times | Malaysia General Business Sports and Lifestyle News](https://www.nst.com.my/)
 * [Jernih Melihat Dunia | Berita terkini, akurat, tepercaya - Kompas.com](http://www.kompas.com/)
 * [List of newspapers in Malaysia - Wikipedia](https://en.wikipedia.org/wiki/List_of_newspapers_in_Malaysia#Malay)
-FIXME 24
+
+#-> humanities, 24
 * What are the best newspapers in Finland? Why? - Quora
 * → [ilpost.it/](https://www.ilpost.it/) *
 * H.F
@@ -2947,13 +2990,16 @@ FIXME 24
 * [Greek Word Study Tool](http://www.perseus.tufts.edu/hopper/morph?l=xrh%3Dsis&la=greek&can=xrh%3Dsis0&prior=so/n)
 * угомониться - Перевод на немецкий - примеры русский | Reverso Context
 
-FIXME 3* - Misc*
+
+#-> humanities, 3* - Misc*
 * [How would you say "mindless fun" in German - German Language Stack Exchange](https://german.stackexchange.com/questions/72916/how-would-you-say-mindless-fun-in-german)*
-FIXME 4
+
+#-> humanities, 4
 * [youtube.com/@PlatosCaveUA](https://youtube.com/@PlatosCaveUA)
 * - Misc
 
-FIXME 9
+
+#-> humanities, 9
 * [Simple Easy Beginner Arabic Comprehensible Input | Fusha (MSA)](https://youtu.be/IUN5dB_9M4c)
 * [صوت عربي الامير الصغير](https://www.google.com/search?q=%D8%B5%D9%88%D8%AA+%D8%B9%D8%B1%D8%A8%D9%8A+%D8%A7%D9%84%D8%A7%D9%85%D9%8A%D8%B1+%D8%A7%D9%84%D8%B5%D8%BA%D9%8A%D8%B1&oq=%D8%B5%D9%88%D8%AA+%D8%B9%D8%B1%D8%A8%D9%8A+%D8%A7%D9%84%D8%A7%D9%85%D9%8A%D8%B1+%D8%A7%D9%84%D8%B5%D8%BA%D9%8A%D8%B1&aqs=chrome..69i57j33i160l4j33i22i29i30.344j0j9&client=ubuntu&sourceid=chrome&ie=UTF-8)
 * [Downloads - Arabic Bible Outreach Ministry](https://www.arabicbible.com/downloads.html)*
@@ -2964,18 +3010,21 @@ FIXME 9
 * [ ]  [Арабские корни](https://docs.google.com/spreadsheets/d/1HZFYmbq8yeygsncAliUONmsgVmsexpE-ashVlDIf0cc/edit?usp=sharing)
 * [ ]  [Anki - conyugación árabe](https://docs.google.com/spreadsheets/d/1rQVp5rMG1RQFKqRnetQlIhKVIup22swPGHM5xqjEsJU/edit?usp=sharing)
 * [ ]  [فلسفة](https://docs.google.com/spreadsheets/d/1SKH-0JfyOEg4jEWGSZEXbZTR8MMs8qKGkQ933H89Z_Y/edit?usp=sharing)
-FIXME 10
+
+#-> humanities, 10
 * [ ]  [Детские книги на китайском](https://docs.google.com/spreadsheets/d/1useOYO52CnRP3MEwd72Wvpv1GWeWtaBth1Bw6wiL_MM/edit?usp=sharing)
 * [ ]  [美国反对美国 (America vs America)](https://docs.google.com/spreadsheets/d/18HFlxFg3_7xXvAvFkgRgNxPvo4NIkXg2xkwQjVVWraA/edit?usp=sharing)
 * [ ]  [Carácteres y radicales chinos](https://docs.google.com/spreadsheets/d/1Yhh-DjbaI3fxzkLzdpSnqz25xg5oWCqoyn-cj_KLQ3s/edit?usp=sharing)
 * [ ]  [HSK](https://docs.google.com/spreadsheets/d/1asid2JHKhIZ_cDD-ocB-pHya4TDltHvSF8488GgV9gc/edit?usp=sharing)
 * [ ]  [Frases mandarines](https://docs.google.com/spreadsheets/d/1IxyJ_VpmSehBvwnNVkEqzx2VDQANMbCKt0pwgQyG7WY/edit?usp=sharing)*
-FIXME 11
+
+#-> humanities, 11
 * [ ]  [Beispiele GR 11](https://docs.google.com/spreadsheets/d/1_LpmsO5mSihCK4Mr1Myzx_0JgqG7FUjcvUkQoqUUrGY/edit?usp=sharing)
 * [ ]  [Coniugazione latina](https://docs.google.com/spreadsheets/d/1SGIkkfi_r0VZMwsruw5YJTF-_Aa9FaMmgch87kf7Duw/edit?usp=sharing)
 * [ ]  [Declinazione latina](https://docs.google.com/spreadsheets/d/1f6f37EScyQ5kCC_8XYNSs1SyJqU8ddlG6bgHyK_kMBw/edit?usp=sharing)
 * [ ]  [Latin for All Occasions](https://docs.google.com/spreadsheets/d/1wi_5at3d9qazBwUiiwcUmn8S4jbvXY1lxDuHwoD4b4o/edit?usp=sharing)
-FIXME 11-12
+
+#-> humanities, 11-12
 * [ ]  [11/12 per esempi](https://docs.google.com/spreadsheets/d/1zDXL9z2yBBiT3I8a8lSJl1HaoeC1EXU6aJ_0RyMaZx4/edit?usp=sharing)
 * [ ]  [50languages la,grc](https://docs.google.com/spreadsheets/d/1n1QruvLYcmAGR0frpCjGFqWVNdpg-OuJqPRIlwdPhNM/edit?usp=sharing)
 * [ ]  [Loeb Classical Library List](https://docs.google.com/spreadsheets/d/1o9zmt1YU96aCDl-PYmwLV5--xRYOq6ctC_M0jvnOReM/edit?usp=sharing)
@@ -2985,7 +3034,8 @@ FIXME 11-12
 * [ ]  [Quiz 11/12](https://docs.google.com/spreadsheets/d/113Mpa6gBkmQy3CnS-bmB4pLdsed3vzt7xQucTP1CPGw/edit?usp=sharing)
 * [ ]  [Raizes latines y griegos](https://docs.google.com/spreadsheets/d/1WQc2PG3Uh5JgxEyf91JAWc0tQ1aBUoCijiCnJ0Pk1sQ/edit?usp=sharing)
 * [ ]  [Anki - Athenaze / Familia Romana](https://docs.google.com/spreadsheets/d/1r4rCqHIcILUID2KiiTvGDV-Ux5IaMTbVZO0Fh37SHsU/edit?usp=sharing)
-FIXME 12
+
+#-> humanities, 12
 * [ ]  [Beispiele GR 12](https://docs.google.com/spreadsheets/d/109OLDgecr_sFe7zpN-qq1TfumrvYRI8rTApy273wJog/edit?usp=sharing)
 * [ ]  [Coniugazione greca](https://docs.google.com/spreadsheets/d/13IWIAK_SSb4z4GJxTclpy8WzmliSpHTWLdG5ke9xbWE/edit?usp=sharing)
 * [ ]  [Declinazione greca](https://docs.google.com/spreadsheets/d/1LuuyaQ5GPd8BQyx0j_T6PuMsfCixQsuRCknLALBnEME/edit?usp=sharing)
@@ -3006,14 +3056,17 @@ FIXME 12
 * [flibusta.club/b/622961/read](https://flibusta.club/b/622961/read)
 * [МАРК АВРЕЛИЙ Наедине с собой Размышления](https://www.youtube.com/watch?v=VuEsRU-_9ck)*
 
-FIXME 14
+
+#-> humanities, 14
 * [En nou is het afgelopen met telefoons in de klas | De Avondshow met Arjen Lubach (S3)](https://www.youtube.com/watch?v=cclEuSxFd_M)
 * [DE 5E GESCHIEDENISLES DIE JE NOOIT HEBT GEHAD! - YouTube](https://www.youtube.com/watch?v=fG42JX_7hFA)*
 
-FIXME# Approach
+
+#-> humanities,# Approach
 * Language learning tips: ||| * mnemonics ||| * minute-long memorized speeches, stories, etc. ||| * translated phrases → memorize and analyze grammar ||| * speak from day 1 ||| * use “cheat notes” in early conversations ||| * Jack Sparrow trick ||| * don’t multitask! ||| * take exams ||| * focus on speaking ||| * think in the language ||| * native speaker points: clothing sense, body language, distance between speakers, facial expressions, topics discussed, general behavior, outlook on life / worldview ||| * have a native speaker mimic you, then say it correctly ||| * master intonation ||| * be passionate about each individual language! ||| * laddering: 1 language via another ||| * courses: colloquial, teach yourself, langenscheidt ||| * keep a language blog / journal ||| * learn conversational connectors (you know / well / to be honest / etc.) ||| * use bilingual dictionaries, including reading them for fun ||| * use monolingual dictionaries ||| 
 * [zeeguu.org/](https://www.zeeguu.org/) ||| 
-FIXME Appunti
+
+#-> humanities, Appunti
 * Biblia paralel en idiomas parecidos (eslávicos, nórdicos, etc.)
 * Phrasen zo 50lang-Liste hinzufügen
 * Omniglot-Phrasen scrapen
@@ -3763,9 +3816,11 @@ FIXME Appunti
 * [Ted Talks](https://ted2srt.org/)
 * [On Being](https://onbeing.org/)
 
-FIXME# Comedy (in different accents)
 
-FIXME### Studio C (American, standard)
+#-> humanities,# Comedy (in different accents)
+
+
+#-> humanities,### Studio C (American, standard)
 
 * Favorites
 * [Channel Surfing](https://www.youtube.com/watch?v=Vg0s8Ard2oM)
@@ -3819,7 +3874,8 @@ FIXME### Studio C (American, standard)
 * [Captain Literally, Part 3](https://www.youtube.com/watch?v=l2mDz8dVyZQ&list=PLGVpxD1HlmJ-dLBoRLP91gvRJcFt9CkhQ&index=3)
 * [Captain Literally, Part 4](https://www.youtube.com/watch?v=uhZu5R0yHE8&list=PLGVpxD1HlmJ-dLBoRLP91gvRJcFt9CkhQ&index=4)*
 
-FIXME### Foil, Arms and Hog (Irish)
+
+#-> humanities,### Foil, Arms and Hog (Irish)
 
 * Favorites
 * [6 Days in Isolation with Mum | According to Foil, Arms and Hog](https://www.youtube.com/watch?v=kcsrfmqMABY)
@@ -3838,7 +3894,8 @@ FIXME### Foil, Arms and Hog (Irish)
 * [Telling your Family you're Vegan - Foil Arms and Hog](https://www.youtube.com/watch?v=HFC0vUhbULs)
 * [A Motivational Speaker gives a Talk to Prisoners - Foil Arms and Hog](https://www.youtube.com/watch?v=C7dSx3Lvp9w)*
 
-FIXME### Mitchell and Webb (English, standard)
+
+#-> humanities,### Mitchell and Webb (English, standard)
 
 * Favorites
 * [Inebriati](https://www.youtube.com/watch?v=-Zj50DmBFp0&t=15s)
@@ -3861,7 +3918,8 @@ FIXME### Mitchell and Webb (English, standard)
 * [Kitchen Nightmares](https://www.youtube.com/watch?v=i1NfWIaYed8)
 * [Couple Arguing](https://www.youtube.com/watch?v=iB_1kAFK9oU)*
 
-FIXME### Rachel Parris (English, Standard)
+
+#-> humanities,### Rachel Parris (English, Standard)
 
 * Favorites
 * [How Not to Sexually Harass People](https://www.youtube.com/watch?v=TMfStd3v330)
@@ -3872,11 +3930,13 @@ FIXME### Rachel Parris (English, Standard)
 * [Millenials](https://www.youtube.com/watch?v=mWY8OswDG2s)
 * [Feminism](https://www.youtube.com/watch?v=rTcIERHiJiE)*
 
-FIXME## Key & Peele
+
+#-> humanities,## Key & Peele
 
 * Favorites
 
-FIXME### SNL (American, standard)
+
+#-> humanities,### SNL (American, standard)
 
 * Favorites
 * [What's That Name](https://www.youtube.com/watch?v=rImxuuD_kwM)
@@ -3892,39 +3952,52 @@ FIXME### SNL (American, standard)
 * [Neo-Confederate Meeting](https://www.youtube.com/watch?v=nKcUOUYzDXA)
 * [Threw It on the Ground](https://www.youtube.com/watch?v=RTgBfRTABs4)*
 
-FIXME### Last Week Tonight (English)
 
-FIXME### Daniel Tosh (standard American)
+#-> humanities,### Last Week Tonight (English)
 
-FIXME### Anthony Jeselnik (standard American)
 
-FIXME### Josh Johnson (American, southern)
+#-> humanities,### Daniel Tosh (standard American)
+
+
+#-> humanities,### Anthony Jeselnik (standard American)
+
+
+#-> humanities,### Josh Johnson (American, southern)
 
 * [Full Set](https://www.youtube.com/watch?v=ybnvLRHVbjM)
 * [Catfishing the KKK](https://www.youtube.com/watch?v=WULYEegtTGc)
 
-FIXME### Frankie Boyle (Scottish)
 
-FIXME### Jimmy Carr (standard British English, but good at accents)
+#-> humanities,### Frankie Boyle (Scottish)
+
+
+#-> humanities,### Jimmy Carr (standard British English, but good at accents)
 
 * [Jimmy's Guide To Accents | Jimmy Carr](https://www.youtube.com/watch?v=Q92-tiNtw8A)
 * [Show 1](https://www.youtube.com/watch?v=82N5z_7M7Cw)
 * [Show 2](https://www.youtube.com/watch?v=rmSknklwJT8&t=1244s)
 * [Show 3](https://www.youtube.com/watch?v=4pCGLT65uMU&t=1605s)
 
-FIXME### Trevor Noah (South African, extremely good at accents)
 
-FIXME### Aisling Bea (Irish)
+#-> humanities,### Trevor Noah (South African, extremely good at accents)
 
-FIXME### Tiff Stevenson (English)
 
-FIXME### Ed Byrne (Irish)
+#-> humanities,### Aisling Bea (Irish)
 
-FIXME### Jim Jefferies (Australian)
 
-FIXME### Andy Parsons (English - Cornwall Accent)
+#-> humanities,### Tiff Stevenson (English)
 
-FIXME### Dave Chappelle (U.S. - AAVE)
+
+#-> humanities,### Ed Byrne (Irish)
+
+
+#-> humanities,### Jim Jefferies (Australian)
+
+
+#-> humanities,### Andy Parsons (English - Cornwall Accent)
+
+
+#-> humanities,### Dave Chappelle (U.S. - AAVE)
 
 * [German Learning Resources](...)
 * hlang A modern language-learning platform | [linuxlinks.com/librelingo-language-learning-platform/*](https://www.linuxlinks.com/librelingo-language-learning-platform/*) hlang Extensible flashcard learning program | [linuxlinks.com/Anki/*](https://www.linuxlinks.com/Anki/*) hlang Foreign Language Text Reader | [linuxlinks.com/FLTR/*](https://www.linuxlinks.com/FLTR/*) hlang French and Italian conjugator | [linuxlinks.com/Verbiste/*](https://www.linuxlinks.com/Verbiste/*) hlang Front-end for the French computing dictionary Jargon Informatique | [linuxlinks.com/jargon-informatique-front-end-for-the-french-computing-dictionary-jargon-informatique/*](https://www.linuxlinks.com/jargon-informatique-front-end-for-the-french-computing-dictionary-jargon-informatique/*) hlang Japanese vocabulary and kanji dictionary | [linuxlinks.com/TagainiJisho/*](https://www.linuxlinks.com/TagainiJisho/*) hlang Language learning application based on LibreLingo |https://www.linuxlinks.com/glossaico-language-learning-application-librelingo/* hlang Language-mining tool to help English speakers understand Chinese | [linuxlinks.com/StepintoChinese/*](https://www.linuxlinks.com/StepintoChinese/*) hlang Learn words in a foreign language | [linuxlinks.com/OpenTeacher/*](https://www.linuxlinks.com/OpenTeacher/*) hlang Pronunciation trainer - The KDE Education Project | [linuxlinks.com/artikulate-pronunciation-trainer-the-kde-education-project/*](https://www.linuxlinks.com/artikulate-pronunciation-trainer-the-kde-education-project/*) hlang Read and listen, save and test words in context | [linuxlinks.com/LearningWithTexts/*](https://www.linuxlinks.com/LearningWithTexts/*) hlang Train your oral skills in foreign languages | [linuxlinks.com/Perroquet/*](https://www.linuxlinks.com/Perroquet/*) hlang Vocabulary trainer for KDE 5 | [linuxlinks.com/Parley/*](https://www.linuxlinks.com/Parley/*)
@@ -4124,36 +4197,42 @@ FIXME### Dave Chappelle (U.S. - AAVE)
 * [Thomas Hardy](https://vk.com/doc-50140096_484644625?hash=06adc85f7dda48868d&dl=2dfbf0c43af2fabd26)
 * [Walden and Other Writings](https://vk.com/doc491339552_474111623?hash=6427f4d77c6fe20eec&dl=b743286d9a6592df62)
 
-FIXME# Misc
+
+#-> humanities,# Misc
 * recursos*
 * [en.wikibooks.org/wiki/Main_Page*](https://en.wikibooks.org/wiki/Main_Page*)
 * [ru.wikisource.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0*](https://ru.wikisource.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0*)
 * [intratext.com/Catalogo/](http://www.intratext.com/Catalogo/)
-FIXME multilinguales*
+
+#-> humanities, multilinguales*
 * [tsowell.com/translat.html*](http://www.tsowell.com/translat.html*)
 * [amazon.com/gp/registry/wishlist/1DMEL9T0GNTQP/ref=cm_wl_list_o_1?sort=universal-price-desc&view=null*](http://www.amazon.com/gp/registry/wishlist/1DMEL9T0GNTQP/ref=cm_wl_list_o_1?sort=universal-price-desc&view=null*)
 * [freebookofmormon.wordpress.com/international-versions/*](https://freebookofmormon.wordpress.com/international-versions/*)
 * [en.wikipedia.org/wiki/List_of_literary_works_by_number_of_translations](https://en.wikipedia.org/wiki/List_of_literary_works_by_number_of_translations)
-FIXME foros*
+
+#-> humanities, foros*
 * [forumactif.com/annuaire/art-culture-et-loisirs/litterature-poesie*](http://www.forumactif.com/annuaire/art-culture-et-loisirs/litterature-poesie*)
 * [fdl.xooit.be/index.php](http://fdl.xooit.be/index.php)
 * Brodsky list
 * [Éloge de la littérature](https://www.erudit.org/fr/revues/liberte/1980-v22-n1-liberte1030596/29831ac.pdf)
 * [Qu'est-ce que la littérature ?](https://ec56229aec51f1baff1d-185c3068e22352c56024573e929788ff.ssl.cf1.rackcdn.com/attachments/original/3/1/2/002621312.pdf)
 * [QU'EST-CE QU'UN TEXTE LITTÉRAIRE ET QUE SIGNIFIE SA COMPRÉHENSION?](https://www.jstor.org/stable/23946566?seq=1#page_scan_tab_contents)
-FIXME resúmenes*
+
+#-> humanities, resúmenes*
 * [inhaltsangabe24.de/*](http://www.inhaltsangabe24.de/*)
 * [inhaltsangabe.de/*](https://www.inhaltsangabe.de/*)
 * [schule-studium.de/Deutsch/index-Literaturverzeichnis.html*](http://www.schule-studium.de/Deutsch/index-Literaturverzeichnis.html*)
 * [getabstract.com/de/zusammenfassungen/klassiker-lib/](https://www.getabstract.com/de/zusammenfassungen/klassiker-lib/)
 
 * [(99+) (PDF) CROSS-LANGUAGE EQUIVALENCE AND CULTURAL SIMILARITY IN PROVERBS | Rusudan Dolidze - Academia.edu](https://www.academia.edu/37631159/CROSS-LANGUAGE_EQUIVALENCE_AND_CULTURAL_SIMILARITY_IN_PROVERBS?email_work_card=view-paper)
-FIXME inglés*
+
+#-> humanities, inglés*
 * [courseweb.lis.illinois.edu/~katewill/spring2011-502/502%20and%20other%20readings/eliot%20choruses_from_the_rock.pdf](http://courseweb.lis.illinois.edu/~katewill/spring2011-502/502%20and%20other%20readings/eliot%20choruses_from_the_rock.pdf)
 * [Kipling](https://libgen.is/search.php?&req=rudyard+kipling&phrase=1&view=simple&column=author&sort=language&sortmode=DESC%20%20%20Inviato%20da%20iPhone)
 * Filme / Serien*
 * [thevore.com/](https://thevore.com/)
-FIXME ruso*
+
+#-> humanities, ruso*
 * [russkay-literatura.ru/*](http://russkay-literatura.ru/*)
 * [litraxixveka.ru/*](http://litraxixveka.ru/*)
 * [literatura548.narod.ru/index/0-2*](http://literatura548.narod.ru/index/0-2*)
@@ -4164,33 +4243,39 @@ FIXME ruso*
 * [Lit-Helper.Com - онлайн библиотека в помощь школникам и студентам](http://lit-helper.com/)*
 * [blogletras.com/2014/10/um-heroi-de-nosso-tempo-mikhail.html](http://www.blogletras.com/2014/10/um-heroi-de-nosso-tempo-mikhail.html)
 * Como ler os russos (libgen)
-FIXME alemán
+
+#-> humanities, alemán
 * problems with gone with the wind
 * ["Die Blechtrommel" von Günter Grass: Bedeutung, Erzähltechnik und ... - Hannelore Schwartze-Köhler - Google Книги](https://books.google.de/books?id=2nue91Rlg-0C&pg=PA336&lpg=PA336&dq=symbolismus+in+Die+blechtrommel&source=bl&ots=2qgOpz_8MD&sig=ACfU3U1NzwjUPROM_mIRTPX_FfvogWjJrw&hl=ru&sa=X&ved=2ahUKEwiHvqrlo43qAhVEyaQKHdi0CdIQ6AEwAXoECAoQAQ#v=onepage&q=symbolismus%20in%20Die%20blechtrommel&f=false)
 * [Des œuvres et des auteurs au programme, à étudier en classe. - Classiques et contemporains Magnard](http://classiquesetcontemporains.com/)
 * [Metaphors in Grass' Die Blechtrommel | Grass, Günter; Delaney, Antoinette T | download](https://b-ok.cc/book/2637449/c130f6)
 * [Kleine deutsche Literaturgeschichte - Nicholas Boyle - Google Книги](https://books.google.de/books?id=LwseQ-J0OToC&pg=PA216&lpg=PA216&dq=symbolismus+in+Die+blechtrommel&source=bl&ots=qNMj9vOnaq&sig=ACfU3U2JNLm60s42HbPM2pO2Ej8fXHDVkA&hl=ru&sa=X&ved=2ahUKEwiHvqrlo43qAhVEyaQKHdi0CdIQ6AEwAHoECAcQAQ#v=onepage&q=symbolismus%20in%20Die%20blechtrommel&f=false)
 * [Günter Grass, Die Blechtrommel und die pikarische Tradition on JSTOR](https://www.jstor.org/stable/403771?seq=1#metadata_info_tab_contents)
-FIXME ucranio*
+
+#-> humanities, ucranio*
 * [bibliograph.com.ua/*](http://bibliograph.com.ua/*)
 * [ukrclassic.com.ua/*](http://www.ukrclassic.com.ua/*)
 * [litgazeta.com.ua/*](http://litgazeta.com.ua/*)
 * [ukrlit.vn.ua/*](http://www.ukrlit.vn.ua/*)
 * [libruk.in.ua/ukrajinska-literatura*](http://libruk.in.ua/ukrajinska-literatura*)
 * [onlyart.org.ua/](http://onlyart.org.ua/)
-FIXME francés
+
+#-> humanities, francés
 * [Nouveau Magazine Littéraire](https://www.nouveau-magazine-litteraire.com/)
-FIXME español*
+
+#-> humanities, español*
 * [euskalnet.net/tz/*](http://www.euskalnet.net/tz/*)
 * [donquijote.org/lengua-espanola/literatura/historia/latinoamerica/*](http://www.donquijote.org/lengua-espanola/literatura/historia/latinoamerica/*)
 * [literaturalatinoamericana.com/autores.htm*](http://www.literaturalatinoamericana.com/autores.htm*)
 * [arts-history.mx/*](http://www.arts-history.mx/*)
 * [revistaarcadia.com/*](http://www.revistaarcadia.com/*)
 * [artisticamonitor.com.ar/arteM.php](http://www.artisticamonitor.com.ar/arteM.php)
-FIXME português
+
+#-> humanities, português
 * [Blog Letras](http://www.blogletras.com/)
 * [Literatura russa](http://www.literaturarussa.com.br/)
-FIXME italiano*
+
+#-> humanities, italiano*
 * [classicitaliani.it/*](http://www.classicitaliani.it/*)
 * [letteratura.it/*](http://www.letteratura.it/*)
 * [letteritaliana.weebly.com/*](http://letteritaliana.weebly.com/*)
@@ -4199,7 +4284,8 @@ FIXME italiano*
 * [storiadellarte.com/*](http://www.storiadellarte.com/*)
 * [italia.it/it/idee-di-viaggio/arte-e-storia.html](http://www.italia.it/it/idee-di-viaggio/arte-e-storia.html)
 
-FIXME# Lettura attuale
+
+#-> humanities,# Lettura attuale
 * 1) Shakespeare
 * 2) Исповедь
 * 3) Nietzsche
@@ -4217,7 +4303,8 @@ FIXME# Lettura attuale
 * 15) Pan Tadeusz / Angora
 * 16) Sofies Verden
 
-FIXME# Sci-fi*
+
+#-> humanities,# Sci-fi*
 * [10 крутых научпоп-книг последних лет](https://vk.com/wall-51126445_50505)
 * [21 правдивый ответ . Курпатов Андрей.PDF](https://vk.com/doc97039373_308925068?hash=8e91597030e3d4f9b4&dl=55e71ef22889f80185)
 * [Sapkowski](https://libgen.is/search.php?&req=Andrzej+Sapkowski&phrase=0&view=simple&column=author&sort=language&sortmode=DESC)
@@ -4225,7 +4312,8 @@ FIXME# Sci-fi*
 * [The Complete Asimov](https://b-ok.cc/book/193388/7b0c61?dsource=recommend)
 * [Do Androids Dream of Electric Sheep?](https://b-ok.cc/book/990381/3cd029?dsource=recommend)
 
-FIXME# general sobre literatura
+
+#-> humanities,# general sobre literatura
 * [einladung-zur-literaturwissenschaft.de/*](http://www.einladung-zur-literaturwissenschaft.de/*)
 * [babelio.com/*](http://www.babelio.com/*)
 * [fichesdelecture.com/resumes/*](http://www.fichesdelecture.com/resumes/*)
@@ -4257,7 +4345,8 @@ FIXME# general sobre literatura
 * [bismirabbika.com/lire-le-coran/](http://www.bismirabbika.com/lire-le-coran/)
 * [Литература в диалоге прошлого и настоящего](http://lektorium.tv/literature)
 
-FIXME# proverbios y citaciones
+
+#-> humanities,# proverbios y citaciones
 * [brainyquote.com/*](http://www.brainyquote.com/*)
 * [goodreads.com/quotes*](https://www.goodreads.com/quotes*)
 * [tsitaty.com/*](http://tsitaty.com/*)
@@ -4278,7 +4367,8 @@ FIXME# proverbios y citaciones
 * [arab-quotes.tumblr.com/*](http://arab-quotes.tumblr.com/*)
 * [waraqat.tumblr.com/*](http://waraqat.tumblr.com/*)
 * [arabicquotes.co.uk/](http://arabicquotes.co.uk/)
-FIXME# poesía
+
+#-> humanities,# poesía
 * [lyrikline.org/fr/startseite/*](http://www.lyrikline.org/fr/startseite/*)
 * [parnassusreview.com/*](http://parnassusreview.com/*)
 * [rupoem.ru/*](http://rupoem.ru/*)
@@ -4307,7 +4397,8 @@ FIXME# poesía
 * [aly-abbara.com/litterature/poesie_arabe/sommaire.html*](http://www.aly-abbara.com/litterature/poesie_arabe/sommaire.html*)
 * [poesiaarabe.com/index.html*](http://www.poesiaarabe.com/index.html*)
 * [arabe-poesie.blogspot.com/](http://arabe-poesie.blogspot.com/)
-FIXME# Wisdom literature
+
+#-> humanities,# Wisdom literature
 * «Бхагават гита»;* «Махабхарата»;* «Гильгамеш»;* «Ветхий Завет»;* Гомер. «Илиада», «Одиссея»;* Геродот. «История»;* Софокл. Пьесы;* Эсхил. Пьесы;* Еврипид. Пьесы: «Ипполит», «Вакханки», «Электра», «Финикиянки»:* Фукидид. «История Пелопоннесской войны»;* Платон. «Диалоги»;* Аристотель. «Поэтика», «Физика», «Этика», «О душе»;* Александрийская поэзия;* Лукреций. «О природе вещей»;* Плутарх. «Жизнеописания»;* Вергилий. «Энеида», «Буколики», «Георгики»;* Тацит. «Анналы»;* Овидий. «Метаморфозы», «Героиды», «Наука любви»; Новый Завет;* Светоний. «Жизнеописания двенадцати цезарей»;* Марк Аврелий;* Катулл;* Гораций;* Эпиктет;* Аристофан;* Элиан. «Пестрые истории», «О природе животных»;* Аполлодор. «Аргонавтика»;* Пселл. «Жизнеописание правителей Византии»;* Гиббон. «История упадка и разрушения Римской империи»;* Плотин. «Эннеады»;* Евсевий. «Церковная история»;* Боэций. «Об утешении философией»;* Плиний Младший. «Письма»;* Византийские стихотворные романы;* Гераклит. «Фрагменты»;* Августин. «Исповедь»;* Фома Аквинский. «Summa Theolo qica»;* Св. Франциск. «Цветочки»;* Николло Макиавелли. «Государь»;* Данте. «Божественная комедия»;* Франко Сакети. Новеллы;* Исландские саги;* Шекспир. «Антоний и Клеопатра», «Гамлет», «Макбет», «Генрих V»;* Рабле;* Бэкон;* Мартин Лютер;* Кальвин;* Монтень. «Опыты»;* Сервантес. «Дон Кихот»;* Декарт;* «Песнь о Роланде»;
 * Поэзия, рекомендованная к прочтению
 * Английская/ американская: Роберт Фрост, Томас Харди, Уильям Батлер Йейтс, Томас Стернз Элиот, Уистен Хью Оден, Марианна Мур, Элизабет Бишоп.
@@ -4321,7 +4412,8 @@ FIXME# Wisdom literature
 * Шведская: Гуннар Экелёф, Харри Мартинсон, Вернер Аспенстром, Тумас Транстрёмер.
 * Русская: Марина Цветаева, Осип Мандельштам, Анна Ахматова, Борис Пастернак, Владислав Ходасевич, Виктор Хлебников, Николай Клюев, Николай Заболоцкий.
 
-FIXME# Random Literature List
+
+#-> humanities,# Random Literature List
 * The Fountain, Teasdale
 * Ulysses
 *  My Last Duchess
@@ -4397,7 +4489,8 @@ FIXME# Random Literature List
 *  The History Teacher
 *  Cinderella
 
-FIXME# Literature and Cinema
+
+#-> humanities,# Literature and Cinema
 * Cine
 * [Zerkalo](https://vk.com/wall-31579470_8807)
 * [Aufklärung - Literaturepoche einfach erklärt - Merkmale, Literatur, Geschichte, Vertreter - YouTube](https://www.youtube.com/watch?v=WfHT1mavUHk)
@@ -4589,7 +4682,8 @@ FIXME# Literature and Cinema
 * [Sarcastic rules for healthy eating](https://vk.com/wall-37160097_408357)
 
 
-FIXME# vocab
+
+#-> humanities,# vocab
 * anaphora
 * antimetabole
 * antithesis
@@ -4602,7 +4696,8 @@ FIXME# vocab
 * spondee
 * stichomythia
 
-FIXME# ?
+
+#-> humanities,# ?
 * The Naked and the Nude, Graves
 * Cinderella, Plath
 * Naked and Spring and Fall, Hopkins
@@ -4613,7 +4708,8 @@ FIXME# ?
 * Lady / Woman
 * Letter by G.B. Shaw on the death of his mother
 
-FIXME# Poetry types
+
+#-> humanities,# Poetry types
 * iambic (-> Stanzas Written in Dejection, near Naples, Shelley)
 * trochaic (-> Songs of Innocence, Blake)
 * anapestic (-> The Destruction of Sennacherib, Byron)
@@ -4625,7 +4721,8 @@ FIXME# Poetry types
 * pentameter
 * hexameter
 
-FIXME# Literature Sites and Resources
+
+#-> humanities,# Literature Sites and Resources
 * [p-w-w.org/*](https://p-w-w.org/*)
 * [sovietmoviesonline.com/tv-series/721-bratya-karamazovy-mini-serial.html*](https://sovietmoviesonline.com/tv-series/721-bratya-karamazovy-mini-serial.html*)
 * [fedordostoevsky.ru/files/pdf/agd_1987.pdf*](https://www.fedordostoevsky.ru/files/pdf/agd_1987.pdf*)

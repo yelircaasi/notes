@@ -76,7 +76,7 @@ Switch fom Roadmaps::Project::Task hierarchy to Project::Task; use tags for orga
 * Planner
 * Record of accomplishments
 
-FIXME### Operations
+### Operations
 
 * Schedule Item → add to Planner
 * Move Item | Year to quarter | Quarter to month | Month to Week | Month to Day | Week to Day | 

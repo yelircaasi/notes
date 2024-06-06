@@ -55,6 +55,6 @@
 *   NVIM_APPNAME=$nv_app nvim $@* }
 * # nvims* if [[ -x /usr/local/bin/nvim || -x /opt/homebrew/bin/nvim ]]; then*   nvims_config="${XDG_CACHE_HOME:-$HOME/.cache}/nvims"*   nvims_app=$(cat "$nvims_config")*   #echo "Bind Neovim to $nvims_app"*   alias vi="NVIM_APPNAME=${nvims_app} nvim"*   export EDITOR="vi"*   bindkey -s "^v" "nvims\n"* fi
 
-FIXME# in terminal input nvims and enter not a valid number: ~50 nothing selected what's wrong?* # any news on this? I do have the same error while just using nvims without any argument. Using WSL2 * bash* # I had the same error.* # Fix was to make height=50% NOT height=~50%* ```
+# in terminal input nvims and enter not a valid number: ~50 nothing selected what's wrong?* # any news on this? I do have the same error while just using nvims without any argument. Using WSL2 * bash* # I had the same error.* # Fix was to make height=50% NOT height=~50%* ```
 
 ```

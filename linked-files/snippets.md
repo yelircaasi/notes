@@ -33,6 +33,7 @@ opt = [];
 };};
 
 ```
+
 * snippet sudo docker run --runtime=nvidia --gpus all -it --rm --dns 8.8.8.8 --dns 8.8.4.4 \ --name nlq \ -v /home/isaac/repos:/root/repos \ -v /home/isaac/data:/root/data \ -v /home/isaac/.ssh:/root/.ssh \ -v /home/isaac/.config/pypoetry:/root/.config/pypoetry \ -v /home/isaac/.cache/torch:/root/.cache/torch \ -v /home/isaac/.cache/huggingface:/root/.cache/huggingface \ nvidia:poetry
 snippet1 Dockerfile
 snippet2 FROM nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04
@@ -115,7 +116,7 @@ snippet * deploy = homeManager.makeModule { modules = [ config.nixos ]; };
 
 ```
 
-FIXME### Haskell CLI in Flake
+### Haskell CLI in Flake
 
 ```sh
 my-haskell-flake/
@@ -152,7 +153,7 @@ main = do
 
 ```nix
 
-FIXME# flake.nix
+# flake.nix
 
 {
   description = "My Haskell Flake with CLI functionality";
@@ -178,12 +179,12 @@ FIXME# flake.nix
 
 ```nix
 
-FIXME# tree.nix
+# tree.nix
 
 { lib, nixpkgs ? import <nixpkgs> {} }:
 * let
 
-FIXME# Function to print a tree structure
+# Function to print a tree structure
 
 printTree = prefix: node: tree:
 * if lib.isAttrs node
@@ -203,7 +204,7 @@ printTree = prefix: node: tree:
 + (lib.concatStringsSep "\\n" subtree)
 * else "${prefix}${node}";
 
-FIXME# Function to build the import tree
+# Function to build the import tree
 
 * buildImportTree = derivation:
 * let
@@ -225,7 +226,7 @@ FIXME# Function to build the import tree
 
 ```nix
 
-FIXME# example.nix
+# example.nix
 
 { lib, nixpkgs ? import <nixpkgs> {}, tree ? import ./tree.nix { nixpkgs = nixpkgs; } }:
 * let
@@ -249,7 +250,7 @@ buildPythonPackage {
 
 ```nix
 
-FIXME# tree.nix
+# tree.nix
 
 { lib, nixpkgs ? import <nixpkgs> {} }:
 let
@@ -267,7 +268,7 @@ let
     else "${prefix}${lib.concatStringsSep "\\n" (lib.mapAttrsToList (name: value: "${value}") node)}" + (lib.concatStringsSep "\\n" subtree)
 * else "${prefix}${node}";
 
-FIXME# Function to build the import tree
+# Function to build the import tree
 
 * buildImportTree = derivation:
 * let
@@ -286,7 +287,7 @@ FIXME# Function to build the import tree
 { buildImportTree, printTree }
 * This script defines two functions: printTree for printing the tree structure and buildImportTree for building the import tree. The example assumes you have the nixpkgs attribute set available.To use this script, you can import it into another Nix expression and call the buildImportTree function, passing the derivation for the desired output. For example:nixCopy code
 
-FIXME# example.nix
+# example.nix
 
 { lib, nixpkgs ? import <nixpkgs> {}, tree ? import ./tree.nix { nixpkgs = nixpkgs; } }:
 * let

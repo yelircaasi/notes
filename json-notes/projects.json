@@ -1,4 +1,5 @@
-FIXME# GitHoarder
+
+#-> project,# GitHoarder
 
 * Alt name: Gitshare
 
@@ -6,7 +7,8 @@ FIXME# GitHoarder
 
 * [Android shareability](https://developer.android.com/training/sharing/receive)
 
-FIXME# Keymapping
+
+#-> project,# Keymapping
 
 * name ideas: teclado, accordo, keycritic
 
@@ -21,7 +23,8 @@ FIXME# Keymapping
 * [veyxov/qanata: Application aware layer switching in](https://github.com/veyxov/qanata) [kanata](https://github.com/veyxov/qanata)
 * [...](https://www.reddit.com/r/neovim/s/2j96StuexD)
 
-FIXME# Tmp
+
+#-> project,# Tmp
 
 * [NorfairKing](https://github.com/NorfairKing)
 * [medevel.com/tag/productivity/](https://medevel.com/tag/productivity/) **
@@ -263,7 +266,8 @@ FIXME# Tmp
 * [ramnes.github.io/notion-sdk-py/](https://ramnes.github.io/notion-sdk-py/)
 * [foambubble.github.io/foam/](https://foambubble.github.io/foam/)
 
-FIXME# juventas.nvim
+
+#-> project,# juventas.nvim
 
 * [nbqa](https://github.com/nbQA-dev/nbQA)
 * [benlubas/molten-nvim/blob/main/docs/Notebook-Setup.md](https://github.com/benlubas/molten-nvim/blob/main/docs/Notebook-Setup.md)
@@ -320,12 +324,15 @@ FIXME# juventas.nvim
 * [millejoh.github.io/emacs-ipython-notebook/](https://millejoh.github.io/emacs-ipython-notebook/)
 * [isaacganoung.com/articles/tutorials/jupyter-notebook-in-emacs.html](https://isaacganoung.com/articles/tutorials/jupyter-notebook-in-emacs.html)
 
-FIXME## 
-FIXME# Juventas.nvim
+
+#-> project,## 
+
+#-> project,# Juventas.nvim
 
 * add notebooks to goneovim! or focus on wezterm (yep, probably that)
 
-FIXME# VimQTConsole - qtconsole with full vim keybindings and nvim as a backend editing server
+
+#-> project,# VimQTConsole - qtconsole with full vim keybindings and nvim as a backend editing server
 
 * [jupyter/jupyter_console](https://www.google.com/url?q=https://github.com/jupyter/jupyter_console&sa=D&source=editors&ust=1711378556488622&usg=AOvVaw3q1vDtf6fyEQu-p-e70-w_) - [...](https://www.google.com/url?q=https://jupyter-console.readthedocs.io/en/latest/&sa=D&source=editors&ust=1711378556488849&usg=AOvVaw31rrl63oIbbF1NC7VNIqC2)[Docs](https://www.google.com/url?q=https://jupyter-console.readthedocs.io/en/latest/&sa=D&source=editors&ust=1711378556489067&usg=AOvVaw2yjTrOFvZCSeRAVWj0JRKJ)
 * [jupyter/qtconsole](https://www.google.com/url?q=https://github.com/jupyter/qtconsole&sa=D&source=editors&ust=1711378556489338&usg=AOvVaw013fqtfUD4k1GUfIc8CgBv) - [...](https://www.google.com/url?q=https://qtconsole.readthedocs.io/en/stable/index.html&sa=D&source=editors&ust=1711378556489553&usg=AOvVaw0yu7A3bpgh5LKBfhA6ZHwb)[Docs](https://www.google.com/url?q=https://qtconsole.readthedocs.io/en/stable/index.html&sa=D&source=editors&ust=1711378556489780&usg=AOvVaw0t2Z5lll7G7F1yf0PN8fXL)
@@ -336,7 +343,8 @@ FIXME# VimQTConsole - qtconsole with full vim keybindings and nvim as a backend 
 * [glacambre/firenvim](https://www.google.com/url?q=https://github.com/glacambre/firenvim&sa=D&source=editors&ust=1711378556490685&usg=AOvVaw1Ze8i3BaOuiGgY8kdmfquZ) - something like this for qtconsole, but for qt instead of browser
 * [Niche Vim/Neovim Plugins. Overview | by alpha2phi | Medium](https://www.google.com/url?q=https://alpha2phi.medium.com/niche-neovim-plugins-722b34f76291&sa=D&source=editors&ust=1711378556491115&usg=AOvVaw0aufc4LSu8XZcajrli6EWN) - maybe some of these
 
-FIXME# Related Projects
+
+#-> project,# Related Projects
 
 * [GCBallesteros/NotebookNavigator.nvim](https://www.google.com/url?q=https://github.com/GCBallesteros/NotebookNavigator.nvim&sa=D&source=editors&ust=1711378556491565&usg=AOvVaw2J-w1XlOL7CNE6bHgRunb_) (old: [...](https://www.google.com/url?q=https://www.maxwellrules.com/misc/nvim_jupyter.html&sa=D&source=editors&ust=1711378556491832&usg=AOvVaw2zXrn72PM8EM9qFzngAt-s)[Maxwell Rules - NeoVim Notebooks](https://www.google.com/url?q=https://www.maxwellrules.com/misc/nvim_jupyter.html&sa=D&source=editors&ust=1711378556492003&usg=AOvVaw2k7ufUE6Fb-Bmxx4xxFZaO))
 * [benlubas/molten-nvim](https://www.google.com/url?q=https://github.com/benlubas/molten-nvim&sa=D&source=editors&ust=1711378556492218&usg=AOvVaw1TWxLrw7D3c4CHO3Js5Fyd)
@@ -369,7 +377,8 @@ FIXME# Related Projects
 * [Reddit - Nicer jupyter notebook workflow with neovim thanks to Jupytext and mini.ai](https://www.google.com/url?q=https://www.reddit.com/r/neovim/comments/x0hf25/nicer_jupyter_notebook_workflow_with_neovim/&sa=D&source=editors&ust=1711378556499263&usg=AOvVaw0t2rLTBexNVpi8h4gKFuH2)
 * [martibosch.github.io/jupyter-emacs-universe/](https://www.google.com/url?q=https://martibosch.github.io/jupyter-emacs-universe/&sa=D&source=editors&ust=1711378556499570&usg=AOvVaw0GiTcETqWwNGaka1uqYiG1)
 
-FIXME# General Resources
+
+#-> project,# General Resources
 
 * [GitHub - fastai/nbdev: Create delightful software with Jupyter Notebooks](https://www.google.com/url?q=https://github.com/fastai/nbdev&sa=D&source=editors&ust=1711378556500045&usg=AOvVaw2CAoFdFPvKNPkgBuSPDWXS)
 * [Related projects — xeus documentation](https://www.google.com/url?q=https://xeus.readthedocs.io/en/latest/related.html&sa=D&source=editors&ust=1711378556500316&usg=AOvVaw3aHR-JG1zAukA3AN49azW1)
@@ -379,7 +388,8 @@ FIXME# General Resources
 * [Quarto - Tutorial: Hello, Quarto](https://www.google.com/url?q=https://quarto.org/docs/get-started/hello/neovim.html&sa=D&source=editors&ust=1711378556501427&usg=AOvVaw0aHpNTtkkPpAWrvI4svgAw)
 * [Project Jupyter | Get Involved](https://www.google.com/url?q=https://jupyter.org/community&sa=D&source=editors&ust=1711378556501702&usg=AOvVaw1EFwDrHK5wAWbshaAJcSDR)
 
-FIXME# Miscellaneous
+
+#-> project,# Miscellaneous
 
 * [Make Docker container with all the interesting Jupyter kernels → try on](https://www.google.com/url?q=https://jupyter.org/binder&sa=D&source=editors&ust=1711378556502148&usg=AOvVaw3q-bWaCG8zYJiNSbQl42sj)
 * [I don't like notebooks.- Joel Grus (Allen Institute for Artificial Intelligence)](https://www.google.com/url?q=https://youtu.be/7jiPeIFXb6U&sa=D&source=editors&ust=1711378556502459&usg=AOvVaw1SH4n_Id93LGPsGXS90h7u)
@@ -399,13 +409,16 @@ FIXME# Miscellaneous
 * [...](https://www.google.com/url?q=https://youtu.be/l7zS8Ld4_iA&sa=D&source=editors&ust=1711378556508051&usg=AOvVaw1SS8TSCja2gkifpHhYJyRp)[nbdev tutorial -- zero to published project in 90 minutes](https://www.google.com/url?q=https://youtu.be/l7zS8Ld4_iA&sa=D&source=editors&ust=1711378556508236&usg=AOvVaw1i2PaFOZGzw_K8KutPSHJZ)
 * [...](https://www.google.com/url?q=https://quarto.org/docs/get-started/&sa=D&source=editors&ust=1711378556508415&usg=AOvVaw2dlKu6BG0a6_BKPjjEijT5)[quarto.org/docs/get-started/](https://www.google.com/url?q=https://quarto.org/docs/get-started/&sa=D&source=editors&ust=1711378556508593&usg=AOvVaw1R2vbCfSllMvZRhI-m5trd)- [ ]  ‣ - [...](https://www.google.com/url?q=https://nbcommands.readthedocs.io/en/latest/&sa=D&source=editors&ust=1711378556508969&usg=AOvVaw0a78GIcs55ByjHwtwKF4xz)[nbcommands.readthedocs.io/en/latest/](https://www.google.com/url?q=https://nbcommands.readthedocs.io/en/latest/&sa=D&source=editors&ust=1711378556509132&usg=AOvVaw1S9L1h4zENYRxxF6BdcFhp)
 
-FIXME## SORT
+
+#-> project,## SORT
 
 * [paw-lu/nbpreview](https://github.com/paw-lu/nbpreview)
 
-FIXME# nbbat
 
-FIXME# cat/bat for Jupyter Notebooks
+#-> project,# nbbat
+
+
+#-> project,# cat/bat for Jupyter Notebooks
 
 * also make command-line notebook viewer (way to learn Go?) → catnb, batnb, just like bat for notebooks → or capy (capybara?)
 * → [faculty.ai/tech-blog/viewing-jupyter-notebooks-on-the-command-line/](https://faculty.ai/tech-blog/viewing-jupyter-notebooks-on-the-command-line/)
@@ -413,11 +426,13 @@ FIXME# cat/bat for Jupyter Notebooks
 * → [jsvine/nbpreview](https://github.com/jsvine/nbpreview) [-](https://github.com/jsvine/nbpreview) [towardsdatascience.com/preview-your-jupyter-notebooks-in-the-terminal-with-nbpreview-87601a92d0d1](https://towardsdatascience.com/preview-your-jupyter-notebooks-in-the-terminal-with-nbpreview-87601a92d0d1)
 * → eventually extend bat?
 
-FIXME# Project 1:
+
+#-> project,# Project 1:
 
 * - nbcat-go repo, nbcat command for simple version
 
-FIXME# Project 2: `[bat](https://github.com/sharkdp/bat)` sibling (`nbbat` or  `vampyre`)
+
+#-> project,# Project 2: `[bat](https://github.com/sharkdp/bat)` sibling (`nbbat` or  `vampyre`)
 
 * Naming: vampyre, capybara → vampyre is better, but use capybara for something else → also pygmy, from pygmy bats
 * create cool logo - vampire (or vampire bat) superimposed on planet Jupiter? or superimposed on a notebook? or both?
@@ -431,7 +446,8 @@ FIXME# Project 2: `[bat](https://github.com/sharkdp/bat)` sibling (`nbbat` or  `
 * [stablediffusionweb.com/#demo](https://stablediffusionweb.com/#demo)
 * fork bat codebase, or build on top of it → or incorporate as a dependency? → maybe use as a template, use syntext and maybe markdown processing
 
-FIXME# nand2tetris
+
+#-> project,# nand2tetris
 
 * Key Resources
 * [Nand2tetris videos](https://www.youtube.com/playlist?list=PLrDd_kMiAuNmSb-CKWQqq9oBFN_KNMTaI)
@@ -439,25 +455,30 @@ FIXME# nand2tetris
 * [jack-language · GitHub Topics](https://github.com/topics/jack-language)
 * [abhaynayar/genesis: Minimal OS written in Jack.](https://github.com/abhaynayar/genesis)
 
-FIXME# Other Code Projects
+
+#-> project,# Other Code Projects
 
 * $$$ wezterm-python-pdf-reader - write a terminal PDF reader for wezterm using python, matplotlib, and matplotlib, together with python pdf library and matplotlib-backend-wezterm
 * [neurosciencenews.com/color-perception-retinal-cells-25935/](https://neurosciencenews.com/color-perception-retinal-cells-25935/)
 * Make NLP-based automatic sorter for notes (embedding-based). Use clustering and classification, experiment with different embedding approaches.
 
-FIXME## Projects
 
-FIXME## Software for Projects
+#-> project,## Projects
+
+
+#-> project,## Software for Projects
 
 * ( ) [...](https://blog.superhuman.com/personal-life-dashboard/)
 * ( ) [Horizon: The OpenStack Dashboard Project — horizon 23.4.0.dev76 documentation](https://docs.openstack.org/horizon/latest/)
 * ( ) [nand2tetris](https://www.nand2tetris.org/)
 
-FIXME## Notes
+
+#-> project,## Notes
 
 * Idea: get stylus drawing / writing tablet and set it up with rnote and also with a handwriting recognition engine that I train on my handwriting, so that I can write on the pad as an alternative to typing on the keyboard.
 
-FIXME# To Sort
+
+#-> project,# To Sort
 * make (Flutter, Gnome, GTK, KDE, or other) GUI app for parallel text creation and viewing
 * [PyInstaller Manual — PyInstaller 5.7.0 documentation](https://pyinstaller.org/en/stable/)
 * [How to Install Windows 10 in VirtualBox in Linux](https://itsfoss.com/install-windows-10-virtualbox-linux/)
@@ -492,7 +513,8 @@ FIXME# To Sort
 * [Options for Python packaging: Wheels, Conda, Docker, and more](https://pythonspeed.com/articles/distributing-software/)
 * [Reddit - I made a Python compiler, that can compile Python source down to fast, standalone executables.](https://www.reddit.com/r/Python/comments/w7vlim/i_made_a_python_compiler_that_can_compile_python/)
 
-FIXME# Algorithms
+
+#-> project,# Algorithms
 * [TypeScript](https://github.com/TheAlgorithms/TypeScript)
 * [C](https://github.com/TheAlgorithms/C)
 * [Lua](https://github.com/TheAlgorithms/Lua)
@@ -687,7 +709,8 @@ FIXME# Algorithms
 * [tsoding/ded: Dramatic EDitor](https://github.com/tsoding/ded)
 * [TheAlgorithms/contributor_covenant](https://github.com/TheAlgorithms/contributor_covenant)
 
-FIXME## SORT
+
+#-> project,## SORT
 
 * Neural Networks from Scratch in Python.pdf
 
@@ -795,7 +818,8 @@ FIXME## SORT
 * [lmb.informatik.uni-freiburg.de/Publications/2015/FDB15/image_orientation.pdf](https://lmb.informatik.uni-freiburg.de/Publications/2015/FDB15/image_orientation.pdf)
 * [OpenCV: Introduction to Julia OpenCV Binding](https://docs.opencv.org/4.x/d8/da4/tutorial_julia.html)
 
-FIXME## rosetta-regex
+
+#-> project,## rosetta-regex
 
 * [rosettacode.org/wiki/Regular_expressions](https://rosettacode.org/wiki/Regular_expressions)
 * [en.wikipedia.org/wiki/Regular_expression](https://en.wikipedia.org/wiki/Regular_expression)
@@ -812,7 +836,8 @@ FIXME## rosetta-regex
 * [geeksforgeeks.org/regular-expressions-in-c/](https://www.geeksforgeeks.org/regular-expressions-in-c/)
 * [blog.teamtreehouse.com/regular-expressions-10-languages](https://blog.teamtreehouse.com/regular-expressions-10-languages)
 
-FIXME## [keyboard-trainer](https://github.com/yelircaasi/keyboard-trainer-cpp) 🌱
+
+#-> project,## [keyboard-trainer](https://github.com/yelircaasi/keyboard-trainer-cpp) 🌱
 
 * C/C++ typing test (first character→key mappings)
 * [Learning Scripts & Keyboards](https://docs.google.com/spreadsheets/d/1T_qAG4raIhJYq1mlgJCH8TN-ZNcUl9RM-p4a0aVh5EU/edit?usp=sharing)
@@ -822,7 +847,8 @@ FIXME## [keyboard-trainer](https://github.com/yelircaasi/keyboard-trainer-cpp) �
 * [jrnxf/thokr](https://github.com/jrnxf/thokr)
 * [max-niederman/ttyper](https://github.com/max-niederman/ttyper)
 
-FIXME### Components
+
+#-> project,### Components
 
 * 1) Scripts
 * Latin (accessible from U.S. Intl.)
@@ -844,7 +870,8 @@ FIXME### Components
 * Guake
 * Generic Terminal
 
-FIXME### References
+
+#-> project,### References
 
 * [doc.qt.io/](https://doc.qt.io/)
 * [gtk.org/](https://www.gtk.org/)
@@ -855,7 +882,8 @@ FIXME### References
 
 
 
-FIXME## Reading
+
+#-> project,## Reading
 
 * [ ]  [developer.android.com/guide/components/fundamentals](https://developer.android.com/guide/components/fundamentals)
 * [ ]  [developer.android.com/guide](https://developer.android.com/guide)
@@ -883,9 +911,11 @@ FIXME## Reading
 * [ ]  [JonasWanke/com.jonaswanke.calendar](https://github.com/JonasWanke/com.jonaswanke.calendar)
 * [ ]
 
-FIXME### Steps
 
-FIXME### Extensions
+#-> project,### Steps
+
+
+#-> project,### Extensions
 
 * pomodoro-style timer
 * Integration with some external service, such as Notion or Google
@@ -898,9 +928,11 @@ FIXME### Extensions
 * [zapier.com/platform/partner-program](https://zapier.com/platform/partner-program)
 * [zapier.com/apps/google-sheets/integrations/webhook](https://zapier.com/apps/google-sheets/integrations/webhook)
 
-FIXME## [Proofs Book](...)
 
-FIXME## Other
+#-> project,## [Proofs Book](...)
+
+
+#-> project,## Other
 
 * Missing Semester 🌱
 * TensorFlow Certification (with Jesse)
@@ -909,7 +941,8 @@ FIXME## Other
 
 * Preferred languages: C | C++ | Python | Julia | Go | Rust | Scala | Kotlin | Java | JavaScript | Bash | Haskell | Perl | Prolog | SQL (PostgreSQL) | GASM | Racket/Scheme | Other | OCaml | Erlang | Fortran | Ada | Lua | TypeScript | LaTeX | Dart | Ruby | COBOL | PHP | Nim | Tcl | 
 
-FIXME## hosted if-then game web app
+
+#-> project,## hosted if-then game web app
 
 * Idea: use Genie.jl to host an if-then application on a Raspberry Pi
 * → [google.com/search?q=code your own jackbox](https://www.google.com/search?q=code%20your%20own%20jackbox&ie=utf-8&oe=utf-8&client=firefox-b-m)
@@ -945,7 +978,8 @@ FIXME## hosted if-then game web app
 * neural-image-processing-cheatsheet
 * [ ]  create
 
-FIXME## Trip Planner app (with Jesse) 🌱
+
+#-> project,## Trip Planner app (with Jesse) 🌱
 
 * messages with Jesse:
 * [ ]  identify key inputs first; worry about getting them later via API
@@ -958,7 +992,8 @@ FIXME## Trip Planner app (with Jesse) 🌱
 * [ ]  PyTorch and TensorFlow pocket references - create spreadsheet of functionalities & corresponding snippets
 * [ ]  multiple code options ← D2L book source
 
-FIXME## algorithms (Beautiful Algorithms - Julia) 🌱
+
+#-> project,## algorithms (Beautiful Algorithms - Julia) 🌱
 
 * learning-programming-languages 🌱
 * Code Deep Dives 🌱
@@ -1008,7 +1043,8 @@ FIXME## algorithms (Beautiful Algorithms - Julia) 🌱
 * language-learning 🌱
 * cpp-machine-learning 🌱
 
-FIXME## Proverbs Project 🌱
+
+#-> project,## Proverbs Project 🌱
 
 * → see also CLSEC, child project of Wiktionary4LL
 * [Polyglot Phraseological Database](https://docs.google.com/spreadsheets/d/1HYEgCsnmjhulEnM7tq53AV7IrRbYhFcUnfjAp0cCAGI/edit?usp=sharing)
@@ -1101,12 +1137,14 @@ FIXME## Proverbs Project 🌱
 * Combine WordNet and NSM with my own syntax to create paremiological (ontology and semrel set) markup language
 * [academia.edu/22245450/THE_METHODOLOGICAL_ASPECTS_OF_A_ROMANIAN_ENGLISH_CONTRASTIVE_COLLECTION_OF_FOOD_IDIOMS_AND_PROVERBS](https://www.academia.edu/22245450/THE_METHODOLOGICAL_ASPECTS_OF_A_ROMANIAN_ENGLISH_CONTRASTIVE_COLLECTION_OF_FOOD_IDIOMS_AND_PROVERBS)
 
-FIXME## RLCard
+
+#-> project,## RLCard
 
 * [RLCard: A Toolkit for Reinforcement Learning in Card Games – arXiv Vanity](https://www.arxiv-vanity.com/papers/1910.04376/)
 * [Development — RLcard 0.0.1 documentation](https://rlcard.org/development.html#adding-new-environments)
 
-FIXME## “philosophers and philosophies on the issues”
+
+#-> project,## “philosophers and philosophies on the issues”
 
 * → automated search and question answering
 
@@ -1116,20 +1154,26 @@ FIXME## “philosophers and philosophies on the issues”
 
 * → also interesting to do by hand / with a hybrid approach
 
-FIXME## Book idea: Ancient Greek through the Stoics; Latin through the Stoics (or GR and LA in one book)
 
-FIXME## Sheet Music Player: OCR for scanned sheet music, audio generation (MIDI as intermediate?)
+#-> project,## Book idea: Ancient Greek through the Stoics; Latin through the Stoics (or GR and LA in one book)
 
-FIXME## Other Projects 🌱
 
-FIXME## rl-games
+#-> project,## Sheet Music Player: OCR for scanned sheet music, audio generation (MIDI as intermediate?)
 
-FIXME### Projects Links
+
+#-> project,## Other Projects 🌱
+
+
+#-> project,## rl-games
+
+
+#-> project,### Projects Links
 
 * [ ]  [Drive link](https://drive.google.com/drive/folders/16RpQL0XysyuoJbsrwiZntbL1coD8CigE?usp=sharing)
 
 
-FIXME### References for RLCard
+
+#-> project,### References for RLCard
 
 * [datamllab/rlcard](https://github.com/datamllab/rlcard) —> should contribute to as well
 * [medium.com/applied-data-science/how-to-train-ai-agents-to-play-multiplayer-games-using-self-play-deep-reinforcement-learning-247d0b440717](https://medium.com/applied-data-science/how-to-train-ai-agents-to-play-multiplayer-games-using-self-play-deep-reinforcement-learning-247d0b440717)
@@ -1153,7 +1197,8 @@ FIXME### References for RLCard
 * [ai.stackexchange.com/questions/17942/how-to-represent-a-state-in-a-card-game-environment-wizard](https://ai.stackexchange.com/questions/17942/how-to-represent-a-state-in-a-card-game-environment-wizard)
 * ?? [Towards Modern Card Games with Large-Scale Action Spaces Through Action Representation](https://arxiv.org/pdf/2206.12700.pdf)
 
-FIXME## Daily Prophet 🌱
+
+#-> project,## Daily Prophet 🌱
 
 * [hackaday.com/2021/10/29/muggle-uses-e-paper-for-daily-prophet-replica/](https://hackaday.com/2021/10/29/muggle-uses-e-paper-for-daily-prophet-replica/)
 * [deeptronix.wordpress.com/2020/09/02/a-proper-harry-potter-newspaper-irl/](https://deeptronix.wordpress.com/2020/09/02/a-proper-harry-potter-newspaper-irl/)
@@ -1532,7 +1577,8 @@ FIXME## Daily Prophet 🌱
 * [libsdl.org/release/SDL-1.2.15/docs/html/guideinputkeyboard.html](https://www.libsdl.org/release/SDL-1.2.15/docs/html/guideinputkeyboard.html)
 * [nist.gov/itl/ssd/software-quality-group/safer-languages](https://www.nist.gov/itl/ssd/software-quality-group/safer-languages)
 
-FIXME## my projects
+
+#-> project,## my projects
 
 * [makeuseof.com/set-up-raspberry-pi-as-server/](https://www.makeuseof.com/set-up-raspberry-pi-as-server/)
 * [toptal.com/raspberry-pi/how-to-turn-your-raspberry-pi-into-a-development-server](https://www.toptal.com/raspberry-pi/how-to-turn-your-raspberry-pi-into-a-development-server)
@@ -1626,21 +1672,26 @@ FIXME## my projects
 * Build nix tool for checking if hashes are up-to-date, updating them, outputting (json, etc.) a document of all installed packages, all config files, etc
 * nvim tool for more easily and intelligently navigating a nix directory -> use nixel or rnix-parser (name: nixjump? nixnav?)
 
-FIXME# Polyglot Toolkit
 
-FIXME### PolyglotToolkit
+#-> project,# Polyglot Toolkit
+
+
+#-> project,### PolyglotToolkit
 
 * Reader features (browser-based?) for parellel text, interlineator, etc.: make reference-languuage small and faint (and customizable) or togglable to make it easier to focus on the target language
 
 * other PolyglotToolkit Projects: translation-trainer: use tatoeba or supplied parallel text (optimally with multiple translations), compute metrics, show diff, display dashboard, etc.language utility (pre-processor) packages, esp for Arabic, Ancient Greek, ChineseAlignment Tool(s)make GUI tool (or nvim plugin) for manual sentence/word alignmentCLI for viewing parallel texts in the terminalVocalizer: add diacritics to language (seq2seq package) - for arabic, hebrew, ancient greek, latin (with macros → [Alatius/latin-macronizer),](https://github.com/Alatius/latin-macronizer),) [ictibus.blogspot.com/,](http://ictibus.blogspot.com/,) [ilovegooglebooks.blogspot.com/search/label/macrons,](http://ilovegooglebooks.blogspot.com/search/label/macrons,) russian → [russiangram.com/,](https://russiangram.com/,) easy test case for training data, ukrainianLatin error detector: fix wrong endings → right architecture for finding single location (here error) in a sequenceMaybe start with Ancient Greek diacritics: easy data, learnable objectiveuse PoS tagging, Wiktionary word info (via Wiktionary tool) → later dependency parsing?
 
-FIXME## Expression Translation Tables (→ Multi-Word Expression Project, Proverbs Project)
+
+#-> project,## Expression Translation Tables (→ Multi-Word Expression Project, Proverbs Project)
 
 * [en.wiktionary.org/wiki/Category:Multiword_terms_by_language](https://en.wiktionary.org/wiki/Category:Multiword_terms_by_language)
 
-FIXME## Parallel Text Aligner
 
-FIXME# Parallel Text Alignment (and Formatting)
+#-> project,## Parallel Text Aligner
+
+
+#-> project,# Parallel Text Alignment (and Formatting)
 
 * [yelircaasi/parallel-text-aligner](https://github.com/yelircaasi/parallel-text-aligner)
 * [yelircaasi/parallel-text-finisher](https://github.com/yelircaasi/parallel-text-finisher)
@@ -1720,7 +1771,8 @@ FIXME# Parallel Text Alignment (and Formatting)
 * Supervised Mover s Distance [google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjN8dyrmYL-AhXP-6QKHXaoBAoQFnoECAYQAQ&url=https%3A%2F%2Fpeerj.com%2Fpreprints%2F26847.pdf&usg=AOvVaw0U0yhoLXnJ1lxl0sbmIRCp](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjN8dyrmYL-AhXP-6QKHXaoBAoQFnoECAYQAQ&url=https%3A%2F%2Fpeerj.com%2Fpreprints%2F26847.pdf&usg=AOvVaw0U0yhoLXnJ1lxl0sbmIRCp)
 * [Massively Multilingual Document Alignment with Cross-lingualSentence-Mover’s Distance](https://youtu.be/0GmRL4rj_dA)
 
-FIXME## Roadmap
+
+#-> project,## Roadmap
 
 * [x]  Find good text sources
 * [x]  Open a .txt file in Julia
@@ -1841,7 +1893,8 @@ FIXME## Roadmap
 * [ ]  how do namespaces work in Julia?
 * [ ]  read about Julia plotting libraries
 
-FIXME## Architecture
+
+#-> project,## Architecture
 
 * 1. Text input methods
 * 2. Text tokenization
@@ -1850,7 +1903,8 @@ FIXME## Architecture
 * 5. Formatting options for LaTeX (choice between manual / YAML file)
 * 6. LaTeX compilation and outpu
 
-FIXME## Tech Stack
+
+#-> project,## Tech Stack
 
 * Julia → which gui? → [towardsdatascience.com/6-julia-frameworks-to-create-desktop-guis-and-web-apps-9ae1a941f115](https://towardsdatascience.com/6-julia-frameworks-to-create-desktop-guis-and-web-apps-9ae1a941f115)
 * → [syl1.gitbook.io/julia-language-a-concise-tutorial/language-core/11-developing-julia-packages](https://syl1.gitbook.io/julia-language-a-concise-tutorial/language-core/11-developing-julia-packages)
@@ -1860,7 +1914,8 @@ FIXME## Tech Stack
 * → which tools?
 * → how to host?
 
-FIXME## Text Sources
+
+#-> project,## Text Sources
 
 * [gutenberg.org/](https://www.gutenberg.org/)
 * [en.wikisource.org/wiki/Main_Page](https://en.wikisource.org/wiki/Main_Page)
@@ -1868,7 +1923,8 @@ FIXME## Text Sources
 * [fb2bookfree.com/](https://fb2bookfree.com/)
 * [archive.org/](https://archive.org/) (good for imperfect texts, OCR, etc.)
 
-FIXME## Preprocessing
+
+#-> project,## Preprocessing
 
 * Input formats:
 * .txt
@@ -1883,7 +1939,8 @@ FIXME## Preprocessing
 * Tokenization at each level given above → see [WordTokenizers.jl](https://www.theoj.org/joss-papers/joss.01956/10.21105.joss.01956.pdf) for sentence and word level; use regex and pattern recognition for others
 * Data structure:
 
-FIXME## Extensions
+
+#-> project,## Extensions
 
 * juxtalinear LaTeX generator
 * interlinear LaTeX generator
@@ -2613,9 +2670,11 @@ FIXME## Extensions
 * [Multilingual Aligned Corpora From Movie Subtitles](https://giguete.users.greyc.fr/alignment/Subtitles_MM-EG.pdf)
 * HFCC detector: pronouns | prepositions | adverbs | conjunctions | articles | determiners | interjections | particles | numbers | very most common verbs: to be, to say, to do, to ask, can/be able to,  ... | auxiliary verbs | regex-based: | noun-like (capital in German, etc.) | verb-like | adjective-like
 
-FIXME## Parallel Text Finisher
 
-FIXME# parallel-text-finisher
+#-> project,## Parallel Text Finisher
+
+
+#-> project,# parallel-text-finisher
 
 * Create (in Go?) an interlinear LaTeX generator, easily configurable. → learn Go, see about OOP-like constructs, templating, string manipulations, etc.
 * look at source of taskwarrior search filtering
@@ -2625,9 +2684,11 @@ FIXME# parallel-text-finisher
 * Parallel text flutter app (or other cross-platform app, such as Doxius)
 * how to make hover effects?: word/span highlight → highlight aligned words in corresponding sentence(s)
 
-FIXME## WiktionaryTool.jl
 
-FIXME# WiktionaryTool.jl 🌱
+#-> project,## WiktionaryTool.jl
+
+
+#-> project,# WiktionaryTool.jl 🌱
 
 * [yelircaasi/wiktionary-etymology-tool](https://github.com/yelircaasi/wiktionary-etymology-tool)
 * Language Candidates: Julia | Python | R | Scala | C++ | Java | JavaScript (Node.js or Deno?) | Ruby? | PHP? | Go? | Rust? | Perl? | Scheme / Racket / Common Lisp?
@@ -2728,14 +2789,17 @@ FIXME# WiktionaryTool.jl 🌱
 * [JuliaLang/Example.jl](https://github.com/JuliaLang/Example.jl) [JuliaLang/METADATA.jl/issues](https://github.com/JuliaLang/METADATA.jl/issues) [tobanwiebe.com/blog/2016/08/julia-packaging](https://tobanwiebe.com/blog/2016/08/julia-packaging)
 * [stackoverflow.com/questions/59825336/how-can-i-do-web-scraping-in-julia](https://stackoverflow.com/questions/59825336/how-can-i-do-web-scraping-in-julia)
 
-FIXME## Grecromancer
 
-FIXME## grecromancer (Classics TTS)
+#-> project,## Grecromancer
+
+
+#-> project,## grecromancer (Classics TTS)
 
 * Name ideas: GrecRomancer (from Necromancer
 * To do: Divide into smaller sub-projects.
 
-FIXME### Data Ideas
+
+#-> project,### Data Ideas
 
 * Align at word level by pre-trained ASR:
 * get output or intermediate output in another language (Italian for Latin, Italian / Modern Greek / Russian for Greek)
@@ -2743,13 +2807,15 @@ FIXME### Data Ideas
 * align Latin / greek characters / syllables to corresponding best match in ASR output -> dynamic programming approach? | beam search? | forced alignment → look into off-the-shelf
 * using the time stamps for each word (ideally with both loose and tight to put bounds on estimate of temporal location of word), create different permutations
 
-FIXME### IP Concerns
+
+#-> project,### IP Concerns
 
 * 1. learn about relevant IP law and legal precedent
 * 2. decide whether to contact and collaborate with relevant speakers
 * → after impressive samples have been generated?
 
-FIXME### Resources
+
+#-> project,### Resources
 
 * [Valerio Velardo - The Sound of AI](https://www.youtube.com/@ValerioVelardoTheSoundofAI/playlists)
 * [Digital speech processing](https://www.youtube.com/playlist?list=PLvv3PyiCcNrFuT7CEIvIr4a4g4orascx3)
@@ -2845,25 +2911,29 @@ FIXME### Resources
 * [What Classical Attic ACTUALLY sounded like 🤯 Vulgar Attic pronunciation (English & Latin subtitles) - YouTube](https://www.youtube.com/watch?v=TBIZ2WRfAgY)
 * [Introducing Voicebox: The Most Versatile AI for Speech Generation | Meta](https://about.fb.com/news/2023/06/introducing-voicebox-ai-for-speech-generation/)
 
-FIXME## # interlineator
+
+#-> project,## # interlineator
 
 * toolkit to create interlinear and juxtalinear annotations - especially for grammatical and phonetic glosses
 * toolkit for generating linguistic annotations (interlinear, juxtalinear, hover, etc.)
 * option to only gloss words under a certain frequency, or not contained in a certain list
 
-FIXME## # henry-higgins
+
+#-> project,## # henry-higgins
 
 * A) Constrastive audio visualization (user vs target), normalizing for speed and pitch, also aligning to transcription and to each other
 * B) Convolutional (+ attention?) binary classifier native vs non-native, good for visualization, esp. in frequency domain, but also in time domain
 * → look at how to visualize activations and attention alignments
 
-FIXME## Resources
+
+#-> project,## Resources
 
 * [Exploring Phoneme-Level Speech Representations for End-to-End Speech Translation](https://esalesky.github.io/assets/pdf/acl19_exploring.pdf)
 * Allosaurus → enhance and fine-tune, use in articulatory feedback??
 * [Phoneme-to-Audio Alignment with Recurrent Neural Networks for Speaking and Singing Voice](https://hal.science/hal-03552964/file/1676anav.pdf)
 
-FIXME## Considerations
+
+#-> project,## Considerations
 
 * make as a plugin to Praat? or similar, but with a more polished interface?
 * [apps.kde.org/artikulate/](https://apps.kde.org/artikulate/)
@@ -2890,11 +2960,13 @@ FIXME## Considerations
 
 * use PoS tagging, Wiktionary word info (via Wiktionary tool) → later dependency parsing?
 
-FIXME## Expression Translation Tables (→ Multi-Word Expression Project, Proverbs Project)
+
+#-> project,## Expression Translation Tables (→ Multi-Word Expression Project, Proverbs Project)
 
 * [en.wiktionary.org/wiki/Category:Multiword_terms_by_language](https://en.wiktionary.org/wiki/Category:Multiword_terms_by_language)
 
-FIXME# Projects
+
+#-> project,# Projects
 
 * -> mypyc compilation (static?) codon? -> check licenses
 * bw CLI (bitwarden)
@@ -2949,14 +3021,17 @@ FIXME# Projects
 * -> other candidates: cython, codon, Kotlin native, Rust, safe subset of C or Cpp, Ocaml, Haskell, Go
 * Write LLM overview, with maybe 5 versions, differing in complexity and required background
 
-FIXME# Personal Website 🌱
 
-FIXME## Hosting
+#-> project,# Personal Website 🌱
+
+
+#-> project,## Hosting
 
 * Want something better than Hostinger
 * [hpanel.hostinger.com/hosting/isaacrriley.com/](https://hpanel.hostinger.com/hosting/isaacrriley.com/)
 
-FIXME## Structure
+
+#-> project,## Structure
 
 * About Me
 * [ ]
@@ -2977,14 +3052,16 @@ FIXME## Structure
 * → button to change color scheme for different views corresponding to characteristics/history: paradigm(s), genealogy, application area, language features
 * Study Notes (port from LaTeX versions)
 
-FIXME## Learning
+
+#-> project,## Learning
 
 * [ ]  [Build and deploy a portfolio website [Full Tutorial Course]](https://www.youtube.com/watch?v=_xkSvufmjEs)- [ ]  look at all examples in list of personal websites
 * [ ]  read [codingflicks.com/2020/08/simple-website-design-using-html-and-css.html](https://www.codingflicks.com/2020/08/simple-website-design-using-html-and-css.html)
 * [ ]  look at web books for notes
 * [ ]  look into mathjax, hugo, jekyll, and [unbuch](https://github.com/mrtzh/unbuch) for static site generation
 
-FIXME## My Site
+
+#-> project,## My Site
 
 * [strapdownjs.com](https://strapdownjs.com/)
 * [yelircaasi.github.io/](https://yelircaasi.github.io/)
@@ -3003,7 +3080,8 @@ FIXME## My Site
 * [RyanFitzgerald/devportfolio](https://github.com/RyanFitzgerald/devportfolio)
 * [ashutosh1919/masterPortfolio](https://github.com/ashutosh1919/masterPortfolio)
 
-FIXME## Blogging
+
+#-> project,## Blogging
 
 * [cms - Multilingual blogging platform - Software Recommendations Stack Exchange](https://softwarerecs.stackexchange.com/questions/7519/multilingual-blogging-platform)
 * [Create a site - Sites Help](https://support.google.com/sites/answer/98081?hl=en)
@@ -3017,7 +3095,8 @@ FIXME## Blogging
 * [Welcome | Flask (A Python Microframework)
 * [Your stories](https://medium.com/me/stories/drafts)
 
-FIXME## Writing
+
+#-> project,## Writing
 
 * [D2L for Reference (esp. code language tabs)](https://github.com/d2l-ai/d2l-en/blob/master/chapter_appendix-mathematics-for-deep-learning/information-theory.md)
 * [A Guide to Creating and Hosting a Personal Website on GitHub | Jonathan McGlone | Librarian, Front-End Developer, Digital Publisher, Project Manager, Music Enthusiast, Web Noodler.](http://jmcglone.com/guides/github-pages/)
@@ -3032,7 +3111,8 @@ FIXME## Writing
 * [Bookish (typesetting conversion library):](https://github.com/parrt/bookish)
 * [**Write for Towards Data Science - Towards Data Science](https://towardsdatascience.com/questions-96667b06af5)
 
-FIXME# proglang table
+
+#-> project,# proglang table
 
 * [item_synchronizer](https://github.com/bergercookie/item_synchronizer)
 * [example of semantic diff](https://github.com/Ekleog/todiff) - look at algorithms and implementations in src
@@ -3073,7 +3153,8 @@ FIXME# proglang table
 * [phoenixframework.org/](https://www.phoenixframework.org/)
 * [orgs/alpha2phi/repositories](https://github.com/orgs/alpha2phi/repositories)
 
-FIXME# [Minimal Working Examples](https://docs.google.com/spreadsheets/d/1hzRM9NpjLdlBnZmU2H2UTX_eWDRXf9jujuw61ov9Yso/edit?usp=sharing) 🌱
+
+#-> project,# [Minimal Working Examples](https://docs.google.com/spreadsheets/d/1hzRM9NpjLdlBnZmU2H2UTX_eWDRXf9jujuw61ov9Yso/edit?usp=sharing) 🌱
 
 * -> Add "Build Your Own Lisp" to Rosetta Projects
 
@@ -3222,7 +3303,8 @@ FIXME# [Minimal Working Examples](https://docs.google.com/spreadsheets/d/1hzRM9N
 * Knapsack Problem
 * HackerRank Language Proficienc
 
-FIXME## C
+
+#-> project,## C
 
 * "Hello World!" in C
 * Playing With Characters
@@ -3250,7 +3332,8 @@ FIXME## C
 * Post Transition
 * Structuring the Document
 
-FIXME## C++
+
+#-> project,## C++
 
 * Say "Hello, World!" With C++
 * Input and Output
@@ -3296,7 +3379,8 @@ FIXME## C++
 * C++ Variadics
 * Bit Array
 
-FIXME## Java
+
+#-> project,## Java
 
 * Welcome to Java!
 * Java Stdin and Stdout I
@@ -3362,7 +3446,8 @@ FIXME## Java
 * Java MD5
 * Java SHA-256
 
-FIXME## Python
+
+#-> project,## Python
 
 * Say "Hello, World!" With Python
 * Python If-Else
@@ -3479,7 +3564,8 @@ FIXME## Python
 * Polynomials
 * Linear Algebra
 
-FIXME## Bash Linux
+
+#-> project,## Bash Linux
 
 * Let's Echo
 * Looping and Skipping
@@ -3546,7 +3632,8 @@ FIXME## Bash Linux
 * Awk' - 1
 * Awk' - 2
 
-FIXME## Functional Programming
+
+#-> project,## Functional Programming
 
 * Solve Me First FP
 * Hello World
@@ -3722,7 +3809,8 @@ FIXME## Functional Programming
 * [proglib.io/p/40-proektov-na-python-dlya-novichkov-i-prodvinutyh-razrabotchikov-2022-05-13](https://proglib.io/p/40-proektov-na-python-dlya-novichkov-i-prodvinutyh-razrabotchikov-2022-05-13)
 * [danistefanovic/build-your-own-x](https://github.com/danistefanovic/build-your-own-x)
 
-FIXME## ML → See sklearn docs
+
+#-> project,## ML → See sklearn docs
 
 * rosetta-projects: incorporate Modern C++ Challenge
 * rosetta-projects: also use Go by Example and Haskell by Example
@@ -3732,7 +3820,8 @@ FIXME## ML → See sklearn docs
 * [examples.raku.org/index.html](https://examples.raku.org/index.html)
 * [yrwq/ccc](https://github.com/yrwq/ccc) - good parallel code project - add similar thing!
 
-FIXME## Tree
+
+#-> project,## Tree
 
 * -> also make it take and output JSON, YAML, lists of paths (with different separators)
 

@@ -31,7 +31,7 @@ or Mc = c^\prime
 * Map one colorscheme to another (closed-form mapping matrix vs FFNN vs attention-based NN / transformer)
 * ( ) [paletton.com/](https://paletton.com/)
 
-FIXME### pictrix: Tools for Color and Theme Management
+### pictrix: Tools for Color and Theme Management
 
 * make global-inputs with keybindings.nix and colors.nix, to be read into flake and fed into output in the let-in clause
 * lawyp (juwal? ruwal?)
@@ -185,7 +185,7 @@ print(transformed.shape)
 
 * ( ) [ImageGoNord - RGB image to Nordtheme](https://ign.schrodinger-hat.it/)
 
-FIXME## Roadmap
+## Roadmap
 
 * compile list of applications (top, basic, extended, someday - according to priority)
 * look carefully at existing projects and their respective approaches, before continuing iwht this roadmap: most notably nix-colors and stylix → possibly to integrate even more fully into Home Manager than a “Home Manager config file generation” step?
@@ -196,7 +196,7 @@ FIXME## Roadmap
 * extend config parsers to write changed colors (with backup, including optional support for commenting out old colors lines, but also backing up the config to e.g. ~/.cache/pictrix/{timestamp}
 * Add increasingly advanced color functionality, to allow for both linear and perceptual function (esp interpolation) and eventually even different mappings of color schemes to and from images (last part as dependency, rather than just as constituent module in pictrix)
 
-FIXME### Notes
+### Notes
 
 * Alternative names: colorflip, pavo (Latin for peacock), iridesco, splendor, vanitas, vainglory, ostentatio, vanus (vanix? → good wordplay; pictrix? ostentatix?)
 * Goal: One tool for non-Nix Linux, one tool like Home Manager for colors (or make the latter nix-compatible?)

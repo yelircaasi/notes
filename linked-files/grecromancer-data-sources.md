@@ -71,7 +71,7 @@
 * 68. [Callimachus 2 in reconstructed ancient Greek pronunciation](https://www.youtube.com/watch?v=UXmpHKTuGGM)
 * 69. [Theogony 1-21 spoken in reconstructed Ancient Greek](https://www.youtube.com/watch?v=WjgnVvI1H7g)
 
-FIXME## Audiobooks in spoken Ancient Greek Language
+## Audiobooks in spoken Ancient Greek Language
 
 * [HIPPOCRATES the Medical Oath](https://ancientgreek.eu/free/oath.html) 4 / 0
 * [BERESFORD & DOUGLAS A First Greek Reader](https://ancientgreek.eu/edu/first-greek-reader.html) 106 / -
@@ -131,9 +131,9 @@ FIXME## Audiobooks in spoken Ancient Greek Language
 
      ([ARISTOTLE *Nicomachean Ethics 01](https://ancientgreek.eu/#))*
 
-FIXME## Latinitium
+## Latinitium
 
-FIXME# Latinitium
+## Latinitium
 
 * [latinitium.com/category/2000-years-of-latin-prose/](https://latinitium.com/category/2000-years-of-latin-prose/)
 * [video](https://www.youtube.com/@Latinitium)
@@ -145,7 +145,7 @@ FIXME# Latinitium
 * [store.latinitium.com/products/ritchie-s-fabulae-faciles-audiobook](https://store.latinitium.com/products/ritchie-s-fabulae-faciles-audiobook) (152 / 16)
 * → 1413 / 126 (23.5h)
 
-FIXME# [latinitium.com/latin-audio-archive](https://latinitium.com/latin-audio-archive)
+# [latinitium.com/latin-audio-archive](https://latinitium.com/latin-audio-archive)
 
 * [The Story Of Androclus And The Lion](https://latinitium.com/latin-audio-archive#The_Story_Of_Androclus_And_The_Lion)
 * [The Story Of Perseus Part 2 – Latin Texts](https://latinitium.com/latin-audio-archive#The_Story_Of_Perseus_Part_2_Latin_Texts)

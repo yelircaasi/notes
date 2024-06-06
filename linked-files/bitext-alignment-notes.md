@@ -96,7 +96,7 @@ Also negative aspect? -> words highly likely to be translated with another word 
 
 
 
-FIXME### Relevant Algorithms
+### Relevant Algorithms
 
 * 1. Beam Search (adapted to bitex alignment
 * 2. Anchor point seeded beam search

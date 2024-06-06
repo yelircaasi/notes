@@ -5,9 +5,9 @@
 * “Code is like humor. When you have to explain it, it's bad.” - Cory House
 * FOSS contributions: Rust NLP, Julia NLP, Rasa, C++ GUI, Torch NLP
 
-FIXME# Low-Level
+#-> cs,# Low-Level
 
-FIXME## exercism
+#-> cs,## exercism
 
 * [exercism.org/tracks/x86-64-assembly/](https://exercism.org/tracks/x86-64-assembly/)
 * [exercism.org/tracks/x86-64-assembly/exercises/hello-world/solutions](https://exercism.org/tracks/x86-64-assembly/exercises/hello-world/solutions)
@@ -28,7 +28,7 @@ FIXME## exercism
 * [exercism.org/tracks/x86-64-assembly/exercises/binary-search/solutions](https://exercism.org/tracks/x86-64-assembly/exercises/binary-search/solutions)
 * [exercism.org/tracks/x86-64-assembly/exercises/collatz-conjecture/solutions](https://exercism.org/tracks/x86-64-assembly/exercises/collatz-conjecture/solutions)
 
-FIXME## Low-Level Reading
+#-> cs,## Low-Level Reading
 
 * [How Binary Works](https://youtu.be/PMpNhbMjDj0)
 * [Book: Numbers and Computers](http://library.lol/main/0ED6B117074071DF946B58FF8AEDD36A)
@@ -38,16 +38,16 @@ FIXME## Low-Level Reading
 * [Embedded Systems with ARM Cortex-M Microcontrollers in Assembly Language and C](https://web.eece.maine.edu/~zhu/book/)
 * [Apress/learn-to-program-w-assembly](https://github.com/Apress/learn-to-program-w-assembly)
 
-FIXME## Boot etc
+#-> cs,## Boot etc
 
 * [de.wikipedia.org/wiki/Bootloader](https://de.wikipedia.org/wiki/Bootloader)
 * [de.wikipedia.org/wiki/Grand_Unified_Bootloader](https://de.wikipedia.org/wiki/Grand_Unified_Bootloader)
 
-FIXME## Cracking
+#-> cs,## Cracking
 
 * [gtfobins.github.io/](https://gtfobins.github.io/)
 
-FIXME## Other People’s Projects
+#-> cs,## Other People’s Projects
 
 * [os.phil-opp.com/](https://os.phil-opp.com/)  * notes on writing an OS in Rust
 * [raymii.org/s/blog/Bare_Metal_Boot_to_Vi.html](https://raymii.org/s/blog/Bare_Metal_Boot_to_Vi.html)
@@ -55,9 +55,9 @@ FIXME## Other People’s Projects
 * [uLisp](http://www.ulisp.com/show?3KN3)
 * [Intel 8080 CPU Emulator](https://www.tramm.li/i8080/)
 
-FIXME## Courses and Tutorials
+#-> cs,## Courses and Tutorials
 
-FIXME### Long
+#-> cs,### Long
 
 * [x86 Assembly Course (whatsacreel)](https://www.youtube.com/playlist?list=PLKK11Ligqitg9MOX3-0tFT1Rmh3uJp7kA)
 * [Digitaltechnik-Tutorial](https://www.youtube.com/playlist?list=PLBF281451AA9A2E13)    nand2tetris    ‣
@@ -67,7 +67,7 @@ FIXME### Long
 * [Языки программирования и компиляторы (2013)](https://www.youtube.com/watch?v=RqPL2pLuZkk&list=PL-_cKNuVAYAUkjhvHtKoH5Of2F0w3I400)
 * [Assembly Programming Tutorial](https://www.tutorialspoint.com/assembly_programming/)
 
-FIXME### Short
+#-> cs,### Short
 
 * [Hello World with NASM Assembler | DevDungeon](https://www.devdungeon.com/content/hello-world-nasm-assembler)
 * [**Architecture of the central processing unit (CPU) - Computer Science Wiki](https://computersciencewiki.org/index.php/Architecture_of_the_central_processing_unit_(CPU))
@@ -81,9 +81,9 @@ FIXME### Short
 * [8086 Assembly - Pong](https://www.youtube.com/watch?v=dyANHsj2UOw&list=PLvpbDCl_H7mfgmEJPl1bTHlH5g-f0kWDM)
 * [andystanton/cmake-nasm-test: Building a nasm hello world app with cmake](https://github.com/andystanton/cmake-nasm-test)
 
-FIXME## Media
+#-> cs,## Media
 
-FIXME### Video
+#-> cs,### Video
 
 * [youtube.com/c/LowLevelLearning](https://youtube.com/c/LowLevelLearning)    WebAssembly for Web Developers
 * [Intro to WA](https://www.youtube.com/watch?v=3sU557ZKjUs)
@@ -108,7 +108,7 @@ FIXME### Video
 * [What Is Assembly Language? - YouTube](https://www.youtube.com/watch?v=1FXhjErUz58)
 * [Compilers: Innovation from the Bottom-Up—Viral Shah & Keno Fischer on TechLifeSkills w/Tanmay Ep. 20](https://www.youtube.com/watch?v=mWAiCI43nqA&list=PLVWtXi_Jrj_14rUJDWFEvyhOmYF2JdHmk&index=61&t=14s)
 
-FIXME## Examples and Collections
+#-> cs,## Examples and Collections
 
 * [Largest proper divisor of n - Rosetta Code](http://www.rosettacode.org/wiki/Largest_proper_divisor_of_n#X86_Assembly)
 * [Category:ARM Assembly - Rosetta Code](http://www.rosettacode.org/wiki/Category:ARM_Assembly)
@@ -116,7 +116,7 @@ FIXME## Examples and Collections
 * [Category:6502 Assembly - Rosetta Code](http://www.rosettacode.org/wiki/Category:6502_Assembly)
 * [Category:8086 Assembly - Rosetta Code](http://www.rosettacode.org/wiki/Category:8086_Assembly)
 
-FIXME## Tools and Software Resources
+#-> cs,## Tools and Software Resources
 
 * [webassembly.studio](https://webassembly.studio/)
 * [SASM - Simple crossplatform IDE for NASM, MASM, GAS, FASM assembly languages](https://dman95.github.io/SASM/english.html)
@@ -128,7 +128,7 @@ FIXME## Tools and Software Resources
 * [compile nasm online](https://rextester.com/l/nasm_online_compiler)
 * [jj's useful and ugly FXT page](https://www.jjj.de/fxt/#fxt)
 
-FIXME## Docs
+#-> cs,## Docs
 
 * [as. The GNU Assembler.pdf](https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=6C2EA7D9BCE553D77A12DFC96DB7A990?doi=10.1.1.32.4503&rep=rep1&type=pdf)
 * [GNU Assembler - CodeDocs](https://codedocs.org/what-is/gnu-assembler)
@@ -138,7 +138,7 @@ FIXME## Docs
 * [NASM](https://www.nasm.us/)
 * [Getting Started with the LLVM System — LLVM 10 documentation](https://llvm.org/docs/GettingStarted.html)
 
-FIXME## Disassembly
+#-> cs,## Disassembly
 
 * [ disassembler.io](https://onlinedisassembler.com/static/home/index.html)
 * [**tools - Is there any disassembler to rival IDA Pro? - Reverse Engineering Stack Exchange](https://reverseengineering.stackexchange.com/questions/1817/is-there-any-disassembler-to-rival-ida-pro)
@@ -148,7 +148,7 @@ FIXME## Disassembly
 * [** ==> x86 Disassembly/Disassemblers and Decompilers - Wikibooks, open books for an open world](https://en.wikibooks.org/wiki/X86_Disassembly/Disassemblers_and_Decompilers)
 * [Hopper ==> see if I can learn anything from tutorial](https://www.hopperapp.com/)
 
-FIXME## Julia
+#-> cs,## Julia
 
 * [How to execute julia code in a bash shell script itself - Usage - JuliaLang](https://discourse.julialang.org/t/how-to-execute-julia-code-in-a-bash-shell-script-itself/30848)
 * [JuliaComputing/static-julia: Static AOT Julia compilation, demos and instructions](https://github.com/JuliaComputing/static-julia)
@@ -156,17 +156,17 @@ FIXME## Julia
 * [State of Compilation to Single Executable for Julia - Usage - JuliaLang](https://discourse.julialang.org/t/state-of-compilation-to-single-executable-for-julia/30792/3)
 * [**What is the difference between @code_native, @code_typed and @code_llvm in Julia? - Stack Overflow](https://stackoverflow.com/questions/43453944/what-is-the-difference-between-code-native-code-typed-and-code-llvm-in-julia)
 
-FIXME## Java
+#-> cs,## Java
 
 * [Java Decompiler](http://java-decompiler.github.io/)
 
-FIXME## Python
+#-> cs,## Python
 
 * [[dis — Disassembler for Python bytecode — Python 3.8.4rc1 documentation](https://docs.python.org/3/library/dis.html#:~:text=The dis module supports the,in the file Include%2Fopcode.&text=No guarantees are made that,changed between versions of Python.)](https://docs.python.org/3/library/dis.html#:~:text=The%20dis%20module%20supports%20the,in%20the%20file%20Include%2Fopcode.&text=No%20guarantees%20are%20made%20that,changed%20between%20versions%20of%20Python.))
 
-FIXME## Reading List
+#-> cs,## Reading List
 
-FIXME### SORT
+#-> cs,### SORT
 
 * -> look into Risc-V
 * [What is Microarchitecture?](https://www.computerhope.com/jargon/m/microarchitecture.htm)
@@ -415,7 +415,7 @@ FPGAs
 * [...](https://www.nand2tetris.org/software*) [pypi.org/project/vm-translator/*](https://pypi.org/project/vm-translator/*) [pypi.org/project/hack-assembler/*](https://pypi.org/project/hack-assembler/*) [nandgame.com/*](https://www.nandgame.com/*) [libgen.rs/search.php?req=Klaus+dembowski&open=0&res=25&view=simple&phrase=1&column=author](http://libgen.rs/search.php?req=Klaus+dembowski&open=0&res=25&view=simple&phrase=1&column=author)
 * Heidelberg: Klaus Dembowski: Die Computer-Werkstatt* [aur.archlinux.org/packages/nand2tetris/*](https://aur.archlinux.org/packages/nand2tetris/*) [Nanometer-Scale Ge-Based Adaptable Transistors Providing Programmable Negative Differential Resistance Enabling Multivalued Logic](https://pubs.acs.org/doi/10.1021/acsnano.1c06801)
 
-FIXME## [ project euler in NASM - Поиск в Google](https://www.google.com/search?q=project+euler+in+NASM&rlz=1C5CHFA_enUS800US800&oq=project+euler+in+NASM&aqs=chrome..69i57j33.3608j0j4&sourceid=chrome&ie=UTF-8)
+#-> cs,## [ project euler in NASM - Поиск в Google](https://www.google.com/search?q=project+euler+in+NASM&rlz=1C5CHFA_enUS800US800&oq=project+euler+in+NASM&aqs=chrome..69i57j33.3608j0j4&sourceid=chrome&ie=UTF-8)
 
 * [AidanFray/ProjectEuler_x86_Assembler: Some Project Euler challenges coded in x86 NASM Assembler](https://github.com/AidanFray/ProjectEuler_x86_Assembler)
 * [jfmatt-zz/euler-asm: Project Euler in x86 assembly](https://github.com/jfmatt-zz/euler-asm)
@@ -429,7 +429,7 @@ FIXME## [ project euler in NASM - Поиск в Google](https://www.
 * [NASM-X Manual](http://thlorenz.com/nasmx/nasmx1.html)
 * [Raymond's page](http://www.ray.masmcode.com/)
 
-FIXME## [**June | 2013 | Programming Logic](https://www.programminglogic.com/2013/06/)
+#-> cs,## [**June | 2013 | Programming Logic](https://www.programminglogic.com/2013/06/)
 
 * [Nasm X86 Segfault](https://progi.pro/nasm-x86-segfault-8899673)
 * [Ответы на Ваши Вопросы по Программированию!](https://progi.pro/)
@@ -437,7 +437,7 @@ FIXME## [**June | 2013 | Programming Logic](https://www.programminglogic.com/201
 * [How to solve Project Euler 2 using x86 Assembly - YouTube](https://www.youtube.com/watch?v=AU-rgZF7d-Q)
 * [Project Euler exercise 1 in C, Python 3 and x86 assembly language | John Pierce](http://www.arti-sec.com/article/project-euler-exercise-1-c-python-3-and-x86-assembly-language)
 
-FIXME## [**Assembly Language Programming Tutorial - YouTube](https://www.youtube.com/watch?v=zEuvNYe7WG0)
+#-> cs,## [**Assembly Language Programming Tutorial - YouTube](https://www.youtube.com/watch?v=zEuvNYe7WG0)
 
 * [WebAssembly](https://webassembly.org/)
 * [GaetanoCausio/AssemblerOnMac: Assembler on your Mac? Yes We Can ! A quick tutorial together with a bunch of sample assembler programs for the Mac.](https://github.com/GaetanoCausio/AssemblerOnMac)
@@ -467,7 +467,7 @@ FIXME## [**Assembly Language Programming Tutorial - YouTube](https://www.youtube
 * [Assembly Language Step-by-Step](https://drive.google.com/file/d/1EAdU3U0Yt3oFMj_glpb_vQc89r6_LeKw/view?usp=sharing)
 * [Язык ассемблера для процессоров Intel](https://drive.google.com/file/d/100KIiB91hcjrAqDAkugIWyLGhoQ8ZXX_/view?usp=sharing)
 
-FIXME## [** Even Better Tutorial](https://asmtutor.com/)
+#-> cs,## [** Even Better Tutorial](https://asmtutor.com/)
 
 * [101 of ELF Files](https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/)
 * [asm64-handout.dvi](https://www.cs.cmu.edu/~fp/courses/15213-s07/misc/asm64-handout.pdf)
@@ -546,7 +546,7 @@ FIXME## [** Even Better Tutorial](https://asmtutor.com/)
 * [azure-docs/iot-hub-raspberry-pi-web-simulator-get-started.md at master · MicrosoftDocs/azure-docs · GitHub](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started.md)
 * [Raspberry Pi Azure IoT Web Simulator](https://azure-samples.github.io/raspberry-pi-web-simulator/)
 
-FIXME## [*Programming from the Ground Up Book - Accueil [Savannah]](http://savannah.nongnu.org/projects/pgubook/)
+#-> cs,## [*Programming from the Ground Up Book - Accueil [Savannah]](http://savannah.nongnu.org/projects/pgubook/)
 
 * [Programming from the Ground Up](http://programminggroundup.blogspot.com/)
 * [? Tech Docs | AMD](https://www.amd.com/en/support/tech-docs)
@@ -681,7 +681,7 @@ FIXME## [*Programming from the Ground Up Book - Accueil [Savannah]](http://savan
 * [Game Physics (in Assembler) - Computerphile - YouTube](https://www.youtube.com/watch?v=Kalmryn9_sE)
 * [Introduction to x64 Assembly](https://software.intel.com/content/www/us/en/develop/articles/introduction-to-x64-assembly.html)
 
-FIXME### comparisons
+#-> cs,### comparisons
 
 * [MASM Vs NASM Vs GAS | Abu Bakar](https://bakarabu.wordpress.com/2021/01/31/masm-vs-nasm-vs-gas/)
 * [asm, GAS vs. MASM](http://computer-programming-forum.com/46-asm/0484c7edd213a17b.htm)
@@ -689,7 +689,7 @@ FIXME### comparisons
 * [Linux assemblers: A comparison of GAS and NASM](https://web.archive.org/web/20090303224539/http://ibm.com/developerworks/linux/library/l-gas-nasm.html)
 * [Linux assemblers: A comparison of GAS and NASM – IBM Developer](https://developer.ibm.com/articles/l-gas-nasm/)
 
-FIXME### Wikipedia
+#-> cs,### Wikipedia
 
 * [Assembly language - Wikipedia](https://en.wikipedia.org/wiki/Assembly_language)
 * [x86 assembly language - Wikipedia](https://en.wikipedia.org/wiki/X86_assembly_language#Syntax)
@@ -707,17 +707,17 @@ FIXME### Wikipedia
 * [Mach-O - Wikipedia](https://en.wikipedia.org/wiki/Mach-O)
 * [LLVM - Wikipedia](https://en.wikipedia.org/wiki/LLVM)
 
-FIXME# Linux Resources
+#-> cs,# Linux Resources
 
-FIXME## Good Miscellaneous Sites
+#-> cs,## Good Miscellaneous Sites
 
 * [Make a Linux App](https://makealinux.app/#/)
 
-FIXME## Documentation
+#-> cs,## Documentation
 
 * [Linux Kernel Documentation](https://www.kernel.org/doc/html/v6.8/)
 
-FIXME## Community
+#-> cs,## Community
 
 * [/r/commandline](https://www.reddit.com/r/commandline) - This is for anything regarding the command line, in any operating system.
 * [/r/osxterminal](https://www.reddit.com/r/osxterminal) - Tips for using terminal.app in macOS.
@@ -726,7 +726,7 @@ FIXME## Community
 * [#bash](https://webchat.freenode.net/?channels=bash) - Bash IRC channel on freenode.
 * [Stack Overflow](https://stackoverflow.com/questions/tagged/terminal) - Terminal tagged questions.
 
-FIXME## Subreddits
+#-> cs,## Subreddits
 
 * [AlmaLinux](https://www.reddit.com/r/AlmaLinux/)
 * [Arch Linux](https://www.reddit.com/r/archlinux/)
@@ -778,31 +778,31 @@ FIXME## Subreddits
 * [Xubuntu](https://www.reddit.com/r/xubuntu/)
 * [Zorin OS](https://www.reddit.com/r/zorinos/)
 
-FIXME## Blogs
+#-> cs,## Blogs
 
 * [BrainBlasted's Privacy and Free Software Blog](https://brainblasted.gitlab.io/) - Practical look at issues involving free software and privacy.
 
-FIXME## Businesses
+#-> cs,## Businesses
 
 * [Bytemark](https://www.bytemark.co.uk/company/manifesto/) - Transparent UK hosting company that offers a 50% discount for anyone publishing free software.
 
-FIXME## Discovery
+#-> cs,## Discovery
 
 * [Free Software Directory](https://directory.fsf.org/wiki/Main_Page) - Over 15,000 free software packages.
 * [Free GNU/Linux Distributions](https://www.gnu.org/distros/free-distros.html) - Entirely free distributions.
 * [freepost](https://freepo.st/) - Everything related to free culture.
 
-FIXME## Events
+#-> cs,## Events
 
 * [LibrePlanet](https://libreplanet.org/) - Annual conference on free software.
 * [Software Freedom Day](https://en.wikipedia.org/wiki/Software_Freedom_Day) - Annual worldwide celebration of free software with the aim of increasing awareness of free software and its virtues.
 
-FIXME## Licensing
+#-> cs,## Licensing
 
 * [FOSSology](https://www.fossology.org/) - License compliance toolkit for software projects.
 * [gplenforced.org](https://gplenforced.org/) - Community-oriented GPL enforcement.
 
-FIXME## Organizations
+#-> cs,## Organizations
 
 * [April](https://www.april.org/) - Promouvoir et défendre le logiciel libre.
 * [Digital Freedom Foundation](https://en.wikipedia.org/wiki/Digital_Freedom_Foundation) - Promotes access to knowledge via technology.
@@ -822,18 +822,18 @@ FIXME## Organizations
 * [Snowdrift.coop](https://snowdrift.coop/) - Crowdmatching for public goods.
 * [TuxFamily](https://www.tuxfamily.org/) - No cost hosting and other services for libre projects.
 
-FIXME## Other Lists
+#-> cs,## Other Lists
 
 * [Awesome Humane Tech](https://github.com/engagingspaces/awesome-humane-tech) - List of projects focusing on ethics, transparency, and privacy.
 * [Awesome Self-Hosted](https://github.com/Kickball/awesome-selfhosted) - List of FLOSS network services and web applications which can be hosted locally.
 * [Awesome Sysadmin](https://github.com/n1trux/awesome-sysadmin) - List of free software sysadmin tools.
 
-FIXME## People
+#-> cs,## People
 
 * [Maxime Lathuilière](https://maxlath.eu/) - Reorganizing information and resources through libre software to enable a free society.
 * [Erik Dubios](https://www.youtube.com/@ErikDubois)
 
-FIXME## Linux News, Apps, and more
+#-> cs,## Linux News, Apps, and more
 
 * [9To5Linux](https://9to5linux.com/)
 * [AllTop](https://linux.alltop.com/)
@@ -875,7 +875,7 @@ FIXME## Linux News, Apps, and more
 * [Webupd8](http://www.webupd8.org/)
 * [WineDB](https://appdb.winehq.org/)
 
-FIXME## Hardware Resources
+#-> cs,## Hardware Resources
 
 * [disaster.radio](https://disaster.radio/) - Off-grid, solar-powered, long-range mesh network built on free software and affordable, open hardware.
 * [h-node](https://h-node.org/) - Database of hardware that works with a fully free operating system.
@@ -929,7 +929,7 @@ FIXME## Hardware Resources
 * [NVIDIA HPC SDK](https://developer.nvidia.com/hpc-sdk)
 * [NVCC](https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/index.html)
 
-FIXME## LinuxTube
+#-> cs,## LinuxTube
 
 * [Diolinux](https://www.youtube.com/@Diolinux)
 * [video](https://www.youtube.com/@Akitando)
@@ -940,7 +940,7 @@ FIXME## LinuxTube
 * [video](https://www.youtube.com/@LocosporLinux)
 * [TUXEDO Computers](https://www.youtube.com/user/LinuxOnlineshop)
 
-FIXME## Guides
+#-> cs,## Guides
 
 * [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible)
 * [Bash Official Reference Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html)
@@ -961,18 +961,18 @@ FIXME## Guides
 * Guide avancé d'écriture des scripts Bash
 * [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)**
 
-FIXME## Media Sites
+#-> cs,## Media Sites
 
 * [tuxmachines.org/index/](http://www.tuxmachines.org/index/)
 * [9to5linux.com/](https://9to5linux.com/)
 * [gnulinux.ch/](https://gnulinux.ch/)
 
-FIXME## Podcasts
+#-> cs,## Podcasts
 
 * [focusonlinux.podigee.io/](https://focusonlinux.podigee.io/)
 * Podcast: This Week in Linux+
 
-FIXME## Companies and Organizations
+#-> cs,## Companies and Organizations
 
 * [Aleph Objects](https://www.alephobjects.com/) - Respects Your Freedom (RYF) certified 3D printer built with libre hardware and software.
 * [Libiquity](http://www.libiquity.com/) - Designs and develops embedded software and firmware systems.
@@ -983,7 +983,7 @@ FIXME## Companies and Organizations
 * [Vikings](https://vikings.net/) - Hosting company powered by Libreboot firmware, libre software, and green energy that also sells hardware.
 * [framasoft.org/en/ →](https://framasoft.org/en/) [degooglisons-internet.org/en/](https://degooglisons-internet.org/en/)
 
-FIXME## Distro
+#-> cs,## Distro
 
 * {distro } [...](https://github.com/Vanilla-OS/custom-image)
 * {distro} [...](https://github.com/Vanilla-OS/Vib)
@@ -1001,16 +1001,16 @@ FIXME## Distro
 * {distro} [parametrized packages for guix](https://guix.gnu.org/blog/2023/parameterized-packages-for-gnu-guix/)
 * {distro guix} [channel-x](https://github.com/daviwil/channel-x)
 
-FIXME## SORT
+#-> cs,## SORT
 
 * [Welcome to linuxzoo](https://linuxzoo.net/)
 
 * $$$ POSIX standard [pubs.opengroup.org/onlinepubs/9699919799/](https://pubs.opengroup.org/onlinepubs/9699919799/)
 * ( ) [blfs](https://www.linuxfromscratch.org/blfs/read.html)
 
-FIXME# Gen Prog Reading List Sorted
+#-> cs,# Gen Prog Reading List Sorted
 
-FIXME## Misc
+#-> cs,## Misc
 
 * > see "Challenge & Projects" section of "Learning" tab
 * [leachim6/hello-world](https://github.com/leachim6/hello-world)
@@ -1031,17 +1031,17 @@ FIXME## Misc
 * [pdelfino.com.br/](http://www.pdelfino.com.br/)
 * [dioptricdesign.com/](https://www.dioptricdesign.com/)
 
-FIXME## Dev and LLM
+#-> cs,## Dev and LLM
 
 * [How to learn to code FAST using ChatGPT (it's a game](https://www.youtube.com/watch?v=VznoKyh6AXs)
 * [ChatGPT Tutorial for Developers - 38 Ways to 10x Your Productivity Programming with Mosh Programming with Mosh Verificada • • 838.254 visualizaciones hace 11 días](https://www.youtube.com/watch?v=sTeoEFzVNSc)
 
-FIXME## Practice
+#-> cs,## Practice
 
 * [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101) 
 * [7 Habits I've Picked Up From Senior Software Developers](https://youtu.be/zivngNtLiuY)
 
-FIXME## Privacy and Cryptography
+#-> cs,## Privacy and Cryptography
 
 * [kssytsrk/nx-freestance-handler: nx-freestance-handler, a redirector from the mainstream sites (Youtube, Twittter, Instagram, Reddit) to their privacy-supporting mirrors](https://github.com/kssytsrk/nx-freestance-handler)
 * [20 most secure email providers to use in 2023 - PrivacySavvy](https://privacysavvy.com/email/best/secure-email-providers/)
@@ -1058,7 +1058,7 @@ FIXME## Privacy and Cryptography
 * {    AdBlocker Ultimate   } [RSA (cryptosystem) - Wikipedia](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
 * [Rabin fingerprint - Wikipedia](https://en.wikipedia.org/wiki/Rabin_fingerprint)
 
-FIXME## Langs / Compiler / Interpreter / Parser
+#-> cs,## Langs / Compiler / Interpreter / Parser
 
 * [hackaday.com/2022/11/27/create-a-compiler-step-by-step/](https://hackaday.com/2022/11/27/create-a-compiler-step-by-step/)
 * [tlbh.it/005_parsers.html](https://tlbh.it/005_parsers.html)
@@ -1066,7 +1066,7 @@ FIXME## Langs / Compiler / Interpreter / Parser
 * [konchunas/pyrs](https://github.com/konchunas/pyrs)
 * [ralfbiedert/interoptopus: The polyglot bindings generator for your library (C#, C, Python, …) 🐙](https://github.com/ralfbiedert/interoptopus)
 
-FIXME## Git
+#-> cs,## Git
 
 * [Git tutorial — Tuto git](https://gdevops.gitlab.io/tuto_git/index.html)
 * [dzone.com/refcardz/git-patterns-and-anti-patterns](https://dzone.com/refcardz/git-patterns-and-anti-patterns)
@@ -1081,7 +1081,7 @@ FIXME## Git
 * [git - How to override a rule set in .gitignore - Stack Overflow](https://stackoverflow.com/questions/24844782/how-to-override-a-rule-set-in-gitignore)
 * [atlassian.com/git/tutorials/git-subtree](https://www.atlassian.com/git/tutorials/git-subtree)
 
-FIXME## Aesthetics
+#-> cs,## Aesthetics
 
 * [academia.edu/24948341/THE_ROLE_OF_AESTHETICS_IN_SOFTWARE_DESIGN_DEVELOPMENT_AND_EDUCATION](https://www.academia.edu/24948341/THE_ROLE_OF_AESTHETICS_IN_SOFTWARE_DESIGN_DEVELOPMENT_AND_EDUCATION)
 * [monoskop.org/images/f/f1/Cox_McLean_Ward_2004_Coding_Praxis_Reconsidering_the_Aesthetics_of_Code.pdf](https://monoskop.org/images/f/f1/Cox_McLean_Ward_2004_Coding_Praxis_Reconsidering_the_Aesthetics_of_Code.pdf)
@@ -1090,7 +1090,7 @@ FIXME## Aesthetics
 * [Aesthetics and the Evolution of Code - Coraline Ada Ehmke](https://www.youtube.com/watch?v=qmBL4THJtuM)
 * [theorangeduck.com/page/aesthetics-code](https://theorangeduck.com/page/aesthetics-code)
 
-FIXME## Practice
+#-> cs,## Practice
 
 * [Agile Prozesse: Von XP über Scrum bis MAP](http://library.lol/main/0B20DE63B5B435BE2FE48A00E1A2AE38)
 * [Maîtrise d'ouvrage des projets informatiques - 4e éd. : La responsabilité métier tournée vers l'agile](http://library.lol/main/316C50DF83379B5DC7CAEFB1BDF325DD)
@@ -1106,7 +1106,7 @@ FIXME## Practice
 * [Scrum. Praktyczny przewodnik po najpopularniejszej metodyce Agile](http://library.lol/main/FDC5357B7D39AEAD1CD064F410CC210E)
 * {    Jira Book   } [Architecting for Scale: How to Maintain High Availability and Manage Risk in the Cloud](http://library.lol/main/903C9F6FC42748423D2109B8452EDF50)
 
-FIXME## Graphics
+#-> cs,## Graphics
 
 * Fundamentals of Computer Graphics
 * Computer Graphics : From Pixels to Programmable Graphics Hardware
@@ -1117,7 +1117,7 @@ FIXME## Graphics
 * Optimizing the Display and Interpretation of Data
 * handbook of Visual Display Technology
 
-FIXME## Media
+#-> cs,## Media
 
 * [thenextweb.com/](https://thenextweb.com/)
 * [bbvaopenmind.com/](https://www.bbvaopenmind.com/)
@@ -1131,7 +1131,7 @@ FIXME## Media
 * [Zip](https://podcast.ru/1608873219)
 * [studio.ribbonfarm.com/](https://studio.ribbonfarm.com/)
 
-FIXME## Boot
+#-> cs,## Boot
 
 * Изучаем BIOS
 * [Hands-on Booting: Learn the Boot Process of Linux, Windows, and Unix](http://library.lol/main/92909EA7B3B12F3D742F5D1D7EA8FA6E)
@@ -1141,7 +1141,7 @@ FIXME## Boot
 * [Оптимизация BIOS. Полный справочник по всем параметрам BIOS и их настройкам](http://library.lol/main/781E147CFAAE02B047A815F8EB5F7A43)
 * [Harnessing the Uefi Shell: Moving the Platform Beyond Dos](http://library.lol/main/9F60269484B41B81E4CCCE4FD78C05E7)
 
-FIXME## Math Expression Parsing
+#-> cs,## Math Expression Parsing
 
 * [→](https://github.com/beltoforion/muparserx)
 * [→](https://www.geeksforgeeks.org/parsing-string-of-symbols-to-expression/)
@@ -1158,7 +1158,7 @@ FIXME## Math Expression Parsing
 * [→](https://stackoverflow.com/questions/1432245/how-to-parse-a-mathematical-expression-given-as-a-string-and-return-a-number)
 * [→](https://pretagteam.com/question/how-to-parse-a-mathematical-expression-given-as-a-string-and-return-a-number-duplicate)
 
-FIXME## Encodings
+#-> cs,## Encodings
 
 * [\xc5\xa0 - Поиск в Google](https://www.google.com/search?q=%5Cxc5%5Cxa0&rlz=1C1GCEA_enUS814US814&oq=%5Cxc5%5Cxa0&aqs=chrome..69i57j69i58j0.2623j0j7&sourceid=chrome&ie=UTF-8)
 * [Character Encoding Recommendation for Languages | Scratchpad | FANDOM powered by Wikia](http://scratchpad.wikia.com/wiki/Character_Encoding_Recommendation_for_Languages)
@@ -1183,7 +1183,7 @@ FIXME## Encodings
 * [Writing non-ASCII text to file | Python Adventures](https://pythonadventures.wordpress.com/2012/12/02/writing-non-ascii-text-to-file/)
 * [Explain it like I'm five: Python and Unicode? : Python](https://www.reddit.com/r/Python/comments/1g62eh/explain_it_like_im_five_python_and_unicode/)
 
-FIXME## Quantum
+#-> cs,## Quantum
 
 * [Grundlegende Algorithmen: Einführung in den Entwurf und die Analyse effizienter Algorithmen](https://b-ok.cc/book/2099038/13eab0)
 * [A Beginner’s Guide To Quantum Computing - YouTube](https://www.youtube.com/watch?v=JRIPV0dPAd4)
@@ -1217,7 +1217,7 @@ FIXME## Quantum
 * [Quanteninformation (Bruß)
 * [Morgan Claypool Quantum Computer Science](http://library.lol/main/73A9FCFC6E91EA1D0A97CE2C7041343F)
 
-FIXME## History
+#-> cs,## History
 
 * Who Invented the Computer?
 * [Computer History Online](http://www.weller.to/)
@@ -1285,9 +1285,9 @@ FIXME## History
 * [(7) Historia do computador em minutos - YouTube](https://www.youtube.com/watch?v=F3qWg1JBPZg)
 
 
-FIXME## Regex
+#-> cs,## Regex
 
-FIXME### 
+#-> cs,### 
 * RegEx and the limits of Reg Langs
 * [python - reference length of regular expression group - Stack Overflow](https://stackoverflow.com/questions/42423601/reference-length-of-regular-expression-group)
 * [Regular expression - Wikipedia](https://en.wikipedia.org/wiki/Regular_expression)
@@ -1334,7 +1334,7 @@ FIXME###
 * [RegEx source](https://bitbucket.org/mrabarnett/mrab-regex/src/default/regex_3/_regex_core.py)
 * [Regex Tutorial - The Question Mark Makes the Preceding Token Optional](http://www.regular-expressions.info/optional.html)
 
-FIXME## Misc
+#-> cs,## Misc
 
 * [Kubernetes for Full-Stack Developers](https://www.digitalocean.com/community/curriculums/kubernetes-for-full-stack-developers)
 * [freecodecamp.org/news/the-docker-handbook/](https://www.freecodecamp.org/news/the-docker-handbook/)
@@ -1352,7 +1352,7 @@ FIXME## Misc
 * OpenGL
 * [Future Computers Will Be Radically Different (Analog Computing) - YouTube](https://www.youtube.com/watch?v=GVsUOuSjvcg)
 
-FIXME## Docker and k8s
+#-> cs,## Docker and k8s
 
 * [A tour of the Kubernetes source code - IBM Developer](https://developer.ibm.com/articles/a-tour-of-the-kubernetes-source-code/)
 * [COMO ENTENDER E UTILIZAR DOCKER?](https://youtu.be/OIKhrLozFMg)
@@ -1367,7 +1367,7 @@ FIXME## Docker and k8s
 * [towardsdatascience.com/how-to-properly-use-the-gpu-within-a-docker-container-4c699c78c6d1](https://towardsdatascience.com/how-to-properly-use-the-gpu-within-a-docker-container-4c699c78c6d1)
 * [freecodecamp.org/news/build-your-on-custom-container-without-docker/](https://www.freecodecamp.org/news/build-your-on-custom-container-without-docker/)
 
-FIXME## Paradigms and Language Comparison
+#-> cs,## Paradigms and Language Comparison
 
 * [4 Programming Paradigms In 40 Minutes - YouTube](https://www.youtube.com/watch?v=cgVVZMfLjEI)
 * [P vs. NP and the Computational Complexity Zoo - YouTube](https://www.youtube.com/watch?v=YX40hbAHx3s&t=32s)
@@ -1386,13 +1386,13 @@ FIXME## Paradigms and Language Comparison
 * [en.wikipedia.org/wiki/Programming_paradigm](https://en.wikipedia.org/wiki/Programming_paradigm)
 * [Функциональное программирование | Евгений Кирпичёв](https://www.youtube.com/watch?v=jEozVIGSDMU&list=PL-_cKNuVAYAWoMkUIhmaiJihYxirYrLbc)
 
-FIXME## Anki
+#-> cs,## Anki
 
 * [Janki Method Refined | Jack Kinsella](http://www.jackkinsella.ie/articles/janki-method-refined)
 * [Janki Method | Jack Kinsella](http://www.jackkinsella.ie/articles/janki-method)
 * [Ospalh’s Anki2 addons](https://ospalh.github.io/anki-addons/)
 
-FIXME### *Streamlining Anki with LaTeX | cathy wu
+#-> cs,### *Streamlining Anki with LaTeX | cathy wu
 
 * [scaling - Anki: Displayed size does not match specified size - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/394311/anki-displayed-size-does-not-match-specified-size)
 * [fontsize - Anki - LaTeX, Math Font Size, & DeclareMathSizes - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/108418/anki-latex-math-font-size-declaremathsizes)
@@ -1424,7 +1424,7 @@ FIXME### *Streamlining Anki with LaTeX | cathy wu
 * [Reddit - Anki - Anki 2.1: Code (Syntax) formatting?](https://www.reddit.com/r/Anki/comments/alpszi/anki_21_code_syntax_formatting/)
 * [Sparkle - Anki Flashcards to facilitate your programming mastery](https://www.reddit.com/r/Anki/comments/d6rdk1/sparkle_anki_flashcards_to_facilitate_your/)
 
-FIXME### **Anki machen (+ar. Verbforme): Stammform (Verb) – Wikipedia
+#-> cs,### **Anki machen (+ar. Verbforme): Stammform (Verb) – Wikipedia
 
 * [Probability Theory and Mathematical Statistics - AnkiWeb](https://ankiweb.net/shared/info/1296010623)
 * [基本数学术语 Fundamental Math Vocabulary: English–Chinese - AnkiWeb](https://ankiweb.net/shared/info/1225334140)
@@ -1438,7 +1438,7 @@ FIXME### **Anki machen (+ar. Verbforme): Stammform (Verb) – Wikipedia
 * Analysis
 * Diff EQ
 
-FIXME## OS    * [Linux: a Portable Operating System (Master of Science Thesis)
+#-> cs,## OS    * [Linux: a Portable Operating System (Master of Science Thesis)
 
 * [Linux: This Book Includes 4 Manuscripts. The Underground Bible to the UNIX Operating System with Tools On Security and Kali Hacking to Understand Computer Programming, Data Science and Command Line](http://libgen.li/ads.php?md5=9cc7a6d227d5363a7e9036a8ec9893e4)
 * [Linux for Beginners: The Ultimate Practical Guide to Operating System, Command Line and Programming. Improve your Computer Skills and Become a Computing Expertise.](http://libgen.li/ads.php?md5=76aec583971f5b63f96a97a3c08a5725)
@@ -1459,7 +1459,7 @@ FIXME## OS    * [Linux: a Portable Operating System (Master of Science Thesis)
 * [main-qimg-0a42529bf99de9597196b4c910128189-c (JPEG Image, 775 × 493 pixels)](https://qph.cf2.quoracdn.net/main-qimg-0a42529bf99de9597196b4c910128189-c)
 * [bottlerocket-os/bottlerocket](https://github.com/bottlerocket-os/bottlerocket)
 
-FIXME## Meta Topics
+#-> cs,## Meta Topics
 
 * [ImNotGoodEnough.js - YouTube](https://www.youtube.com/watch?v=6TYkDy54q4E)
 * [golem.de/news/arbeit-in-der-it-depression-vorprogrammiert-2209-167567.html](https://www.golem.de/news/arbeit-in-der-it-depression-vorprogrammiert-2209-167567.html)
@@ -1467,7 +1467,7 @@ FIXME## Meta Topics
 * [builtin.com/data-science/career-advancement-coding](https://builtin.com/data-science/career-advancement-coding)
 * [14 Hard Lessons After 14 Years Of Software Development](https://youtu.be/iF0ntBn6NdA)
 
-FIXME## Links to follow
+#-> cs,## Links to follow
 
 * [Как разобраться в Computer Science самостоятельно](https://vk.com/@tproger-computer-science-step-by-step)
 * [Как разобраться в Computer Science самостоятельно](https://vk.com/@tproger-computer-science-step-by-step)
@@ -1482,7 +1482,7 @@ FIXME## Links to follow
 * [Free Online Tutorials and Courses](https://www.tutorialspoint.com/tutorialslibrary.htm)
 * [Cours/Formations informatique à télécharger](https://www.cours-gratuit.com/)
 
-FIXME## Regex
+#-> cs,## Regex
 
 * [open source alternative to regex buddy - Google Search](https://www.google.com/search?client=firefox-b-d&q=open+source+alternative+to+regex+buddy)
 * [Open Source RegexBuddy Alternatives - Page 2 | AlternativeTo](https://alternativeto.net/software/regexbuddy/?license=opensource&p=2)
@@ -1498,7 +1498,7 @@ FIXME## Regex
 * [Scriptular: App Reviews, Features, Pricing & Download | AlternativeTo](https://alternativeto.net/software/scriptular/about/)
 * [docs.rs/regex/latest/regex/](https://docs.rs/regex/latest/regex/)
 
-FIXME## Algorithms
+#-> cs,## Algorithms
 
 * [Introduction to Algorithms, Third Edition](https://www.youtube.com/watch?v=P_YNGE4mbE8&list=PL-_cKNuVAYAUV2ChK_qb93NDXe7CDYv-P)
 * [Algorithmen verstehen](https://www.youtube.com/channel/UCswWBF6ZkGnLG3sLRR65xRw)
@@ -1610,7 +1610,7 @@ FIXME## Algorithms
 * [1,606,240% FASTER algorithm - YouTube](https://www.youtube.com/watch?v=U16RnpV48KQ)
 * [The hidden beauty of the A* algorithm](https://youtu.be/A60q6dcoCjw)
 
-FIXME## Tasks/Challenges
+#-> cs,## Tasks/Challenges
 
 * E-olymp — один из крупнейших украинских сайтов для изучения информатики и подготовки к олимпиадам.
 * hackerRank — это социальная платформа, которая предлагает задания разной сложности по программированию. Запущена платформа была в 2012 году. Сейчас аудитория проекта насчитывает около полутора миллиона пользователей. Статистику по результатам решений заданий своими пользователями ресурс регулярно публикует в виде рейтинга по 50 странам.
@@ -1667,7 +1667,7 @@ FIXME## Tasks/Challenges
 * [Computing Olympiads - Resources](http://usaco.org/index.php?page=resources)
 * [Coding Project Solutions](https://github.com/karan/Projects-Solutions/blob/master/README.md)
 
-FIXME## Parsing
+#-> cs,## Parsing
 
 * [rainingcomputers.blog/dist/the_path_to_implementing_a_programming_language.md](https://rainingcomputers.blog/dist/the_path_to_implementing_a_programming_language.md)
 * [dailystuff.nl/projects/writing-a-6502-emulator-in-python](https://dailystuff.nl/projects/writing-a-6502-emulator-in-python)
@@ -1710,7 +1710,7 @@ FIXME## Parsing
 * [Building a Parser from scratch - YouTube](https://www.youtube.com/playlist?list=PLGNbPb3dQJ_5FTPfFIg28UxuMpu7k0eT4)
 * [Parsing - Computerphile - YouTube](https://www.youtube.com/watch?v=r6vNthpQtSI)
 
-FIXME## testing
+#-> cs,## testing
 
 * [List of unit testing frameworks - Wikipedia](https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#Haskell)
 * [HUnit: A unit testing framework for Haskell](https://hackage.haskell.org/package/HUnit)
@@ -1719,7 +1719,7 @@ FIXME## testing
 * [Top Unit Testing Frameworks in 2023 | BrowserStack](https://www.browserstack.com/guide/top-unit-testing-frameworks)
 * [How to Write Tests - The Rust Programming Language](https://doc.rust-lang.org/book/ch11-01-writing-tests.html)
 
-FIXME## Hacking
+#-> cs,## Hacking
 
 * [Hacklog Volume 1 Anonimato: Manuale Sulla Sicurezza Informatica E Hacking Etico.pdf](https://en.de1lib.org/book/5489693/cb3730)
 * [Hacklog Volume 2 Web Hacking: Manuale sulla Sicurezza Informatica e Hacking Etico.pdf](https://en.de1lib.org/book/5489732/afec6e)
@@ -1784,18 +1784,18 @@ FIXME## Hacking
 * [Что такое биткоин и как он на самом деле работает?](https://vk.com/wall-32342123_81271)
 * [Создание децентрализованных приложений на блокчейн - Помощь в программировании искусственного интеллекта](https://craftappmobile.com/)
 
-FIXME## Best Tips and Hacks
+#-> cs,## Best Tips and Hacks
 
 * [careercutler.substack.com/p/the-top-7-software-engineering-workflow](https://careercutler.substack.com/p/the-top-7-software-engineering-workflow)
 * [careercutler.substack.com/](https://careercutler.substack.com/)
 * [Open Source Guides | Learn how to launch and grow your project.](https://opensource.guide/)
 
-FIXME## general notes on programming languages
+#-> cs,## general notes on programming languages
 
 * [cs.brown.edu/~adf/programming_languages.html](https://cs.brown.edu/~adf/programming_languages.html)
 * [onlinecollegeplan.com/computer-programming-languages/](https://www.onlinecollegeplan.com/computer-programming-languages/)
 
-FIXME## Interview
+#-> cs,## Interview
 
 * [LeetCode Clean Code Handbook: 50 Common Interview Questions](http://library.lol/main/172F5D31191B965FE8CCB5A0F5BECD9A)
 * [Cloud Computing Questions](https://www.sanfoundry.com/1000-cloud-computing-questions-answers/)
@@ -1803,7 +1803,7 @@ FIXME## Interview
 * [sanfoundry.com/](https://www.sanfoundry.com/)
 * [freecodecamp.org/news/10-common-coding-interview-problems-solved/](https://www.freecodecamp.org/news/10-common-coding-interview-problems-solved/)
 
-FIXME## Gen * & CS
+#-> cs,## Gen * & CS
 
 * [In One Lesson - YouTube](https://www.youtube.com/@InOneLesson)
 * [How does Computer Hardware Work? 💻🛠🔬 [3D Animated Teardown] - YouTube](https://www.youtube.com/watch?v=d86ws7mQYIg)
@@ -1843,7 +1843,7 @@ FIXME## Gen * & CS
 * [mautic.hyperskill.org/email/view/64d3792462174214388877](https://mautic.hyperskill.org/email/view/64d3792462174214388877)
 * [hackernoon.com/the-7-software-architecture-books-experienced-developers-need-to-read](https://hackernoon.com/the-7-software-architecture-books-experienced-developers-need-to-read)
 
-FIXME# fcc
+#-> cs,# fcc
 {"note": "[freecodecamp.org/learn/](https://www.freecodecamp.org/learn/)", "type": "book", "tags": ["freeCodeCamp", "?", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[freecodecamp.org/news/13-awesome-freelance-developer-portfolios/](https://www.freecodecamp.org/news/13-awesome-freelance-developer-portfolios/)", "type": "book", "tags": ["freeCodeCamp", "?", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[freecodecamp.org/news/automate-repetitive-tasks-in-excel-with-vba/](https://www.freecodecamp.org/news/automate-repetitive-tasks-in-excel-with-vba/)", "type": "book", "tags": ["freeCodeCamp", "?", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
@@ -1990,9 +1990,9 @@ FIXME# fcc
 {"note": "[freecodecamp.org/news/tcp-vs-udp-which-is-faster/](https://www.freecodecamp.org/news/tcp-vs-udp-which-is-faster/)", "type": "book", "tags": ["freeCodeCamp", "vs", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 {"note": "[freecodecamp.org/news/how-to-make-a-website-with-wordpress/](https://www.freecodecamp.org/news/how-to-make-a-website-with-wordpress/)", "type": "book", "tags": ["freeCodeCamp", "website", "make", ""], "status": "toRead", "rating": "", "language": "", "extraTags": {}},
 
-FIXME# Reading-Linux, etc
+#-> cs,# Reading-Linux, etc
 
-FIXME## Recent Linux Reading
+#-> cs,## Recent Linux Reading
 
 * [laptops](https://www.wired.com/story/best-linux-laptops/)
 * [yiffOS](https://yiffos.gay/)
@@ -2017,13 +2017,13 @@ FIXME## Recent Linux Reading
 * [kdl.dev/](https://kdl.dev/)
 * [Linux sucks](https://www.youtube.com/watch?v=TVHcdgrqbHE)
 
-FIXME## Articles
+#-> cs,## Articles
 
 * [Free Software](https://en.wikipedia.org/wiki/Free_software) - Wikipedia entry on the topic of free software.
 * ['Libre' Software: Turning Fads into Institutions?](https://www.sciencedirect.com/science/article/pii/S0048733302000033) - Academic article presenting an economic analysis of libre software and its sustainability.
 * [Software Freedom](https://devuan.org/os/free-software) - Short, simple explanation of why free software is important from Devuan.
 
-FIXME## Talks
+#-> cs,## Talks
 
 * [Agustín Benito: Free Software, Beyond Software (TEDxLaLaguna)](https://www.youtube.com/watch?v=_2Qq072wIDk) (Español)
 * [Eben Moglen: How I Discovered Free Software](https://www.youtube.com/watch?v=uKxzK9xtSXM)
@@ -2032,11 +2032,11 @@ FIXME## Talks
 * [Stephen Fry: Free Software](https://www.youtube.com/watch?v=YGbMbF0mdPU)
 * [Wrishiraj Kaushik: I Am Not a Free Software Guy](https://www.youtube.com/watch?v=KQCC5oSfAYo)
 
-FIXME## Documentaries
+#-> cs,## Documentaries
 
 * 2019: [Hacking for the Commons, by Philippe Borrel](https://vimeo.com/channels/1540870/393778517)
 
-FIXME## SORT
+#-> cs,## SORT
 
 * sonntagsOS
 
@@ -2258,7 +2258,7 @@ FIXME## SORT
 * [PaddiM8/kalker: Kalker/kalk is a calculator with math syntax that supports user-defined variables and functions, complex numbers, and estimation of derivatives and integrals](https://github.com/PaddiM8/kalker)
 * [linuxsurvival.com/](https://linuxsurvival.com/)
 
-FIXME## Vim
+#-> cs,## Vim
 
 * [vimdoc.sourceforge.net/](http://vimdoc.sourceforge.net/)
 * [tnerual.eriogerg.free.fr/vimqrc.html](http://tnerual.eriogerg.free.fr/vimqrc.html)
@@ -2345,7 +2345,7 @@ FIXME## Vim
 * [dev.to/mainendra/neovim-as-ide-1cnp](https://dev.to/mainendra/neovim-as-ide-1cnp)
 * [spacevim.org/use-vim-as-a-python-ide/](https://spacevim.org/use-vim-as-a-python-ide/)
 
-FIXME## Shell
+#-> cs,## Shell
 
 * [Resultados de búsqueda - shell scripting](https://drive.google.com/drive/search?q=shell%20scripting)
 * [Jürgen Wolf - Shell-Programmierung: Das umfassende Handbuch, 3. Auflage](http://libgen.rs/book/index.php?md5=7CCFBFA22DBC4A22AD79BA5189BEE788)
@@ -2413,7 +2413,7 @@ FIXME## Shell
 * [The Bash environment](https://linux.die.net/Bash-Beginners-Guide/chap_03.html)
 * [Summary](https://linux.die.net/Bash-Beginners-Guide/sect_02_05.html)
 
-FIXME## Books
+#-> cs,## Books
 
 * [Arch Linux Books](http://libgen.is/search.php?req=arch+linux&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def)
 * [Building Embedded Linux Systems [2 ed.]](http://libgen.is/book/index.php?md5=A2E20D7FF8A88E34C33CCBAA218E53EC)
@@ -2449,13 +2449,13 @@ FIXME## Books
 * [Linux Kernel Crash Book Everything you need to know](http://libgen.is/book/index.php?md5=4235C4ACAAE3F9CEA960CA6FB25D0138)
 * [Concrete Architecture of the Linux Kernel](http://libgen.is/book/index.php?md5=4E15C97E21A8F49742CF467593AC4C6A)
 
-FIXME# Noteworthy Personal Sites ... and other sites worth taking note of
+#-> cs,# Noteworthy Personal Sites ... and other sites worth taking note of
 
-FIXME## Collections - Well-Designed Sites
+#-> cs,## Collections - Well-Designed Sites
 
 * [personalsit.es/](https://personalsit.es/)
 
-FIXME### Phenomenal
+#-> cs,### Phenomenal
 
 * [blog.wesleyac.com/](https://blog.wesleyac.com/)
 * [Site example](https://codeyarns.github.io/tech/2012-11-30-how-to-set-a-specific-chapter-or-section-number-in-latex.html)
@@ -2464,7 +2464,7 @@ FIXME### Phenomenal
 * [ritchieng.live/](https://ritchieng.live/)
 * [shuzhanfan.github.io](https://shuzhanfan.github.io/)
 
-FIXME### Educational, Book, etc
+#-> cs,### Educational, Book, etc
 
 * [notesonai.com/Notes+on+AI](https://notesonai.com/Notes+on+AI)
 * [randomekek.github.io/deep/deeplearning.html](https://randomekek.github.io/deep/deeplearning.html)
@@ -2477,27 +2477,27 @@ FIXME### Educational, Book, etc
 * [agill.xyz/](https://agill.xyz/)  [Notgnoshi (Austin Gill)](https://github.com/Notgnoshi)
 * [Game Math Series | Ming-Lun "Allen" Chou | 周明倫](http://allenchou.net/game-math-series/)
 
-FIXME## Interesting People
+#-> cs,## Interesting People
 
-FIXME### YouTube
+#-> cs,### YouTube
 
 * [Hugo Larochelle](https://www.youtube.com/user/hugolarochelle)
 * [cs-syd.eu/about](https://cs-syd.eu/about)
 * [mrossinek.gitlab.io/](https://mrossinek.gitlab.io/)
 
-FIXME### Tools & Tech
+#-> cs,### Tools & Tech
 
 * [RossKnapman/HugoTheme](https://github.com/RossKnapman/HugoTheme) (great icons)
 * [Academia Website](https://www.academia.edu/portfolio_creation)
 
-FIXME## TO SORT
+#-> cs,## TO SORT
 
 * ( ) [Brian Reilly · Entrepreneurial Front-End Web Developer](http://brianreilly.me/)
 * ( ) [perso $$$](https://ariel-frischer.github.io/developerFolio/)
 * ( ) [vhyrro.github](https://vhyrro.github.io/)
 * ( ) [video](https://www.youtube.com/@unixbhaskar/videos) $$$
 
-FIXME### Econ People
+#-> cs,### Econ People
 
 * [Albrecht Bohne](https://sites.google.com/site/albrechtbohne/welcome)
 * [Bobkova_CV_2017_11.pdf - Google Drive](https://drive.google.com/file/d/0B3ny1wDLYF6AV3pQVFJYWFlFUHM/view)
@@ -2521,7 +2521,7 @@ FIXME### Econ People
 * [WardFelix_CV.pdf - Google Drive](https://drive.google.com/file/d/1pp_G39Q4bKTj0hvi5b-lPmDYws1bsIMc/view)
 * [Xiaodi Wang](https://sites.google.com/view/xiaodiwang/home)
 
-FIXME### Personal Sites
+#-> cs,### Personal Sites
 
 * [tlkh.dev/](https://tlkh.dev/)  
 * [adamspannbauer.github.io/](https://adamspannbauer.github.io/) 
@@ -2535,7 +2535,7 @@ FIXME### Personal Sites
 * [Chris McDonough - YouTube](https://www.youtube.com/@ChrisMcDonough)
 * [Chris McDonough - YouTube](https://www.youtube.com/@ChrisMcDonough/playlists)
 
-FIXME#### Not Looked at in a While
+#-> cs,#### Not Looked at in a While
 
 * [math.toronto.edu/ivan/mat327/?courseinfo](http://www.math.toronto.edu/ivan/mat327/?courseinfo)
 * [sebastianraschka.com/](https://sebastianraschka.com/)
@@ -2831,19 +2831,19 @@ FIXME#### Not Looked at in a While
 * [video](https://www.youtube.com/@levonog)
 * ansidev's blog
 
-FIXME# Research Ideas
+#-> cs,# Research Ideas
 
-FIXME## Polyglot Phraseological Database
+#-> cs,## Polyglot Phraseological Database
 
-FIXME### Main Questions / Thoughts:
+#-> cs,### Main Questions / Thoughts:
 
-FIXME#### What data structure and format is best for our purposes?
+#-> cs,#### What data structure and format is best for our purposes?
 
-FIXME#### Which database type?
+#-> cs,#### Which database type?
 
-FIXME#### What are the difference use cases for the database / corpus?
+#-> cs,#### What are the difference use cases for the database / corpus?
 
-FIXME### How can we create a semantic transcription for each phrase?
+#-> cs,### How can we create a semantic transcription for each phrase?
 
 * universal semantic language
 * Anna Wierzbicka (esp. on semantic primes and USM)
@@ -2853,18 +2853,18 @@ FIXME### How can we create a semantic transcription for each phrase?
 * computational semantics
 * [Semantic analysis for Corpus Linguistics](https://www.aclweb.org/anthology/J93-2005.pdf)
 
-FIXME### How to classify proverbs?
+#-> cs,### How to classify proverbs?
 
 * [3 Categorization of Proverbs](https://content.sciendo.com/downloadpdf/book/9783110410167/10.2478/9783110410167.3.xml)
 * [A Proverb in Mind](https://books.google.de/books?id=umBt3Wu-CuUC&pg=PA19&lpg=PA19&dq=classification+schema+for+proverb&source=bl&ots=CFoeCsF300&sig=ACfU3U3kmnKJ2M3jHXN0psp-mmYlTwFUyA&hl=ru&sa=X&ved=2ahUKEwjrtvf7xsrnAhVFKewKHVsrDIkQ6AEwE3oECAYQAQ)
 * [Introduction to Paremiology](https://books.google.de/books?id=Rxs_CwAAQBAJ&pg=PT158&lpg=PT158&dq=classification+schema+for+proverb&source=bl&ots=n2LgM-GG3l&sig=ACfU3U1kF7xnsvFs2MKh6IEc5i6hamKrbg&hl=ru&sa=X&ved=2ahUKEwjrtvf7xsrnAhVFKewKHVsrDIkQ6AEwGHoECAcQAQ)
 * [Classification of Proverbs](https://studfile.net/preview/5427909/page:3/)
 
-FIXME### Brainstorming
+#-> cs,### Brainstorming
 
 * Create a large multilingual resource containing idiomatic expression and proverbs, and possibly other non-analytic collocations        > develop semantic representations of both literal and figurative meanings of units        > identify values/morals as well as literal SVO        > dual classification scheme: literal and figurative meaning, network data structure
 
-FIXME### Features:
+#-> cs,### Features:
 
 * Basic phrase text
 * Variants
@@ -2878,18 +2878,18 @@ FIXME### Features:
 * Corpus frequency (corpus-frequency pair)
 * Types (proverb, idiomatic expression, slang)
 
-FIXME### Collectioin
+#-> cs,### Collectioin
 
 * [European Proverbs (Strauss) - Anki](https://docs.google.com/spreadsheets/d/1iSrCKxJ7R98VF8t1vFX7dTR4X_8MmE6afhjD4uglL5Q/edit?usp=sharing)
 * [Proverb Collection](https://docs.google.com/spreadsheets/d/13UNAdR0u_uLzgJPf-Tb8AtxpcD_m46rzCJYSQQB9ATs/edit?usp=sharing)
 * [Modismos diversos (borrador)](https://docs.google.com/spreadsheets/d/1_gtGJ-aPb-L98F3ylU9ADCoFLIPPo55waoiDgtvwgtU/edit?usp=sharing)
 * [Polyglot Phraseological Database](https://docs.google.com/spreadsheets/d/1xQE30iCryMege8m63T-KdK3JYeIry2oDZ1YU_EiFftM/edit?usp=sharing)    Read up in depth on semantics and develop a semantic representation language for proverbs    Digitize all Strauss proverbs    Gather and sort all EN, DE, RU, FR, ES proverbs and idioms
 
-FIXME### Storage
+#-> cs,### Storage
 
 * [stackoverflow.com/questions/3287003/three-ways-to-store-a-graph-in-memory-advantages-and-disadvantages](https://stackoverflow.com/questions/3287003/three-ways-to-store-a-graph-in-memory-advantages-and-disadvantages)
 
-FIXME### Theory, esp. Semantics
+#-> cs,### Theory, esp. Semantics
 
 * [en.wikipedia.org/wiki/Computational_semantics](https://en.wikipedia.org/wiki/Computational_semantics)
 * [libgen.is/search.php?req=Representation+and+Inference+for+Natural+Language+&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def](https://libgen.is/search.php?req=Representation+and+Inference+for+Natural+Language+&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def)
@@ -2906,7 +2906,7 @@ FIXME### Theory, esp. Semantics
 * [en.wikipedia.org/wiki/Semantic_feature](https://en.wikipedia.org/wiki/Semantic_feature)    semantische universalien    semantic universals    cross-lingual semantic language    universal semantic language
 * universal+semantic+language
 
-FIXME### Resources / References
+#-> cs,### Resources / References
 
 * [A Multilingual Dictionary of Maxims and Proverbs](https://www.cambridgescholars.com/a-multilingual-dictionary-of-maxims-and-proverbs)
 * [wordnet.princeton.edu/](https://wordnet.princeton.edu/)
@@ -2920,7 +2920,7 @@ FIXME### Resources / References
 * [Translation and Relevance: Cognition and Context](https://books.google.de/books?id=KsoJBAAAQBAJ&pg=PT182&lpg=PT182&dq=semantic+representations+of+proverbs&source=bl&ots=t5NZeIOcFa&sig=ACfU3U2AU_YwJ0hEHNJenhNHJkVh4_404g&hl=ru&sa=X&ved=2ahUKEwicw__W26nnAhXB6aQKHWgQA_QQ6AEwBXoECAoQAQ#v=onepage&q=semantic%20representations%20of%20proverbs&f=false)
 * [COMPARATIVE STRUCTURAL-SEMANTIC ANALYSIS OF ENGLISH AND RUSSIAN PROVERBS EXPRESSING THE MORAL-ETHIC SENSE DOMINANT “STUDYING, KNOWLEDGE, WISDOM”](https://www.researchgate.net/publication/325662325_COMPARATIVE_STRUCTURAL-SEMANTIC_ANALYSIS_OF_ENGLISH_AND_RUSSIAN_PROVERBS_EXPRESSING_THE_MORAL-ETHIC_SENSE_DOMINANT_STUDYING_KNOWLEDGE_WISDOM)
 
-FIXME## SORT Papers
+#-> cs,## SORT Papers
 
 * ACOUSTIC PARAMETERS VERSUS PHONETIC FEATURES IN ASR.pdf
 * Analytical Methods for Interpretable Ultradense Word Embeddings.pdf
@@ -2964,9 +2964,9 @@ FIXME## SORT Papers
 * WordNet Embeddings.pdf
 * Zur Ontologie der Bedeutung sprachlicher Ausdrucke
 
-FIXME## TDA and NSM
+#-> cs,## TDA and NSM
 
-FIXME### NSM
+#-> cs,### NSM
 
 * [x] Perform preliminary analysis with non-circular dictionary (norm propagation along definitions, distinguish between structure words and semantic content words)- [ ] scrape dictionar
 * [ ] create data structure for dictionar
@@ -2984,7 +2984,7 @@ FIXME### NSM
 * geometry of word embeddings
 * [en.wikipedia.org/wiki/Topological_data_analysis](https://en.wikipedia.org/wiki/Topological_data_analysis)
 
-FIXME### [*Topological Data Analysis for Machine Learning](https://bastian.rieck.me/outreach/ecml_pkdd_2020/)
+#-> cs,### [*Topological Data Analysis for Machine Learning](https://bastian.rieck.me/outreach/ecml_pkdd_2020/)
 
 * → check out whole site!* [A gentle introduction to persistent homology · Christian Bock](https://christian.bock.ml/posts/persistent_homology/)
 * [Persistent Homology — a Survey](https://www.maths.ed.ac.uk/~v1ranick/papers/edelhare.pdf)
@@ -2999,9 +2999,9 @@ FIXME### [*Topological Data Analysis for Machine Learning](https://bastian.rieck
 * [TDA site](https://www.ayasdi.com/)
 * [**Neural Networks, Manifolds, and Topology -- colah's blog](https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/)
 
-FIXME##3 [ topological data analysis - YouTube](https://www.youtube.com/results?search_query=topological+data+analysis)
+#-> cs,##3 [ topological data analysis - YouTube](https://www.youtube.com/results?search_query=topological+data+analysis)
 
-FIXME### [**Persistent homology - Wikipedia](https://en.wikipedia.org/wiki/Persistent_homology)
+#-> cs,### [**Persistent homology - Wikipedia](https://en.wikipedia.org/wiki/Persistent_homology)
 
 * [Topological data analysis - Wikipedia](https://en.wikipedia.org/wiki/Topological_data_analysis)
 * [researchgate.net/profile/Sara_Scaramuccia/publication/310406546_Persistent_homology_a_step-by-step_introduction_for_newcomers/links/582c6a4808aef19cb81005b0/Persistent-homology-a-step-by-step-introduction-for-newcomers.pdf?origin=publication_detail](https://www.researchgate.net/profile/Sara_Scaramuccia/publication/310406546_Persistent_homology_a_step-by-step_introduction_for_newcomers/links/582c6a4808aef19cb81005b0/Persistent-homology-a-step-by-step-introduction-for-newcomers.pdf?origin=publication_detail)
@@ -3035,7 +3035,7 @@ FIXME### [**Persistent homology - Wikipedia](https://en.wikipedia.org/wiki/Persi
 * [arxiv.org/abs/2003.13138](https://arxiv.org/abs/2003.13138)
 * [Meshes.jl](https://discourse.julialang.org/t/ann-announcing-meshes-jl/53973)
 
-FIXME### Miscellaneous
+#-> cs,### Miscellaneous
 
 * Opinion Dynamics on Discourse Sheaves [twitter.com/robertghrist/status/1265451863006216202](https://twitter.com/robertghrist/status/1265451863006216202)
 * [> Fodor Concept 1](https://en.wikipedia.org/wiki/Language_of_thought_hypothesis)
@@ -3100,7 +3100,7 @@ FIXME### Miscellaneous
 * [Alphabet of human thought](https://en.wikipedia.org/wiki/Alphabet_of_human_thought)
 * how to come up with good ideas? --> esp. in scientific research. --> how does research occur in other scientific disciplines? (those I am less familiar with)
 
-FIXME### [*Visualizing and Measuring the Geometry of BERT](https://arxiv.org/pdf/1906.02715.pdf)
+#-> cs,### [*Visualizing and Measuring the Geometry of BERT](https://arxiv.org/pdf/1906.02715.pdf)
 
 * [scholar.google.com/scholar?hl=ru&as_sdt=0%2C5&q=word+embeddings&btnG=](https://scholar.google.com/scholar?hl=ru&as_sdt=0%2C5&q=word+embeddings&btnG=)
 * [scholar.google.com/scholar?hl=ru&as_sdt=0%2C5&q=word2vec&btnG=](https://scholar.google.com/scholar?hl=ru&as_sdt=0%2C5&q=word2vec&btnG=)
@@ -3125,7 +3125,7 @@ FIXME### [*Visualizing and Measuring the Geometry of BERT](https://arxiv.org/pdf
 * [tianran/glimvec: Graph to linear maps and vectors](https://github.com/tianran/glimvec)
 * → TDA on word embeddings to identify (persistent / invariant / etc.) word classes
 
-FIXME## -> day in the life of a ___ researcher (pharmaceutical, engineering)
+#-> cs,## -> day in the life of a ___ researcher (pharmaceutical, engineering)
 
 * [YT Semantik](https://www.youtube.com/results?search_query=Ro%C3%9Fdeutscher+Semantik)
 * [La Neuroscienza della Coscienza - con Anil Seth](https://youtu.be/xRel1JKOEbI)
@@ -3194,21 +3194,21 @@ FIXME## -> day in the life of a ___ researcher (pharmaceutical, engineering)
 * [de.wikipedia.org/wiki/Hauptkomponentenanalyse](https://de.wikipedia.org/wiki/Hauptkomponentenanalyse)
 * The Compreno Semantic Model as an Integral Framework for a Multilingual Lexical Database
 
-FIXME## Idea Space Modelling
+#-> cs,## Idea Space Modelling
 
 * Elevator Pitch: My work is distinct from previous work in a few ways: ||| it uses high-quality inputs and political writings in addition to social media (hopefully making the model more grounded in the deep theoretical issues of politics, not just shallow perceptions) ||| it does not assume a spectrum; rather it uses unsupervised learning to identify clusters and linkages between ideologies ||| it allows for a robust measuring of ideological similarity that is as general as possible, allowing a wide range of comparisons, even potentially across time, language, and culture, because the method is built on attitudes toward nearly-universal ideas and concepts, rather than toward specific people and organizations ||| it brings together several fairly technical NLP/IR/TM methods that have not been used for this before: topic extraction, emotion analysis, opinion mining ||| it combines the above methods with other more common methods, such as clustering, lexical analysis (i.e. tf-idf) ||| it can take advantage of a large and relatively underutilized body of text resources ||| it has the scope for other advanced techniques: topology, measure theory, advanced matrix analysis & linear algebra, etc. ||| it answers intrinsically important and interesting questions, questions of interest to a broad audience (in addition to finer points interesting to a computational linguist) ||| while every algorithm necessarily has assumptions baked into it, this will make explicit assumptions in a way that human annotation would mke impossible
 * Interesting method to build on (but automate): Globalization and the transformation of the national political space: Six European countries compared
 
-FIXME### Forschungsfragen:
+#-> cs,### Forschungsfragen:
 
 * Wie realitätsgetreu sind die zwei verbreiteten politischen Spektren?
 * a) links-rechts
 * b) Political Kompass
 * c) Hufeisentheorie
 
-FIXME### -> Black boxes aufmachen
+#-> cs,### -> Black boxes aufmachen
 
-FIXME### -> wie Artikel über Rechtsextremist, aber mit zusätzlicher Frage: wie modellieren wir ihre Beziehung zu anderen?
+#-> cs,### -> wie Artikel über Rechtsextremist, aber mit zusätzlicher Frage: wie modellieren wir ihre Beziehung zu anderen?
 
 * Wie viele Hauptkomponente gibt es in der Ideologie?
 * Wie interpräterieren wir sie und was bedeuten sie?
@@ -3235,7 +3235,7 @@ FIXME### -> wie Artikel über Rechtsextremist, aber mit zusätzlicher Frage: wie
 * b) Hauptkomponente verwenden
 * Wie können wir die Methoden flexibler gestalten, damit z.B. neue (spezifischere, vergänglichere) Themen berücksichtigt werden können?
 
-FIXME#### Approach:
+#-> cs,#### Approach:
 
 * Collect large and varied sample of political writings. Attempt to get a wide variety, approximate representativity is desirable, but perfect representativity is not required for clustering.
 * Identify list of political topics, striving for representativity of all possible ideologies.
@@ -3255,11 +3255,11 @@ FIXME#### Approach:
 * 6) create visualization
 * how to "Monte Carlo" PCA?
 
-FIXME### -> give range (a,b) or even distribution, for each stance (entry in the ideology matrix), then sample from ramges/distributions
+#-> cs,### -> give range (a,b) or even distribution, for each stance (entry in the ideology matrix), then sample from ramges/distributions
 
-FIXME### -> how to aggregate varying results? simple average?
+#-> cs,### -> how to aggregate varying results? simple average?
 
-FIXME### -> topological anaylsis to determine invariant relationships?
+#-> cs,### -> topological anaylsis to determine invariant relationships?
 
 * Read up onːopinion mining
 * Read up onːstance detection
@@ -3271,12 +3271,12 @@ FIXME### -> topological anaylsis to determine invariant relationships?
 * Read up onːclustering
 * Read up onːvisualization
 
-FIXME### 
+#-> cs,### 
 
 * Ideologies: ||| * Confucianism |||   * Confucius ||| * Conservatism / Reactionism |||   * Edmund Burke |||   * Georges Lemaistre |||   * Thomas Hobbes |||   * Roger Scruton |||   * George F. Will ||| * Anarchism |||   * Mikhail Bakunin |||   * Kropotkin |||   * Proudhon ||| * Left |||   * Michel Foucault |||   * Jean Baudrillard ||| * Mixed / Other
 * Wiki - how to create a wiki? (proverbs, ideology matrix, etc.)
 
-FIXME### -> how does Wikipedia work? editing policies, moderation, dispute resolution, etc.
+#-> cs,### -> how does Wikipedia work? editing policies, moderation, dispute resolution, etc.
 
 * Other Ideas
 * [(PDF) Dimensionality Reduction and Visualisation Tools for Voting Records](https://www.researchgate.net/publication/314102123_Dimensionality_Reduction_and_Visualisation_Tools_for_Voting_Records)
@@ -3305,11 +3305,11 @@ FIXME### -> how does Wikipedia work? editing policies, moderation, dispute resol
 * [leiterreports.typepad.com/blog/2017/01/most-cited-anglophone-philosophy-books-published-since-wwii.html*](https://leiterreports.typepad.com/blog/2017/01/most-cited-anglophone-philosophy-books-published-since-wwii.html*) [duckduckgo.com/?q=core*](https://duckduckgo.com/?q=core*) [duckduckgo.com/?q=core*](https://duckduckgo.com/?q=core*) [duckduckgo.com/?q=core*](https://duckduckgo.com/?q=core*) [duckduckgo.com/?q=ideological*](https://duckduckgo.com/?q=ideological*) [webscience-journal.net/webscience/article/download/80/50*](https://webscience-journal.net/webscience/article/download/80/50*) [duckduckgo.com/?q=classification](https://duckduckgo.com/?q=classification)
 * PCA Issues
 
-FIXME### NLP and Politics
+#-> cs,### NLP and Politics
 
 * [connectedresearchers.com/online-tools-for-researchers/](http://connectedresearchers.com/online-tools-for-researchers/)
 
-FIXME### [**Sentiment Political Compass: A Data-driven Analysis of Online Newspapers regarding Political Orientation](https://www.aifb.kit.edu/images/e/e1/IPP2018_Falck.pdf)
+#-> cs,### [**Sentiment Political Compass: A Data-driven Analysis of Online Newspapers regarding Political Orientation](https://www.aifb.kit.edu/images/e/e1/IPP2018_Falck.pdf)
 
 * [DARIAH | Digital Research Infrastructure for the Arts and Humanities](https://www.dariah.eu/)
 * [DH Funding - Digital Humanities - Research Guides at University of Wisconsin-Madison](https://researchguides.library.wisc.edu/c.php?g=246897&p=1645212)
@@ -3322,7 +3322,7 @@ FIXME### [**Sentiment Political Compass: A Data-driven Analysis of Online Newspa
 * [External grants & funding | EADH - The European Association for Digital Humanities](https://eadh.org/support/external-grants-funding)
 * [Ranking Right-Wing Extremist Social Media Profiles by Similarity to Democratic and Extremist Groups - ACL Anthology](https://www.aclweb.org/anthology/W17-5204/)
 
-FIXME### -> Study networks in political discourse and writing using comp ling techniques.
+#-> cs,### -> Study networks in political discourse and writing using comp ling techniques.
 
 * test de Turing idéologique
 * Which political analytical framework already exist. Which are the best, and how are they structured?
@@ -3522,7 +3522,7 @@ FIXME### -> Study networks in political discourse and writing using comp ling te
 * [LeftValues/leftvalues.github.io: LeftValues, a leftist political quiz](https://github.com/LeftValues/leftvalues.github.io)
 * [Voting Behavior, Coalitions and Government Strength through a Complex Network Analysis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0116046)
 
-FIXME### Project
+#-> cs,### Project
 
 * [Concept-based knowledge discovery in texts extracted from the Web](https://www.researchgate.net/publication/234818008_Concept-based_knowledge_discovery_in_texts_extracted_from_the_Web)
 * (?) From KD
@@ -3544,7 +3544,7 @@ FIXME### Project
 * [bash - How to split a large text file into smaller files with equal number of lines? - Stack Overflow](https://stackoverflow.com/questions/2016894/how-to-split-a-large-text-file-into-smaller-files-with-equal-number-of-lines)
 * [Free Law Project](https://free.law/)
 
-FIXME### [*Bulk Data – CourtListener.com](https://www.courtlistener.com/api/bulk-info/)
+#-> cs,### [*Bulk Data – CourtListener.com](https://www.courtlistener.com/api/bulk-info/)
 
 * [The SFU Opinion and Comments Corpus: A Corpus for the Analysis of Online News Comments | SpringerLink](https://link.springer.com/article/10.1007/s41701-019-00065-w)
 * [Advances in Knowledge Discovery and Data Mining: 17th Pacific-Asia ... - Google Книги](https://books.google.de/books?id=jVi5BQAAQBAJ&pg=PA177&lpg=PA177&dq=opinion+column+corpus&source=bl&ots=5LR-xh8t3X&sig=ACfU3U28vE2G1LwH44VjCWfVmYyzynd8Rw&hl=ru&sa=X&ved=2ahUKEwjCh_-E5ojqAhUByaYKHVB4DksQ6AEwDHoECAoQAQ#v=onepage&q=opinion%20column%20corpus&f=false)
@@ -3558,7 +3558,7 @@ FIXME### [*Bulk Data – CourtListener.com](https://www.courtlistener.com/api/bu
 * [The 50 Most Influential Living Philosophers | TheBestSchools.org](https://thebestschools.org/features/most-influential-living-philosophers/)
 * [ilias3.uni-stuttgart.de/data/Uni_Stuttgart/lm_data/lm_2578750/KD_schedule.html](https://ilias3.uni-stuttgart.de/data/Uni_Stuttgart/lm_data/lm_2578750/KD_schedule.html)
 
-FIXME### [*KD Project Info](https://ilias3.uni-stuttgart.de/data/Uni_Stuttgart/lm_data/lm_2503061/KD_project.html)
+#-> cs,### [*KD Project Info](https://ilias3.uni-stuttgart.de/data/Uni_Stuttgart/lm_data/lm_2503061/KD_project.html)
 
 * [Presentation Slides](https://ilias3.uni-stuttgart.de/goto_Uni_Stuttgart_fold_1991912.html)
 * [MARDY](https://sites.google.com/view/mardy)
@@ -3591,7 +3591,7 @@ FIXME### [*KD Project Info](https://ilias3.uni-stuttgart.de/data/Uni_Stuttgart/l
 * [The Social Structure of Political Echo Chambers:﻿Variation in Ideological Homophily in OnlineNetwork](https://pacscenter.stanford.edu/wp-content/uploads/2019/05/2f07d4_8925c23e378940c49f91f91b95f85408.pdf)
 * Check out: Tinkerpop, pykg2vec (sp?), Neo4j
 
-FIXME### Project Outline
+#-> cs,### Project Outline
 
 * select "seed lists" on Wikipedia for political thinkers, ideas, and ideologies
 * scrape Wikipedia to create a network -articles -addresses -anchor text in links → create general scraper class test on Wiktionary to get etymology tables for Ancient Greek add Wikipedia-specific capabilities and add networkx functionality to create network directly
@@ -3633,7 +3633,7 @@ FIXME### Project Outline
 * [The Political Compass - Wikipedia](https://en.wikipedia.org/wiki/The_Political_Compass)
 * [en.wikipedia.org/wiki/Political_spectrum](https://en.wikipedia.org/wiki/Political_spectrum)
 
-FIXME## Misc
+#-> cs,## Misc
 
 * Interdisciplinary
 * [Spracherwerb und statistisches Lernen | SpringerLink](https://link.springer.com/article/10.1007%2Fs00115-002-1466-1)
@@ -3665,14 +3665,14 @@ FIXME## Misc
 * Quantum
 * [Extra History : Quantum Computing](https://www.youtube.com/watch?v=iol5936dZho&list=PLhyKYa0YJ_5ATEDqJRuoIvOH-eVkHP7ms)
 
-FIXME## Scratch
+#-> cs,## Scratch
 
 * [April 2020 - NSM Online Seminar - YouTube](https://www.youtube.com/playlist?list=PLnYrArdOUDVbmZiauY3qytX7B3VRz8eZZ)
 * [Traduction basé sur les proverbes](https://translationjournal.net/journal/54proverbs_fr.htm)
 * [Natural semantic metalanguage - Wikipedia](https://en.wikipedia.org/wiki/Natural_semantic_metalanguage#Semantic_primes)
 * [Natural Semantic Metalanguage - YouTube](https://www.youtube.com/results?search_query=Natural+Semantic+Metalanguage)
 
-FIXME## **word/phrase translation embeddings (compute or enhance embeddings using translation information)
+#-> cs,## **word/phrase translation embeddings (compute or enhance embeddings using translation information)
 
 * Rehabilitate Patents Project
 * Modeling Structure Across Language and Modalities
@@ -3710,7 +3710,7 @@ FIXME## **word/phrase translation embeddings (compute or enhance embeddings usin
 * Nand2Tetris.jl
 * Nand2TetrisHDL.jl
 
-FIXME## Language Similarity
+#-> cs,## Language Similarity
 
 * Similarity of two languages as amount of error that can be reduced by transformation rules, where n is the number of rules, eps(n) is the degree of error following application of rule n. Order the
 * [lh5.googleusercontent.com/GYN9j4xAbMLMSLtlh39laEax1mwj6tLAorZSoyxQORX9YbW8SI4rRoqSP9JDqqHaRUA7SRAN-U0P_FIA-rfglEHf4eI88qxM_LJu5QZOt8c9DSsS6dFEIue-fnKd4Z3ZxMecJRscdYUQZ51AxmBBHg](https://lh5.googleusercontent.com/GYN9j4xAbMLMSLtlh39laEax1mwj6tLAorZSoyxQORX9YbW8SI4rRoqSP9JDqqHaRUA7SRAN-U0P_FIA-rfglEHf4eI88qxM_LJu5QZOt8c9DSsS6dFEIue-fnKd4Z3ZxMecJRscdYUQZ51AxmBBHg)
@@ -3723,7 +3723,7 @@ FIXME## Language Similarity
 * . The second inequality implies that
 * [lh5.googleusercontent.com/9VsLCNRuND5S-JNswtAK_8znRgArCsARswZ6x0AMEMU3YQujzXklMYNuZsIEJc8r4Xhjs2tO1Nzh3zCvQqaAAT29RxUXYopBI5ZRWRh4jDsTOk3xTQKi54YDkMbrDztUs6YglOnMna4xtJIB6SdBSw](https://lh5.googleusercontent.com/9VsLCNRuND5S-JNswtAK_8znRgArCsARswZ6x0AMEMU3YQujzXklMYNuZsIEJc8r4Xhjs2tO1Nzh3zCvQqaAAT29RxUXYopBI5ZRWRh4jDsTOk3xTQKi54YDkMbrDztUs6YglOnMna4xtJIB6SdBSw)
 
-FIXME# General Programming Reading List
+#-> cs,# General Programming Reading List
 
 * [How principled coders outperform the competition](https://m.youtube.com/watch?v=q1qKv5TBaOA&t=4s)
 * [cs.cmu.edu/~rwh/pfpl/](https://www.cs.cmu.edu/~rwh/pfpl/)
@@ -3733,7 +3733,7 @@ FIXME# General Programming Reading List
 * [fluxharmonic.com/](https://fluxharmonic.com/)
 * [systemcrafters.net/guides/](https://systemcrafters.net/guides/)
 
-FIXME## 1S Video
+#-> cs,## 1S Video
 
 * [How One Line of Code Almost Blew Up the Internet - YouTube](https://www.youtube.com/watch?v=GEbn3nHyKnA)
 * [The Simplest Sorting Algorithm (You’ve Never Heard Of)](https://youtu.be/_W0yUJlscRA)
@@ -3782,7 +3782,7 @@ FIXME## 1S Video
 * [Don't Write Comments](https://www.youtube.com/watch?v=Bf7vDBBOBUA)
 * Code strukturieren // deutsch     * [How I make science animations](https://www.youtube.com/watch?v=yaa13eehgzo)
 
-FIXME## SORT
+#-> cs,## SORT
 
 * [Curso de REDES informáticas. 175 vídeos de calidad - YouTube](https://www.youtube.com/playlist?list=PLomN84AdULIBcoI8Rb98dnompliIktJk9)
 * [blog.finxter.com/10-best-bitcoin-books-your-ultimate-guide-for-2023/](https://blog.finxter.com/10-best-bitcoin-books-your-ultimate-guide-for-2023/)
@@ -4188,7 +4188,7 @@ FIXME## SORT
 * [medium.com/osweekends/hace-un-mes-comenc%C3%A9-a-estudiar-programaci%C3%B3n-mundo-completamente-desconocido-para-mi-y-del-que-mis-711b34cdc36c](https://medium.com/osweekends/hace-un-mes-comenc%C3%A9-a-estudiar-programaci%C3%B3n-mundo-completamente-desconocido-para-mi-y-del-que-mis-711b34cdc36c)    Schaum's Outline of Software Engineering ( David Gustafson ). McGraw-Hill 2002, Schaum Colection    Думай как программист: креативный подход к созданию кода (Спрол Антон)    Scrum. Революционный метод управления проектами, Джефф Сазерленд (2016)    Ремесло программиста. Практика написания хорошего кода (Гудлиф П.)
 * [Оформление программного кода, А. В. Столяров (2019)
 
-FIXME###  danistefanovic/build-your-own-x: 🤓 Build your own (insert technology here)
+#-> cs,###  danistefanovic/build-your-own-x: 🤓 Build your own (insert technology here)
 
 * [Computing with Data. An Introduction to the Data Industry.](https://www.abebooks.de/servlet/BookDetailsPL?bi=30531170284&cm_sp=SEARCHREC-_-WIDGET-L-_-BDP-R&searchurl=kn%3DComputing%2Bwith%2BData%26sortby%3D17)
 * [From Nand to Tetris Part 1](https://youtube.com/playlist?list=PLrDd_kMiAuNmSb-CKWQqq9oBFN_KNMTaI)
@@ -4710,16 +4710,16 @@ FIXME###  danistefanovic/build-your-own-x: 🤓 Build your own (inse
 * [Cloud Computing Specialization](https://coursera.org/specialization/cloud-computing)
 * [lowendbox.com/tag/germany/](https://lowendbox.com/tag/germany/)
 
-FIXME### Big Data, Cloud Computing, Data Science & Engineering | Roger Lee | download
+#-> cs,### Big Data, Cloud Computing, Data Science & Engineering | Roger Lee | download
 
-FIXME### *Cloud Computing: Theory and Practice | Dan C. Marinescu | download
+#-> cs,### *Cloud Computing: Theory and Practice | Dan C. Marinescu | download
 
 * [Cloud Native Infrastructure: Patterns for Scalable Infrastructure and Applications in a Dynamic Environment | Justin Garrison, Kris Nova | download](https://b-ok.cc/book/3428382/9ea9a3)
 * [Pragmatic AI: An Introduction to Cloud-Based Machine Learning | Noah Gift | download](https://b-ok.cc/book/3682557/a90a58)
 
-FIXME### *Cloud Computing and Big Data: Technologies, Applications and Security | Mostapha Zbakh, Mohammed Essaaidi, Pierre Manneback, Chunming Rong | download
+#-> cs,### *Cloud Computing and Big Data: Technologies, Applications and Security | Mostapha Zbakh, Mohammed Essaaidi, Pierre Manneback, Chunming Rong | download
 
-FIXME###  Cloud Computing | Nayan B. Ruparelia | download
+#-> cs,###  Cloud Computing | Nayan B. Ruparelia | download
 
 * [Beginning Serverless Computing: Developing with Amazon Web Services, Microsoft Azure, and Google Cloud | Maddie Stigler (auth.) | download](https://b-ok.cc/book/3420253/afe3cc)
 * [An overview of the new IBM Cloud Satellite distributed cloud – Build Smart. Build Secure. IBM Developer](https://developer.ibm.com/articles/overview-of-the-new-ibm-cloud-satellite-distributed-cloud/)
@@ -4744,7 +4744,7 @@ FIXME###  Cloud Computing | Nayan B. Ruparelia | download
 * [Shooting yourself in the foot in various programming languages - Data Science Central](http://www.datasciencecentral.com/profiles/blogs/shooting-yourself-in-the-foot-in-various-programming-languages)
 * [Die passende Programmiersprache finden | c't Magazin](https://www.heise.de/ct/ausgabe/2015-18-Die-passende-Programmiersprache-finden-2767703.html)
 
-FIXME## 1S reading
+#-> cs,## 1S reading
 
 * [jetbrains.com/lp/devecosystem-2022/](https://www.jetbrains.com/lp/devecosystem-2022/)
 * [freecodecamp.org/news/file-systems-architecture-explained/*](https://www.freecodecamp.org/news/file-systems-architecture-explained/*) [hdmi](https://www.quora.com/q/source-code/How-does-a-single-wire-control-every-pixel-on-an-entire-TV-screen-How-can-it-convey-enough-information-for-that-many-pi?ch=99&share=7b9bf8c1&srid=HPb8)
@@ -4832,9 +4832,9 @@ FIXME## 1S reading
 * [stackoverflow.com/questions/2704652/monad-in-plain-english-for-the-oop-programmer-with-no-fp-background](https://stackoverflow.com/questions/2704652/monad-in-plain-english-for-the-oop-programmer-with-no-fp-background)
 * [blog.jcoglan.com/2011/03/05/translation-from-haskell-to-javascript-of-selected-portions-of-the-best-introduction-to-monads-ive-ever-read/](https://blog.jcoglan.com/2011/03/05/translation-from-haskell-to-javascript-of-selected-portions-of-the-best-introduction-to-monads-ive-ever-read/)
 
-FIXME# General Resources for Programming and Computer Science
+#-> cs,# General Resources for Programming and Computer Science
 
-FIXME## Sort
+#-> cs,## Sort
 
 * [Curated learning resources](https://learnbyexample.github.io/curated_resources/) — Computer Science and Programming, Linux, Vim, Perl, Git and GitHub
 * [Hexlet](https://en.hexlet.io/): Practical programming courses (JavaScript, PHP, Unix, databases, functional programming). A steady path from the first line of code to the first job.
@@ -4844,7 +4844,7 @@ FIXME## Sort
 *  [m7.rs/](https://m7.rs/)
 * [dmulholl](https://www.dmulholl.com/notes.html)
 
-FIXME## Cheatsheets, Reference, Wikipedia
+#-> cs,## Cheatsheets, Reference, Wikipedia
 
 * [Cheatsheets Index | Codecademy](https://www.codecademy.com/resources/cheatsheets/all)
 * [en.wikipedia.org/wiki/Template:Information_theory](https://en.wikipedia.org/wiki/Template:Information_theory)
@@ -4856,16 +4856,16 @@ FIXME## Cheatsheets, Reference, Wikipedia
 * [Computer science - Wikipedia](https://en.wikipedia.org/wiki/Computer_science#Computer_architecture_and_computer_engineering)
 * [opensource.com/downloads/cheat-sheets](https://opensource.com/downloads/cheat-sheets)
 
-FIXME## Small Projects* [itp.nyu.edu/classes/cc-f21/little-coding-project-kaleidoscope/](https://itp.nyu.edu/classes/cc-f21/little-coding-project-kaleidoscope/)
+#-> cs,## Small Projects* [itp.nyu.edu/classes/cc-f21/little-coding-project-kaleidoscope/](https://itp.nyu.edu/classes/cc-f21/little-coding-project-kaleidoscope/)
 
 * [Project Based Curriculum Lesson Plans](https://docs.google.com/spreadsheets/d/1KXEJvgnAziiePMp2Ovf_ssDqCFFWYuycXWBNp91k3qM/edit#gid=561004611)
 * [5 Projects Every Programmer Should Try - YouTube](https://www.youtube.com/watch?v=jOFco1xuIeo&feature=youtu.be)
 
-FIXME## My Writing
+#-> cs,## My Writing
 
 * [dev.to/yelircaasi](https://dev.to/yelircaasi)
 
-FIXME## Hardware
+#-> cs,## Hardware
 
 * [ryf.fsf.org/categories/laptops](https://ryf.fsf.org/categories/laptops)
 * [r/GUIX/comments/l1xx3g/laptop_recommendations_for_gnu_guix/](https://www.reddit.com/r/GUIX/comments/l1xx3g/laptop_recommendations_for_gnu_guix/)
@@ -4874,13 +4874,13 @@ FIXME## Hardware
 * [libreboot.org/docs/hardware/](https://libreboot.org/docs/hardware/)
 * [r/pcmasterrace/comments/1bh6t1p/what_would_you_change/](https://www.reddit.com/r/pcmasterrace/comments/1bh6t1p/what_would_you_change/)
 
-FIXME## Orgs
+#-> cs,## Orgs
 
 * [higherorderco.com/](https://higherorderco.com/)
 * [ourcodingclub.github.io/](https://ourcodingclub.github.io/)
 * [midstall.com/](https://midstall.com/)
 
-FIXME## General Educational Resources
+#-> cs,## General Educational Resources
 
 * → [top resources insta](https://www.instagram.com/p/CqQQ2C5jUUa/?igshid=MDJmNzVkMjY=)
 * [CS Wikipedia](https://en.wikipedia.org/wiki/Template:Computer_science)
@@ -5028,7 +5028,7 @@ FIXME## General Educational Resources
 * [Machine Thoughts](https://machinethoughts.wordpress.com/)
 * [Open Source: 2018 - Java/C++/Python/BigData/Android/](http://www.bogotobogo.com/index.php)
 
-FIXME## Gen * Media & People
+#-> cs,## Gen * Media & People
 
 * [srid.ca/](https://srid.ca/)
 * [rainingcomputers.blog/](https://rainingcomputers.blog/)
@@ -5082,7 +5082,7 @@ FIXME## Gen * Media & People
 * [video](https://www.youtube.com/@Gonkee)
 * [video](https://www.youtube.com/@adibhanna)
 
-FIXME## Blogs / Sites / Fora
+#-> cs,## Blogs / Sites / Fora
 
 * [devtalk](https://devtalk.com/) -* Discussion forum around many different development topics/languages, ran as a joint venture between a lot of great programming publishers like Manning and Pragmatic Bookshelf.
 * [dev.to](https://dev.to/) -* Popular development community with an open source back end that was created as an alternative to Medium.
@@ -5138,7 +5138,7 @@ FIXME## Blogs / Sites / Fora
 * [uidotdev](https://www.youtube.com/channel/UCbAn7pVK2VIyo-UysfWGdZQ)
 * [$$$Brendan Fortuner – Medium](https://medium.com/@bfortuner)
 
-FIXME## YouTube
+#-> cs,## YouTube
 
 * [video](https://www.youtube.com/@KIT-Lehre-und-Wissen/playlists)
 * [video](https://www.youtube.com/@TraversyMedia)
@@ -5235,7 +5235,7 @@ FIXME## YouTube
 * [Google Developers Italia - YouTube - YouTube](https://www.youtube.com/user/DevelopersItaly)
 * [Hyperplexed](https://youtube.com/@Hyperplexed)
 
-FIXME## Podcasts
+#-> cs,## Podcasts
 
 * [open.spotify.com/show/2nggqvCf2zVyRec9sFaZMY?si=ky0t23B1QuakyQ3-X1bmXQ](https://open.spotify.com/show/2nggqvCf2zVyRec9sFaZMY?si=ky0t23B1QuakyQ3-X1bmXQ)
 * [open.spotify.com/episode/4AN0l5IYZpLm9ND5UgJKT5?si=ET4a5PGxRaOE_cNIIqXdGg](https://open.spotify.com/episode/4AN0l5IYZpLm9ND5UgJKT5?si=ET4a5PGxRaOE_cNIIqXdGg)
@@ -5266,7 +5266,7 @@ FIXME## Podcasts
 * [quora.com/What-are-the-best-podcasts-for-software-developers](https://www.quora.com/What-are-the-best-podcasts-for-software-developers)
 * [Kolophon Podcast | Die Gesprächsserie von O'Reilly Deutschland mit Tim Pritlove](https://kolophon.oreilly.de/)
 
-FIXME## [** [D] Does anyone know of any good ML podcasts I can listen to while at work? : MachineLearning](https://www.reddit.com/r/MachineLearning/comments/eoljno/d_does_anyone_know_of_any_good_ml_podcasts_i_can/)
+#-> cs,## [** [D] Does anyone know of any good ML podcasts I can listen to while at work? : MachineLearning](https://www.reddit.com/r/MachineLearning/comments/eoljno/d_does_anyone_know_of_any_good_ml_podcasts_i_can/)
 
 * [podcasts.apple.com/us/podcast/oreilly-data-show-podcast/id944929220](https://podcasts.apple.com/us/podcast/oreilly-data-show-podcast/id944929220)
 * [Pocho Costa](https://mytuner-radio.com/da/podcast/inteligencia-artificial-pocho-costa-1447402113)
@@ -5274,7 +5274,7 @@ FIXME## [** [D] Does anyone know of any good ML podcasts I can listen to while a
 * [Cabeça de Lab - LuizaLabs | Magalu](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9hNGZlOWY4L3BvZGNhc3QvcnNz)
 * herzbergs Hörsaal. Informatik studieren mit den Ohren
 
-FIXME## Tools
+#-> cs,## Tools
 
 * [tweag](https://github.com/tweag)
 * [taskflow.github.io/](https://taskflow.github.io/)
@@ -5324,11 +5324,11 @@ flex
 * [BVLC](https://github.com/BVLC)
 * [nbviewer.jupyter.org/](http://nbviewer.jupyter.org/)
 
-FIXME## Career
+#-> cs,## Career
 
 * Ivy: [deep-ivy-ltd.breezy.hr/,](https://deep-ivy-ltd.breezy.hr/) [deep-ivy-ltd.breezy.hr/p/47a8d305734301-core-contributor](https://deep-ivy-ltd.breezy.hr/p/47a8d305734301-core-contributor)
 
-FIXME## Code Execution
+#-> cs,## Code Execution
 
 * [dev.to/](https://dev.to/)
 * [replit.com/](https://replit.com/)
@@ -5337,7 +5337,7 @@ FIXME## Code Execution
 * [godbolt.org/](https://godbolt.org/)
 * [coliru.stacked-crooked.com/](https://coliru.stacked-crooked.com/)
 
-FIXME## Institutions
+#-> cs,## Institutions
 
 * [Fachgruppe Maschinelle Sprachverarbeitung – Homepage der Fachgruppe Maschinelle Sprachverarbeitung](https://msv.stuvus.uni-stuttgart.de/?fbclid=IwAR1wk0uYyUTYrycXjEkCSe4dmui65CiOCq9ViV7HSVW66UUracxVKMXs9s0)
 * [FachschaftSprachwissenschaft](http://www.fs-sprachwissenschaft.uni-tuebingen.de/wiki/index.php?title=Main_Page)
@@ -5352,7 +5352,7 @@ FIXME## Institutions
 * [Welcome to the Max Planck Institute for Psycholinguistics — Max Planck Institute for Psycholinguistics](http://www.mpi.nl/)
 * [Яндекс — інформація про компанію](https://yandex.ua/company/?ncrnd=2855)
 
-FIXME## People
+#-> cs,## People
 
 * pers [Elteoremadebeethoven (Alexander Vázquez)](https://github.com/Elteoremadebeethoven) (manim)
 * perso  [xuefuzhao.github.io/](https://xuefuzhao.github.io/)
@@ -5401,7 +5401,7 @@ FIXME## People
 * [monster.codeberg.page/](https://monster.codeberg.page/)
 * [matthewrhone.dev/](https://matthewrhone.dev/)
 
-FIXME## Coding Challenges and Education
+#-> cs,## Coding Challenges and Education
 
 * [thecodingtrain.com/CodingChallenges/](https://thecodingtrain.com/CodingChallenges/)
 * [app.codility.com/programmers/](https://app.codility.com/programmers/)
@@ -5424,7 +5424,7 @@ FIXME## Coding Challenges and Education
 * [codescracker.com/index.htm](https://codescracker.com/index.htm)
 * [r/dailyprogrammer/comments/9dv08q/20180907_challenge_367_hard_the_mondrian_puzzle/?st=JOHVYFQM&sh=42a19ef7](https://www.reddit.com/r/dailyprogrammer/comments/9dv08q/20180907_challenge_367_hard_the_mondrian_puzzle/?st=JOHVYFQM&sh=42a19ef7)
 
-FIXME## People 2
+#-> cs,## People 2
 
 * [Anaphory](https://github.com/Anaphory)
 * [Colin Galen](https://www.youtube.com/@ColinGalen)
@@ -5444,7 +5444,7 @@ FIXME## People 2
 * → [gideonwolfe.com/](https://gideonwolfe.com/)
 * [kobzol](https://github.com/kobzol)
 
-FIXME## Media, Channels
+#-> cs,## Media, Channels
 
 * [refactoring.guru/uk](https://refactoring.guru/uk)
 * [VD](https://thevaluable.dev/page/about/)
@@ -5485,7 +5485,7 @@ FIXME## Media, Channels
 * [video](https://www.youtube.com/@devopstoolbox) 
 * [zestedesavoir.com/bibliotheque/informatique/](https://zestedesavoir.com/bibliotheque/informatique/)
 
-FIXME## Course / Tutorial
+#-> cs,## Course / Tutorial
 
 * [From Nand to Tetris Part 1](https://www.youtube.com/playlist?list=PLrDd_kMiAuNmSb-CKWQqq9oBFN_KNMTaI)
 * [ACME 2022-2023 Materials](https://acme.byu.edu/2022-2023-materials)
@@ -5512,7 +5512,7 @@ FIXME## Course / Tutorial
 * [freecodecamp.org/ukrainian/learn/](https://www.freecodecamp.org/ukrainian/learn/)
 * [Tutorials Point (India) Ltd.](https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg)
 
-FIXME## Projects, Tools, Libraries
+#-> cs,## Projects, Tools, Libraries
 
 * [orsinium-labs/python-lambda-calculus: Lambda Calculus things implemented on Python](https://github.com/orsinium-labs/python-lambda-calculus)
 * [Mojo](https://programmerweekly.us2.list-manage.com/track/click?u=72f68dcee17c92724bc7822fb&id=506258937d&e=b5a8df9a4a) A new programming language for all AI developers. Mojo combines the usability of Python with the performance of C, unlocking unparalleled programmability of AI hardware and extensibility of AI models
@@ -5536,7 +5536,7 @@ FIXME## Projects, Tools, Libraries
 * gnuplot ASCII mode
 * [codesandbox.io/](https://codesandbox.io/)
 
-FIXME## Very Best Resources
+#-> cs,## Very Best Resources
 
 * [The Twelve-Factor App](https://12factor.net/config)
 * [roadmap.sh/](https://roadmap.sh/)
@@ -5557,7 +5557,7 @@ FIXME## Very Best Resources
 * [codereview.stackexchange.com/](https://codereview.stackexchange.com/)
 * FreeCodeCamp
 
-FIXME## Courses
+#-> cs,## Courses
 
 * [refactoring.guru/uk](https://refactoring.guru/uk)
 * [Foundations-of-Applied-Mathematics](https://github.com/Foundations-of-Applied-Mathematics)
@@ -5565,17 +5565,17 @@ FIXME## Courses
 * [csunplugged](http://csunplugged.org/wp-content/uploads/2015/03/CSUnplugged_OS_2015_v3.1.pdf)
 * [Computer Science Unplugged](https://classic.csunplugged.org/)
 
-FIXME## Docs
+#-> cs,## Docs
 
 * [makeareadme.com/](https://www.makeareadme.com/)
 * [Beautiful Docs](https://github.com/matheusfelipeog/beautiful-docs) → create pull request, add Julia
 * [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme)
 
-FIXME## Learning
+#-> cs,## Learning
 
 * [The BEST Coding Interview Roadmap in 2023 (free)](https://www.youtube.com/watch?v=jgQjes7MgTM)
 
-FIXME## Project Resources
+#-> cs,## Project Resources
 
 * [github.blog/2023-04-03-calling-all-open-source-maintainers/](https://github.blog/2023-04-03-calling-all-open-source-maintainers/)
 * [Martyr2's Mega Project Ideas List! - Share Your Project | Dream.In.Code](https://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)
@@ -5588,7 +5588,7 @@ FIXME## Project Resources
 * [Free Code Camp Project](https://www.freecodecamp.org/news/plan-code-and-deploy-a-startup-in-2-hours/)
 * [Software Tools for Hobby-Scale Projects](https://rickcarlino.com/2019/11/02/software-tools-for-hobby-sized-projects-html.html)
 
-FIXME## Cheatsheets
+#-> cs,## Cheatsheets
 
 * [cheat-sheets.org/](http://www.cheat-sheets.org/)
 * [bookflow.ru/?s=%D0%A8%D0%BF%D0%B0%D1%80%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0](https://bookflow.ru/?s=%D0%A8%D0%BF%D0%B0%D1%80%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0)
@@ -5599,7 +5599,7 @@ FIXME## Cheatsheets
 * [bookflow.ru/besplatnye-materialy-dlya-programmistov/](https://bookflow.ru/besplatnye-materialy-dlya-programmistov/)
 * [cheatography.com/](https://www.cheatography.com/)
 
-FIXME## Resources
+#-> cs,## Resources
 
 * [Reddit - Cheat sheet repository for beginners.](https://www.reddit.com/r/learnprogramming/comments/110v8kw/cheat_sheet_repository_for_beginners/)
 * [Awesome Open Source](https://awesomeopensource.com/)
@@ -5620,7 +5620,7 @@ FIXME## Resources
 * [gitter.im/home/explore](https://gitter.im/home/explore)
 * [meetup.com/](https://www.meetup.com/)
 
-FIXME## Media
+#-> cs,## Media
 
 * [Sympolymathesy, by Chris Krycho](https://v5.chriskrycho.com/)
 * [joshcollinsworth.com/](https://joshcollinsworth.com/)
@@ -5648,7 +5648,7 @@ FIXME## Media
 * [video](https://www.youtube.com/@StudyingWithAlex?app=desktop)
 * [video](https://www.youtube.com/@saraepaolo)
 
-FIXME### Podcasts 2
+#-> cs,### Podcasts 2
 
 * [Take Up Code](https://open.spotify.com/show/5i2jy4xzmOqUOvWmwrSOsm?si=ttxaYE9FSYCvzdzhMM5QrQ)
 * Techtiefen
@@ -5657,7 +5657,7 @@ FIXME### Podcasts 2
 * [radiopublic.com/commit-WYMXMl](https://radiopublic.com/commit-WYMXMl)
 * Kopec Explains Software
 
-FIXME### Video
+#-> cs,### Video
 
 * [video](https://www.youtube.com/c/EngineerMan/playlists)
 * [engineer-man/youtube](https://github.com/engineer-man/youtube)
@@ -5667,13 +5667,13 @@ FIXME### Video
 * [Programmieren Starten](https://youtube.com/c/ProgrammierenStarten)
 * [video](https://www.youtube.com/@mycodeschool)
 
-FIXME### Newsletters
+#-> cs,### Newsletters
 
 * [techleaddigest.net/digests](https://techleaddigest.net/digests)
 * [programmingdigest.net/digests](https://programmingdigest.net/digests)
 * [dailytech.email/digests](https://dailytech.email/digests)
 
-FIXME## Tools and Software Resources
+#-> cs,## Tools and Software Resources
 
 * [nbviewer.jupyter.org/](https://nbviewer.jupyter.org/)
 * [faust.grame.fr/](https://faust.grame.fr/) functional programming language for signal processing
@@ -5690,19 +5690,19 @@ FIXME## Tools and Software Resources
 * [paketo.io/docs/](https://paketo.io/docs/)
 * [nodepit.com/](https://nodepit.com/)
 
-FIXME### Build Systems
+#-> cs,### Build Systems
 
 * [makefiletutorial.com/](https://makefiletutorial.com/)
 * [gnu.org/software/make/manual/make.html](https://www.gnu.org/software/make/manual/make.html)
 * [mesonbuild.com/](https://mesonbuild.com/)
 * [mesonbuild/meson](https://github.com/mesonbuild/meson)
 
-FIXME# Meetups, Social, etc
+#-> cs,# Meetups, Social, etc
 
 * [rheinneckar.social/@NixRust](https://rheinneckar.social/@NixRust)
 * [rheinneckar.events/events/f5549ff6-4317-4f2f-918b-6aef822a459a](https://rheinneckar.events/events/f5549ff6-4317-4f2f-918b-6aef822a459a)
 
-FIXME# Institutions, Organizations, etc.
+#-> cs,# Institutions, Organizations, etc.
 
 * [alugha.com/](https://alugha.com/)
 * [aleph-alpha.com/](https://aleph-alpha.com/)

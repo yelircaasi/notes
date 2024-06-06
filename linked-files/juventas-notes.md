@@ -35,7 +35,7 @@ Virtual Text
 * To execute this script, save it as `add_notebook_cells.lua` in your Neovim configuration directory and then invoke it from your Neovim configuration file (`init.lua`) using `:luafile add_notebook_cells.lua`. This will add the notebook-style cells to all buffers currently open in Neovim.
 * Please note that virtual text added using this method is purely visual and does not affect the underlying contents of the file. Additionally, you may need to adjust the ASCII art and styling to fit your preferences and display needs.
 
-FIXME## filetype-specific keybinds
+## filetype-specific keybinds
 
 * Yes, you can define key bindings that are specific to a certain file type (filetype) in Neovim. This is useful for defining mappings or commands that are relevant only when editing files of a particular type, such as Python, Markdown, or JavaScript.
 * Here's how you can define filetype-specific key bindings in Neovim:
@@ -56,7 +56,7 @@ FIXME## filetype-specific keybinds
 * By using `<buffer>` in the mapping command, you ensure that the mapping is local to the current buffer. This means that the mapping will only be active when editing a file of the specified filetype, and it won't affect other buffers.
 * You can add these mappings to your `init.vim` or `init.lua` configuration file in Neovim to define filetype-specific key bindings according to your preferences.
 
-FIXME## Question for ChatGPT
+## Question for ChatGPT
 
 * What would be the most difficult parts of developing a neovim plugin providing a neovim-native interface to Jupyer notebook (.ipynb) files?
 * Developing a Neovim plugin to provide a Neovim-native interface to Jupyter notebook (.ipynb) files could present several challenges, including:
@@ -71,7 +71,7 @@ FIXME## Question for ChatGPT
 * Juventas.nvim (jove.nvim? Giove.nvim? Iuppiter.nvim): full Jupyter notebook functionality for nvim (comparable to VSCode)
 * cat/bat for Jupyter Notebooks
 
-FIXME# NBEditor.nvim (Plugin without Code Server)
+# NBEditor.nvim (Plugin without Code Server)
 
 * start simpler: : attractive viewing of jupyter notebooks, with nice frames
 * → tricky question: how to allow editing within cell to change contents? (perhaps not the simplest idea, but certainly enlightening)

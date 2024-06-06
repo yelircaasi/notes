@@ -58,7 +58,7 @@ feasible plan.
 * Sort projects in dependency order -> dependency tree structure
 * Support earliest and latest dates, dependencies between tasks/projects/roadmaps -> raise error when declaration is impossible
 
-FIXME#### Dependency Sorting
+#### Dependency Sorting
 
 * need to write function `dependencySort` to put list of tasks in an order satisfying dependency constraints, raising an informative error if dependency constraints are irresoluble
 * need to do a literature/code search to find relevant algorithms, implementations, and resources
@@ -355,7 +355,7 @@ Notes:
 * During the topological sort, it respects the initial order to break ties, ensuring that dependencies are satisfied while maintaining the order as much as possible.
 * This method avoids re-sorting the entire list without regard to dependencies, preserving the initial sorting where possible.
 
-FIXME#### Further Reading
+#### Further Reading
 
 * [Topological Sort in Haskell](https://stackoverflow.com/questions/21675925/topological-sort-in-haskell)
 

@@ -35,7 +35,7 @@
 * Appreciation - thank the interviewer for his or her time, and help him or her to feel good
 * 4 basic types of communication: aggressive | passive | passive-aggressive | assertive
 
-* FIXME## Communication principles from [Deborah Tannen](https://en.wikipedia.org/wiki/Deborah_Tannen)
+## Communication principles from [Deborah Tannen](https://en.wikipedia.org/wiki/Deborah_Tannen)
 
 * Self-concept: positive self-concept necessary for healthy and satisfying communications
 * Clarity of expression: know what you want to communicate

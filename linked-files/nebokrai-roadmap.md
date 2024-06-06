@@ -80,7 +80,7 @@ Python might me a good productivity app / TUI language, after all - nothing abou
 
 ## Nebokrai Roadmap- Alternative; NEED TO MERGE
 
-FIXME## Roadmap
+## Roadmap
 
 1. Implement serde for declaration
 2. Minimal example for Aeson

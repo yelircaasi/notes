@@ -345,7 +345,7 @@ systemctl --user start pipewire.socket pipewire-pulse.socket
 sudo nala install alsa-utils
 reboot
 
-FIXME# set up media keys to work with i3
+# set up media keys to work with i3
 
 ## Media volume controls
 
@@ -3799,7 +3799,7 @@ echo 'export TERMINAL="/usr/bin/kitty"' >> ~/.bashrc && source ~/.bashrc
 ```
 * → replace dmenu with rofi: [gist.github.com/panicwithme/60d371ed85378154bf990fd1092a72c1](https://gist.github.com/panicwithme/60d371ed85378154bf990fd1092a72c1)
 
-FIXME## Mantis
+## Mantis
 
 * [sommaa/Mantis](https://github.com/sommaa/Mantis)
 * [averagelinuxuser.com/ssh-into-virtualbox/#connect-to-virtualbox-from-the-guest-os](https://averagelinuxuser.com/ssh-into-virtualbox/#connect-to-virtualbox-from-the-guest-os) 
@@ -3808,7 +3808,7 @@ FIXME## Mantis
 sudo apt install
 sudo apt update && sudo apt upgrade
 
-FIXME#sudo apt install spice-vdagent spice-webdavd
+#sudo apt install spice-vdagent spice-webdavd
 
 sudo apt install --no-install-recommends lightdm-gtk-greeter
 sudo apt install --no-install-recommends lightdm
