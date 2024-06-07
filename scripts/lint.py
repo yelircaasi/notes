@@ -56,6 +56,11 @@ def lint_note(note: dict) -> dict:
         note["id"] = make_id()
     note["tags"] = lint_tags(note["tags"])
     note["subtags"] = lint_tags(note["subtags"])
+    extra = {k: v for k, v in note.items() if k not in KEYS}
+    note = {k: v for k, v in note.items() if k in KEYS}
+    print(note)
+    note["extra"].update(extra)
+
     return note
 
 
