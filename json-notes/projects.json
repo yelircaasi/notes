@@ -1,5 +1,5 @@
 
-#-> project,# GitHoarder
+#-> project,githoarder
 
 * Alt name: Gitshare
 
@@ -8,7 +8,7 @@
 * [Android shareability](https://developer.android.com/training/sharing/receive)
 
 
-#-> project,# Keymapping
+#-> project,keybind
 
 * name ideas: teclado, accordo, keycritic
 
@@ -24,10 +24,10 @@
 * [...](https://www.reddit.com/r/neovim/s/2j96StuexD)
 
 
-#-> project,# Tmp
+#-> project,SORT
 
 * [NorfairKing](https://github.com/NorfairKing)
-* [medevel.com/tag/productivity/](https://medevel.com/tag/productivity/) **
+* [medevel.com/tag/productivity/](https://medevel.com/tag/productivity/)
 * [medevel.com/cuekeeper/](https://medevel.com/cuekeeper/)
 * [pickfire/spt](https://github.com/pickfire/spt)
 * [orgmode.org/worg/org-contrib/](https://orgmode.org/worg/org-contrib/)
@@ -79,7 +79,7 @@
 * [my productivity workflow 2023!](https://youtu.be/IZX-cDR6IQM)
 * [My Get Things Done (GTD) Task](https://www.youtube.com/watch?v=8I7nQmKAWpM) Management System Using
 * [How To Use VIT The Curses Based](https://www.youtube.com/watch?v=wY3DJVSWdeI&t=363s)
-* CLI "Digital Assistant"
+* CLI 'Digital Assistant'
 * [10 Best Free and Open Source Command-Line Python Application Development Tools - LinuxLinks](https://www.linuxlinks.com/best-free-open-source-command-line-python-application-development-tools/)
 * [python - Combining pyperclip copy-to-clipboard with pyautogui paste? - Stack Overflow](https://stackoverflow.com/questions/47075240/combining-pyperclip-copy-to-clipboard-with-pyautogui-paste)
 * search: vimwiki for android
@@ -246,11 +246,11 @@
 * (Telegram inline keyboard? Add [custom keyboard](https://www.google.com/search?q=add+custom+keyboard+to+android&sxsrf=APwXEde_qAYevpIXgyBDpVjjtVpsAK4Huw:1682273314975&source=lnt&tbs=qdr:y&sa=X&ved=2ahUKEwjvrOq6zMD-AhUCsaQKHZB0BsEQpwV6BAgBEAs&biw=1717&bih=845&dpr=1) for Telegram to include slash and numbers on basic keyboard? → not highest priority)
 * [npmjs.com/package/browser-sync](https://www.npmjs.com/package/browser-sync)
 * [Is there a plugin for seeing a live preview of HTML/CSS/JS?Reddit        [reddit.com](https://www.reddit.com) › neovim › comments › plggq3](https://www.reddit.com/r/neovim/comments/plggq3/is_there_a_plugin_for_seeing_a_live_preview_of/)
-* I use markdown-*preview*.*nvim* for getting a *live preview* when editing Markdown files. But is there something similar for web development?
-* [Is there a plugin for *live preview* my web projects on ... - Reddit](https://www.reddit.com/r/neovim/comments/uzqx2i/is_there_a_plugin_for_live_preview_my_web/)
-* [Live* Server plugin for *vim*/*nvim* : r/*neovim* - Reddit](https://www.reddit.com/r/neovim/comments/w86ash/live_server_plugin_for_vimnvim/)
-* [Introducing *live*-command.*nvim*: *preview* the norm ... - Reddit](https://www.reddit.com/r/neovim/comments/xx5hhp/introducing_livecommandnvim_preview_the_norm/)
-* [Live* markdown *preview* to PDF : r/*neovim* - Reddit](https://www.reddit.com/r/neovim/comments/w7ki77/live_markdown_preview_to_pdf/)
+* I use markdown-preview.nvim for getting a live preview when editing Markdown files. But is there something similar for web development?
+* [Is there a plugin for live preview my web projects on ... - Reddit](https://www.reddit.com/r/neovim/comments/uzqx2i/is_there_a_plugin_for_live_preview_my_web/)
+* [Live* Server plugin for vim/nvim : r/neovim - Reddit](https://www.reddit.com/r/neovim/comments/w86ash/live_server_plugin_for_vimnvim/)
+* [Introducing live-command.nvim: preview the norm ... - Reddit](https://www.reddit.com/r/neovim/comments/xx5hhp/introducing_livecommandnvim_preview_the_norm/)
+* [Live* markdown preview to PDF : r/neovim - Reddit](https://www.reddit.com/r/neovim/comments/w7ki77/live_markdown_preview_to_pdf/)
 * [dev.to/fidelve/using-vim-as-your-main-editor-for-web-development-5a73](https://dev.to/fidelve/using-vim-as-your-main-editor-for-web-development-5a73)
 * [google.com/search?client=firefox-b-d&q=open+source+web+gantt+viewer](https://www.google.com/search?client=firefox-b-d&q=open+source+web+gantt+viewer)
 * [litehtml/litehtml](https://github.com/litehtml/litehtml)
@@ -267,14 +267,14 @@
 * [foambubble.github.io/foam/](https://foambubble.github.io/foam/)
 
 
-#-> project,# juventas.nvim
+#-> project,juventas,nvim,jupyter,notebook
 
 * [nbqa](https://github.com/nbQA-dev/nbQA)
 * [benlubas/molten-nvim/blob/main/docs/Notebook-Setup.md](https://github.com/benlubas/molten-nvim/blob/main/docs/Notebook-Setup.md)
 * [jupyter-tutorial.readthedocs.io/de/latest/intro.html](https://jupyter-tutorial.readthedocs.io/de/latest/intro.html)
 * [ipython.org/index.html](https://ipython.org/index.html)
 * [jupyterbook.org/en/stable/intro.html#](https://jupyterbook.org/en/stable/intro.html#)
-* [dicussion on Discord](yeah that entire class was a mess. It's the reason that I "made" molten though, so I guess something good came out of it)
+* [dicussion on Discord](yeah that entire class was a mess. It's the reason that I 'made' molten though, so I guess something good came out of it)
 * [nvim screen capture](https://discord.com/channels/834325286664929280/877666474888675368/1232074272743096373)
 * → [books](https://libgen.rs/search.php?&req=jupyter&phrase=1&view=simple&column=def&sort=year&sortmode=DESC)
 * [janakiev.com/blog/jupyter-virtual-envs/](http://janakiev.com/blog/jupyter-virtual-envs/)
@@ -324,15 +324,9 @@
 * [millejoh.github.io/emacs-ipython-notebook/](https://millejoh.github.io/emacs-ipython-notebook/)
 * [isaacganoung.com/articles/tutorials/jupyter-notebook-in-emacs.html](https://isaacganoung.com/articles/tutorials/jupyter-notebook-in-emacs.html)
 
-
-#-> project,## 
-
-#-> project,# Juventas.nvim
-
 * add notebooks to goneovim! or focus on wezterm (yep, probably that)
 
-
-#-> project,# VimQTConsole - qtconsole with full vim keybindings and nvim as a backend editing server
+* VimQTConsole - qtconsole with full vim keybindings and nvim as a backend editing server
 
 * [jupyter/jupyter_console](https://www.google.com/url?q=https://github.com/jupyter/jupyter_console&sa=D&source=editors&ust=1711378556488622&usg=AOvVaw3q1vDtf6fyEQu-p-e70-w_) - [...](https://www.google.com/url?q=https://jupyter-console.readthedocs.io/en/latest/&sa=D&source=editors&ust=1711378556488849&usg=AOvVaw31rrl63oIbbF1NC7VNIqC2)[Docs](https://www.google.com/url?q=https://jupyter-console.readthedocs.io/en/latest/&sa=D&source=editors&ust=1711378556489067&usg=AOvVaw2yjTrOFvZCSeRAVWj0JRKJ)
 * [jupyter/qtconsole](https://www.google.com/url?q=https://github.com/jupyter/qtconsole&sa=D&source=editors&ust=1711378556489338&usg=AOvVaw013fqtfUD4k1GUfIc8CgBv) - [...](https://www.google.com/url?q=https://qtconsole.readthedocs.io/en/stable/index.html&sa=D&source=editors&ust=1711378556489553&usg=AOvVaw0yu7A3bpgh5LKBfhA6ZHwb)[Docs](https://www.google.com/url?q=https://qtconsole.readthedocs.io/en/stable/index.html&sa=D&source=editors&ust=1711378556489780&usg=AOvVaw0t2Z5lll7G7F1yf0PN8fXL)
@@ -344,7 +338,7 @@
 * [Niche Vim/Neovim Plugins. Overview | by alpha2phi | Medium](https://www.google.com/url?q=https://alpha2phi.medium.com/niche-neovim-plugins-722b34f76291&sa=D&source=editors&ust=1711378556491115&usg=AOvVaw0aufc4LSu8XZcajrli6EWN) - maybe some of these
 
 
-#-> project,# Related Projects
+#-> project,juventas,nvim,jupyter,notebook|relatedProject
 
 * [GCBallesteros/NotebookNavigator.nvim](https://www.google.com/url?q=https://github.com/GCBallesteros/NotebookNavigator.nvim&sa=D&source=editors&ust=1711378556491565&usg=AOvVaw2J-w1XlOL7CNE6bHgRunb_) (old: [...](https://www.google.com/url?q=https://www.maxwellrules.com/misc/nvim_jupyter.html&sa=D&source=editors&ust=1711378556491832&usg=AOvVaw2zXrn72PM8EM9qFzngAt-s)[Maxwell Rules - NeoVim Notebooks](https://www.google.com/url?q=https://www.maxwellrules.com/misc/nvim_jupyter.html&sa=D&source=editors&ust=1711378556492003&usg=AOvVaw2k7ufUE6Fb-Bmxx4xxFZaO))
 * [benlubas/molten-nvim](https://www.google.com/url?q=https://github.com/benlubas/molten-nvim&sa=D&source=editors&ust=1711378556492218&usg=AOvVaw1TWxLrw7D3c4CHO3Js5Fyd)
@@ -378,7 +372,7 @@
 * [martibosch.github.io/jupyter-emacs-universe/](https://www.google.com/url?q=https://martibosch.github.io/jupyter-emacs-universe/&sa=D&source=editors&ust=1711378556499570&usg=AOvVaw0GiTcETqWwNGaka1uqYiG1)
 
 
-#-> project,# General Resources
+#-> project,juventas,nvim,jupyter,notebook,generalResource
 
 * [GitHub - fastai/nbdev: Create delightful software with Jupyter Notebooks](https://www.google.com/url?q=https://github.com/fastai/nbdev&sa=D&source=editors&ust=1711378556500045&usg=AOvVaw2CAoFdFPvKNPkgBuSPDWXS)
 * [Related projects — xeus documentation](https://www.google.com/url?q=https://xeus.readthedocs.io/en/latest/related.html&sa=D&source=editors&ust=1711378556500316&usg=AOvVaw3aHR-JG1zAukA3AN49azW1)
@@ -389,7 +383,7 @@
 * [Project Jupyter | Get Involved](https://www.google.com/url?q=https://jupyter.org/community&sa=D&source=editors&ust=1711378556501702&usg=AOvVaw1EFwDrHK5wAWbshaAJcSDR)
 
 
-#-> project,# Miscellaneous
+#-> project,juventas,nvim,jupyter,notebook,miscellaneous
 
 * [Make Docker container with all the interesting Jupyter kernels → try on](https://www.google.com/url?q=https://jupyter.org/binder&sa=D&source=editors&ust=1711378556502148&usg=AOvVaw3q-bWaCG8zYJiNSbQl42sj)
 * [I don't like notebooks.- Joel Grus (Allen Institute for Artificial Intelligence)](https://www.google.com/url?q=https://youtu.be/7jiPeIFXb6U&sa=D&source=editors&ust=1711378556502459&usg=AOvVaw1SH4n_Id93LGPsGXS90h7u)
@@ -410,15 +404,13 @@
 * [...](https://www.google.com/url?q=https://quarto.org/docs/get-started/&sa=D&source=editors&ust=1711378556508415&usg=AOvVaw2dlKu6BG0a6_BKPjjEijT5)[quarto.org/docs/get-started/](https://www.google.com/url?q=https://quarto.org/docs/get-started/&sa=D&source=editors&ust=1711378556508593&usg=AOvVaw1R2vbCfSllMvZRhI-m5trd)- [ ]  ‣ - [...](https://www.google.com/url?q=https://nbcommands.readthedocs.io/en/latest/&sa=D&source=editors&ust=1711378556508969&usg=AOvVaw0a78GIcs55ByjHwtwKF4xz)[nbcommands.readthedocs.io/en/latest/](https://www.google.com/url?q=https://nbcommands.readthedocs.io/en/latest/&sa=D&source=editors&ust=1711378556509132&usg=AOvVaw1S9L1h4zENYRxxF6BdcFhp)
 
 
-#-> project,## SORT
+#-> project,nvim,jupyter,notebook,nbcat,SORT
 
 * [paw-lu/nbpreview](https://github.com/paw-lu/nbpreview)
 
+#-> project,nvim,jupyter,notebook,nbcat
 
-#-> project,# nbbat
-
-
-#-> project,# cat/bat for Jupyter Notebooks
+* project nbbat
 
 * also make command-line notebook viewer (way to learn Go?) → catnb, batnb, just like bat for notebooks → or capy (capybara?)
 * → [faculty.ai/tech-blog/viewing-jupyter-notebooks-on-the-command-line/](https://faculty.ai/tech-blog/viewing-jupyter-notebooks-on-the-command-line/)
@@ -427,16 +419,14 @@
 * → eventually extend bat?
 
 
-#-> project,# Project 1:
-
-* - nbcat-go repo, nbcat command for simple version
+* project,# Project 1: nbcat-go repo, nbcat command for simple version
 
 
-#-> project,# Project 2: `[bat](https://github.com/sharkdp/bat)` sibling (`nbbat` or  `vampyre`)
+* Project 2: `[bat](https://github.com/sharkdp/bat)` sibling (`nbbat` or  `vampyre`)
 
 * Naming: vampyre, capybara → vampyre is better, but use capybara for something else → also pygmy, from pygmy bats
 * create cool logo - vampire (or vampire bat) superimposed on planet Jupiter? or superimposed on a notebook? or both?
-* logo
+
 
 
 * ![Selection_002.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e74f0423-4454-4dd0-ae43-e45cbc541e73/99071ed2-1591-43ae-8629-67638c2f70cf/Selection_002.png)
@@ -447,7 +437,7 @@
 * fork bat codebase, or build on top of it → or incorporate as a dependency? → maybe use as a template, use syntext and maybe markdown processing
 
 
-#-> project,# nand2tetris
+#-> project,lowlevel,cs,general,nand2tetris
 
 * Key Resources
 * [Nand2tetris videos](https://www.youtube.com/playlist?list=PLrDd_kMiAuNmSb-CKWQqq9oBFN_KNMTaI)
@@ -570,8 +560,8 @@
 * mathematics of dating at macro level, micro too
 * [Python Keylogger](https://www.youtube.com/watch?v=hL3rB9ttZFU)
 
-* **norvig/pytudes -> add to polyglot-projects
-* [norvig/paip-lisp: Lisp code for the textbook "Paradigms of Artificial Intelligence Programming"](https://github.com/norvig/paip-lisp)
+* norvig/pytudes -> add to polyglot-projects
+* [norvig/paip-lisp: Lisp code for the textbook 'Paradigms of Artificial Intelligence Programming'](https://github.com/norvig/paip-lisp)
 * [life4/textdistance: Compute distance between sequences. 30+ algorithms, pure python implementation, common interface, optional external libs usage.](https://github.com/life4/textdistance)
 * [python - Evaluating a mathematical expression in a string - Stack Overflow](https://stackoverflow.com/questions/2371436/evaluating-a-mathematical-expression-in-a-string)
 * [CareScribe](https://github.com/carescribe)
@@ -666,7 +656,7 @@
 
 * contrib: write onnx exporter for spacy and thinc models
 
-* create a github repo to serve as a repository of ideas and "unfilled gaps" for people looking for a project
+* create a github repo to serve as a repository of ideas and 'unfilled gaps' for people looking for a project
 
 * move all small ml & dl projects to polyglot-projects
 
@@ -710,7 +700,7 @@
 * [TheAlgorithms/contributor_covenant](https://github.com/TheAlgorithms/contributor_covenant)
 
 
-#-> project,## SORT
+#-> project,SORT
 
 * Neural Networks from Scratch in Python.pdf
 
@@ -871,7 +861,7 @@
 * Generic Terminal
 
 
-#-> project,### References
+#-> project,reference
 
 * [doc.qt.io/](https://doc.qt.io/)
 * [gtk.org/](https://www.gtk.org/)
@@ -883,7 +873,7 @@
 
 
 
-#-> project,## Reading
+#-> project,reading
 
 * [ ]  [developer.android.com/guide/components/fundamentals](https://developer.android.com/guide/components/fundamentals)
 * [ ]  [developer.android.com/guide](https://developer.android.com/guide)
@@ -929,10 +919,10 @@
 * [zapier.com/apps/google-sheets/integrations/webhook](https://zapier.com/apps/google-sheets/integrations/webhook)
 
 
-#-> project,## [Proofs Book](...)
+#-> project,proofsBook
 
 
-#-> project,## Other
+#-> project,SORT
 
 * Missing Semester 🌱
 * TensorFlow Certification (with Jesse)
@@ -979,7 +969,7 @@
 * [ ]  create
 
 
-#-> project,## Trip Planner app (with Jesse) 🌱
+#-> project,tripPlanner
 
 * messages with Jesse:
 * [ ]  identify key inputs first; worry about getting them later via API
@@ -993,7 +983,7 @@
 * [ ]  multiple code options ← D2L book source
 
 
-#-> project,## algorithms (Beautiful Algorithms - Julia) 🌱
+#-> project,algorithm,beautifulAlgorithms
 
 * learning-programming-languages 🌱
 * Code Deep Dives 🌱
@@ -1044,14 +1034,14 @@
 * cpp-machine-learning 🌱
 
 
-#-> project,## Proverbs Project 🌱
+#-> project,paremiology
 
 * → see also CLSEC, child project of Wiktionary4LL
 * [Polyglot Phraseological Database](https://docs.google.com/spreadsheets/d/1HYEgCsnmjhulEnM7tq53AV7IrRbYhFcUnfjAp0cCAGI/edit?usp=sharing)
 * [(PDF) Idiomatic Equivalence between English and Arabic: Understanding and Recognizing ( M A Dissertation ) | Gamal M A Abdullah - Academia.edu](https://www.academia.edu/27132535/Idiomatic_Equivalence_between_English_and_Arabic_Understanding_and_Recognizing_M_A_Dissertation_)
 * [(PDF) The Proverb and Its 44 Definitions (Part I): A Ka:rmik Linguistic Review with a Checklist | Bhuvaneswar Chilukuri - Academia.edu](https://www.academia.edu/4295188/The_Proverb_and_Its_44_Definitions_Part_I_A_Ka_rmik_Linguistic_Review_with_a_Checklist)
 * [(PDF) Translation of Idioms across Languages | Sabir Hasan - Academia.edu](https://www.academia.edu/37045180/Translation_of_Idioms_across_Languages)
-* **Пословицы, поговорки, выражения на русском и немецком языках. Аналогия русских и немецких пословиц и поговорок.
+* Пословицы, поговорки, выражения на русском и немецком языках. Аналогия русских и немецких пословиц и поговорок.
 * [300 Proverbs and Sayings / Proverbios y Refranes](http://cogweb.ucla.edu/Discourse/Proverbs/English-Spanish.html)
 * [Amazon.com: A Dictionary of English and Italian Equivalent Proverbs eBook: Teodor Flonta: Kindle Store](https://www.amazon.com/-/de/dp/B005U1FGJY/ref=sr_1_fkmr2_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=flont+romanian+proverbs+9+languages&qid=1582120445&sr=8-2-fkmr2)
 * [Amazon.com: A Dictionary of English and Romance Languages Equivalent Proverbs eBook: Teodor Flonta: Kindle Store](https://www.amazon.com/-/de/dp/B006KRRBS6/ref=sr_1_fkmr2_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=flont+romanian+proverbs+9+languages&qid=1582120445&sr=8-1-fkmr2)
@@ -1144,7 +1134,8 @@
 * [Development — RLcard 0.0.1 documentation](https://rlcard.org/development.html#adding-new-environments)
 
 
-#-> project,## “philosophers and philosophies on the issues”
+#-> project,idea,SORT
+* “philosophers and philosophies on the issues”
 
 * → automated search and question answering
 
@@ -1154,26 +1145,13 @@
 
 * → also interesting to do by hand / with a hybrid approach
 
-
-#-> project,## Book idea: Ancient Greek through the Stoics; Latin through the Stoics (or GR and LA in one book)
-
-
-#-> project,## Sheet Music Player: OCR for scanned sheet music, audio generation (MIDI as intermediate?)
-
-
-#-> project,## Other Projects 🌱
+* Book idea: Ancient Greek through the Stoics; Latin through the Stoics (or GR and LA in one book)
+* Sheet Music Player: OCR for scanned sheet music, audio generation (MIDI as intermediate?)
+* Other Projects 🌱
+* rl-games
 
 
-#-> project,## rl-games
-
-
-#-> project,### Projects Links
-
-* [ ]  [Drive link](https://drive.google.com/drive/folders/16RpQL0XysyuoJbsrwiZntbL1coD8CigE?usp=sharing)
-
-
-
-#-> project,### References for RLCard
+#-> project,rlcard,resource,reference
 
 * [datamllab/rlcard](https://github.com/datamllab/rlcard) —> should contribute to as well
 * [medium.com/applied-data-science/how-to-train-ai-agents-to-play-multiplayer-games-using-self-play-deep-reinforcement-learning-247d0b440717](https://medium.com/applied-data-science/how-to-train-ai-agents-to-play-multiplayer-games-using-self-play-deep-reinforcement-learning-247d0b440717)
@@ -1189,16 +1167,17 @@
 * [r/reinforcementlearning/comments/i3367m/rl_for_turnbased_ai/](https://www.reddit.com/r/reinforcementlearning/comments/i3367m/rl_for_turnbased_ai/)
 * [blog.tensorflow.org/2021/10/building-board-game-app-with-tensorflow.html](https://blog.tensorflow.org/2021/10/building-board-game-app-with-tensorflow.html)
 * Wizard RL Paper: [ieeexplore.ieee.org/document/6664846](https://ieeexplore.ieee.org/document/6664846)
-* ** Recent Advances in Deep Reinforcement Learning Applications for Solving
+* Recent Advances in Deep Reinforcement Learning Applications for Solving
 * Partially Observable Markov Decision Processes (POMDP) Problems: Part 1 -
 * Fundamentals and Applications in Games, Robotics and Natural Language
-* [Processing](https://www.semanticscholar.org/paper/Recent-Advances-in-Deep-Reinforcement-Learning-for-Xiang-Foo/0a50454605da864cc4e1ac949e7a43055be11717)**
+* [Processing](https://www.semanticscholar.org/paper/Recent-Advances-in-Deep-Reinforcement-Learning-for-Xiang-Foo/0a50454605da864cc4e1ac949e7a43055be11717)
 * [Improving Bidding and Playing Strategies in the Trick-Taking game Wizard using Deep Q-Networks](https://www.semanticscholar.org/paper/Improving-Bidding-and-Playing-Strategies-in-the-Schumacher-Pleines/c68ea00041d84f90c2a443292a98c34146941481)
 * [ai.stackexchange.com/questions/17942/how-to-represent-a-state-in-a-card-game-environment-wizard](https://ai.stackexchange.com/questions/17942/how-to-represent-a-state-in-a-card-game-environment-wizard)
 * ?? [Towards Modern Card Games with Large-Scale Action Spaces Through Action Representation](https://arxiv.org/pdf/2206.12700.pdf)
 
 
-#-> project,## Daily Prophet 🌱
+#-> project,idea
+* Daily Prophet 🌱
 
 * [hackaday.com/2021/10/29/muggle-uses-e-paper-for-daily-prophet-replica/](https://hackaday.com/2021/10/29/muggle-uses-e-paper-for-daily-prophet-replica/)
 * [deeptronix.wordpress.com/2020/09/02/a-proper-harry-potter-newspaper-irl/](https://deeptronix.wordpress.com/2020/09/02/a-proper-harry-potter-newspaper-irl/)
@@ -1222,7 +1201,7 @@
 
 * create reader for texts with grammatical parsing and translation
 
-* book "Philosophy of Proverbs" or "Proverbs and Ethics" → read on paremiology
+* book 'Philosophy of Proverbs' or 'Proverbs and Ethics' → read on paremiology
 * [aclanthology.org/2021.emnlp-main.664.pdf](https://aclanthology.org/2021.emnlp-main.664.pdf)
 * [configs-and-scripts](https://github.com/yelircaasi/configs-and-scripts)
 * [rl-games](https://github.com/yelircaasi/rl-games)
@@ -1728,7 +1707,7 @@
 * [bitext2tmx CAT bitext aligner/converter download | SourceForge.net](https://sourceforge.net/projects/bitext2tmx/)
 * [OmegaT - multiplatform CAT tool download | SourceForge.net](https://sourceforge.net/projects/omegat/)
 * [Государство (Платон) — Викитека](https://ru.wikisource.org/wiki/%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%BE_(%D0%9F%D0%BB%D0%B0%D1%82%D0%BE%D0%BD))
-* [What Does Exodus 15:17 Mean? "Thou wilt bring them in, and plant them in the mountain of thine inheritance, The place, O Jehovah, which thou hast made for thee to dwell in, The sanctuary."](https://www.biblestudytools.com/exodus/15-17-compare.html)
+* [What Does Exodus 15:17 Mean? 'Thou wilt bring them in, and plant them in the mountain of thine inheritance, The place, O Jehovah, which thou hast made for thee to dwell in, The sanctuary.'](https://www.biblestudytools.com/exodus/15-17-compare.html)
 * [Are JRR Tolkien's works in the public domain since most of them were written in the 1940s and 30s? - Quora](https://www.quora.com/Are-JRR-Tolkiens-works-in-the-public-domain-since-most-of-them-were-written-in-the-1940s-and-30s)
 * [Aristotle - Wikisource, the free online library](https://en.wikisource.org/wiki/Author:Aristotle)
 * [The Prophet (Gibran) - Wikisource, the free online library](https://en.wikisource.org/wiki/The_Prophet_(Gibran))
@@ -1764,7 +1743,7 @@
 * [What is Beam Search? Explaining The Beam Search Algorithm | Width.ai](https://www.width.ai/post/what-is-beam-search)
 * [dbamman/latin-bert: Latin BERT](https://github.com/dbamman/latin-bert)
 * [pranaydeeps/Ancient-Greek-BERT · Hugging Face](https://huggingface.co/pranaydeeps/Ancient-Greek-BERT)
-* [pranaydeeps/Ancient-Greek-BERT: Pre-trained BERT Models for Ancient and Medieval Greek, and associated code for LaTeCH 2021 paper titled - "A Pilot Study for BERT Language Modelling and Morphological Analysis for Ancient and Medieval Greek"](https://github.com/pranaydeeps/Ancient-Greek-BERT)
+* [pranaydeeps/Ancient-Greek-BERT: Pre-trained BERT Models for Ancient and Medieval Greek, and associated code for LaTeCH 2021 paper titled - 'A Pilot Study for BERT Language Modelling and Morphological Analysis for Ancient and Medieval Greek'](https://github.com/pranaydeeps/Ancient-Greek-BERT)
 * [alvations/NTU-MC/blob/master/ntumc/toolkit/gale_church.py](https://github.com/alvations/NTU-MC/blob/master/ntumc/toolkit/gale_church.py)
 * [dowobeha/Gale_and_Church_1993](https://github.com/dowobeha/Gale_and_Church_1993)
 
@@ -1794,10 +1773,10 @@
 * [ ]  [Triplet Transformer Network for Multi-Label Document
 * Classification](https://dl.acm.org/doi/pdf/10.1145/3558100.3563843)- [ ]  [abarthakur/multilabel-deep-metric](https://github.com/abarthakur/multilabel-deep-metric)
 * [ ]  [rsennrich/Bleualign](https://github.com/rsennrich/Bleualign)
-* [ ]  [bfsujason/bertalign*](https://github.com/bfsujason/bertalign*) [doi.org/10.1093/llc/fqac089](https://doi.org/10.1093/llc/fqac089)
+* [ ]  [bfsujason/bertalign](https://github.com/bfsujason/bertalign) [doi.org/10.1093/llc/fqac089](https://doi.org/10.1093/llc/fqac089)
 * [ ]  [thompsonb/vecalign](https://github.com/thompsonb/vecalign)
 * [Vecalign: Improved Sentence Alignment in Linear Time and Space](http://aclanthology.lst.uni-saarland.de/D19-1136.pdf)- [ ]  [facebookresearch/LASER](https://github.com/facebookresearch/LASER)
-* [ ]  [bojone/labse*](https://github.com/bojone/labse*) [huggingface.co/sentence-transformers/LaBSE](https://huggingface.co/sentence-transformers/LaBSE)
+* [ ]  [bojone/labse](https://github.com/bojone/labse) [huggingface.co/sentence-transformers/LaBSE](https://huggingface.co/sentence-transformers/LaBSE)
 * [ ]  [danielvarga/hunalign](https://github.com/danielvarga/hunalign)
 * [ ]  [LowResourceLanguages/champollion](https://github.com/LowResourceLanguages/champollion)
 * [ ]  [A survey on parallel corpora alignment](http://andrefs.github.io/publications/files/1102_corpalignment_mistar.pdf)- [ ]  [Revisiting sentence alignment algorithms for alignment visualization and evaluation](https://aclanthology.org/www.mt-archive.info/10/BUCC-2012-Yu.pdf)- [ ]  [Improve Sentence Alignment by Divide-and-conquer](https://arxiv.org/abs/2201.06907)- [ ]  [Very Low Resource Sentence Alignment: Luhya and Swahili](https://arxiv.org/abs/2211.00046)- [ ]  [Sentence Alignment with Parallel Documents Facilitates Biomedical Machine Translation](https://arxiv.org/abs/2104.08588)- [ ]  [Bilingual alignment transfers to multilingual alignment for unsupervised parallel text mining](https://arxiv.org/abs/2104.07642)- [ ]  [A New Aligned Simple German Corpus](https://arxiv.org/abs/2209.01106)- [ ]  [Exploiting Parallel Corpora to Improve Multilingual Embedding based Document and Sentence Alignment](https://arxiv.org/abs/2106.06766)- [ ]  [PMIndia -- A Collection of Parallel Corpora of Languages of India](https://arxiv.org/abs/2001.09907)- [ ]  [Robust Cross-lingual Embeddings from Parallel Sentences](https://arxiv.org/abs/1912.12481)- [ ]  [A Large Parallel Corpus of Full-Text Scientific Articles](https://arxiv.org/abs/1905.01852)- [ ]  [Vicinity-Driven Paragraph and Sentence Alignment for Comparable Corpora](https://arxiv.org/abs/1612.04113)- [ ]  [Learning Bilingual Sentence Embeddings via Autoencoding and Computing Similarities with a Multilayer Perceptron](https://arxiv.org/abs/1906.01942)- [ ]
@@ -2219,7 +2198,7 @@
 
 * string similarity measure for alternative translations
 
-* **bitext alignment code - Ecosia
+* bitext alignment code - Ecosia
 * [emk (Eric Kidd)](https://github.com/emk)
 * [Evaluation of Alignment Methods for HTML Parallel Text | SpringerLink](https://link.springer.com/chapter/10.1007/11816508_29?no-access=true)
 * [booh.com/wp/blog/bilingual-text-2012](http://booh.com/wp/blog/bilingual-text-2012)
@@ -2307,7 +2286,7 @@
 * [stackoverflow.com/questions/2907327/dual-line-bilingual-paragraph-in-latex](https://stackoverflow.com/questions/2907327/dual-line-bilingual-paragraph-in-latex)
 * [r/LaTeX/comments/44p1h6/bilingual_translations_in_two_columns/](https://www.reddit.com/r/LaTeX/comments/44p1h6/bilingual_translations_in_two_columns/)
 
-* **translation - Dual-line bilingual paragraph in LaTeX - Stack Overflow
+* translation - Dual-line bilingual paragraph in LaTeX - Stack Overflow
 * [CTAN: Paket parallel](https://ctan.org/pkg/parallel)
 * [ctan.org/pkg/parallel](https://ctan.org/pkg/parallel)
 
@@ -2388,15 +2367,15 @@
 * [sketchengine.co.uk/user-guide/user-manual/corpora/setting-up-parallel-corpora/](https://www.sketchengine.co.uk/user-guide/user-manual/corpora/setting-up-parallel-corpora/)
 * [[Corpora-List] Arabic Corpus work in Python](https://mailman.uib.no/public/corpora/2009-October/009362.html)
 
-* ** Multilingual Bible Parallel Corpus
+*  Multilingual Bible Parallel Corpus
 *  MTTK - Machine Translation Toolkit
 *  OpenSubtitles2018
 *  tatoeba to anki - Ecosia
 *  The IMS Open Corpus Workbench
-* **De Deo (Peña - es) | Ethicadb.org
-* **Download sentences - Tatoeba
-* **Sketch Engine | language corpus management and query system
-* download*opensubtitles-parser/setup.sh at master · inikdom/opensubtitles-parser · GitHub
+* De Deo (Peña - es) | Ethicadb.org
+* Download sentences - Tatoeba
+* Sketch Engine | language corpus management and query system
+* download opensubtitles-parser/setup.sh at master · inikdom/opensubtitles-parser · GitHub
 * [/c/1997c/tops/dvips](http://www.mitpressjournals.org/doi/pdf/10.1162/089120103322711578)
 * [A massively parallel corpus: the Bible in 100 languages](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4551210/)
 * [Add a corpus to the NLTK corpus and importing it : Python](https://www.reddit.com/r/Python/comments/5ctedp/add_a_corpus_to_the_nltk_corpus_and_importing_it/)
@@ -2468,7 +2447,7 @@
 * [bitext-matching/README.md at master · PhilippeFerreiraDeSousa/bitext-matching · GitHub](https://github.com/PhilippeFerreiraDeSousa/bitext-matching/blob/master/lib/README.md)
 * [Convert CSV files to PBO parallel bilingual books](https://gist.github.com/emk/a68c16bc1a8cd4840a5a)
 
-* **rsennrich/Bleualign: Machine-Translation-based sentence alignment tool for parallel text
+* rsennrich/Bleualign: Machine-Translation-based sentence alignment tool for parallel text
 * [rsennrich/Bleualign: Machine-Translation-based sentence alignment tool for parallel text](https://github.com/rsennrich/Bleualign)
 * [Vocabulary · PyPI](https://pypi.org/project/Vocabulary/)
 * [markuskiller/textblob-sent-align: ``TextBlob`` model extension: sentence alignment for parallel TextBlobs](https://github.com/markuskiller/textblob-sent-align)
@@ -2482,7 +2461,7 @@
 * [pcast/reader: Proof of concept for displaying parallel texts with phrase alignment.](https://github.com/pcast/reader)
 * [yalign 0.1.1 : Python Package Index](https://pypi.python.org/pypi/yalign)
 
-* **gumblex/Bleualign: Machine-Translation-based sentence alignment tool for parallel text
+* gumblex/Bleualign: Machine-Translation-based sentence alignment tool for parallel text
 * [Creating Bilingual Texts with AlSim Parallel Texts Reader - YouTube](https://www.youtube.com/watch?v=0Tvw9XNcgB0)
 * [sites.google.com/view/alsim](https://sites.google.com/view/alsim)
 * [bitbucket.org/tiedemann/lingua-align/wiki/Home](https://bitbucket.org/tiedemann/lingua-align/wiki/Home)
@@ -2491,10 +2470,10 @@
 * [loomchild/maligna: Bilingual sengence aligner](https://github.com/loomchild/maligna)
 * [mebubo/paragraph-align: Naive alignment of paragraphs in bilingual texts](https://github.com/mebubo/paragraph-align)
 
-* *?Crear subtítulos dobles para películas en Foreign Languages Online
+* Crear subtítulos dobles para películas en Foreign Languages Online
 *  emk/substudy: Use SRT subtitle files to study foreign languages (in progress)
 *  substudy: A tool for learning languages using TV shows and subtitles | Random Hacks
-* **Extracting and analyzing subtitles - Lupyan Lab
+* Extracting and analyzing subtitles - Lupyan Lab
 * [hochulshin.com/python-subtitle-cleaningup/](http://hochulshin.com/python-subtitle-cleaningup/)
 * [kodi.wiki/view/Add-on:OpenSubtitles.org](http://kodi.wiki/view/Add-on:OpenSubtitles.org)
 * [opus.nlpl.eu/](http://opus.nlpl.eu/)
@@ -2598,7 +2577,7 @@
 * [End-to-end speech recognition with Alignment RNN-Transducer | IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/document/9533348)
 * [PyArabic · PyPI](https://pypi.org/project/PyArabic/)
 * [One TTS Alignment To Rule Them All | Papers With Code](https://paperswithcode.com/paper/one-tts-alignment-to-rule-them-all)
-* [Multi-head attention mechanism: "queries", "keys", and "values," over and over again - Data Science Blog](https://data-science-blog.com/blog/2021/04/07/multi-head-attention-mechanism/)
+* [Multi-head attention mechanism: 'queries', 'keys', and 'values,' over and over again - Data Science Blog](https://data-science-blog.com/blog/2021/04/07/multi-head-attention-mechanism/)
 * [noor library the largest arab electronic library open for books](https://www.noor-book.com/en/)
 * [CAMeL-Lab/camel_tools: A suite of Arabic natural language processing tools developed by the CAMeL Lab at New York University Abu Dhabi.](https://github.com/CAMeL-Lab/camel_tools)
 * [CAMeL_Tools_Guided_Tour.ipynb - Colaboratory](https://colab.research.google.com/drive/1Y3qCbD6Gw1KEw-lixQx1rI6WlyWnrnDS?usp=sharing)
@@ -2619,7 +2598,7 @@
 * [texlive - Embed Tex Live into application - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/168652/embed-tex-live-into-application)
 * [embed latex in application - Google Search](https://www.google.com/search?client=firefox-b-d&q=embed+latex+in+application)
 * [overleaf/clsi: A web api for compiling LaTeX documents in the cloud](https://github.com/overleaf/clsi)
-* [**busytex/busytex: TexLive programs bundled into a single static binary for x86_64-linux / WASM](https://github.com/busytex/busytex)
+* [busytex/busytex: TexLive programs bundled into a single static binary for x86_64-linux / WASM](https://github.com/busytex/busytex)
 * [texlive-source/Build at trunk · TeX-Live/texlive-source](https://github.com/TeX-Live/texlive-source/blob/trunk/Build)
 * [TeX-Live/texlive-source: source part of the TeX Live subversion repository - for issues please contact the tex-k mailing list at tug.org](https://github.com/TeX-Live/texlive-source/tree/trunk)
 * [TexLive - NixOS Wiki](https://nixos.wiki/wiki/TexLive)
@@ -2790,16 +2769,14 @@
 * [stackoverflow.com/questions/59825336/how-can-i-do-web-scraping-in-julia](https://stackoverflow.com/questions/59825336/how-can-i-do-web-scraping-in-julia)
 
 
-#-> project,## Grecromancer
-
-
-#-> project,## grecromancer (Classics TTS)
+#-> project,grecromancer
+* grecromancer (Classics TTS)
 
 * Name ideas: GrecRomancer (from Necromancer
 * To do: Divide into smaller sub-projects.
 
 
-#-> project,### Data Ideas
+#-> project,grecromancer,alignment,idea
 
 * Align at word level by pre-trained ASR:
 * get output or intermediate output in another language (Italian for Latin, Italian / Modern Greek / Russian for Greek)
@@ -2808,7 +2785,7 @@
 * using the time stamps for each word (ideally with both loose and tight to put bounds on estimate of temporal location of word), create different permutations
 
 
-#-> project,### IP Concerns
+#-> project,meta,ip
 
 * 1. learn about relevant IP law and legal precedent
 * 2. decide whether to contact and collaborate with relevant speakers
@@ -2845,11 +2822,11 @@
 * [ ]  [app.litmaps.com/seed/15327392](https://app.litmaps.com/seed/15327392)
 * [ ]  [MFA](https://www.semanticscholar.org/paper/Montreal-Forced-Aligner%3A-Trainable-Text-Speech-McAuliffe-Socolof/9e8b06c60722fee06d7f01d4eeaf3ae81e0247d7)
 
-#-> tts
+#-> project,tts
 * [Papers with Code - Text-To-Speech Synthesis](https://paperswithcode.com/task/text-to-speech-synthesis/)
 * [Papers with Code - Text-To-Speech Synthesis](https://paperswithcode.com/task/text-to-speech-synthesis/codeless)
 
-* Data Augmentatio
+* Data Augmentation
 * [ ]  → use all (or many) n-grams of appropriate length for early training, then only proper phrase/sentence splits for later finer training → separate models for word-level and phrase/sentence-level TTS (but p/s-level highest priority
 * [ ]  Low-resource expressive text-to-speech using data augmentatio
 * [ ]  [Text-to-speech system for low-resource language using cross-lingual transfer learning and data augmentation](https://asmp-eurasipjournals.springeropen.com/articles/10.1186/s13636-021-00225-4)
@@ -2893,7 +2870,7 @@
 * [Speech & Music | Applied Deep Learning](https://www.youtube.com/playlist?list=PLoEMreTa9CNkL5fCXx50MN6nwWvsJgio6)
 * [graphcore.ai/posts/how-to-use-openais-whisper-for-speech-recognition](https://www.graphcore.ai/posts/how-to-use-openais-whisper-for-speech-recognition)
 * TTS LA/GRC
-* [Audio samples from "Semi-Supervised Training for Improving Data Efficiency in End-to-End Speech Synthesis"](https://google.github.io/tacotron/publications/semisupervised/)
+* [Audio samples from 'Semi-Supervised Training for Improving Data Efficiency in End-to-End Speech Synthesis'](https://google.github.io/tacotron/publications/semisupervised/)
 * [How much dataset is needed at least to train on your version? · Issue #12 · NVIDIA/tacotron2 · GitHub](https://github.com/NVIDIA/tacotron2/issues/12)
 * [How to train a new model with dataset of diffirent language? · Issue #321 · NVIDIA/tacotron2 · GitHub](https://github.com/NVIDIA/tacotron2/issues/321)
 * [ancientgreek.eu/](https://ancientgreek.eu/)
@@ -2919,21 +2896,21 @@
 * option to only gloss words under a certain frequency, or not contained in a certain list
 
 
-#-> project,## # henry-higgins
+#-> project,henryhiggins
 
 * A) Constrastive audio visualization (user vs target), normalizing for speed and pitch, also aligning to transcription and to each other
 * B) Convolutional (+ attention?) binary classifier native vs non-native, good for visualization, esp. in frequency domain, but also in time domain
 * → look at how to visualize activations and attention alignments
 
 
-#-> project,## Resources
+#-> project,phonetics,resource
 
 * [Exploring Phoneme-Level Speech Representations for End-to-End Speech Translation](https://esalesky.github.io/assets/pdf/acl19_exploring.pdf)
 * Allosaurus → enhance and fine-tune, use in articulatory feedback??
 * [Phoneme-to-Audio Alignment with Recurrent Neural Networks for Speaking and Singing Voice](https://hal.science/hal-03552964/file/1676anav.pdf)
 
 
-#-> project,## Considerations
+#-> project,thought,idea
 
 * make as a plugin to Praat? or similar, but with a more polished interface?
 * [apps.kde.org/artikulate/](https://apps.kde.org/artikulate/)
@@ -2961,12 +2938,12 @@
 * use PoS tagging, Wiktionary word info (via Wiktionary tool) → later dependency parsing?
 
 
-#-> project,## Expression Translation Tables (→ Multi-Word Expression Project, Proverbs Project)
+* Expression Translation Tables (→ Multi-Word Expression Project, Proverbs Project)
 
 * [en.wiktionary.org/wiki/Category:Multiword_terms_by_language](https://en.wiktionary.org/wiki/Category:Multiword_terms_by_language)
 
 
-#-> project,# Projects
+#-> project,idea,SORT
 
 * -> mypyc compilation (static?) codon? -> check licenses
 * bw CLI (bitwarden)
@@ -3109,7 +3086,7 @@
 * [How to Set Up a Jekyll Theme](https://webdesign.tutsplus.com/tutorials/how-to-set-up-a-jekyll-theme--cms-26332)* [shad.io/MatVis/bundle.js](https://shad.io/MatVis/bundle.js)
 * [Making your first Jekyll theme: Part 1 - Siteleaf](https://www.siteleaf.com/blog/making-your-first-jekyll-theme-part-1/)
 * [Bookish (typesetting conversion library):](https://github.com/parrt/bookish)
-* [**Write for Towards Data Science - Towards Data Science](https://towardsdatascience.com/questions-96667b06af5)
+* [Write for Towards Data Science - Towards Data Science](https://towardsdatascience.com/questions-96667b06af5)
 
 
 #-> project,# proglang table
@@ -3131,7 +3108,7 @@
 * Write in Python to use Pygments library
 * → need to write bidirectional update logic for diffs. Use Pandas? Possibly overkill, but undeniably useful
 * How to merge edits at the same block? Use a Python-wrapped got diff?
-* [ ] \*\*\*\*\*\*\*\*\* [teachcode](https://github.com/madlabsinc/teachcode) - Guide for the earliest lessons of coding.
+* ***** [teachcode](https://github.com/madlabsinc/teachcode) - Guide for the earliest lessons of coding.
 
 * Design ideas:
 * Top bar, slightly lighter than main background, with title (’Programming Language Table’) and on the right the following icons (maybe rounded squares):
@@ -3156,7 +3133,7 @@
 
 #-> project,# [Minimal Working Examples](https://docs.google.com/spreadsheets/d/1hzRM9NpjLdlBnZmU2H2UTX_eWDRXf9jujuw61ov9Yso/edit?usp=sharing) 🌱
 
-* -> Add "Build Your Own Lisp" to Rosetta Projects
+* -> Add 'Build Your Own Lisp' to Rosetta Projects
 
 * simple HTTP 1.1 server - great exercise for Go and Rust especially
 
@@ -3306,7 +3283,7 @@
 
 #-> project,## C
 
-* "Hello World!" in C
+* 'Hello World!' in C
 * Playing With Characters
 * Sum and Difference of Two Numbers
 * Functions in C
@@ -3335,7 +3312,7 @@
 
 #-> project,## C++
 
-* Say "Hello, World!" With C++
+* Say 'Hello, World!' With C++
 * Input and Output
 * Basic Data Types
 * Conditional Statements
@@ -3449,7 +3426,7 @@
 
 #-> project,## Python
 
-* Say "Hello, World!" With Python
+* Say 'Hello, World!' With Python
 * Python If-Else
 * Arithmetic Operators
 * Python: Division
