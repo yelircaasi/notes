@@ -1,5 +1,8 @@
+#!/usr/bin/env python
+
 import sys
 import json
+from typing import Callable
 
 
 class Colorizer:
@@ -53,18 +56,53 @@ print(c.magenta("magenta"))
 print(c.white("white"))
 
 
+type_icons = {
+    "": "",
+    "unsupported": ""
+}
+status_icons = {
+    "toRead": "󰄱",
+    "done": "󰄲",
+    "unsupported": ""
+}
+tag_icons = {
+    "biology": "󰻖",
+    "unsupported": "X"
+}
+
+
+def preprocess_tags(tags: list[str]) -> str:
+    return c.cyan('|'.join(tags))
+
+def preprocess_subtags(subtags: list[str]) -> str:
+    return c.yellow('|'.join(subtags))
+    
+
+
+def wrap_line(line: str, length: int, formatter: Callable) -> str:
+    ...
+
+
 def convert(note: dict) -> str:
     width = 100
-    double_bar = c.black(width * "═")
+    double_bar = c.magenta(width * "═")
     single_bar = c.black(width * "─")
+
+    tags = preprocess_tags(note['tags'])
+    subtags = preprocess_subtags(note['subtags'])
+    id_ = c.blue(note['id'][:21])
+    note_text = c.magenta(note["note"])
+    type_ = type_icons.get(note.get("type", "unsupported"), "?")
+    status = status_icons.get(note.get("status", "unsupported"), "?")
+
 
     
 
     return "\n".join([
         double_bar,
-        c.cyan("|".join(note["tags"])),
+        f"{id_:<35} {tags:^33} {subtags:^33} {type_:>8} {status:>8}",
         single_bar,
-        c.magenta(note["note"]),
+        note_text,
         single_bar
 
     ])
