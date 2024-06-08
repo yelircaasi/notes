@@ -37,8 +37,10 @@ def collect(file_list: list):
 
 
 def print_unique(strings: list[str]) -> None:
+    strings.sort()
     unique = set(strings)
-    print(", ".join(sorted(unique)))
+    counts = [f"{strings.count(s):>6} {s}" for s in unique]
+    print("\n".join(sorted(counts, reverse=True)))
 
 
 attrs, tags, subtags, extra_attrs, types, stati = collect(files)

@@ -106,9 +106,9 @@ with open(move, "w") as f:
 with open(rejected, "w") as f:
     json.dump([d for d in dl if d["class"]=="rejected"], f, indent=4)
 with open(added, "w") as f:
-    json.dump([d for d in dl if d["class"]=="added"], f, indent=4)
+    json.dump([d for d in dl if d["class"]=="alreadyInUse"], f, indent=4)
 with open(other, "w") as f:
-    json.dump([d for d in dl if d["class"] not in {"incorporate", "adapt", "read", "glean", "backpocket", "selected", "pursue", "move", "rejected", "added"}], f, indent=4)
+    json.dump([d for d in dl if d["class"] not in {"incorporate", "adapt", "read", "glean", "backpocket", "selected", "pursue", "move", "rejected", "alreadyInUse"}], f, indent=4)
 
 key = "name"
 probs = [d for d in dl if not key in d]

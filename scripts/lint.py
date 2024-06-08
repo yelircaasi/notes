@@ -25,7 +25,41 @@ DEFAULT = {
     "extra": {},
     "sorter": "UNSPECIFIED"
 }
-
+TYPES = [
+    "",
+    "UNSPECIFIED",
+    "book",
+    "readingMaterial",
+    "readingAtom",
+    "viewingAtom",
+    "course",
+    "dots",
+    "periodical",
+    "idea",
+    "dotsSingleApp",
+    "media-website",
+    "person",
+    "scripts",
+    "videoSet",
+    "reference",
+    "thought",
+    "ankiSet",
+    "resourceList",
+    "listeningAtom",
+    "discussion",
+]
+STATI = [
+    "toRead",
+    "selected",
+    ""
+    "needsWork",
+    "selectedForLater",
+    "backPocket",
+    "alreadyInUse"
+    "useAsReference",
+    "selectedNeedsNix",
+    "needToTry"
+]
 
 def remove_duplicates_keep_order(tags: list[str]) -> list[str]:
     already = set()
@@ -40,7 +74,7 @@ def remove_duplicates_keep_order(tags: list[str]) -> list[str]:
 def lint_tags(tags: list[str]) -> list[str]:
     tags = list(filter(bool, tags))
     if len(tags) != len(set(tags)):
-        print("DUPLICATE TAGS:", tags)
+        # print("DUPLICATE TAGS:", tags)
         tags = remove_duplicates_keep_order(tags)
     
     return tags
@@ -58,7 +92,7 @@ def lint_note(note: dict) -> dict:
     note["subtags"] = lint_tags(note["subtags"])
     extra = {k: v for k, v in note.items() if k not in KEYS}
     note = {k: v for k, v in note.items() if k in KEYS}
-    print(note)
+    # print(note)
     note["extra"].update(extra)
 
     return note

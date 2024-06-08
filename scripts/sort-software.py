@@ -7,18 +7,18 @@ import os
 p = Path("/home/isaac/nix-config/notes/F_technology/F_B_computer_science/config/software-lists/for-nix-config/sorted")
 
 files = {
-    "added": "added",
+    "alreadyInUse": "alreadyInUse",
     "selected": "selected",
-    "needs work": "needs_work",
+    "needsWork": "needs_work",
     "decided against": "not_selected",
     "honorable mention": "not_selected",
     "maybe later": "later",
-    "selected for later": "later",
+    "selectedForLater": "later",
     "TODO: read": "to_read",
     "back pocket; may be useful someday": "not_selected",
-    "use as reference": "use_as_reference",
-    "selected; needs nix packaging": "selected_needs_nix",
-    "need to try": "need_to_try",
+    "useAsReference": "use_as_reference",
+    "selectedNeedsNix": "selected_needs_nix",
+    "needToTry": "need_to_try",
 }
 files = {k: p / f"{name}.json" for k, name in files.items()}
 print(files)
