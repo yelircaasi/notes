@@ -4,7 +4,9 @@ e edit - check by hand
 r rename key
 k keep
 x remove
-s move to subtags
+s move to subtags or extra
+t move to type or subtype
+p programkatically modify
 
 ======== TAGS =========
    
@@ -56,37 +58,37 @@ k 7980 socialScience
 k 9214 ml
 x 3473 A
 
-     1 21
-     1 3* - Misc*
-     1 F.F
-     1 NL*
-     1 action
-     1 actions
-     1 agriculture
-     1 aider
-     1 alternative
-     1 annotation
-     1 ansi
+x    1 21
+e     1 3* - Misc*
+e     1 F.F
+e     1 NL*
+e     1 action
+e     1 actions
+k     1 agriculture
+x     1 aider
+e     1 alternative
+k     1 annotation
+ e    1 ansi
      1 assertion
      1 backwards
      1 bar
      1 bard
-     1 benchmarking
-     1 bibliography
+k     1 benchmarking
+k     1 bibliography
      1 boolean
      1 bracket
      1 brackets
      1 business
      1 center
      1 check
-     1 chromeos
-     1 clock
+x     1 chromeos
+k     1 clock
      1 clojure
      1 clone
-     1 codeBlockSeparation
-     1 codeRunner
-     1 coderunner
-     1 comment
+s     1 codeBlockSeparation
+r     1 codeRunner
+r     1 coderunner
+k     1 comment
      1 compatibility
      1 compiler
      1 concealer
@@ -100,8 +102,8 @@ x 3473 A
      1 curriculum
      1 dataGeneration
      1 detection
-     1 diagram
-     1 documentary
+k     1 diagram
+k     1 documentary
      1 dotfileManager
      1 duplicate
      1 eli5
@@ -116,12 +118,12 @@ r    1 francés
      1 fsharp
      1 gemini
      1 gesture
-     1 gist
-     1 gitLens
+e     1 gist
+e     1 gitLens
      1 global
      1 goToFile
      1 grammar
-     1 grpc
+k     1 grpc
      1 health
      1 hierarchical
      1 homeopathy
@@ -131,7 +133,7 @@ r    1 francés
      1 input
      1 ironNvim
      1 kivy
-     1 language:EL
+s     1 language:EL
      1 language:FI
      1 language:QU
      1 languageSimilarity
@@ -204,13 +206,13 @@ r    1 francés
      1 глубокое
      1 обучение
      1 сети
-     1 →
-     2 14
-     2 18
-     2 4
-     2 DONE
-     2 F.E
-     2 HR*
+e     1 →
+e     2 14
+e     2 18
+e     2 4
+e     2 DONE
+e     2 F.E
+p     2 HR*
      2 accessControl
      2 animation
      2 anthro-logy
@@ -235,7 +237,7 @@ r    1 francés
      2 fairness
      2 filetype
      2 fontSize
-     2 genesi
+r     2 genesi
      2 gitignore
      2 gitui
      2 handler
@@ -292,11 +294,11 @@ r    1 francés
      2 websocket
      2 winbar
      2 wordCount
-     3 PT*
+p     3 PT*
      3 abbreviation
-     3 ageOfReason
-     3 analytic
-     3 aphorism
+e     3 ageOfReason
+e     3 analytic
+k     3 aphorism
      3 asciidoc
      3 astronomy
      3 background
@@ -304,8 +306,8 @@ r    1 francés
      3 bionicReading
      3 boilerplate
      3 colorizer
-     3 configSwitching
-     3 cowsay
+k     3 configSwitching
+k     3 cowsay
      3 criticism
      3 ctags
      3 current
@@ -316,22 +318,22 @@ r    1 francés
      3 error
      3 fileMonitor
      3 formatter
-     3 githoarder
+k     3 githoarder
      3 graph
      3 header
-     3 henryhiggins
-     3 hex
+k     3 henryhiggins
+k     3 hex
      3 hierarchy
      3 inference
      3 inline
-     3 intelligenz
+r     3 intelligenz
      3 interesting
      3 interlineator
      3 ip
      3 künstliche
-     3 language:CZ
-     3 language:DA
-     3 language:OTHER
+p     3 language:CZ
+p     3 language:DA
+p     3 language:OTHER
      3 linuxkernel
      3 macros
      3 manx
@@ -355,11 +357,11 @@ r    1 francés
      3 typst
      3 use
      3 weather
-     4 11
-     4 20
-     4 DE*
-     4 PL*
-     4 ZH*
+e     4 11
+e     4 20
+p     4 DE*
+p     4 PL*
+p     4 ZH*
      4 academic
      4 adversarial
      4 alarm
@@ -381,10 +383,10 @@ r    1 francés
      4 cursor
      4 date
      4 devcontainer
-     4 dioxu
-     4 dioxuslab
+r     4 dioxu
+r     4 dioxuslab
      4 directory
-     4 discord
+k     4 discord
      4 dock
      4 dockApp
      4 dummie
@@ -392,10 +394,10 @@ r    1 francés
      4 exam
      4 funciona
      4 fuzzy
-     4 g
+x     4 g
      4 generative
      4 get
-     4 gh
+r     4 gh
      4 gitLog
      4 hindu
      4 hour
@@ -413,7 +415,7 @@ r    1 francés
      4 language:KO
      4 license
      4 liveServer
-     4 m
+x     4 m
      4 maps
      4 master
      4 mathematical
@@ -435,7 +437,7 @@ r    1 francés
      4 probabilistic
      4 problem
      4 programmer
-     4 q
+e     4 q
      4 rain
      4 rasa
      4 recording
@@ -444,30 +446,30 @@ r    1 francés
      4 semisupervised
      4 sheetMusic
      4 singleApp
-     4 social
+r     4 social
      4 solution
      4 speech
      4 started
-     4 statistic
+x     4 statistic
      4 surround
      4 table/list
      4 tensor
-     4 thi
+x     4 thi
      4 toggle
      4 topic
      4 touchTyping
      4 tracking
      4 universal
-     4 us
+x     4 us
      4 virtual
      4 webassembly
      4 why
      4 widget
      4 zig
      5 23
-     5 ES
+p     5 ES
      5 active
-     5 auth
+x     5 auth
      5 autoDetect
      5 babylonian
      5 calculator
@@ -498,11 +500,11 @@ r    1 francés
      5 multicursor
      5 naiveBayes
      5 nand2tetris
-     5 net
+e     5 net
      5 paperReading
-     5 paste
+r     5 paste
      5 pattern
-     5 pca
+r     5 pca
      5 picker
      5 platform
      5 presentation
@@ -512,7 +514,7 @@ r    1 francés
      5 referenceProjects
      5 sheet
      5 sklearn
-     5 store
+e     5 store
      5 summary
      5 theano
      5 training
@@ -522,8 +524,8 @@ r    1 francés
      5 wall
      5 wl
      5 world
-     5 you
-     5 youtu
+x     5 you
+e     5 youtu
      5 zoology
      6 abs
      6 addition
@@ -544,10 +546,10 @@ r    1 francés
      6 deploy
      6 development - Nah
      6 digitalocean
-     6 eds
-     6 email
-     6 emoji
-     6 español*
+e     6 eds
+k     6 email
+k     6 emoji
+p     6 español*
      6 et
      6 fortran
      6 generalGuideline
@@ -568,8 +570,8 @@ r    1 francés
      6 professional
      6 proglib
      6 project/demo
-     6 prolog
-     6 raspberryPi
+s     6 prolog
+r     6 raspberryPi
      6 recognition
      6 reinforcement
      6 relativity
@@ -584,7 +586,7 @@ r    1 francés
      6 subtraction
      6 syntax
      6 textAlignment
-     6 ucranio*
+p     6 ucranio*
      6 undoRedo
      6 url
      6 usp
@@ -675,7 +677,7 @@ r    1 francés
      8 windows
      8 word
      8 zettelkasten
-     9 AR*
+p     9 AR*
      9 _ad
      9 a62e
      9 analytics
@@ -683,8 +685,8 @@ r    1 francés
      9 arguments
      9 atom
      9 be
-     9 clavix
-     9 click
+x     9 clavix
+x     9 click
      9 desc
      9 developer
      9 electronic
@@ -692,12 +694,12 @@ r    1 francés
      9 featureLearning
      9 fixedEffects
      9 garbageCollection
-     9 getresponse360
+x     9 getresponse360
      9 inequality
      9 initSystem
-     9 jfai
+e     9 jfai
      9 kubernetes
-     9 language:SW
+p     9 language:SW
      9 lc
      9 learn
      9 maximize
@@ -723,8 +725,8 @@ r    1 francés
      9 specificIntegration
      9 talk
      9 technique
-     9 termplate
-     9 u
+r     9 termplate
+x     9 u
      9 window
     10 9
     10 IT*
@@ -765,16 +767,16 @@ r    1 francés
     11 treatmentEffects
     11 type:vocabword
     11 wisdonLiterature
-    12 10
-    12 Wiki
+e    12 10
+e    12 Wiki
     12 assembly
     12 collection
     12 colorPicking
     12 creation
-    12 docker/k8s
+r    12 docker/k8s
     12 export
     12 htm
-    12 language:AS
+p    12 language:AS
     12 latent
     12 llvm
     12 obsolete
@@ -785,16 +787,16 @@ r    1 francés
     12 translation
     12 ui
     12 welsh
-    12 y
-    13 F.C
-    13 analysi
+x    12 y
+r    13 F.C
+r    13 analysi
     13 boot
     13 car
     13 colorscheme
     13 cookbook
     13 corpus
     13 coverage
-    13 d
+x    13 d
     13 dashboard
     13 dynamic
     13 fileBrowsing
@@ -823,15 +825,15 @@ r    1 francés
     14 templating
     14 util
     14 wasm
-    14 z
+x    14 z
     15 architecture
     15 async
     15 bookNotes
     15 clock/timer
-    15 commandLine
+k    15 commandLine
     15 foundational
-    15 fuzzyFinder
-    15 jira
+k    15 fuzzyFinder
+k    15 jira
     15 kmonad
     15 lectureNotes
     15 nearEast
@@ -925,7 +927,7 @@ r    1 francés
     20 packaging
     20 scrolling
     20 stata
-    20 status:nah
+p    20 status:nah
     21 commandStyle
     21 constraint
     21 datascience
@@ -955,14 +957,14 @@ r    1 francés
     23 hash
     23 ideas
     23 micro
-    23 r
-    23 repl
-    23 sexuality
+r    23 r
+r    23 repl
+k    23 sexuality
     23 small
     23 stackexchange
     23 test
     24 acoustics
-    24 cryptography
+k    24 cryptography
     24 external
     24 highlighting
     24 mlops
@@ -972,7 +974,7 @@ r    1 francés
     25 formatting
     25 intro
     25 otherLangs
-    26 cli/tui
+r    26 cli/tui
     26 foss
     26 logging
     26 markdown
@@ -1021,22 +1023,22 @@ r    1 francés
     32 application
     32 code
     32 codeRunning
-    32 confucian
-    32 dataset
-    32 design
+r    32 confucian
+k    32 dataset
+k    32 design
     32 diagnostics
     32 discrete
     32 recent
     32 switcher
     32 tutorial
     33 base
-    33 bookToLiveBy
-    33 books
+k    33 bookToLiveBy
+r    33 books
     33 genre
     33 gui
-    33 isbn
+x    33 isbn
     33 keyboardTrainer
-    33 openurl
+x    33 openurl
     33 styleTransfer
     33 tab
     33 writing
@@ -1049,7 +1051,7 @@ r    1 francés
     34 nvidia
     34 opengl
     34 otherWm
-    34 s
+x    34 s
     34 todo
     35 africa
     35 dwm
@@ -1086,7 +1088,7 @@ r    1 francés
     39 session
     39 tensorflow
     40 personalWebsite
-    40 taoist
+r    40 taoist
     41 clipboard
     41 example
     41 gnome
@@ -1102,7 +1104,7 @@ r    1 francés
     43 help
     43 nlq
     43 psychologist
-    43 snippet
+k    43 snippet
     43 transcription
     44 jump
     45 anki
@@ -1112,18 +1114,18 @@ r    1 francés
     45 travel
     46 ds
     46 image
-    46 music.classical
+r    46 music.classical
     46 parsing
     46 quickfix
-    46 ru
+p    46 ru
     46 starter
     47 beautifulAlgorithms
     47 blue
     47 bluish
     47 ed
-    47 rpi
+r    47 rpi
     48 gaming
-    48 rs
+e    48 rs
     49 specificTool
     50 appDevelopment
     50 studioC
@@ -1214,12 +1216,12 @@ r    1 francés
     91 engineering
     91 lua
     92 functional
-    93 fun
+k    93 fun
     93 reference
     94 cc
-    96 hyprland
-    96 neorg
-    97 shell
+k    96 hyprland
+k    96 neorg
+k    97 shell
     98 celtic
     99 semantics
    100 git
@@ -1230,16 +1232,16 @@ r    1 francés
    104 nsm
    105 attention
    105 link
-   105 transformer
+k   105 transformer
    107 buffer
    107 programming
    107 resourceList
    108 alignment
    108 philosopgy
-   108 sex
-   111 lazyman
-   112 clustering
-   112 comedy
+k   108 sex
+k   111 lazyman
+k   112 clustering
+k   112 comedy
    112 humor
    112 keyboard
    115 app
@@ -1263,7 +1265,7 @@ r    1 francés
    139 language:UK
    144 phonetics
    145 freeCodeCamp
-   146 language:PT
+p   146 language:PT
    150 lsp
    151 rust
    156 q&a
@@ -1273,18 +1275,18 @@ r    1 francés
    174 pedagogy
    175 notebook
    180 database
-   180 language:ES
+p   180 language:ES
    188 pdf
    189 cinema
    189 rl
    194 llm
    195 proglangTable
-   200 language:RU
+p   200 language:RU
    201 editor
    205 jupyter
    206 data
    206 sociology
-   215 ?
+e   215 ?
    215 course
    215 weiterbildung
    217 library
@@ -1296,9 +1298,9 @@ r    1 francés
    233 tex
    241 learnopencv
    244 blog
-   248 language:FR
-   252 algorithm
-   258 article
+p   248 language:FR
+k   252 algorithm
+t   258 article
    260 item
    269 cv
    270 course/tutorial
@@ -1306,15 +1308,15 @@ r    1 francés
    283 java
    287 food
    289 haskell
-   293 linearAlgebra
-   296 language:DE
-   321 language:EN
+k   293 linearAlgebra
+p   296 language:DE
+p   321 language:EN
    331 proglangSpecific
    340 interview
    345 learning
-   346 phone
-   351 ytchannel
-   361 lowlevel
+k   346 phone
+r   351 ytchannel
+k   361 lowlevel
    366 fitness
    376 mobile
    428 work
@@ -1323,21 +1325,21 @@ r    1 francés
    446 linux
    484 colorTheme
    490 rosettaProjects
-   499 status:maybeLater
+p   499 status:maybeLater
    513 thought
    517 youtube
-   519 c/c++
-   534 favorite
-   540 web
-   553 miscellaneous
-   591 literature
-   593 wisdom
-   623 nextStep
-   685 veryShortIntroduction
-   692 package
-   693 speechProcessing
-   703 idea
-   716 julia
+r   519 c/c++
+e   534 favorite
+e   540 web
+e   553 miscellaneous
+k   591 literature
+k   593 wisdom
+e   623 nextStep
+k   685 veryShortIntroduction
+e   692 package
+k   693 speechProcessing
+k   703 idea
+k   716 julia
 inv    13 x
 inv    13 year
 inv    14 recommend
