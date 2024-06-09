@@ -1,3 +1,211 @@
+KEY:
+m move to extra
+e edit - check by hand
+r rename key
+k keep
+x remove
+s move to subtags or extra
+t move to type or subtype
+p programkatically modify
+
+======== TAGS =========
+
+e     1 →
+e     1 3* - Misc*
+e     1 action
+e     1 actions
+e     1 alternative
+e     1 F.F
+e     1 gist
+e     1 gitLens
+e     2 14
+e     2 18
+e     2 4
+e     2 DONE
+e     2 F.E
+e     3 ageOfReason
+e     3 analytic
+e     5 net
+e     5 store
+e     5 youtu
+e     6 eds
+e     9 jfai
+k 1 ansiColor
+e    12 10
+e    12 Wiki
+e   215 ?
+e   534 favorite
+e   540 web
+e   553 miscellaneous
+e   623 nextStep
+e   692 package
+e 720 listeningAtom
+e 1177 paper
+e 1200 website
+e 1645 audio
+e 1733 note
+e 2456 video
+k   14 sequence
+k     1 agriculture
+k     1 annotation
+k     1 benchmarking
+k     1 bibliography
+k     1 clock
+k     1 comment
+k     1 diagram
+k     1 documentary
+k     1 grpc
+k     3 aphorism
+k     3 configSwitching
+k     3 cowsay
+k     3 githoarder
+k     3 henryhiggins
+k     3 hex
+k     4 discord
+k     6 email
+k     6 emoji
+k     7 keras
+k    14 raku
+k    14 relationship
+k    14 rosettaRegex
+k    15 commandLine
+k    15 fuzzyFinder
+k    15 jira
+k    23 sexuality
+k    24 cryptography
+k    32 dataset
+k    32 design
+k    33 bookToLiveBy
+k    43 snippet
+k    93 fun
+k    96 hyprland
+k    96 neorg
+k    97 shell
+k   105 transformer
+k   108 sex
+k   111 lazyman
+k   112 clustering
+k   112 comedy
+k   252 algorithm
+k   293 linearAlgebra
+k   346 phone
+k   361 lowlevel
+k   591 literature
+k   593 wisdom
+k   685 veryShortIntroduction
+k   693 speechProcessing
+k   703 idea
+k   716 julia
+k  741 neuro
+k  746 psychology
+k  751 news
+k  796 statistics
+k  811 song
+k  872 person
+k  879 bitextAlignment
+k  883 ricing
+k  995 practicalLiving
+k 1072 biology
+k 1091 top
+k 1298 history
+k 1410 science
+k 1422 resource
+k 1451 dots
+k 1458 music
+k 1602 economics
+k 1654 nix
+k 1825 nlp
+k 1920 python
+k 2147 nvim
+k 2313 software
+k 2472 media
+k 2541 ethics
+k 3350 nvimPlugin
+k 34670 SORT
+k 3469 politics
+k 3548 project
+k 3949 philosophy
+k 4597 general
+k 4677 math
+k 4799 config
+k 4832 humanities
+k 4987 cs
+k 5100 reading
+k 5144 proglang
+k 6412 book
+k 7652 languageLearning
+k 7980 socialScience
+k 9214 ml
+k zen
+p     2 HR*
+p     3 language:CZ
+p     3 language:DA
+p     3 language:OTHER
+p     3 PT*
+p     4 DE*
+p     4 PL*
+p     4 ZH*
+p     5 ES
+p     6 español*
+p     6 ucranio*
+p     9 AR*
+p     9 language:SW
+p    12 language:AS
+p    14 language:EO
+p    14 language:SA
+p    14 status:rejected
+p    19 language:AR-LV
+p    19 language:HE
+p    19 language:LA/GRC
+p    20 status:nah
+p    29 language:PL
+p    37 language:LA
+p    40 language:NL
+p    46 ru
+p    52 language:GRC
+p    84 language:AR
+p    95 language:HR
+p   114 language:NO
+p   129 language:IT
+p   146 language:PT
+p   180 language:ES
+p   200 language:RU
+p   248 language:FR
+p   296 language:DE
+p   321 language:EN
+p   499 status:maybeLater
+r     1 coderunner
+r     1 codeRunner
+r     3 intelligenz
+r     4 dioxu
+r     4 dioxuslab
+r     4 gh
+r     4 social
+r     5 paste
+r     5 pca
+r     6 raspberryPi
+r     9 termplate
+r    1 francés
+r    12 docker/k8s
+r    13 analysi
+r    13 F.C
+r    23 repl
+r    26 cli/tui
+r    32 confucian
+r    33 books
+r    40 taoist
+r    46 music.classical
+r    47 rpi
+r   351 ytchannel
+r   519 c/c++
+s     1 codeBlockSeparation
+p     1 language:EL
+s     6 prolog
+s    14 fromPicture
+s    14 full
+s    14 fundamental
+s    14 ricingTool
+t   258 article
 
      1 assertion
      1 backwards
@@ -213,8 +421,8 @@
      3 ctags
      3 current
      3 david
-     3 dotProduct
      3 dotnet
+     3 dotProduct
      3 emacsStyle
      3 error
      3 fileMonitor
@@ -287,6 +495,7 @@
      4 hour
      4 htmlcheatsheet
      4 implement
+p     4 inglés*
      4 jekyll
      4 jimmyCarr
      4 jk
@@ -470,6 +679,7 @@
      7 gitlab
      7 gpt
      7 imageEditor
+p     7 italiano*
      7 log
      7 longCourse
      7 lowevel
@@ -484,9 +694,9 @@
      7 progrmming
      7 proofs
      7 recipe
-     7 sORT
      7 science/education
      7 sharing
+     7 sORT
      7 spellcheck
      7 streaming
      7 swap
@@ -588,8 +798,10 @@
     10 gallery
     10 geogebra
     10 graphing
+p    10 IT*
     10 list
     10 matrixDecomposition
+p    10 ruso*
     10 textobject
     10 treesitter
     10 trimming
@@ -602,6 +814,7 @@
     11 command
     11 dataFormat
     11 de
+p    11 DE
     11 drive
     11 evolution
     11 hand
@@ -642,6 +855,8 @@
     13 dynamic
     13 fileBrowsing
     13 generalResource
+p    13 handbook
+k    13 huggingface
     13 manager
     13 rtp
     13 saving
@@ -651,6 +866,7 @@
     13 xmonad
     14 appToRice
     14 compilation
+p    14 CONTRIBUTE!
     14 dev
     14 errorClustering
     14 graphicCreation
@@ -680,6 +896,7 @@
     15 uni
     16 casing
     16 creativity
+p    16 currentReading
     16 deep
     16 diff
     16 differentiation
@@ -837,6 +1054,7 @@
     30 computer
     30 indentation
     30 monitoring
+k 31 c
     31 comments
     31 free
     31 geometry
@@ -854,6 +1072,7 @@
     32 tutorial
     33 base
     33 genre
+k    33 gui
     33 keyboardTrainer
     33 styleTransfer
     33 tab
@@ -870,21 +1089,29 @@
     34 todo
     35 africa
     35 dwm
+k    35 earley
     35 execFromConfigFile
-    35 language:ZH
+k    35 fileBrowser
+k    35 keybind
     35 language:multi
+    35 language:ZH
     35 macro
     35 media/blog/person
     35 productivity
     35 specificApp
+k    36 econometrics
+k    36 network
+k    36 oldvim
     36 springer
     36 testing
     37 decisionTree
     37 hank
+k    37 quantum
     37 randomForest
     37 thinkTank
     38 dap
     38 file
+p    38 FR
     38 grecromancer
     38 ireland
     38 paper/book
@@ -898,6 +1125,8 @@
     41 example
     41 gnome
     41 large
+k    41 yankPaste
+k    42 anatomy
     42 documentation
     42 feminism
     42 reddit
@@ -995,59 +1224,78 @@
     80 i3
     80 tts
     80 vscode
-k   82 wiktionary
-k   83 homeManager
-x   84 google
-s   84 other
-r   84 vim
-s   86 ai
+    82 wiktionary
+    83 homeManager
+    84 google
+    84 other
+    84 vim
+    86 ai
     86 model
-p   87 24
-e   87 game
-x   87 machine
-k   88 gtd
-k   88 wikipedia
-k   89 chatbot
-k   89 regex
-k   90 challenge
-k   90 lisp
-k   91 engineering
-k   91 lua
-k   92 functional
-p   93 reference
-x   94 cc
-e   98 celtic
+    87 24
+    87 game
+    87 machine
+    88 gtd
+    88 wikipedia
+    89 chatbot
+    89 regex
+    90 challenge
+    90 lisp
+    91 engineering
+    91 lua
+    92 functional
+    93 reference
+    94 cc
+    98 celtic
     99 semantics
    100 git
    101 asr
    101 sponsorship
    102 tech
    104 line
-k  104 nsm
-k  105 attention
+   104 nsm
+   105 attention
    105 link
    107 buffer
    107 programming
    107 resourceList
    108 alignment
-k  112 humor
-k  112 keyboard
-k  115 app
-e  116 navigation
-k  117 jordanNormalForm
-k  117 juventas
-e  118 roadmap
-k  118 terminal
-k  119 android
-s  119 meta
-e  121 allusion
-r  121 color
-r  156 q&a
+   108 philosopgy
+   112 humor
+   112 keyboard
+   115 app
+   116 navigation
+   117 jordanNormalForm
+   117 juventas
+   118 roadmap
+   118 terminal
+   119 android
+   119 meta
+   121 allusion
+   121 color
+   121 rlang
+   122 theory
+   130 paremiology
+   131 speechSynthesis
+   134 assembler
+   135 colors
+   136 gan
+   138 podcast
+   139 language:UK
+   144 phonetics
+   145 freeCodeCamp
+   150 lsp
+   151 rust
+   156 q&a
+   157 search
+   160 neuralNetwork
+   174 editingEnhancement
    174 pedagogy
    175 notebook
    180 database
    188 pdf
    189 cinema
+   189 rl
+   194 llm
    195 proglangTable
    201 editor
    205 jupyter
@@ -1067,254 +1315,19 @@ r  156 q&a
    260 item
    269 cv
    270 course/tutorial
-e     1 3* - Misc*
-e     1 F.F
-e     1 action
-e     1 actions
-e     1 alternative
-e     1 gist
-e     1 gitLens
-e     1 →
-e     2 14
-e     2 18
-e     2 4
-e     2 DONE
-e     2 F.E
-e     3 ageOfReason
-e     3 analytic
-e     5 net
-e     5 store
-e     5 youtu
-e     6 eds
-e     9 jfai
-e    12 10
-e    12 Wiki
-e   215 ?
-e   534 favorite
-e   540 web
-e   553 miscellaneous
-e   623 nextStep
-e   692 package
-e 1177 paper
-e 1200 website
-e 1645 audio
-e 1733 note
-e 2456 video
-e 720 listeningAtom
-k     1 agriculture
-k     1 annotation
-k     1 benchmarking
-k     1 bibliography
-k     1 clock
-k     1 comment
-k     1 diagram
-k     1 documentary
-k     1 grpc
-k     3 aphorism
-k     3 configSwitching
-k     3 cowsay
-k     3 githoarder
-k     3 henryhiggins
-k     3 hex
-k     4 discord
-k     6 email
-k     6 emoji
-k     7 keras
-k    13 huggingface
-k    14 raku
-k    14 relationship
-k    14 rosettaRegex
-k    15 commandLine
-k    15 fuzzyFinder
-k    15 jira
-k    23 sexuality
-k    24 cryptography
-k    32 dataset
-k    32 design
-k    33 bookToLiveBy
-k    33 gui
-k    35 earley
-k    35 fileBrowser
-k    35 keybind
-k    36 econometrics
-k    36 network
-k    36 oldvim
-k    37 quantum
-k    41 yankPaste
-k    42 anatomy
-k    43 snippet
-k    93 fun
-k    96 hyprland
-k    96 neorg
-k    97 shell
-k   105 transformer
-k   108 sex
-k   111 lazyman
-k   112 clustering
-k   112 comedy
-k   14 sequence
-k   252 algorithm
 k   274 tf
-k   293 linearAlgebra
-k   346 phone
-k   361 lowlevel
+   283 java
+   287 food
+   289 haskell
+   331 proglangSpecific
+   340 interview
+   345 learning
+   366 fitness
+   376 mobile
+   428 work
+   435 ipa
+   443 linguistics
+   446 linux
 k   484 colorTheme
 k   490 rosettaProjects
 k   517 youtube
-k   591 literature
-k   593 wisdom
-k   685 veryShortIntroduction
-k   693 speechProcessing
-k   703 idea
-k   716 julia
-k  121 rlang
-k  130 paremiology
-k  131 speechSynthesis
-k  134 assembler
-k  136 gan
-k  138 podcast
-k  145 freeCodeCamp
-k  150 lsp
-k  151 rust
-k  157 search
-k  160 neuralNetwork
-k  174 editingEnhancement
-k  189 rl
-k  194 llm
-k  283 java
-k  287 food
-k  289 haskell
-k  340 interview
-k  366 fitness
-k  376 mobile
-k  428 work
-k  435 ipa
-k  443 linguistics
-k  446 linux
-k  741 neuro
-k  746 psychology
-k  751 news
-k  796 statistics
-k  811 song
-k  872 person
-k  879 bitextAlignment
-k  883 ricing
-k  995 practicalLiving
-k 1 ansiColor
-k 1072 biology
-k 1091 top
-k 1298 history
-k 1410 science
-k 1422 resource
-k 1451 dots
-k 1458 music
-k 1602 economics
-k 1654 nix
-k 1825 nlp
-k 1920 python
-k 2147 nvim
-k 2313 software
-k 2472 media
-k 2541 ethics
-k 31 c
-k 3350 nvimPlugin
-k 34670 SORT
-k 3469 politics
-k 3548 project
-k 3949 philosophy
-k 4597 general
-k 4677 math
-k 4799 config
-k 4832 humanities
-k 4987 cs
-k 5100 reading
-k 5144 proglang
-k 6412 book
-k 7652 languageLearning
-k 7980 socialScience
-k 9214 ml
-k zen
-p     1 language:EL
-p     2 HR*
-p     3 PT*
-p     3 language:CZ
-p     3 language:DA
-p     3 language:OTHER
-p     4 DE*
-p     4 PL*
-p     4 ZH*
-p     4 inglés*
-p     5 ES
-p     6 español*
-p     6 ucranio*
-p     7 italiano*
-p     9 AR*
-p     9 language:SW
-p    10 IT*
-p    10 ruso*
-p    11 DE
-p    12 language:AS
-p    13 handbook
-p    14 CONTRIBUTE!
-p    14 language:EO
-p    14 language:SA
-p    14 status:rejected
-p    16 currentReading
-p    19 language:AR-LV
-p    19 language:HE
-p    19 language:LA/GRC
-p    20 status:nah
-p    29 language:PL
-p    37 language:LA
-p    38 FR
-p    40 language:NL
-p    46 ru
-p    52 language:GRC
-p    84 language:AR
-p    95 language:HR
-p   114 language:NO
-p   129 language:IT
-p   146 language:PT
-p   180 language:ES
-p   200 language:RU
-p   248 language:FR
-p   296 language:DE
-p   321 language:EN
-p   499 status:maybeLater
-p  139 language:UK
-p  331 proglangSpecific
-r     1 codeRunner
-r     1 coderunner
-r     3 intelligenz
-r     4 dioxu
-r     4 dioxuslab
-r     4 gh
-r     4 social
-r     5 paste
-r     5 pca
-r     6 raspberryPi
-r     9 termplate
-r    1 francés
-r    12 docker/k8s
-r    13 F.C
-r    13 analysi
-r    23 repl
-r    26 cli/tui
-r    32 confucian
-r    33 books
-r    40 taoist
-r    46 music.classical
-r    47 rpi
-r   351 ytchannel
-r   519 c/c++
-r  135 colors
-r  144 phonetics
-r  345 learning
-s     1 codeBlockSeparation
-s     6 prolog
-s    14 fromPicture
-s    14 full
-s    14 fundamental
-s    14 ricingTool
-s  122 theory
-t   258 article
