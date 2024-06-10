@@ -1,158 +1,52 @@
-
-  1  coroutine
-  1  curriculum
-  1  errorFormat
-  1  errorHandling
-  1  explorer
-  1  gemini
-  1  gesture
-  1  global
-  1  health
-  1  hook
-  1  ignore
-  1  info
-  1  input
-  1  kivy
-  1  light
-  1  mouse
-  1  narrowing
-  1  number
-  1  poverty
-  1  profiler
-  1  profiling
-  1  pull
-  1  query
-  1  range
-  1  redirection
-  1  repeat
-  1  runtimepath
   1  scheduling
   1  selector
-  1  signature
   1  storage
-  1  string
-  1  submodule
-  1  sudo
   1  table
   1  thesis
   1  time
   1  tips
-  1  tldr
-  1  trace
-  1  unit
-  1  update
-  1  wayfire
-  1  wiki
-  1  workflow
-  1  worktree
-  10  countries
-  10  estimator
   10  gallery
   10  graphing
   10  trimming
-  101  sponsorship
-  102  tech
-  104  line
   11  command
   11  dataFormat
   11  drive
   11  evolution
   11  hand
   11  remote
-  11  treatmentEffects
-  11  wisdonLiterature
-  12  assembly
   12  collection
-  12  colorPicking
   12  creation
   12  export
   12  obsolete
-  12  plotting
   12  proof
-  12  snl
-  12  sublimeText
   12  translation
   13  boot
   13  car
   13  colorscheme
   13  corpus
   13  coverage
-  13  fileBrowsing
-  13  generalResource
-  13  manager
   13  saving
   13  screenshot
-  13  template
-  13  xmonad
   14  appToRice
-  14  compilation
-  14  dev
   14  errorClustering
-  14  graphicCreation
-  14  macos
-  14  mathExpressionParsing
-  14  mentalHealth
-  14  myProjects
-  15  architecture
-  15  async
-  15  bookNotes
-  15  foundational
-  15  kmonad
-  15  nearEast
-  15  old
-  15  practice
-  15  uni
-  16  creativity
-  16  deep
-  16  diff
-  16  differentiation
-  16  dsource
-  16  ebook
   16  educational
-  16  engine
-  16  filebrowser
-  16  first
-  16  head
-  16  paradigm
-  16  react
   16  sound
-  16  sway
   16  videoEditor
-  17  artificial
-  17  behavioral
   17  django
   17  docker
   17  easymotion
   17  folding
-  17  gtk
-  17  marks
   17  motivation
-  17  nbcat
   17  phrase
   18  discovery
   18  graphics
   18  outline
-  18  pair
-  18  scripting
-  18  simple
-  189  cinema
-  19  berlin
   19  blogPost
-  19  building
-  19  components
-  19  conversion
-  19  framework
   19  interactive
   19  menu
   19  mining
-  19  php
   19  prompt
-  195  proglangTable
-  2  accessControl
-  2  ast
-  2  autocommand
   2  backup
-  2  base64
   2  bootArguments
   2  callHierarchy
   2  ci
@@ -173,22 +67,16 @@
   2  harmonizing
   2  humanReadable
   2  import
-  2  interpretable
-  2  introspection
   2  jain
-  2  joshJohnson
   2  kde
-  2  knn
   2  marketplace
   2  medicine
   2  meditation
-  2  mit
   2  monorepo
   2  ownership
   2  parenthetical
   2  patch
   2  pet
-  2  português
   2  prefix
   2  reloading
   2  semicolon
@@ -212,60 +100,37 @@
   20  hybridModifier
   20  insertion
   20  installation
-  20  intelligence
   20  internals
-  20  js
   20  linting
-  20  mitchellAndWebb
   20  packaging
   20  scrolling
   20  stata
-  201  editor
   21  commandStyle
   21  constraint
   21  institution
   21  operator
   21  pluginDevelopment
   21  purple
-  218  tool
   22  curation
   22  education
   22  scratch
   23  create
-  23  gardening
-  241  learnopencv
   25  column
-  25  formatting
-  26  markdown
-  26  moments
-  260  item
   27  beginner
   27  mode
   27  site
   28  advanced
-  28  birds
   28  layout
-  28  pluginDev
-  28  siteTheming
   28  userscript
-  28  wordEmbedding
-  29  keybinding
   29  open
   29  tmux
   29  view
-  3  abbreviation
-  3  asciidoc
   3  astronomy
-  3  background
-  3  bd
-  3  bionicReading
-  3  boilerplate
   3  colorizer
   3  criticism
   3  ctags
   3  current
   3  david
-  3  dotProduct
   3  dotnet
   3  emacsStyle
   3  error
@@ -295,32 +160,17 @@
   3  split
   3  spotify
   3  study
-  3  submode
   3  templates
   3  typing
-  3  typst
-  3  weather
   30  auto
-  30  indentation
   30  monitoring
-  31  geometry
-  31  neural
   31  organization
   32  application
   32  diagnostics
   32  discrete
-  32  recent
-  32  switcher
   33  base
   33  genre
   34  language
-  38  file
-  38  qtile
-  38  telescope
-  39  session
-  4  academic
-  4  alarm
-  4  autodiff
   4  breadcrumbs
   4  calendar
   4  copilot
@@ -382,96 +232,24 @@
   5  fullstack
   5  heterodox
   5  identity
-  5  instrumentalVariables
   5  lint
   5  monitor
-  5  nand2tetris
   5  paperReading
   5  pattern
   5  platform
   5  presentation
   5  progress
-  5  pullRequest
-  5  ranger
   5  referenceProjects
   5  sheet
   5  summary
   5  training
-  5  trick
-  5  venv
-  5  visualization
-  5  wall
-  5  wl
   5  world
   5  zoology
-  50  appDevelopment
-  51  arxiv
-  51  cpp
-  51  selection
-  52  integration
   54  personal
-  57  exemplary
-  58  instruction
-  58  taskRunning
-  58  tda
-  59  forum
-  59  quote
-  59  specificApps
-  6  addition
-  6  codeAction
-  6  codeImage
-  6  community
-  6  generalGuideline
-  6  information
   6  insert
   6  interactions
-  6  kotlin
-  6  make
-  6  move
-  6  mysql
-  6  phenomenal
-  6  pluginIntegration
-  6  print
-  6  professional
   6  proglib
-  6  recognition
-  6  reinforcement
-  6  relativity
-  6  rsync
-  6  scienceFiction
-  6  scraping
-  6  screenRecorder
-  6  sigmaOs
-  6  specificSoftware
-  6  subtraction
-  6  syntax
-  6  undoRedo
-  6  url
-  6  usp
-  6  uuid
-  6  x86
-  60  build
-  60  guix
-  60  rag
-  60  ralm
-  61  accent
-  61  grep
-  63  bspwm
-  64  formatSpecific
-  64  medium
-  65  completion
-  66  extension
-  66  status
-  68  editingExtensions
-  7  conference
-  7  disassembly
-  7  display
-  7  emulation
-  7  pluginManager
   7  sharing
-  7  spellcheck
-  7  streaming
-  7  swap
 e  1  3*  -  Misc*
 e  1  F.F
 e  1  action
@@ -489,11 +267,14 @@ e  1  networkFileBrowser
 e  1  pluginManagement
 e  1  relatedProjects
 e  1  selectEdit
+e  1  signature
+e  1  string
 e  1  typeHierarchy
 e  1  →
 e  10  geogebra
 e  10  list
 e  10  variable
+e  102  tech
 e  105  link
 e  107  programming
 e  11  analysis
@@ -508,17 +289,27 @@ e  12  ui
 e  1200  website
 e  121  allusion
 e  13  dynamic
+e  14  dev
 e  14  util
+e  15  old
+e  15  practice
+e  15  uni
+e  16  engine
 e  1645  audio
 e  1733  note
+e  18  scripting
+e  19  conversion
 e  2  DONE
 e  2  F.E
+e  2  base64
 e  2  cheats
 e  2  polyglotToolkit
+e  20  intelligence
 e  206  data
 e  215  ?
 e  215  weiterbildung
 e  217  library
+e  218  tool
 e  22  pluginUtil
 e  222  development
 e  23  small
@@ -528,16 +319,21 @@ e  244  blog
 e  2456  video
 e  25  intro
 e  25  otherLangs
+e  260  item
 e  27  asia
 e  27  highlight
 e  27  switching
 e  29  builtin
 e  3  ageOfReason
 e  3  analytic
+e  3  background
+e  3  bionicReading
 e  30  computer
 e  32  code
 e  35  execFromConfigFile
 e  35  specificApp
+e  38  file
+e  4  alarm
 e  4  certification
 e  4  coding
 e  4  generative
@@ -565,6 +361,7 @@ e  6  digitalocean
 e  6  eds
 e  623  nextStep
 e  63  dictionary
+e  64  medium
 e  692  package
 e  7  alternatives
 e  7  automated
@@ -591,6 +388,21 @@ e  9  jfai
 e  9  learnmaximize
 e  9  talk
 e  98  celtic
+e 1  wiki
+e 1  workflow
+e 1  worktree
+e 10  countries
+e 10  estimator
+e 13  generalResource
+e 13  manager
+e 15  foundational
+e 6  addition
+e 6  generalGuideline
+e 6  move
+e 6  recognition
+e 6  subtraction
+e 66  extension
+e 66  status
 e 8  publication
 e 9  atom
 e 9  feature
@@ -609,6 +421,7 @@ k  1  connectivity
 k  1  correctThinking
 k  1  cracking
 k  1  crystal
+k  1  curriculum
 k  1  dataGeneration
 k  1  diagram
 k  1  documentary
@@ -632,6 +445,7 @@ k  10  matrixDecomposition
 k  10  treesitter
 k  10  tripPlanner
 k  100  git
+k  101  sponsorship
 k  104  nsm
 k  105  attention
 k  105  transformer
@@ -657,11 +471,15 @@ k  121  rlang
 k  1298  history
 k  13  dashboard
 k  13  huggingface
+k  13  template
 k  130  paremiology
 k  131  speechSynthesis
 k  134  assembler
 k  136  gan
 k  138  podcast
+k  14  compilation
+k  14  mathExpressionParsing
+k  14  mentalHealth
 k  14  parenting
 k  14  privacy
 k  14  raku
@@ -674,15 +492,20 @@ k  1410  science
 k  145  freeCodeCamp
 k  1451  dots
 k  1458  music
+k  15  architecture
+k  15  async
 k  15  commandLine
 k  15  fuzzyFinder
 k  15  jira
 k  150  lsp
 k  151  rust
 k  157  search
+k  16  diff
+k  16  differentiation
 k  16  landscapeClient
 k  16  logic
 k  16  notification
+k  16  paradigm
 k  160  neuralNetwork
 k  1602  economics
 k  1654  nix
@@ -694,15 +517,21 @@ k  18  exercism
 k  18  finance
 k  180  database
 k  1825  nlp
+k  189  cinema
 k  189  rl
 k  19  machineEmulators
 k  19  operatingSystem
+k  19  php
 k  1920  python
 k  194  llm
+k  195  proglangTable
+k  2  ast
+k  2  introspection
 k  2  mentalFortitude
 k  2  ocaml
 k  2  qt
 k  2  sorting
+k  201  editor
 k  205  jupyter
 k  206  sociology
 k  21  rlcard
@@ -718,6 +547,7 @@ k  222  topology
 k  23  decisionTheory
 k  23  distribution
 k  23  encoding
+k  23  gardening
 k  23  sexuality
 k  23  stackexchange
 k  2313  software
@@ -739,6 +569,7 @@ k  27  perl
 k  274  tf
 k  28  knutils
 k  28  regression
+k  28  wordEmbedding
 k  28  zoroastrian
 k  283  java
 k  287  food
@@ -752,7 +583,11 @@ k  3  githoarder
 k  3  henryhiggins
 k  3  hex
 k  3  publicSpeaking
+k  3  typst
+k  3  weather
+k  30  indentation
 k  31  c
+k  31  geometry
 k  32  dataset
 k  32  design
 k  33  bookToLiveBy
@@ -794,6 +629,7 @@ k  38  poetry
 k  38  xgboost
 k  3949  philosophy
 k  4  adversarial
+k  4  autodiff
 k  4  chemistry
 k  4  codeAnalysis
 k  4  colorInterpolation
@@ -836,6 +672,7 @@ k  5  habit
 k  5  html
 k  5  jvm
 k  5  naiveBayes
+k  5  nand2tetris
 k  5  picker
 k  5  theano
 k  51  flake
@@ -862,11 +699,16 @@ k  6  email
 k  6  emoji
 k  6  fortran
 k  6  pandoc
+k  60  build
+k  60  guix
+k  60  rag
+k  60  ralm
 k  61  voiceConversion
 k  64  bash
 k  64  buddhist
 k  64  distro
 k  6412  book
+k  68  editingExtensions
 k  68  wallpaper
 k  685  veryShortIntroduction
 k  693  speechProcessing
@@ -880,6 +722,7 @@ k  7  imageEditor
 k  7  keras
 k  7  node
 k  7  orgmode
+k  7  streaming
 k  7  typistry
 k  70  kanata
 k  70  nebokrai
@@ -935,6 +778,34 @@ k  96  neorg
 k  97  shell
 k  995  practicalLiving
 k  zen
+k 1  gemini
+k 1  trace
+k 15  bookNotes
+k 15  kmonad
+k 16  creativity
+k 17  gtk
+k 17  nbcat
+k 241  learnopencv
+k 26  markdown
+k 26  moments
+k 5  visualization
+k 50  appDevelopment
+k 51  arxiv
+k 51  cpp
+k 59  forum
+k 59  quote
+k 6  codeImage
+k 6  community
+k 6  kotlin
+k 6  make
+k 6  relativity
+k 6  scienceFiction
+k 6  scraping
+k 6  screenRecorder
+k 7  conference
+k 7  disassembly
+k 7  display
+k 7  emulation
 k 8  npm
 k 8  obsidian
 k 8  octave
@@ -990,6 +861,7 @@ p  2  4
 p  2  HR*
 p  2  language:IN
 p  2  language:other
+p  2  português
 p  20  status:nah
 p  200  language:RU
 p  215  course
@@ -1034,6 +906,10 @@ p  9  AR*
 p  9  language:SW
 p  93  reference
 p  95  language:HR
+p 16  ebook
+p 57  exemplary
+p 58  instruction
+p 6  phenomenal
 r  1  bard
 r  1  codeRunner
 r  1  coderunner
@@ -1057,12 +933,14 @@ r  121  color
 r  13  F.C
 r  13  analysi
 r  135  colors
+r  14  myProjects
 r  144  phonetics
 r  15  projectConfig
 r  15  startup
 r  15  theme
 r  15  typescript
 r  156  q&a
+r  16  deep
 r  16  internet
 r  17  nixos
 r  17  scripts
@@ -1076,15 +954,19 @@ r  2  random
 r  2  rebase
 r  2  rlgame
 r  2  sorter
+r  20  js
 r  21  datascience
 r  21  siteToRice
 r  23  ideas
 r  23  repl
 r  26  cli/tui
 r  269  cv
+r  28  birds
+r  28  siteTheming
 r  3  intelligenz
 r  31  comments
 r  31  javaScript/typeScript
+r  31  neural
 r  32  codeRunning
 r  32  confucian
 r  32  tutorial
@@ -1097,6 +979,7 @@ r  35  media/blog/person
 r  351  ytchannel
 r  38  dap
 r  38  paper/book
+r  4  academic
 r  4  cli
 r  4  dioxu
 r  4  dioxuslab
@@ -1128,6 +1011,8 @@ r  6  project/demo
 r  6  raspberryPi
 r  6  scikit
 r  6  textAlignment
+r  61  accent
+r  61  grep
 r  7  dmenu wrappers
 r  7  doc
 r  7  gpt
@@ -1148,6 +1033,20 @@ r  8  multilang
 r  8  tree
 r  84  vim
 r  9  termplate
+r 1  hook
+r 1  narrowing
+r 1  poverty
+r 1  tldr
+r 11  wisdonLiterature
+r 12  assembly
+r 13  fileBrowsing
+r 14  graphicCreation
+r 15  nearEast
+r 29  keybinding
+r 52  integration
+r 58  taskRunning
+r 6  reinforcement
+r 6  rsync
 r 8  nnMath
 r 8  organization/institution/business
 r 8  packageManager
@@ -1155,16 +1054,28 @@ r 8  sepcificApp
 r 9  electronic
 r 9  skin
 r 9  sort
+rs  1  explorer
+rs 1  health
+rs 1  profiler
+rs 1  profiling
+rs 1  pull
 s  1  brackets
 s  1  codeBlockSeparation
 s  1  configSharing
+s  1  errorHandling
+s  1  input
+s  1  kivy
+s  1  light
 s  1  lineLength
 s  1  lineWrapping
 s  1  linkedEdit
 s  1  quarto
+s  1  submodule
+s  1  sudo
 s  10  textobject
 s  10  whitespace
 s  101  asr
+s  104  line
 s  107  buffer
 s  11  neotestAdapter
 s  11  specificTopics
@@ -1174,29 +1085,52 @@ s  12  welsh
 s  122  theory
 s  13  cookbook
 s  13  rtp
+s  13  xmonad
 s  14  fromPicture
 s  14  full
 s  14  fundamental
+s  14  macos
 s  14  ricingTool
 s  16  casing
 s  16  foilArmsAndHog
+s  16  react
+s  17  behavioral
 s  18  dapExtension
+s  18  pair
 s  18  scotland
+s  19  framework
+s  2  accessControl
+s  2  autocommand
 s  2  codeLens
 s  2  dwl
+s  2  interpretable
+s  2  joshJohnson
+s  2  knn
 s  2  lazygit
 s  2  nnn
 s  2  svd
+s  20  mitchellAndWebb
 s  21  hint
 s  23  micro
 s  24  highlighting
 s  26  replace
 s  27  popup
+s  28  pluginDev
+s  3  abbreviation
+s  3  asciidoc
+s  3  boilerplate
+s  3  dotProduct
 s  3  probitLogitTobit
+s  3  submode
+s  32  recent
+s  32  switcher
 s  33  tab
 s  34  otherWm
 s  35  dwm
 s  35  macro
+s  38  qtile
+s  38  telescope
+s  39  session
 s  4  autoClose
 s  4  cityBuildingSimulation
 s  4  close
@@ -1217,7 +1151,10 @@ s  44  jump
 s  46  starter
 s  5  autoDetect
 s  5  delete
+s  5  instrumentalVariables
 s  5  multicursor
+s  5  pullRequest
+s  5  ranger
 s  50  studioC
 s  54  introduction
 s  55  awesomewm
@@ -1226,7 +1163,16 @@ s  58  2sls
 s  6  currentWord
 s  6  deepRl
 s  6  deletion
+s  6  pluginIntegration
 s  6  prolog
+s  6  sigmaOs
+s  6  syntax
+s  6  undoRedo
+s  6  url
+s  6  uuid
+s  6  x86
+s  63  bspwm
+s  64  formatSpecific
 s  7  nextSteps
 s  79  filetypeSpecific
 s  8  blame
@@ -1238,6 +1184,38 @@ s  86  ai
 s  9  partialExecution
 s  9  readingRoadmap
 s  9  specificIntegration
+s 1  errorFormat
+s 1  global
+s 1  query
+s 1  range
+s 1  redirection
+s 1  repeat
+s 1  runtimepath
+s 1  unit
+s 1  update
+s 1  wayfire
+s 11  treatmentEffects
+s 12  colorPicking
+s 12  plotting
+s 12  snl
+s 12  sublimeText
+s 16  sway
+s 17  marks
+s 25  formatting
+s 5  trick
+s 5  venv
+s 51  selection
+s 58  tda
+s 59  specificApps
+s 6  codeAction
+s 6  information
+s 6  mysql
+s 6  print
+s 6  specificSoftware
+s 65  completion
+s 7  pluginManager
+s 7  spellcheck
+s 7  swap
 s 8  rachelParris
 s 9  fixedEffects
 s 9  scalp
@@ -1252,11 +1230,21 @@ x  1  глубокое
 x  1  обучение
 x  1  сети
 x  12  htm
+x  16  dsource
+x  16  first
+x  16  head
+x  17  artificial
 x  17  def
 x  17  knowledge
 x  17  req
+x  18  simple
 x  18  watch
+x  19  berlin
+x  19  building
+x  19  components
+x  2  mit
 x  23  hash
+x  3  bd
 x  31  free
 x  36  springer
 x  4  dummie
@@ -1279,6 +1267,10 @@ x  8  edition
 x  84  google
 x  87  machine
 x  94  cc
+x 1  ignore
+x 1  info
+x 1  number
+x 5  wall
 x 9  _ad
 x 9  a62e
 x 9  analytics
