@@ -101,12 +101,7 @@
   15  nearEast
   15  old
   15  practice
-  15  projectConfig
-  15  startup
-  15  theme
-  15  typescript
   15  uni
-  16  casing
   16  creativity
   16  deep
   16  diff
@@ -118,10 +113,6 @@
   16  filebrowser
   16  first
   16  head
-  16  internet
-  16  landscapeClient
-  16  logic
-  16  notification
   16  paradigm
   16  react
   16  sound
@@ -129,22 +120,16 @@
   16  videoEditor
   17  artificial
   17  behavioral
-  17  def
   17  django
   17  docker
   17  easymotion
   17  folding
   17  gtk
-  17  knowledge
   17  marks
   17  motivation
   17  nbcat
   17  phrase
-  174  pedagogy
-  175  notebook
   18  discovery
-  18  exercism
-  18  finance
   18  graphics
   18  outline
   18  pair
@@ -158,10 +143,8 @@
   19  conversion
   19  framework
   19  interactive
-  19  machineEmulators
   19  menu
   19  mining
-  19  operatingSystem
   19  php
   19  prompt
   195  proglangTable
@@ -251,7 +234,6 @@
   23  create
   23  gardening
   241  learnopencv
-  244  blog
   25  column
   25  formatting
   26  markdown
@@ -542,6 +524,7 @@ e  222  development
 e  23  small
 e  23  test
 e  24  external
+e  244  blog
 e  2456  video
 e  25  intro
 e  25  otherLangs
@@ -697,14 +680,23 @@ k  15  jira
 k  150  lsp
 k  151  rust
 k  157  search
+k  16  landscapeClient
+k  16  logic
+k  16  notification
 k  160  neuralNetwork
 k  1602  economics
 k  1654  nix
 k  17  server
 k  174  editingEnhancement
+k  174  pedagogy
+k  175  notebook
+k  18  exercism
+k  18  finance
 k  180  database
 k  1825  nlp
 k  189  rl
+k  19  machineEmulators
+k  19  operatingSystem
 k  1920  python
 k  194  llm
 k  2  mentalFortitude
@@ -1066,7 +1058,12 @@ r  13  F.C
 r  13  analysi
 r  135  colors
 r  144  phonetics
+r  15  projectConfig
+r  15  startup
+r  15  theme
+r  15  typescript
 r  156  q&a
+r  16  internet
 r  17  nixos
 r  17  scripts
 r  17  wine
@@ -1181,6 +1178,7 @@ s  14  fromPicture
 s  14  full
 s  14  fundamental
 s  14  ricingTool
+s  16  casing
 s  16  foilArmsAndHog
 s  18  dapExtension
 s  18  scotland
@@ -1254,6 +1252,8 @@ x  1  глубокое
 x  1  обучение
 x  1  сети
 x  12  htm
+x  17  def
+x  17  knowledge
 x  17  req
 x  18  watch
 x  23  hash
