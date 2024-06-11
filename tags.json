@@ -333,9 +333,6 @@
         "electronic",
         "skin"
     ],
-    "rs": [
-        "health"
-    ],
     "s": [
         "kivy",
         "light",
@@ -445,68 +442,11 @@
         "readingRoadmap",
         "scalp"
     ],
-    "sx": [
-        "interactive"
-    ],
+    "sx": [],
     "t": [
         "lectureNotes",
         "blogPost",
         "article"
     ],
-    "x": [
-        "bar",
-        "nstliche",
-        "веб",
-        "глубокое",
-        "обучение",
-        "сети",
-        "htm",
-        "dsource",
-        "first",
-        "head",
-        "artificial",
-        "def",
-        "knowledge",
-        "phrase",
-        "req",
-        "discovery",
-        "simple",
-        "watch",
-        "berlin",
-        "building",
-        "components",
-        "mit",
-        "create",
-        "hash",
-        "beginner",
-        "bd",
-        "künstliche",
-        "free",
-        "dummie",
-        "dzone",
-        "funciona",
-        "master",
-        "over",
-        "pas",
-        "universal",
-        "ed",
-        "essential",
-        "intelligent",
-        "wall",
-        "world",
-        "abs",
-        "applied",
-        "como",
-        "et",
-        "serie",
-        "vk",
-        "edition",
-        "google",
-        "machine",
-        "_ad",
-        "approach",
-        "be",
-        "developer",
-        "cc"
-    ]
+    "x": []
 }

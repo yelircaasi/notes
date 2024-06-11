@@ -524,7 +524,8 @@ TAGS = [
     "shell",
     "semantics",
     "practicalLiving",
-    "zen"
+    "zen",
+    "interactive"
 ]
 
 def remove_duplicates_keep_order(tags: list[str]) -> list[str]:
