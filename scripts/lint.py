@@ -44,9 +44,9 @@ TYPES = [
     "reference",
     "thought",
     "ankiSet",
-    "resourceList",
     "listeningAtom",
     "discussion",
+    "toContributeTo",
 ]
 STATI = [
     "toRead",
