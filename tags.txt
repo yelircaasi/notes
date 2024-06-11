@@ -1,76 +1,15 @@
-  10  gallery
-  10  graphing
-  10  trimming
-  11  command
-  11  dataFormat
-  11  drive
-  11  evolution
-  11  hand
-  11  remote
-  12  collection
-  12  creation
-  12  proof
-  13  boot
-  13  colorscheme
-  13  corpus
-  13  coverage
-  13  saving
-  13  screenshot
-  14  appToRice
-  14  errorClustering
-  16  educational
-  16  sound
-  17  django
-  17  docker
-  17  easymotion
-  17  folding
-  17  motivation
-  17  phrase
-  18  discovery
-  18  graphics
-  18  outline
-  19  blogPost
-  19  interactive
-  19  menu
-  19  mining
-  19  prompt
-  2  backup
-  2  bootArguments
-  2  callHierarchy
-  2  ci
-  2  collaboration
-  2  complex
-  2  conceal
-  2  contextHeader
-  2  dockerCompose
-  2  editHistory
-  2  editing
-  2  endwise
-  2  fairness
-  2  filetype
-  2  fontSize
-  2  gitignore
-  2  gitui
-  2  handler
   2  harmonizing
   2  humanReadable
   2  import
-  2  jain
   2  kde
   2  marketplace
   2  medicine
   2  meditation
   2  monorepo
   2  ownership
-  2  parenthetical
   2  patch
-  2  pet
   2  prefix
-  2  reloading
-  2  semicolon
-  2  sign
   2  stocks
-  2  tags
   2  tensorNetwork
   2  timeout
   2  toc
@@ -81,71 +20,26 @@
   2  websocket
   2  winbar
   2  wordCount
-  20  cloud
-  20  cloudResource
-  20  contrib
-  20  gnostic
-  20  hybridModifier
-  20  insertion
-  20  installation
-  20  internals
-  20  linting
-  20  packaging
-  20  scrolling
-  20  stata
-  21  commandStyle
-  21  constraint
-  21  institution
-  21  operator
-  22  curation
-  25  column
-  27  beginner
-  27  mode
-  3  astronomy
-  3  colorizer
   3  criticism
-  3  ctags
   3  current
   3  dotnet
-  3  error
-  3  fileMonitor
   3  formatter
-  3  graph
-  3  header
   3  hierarchy
   3  inference
-  3  inline
-  3  interesting
-  3  interlineator
   3  ip
-  3  künstliche
-  3  linuxkernel
-  3  macros
-  3  manx
   3  mkdir
-  3  motion
-  3  neuralNetworks
   3  online
   3  river
-  3  screencasting
-  3  screensaver
-  3  selfReferential
-  3  spelling
   3  split
   3  spotify
   3  study
   3  templates
   4  breadcrumbs
-  4  calendar
   4  copilot
   4  directory
   4  dock
   4  dockApp
-  4  exam
-  4  funciona
-  4  fuzzy
   4  hour
-  4  htmlcheatsheet
   4  implement
   4  license
   4  liveServer
@@ -153,8 +47,6 @@
   4  minimap
   4  modeling
   4  name
-  4  nim
-  4  noteToSelf
   4  predictive
   4  problem
   4  programmer
@@ -171,24 +63,6 @@
   4  touchTyping
   4  virtual
   4  widget
-  5  active
-  5  babylonian
-  5  classification
-  5  commandPalette
-  5  comparison
-  5  concept
-  5  disentanglement
-  5  essential
-  5  fullstack
-  5  heterodox
-  5  identity
-  5  lint
-  5  monitor
-  5  paperReading
-  5  pattern
-  5  platform
-  5  presentation
-e  1  3*  -  Misc*
 e  1  F.F
 e  1  action
 e  1  actions
@@ -232,6 +106,7 @@ e  14  util
 e  15  old
 e  15  practice
 e  15  uni
+e  16  educational
 e  16  engine
 e  1645  audio
 e  1733  note
@@ -267,6 +142,7 @@ e  3  ageOfReason
 e  3  analytic
 e  3  background
 e  3  bionicReading
+e  3  interesting
 e  30  computer
 e  32  code
 e  35  execFromConfigFile
@@ -275,6 +151,7 @@ e  38  file
 e  4  alarm
 e  4  certification
 e  4  coding
+e  4  fuzzy
 e  4  generative
 e  4  kojiki
 e  4  mathematical
@@ -394,6 +271,8 @@ k  1072  biology
 k  108  sex
 k  1091  top
 k  11  asciiArt
+k  11  dataFormat
+k  11  evolution
 k  11  shinto
 k  111  lazyman
 k  112  clustering
@@ -407,12 +286,16 @@ k  118  terminal
 k  119  android
 k  12  latent
 k  12  llvm
+k  12  proof
 k  12  translation
 k  121  rlang
 k  1298  history
+k  13  boot
 k  13  car
+k  13  corpus
 k  13  dashboard
 k  13  huggingface
+k  13  screenshot
 k  13  template
 k  130  paremiology
 k  131  speechSynthesis
@@ -452,12 +335,15 @@ k  16  videoEditor
 k  160  neuralNetwork
 k  1602  economics
 k  1654  nix
+k  17  docker
+k  17  motivation
 k  17  server
 k  174  editingEnhancement
 k  174  pedagogy
 k  175  notebook
 k  18  exercism
 k  18  finance
+k  18  graphics
 k  180  database
 k  1825  nlp
 k  189  cinema
@@ -469,11 +355,18 @@ k  1920  python
 k  194  llm
 k  195  proglangTable
 k  2  ast
+k  2  complex
+k  2  fairness
 k  2  introspection
 k  2  mentalFortitude
 k  2  ocaml
 k  2  qt
 k  2  sorting
+k  20  cloud
+k  20  cloudResource
+k  20  hybridModifier
+k  20  packaging
+k  20  stata
 k  201  editor
 k  205  jupyter
 k  206  sociology
@@ -522,11 +415,16 @@ k  29  ifThen
 k  29  tmux
 k  293  linearAlgebra
 k  3  aphorism
+k  3  astronomy
 k  3  configSwitching
 k  3  cowsay
+k  3  fileMonitor
 k  3  githoarder
+k  3  graph
 k  3  henryhiggins
 k  3  hex
+k  3  interlineator
+k  3  neuralNetworks
 k  3  publicSpeaking
 k  3  typing
 k  3  typst
@@ -578,6 +476,7 @@ k  38  xgboost
 k  3949  philosophy
 k  4  adversarial
 k  4  autodiff
+k  4  calendar
 k  4  chemistry
 k  4  codeAnalysis
 k  4  colorInterpolation
@@ -588,6 +487,8 @@ k  4  hindu
 k  4  joke
 k  4  json
 k  4  keyboardLayout
+k  4  nim
+k  4  noteToSelf
 k  4  sheetMusic
 k  4  zig
 k  40  personalWebsite
@@ -624,10 +525,13 @@ k  5  coreutils
 k  5  dualMonitor
 k  5  habit
 k  5  html
+k  5  identity
 k  5  jvm
 k  5  naiveBayes
 k  5  nand2tetris
+k  5  paperReading
 k  5  picker
+k  5  presentation
 k  5  theano
 k  51  flake
 k  5100  reading
@@ -777,6 +681,7 @@ k 86  model
 k 9  garbageCollection
 k 9  sops
 k 99  semantics
+p  1  3*  -  Misc*
 p  1  language:EL
 p  1  language:FI
 p  1  language:QU
@@ -818,9 +723,11 @@ p  2  HR*
 p  2  language:IN
 p  2  language:other
 p  2  português
+p  20  contrib
 p  20  status:nah
 p  200  language:RU
 p  215  course
+p  22  curation
 p  223  status:nahReference
 p  248  language:FR
 p  270  course/tutorial
@@ -885,11 +792,13 @@ r  1  wm
 r  10  big
 r  108  alignment
 r  11  shortCourse
+r  12  collection
 r  12  docker/k8s
 r  121  color
 r  13  F.C
 r  13  analysi
 r  135  colors
+r  14  appToRice
 r  14  myProjects
 r  144  phonetics
 r  15  projectConfig
@@ -899,11 +808,14 @@ r  15  typescript
 r  156  q&a
 r  16  deep
 r  16  internet
+r  16  sound
 r  17  nixos
 r  17  scripts
 r  17  wine
+r  19  mining
 r  2  animation
 r  2  anthro-logy
+r  2  gitui
 r  2  micro/embedded
 r  2  pde
 r  2  quit
@@ -912,7 +824,9 @@ r  2  rebase
 r  2  rlgame
 r  2  sorter
 r  20  js
+r  21  constraint
 r  21  datascience
+r  21  institution
 r  21  siteToRice
 r  22  education
 r  23  ideas
@@ -923,6 +837,7 @@ r  27  site
 r  28  birds
 r  28  siteTheming
 r  3  intelligenz
+r  3  linuxkernel
 r  31  comments
 r  31  javaScript/typeScript
 r  31  neural
@@ -944,7 +859,9 @@ r  4  academic
 r  4  cli
 r  4  dioxu
 r  4  dioxuslab
+r  4  exam
 r  4  gh
+r  4  htmlcheatsheet
 r  4  probabilistic
 r  4  social
 r  4  table/list
@@ -957,10 +874,12 @@ r  43  psychologist
 r  46  music.classical
 r  47  beautifulAlgorithms
 r  47  rpi
+r  5  active
 r  5  cheat
 r  5  cloud/server
 r  5  flashcards
 r  5  llama
+r  5  monitor
 r  5  paste
 r  5  pca
 r  5  referenceProjects
@@ -1018,7 +937,11 @@ r 9  electronic
 r 9  skin
 r 9  sort
 rs  1  explorer
+rs  12  creation
+rs  13  colorscheme
+rs  2  parenthetical
 rs  30  auto
+rs  5  lint
 rs  5  training
 rs 1  health
 rs 1  profiler
@@ -1039,12 +962,17 @@ s  1  submodule
 s  1  sudo
 s  1  time
 s  1  tips
+s  10  gallery
+s  10  graphing
 s  10  textobject
+s  10  trimming
 s  10  whitespace
 s  101  asr
 s  104  line
 s  107  buffer
+s  11  command
 s  11  neotestAdapter
+s  11  remote
 s  11  specificTopics
 s  11  tailwind
 s  119  meta
@@ -1052,8 +980,11 @@ s  12  export
 s  12  welsh
 s  122  theory
 s  13  cookbook
+s  13  coverage
 s  13  rtp
+s  13  saving
 s  13  xmonad
+s  14  errorClustering
 s  14  fromPicture
 s  14  full
 s  14  fundamental
@@ -1063,27 +994,64 @@ s  16  casing
 s  16  foilArmsAndHog
 s  16  react
 s  17  behavioral
+s  17  django
+s  17  easymotion
+s  17  folding
 s  18  dapExtension
+s  18  outline
 s  18  pair
 s  18  scotland
 s  19  framework
+s  19  menu
+s  19  prompt
 s  2  accessControl
 s  2  autocommand
+s  2  backup
+s  2  bootArguments
+s  2  callHierarchy
+s  2  ci
 s  2  codeLens
+s  2  collaboration
+s  2  conceal
+s  2  contextHeader
+s  2  dockerCompose
 s  2  dwl
+s  2  editHistory
+s  2  editing
+s  2  endwise
+s  2  filetype
+s  2  fontSize
+s  2  gitignore
+s  2  handler
 s  2  interpretable
+s  2  jain
 s  2  joshJohnson
 s  2  knn
 s  2  lazygit
 s  2  nnn
+s  2  pet
+s  2  reloading
+s  2  semicolon
+s  2  sign
 s  2  svd
+s  2  tags
+s  20  gnostic
+s  20  insertion
+s  20  installation
+s  20  internals
+s  20  linting
 s  20  mitchellAndWebb
+s  20  scrolling
+s  21  commandStyle
 s  21  hint
+s  21  operator
 s  21  pluginDevelopment
 s  21  purple
 s  23  micro
 s  24  highlighting
+s  25  column
 s  26  replace
+s  27  mode
 s  27  popup
 s  28  advanced
 s  28  layout
@@ -1092,9 +1060,21 @@ s  29  open
 s  3  abbreviation
 s  3  asciidoc
 s  3  boilerplate
+s  3  colorizer
+s  3  ctags
 s  3  dotProduct
 s  3  emacsStyle
+s  3  error
+s  3  header
+s  3  inline
+s  3  macros
+s  3  manx
+s  3  motion
 s  3  probitLogitTobit
+s  3  screencasting
+s  3  screensaver
+s  3  selfReferential
+s  3  spelling
 s  3  submode
 s  32  diagnostics
 s  32  recent
@@ -1133,7 +1113,14 @@ s  47  blue
 s  47  bluish
 s  49  specificTool
 s  5  autoDetect
+s  5  babylonian
+s  5  classification
+s  5  commandPalette
+s  5  comparison
 s  5  delete
+s  5  disentanglement
+s  5  fullstack
+s  5  heterodox
 s  5  instrumentalVariables
 s  5  multicursor
 s  5  progress
@@ -1208,7 +1195,9 @@ s 7  swap
 s 8  rachelParris
 s 9  fixedEffects
 s 9  scalp
+sx  19  interactive
 t  15  lectureNotes
+t  19  blogPost
 t  258  article
 x  1  assertion
 x  1  backwards
@@ -1225,7 +1214,9 @@ x  16  head
 x  17  artificial
 x  17  def
 x  17  knowledge
+x  17  phrase
 x  17  req
+x  18  discovery
 x  18  simple
 x  18  watch
 x  19  berlin
@@ -1234,11 +1225,14 @@ x  19  components
 x  2  mit
 x  23  create
 x  23  hash
+x  27  beginner
 x  3  bd
+x  3  künstliche
 x  31  free
 x  36  springer
 x  4  dummie
 x  4  dzone
+x  4  funciona
 x  4  get
 x  4  master
 x  4  mozilla
@@ -1246,6 +1240,7 @@ x  4  over
 x  4  pas
 x  4  universal
 x  47  ed
+x  5  essential
 x  5  intelligent
 x  5  world
 x  6  abs
