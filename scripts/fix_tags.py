@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+import json
+
 
 import json
 import re
@@ -66,11 +67,11 @@ TAGS = set([
     "agriculture",
     "annotation",
     "ansiColor",
+    "cli",
     "benchmarking",
     "bibliography",
     "clock",
     "clojure",
-    "cli",
     "typescript",
     "system",
     "pde",
@@ -591,39 +592,225 @@ TAGS = set([
     "ui",
 ])
 
-def remove_duplicates_keep_order(tags: list[str]) -> list[str]:
-    already = set()
-    cleaned = []
-    for tag in tags:
-        if not tag in already:
-            already.add(tag)
-            cleaned.append(tag)
-    return cleaned
+TOFIX = set([
+        "filetype:PDF",
+        "language:AR-LV",
+        "language:AR",
+        "language:AS",
+        "language:CZ",
+        "language:DA",
+        "language:DE",
+        "language:EL",
+        "language:EN",
+        "language:EO",
+        "language:ES",
+        "language:FA",
+        "language:FI",
+        "language:FR",
+        "subtag:dataMining",
+        "language:GRC",
+        "language:HE",
+        "language:HR",
+        "language:IN",
+        "language:IT",
+        "language:JA",
+        "language:KO",
+        "language:LA",
+        "language:LA/GRC",
+        "language:MULTI",
+        "language:NL",
+        "language:NO",
+        "language:OTHER",
+        "language:PL",
+        "language:PT",
+        "language:QU",
+        "language:RU",
+        "language:SA",
+        "language:SV",
+        "language:SW",
+        "language:UK",
+        "language:ZH",
+        "logit/softmax",
+        "rating:highPriority"
+        "rating:excellent",
+        "rating:exemplary",
+        "rating:phenomenal",
+        "status:current",
+        "status:later",
+        "status:maybeLater",
+        "status:nah",
+        "status:nahReference",
+        "status:rejected",
+        "subtag:2sls",
+        "subtag:advanced",
+        "subtag:awesomewm",
+        "subtag:babylonian",
+        "subtag:base",
+        "subtag:behavioral",
+        "subtag:bellman",
+        "subtag:blue",
+        "subtag:bluish",
+        "subtag:boilerplate",
+        "subtag:bspwm",
+        "subtag:cityBuildingSimulation",
+        "subtag:classical",
+        "subtag:comparison",
+        "subtag:confucian",
+        "subtag:cornwall",
+        "subtag:criticism",
+        "subtag:deepRl",
+        "subtag:disentanglement",
+        "subtag:django",
+        "subtag:dotProduct",
+        "subtag:dwl",
+        "subtag:dwm",
+        "subtag:errorClustering",
+        "subtag:example",
+        "subtag:fixedEffects",
+        "subtag:foilArmsAndHog",
+        "subtag:fontSize",
+        "subtag:framework",
+        "subtag:fromPicture",
+        "subtag:fullstack",
+        "subtag:fundamental",
+        "subtag:gnostic",
+        "subtag:graphing",
+        "subtag:harmonizing",
+        "subtag:heterodox",
+        "subtag:inference",
+        "subtag:installation",
+        "subtag:instrumentalVariables",
+        "subtag:internals",
+        "subtag:interpretable",
+        "subtag:introduction",
+        "subtag:ip",
+        "subtag:jain",
+        "subtag:jekyll",
+        "subtag:jimmyCarr",
+        "subtag:joshJohnson",
+        "subtag:kivy",
+        "subtag:knn",
+        "subtag:large",
+        "subtag:light",
+        "subtag:macos",
+        "subtag:macro",
+        "subtag:manx",
+        "subtag:meta",
+        "subtag:micro",
+        "subtag:mitchellAndWebb",
+        "subtag:mysql",
+        "subtag:nextSteps",
+        "subtag:other",
+        "subtag:otherWm",
+        "subtag:personal",
+        "subtag:plotting",
+        "subtag:probitLogitTobit",
+        "subtag:prolog",
+        "subtag:purple",
+        "subtag:qtile",
+        "subtag:rachelParris",
+        "subtag:rain",
+        "subtag:rasa",
+        "subtag:react",
+        "subtag:readingRoadmap",
+        "subtag:recent",
+        "subtag:ricingTool",
+        "subtag:river",
+        "subtag:scalp",
+        "subtag:reference",
+        "subtag:nextStep",
+        "subtag:scotland",
+        "subtag:atom",
+        "subtag:screencasting",
+        "subtag:celtic"
+        "subtag:semisupervised",
+        "subtag:pgm",
+        "subtag:customLinuxKernel",
+        "subtag:dataMining",
+        "type:media",
+        "subtype:newsletter",
+        "subtag:sigmaOs",
+        "subtag:singleApp",
+        "subtag:snl",
+        "subtype:toContributeTo",
+        "subtag:specificApps",
+        "subtag:specificTopics",
+        "subtag:starter",
+        "subtag:studioC",
+        "subtag:knowledgeDiscovery",
+        "subtag:sublimeText",
+        "subtag:summary",
+        "subtag:svd",
+        "subtag:sway",
+        "subtag:tda",
+        "subtag:tensor",
+        "subtag:tensorNetwork",
+        "subtag:bioinformatics",
+        "subtag:theory",
+        "subtag:treatmentEffects",
+        "subtag:trick",
+        "subtag:wayfire",
+        "subtag:welsh",
+        "subtag:x86",
+        "subtag:xmonad",
+        "subtag:zoology",
+        "subtype:article",
+        "subtype:blog",
+        "subtype:blogPost",
+        "subtype:cookbook",
+        "subtype:dictionary",
+        "subtype:educational",
+        "subtype:handbook",
+        "subtype:longCourse",
+        "subtype:educational",
+        "subtype:short",
+        "subtype:ytchannel",
+        "type:course",
+        "type:course",
+        "type:course", 
+        "type:course/tutorial",
+        "type:curation",
+        "type:foodItem",
+        "type:guide",
+        "type:idea",
+        "type:book",
+        "subtags:engine",
+        "type:instruction",
+        "type:lectureNotes",
+        "type:listeningAtom",
+        "type:paper",
+        "type:periodical",
+        "type:readingAtom",
+        "type:reference",
+        "type:resource",
+        "type:resourceList",
+        "type:route",
+        "type:talk",
+        "type:tutorial",
+        "type:videoAtom",
+        "type:vocabword",
+        "subtag:engine",
+        "type:cheatSheet",
+        "rating:highPriority",
+        "subtype:theme",
+        "subtag:semisupervised",
+        "rating:excellent",
+        "subtag:miscellaneous",
+        "type:tool",
+        "subtag:dataMining",
+        "subtag:nextStep"
+        
+    ])
 
-
-def lint_tags(tags: list[str]) -> list[str]:
-    tags = list(filter(bool, tags))
-    if len(tags) != len(set(tags)):
-        # print("DUPLICATE TAGS:", tags)
-        tags = remove_duplicates_keep_order(tags)
-    
-    return tags
-    
-def make_id() -> str:
-    random16 = "".join(random.choices(string.ascii_uppercase + string.digits, k=16))
-    return f"AUTO:{random16}"
-
+ALLOWED = TAGS | TOFIX
+FORBIDDEN = set([])
 
 def lint_note(note: dict) -> dict:
     note = DEFAULT | note
-    
-
-    note["tags"] = lint_tags(note["tags"])
-    note["subtags"] = lint_tags(note["subtags"])
-    extra = {k: v for k, v in note.items() if k not in KEYS}
-    note = {k: v for k, v in note.items() if k in KEYS}
-    # print(note)
-    note["extra"].update(extra)
+    tags = [t for t in note["tags"]]
+    for t in tags:
+        if not t in ALLOWED:
+            FORBIDDEN.add(t)
 
     return note
 
@@ -641,10 +828,12 @@ for p in files:
         notes = json.load(f)
 
     notes = list(map(lint_note, notes))
-    note_string = format_notes(notes)
+print(FORBIDDEN)
+    
+    # note_string = format_notes(notes)
 
-    with open(p, "w") as f:
-        f.write(note_string)
+    # with open(p, "w") as f:
+    #     f.write(note_string)
 
 
 
