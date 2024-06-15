@@ -12,10 +12,11 @@ import os
 directory = Path("json-notes")
 files = [sys.argv[1]] if sys.argv[1:] else [directory / f for f in os.listdir(directory)]
 
-KEYS = ["note", "id", "type", "subtype", "tags", "subtags", "status", "dateCreated", "dateModified", "extra", "sorter"]
+KEYS = ["id", "text", "link", "type", "subtype", "tags", "subtags", "status", "dateCreated", "dateModified", "extra", "sorter"]
 DEFAULT = {
-    "note": "",
     "id": None,
+    "text": "",
+    "link": "",
     "type": "UNSPECIFIED",
     "subtype": "UNSPECIFIED",
     "tags": ["SORT"],
