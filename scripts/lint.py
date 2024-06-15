@@ -12,7 +12,7 @@ import os
 directory = Path("json-notes")
 files = [sys.argv[1]] if sys.argv[1:] else [directory / f for f in os.listdir(directory)]
 
-KEYS = ["id", "text", "link", "type", "subtype", "tags", "subtags", "status", "dateCreated", "dateModified", "extra", "sorter"]
+KEYS = ["text", "link", "type", "subtype", "tags", "subtags", "status", "dateCreated", "dateModified", "extra", "sorter"]
 DEFAULT = {
     "id": None,
     "text": "",
@@ -625,7 +625,8 @@ def lint_note(note: dict) -> dict:
 
 
 def format_notes(notes: list[dict]) -> str:
-    s = json.dumps(notes, ensure_ascii=False).replace("}, {", "},\n{")
+    s = json.dumps(notes, ensure_ascii=False)
+    s = re.sub("(\"[^\"]+\": \{\"text\")", r"\n\1", s)
     return s
     
 
@@ -636,8 +637,9 @@ for p in files:
     with open(p) as f:
         notes = json.load(f)
 
-    notes = list(map(lint_note, notes))
+    notes = {k: lint_note(v) for k, v in notes.items()}
     note_string = format_notes(notes)
+    # print(note_string[:1000])
 
     with open(p, "w") as f:
         f.write(note_string)
