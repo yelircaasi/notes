@@ -26,9 +26,9 @@ KEYS = [
     "dateModified",
     "extra",
     "sorter",
+    "id",
 ]
 EXTRA_KEYS = [
-    "id",
     "language",
     "rating",
     "extraTags",
@@ -41,11 +41,10 @@ EXTRA_KEYS = [
     "features",
     "commits",
     "class",
-    "nix_name",
+    "nixName",
     "filetype",
 ]
 DEFAULT = {
-    "id": None,
     "text": "",
     "link": "",
     "type": "UNSPECIFIED",
@@ -57,6 +56,7 @@ DEFAULT = {
     "dateModified": "1970-01-01",
     "extra": {},
     "sorter": "UNSPECIFIED",
+    "id": None,
 }
 TYPES = [
     "",

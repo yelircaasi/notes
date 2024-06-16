@@ -24,8 +24,7 @@
   1103 features
   1103 commits
   1103 class
-  1072 id
-   471 nix_name
+   471 nixName
    178 filetype
 ======== TYPES =========
  53368 
