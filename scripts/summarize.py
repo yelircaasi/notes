@@ -23,7 +23,7 @@ def collect(file_list: list):
 
     for file in file_list:
         with open(file) as f:
-            notes = json.load(f)
+            notes = list(json.load(f).values())
         
         for note in notes:
             attrs.extend(note.keys())

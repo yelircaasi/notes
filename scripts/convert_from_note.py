@@ -16,7 +16,7 @@ class Colorizer:
         self.CYAN = "\u001b[36m"
         self.WHITE = "\u001b[37m"
         self.RESET = "\u001b[0m"
-
+        
 
     def _format(self, text: str, color_code: str) -> str:
         return f"{color_code}{text}{self.RESET}"
@@ -109,7 +109,7 @@ def convert(note: dict) -> str:
         link_text,
         single_bar,
         extra,
-        single_bar,
+        single_bar
 
     ])
 
