@@ -638,6 +638,7 @@ for p in files:
         notes = json.load(f)
 
     notes = {k: lint_note(v) for k, v in notes.items()}
+    # notes = {k: v | {"id": k} for k, v in notes.items()}
     note_string = format_notes(notes)
     # print(note_string[:1000])
 
