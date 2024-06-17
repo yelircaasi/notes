@@ -81,6 +81,36 @@ TYPES = {
     "vocabWord",
     "instruction",
 }
+SUBTYPES = {
+    "",
+    "blog",
+    "resource",
+    "toContributeTo",
+    "periodical",
+    "ytchannel",
+    "book",
+    "dictionary",
+    "media",
+    "paper",
+    "article",
+    "tutorial",
+    "lectureNotes",
+    "theme",
+    "guide",
+    "cheatSheet",
+    "singleApp",
+    "fullConfig",
+    "site",
+    "newsletter",
+    "talk",
+    "scriptCollection",
+    "short",
+    "longCourse",
+    "blogPost",
+    "tutorial",
+
+
+}
 STATI = {
     "",
     "toRead",
@@ -663,6 +693,8 @@ def lint_note(note: dict) -> dict:
             print(f"Bad tag in {note['id']}: {k}")
     if note["type"] not in TYPES:
         print(f"Bad type in {note['id']}: {note['type']}")
+    if note["subtype"] not in SUBTYPES:
+        print(f"Bad subtype in {note['id']}: {note['subtype']}")
     if note["status"] not in STATI:
         print(f"Bad status in {note['id']}: {note['status']}")
 
@@ -680,8 +712,8 @@ for p in files:
     with open(p) as f:
         notes = json.load(f)
 
-    # notes = {k: lint_note(v) for k, v in notes.items()}
-    notes = {k: v | {"id": k} for k, v in notes.items()}
+    notes = {k: lint_note(v) for k, v in notes.items()}
+    # notes = {k: v | {"id": k} for k, v in notes.items()}
     note_string = format_notes(notes)
     # print(note_string[:1000])
 

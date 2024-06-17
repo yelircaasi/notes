@@ -59,6 +59,26 @@ print(c.white("white"))
 
 type_icons = {
     "": "",
+    "listeningAtom": "",
+    "readingAtom": "",
+    "viewingAtom": "",
+    "listeningSet": "",
+    "readingSet": "",
+    "viewingSet": "",
+    "dots": "",
+    "resourceList": "",
+    "course": "",
+    "software": "",
+    "idea": "",
+    "person": "",
+    "tool": "",
+    "reference": "",
+    "foodItem": "",
+    "route": "",
+    "ankiSet": "",
+    "discussion": "",
+    "vocabWord": "",
+    "instruction": "",
     "unsupported": ""
 }
 status_icons = {
@@ -92,9 +112,11 @@ def convert(note: dict) -> str:
     tags_and_subtags = preprocess_tags(note['tags'], note['subtags'])
     id_ = c.blue(note['id'][:21])
     note_text = f"\n{c.magenta(note['text'])}\n"
-    type_ = type_icons.get(note.get("type", "unsupported"), "?")
+    # type_text = type_icons.get(note.get("type", "unsupported"), "?")
+    type_text = c.red(f"{note['type']}::{note['subtype']}")
     status = status_icons.get(note.get("status", "unsupported"), "?")
     link_text = c.red(note["link"])
+    # extra = c.black(json.dumps(note["extra"], indent=2, ensure_ascii=False) or "")
     extra = c.black(json.dumps(note["extra"], indent=2, ensure_ascii=False) or "")
 
     
