@@ -52,7 +52,7 @@
     19 person
     17 scriptCollection
     15 lectureNotes
-    11 vocabword
+    11 vocabWord
      9 talk
      9 route
      8 reference

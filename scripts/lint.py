@@ -14,7 +14,7 @@ files = (
     [sys.argv[1]] if sys.argv[1:] else [directory / f for f in os.listdir(directory)]
 )
 
-KEYS = [
+KEYS = {
     "text",
     "link",
     "type",
@@ -27,8 +27,8 @@ KEYS = [
     "extra",
     "sorter",
     "id",
-]
-EXTRA_KEYS = [
+}
+EXTRA_KEYS = {
     "language",
     "rating",
     "extraTags",
@@ -43,7 +43,7 @@ EXTRA_KEYS = [
     "class",
     "nixName",
     "filetype",
-]
+}
 DEFAULT = {
     "text": "",
     "link": "",
@@ -58,7 +58,7 @@ DEFAULT = {
     "sorter": "UNSPECIFIED",
     "id": None,
 }
-TYPES = [
+TYPES = {
     "",
     "ankiSet",
     "book",
@@ -71,6 +71,7 @@ TYPES = [
     "foodItem",
     "guide",
     "idea",
+    "site",
     "instruction",
     "lectureNotes",
     "listeningAtom",
@@ -96,11 +97,10 @@ TYPES = [
     "UNSPECIFIED",
     "videoAtom",
     "videoSet",
-    "videoSet",
     "viewingAtom",
-    "vocabword",
-]
-STATI = [
+    "vocabWord",
+}
+STATI = {
     "toRead",
     "selected",
     "",
@@ -116,7 +116,9 @@ STATI = [
     "current",
     "rejected",
     "later",
-]
+    "needsWork",
+    "maybeLater",
+}
 TAGS = set(
     [
         "accent",
@@ -176,7 +178,7 @@ TAGS = set(
         "cheatsheet",
         "chemistry",
         "cinema",
-        "cli" "cli",
+        "cli",
         "clock",
         "clojure",
         "cloud",
@@ -261,7 +263,7 @@ TAGS = set(
         "electronics",
         "emacs",
         "email",
-        "embedded" "embedded",
+        "embedded",
         "emoji",
         "emulation",
         "emulator",
@@ -673,6 +675,16 @@ def lint_note(note: dict) -> dict:
     note = {k: v for k, v in note.items() if k in KEYS}
     # print(note)
     note["extra"].update(extra)
+    if diff := (set(note["extra"]) - EXTRA_KEYS):
+        for k in diff:
+            print(f"Bad extra key in {note['id']}: {k}")
+    if diff := (set(note["tags"]) - TAGS):
+        for k in diff:
+            print(f"Bad tag in {note['id']}: {k}")
+    if note["type"] not in TYPES:
+        print(f"Bad type in {note['id']}: {note['type']}")
+    if note["status"] not in STATI:
+        print(f"Bad status in {note['id']}: {note['status']}")
 
     return note
 
@@ -695,3 +707,6 @@ for p in files:
 
     with open(p, "w") as f:
         f.write(note_string)
+
+# "text": "([^\]]+)\[([^\(]+)\]\((http[^\)]+)\)([^"]*)", "link": ""
+# "text": "[$1]  $2  $4", "link": "$3"
