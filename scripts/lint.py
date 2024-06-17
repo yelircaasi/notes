@@ -113,6 +113,8 @@ SUBTYPES = {
 }
 STATI = {
     "",
+    "done",
+    "toReread",
     "toRead",
     "currentReading",
     "alreadyRead",

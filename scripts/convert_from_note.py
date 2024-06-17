@@ -1,120 +1,121 @@
 #!/usr/bin/env python
 
 import sys
+import re
 import json
 from typing import Callable
 
-
-class Colorizer:
-    def __init__(self) -> None:
-        self.BLACK = "\u001b[30m"
-        self.RED = "\u001b[31m"
-        self.GREEN = "\u001b[32m"
-        self.YELLOW = "\u001b[33m"
-        self.BLUE = "\u001b[34m"
-        self.MAGENTA = "\u001b[35m"
-        self.CYAN = "\u001b[36m"
-        self.WHITE = "\u001b[37m"
-        self.RESET = "\u001b[0m"
-        
-
-    def _format(self, text: str, color_code: str) -> str:
-        return f"{color_code}{text}{self.RESET}"
-
-    def black(self, text: str) -> str:
-        return self._format(text, self.BLACK)
-
-    def red(self, text: str) -> str:
-        return self._format(text, self.RED)
-
-    def green(self, text: str) -> str:
-        return self._format(text, self.GREEN)
-
-    def yellow(self, text: str) -> str:
-        return self._format(text, self.YELLOW)
-
-    def blue(self, text: str) -> str:
-        return self._format(text, self.BLUE)
-
-    def magenta(self, text: str) -> str:
-        return self._format(text, self.MAGENTA)
-
-    def cyan(self, text: str) -> str:
-        return self._format(text, self.CYAN)
-
-    def white(self, text: str) -> str:
-        return self._format(text, self.WHITE)
+width = 100
+double_bar = width * "═"
+single_bar = width * "─"
 
 
-c = Colorizer()
-print(c.black("black"))
-print(c.red("red"))
-print(c.green("green"))
-print(c.blue("blue"))
-print(c.yellow("yellow"))
-print(c.cyan("cyan"))
-print(c.magenta("magenta"))
-print(c.white("white"))
+def split_notes(s: str) -> list[str]:
+    return tuple(map(str.strip("\n "), s.split(double_bar)[1:]))
 
 
-type_icons = {
-    "": "",
-    "unsupported": ""
-}
-status_icons = {
-    "toRead": "󰄱",
-    "done": "󰄲",
-    "unsupported": ""
-}
-tag_icons = {
-    "biology": "󰻖",
-    "unsupported": "X"
-}
-
-
-def preprocess_tags(tags: list[str], subtags: list[str]) -> str:
-    return "".join((
-        '-'.join(map(c.cyan, tags)),
-        "~~",
-        '-'.join(map(c.yellow, subtags))
-    ))
-
-
-def wrap_line(line: str, length: int, formatter: Callable) -> str:
-    ...
-
-
-def convert(note: dict) -> str:
-    width = 100
-    double_bar = c.magenta(width * "═")
-    single_bar = c.black(width * "─")
-
-    tags_and_subtags = preprocess_tags(note['tags'], note['subtags'])
-    id_ = c.blue(note['id'][:21])
-    note_text = f"\n{c.magenta(note['text'])}\n"
-    type_ = type_icons.get(note.get("type", "unsupported"), "?")
-    status = status_icons.get(note.get("status", "unsupported"), "?")
-    link_text = c.red(note["link"])
-    extra = c.black(json.dumps(note["extra"], indent=2, ensure_ascii=False) or "")
-
+def split_lines(s: str) -> tuple[str]:
+    print(s)
+    lines = tuple(s.strip("═").split(single_bar)[:-1])
+    return lines
     
 
-    return "\n".join([
-        double_bar,
-        f"{id_:<30}  {type_}  {status}  {tags_and_subtags}",
-        # f"{id_:<35} {type_:>8} {status:>8} {tags_and_subtags:>50}",
-        single_bar,
-        note_text,
-        single_bar,
-        link_text,
-        single_bar,
-        extra,
-        single_bar
+def parse_dense_line(s: str) -> tuple[str]:
+    id_, type_pair, status, all_tags = re.split(" +", s)[:4]
+    print(id_, type_pair, status, all_tags)
+    type_, subtype = type_pair.split("::")[:2]
+    tags, subtags = map(lambda x: x.split("-"), all_tags.strip().split("::")[:2])
 
-    ])
+    return (id_, type_, subtype, status, tags, subtags)
 
 
-with open(sys.argv[1]) as f:
-    notes = list(json.load(f).values())[:10]
+def parse_extra(s: str) -> tuple[str]:
+    s = s.strip()
+    if not s:
+        return {}
+    print(list(map(lambda x: re.split(": *", x, 1), s.strip().split("\n"))))
+    return dict(list(map(lambda x: re.split(": *", x, 1), s.split("\n"))))
 
-print("\n".join(map(convert, notes)))
+
+def parse_date_line(s: str) -> tuple[str]:
+    return re.split(" +", s)[:3]
+
+def parse_note(s: str) -> dict:
+    print(s)
+    print(split_lines(s))
+    dense_line, text, link, extra_string, date_line = split_lines(s)
+    id_, type_, subtype, status, tags, subtags = parse_dense_line(dense_line)
+    text = text
+    extra = parse_extra(extra_string)
+    date_created, date_modified, sorter = parse_date_line(date_line)
+
+    return {
+        "text": text.strip(),
+        "link": link.strip(),
+        "type": type_.strip(),
+        "subtype": subtype.strip(),
+        "tags": tags,
+        "subtags": subtags,
+        "status": status.strip(),
+        "dateCreated": date_created.strip(),
+        "dateModified": date_modified.strip(),
+        "extra": extra,
+        "sorter": sorter.strip(),
+        "id": id_.strip(),
+    }
+
+
+def parse_notes(s: str) -> dict[str, dict]:
+    return {note["id"]: note for note in map(parse_note, s.split(double_bar)[1:])}
+
+
+test_str = '''
+════════════════════════════════════════════════════════════════════════════════════════════════════
+AUTO:Z1NUUY5S17E1J9T6  ::  toRead  humanities-SORT::
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Cosa vedere a Torino
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+https://www.youtube.com/watch?v=fngBTrfW5_g
+────────────────────────────────────────────────────────────────────────────────────────────────────
+language: 
+────────────────────────────────────────────────────────────────────────────────────────────────────
+1970-01-01                      1970-01-01                              humanities7
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+════════════════════════════════════════════════════════════════════════════════════════════════════
+AUTO:F8DI6CB1S5GI1BE1  ::  toRead  humanities-SORT::
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Torino Città meravigiosa
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+https://www.youtube.com/watch?v=tNPNo-GZKFs
+────────────────────────────────────────────────────────────────────────────────────────────────────
+language: 
+────────────────────────────────────────────────────────────────────────────────────────────────────
+1970-01-01                      1970-01-01                              humanities8
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+════════════════════════════════════════════════════════════════════════════════════════════════════
+AUTO:19DFU1G4YLI3G3AJ  ::  toRead  humanities-SORT::
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+tribina.hr
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+https://www.tribina.hr/
+────────────────────────────────────────────────────────────────────────────────────────────────────
+language: 
+────────────────────────────────────────────────────────────────────────────────────────────────────
+1970-01-01                      1970-01-01                              humanities9
+────────────────────────────────────────────────────────────────────────────────────────────────────
+'''
+
+print(test_str)
+print(single_bar)
+print(double_bar)
+print(test_str.split(single_bar))
+print(test_str.split(double_bar))
+print(json.dumps(parse_notes(test_str), indent=2, ensure_ascii=False))
