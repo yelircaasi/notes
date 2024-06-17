@@ -1,0 +1,29 @@
+[
+    {
+        "id": 0,
+        "note": [
+            "just a sample"
+        ],
+        "status": "todo",
+        "rating": null,
+        "tags": [
+            "placeholder",
+            "fluff",
+            "test"
+        ],
+        "priority": null
+    },
+    {
+        "id": 1,
+        "note": [
+            "just another sample"
+        ],
+        "status": "todo",
+        "rating": null,
+        "tags": [
+            "placeholder",
+            "fluff"
+        ],
+        "priority": null
+    }
+]

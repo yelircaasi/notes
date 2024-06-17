@@ -1,3 +1,4 @@
 store/
 .vscode/
 json-notes-backup/
+__pycache__/

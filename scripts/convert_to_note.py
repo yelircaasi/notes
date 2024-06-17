@@ -167,7 +167,9 @@ def convert(note: dict) -> str:
     ])
 
 
-with open(sys.argv[1]) as f:
-    notes = list(json.load(f).values())[:10]
+if __name__ == "__main__":
 
-print("\n".join(map(convert, notes)))
+    with open(sys.argv[1]) as f:
+        notes = list(json.load(f).values())[:10]
+
+    print("\n".join(map(convert, notes)))
