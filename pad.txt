@@ -33,3 +33,9 @@ https://github.com/Dartypier/image-editor
 -> https://www.tecmint.com/best-image-photo-editors-for-linux/
 https://github.com/dair-ai/Prompt-Engineering-Guide https://www.promptingguide.ai/
 
+http://elvissaravia.com/
+
+
+consilium subcommand groups: declare, derive, journal, note, maintain (with aliases {} ++ [] :: ~~)
+
+algorithmic consideration for scheduling: I should first compute a feasible schedule based on easy constraints, then follow a series of optimizations to move tasks according to score -> incremental approach is computationally faster and a brute-force search of the schedule space, and is still likely to yield very good results. Basic idea: make change if one score/metric can be improved without hurting others (or without decreasing some weighted global score), perhaps to find a pareto optimal schedule -> requires a number of metrics, i.e. score functions, which may be arbitrarily complex, but should ideally be reasonably fast to compute

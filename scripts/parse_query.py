@@ -2,6 +2,9 @@
 Characters not treated as special characters by Bash:
 A-Za-z % - _ ~ ^ @ [ ] { } : , . / ? +
 
+(rejected: --additional_argument bound to value with non non-space non-alphanumeric character)
+-> instead: use environment variables, all of which are optional
+
 @[...] to refer to the contents of a path
 ~ negation
 [...] - regex search within string: ?tag[regex],tag2[regex2]
