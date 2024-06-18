@@ -27,7 +27,9 @@ A-Za-z % - _ ~ ^ @ [ ] { } : , . / ? +
 
 
 [substring/regex in text]
+[substring/regex in text, case insensitive]i
 {substring/regex in link}
+{substring/regex in link, case insensitive}i
 
 ^DDDD-DD-DD - oldest date modified
 ^^DDDD-DD-DD - oldest date created

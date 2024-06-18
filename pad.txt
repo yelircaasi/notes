@@ -27,3 +27,5 @@ https://github.com/yutkat/my-neovim-pluginlist <- get recent changes
 https://github.com/folke/paint.nvim for note highlighting
 https://github.com/nvim-treesitter/nvim-treesitter#adding-parsers alternative for note highlighting
 
+https://thenextweb.com/news/everything-you-need-to-know-about-finch-the-latest-programming-language-developed-by-mit
+
