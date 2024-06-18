@@ -18,7 +18,7 @@ DEFAULT = {
     "note": "",
     "id": None,
     "type": "UNSPECIFIED",
-    "subtype": "UNSPECIFIED",
+    "subtype": "",
     "tags": ["SORT"],
     "subtags": [],
     "status": "toRead",
