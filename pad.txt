@@ -29,3 +29,5 @@ https://github.com/nvim-treesitter/nvim-treesitter#adding-parsers alternative fo
 
 https://thenextweb.com/news/everything-you-need-to-know-about-finch-the-latest-programming-language-developed-by-mit
 
+https://github.com/Dartypier/image-editor
+-> https://www.tecmint.com/best-image-photo-editors-for-linux/
