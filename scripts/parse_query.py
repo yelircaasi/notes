@@ -2,6 +2,7 @@
 Characters not treated as special characters by Bash:
 A-Za-z % - _ ~ ^ # @ [ ] { } : , . / ? +
 
+@[...] to refer to the contents of a path
 =id1,id2,id3
 =[regex for id]
 ~ negation
