@@ -167,7 +167,7 @@ This implementation will take your custom DSL and produce the corresponding Pyth
     ...
 
 def parse_tags(subquery: str) -> Callable[[dict[str, Any]], bool]:
-    assert re.match("^@[A-Za-z\[\]\.,]", subquery)
+    assert re.match("^\?[A-Za-z\[\]\.,]", subquery)
     subquery += ":"
     tag_query, subtag_query = re.split(":+", subquery)[1:3]
     tag_match_empty = bool(re.match("^::", subquery))
@@ -261,7 +261,7 @@ def parse_language(subquery: str) -> Callable[[dict[str, Any]], bool]:
 
 dispatcher = {
     "=": parse_id,
-    "@": parse_tags,
+    "?": parse_tags,
     ":": parse_type,
     "~": parse_status,
     "%": parse_date,
@@ -273,7 +273,7 @@ dispatcher = {
 
 order = {
     "=": 0,
-    "@": 1,
+    "?": 1,
     ":": 2,
     "~": 3,
     "%": 4,
