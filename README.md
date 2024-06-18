@@ -1,6 +1,13 @@
 # Notes
 
-Note to self - add "subtags" attribute to distinguish universally meaningful tags from contextually meaningful tags. Or maybe `globalTags` and `localTags`.
+Cool aliases for `consilium`:
+
+* `::`
+* `*`
+* `c`
+* `cm`
+* `cons`
+* `csm`
 
 Note format: special value-dependent colors for type and status; fixed colors for ID, tags, and subtags. The most format
 should be on the note itself, with everything else dimmed slightly.
@@ -21,7 +28,7 @@ TYPE                   2024-04-30 (last edited)                        STATUS
 
 ## Roadmap
 
-- [ ] .
+- [x] add "subtags" attribute to distinguish universally meaningful tags from contextually meaningful tags. Or maybe `globalTags` and `localTags`.
 - [ ] .
 - [ ] .
 - [ ] .
