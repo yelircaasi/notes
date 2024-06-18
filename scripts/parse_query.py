@@ -2,8 +2,8 @@
 Characters not treated as special characters by Bash:
 A-Za-z % - _ ~ ^ # @ [ ] { } : , . / ? +
 
-@id1,id2,id3
-@[regex for id]
+=id1,id2,id3
+=[regex for id]
 ~ negation
 :type
 :type:subtype
@@ -29,12 +29,12 @@ A-Za-z % - _ ~ ^ # @ [ ] { } : , . / ? +
 ^^~DDDD-DD-DD - newest date created
 +extraTag:value
 ++extraTag:value or empty
-#tag-tag-tag/subtag-subtag-subtag
+@tag-tag-tag/subtag-subtag-subtag
   . OR operator for tags
   , OR operator for tags
   {...} for tag grouping
   ~ for tag negation
-  example: #{tag1.tag2},{tag3.tag4}
+  example: @{tag1.tag2},{tag3.tag4}
 
 _language
 __language or empty value for language
@@ -44,12 +44,12 @@ import re
 
 
 def parse_id(subquery: str) -> Callable[[dict[str, Any]], bool]:
-    assert re.match("@[A-Za-z,]+|@\[[A-Za-z]\]+", subquery)
+    assert re.match("=[A-Za-z,]+|=\[[A-Za-z]\]+", subquery)
 
-    if subquery.startswith("@["):
+    if subquery.startswith("=["):
         rgx = re.compile(subquery[2: -1])
         return lambda d: re.search(rgx, d["id"])
-    # elif subquery.startswith("@"):
+    # elif subquery.startswith("="):
     else:
         sq = subquery[1:]
         return lambda d: sq == d["id"]
@@ -167,7 +167,7 @@ This implementation will take your custom DSL and produce the corresponding Pyth
     ...
 
 def parse_tags(subquery: str) -> Callable[[dict[str, Any]], bool]:
-    assert re.match("^#[A-Za-z\[\]\.,]", subquery)
+    assert re.match("^@[A-Za-z\[\]\.,]", subquery)
     subquery += ":"
     tag_query, subtag_query = re.split(":+", subquery)[1:3]
     tag_match_empty = bool(re.match("^::", subquery))
@@ -260,8 +260,8 @@ def parse_language(subquery: str) -> Callable[[dict[str, Any]], bool]:
 
 
 dispatcher = {
-    "@": parse_id,
-    "#": parse_tags,
+    "=": parse_id,
+    "@": parse_tags,
     ":": parse_type,
     "~": parse_status,
     "%": parse_date,
@@ -272,8 +272,8 @@ dispatcher = {
 }
 
 order = {
-    "@": 0,
-    "#": 1,
+    "=": 0,
+    "@": 1,
     ":": 2,
     "~": 3,
     "%": 4,
