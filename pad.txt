@@ -23,3 +23,7 @@ Key:
 https://www.reddit.com/r/neovim/comments/1bxmbki/when_you_want_to_use_neovim_but_dont_want_to/?share_id=8O3Yu6a-RuZst7KiMHBX4&utm_content=1&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=10
 
 https://github.com/yutkat/my-neovim-pluginlist <- get recent changes
+
+https://github.com/folke/paint.nvim for note highlighting
+https://github.com/nvim-treesitter/nvim-treesitter#adding-parsers alternative for note highlighting
+

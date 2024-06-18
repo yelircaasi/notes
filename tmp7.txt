@@ -1,28 +1,32 @@
 ======== ATTRS =========
- 76734 type
- 76734 text
- 76734 tags
- 76734 subtype
- 76734 subtags
- 76734 status
- 76734 sorter
- 76734 link
- 76734 id
- 76734 extra
- 76734 dateModified
- 76734 dateCreated
+ 76765 type
+ 76765 text
+ 76765 tags
+ 76765 subtype
+ 76765 subtags
+ 76765 status
+ 76765 sorter
+ 76765 link
+ 76765 id
+ 76765 extra
+ 76765 dateModified
+ 76765 dateCreated
 ======== EXTRA =========
- 74488 language
-  7320 rating
+ 75591 language
+  8423 rating
   6765 extraTags
-  2330 notes
-  2330 description
-  2330 category
+  3433 notes
+  3433 description
+  3433 category
+  1103 recency
+  1103 features
+  1103 commits
+  1103 class
    471 nixName
    178 filetype
 ======== TYPES =========
- 54196 
-  6709 readingSet
+ 54470 
+  6489 readingSet
   3195 readingAtom
   3075 viewingSet
   2478 viewingAtom
@@ -34,18 +38,19 @@
    260 foodItem
    143 tool
    127 resourceList
-    38 person
     24 reference
+    19 person
     11 vocabWord
-    11 idea
      9 route
+     7 idea
      3 ankiSet
      1 discussion
 ======== STATI =========
- 73719 toRead
-  1353 softwareSelected
+ 72647 toRead
+  1354 softwareSelected
+  1099 
    512 softwareLater
-   434 softwareNeedsWork
+   437 softwareNeedsWork
    223 softwareNahReference
    132 softwareSelectedForLater
     92 softwareBackPocket
@@ -57,7 +62,7 @@
     16 currentReading
     14 softwareRejected
 ======== TAGS =========
- 34428 SORT
+ 35531 SORT
   9154 ml
   7974 socialScience
   7652 languageLearning
@@ -67,9 +72,9 @@
   4951 cs
   4832 humanities
   4799 config
-  4680 math
+  4679 math
   4597 general
-  4060 philosophy
+  4057 philosophy
   3560 project
   3469 politics
   3350 nvimPlugin
@@ -78,18 +83,17 @@
   2527 idea
   2393 software
   2231 nvim
-  2144 biology
   1917 python
   1825 nlp
   1671 nix
   1659 audio
   1630 economics
   1504 music
-  1481 neuro
   1451 dots
   1393 science
   1298 history
   1091 top
+  1072 biology
    995 practicalLiving
    921 person
    883 ricing
@@ -99,6 +103,7 @@
    796 speechProcessing
    751 news
    746 psychology
+   741 neuro
    716 julia
    685 veryShortIntroduction
    610 webDev
@@ -185,14 +190,12 @@
     92 functional
     91 lua
     91 lisp
-    90 consciousness
     90 challenge
     89 regex
     89 chatbot
     88 wikipedia
     88 gtd
     87 engineering
-    84 anatomy
     83 homeManager
     82 wiktionary
     81 emacs
@@ -219,7 +222,6 @@
     59 forum
     58 quote
     57 hardware
-    56 ornithology
     56 multiplexer
     56 jewish
     54 font
@@ -243,12 +245,14 @@
     45 travel
     45 keybind
     45 devenv
+    45 consciousness
     45 anki
     43 transcription
     43 snippet
     43 nlq
     42 reddit
     42 feminism
+    42 anatomy
     41 yankPaste
     41 gnome
     40 personalWebsite
@@ -288,6 +292,7 @@
     28 wordEmbedding
     28 userscript
     28 siteTheming
+    28 ornithology
     28 knutils
     28 foss
     27 regression
@@ -315,7 +320,6 @@
     22 pytorch
     22 operatingSystem
     22 ide
-    22 evolution
     22 design
     21 sport
     21 solver
@@ -334,7 +338,6 @@
     18 graphics
     18 finance
     18 exercism
-    18 dermatology
     17 server
     17 scriptCollection
     17 nbcat
@@ -383,6 +386,7 @@
     11 shinto
     11 scikit
     11 latent
+    11 evolution
     11 dataFormat
     11 asciiArt
     10 tripPlanner
@@ -401,6 +405,7 @@
      9 inequality
      9 graph
      9 garbageCollection
+     9 dermatology
      9 bigData
      8 zettelkasten
      8 windows
@@ -637,11 +642,11 @@
     36 game
     35 specificApp
     35 macro
-    35 language
     35 execFromConfigFile
     35 dwm
     34 todo
     34 otherWm
+    34 language
     33 tab
     33 base
     32 switcher
@@ -706,7 +711,6 @@
     19 components
     19 berlin
     18 subtag:scotland
-    18 scalp
     18 pair
     18 outline
     18 dataMining
@@ -774,7 +778,6 @@
     11 command
     11 code
     11 black
-    10 zoology
     10 whitespace
     10 trimming
     10 textobject
@@ -793,6 +796,7 @@
      9 smooth
      9 size
      9 simple
+     9 scalp
      9 readingRoadmap
      9 partialExecution
      9 maximize
@@ -869,6 +873,7 @@
      6 codeAction
      6 checkbox
      6 addition
+     5 zoology
      5 venv
      5 training
      5 summary
@@ -1048,15 +1053,12 @@
      2 haskell
      2 harmonizing
      2 handler
-     2 groupSelection
      2 graphql
      2 glow
      2 gitui
      2 gitignore
-     2 gameTheory
      2 ftp
      2 fontSize
-     2 filetype:PDF
      2 filetype
      2 endwise
      2 emacs
@@ -1168,12 +1170,15 @@
      1 http
      1 hook
      1 health
+     1 groupSelection
      1 goToFile
      1 global
      1 gitLens
      1 gist
      1 gesture
      1 generation
+     1 gameTheory
+     1 filetype:PDF
      1 ffi
      1 explorer
      1 evolutionary

@@ -1,36 +1,44 @@
 '''
 Characters not treated as special characters by Bash:
-A-Za-z % - _ ~ ^ # @ [ ] { } : , . / ? +
+A-Za-z % - _ ~ ^ @ [ ] { } : , . / ? +
 
 @[...] to refer to the contents of a path
+~ negation
+[...] - regex search within string: ?tag[regex],tag2[regex2]
+
+?@savedTagQueryAlias
+=@savedSetAlias
+
+@savedQueryAlias
+
 =id1,id2,id3
 =[regex for id]
-~ negation
 :type
 :type:subtype
 ::type:subtype or empty type
 :type::subtype - type and subtype or empty subtype
 
-~status
-~~status or empty
-
-%latest due date
-%%latest due date or empty
+%status
+%%status or empty
 
 *rating above
-*!rating below
+*~rating below
 **rating or empty
 
 
 [substring/regex in text]
 {substring/regex in link}
+
 ^DDDD-DD-DD - oldest date modified
 ^^DDDD-DD-DD - oldest date created
 ^~DDDD-DD-DD - newest date modified
 ^^~DDDD-DD-DD - newest date created
+
 +extraTag:value
 ++extraTag:value or empty
-@tag-tag-tag/subtag-subtag-subtag
+
+
+?tag.tag.tag:subtag.subtag.subtag
   . OR operator for tags
   , OR operator for tags
   {...} for tag grouping
@@ -39,6 +47,12 @@ A-Za-z % - _ ~ ^ # @ [ ] { } : , . / ? +
 
 _language
 __language or empty value for language
+
+
+Tentative:
+
+]progLang (need to change to camel case)
+}fileType
 '''
 from typing import Any, Callable
 import re
@@ -215,7 +229,7 @@ def parse_rating(subquery: str) -> Callable[[dict[str, Any]], bool]:
     assert m
     sq = m.group(0)
     
-    if subquery.endswith("opt~"):
+    if subquery.endswith("?~") or subquery.endswith("?~"):
         return lambda d: d["rating"] in sq
     elif subquery.endswith("opt"):
         return lambda d: (d["rating"]) or not (bool(d["rating"]))
@@ -264,10 +278,9 @@ dispatcher = {
     "=": parse_id,
     "?": parse_tags,
     ":": parse_type,
-    "~": parse_status,
-    "%": parse_date,
+    "%": parse_status,
     "*": parse_rating,
-    "^": parse_due_date,
+    "^": parse_date,
     "+": parse_extra_attribute,
     "_": parse_language,
 }
