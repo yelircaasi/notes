@@ -46,9 +46,10 @@ A-Za-z % - _ ~ ^ @ [ ] { } : , . / ? +
 ?tag.tag.tag:subtag.subtag.subtag
   . OR operator for tags
   , OR operator for tags
-  {...} for tag grouping
+  {...} for tag grouping, but for now give AND precedence over OR, 
+    requiring more work on the user's end for simpler implementation.
   ~ for tag negation
-  example: @{tag1.tag2},{tag3.tag4}
+  example: @tag1.tag2,tag3.tag4
 
 _language
 __language or empty value for language
@@ -303,7 +304,7 @@ order = {
 }
 
 
-def parse_query(subqueries: list[str]) -> Callable[[dict[str, Any]], bool]:
+def parse_query_old(subqueries: list[str]) -> Callable[[dict[str, Any]], bool]:
     subqueries.sort(key=lambda sq: order.get(sq[0], 9))
     filters = tuple(map(lambda sq: dispatcher[sq[0]](sq)))
     
@@ -312,3 +313,125 @@ def parse_query(subqueries: list[str]) -> Callable[[dict[str, Any]], bool]:
         return tuple(filter(condition, d.values()))
 
     return inner
+
+
+def parse_query(q: str) -> Callable:
+    """
+Now, building on the previous task, I want to generate a data structure corresponding to the boolean expression above, but converted to a dictionary whose keys are "AND" or "OR" and whose values are lists containing identifiers (strings) or objects.. So x.{y,z} would evaluate to {"AND": ["x", {"AND": ["y", "z"]}]} and {a.b},{a,d} would evaluate to {"OR": [{"AND": ["a", "b"]}, {"OR": ["a", "d"]}]}
+ChatGPT
+
+To transform your custom DSL into a nested dictionary structure, we need to modify the code to construct a dictionary instead of generating a Python lambda expression.
+Implementation Steps
+
+    Tokenizer: We'll use the same tokenizer as before to split the input into tokens.
+    Parser: We'll modify the parser to construct a nested dictionary structure representing the boolean logic.
+    Dictionary Construction: Convert the AST into the desired dictionary format.
+
+Implementation in Python
+
+Here’s how you can achieve this:
+
+python
+
+import re
+
+# Step 1: Tokenizer
+def tokenize(dsl_code):
+    token_specification = [
+        ('LBRACE', r'\{'),        # Left bracket
+        ('RBRACE', r'\}'),        # Right bracket
+        ('AND', r'\.'),           # AND operator
+        ('OR', r','),             # OR operator
+        ('IDENTIFIER', r'[a-z][A-Za-z]*'),  # Identifiers
+        ('SKIP', r'[ \t]+'),      # Skip over spaces and tabs
+        ('MISMATCH', r'.'),       # Any other character
+    ]
+    token_regex = '|'.join(f'(?P<{pair[0]}>{pair[1]})' for pair in token_specification)
+    tokens = []
+    for mo in re.finditer(token_regex, dsl_code):
+        kind = mo.lastgroup
+        value = mo.group()
+        if kind == 'SKIP':
+            continue
+        elif kind == 'MISMATCH':
+            raise RuntimeError(f'Unexpected character: {value}')
+        tokens.append((kind, value))
+    return tokens
+
+# Step 2: Parser
+def parse(tokens):
+    def parse_expression(tokens):
+        if not tokens:
+            return None
+        
+        expr = []
+        while tokens:
+            token = tokens.pop(0)
+            if token[0] == 'IDENTIFIER':
+                expr.append(('IDENTIFIER', token[1]))
+            elif token[0] == 'AND':
+                expr.append(('AND',))
+            elif token[0] == 'OR':
+                expr.append(('OR',))
+            elif token[0] == 'LBRACE':
+                inner_expr = parse_expression(tokens)
+                expr.append(('EXPR', inner_expr))
+            elif token[0] == 'RBRACE':
+                break
+        
+        return expr
+
+    return parse_expression(tokens)
+
+# Step 3: Dictionary Construction
+def generate_dict_structure(ast):
+    def generate_expression(expr):
+        stack = []
+        current_op = None
+        for token in expr:
+            if token[0] == 'IDENTIFIER':
+                stack.append(token[1])
+            elif token[0] == 'AND':
+                current_op = 'AND'
+            elif token[0] == 'OR':
+                current_op = 'OR'
+            elif token[0] == 'EXPR':
+                stack.append(generate_expression(token[1]))
+        
+        if current_op == 'AND':
+            return {"AND": stack}
+        elif current_op == 'OR':
+            return {"OR": stack}
+        elif len(stack) == 1:
+            return stack[0]
+        else:
+            return stack
+    
+    result = generate_expression(ast)
+    return result
+
+# Putting it all together
+def dsl_to_dict(dsl_code):
+    tokens = tokenize(dsl_code)
+    ast = parse(tokens)
+    dict_structure = generate_dict_structure(ast)
+    return dict_structure
+
+# Example usage
+dsl_code = "{var1.var2},{var3.var4}"
+dict_structure = dsl_to_dict(dsl_code)
+print(dict_structure)  # Output should be: {"OR": [{"AND": ["var1", "var2"]}, {"AND": ["var3", "var4"]}]}
+
+dsl_code2 = "x.{y,z}"
+dict_structure2 = dsl_to_dict(dsl_code2)
+print(dict_structure2)  # Output should be: {"AND": ["x", {"OR": ["y", "z"]}]}
+
+Explanation
+
+    Tokenizer: The tokenize function splits the input into tokens recognizing identifiers, brackets, and operators.
+    Parser: The parse function converts the list of tokens into an AST. It handles nested expressions inside brackets and supports AND/OR operations.
+    Dictionary Construction: The generate_dict_structure function traverses the AST to construct a nested dictionary representing the boolean logic.
+
+This implementation should correctly transform your DSL into the desired dictionary format. Adjustments can be made for more complex DSL structures or additional features.
+    """
+    ...

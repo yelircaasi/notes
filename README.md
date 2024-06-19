@@ -2,8 +2,9 @@
 
 Cool aliases for `consilium`:
 
-* `::`
+* `::` or `:`
 * `*`
+* `_`
 * `c`
 * `cm`
 * `cons`
