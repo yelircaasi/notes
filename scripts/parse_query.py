@@ -2,8 +2,34 @@
 Characters not treated as special characters by Bash:
 A-Za-z % - _ ~ ^ @ [ ] { } : , . / ? +
 
+NEW CONSIDERATIONS =============================================
+bash special characters not allowed; neither are spaces
+structural characters in the query language are { } , . : 
+: should be reserved for binding attribute names to values, such as type:book
+_ and - would be nice to have as valid identifier characters
+support character sets from other languages, such as cyrillic
+~ for negation
+= for id
+@ to reference saved queries
+/ for status
++ to prefix extra attributes
+^ for date
+* for rating
+% for type
+euro sign for (human) language
+] for programming language
+
+other unicode characters?
+
+? allow matching 'empty' values, such as None or ""
+================================================================
+
 (rejected: --additional_argument bound to value with non non-space non-alphanumeric character)
 -> instead: use environment variables, all of which are optional
+
+MAYBE LATER:
+@[] to reference the path to a file -> assumed to be relative if not starting with / ; ~ allowed and . not allowed; _/ refers to query_files in nots directory
+
 
 @[...] to refer to the contents of a path
 ~ negation
@@ -14,7 +40,27 @@ A-Za-z % - _ ~ ^ @ [ ] { } : , . / ? +
 
 @savedQueryAlias
 
-=id1,id2,id3
+=id1,id2,id3def condition_from_string(s: str) -> Callable[[dict], bool]:
+    # to be fully implemented for all attributes later; just tags for now
+    def inner(d: dict):
+        return s in d["tags"]
+    
+    return inner
+
+
+def condition_from_dict(query_tree: dict) -> Callable:
+    def condition_from_element(element: str | dict) -> Callable[[dict], bool]:
+        if isinstance(element, str):
+            return condition_from_string(element)
+        elif isinstance(element, dict):
+            return condition_from_dict(element)
+    
+    if "AND" in query_tree:
+        return lambda d: all(map(lambda f: f(d), map(condition_from_element, query_tree["AND"])))
+    elif "OR" in query_tree:
+        return lambda d: any(map(lambda f: f(d), map(condition_from_element, query_tree["OR"])))
+    else:
+        raise ValueError
 =[regex for id]
 :type
 :type:subtype
@@ -46,7 +92,27 @@ A-Za-z % - _ ~ ^ @ [ ] { } : , . / ? +
 ?tag.tag.tag:subtag.subtag.subtag
   . OR operator for tags
   , OR operator for tags
-  {...} for tag grouping, but for now give AND precedence over OR, 
+  {...} for tag grouping, but for now givedef condition_from_string(s: str) -> Callable[[dict], bool]:
+    # to be fully implemented for all attributes later; just tags for now
+    def inner(d: dict):
+        return s in d["tags"]
+    
+    return inner
+
+
+def condition_from_dict(query_tree: dict) -> Callable:
+    def condition_from_element(element: str | dict) -> Callable[[dict], bool]:
+        if isinstance(element, str):
+            return condition_from_string(element)
+        elif isinstance(element, dict):
+            return condition_from_dict(element)
+    
+    if "AND" in query_tree:
+        return lambda d: all(map(lambda f: f(d), map(condition_from_element, query_tree["AND"])))
+    elif "OR" in query_tree:
+        return lambda d: any(map(lambda f: f(d), map(condition_from_element, query_tree["OR"])))
+    else:
+        raise ValueError AND precedence over OR, 
     requiring more work on the user's end for simpler implementation.
   ~ for tag negation
   example: @tag1.tag2,tag3.tag4
@@ -58,7 +124,7 @@ __language or empty value for language
 Tentative:
 
 ]progLang (need to change to camel case)
-}fileType
+]]fileType
 '''
 from typing import Any, Callable
 import re
@@ -435,3 +501,41 @@ Explanation
 This implementation should correctly transform your DSL into the desired dictionary format. Adjustments can be made for more complex DSL structures or additional features.
     """
     ...
+
+
+def condition_from_string(s: str) -> Callable[[dict], bool]:
+    # to be fully implemented for all attributes later; just tags for now
+    def inner(d: dict):
+        return s in d["tags"]
+    
+    return inner
+
+
+def condition_from_dict(query_tree: dict) -> Callable:
+    def condition_from_element(element: str | dict) -> Callable[[dict], bool]:
+        if isinstance(element, str):
+            return condition_from_string(element)
+        elif isinstance(element, dict):
+            return condition_from_dict(element)
+    
+    if "AND" in query_tree:
+        return lambda d: all(map(lambda f: f(d), map(condition_from_element, query_tree["AND"])))
+    elif "OR" in query_tree:
+        return lambda d: any(map(lambda f: f(d), map(condition_from_element, query_tree["OR"])))
+    else:
+        raise ValueError
+
+
+"""
+{x,y,z}.{a,b}
+td = {
+    "AND": [
+        {"OR": ["x", "y", "z"]},
+        {"OR": ["a", "b"]}
+    ]
+}
+
+
+note = {"tags": ["a", "x"]}
+note = {"tags": ["a", "b"]}
+"""
