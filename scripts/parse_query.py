@@ -16,12 +16,17 @@ support character sets from other languages, such as cyrillic
 ^ for date
 * for rating
 % for type
+﹪ for subtype
 euro sign for (human) language
 ] for programming language
 
 other unicode characters?
 
 ? allow matching 'empty' values, such as None or ""
+
+Examples: 
+
+consilium edit {@biologyTop,philosophy,neuroscience}.^2023-01-01.*5.{%book,%idea,%site}
 ================================================================
 
 (rejected: --additional_argument bound to value with non non-space non-alphanumeric character)
