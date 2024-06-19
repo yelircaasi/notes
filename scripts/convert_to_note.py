@@ -132,19 +132,20 @@ def wrap_line(line: str, length: int, formatter: Callable) -> str:
 
 def convert(note: dict) -> str:
     width = 100
-    double_bar = c.magenta(width * "═")
-    single_bar = c.black(width * "─")
+    double_bar = c.green(width * "═")
+    single_bar = c.blue(width * "─")
 
-    tags_and_subtags = preprocess_tags(note['tags'], note['subtags'])
-    id_ = c.blue(note['id'][:21])
-    note_text = f"\n{c.magenta(note['text'])}\n"
+    id_ = c.green(note['id'][:21])
     # type_text = type_icons.get(note.get("type", "unsupported"), "?")
-    type_text = c.red(f"{note['type']}::{note['subtype']}")
+    type_text = c.blue(f"{note['type']}::{note['subtype']}")
     # status = status_icons.get(note.get("status", "unsupported"), "?")
-    status = note["status"]
+    status = c.green(note["status"])
+    tags_and_subtags = preprocess_tags(note['tags'], note['subtags'])
+
+    note_text = f"\n{c.magenta(note['text'])}\n"
     link_text = c.red(note["link"])
     # extra = c.black(json.dumps(note["extra"], indent=2, ensure_ascii=False) or "")
-    extra = c.black("\n".join((f"{k}: {v}" for k, v in note["extra"].items())))
+    extra = c.blue("\n".join((f"{k}: {v}" for k, v in note["extra"].items())))
     date_line = f"{c.red(note['dateCreated'])}                      {c.blue(note['dateModified'])}                              {c.black(note['sorter'])}"
 
     
