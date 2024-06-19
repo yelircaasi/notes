@@ -554,3 +554,134 @@ td = {
 note = {"tags": ["a", "x"]}
 note = {"tags": ["a", "b"]}
 """
+
+
+
+""" PARSING WITH PRECEDENCE
+What if I want to implement precedence? AND should always have precedence over OR in the absence of brackets.
+ChatGPT
+
+To implement precedence where AND has a higher precedence than OR, we need to adjust the parsing logic to handle operator precedence correctly. We'll use a recursive descent parser to ensure that AND operations are grouped more tightly than OR operations.
+Implementation Steps
+
+    Tokenizer: We'll use the same tokenizer as before to split the input into tokens.
+    Parser: We'll modify the parser to respect operator precedence, ensuring that AND operations are evaluated before OR operations.
+    Dictionary Construction: Convert the AST into the desired dictionary format.
+
+Implementation in Python
+
+Here’s how you can achieve this:
+
+python
+
+import re
+
+# Step 1: Tokenizer
+def tokenize(dsl_code):
+    token_specification = [
+        ('LBRACE', r'\{'),        # Left bracket
+        ('RBRACE', r'\}'),        # Right bracket
+        ('AND', r'\.'),           # AND operator
+        ('OR', r','),             # OR operator
+        ('IDENTIFIER', r'[a-z][A-Za-z]*'),  # Identifiers
+        ('SKIP', r'[ \t]+'),      # Skip over spaces and tabs
+        ('MISMATCH', r'.'),       # Any other character
+    ]
+    token_regex = '|'.join(f'(?P<{pair[0]}>{pair[1]})' for pair in token_specification)
+    tokens = []
+    for mo in re.finditer(token_regex, dsl_code):
+        kind = mo.lastgroup
+        value = mo.group()
+        if kind == 'SKIP':
+            continue
+        elif kind == 'MISMATCH':
+            raise RuntimeError(f'Unexpected character: {value}')
+        tokens.append((kind, value))
+    return tokens
+
+# Step 2: Parser with Precedence
+def parse(tokens):
+    def parse_primary(tokens):
+        if not tokens:
+            return None
+        
+        token = tokens.pop(0)
+        if token[0] == 'IDENTIFIER':
+            return ('IDENTIFIER', token[1])
+        elif token[0] == 'LBRACE':
+            expr = parse_expression(tokens)
+            if tokens and tokens[0][0] == 'RBRACE':
+                tokens.pop(0)
+            return ('EXPR', expr)
+        raise SyntaxError(f"Unexpected token: {token}")
+
+    def parse_and(tokens):
+        left = parse_primary(tokens)
+        while tokens and tokens[0][0] == 'AND':
+            tokens.pop(0)
+            right = parse_primary(tokens)
+            left = ('AND', left, right)
+        return left
+
+    def parse_or(tokens):
+        left = parse_and(tokens)
+        while tokens and tokens[0][0] == 'OR':
+            tokens.pop(0)
+            right = parse_and(tokens)
+            left = ('OR', left, right)
+        return left
+
+    return parse_or(tokens)
+
+# Step 3: Dictionary Construction
+def generate_dict_structure(ast):
+    if ast[0] == 'IDENTIFIER':
+        return ast[1]
+    elif ast[0] == 'AND':
+        left = generate_dict_structure(ast[1])
+        right = generate_dict_structure(ast[2])
+        return {"AND": [left, right]}
+    elif ast[0] == 'OR':
+        left = generate_dict_structure(ast[1])
+        right = generate_dict_structure(ast[2])
+        return {"OR": [left, right]}
+    elif ast[0] == 'EXPR':
+        return generate_dict_structure(ast[1])
+    raise ValueError(f"Unexpected AST node: {ast}")
+
+# Putting it all together
+def dsl_to_dict(dsl_code):
+    tokens = tokenize(dsl_code)
+    ast = parse(tokens)
+    dict_structure = generate_dict_structure(ast)
+    return dict_structure
+
+# Example usage
+dsl_code1 = "{var1.var2},{var3.var4}"
+dict_structure1 = dsl_to_dict(dsl_code1)
+print(dict_structure1)  # Output should be: {"OR": [{"AND": ["var1", "var2"]}, {"AND": ["var3", "var4"]}]}
+
+dsl_code2 = "x.{y,z}"
+dict_structure2 = dsl_to_dict(dsl_code2)
+print(dict_structure2)  # Output should be: {"AND": ["x", {"OR": ["y", "z"]}]}
+
+dsl_code3 = "a.b,c.d"
+dict_structure3 = dsl_to_dict(dsl_code3)
+print(dict_structure3)  # Output should be: {"OR": [{"AND": ["a", "b"]}, {"AND": ["c", "d"]}]}
+
+dsl_code4 = "a,b.c"
+dict_structure4 = dsl_to_dict(dsl_code4)
+print(dict_structure4)  # Output should be: {"OR": ["a", {"AND": ["b", "c"]}]}
+
+Explanation
+
+    Tokenizer: The tokenize function splits the input into tokens, recognizing identifiers, brackets, and operators.
+    Parser with Precedence: The parse function now respects operator precedence by splitting the parsing into multiple functions:
+        parse_primary: Parses identifiers and expressions within brackets.
+        parse_and: Ensures AND operations are parsed with higher precedence.
+        parse_or: Ensures OR operations are parsed with lower precedence than AND.
+    Dictionary Construction: The generate_dict_structure function traverses the AST to construct a nested dictionary representing the boolean logic.
+
+This implementation respects the precedence of AND over OR, as specified, and should correctly transform your DSL into the desired dictionary format. Adjustments can be made for more complex DSL structures or additional features.
+
+"""
