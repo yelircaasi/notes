@@ -14,11 +14,11 @@ support character sets from other languages, such as cyrillic
 / for status
 + to prefix extra attributes
 ^ for date
-* for rating
+* for rating (allowing ~~ for exact; default is *5 for geq 5 and *~5 for leq 5)
 % for type
-﹪ for subtype
-euro sign for (human) language
-] for programming language
+] for subtype (or ﹪)
+€ for (human) language
+… for programming language
 
 other unicode characters?
 
@@ -27,6 +27,16 @@ other unicode characters?
 Examples: 
 
 consilium edit {@biologyTop,philosophy,neuroscience}.^2023-01-01.*5.{%book,%idea,%site}
+================================================================
+Crazy idea: use Greek letters:
+Α α, Β β, Γ γ, Δ δ, Ε ε, Ζ ζ, Η η, Θ θ, Ι ι, Κ κ, Λ λ, Μ μ, Ν ν, Ξ ξ, Ο ο, Π π, Ρ 
+ρ rating
+, Σ 
+σ status
+/ς
+, Τ 
+τ type, 
+Υ υ, Φ φ, Χ χ, Ψ ψ, Ω ω.
 ================================================================
 
 (rejected: --additional_argument bound to value with non non-space non-alphanumeric character)
