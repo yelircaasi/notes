@@ -1,65 +1,65 @@
 {
     "->.lookinto.person": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "->.lookinto.resource_list": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "->.view": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "->.view.development.tui": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "->.view.discussion": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "->.view.taskwarrior": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "->.view.theory": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "->.view.tool.taskwarrior": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "->.view.video/blog explaining personal system": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "algorithm.diff": {
@@ -72,943 +72,868 @@
     },
     "algorithm.planning": {
         "tags": [
-            "algorithm"
-        ],
-        "subtags": [
+            "algorithm",
             "planning"
         ],
+        "subtags": [],
         "type": ""
     },
     "algorithm.scheduling": {
         "tags": [
-            "algorithm"
-        ],
-        "subtags": [
+            "algorithm",
             "planning"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.ai_assistant": {
         "tags": [
+            "console",
             "aiAssistant"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.best_devenv": {
         "tags": [
-            "console"
-        ],
-        "subtags": [
+            "console",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.browser.cli": {
         "tags": [
+            "console",
             "browser",
             "cli"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.browser.tui": {
         "tags": [
+            "console",
             "browser",
             "tui"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.calculator-conversion-date": {
         "tags": [
+            "console",
             "calculator",
-            "console"
-        ],
-        "subtags": [
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.cleanup": {
         "tags": [
+            "console",
             "cleanup"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.core": {
         "tags": [
-            "console"
-        ],
-        "subtags": [
+            "console",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.core.tree": {
         "tags": [
-            "console"
-        ],
-        "subtags": [
+            "console",
             "tree"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.dashboard": {
         "tags": [
+            "console",
             "dashboard"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.data.document.epub": {
         "tags": [
+            "console",
             "dataWrangling",
             "dataFormat"
         ],
         "subtags": [
-            "epub",
-            "console"
+            "epub"
         ],
         "type": ""
     },
     "console.data.document.html": {
         "tags": [
+            "console",
             "dataWrangling",
             "dataFormat"
         ],
         "subtags": [
-            "html",
-            "console"
+            "html"
         ],
         "type": ""
     },
     "console.data.document.json": {
         "tags": [
+            "console",
             "dataWrangling",
             "dataFormat"
         ],
         "subtags": [
-            "json",
-            "console"
+            "json"
         ],
         "type": ""
     },
     "console.data.document.markdown": {
         "tags": [
+            "console",
             "dataWrangling",
             "dataFormat"
         ],
         "subtags": [
-            "markdown",
-            "console"
+            "markdown"
         ],
         "type": ""
     },
     "console.data.document.miscellaneous": {
         "tags": [
+            "console",
             "dataWrangling",
             "dataFormat"
         ],
         "subtags": [
-            "misc",
-            "console"
+            "misc"
         ],
         "type": ""
     },
     "console.data.document.pdf": {
         "tags": [
+            "console",
             "dataWrangling",
             "dataFormat"
         ],
         "subtags": [
-            "pdf",
-            "console"
+            "pdf"
         ],
         "type": ""
     },
     "console.data.document.polyglot": {
         "tags": [
+            "console",
             "dataWrangling",
             "dataFormat"
         ],
         "subtags": [
-            "polyglot",
-            "console"
+            "polyglot"
         ],
         "type": ""
     },
     "console.data.document.slideshow": {
         "tags": [
+            "console",
             "dataWrangling",
             "dataFormat"
         ],
         "subtags": [
-            "slideshow",
-            "console"
+            "slideshow"
         ],
         "type": ""
     },
     "console.data.document.tabular": {
         "tags": [
+            "console",
             "dataWrangling",
             "dataFormat"
         ],
         "subtags": [
-            "tabular",
-            "console"
+            "tabular"
         ],
         "type": ""
     },
     "console.data.document.toml": {
         "tags": [
+            "console",
             "dataWrangling",
             "dataFormat"
         ],
         "subtags": [
-            "toml",
-            "console"
+            "toml"
         ],
         "type": ""
     },
     "console.data.document.yaml": {
         "tags": [
+            "console",
             "dataWrangling",
             "dataFormat"
         ],
         "subtags": [
-            "yaml",
-            "console"
+            "yaml"
         ],
         "type": ""
     },
     "console.data.fake": {
-        "tags": [],
-        "subtags": [
-            "fakeData",
+        "tags": [
             "console"
+        ],
+        "subtags": [
+            "fakeData"
         ],
         "type": ""
     },
     "console.data.pdf": {
         "tags": [
+            "console",
             "dataWrangling",
             "dataFormat"
         ],
         "subtags": [
-            "pdf",
-            "console"
+            "pdf"
         ],
         "type": ""
     },
     "console.data.wrangling": {
         "tags": [
+            "console",
             "dataWrangling"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.database": {
         "tags": [
+            "console",
             "database"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.development": {
         "tags": [
-            "console"
+            "console",
+            "development",
+            "EDITMANUALLY"
         ],
-        "subtags": [
-            "EDITMANUALLY",
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.development.analysis_refactoring_formatting": {
         "tags": [
-            "console"
-        ],
-        "subtags": [
-            "codeQuality",
+            "console",
             "development",
+            "codeQuality",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.development.changelog": {
         "tags": [
-            "console"
+            "console",
+            "development",
+            "changelog"
         ],
-        "subtags": [
-            "changelog",
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.development.code_navigaion": {
         "tags": [
-            "codeNavigation",
-            "console"
+            "console",
+            "development",
+            "codeNavigation"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.development.code_quality": {
         "tags": [
-            "console"
+            "console",
+            "development",
+            "codeQuality"
         ],
-        "subtags": [
-            "codeQuality",
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.development.debugging": {
         "tags": [
-            "console"
+            "console",
+            "development",
+            "debugging"
         ],
-        "subtags": [
-            "debugging",
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.development.license": {
         "tags": [
-            "license",
-            "console"
+            "console",
+            "development",
+            "license"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.development.logs": {
         "tags": [
-            "logging",
-            "console"
+            "console",
+            "development",
+            "logging"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.development.miscellaneous": {
         "tags": [
-            "console"
+            "console",
+            "development",
+            "miscellaneous"
         ],
-        "subtags": [
-            "miscellaneous",
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.development.readme": {
         "tags": [
-            "console"
+            "console",
+            "development",
+            "readme"
         ],
-        "subtags": [
-            "readme",
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.development.repl": {
         "tags": [
-            "console"
-        ],
-        "subtags": [
-            "repl",
+            "console",
             "development",
+            "repl",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.development.semver": {
-        "tags": [],
-        "subtags": [
-            "semver",
+        "tags": [
             "console",
-            "versioning",
-            "development"
+            "development",
+            "versioning"
+        ],
+        "subtags": [
+            "semver"
         ],
         "type": ""
     },
     "console.development.syntax_highlighting": {
         "tags": [
-            "console"
-        ],
-        "subtags": [
-            "syntax",
+            "console",
             "development",
+            "syntax",
             "highlighting"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.development.task_scripting": {
         "tags": [
-            "console"
+            "console",
+            "development",
+            "taskScripting"
         ],
-        "subtags": [
-            "taskScripting",
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.development.templating": {
         "tags": [
-            "templating",
-            "console"
+            "console",
+            "development",
+            "templating"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.development.testing": {
         "tags": [
-            "testing",
-            "console"
+            "console",
+            "development",
+            "testing"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.developmentl.license": {
         "tags": [
-            "license",
-            "console"
+            "console",
+            "development",
+            "license"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.devshell": {
         "tags": [
-            "console"
+            "console",
+            "development",
+            "devshell"
         ],
-        "subtags": [
-            "devshell",
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.educational": {
         "tags": [
-            "console"
-        ],
-        "subtags": [
+            "console",
             "educational"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.educational.flashcards": {
         "tags": [
-            "console"
+            "console",
+            "educational",
+            "flashcards"
         ],
-        "subtags": [
-            "flashcards",
-            "educational"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.educational.reading": {
         "tags": [
-            "reading",
-            "console"
+            "console",
+            "educational",
+            "reading"
         ],
-        "subtags": [
-            "educational"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.educational.speedreading": {
         "tags": [
+            "console",
+            "educational",
             "reading",
-            "console"
+            "speedreading"
         ],
-        "subtags": [
-            "speedreading",
-            "educational"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.envvars": {
         "tags": [
-            "console"
-        ],
-        "subtags": [
+            "console",
             "envVar"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.fetch": {
         "tags": [
-            "console"
-        ],
-        "subtags": [
+            "console",
             "fetch"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.file-browser": {
         "tags": [
-            "console"
-        ],
-        "subtags": [
+            "console",
             "fileManagement"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.fun": {
         "tags": [
+            "console",
             "fun"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.fun.cowsay_family": {
         "tags": [
+            "console",
             "fun"
         ],
         "subtags": [
-            "cowsay",
-            "console"
+            "cowsay"
         ],
         "type": ""
     },
     "console.fun.educational": {
         "tags": [
+            "console",
             "fun",
-            "console"
-        ],
-        "subtags": [
             "educational"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.fun.effects": {
         "tags": [
+            "console",
             "fun",
-            "console"
-        ],
-        "subtags": [
             "effects"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.fun.emoji": {
         "tags": [
+            "console",
             "fun",
             "emoji"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.fun.eye_candy": {
         "tags": [
+            "console",
             "fun",
-            "console"
-        ],
-        "subtags": [
             "eyeCandy"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.fun.games": {
         "tags": [
+            "console",
             "fun",
             "game"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.fun.maps": {
         "tags": [
+            "console",
             "fun",
             "map"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.fun.meme": {
         "tags": [
+            "console",
             "fun",
-            "console"
-        ],
-        "subtags": [
             "meme"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.fun.messages_quotes_welcomes": {
         "tags": [
+            "console",
             "fun",
-            "console"
-        ],
-        "subtags": [
             "messageQuoteWelcome"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.help": {
         "tags": [
-            "console"
-        ],
-        "subtags": [
+            "console",
             "help"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.illustration": {
         "tags": [
-            "console"
-        ],
-        "subtags": [
+            "console",
             "illustration"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.illustration.modeling_and_visualization": {
         "tags": [
-            "visualization",
-            "console"
-        ],
-        "subtags": [
+            "console",
+            "illustration",
             "modelling",
-            "illustration"
+            "visualization"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.menu_and-launcher": {
         "tags": [
-            "launcher",
-            "console"
+            "console",
+            "menu",
+            "launcher"
         ],
-        "subtags": [
-            "menu"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.miscellaneous": {
         "tags": [
-            "console"
-        ],
-        "subtags": [
+            "console",
             "miscellaneous"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.miscellaneous.bibliography": {
         "tags": [
+            "console",
             "bibliography"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.miscellaneous.news": {
         "tags": [
+            "console",
             "news"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.miscellaneous.weather": {
         "tags": [
+            "console",
             "weather"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.multiplexer": {
         "tags": [
+            "console",
             "multiplexer"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.renaming": {
         "tags": [
-            "console"
-        ],
-        "subtags": [
+            "console",
             "renaming"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.scripts": {
         "tags": [
+            "console",
             "scriptCollection"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.search": {
         "tags": [
+            "console",
             "search"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.secrets": {
         "tags": [
+            "console",
             "secrets"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.secrets.steganography": {
         "tags": [
+            "console",
             "secrets",
-            "console"
-        ],
-        "subtags": [
             "steganography"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.session_sharing": {
         "tags": [
-            "console"
-        ],
-        "subtags": [
+            "console",
             "sessionSharing"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.sets.core": {
-        "tags": [],
-        "subtags": [
-            "coreSet",
+        "tags": [
             "console",
             "EDITMANUALLY"
+        ],
+        "subtags": [
+            "coreSet"
         ],
         "type": ""
     },
     "console.sets.maximalist": {
-        "tags": [],
-        "subtags": [
-            "maximalistSet",
+        "tags": [
             "console",
             "EDITMANUALLY"
+        ],
+        "subtags": [
+            "maximalistSet"
         ],
         "type": ""
     },
     "console.shells": {
         "tags": [
+            "console",
             "shell"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.shells.completion": {
         "tags": [
+            "console",
             "shell",
-            "console"
-        ],
-        "subtags": [
             "completion"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.shells.scripting": {
         "tags": [
+            "console",
             "shell",
             "scripting"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.sleep_and_eyes": {
         "tags": [
-            "console"
-        ],
-        "subtags": [
+            "console",
             "sleepAndEyes"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.sleep_and_eyes.timer": {
         "tags": [
-            "console"
+            "console",
+            "sleepAndEyes",
+            "timer"
         ],
-        "subtags": [
-            "timer",
-            "sleepAndEyes"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.snippets": {
         "tags": [
+            "console",
             "snippet"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.specific_app": {
         "tags": [
-            "console"
-        ],
-        "subtags": [
+            "console",
             "specificApp"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.task_scripting": {
         "tags": [
-            "console"
-        ],
-        "subtags": [
+            "console",
             "taskScripting"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.termulator.wezterm": {
         "tags": [
+            "console",
             "termulator",
-            "console"
-        ],
-        "subtags": [
             "wezterm"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.time.clock": {
         "tags": [
-            "clock",
-            "console"
+            "console",
+            "time",
+            "clock"
         ],
-        "subtags": [
-            "time"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.time.clock.binary": {
         "tags": [
+            "console",
+            "time",
             "clock",
-            "console"
+            "binary"
         ],
-        "subtags": [
-            "binary",
-            "time"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.time.clock.special": {
         "tags": [
+            "console",
+            "time",
             "clock",
-            "console"
+            "special"
         ],
-        "subtags": [
-            "special",
-            "time"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.time.pomodoro": {
         "tags": [
-            "console"
+            "console",
+            "time",
+            "pomodoro"
         ],
-        "subtags": [
-            "pomodoro",
-            "time"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.time.sleep": {
         "tags": [
-            "console"
+            "console",
+            "time",
+            "sleep"
         ],
-        "subtags": [
-            "sleep",
-            "time"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.translation": {
         "tags": [
+            "console",
             "translation"
         ],
-        "subtags": [
-            "console"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.viewing": {
         "tags": [
-            "console"
-        ],
-        "subtags": [
+            "console",
             "viewing"
         ],
+        "subtags": [],
         "type": ""
     },
     "console.web.rss": {
         "tags": [
-            "console"
+            "console",
+            "web",
+            "rss"
         ],
-        "subtags": [
-            "rss",
-            "web"
-        ],
+        "subtags": [],
         "type": ""
     },
     "console.website_interfaces": {
         "tags": [
-            "console"
+            "console",
+            "website",
+            "interface"
         ],
-        "subtags": [
-            "interface",
-            "website"
-        ],
+        "subtags": [],
         "type": ""
     },
     "data.format.garmin": {
@@ -1076,60 +1001,54 @@
     },
     "data.format.miscellaneous": {
         "tags": [
-            "dataFormat"
-        ],
-        "subtags": [
+            "dataFormat",
             "miscellaneous"
         ],
+        "subtags": [],
         "type": ""
     },
     "data.format.plaintext_based": {
         "tags": [
-            "dataFormat"
-        ],
-        "subtags": [
+            "dataFormat",
             "plaintextBased"
         ],
+        "subtags": [],
         "type": ""
     },
     "data.format.plaintext_based.todotxt": {
         "tags": [
-            "dataFormat"
-        ],
-        "subtags": [
+            "dataFormat",
             "plaintextBased",
             "todotxt"
         ],
+        "subtags": [],
         "type": ""
     },
     "data.format.plaintext_based.xit": {
         "tags": [
-            "dataFormat"
-        ],
-        "subtags": [
+            "dataFormat",
             "plaintextBased",
             "xit"
         ],
+        "subtags": [],
         "type": ""
     },
     "data.format.plaintext_based.xit.nvim": {
         "tags": [
             "dataFormat",
+            "plaintextBased",
+            "xit",
             "nvim"
         ],
-        "subtags": [
-            "plaintextBased",
-            "xit"
-        ],
+        "subtags": [],
         "type": ""
     },
     "data.format.taskwarrior": {
         "tags": [
-            "dataFormat"
-        ],
-        "subtags": [
+            "dataFormat",
             "taskwarrior"
         ],
+        "subtags": [],
         "type": ""
     },
     "data.management": {
@@ -1140,760 +1059,717 @@
         "type": ""
     },
     "desktop.bar": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "desktop",
             "bar"
         ],
+        "subtags": [],
         "type": ""
     },
     "desktop.bar.inputs": {
         "tags": [
+            "desktop",
+            "bar",
+            "barInputs",
             "widget"
         ],
-        "subtags": [
-            "desktop",
-            "barInputs",
-            "bar"
-        ],
+        "subtags": [],
         "type": ""
     },
     "desktop.bar.widgets": {
         "tags": [
+            "desktop",
+            "bar",
             "widget"
         ],
-        "subtags": [
-            "desktop",
-            "bar"
-        ],
+        "subtags": [],
         "type": ""
     },
     "desktop.color_picker": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "desktop",
             "colorPicker"
         ],
+        "subtags": [],
         "type": ""
     },
     "desktop.compositor": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "desktop",
             "compositor"
         ],
+        "subtags": [],
         "type": ""
     },
     "desktop.compositor_internals_and_theory": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "desktop",
-            "internals",
-            "compositor"
+            "compositor",
+            "internals"
         ],
+        "subtags": [],
         "type": ""
     },
     "desktop.compositor.hyprland_apps": {
-        "tags": [],
-        "subtags": [
-            "hyprlandApps",
+        "tags": [
             "desktop",
             "compositor"
+        ],
+        "subtags": [
+            "hyprlandApps"
         ],
         "type": ""
     },
     "desktop.greeter.console": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "desktop",
-            "console",
-            "greeter"
+            "greeter",
+            "console"
         ],
+        "subtags": [],
         "type": ""
     },
     "desktop.greeter.gui": {
         "tags": [
+            "desktop",
+            "greeter",
             "gui"
         ],
-        "subtags": [
-            "desktop",
-            "greeter"
-        ],
+        "subtags": [],
         "type": ""
     },
     "desktop.launcher.gui": {
         "tags": [
+            "desktop",
             "launcher",
             "gui"
         ],
-        "subtags": [
-            "desktop"
-        ],
+        "subtags": [],
         "type": ""
     },
     "desktop.launcher.plugins": {
         "tags": [
-            "launcher"
-        ],
-        "subtags": [
             "desktop",
+            "launcher",
             "plugin"
         ],
+        "subtags": [],
         "type": ""
     },
     "desktop.lockscreen": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "desktop",
             "lockscreen"
         ],
+        "subtags": [],
         "type": ""
     },
     "desktop.logout_menu": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "desktop",
             "logoutMenu"
         ],
+        "subtags": [],
         "type": ""
     },
     "desktop.miscellaneous.clipboard": {
         "tags": [
+            "desktop",
             "clipboard"
         ],
-        "subtags": [
-            "desktop"
-        ],
+        "subtags": [],
         "type": ""
     },
     "desktop.miscellaneous.drag_and_drop": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "desktop",
             "dragAndDrop"
         ],
+        "subtags": [],
         "type": ""
     },
     "desktop.miscellaneous.theme_switcher": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "desktop",
             "themeSwitcher"
         ],
+        "subtags": [],
         "type": ""
     },
     "desktop.miscellaneous.window_management_tools": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "desktop",
             "windowManagement"
         ],
+        "subtags": [],
         "type": ""
     },
     "desktop.notifications": {
         "tags": [
+            "desktop",
             "notification"
         ],
-        "subtags": [
-            "desktop"
-        ],
+        "subtags": [],
         "type": ""
     },
     "desktop.openers": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "desktop",
             "opener"
         ],
+        "subtags": [],
         "type": ""
     },
     "desktop.relevant_system_libraries": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "desktop",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "desktop.ricing_and_mixing": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "desktop",
             "ricingMixing"
         ],
+        "subtags": [],
         "type": ""
     },
     "desktop.screenshot": {
         "tags": [
+            "desktop",
             "screenshot"
         ],
-        "subtags": [
-            "desktop"
-        ],
+        "subtags": [],
         "type": ""
     },
     "desktop.screenshot.annotation": {
         "tags": [
+            "desktop",
             "screenshot",
             "annotation"
         ],
-        "subtags": [
-            "desktop"
-        ],
+        "subtags": [],
         "type": ""
     },
     "desktop.shell.integrated": {
         "tags": [
+            "desktop",
             "desktopShell"
         ],
         "subtags": [
-            "integrated",
-            "desktop"
+            "integrated"
         ],
         "type": ""
     },
     "desktop.shell.piecewise": {
         "tags": [
+            "desktop",
             "desktopShell"
         ],
         "subtags": [
-            "piecewise",
-            "desktop"
+            "piecewise"
         ],
         "type": ""
     },
     "desktop.utils.brightness_and_battery": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "desktop",
-            "brightnessAndBattery",
-            "util"
+            "util",
+            "brightnessAndBattery"
         ],
+        "subtags": [],
         "type": ""
     },
     "desktop.utils.internet_connectivity_manager": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "desktop",
             "connectivityManager"
         ],
+        "subtags": [],
         "type": ""
     },
     "desktop.wallpaper": {
         "tags": [
+            "desktop",
             "wallpaper"
         ],
-        "subtags": [
-            "desktop"
-        ],
+        "subtags": [],
         "type": ""
     },
     "desktop.wallpaper.monitoring": {
         "tags": [
+            "desktop",
             "wallpaper",
             "monitoring"
         ],
-        "subtags": [
-            "desktop"
-        ],
+        "subtags": [],
         "type": ""
     },
     "desktop.wayland_libraries": {
         "tags": [
+            "desktop",
             "wayland"
         ],
-        "subtags": [
-            "desktop"
-        ],
+        "subtags": [],
         "type": "",
         "subtype": "library"
     },
     "development.ai": {
         "tags": [
+            "development",
             "ml"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.apis": {
         "tags": [
+            "development",
             "api"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.cli_tui_development": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "development",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.containers_orchestration_ci": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "development",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.cross_environment": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "development",
-            "EDITMANUALLY",
-            "crossEnvironment"
+            "crossEnvironment",
+            "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.documentation": {
         "tags": [
+            "development",
             "documentation"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.documentation.browsers": {
         "tags": [
-            "documentation"
-        ],
-        "subtags": [
             "development",
+            "documentation",
             "viewing"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.editor.gui": {
         "tags": [
+            "development",
             "editor",
             "gui"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.editor.gui.in_browser": {
         "tags": [
+            "development",
             "editor",
             "gui"
+            
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": "",
         "subtype": "browserBased"
     },
     "development.editor.gui.in_browser.integration": {
         "tags": [
-            "editor",
-            "gui"
-        ],
-        "subtags": [
             "development",
+            "editor",
+            "gui",
             "integration"
         ],
+        "subtags": [],
         "type": "",
         "subtype": "browserBased"
     },
     "development.editor.gui.in_browser.notebook.jupyter": {
         "tags": [
+            "development",
             "editor",
             "gui",
-            "notebook"
-        ],
-        "subtags": [
-            "development",
+            "notebook",
             "jupyter "
         ],
+        "subtags": [],
         "type": "",
         "subtype": "browserBased"
     },
     "development.editor.gui.in_browser.notebook.nonjupyter": {
         "tags": [
+            "development",
             "editor",
             "gui",
-            "notebook"
-        ],
-        "subtags": [
-            "development",
+            "notebook",
             "nonJupyter"
         ],
+        "subtags": [],
         "type": "",
         "subtype": "browserBased"
     },
     "development.editor.markdown.cli": {
         "tags": [
+            "development",
             "editor",
             "markdown",
             "cli"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.editor.markdown.gui": {
         "tags": [
+            "development",
             "editor",
             "markdown",
             "gui"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.editor.pdf": {
         "tags": [
-            "editor"
-        ],
-        "subtags": [
             "development",
+            "editor",
             "pdf"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.editor.tex.gui": {
         "tags": [
+            "development",
             "editor",
             "tex",
             "gui"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.editor.typesetting": {
         "tags": [
-            "editor"
-        ],
-        "subtags": [
             "development",
+            "editor",
             "typesetting"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.editor.typesetting.tex": {
         "tags": [
+            "development",
             "editor",
+            "typesetting",
             "tex"
         ],
-        "subtags": [
-            "development",
-            "typesetting"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.formatting": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "development",
             "formatting"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.haskell": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "development",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.haskell.constraint_programming": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "development",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.input": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "development",
             "input"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.lua": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "development",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.misc": {
         "tags": [
+            "development",
             "lua"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.miscellaneous.maps": {
         "tags": [
+            "development",
             "map"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.miscellaneous.wiki": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "development",
             "wiki"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.proglangs.config_and_serialization": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "development",
-            "serializationLang",
             "configLang",
+            "serializationLang",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.proglangs.frameworks": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "development",
             "framework"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.proglangs.haskell": {
         "tags": [
+            "development",
             "haskell"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.proglangs.http_server": {
         "tags": [
+            "development",
+            "http",
             "server"
         ],
-        "subtags": [
-            "development",
-            "http"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.proglangs.julia": {
         "tags": [
+            "development",
             "julia"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.proglangs.kotlin_and_android": {
         "tags": [
+            "development",
             "kotlin",
             "android"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.proglangs.language_specific_libraries": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "development",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.proglangs.regex": {
         "tags": [
-            "regex"
-        ],
-        "subtags": [
             "development",
+            "regex",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.proglangs.rpc": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "development",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.proglangs.tex": {
         "tags": [
+            "development",
             "tex"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.python": {
         "tags": [
+            "development",
             "python"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.python.cli": {
         "tags": [
+            "development",
             "python",
             "cli"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.resume": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "development",
             "resume"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.rust": {
         "tags": [
+            "development",
             "rust"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.testing_and_mocking": {
         "tags": [
-            "testing"
-        ],
-        "subtags": [
             "development",
+            "testing",
             "mocking"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.tools.educational_projects": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "development",
             "educationalProject"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.tools.project_info": {
         "tags": [
-            "project"
-        ],
-        "subtags": [
             "development",
+            "project",
             "projectInfo"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.tools.snap": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "development",
             "snap"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.tools.workflow_and_pipeline": {
         "tags": [
+            "development",
+            "workflow",
             "pipeline"
         ],
-        "subtags": [
-            "development",
-            "workflow"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.tui": {
         "tags": [
+            "development",
             "tui"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.type_systems": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "development",
             "typeSystem"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.utilities": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "development",
             "devUtils"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.visual": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "development",
             "visual"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.web.note": {
         "tags": [
+            "development",
+            "EDITMANUALLY",
             "noteTaking"
         ],
-        "subtags": [
-            "development",
-            "EDITMANUALLY"
-        ],
+        "subtags": [],
         "type": ""
     },
     "development.webdev.hosting_and_networking": {
         "tags": [
-            "webDev"
-        ],
-        "subtags": [
             "development",
+            "webDev",
             "hosting",
             "networking"
         ],
+        "subtags": [],
         "type": ""
     },
     "development.webdev.server_benchmarking": {
         "tags": [
+            "development",
             "server",
             "benchmarking"
         ],
-        "subtags": [
-            "development"
-        ],
+        "subtags": [],
         "type": ""
     },
     "docker": {
@@ -1904,192 +1780,183 @@
         "type": ""
     },
     "file_management.app_internal": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "fileManagement",
             "appInternal"
         ],
+        "subtags": [],
         "type": ""
     },
     "file_management.backup": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "fileManagement",
             "backup"
         ],
+        "subtags": [],
         "type": ""
     },
     "file_management.cleanup.gui": {
         "tags": [
+            "fileManagement",
             "cleanup",
             "gui"
         ],
-        "subtags": [
-            "fileManagement"
-        ],
+        "subtags": [],
         "type": ""
     },
     "file_management.cli": {
         "tags": [
+            "fileManagement",
             "cli"
         ],
-        "subtags": [
-            "fileManagement"
-        ],
+        "subtags": [],
         "type": ""
     },
     "file_management.clipboard_sharing": {
         "tags": [
-            "clipboard"
-        ],
-        "subtags": [
             "fileManagement",
+            "clipboard",
             "sharing"
         ],
+        "subtags": [],
         "type": ""
     },
     "file_management.compression_and_extraction": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "fileManagement",
-            "extraction",
-            "compression"
+            "compression",
+            "extraction"
         ],
+        "subtags": [],
         "type": ""
     },
     "file_management.download": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "fileManagement",
             "download"
         ],
+        "subtags": [],
         "type": ""
     },
     "file_management.editor_based": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "fileManagement",
             "editorBased"
         ],
+        "subtags": [],
         "type": ""
     },
     "file_management.gui": {
         "tags": [
+            "fileManagement",
             "gui"
         ],
-        "subtags": [
-            "fileManagement"
-        ],
+        "subtags": [],
         "type": ""
     },
     "file_management.hooks_and_watchers": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "fileManagement",
-            "watcher",
-            "hook"
+            "hook",
+            "watcher"
         ],
+        "subtags": [],
         "type": ""
     },
     "file_management.launcher_based": {
         "tags": [
+            "fileManagement",
             "launcher"
         ],
-        "subtags": [
-            "fileManagement"
-        ],
+        "subtags": [],
         "type": ""
     },
     "file_management.linux_mobile": {
         "tags": [
+            "fileManagement",
+            "linuxMobile",
             "mobile"
         ],
-        "subtags": [
-            "fileManagement",
-            "linuxMobile"
-        ],
+        "subtags": [],
         "type": ""
     },
     "file_management.other": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "fileManagement",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "file_management.qr": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "fileManagement",
             "qr"
         ],
+        "subtags": [],
         "type": ""
     },
     "file_management.remote": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "fileManagement",
             "remote"
         ],
+        "subtags": [],
         "type": ""
     },
     "file_management.synchronization": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "fileManagement",
             "sync"
         ],
+        "subtags": [],
         "type": ""
     },
     "file_management.torrent": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "fileManagement",
             "torrent"
         ],
+        "subtags": [],
         "type": ""
     },
     "file_management.transfer_and_remote": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "fileManagement",
-            "remote",
-            "transfer"
+            "transfer",
+            "remote"
         ],
+        "subtags": [],
         "type": ""
     },
     "gui.browser.esoteric.maximal_privacy": {
         "tags": [
             "gui",
-            "browser"
-        ],
-        "subtags": [
+            "browser",
             "esoteric",
             "maxPrivacy"
         ],
+        "subtags": [],
         "type": ""
     },
     "gui.browser.esoteric.nonvim": {
         "tags": [
             "gui",
-            "browser"
-        ],
-        "subtags": [
+            "browser",
             "esoteric",
             "nonVim"
         ],
+        "subtags": [],
         "type": ""
     },
     "gui.browser.esoteric.vim": {
         "tags": [
             "gui",
-            "browser"
-        ],
-        "subtags": [
+            "browser",
             "esoteric",
             "vim"
         ],
+        "subtags": [],
         "type": ""
     },
     "gui.browser.extensions": {
@@ -2229,11 +2096,10 @@
     "gui.browser.hacker": {
         "tags": [
             "gui",
-            "browser"
-        ],
-        "subtags": [
+            "browser",
             "hacker"
         ],
+        "subtags": [],
         "type": ""
     },
     "gui.browser.mobile": {
@@ -2248,32 +2114,29 @@
     "gui.browser.normie": {
         "tags": [
             "gui",
-            "browser"
-        ],
-        "subtags": [
+            "browser",
             "normie"
         ],
+        "subtags": [],
         "type": ""
     },
     "gui.browser.related_tools": {
         "tags": [
             "gui",
-            "browser"
-        ],
-        "subtags": [
+            "browser",
             "relatedTools"
         ],
+        "subtags": [],
         "type": ""
     },
     "gui.browser.ricing.chromium": {
         "tags": [
             "gui",
             "browser",
-            "ricing"
-        ],
-        "subtags": [
+            "ricing",
             "chromium"
         ],
+        "subtags": [],
         "type": ""
     },
     "gui.browser.ricing.css_sources": {
@@ -2281,33 +2144,31 @@
             "gui",
             "browser",
             "css",
-            "ricing"
-        ],
-        "subtags": [
+            "ricing",
             "cssSources"
         ],
+        "subtags": [],
         "type": ""
     },
     "gui.browser.ricing.firefox": {
         "tags": [
             "gui",
             "browser",
-            "ricing"
-        ],
-        "subtags": [
+            "ricing",
             "firefox"
         ],
+        "subtags": [],
         "type": ""
     },
     "gui.browser.ricing.firefox.hardening": {
         "tags": [
             "gui",
             "browser",
-            "ricing"
+            "ricing",
+            "firefox"
         ],
         "subtags": [
-            "hardening",
-            "firefox"
+            "hardening"
         ],
         "type": ""
     },
@@ -2315,11 +2176,10 @@
         "tags": [
             "gui",
             "browser",
-            "ricing"
-        ],
-        "subtags": [
+            "ricing",
             "floorp"
         ],
+        "subtags": [],
         "type": ""
     },
     "gui.browser.ricing.reference_extensions": {
@@ -2400,11 +2260,10 @@
     },
     "gui.finances": {
         "tags": [
-            "gui"
-        ],
-        "subtags": [
+            "gui",
             "finances"
         ],
+        "subtags": [],
         "type": ""
     },
     "gui.fonts": {
@@ -2425,29 +2284,26 @@
     },
     "gui.inspection": {
         "tags": [
-            "gui"
-        ],
-        "subtags": [
+            "gui",
             "inspection"
         ],
+        "subtags": [],
         "type": ""
     },
     "gui.misc.noise": {
         "tags": [
-            "gui"
-        ],
-        "subtags": [
+            "gui",
             "noise"
         ],
+        "subtags": [],
         "type": ""
     },
     "gui.nix_cheats": {
         "tags": [
-            "gui"
-        ],
-        "subtags": [
+            "gui",
             "nixCheat"
         ],
+        "subtags": [],
         "type": ""
     },
     "gui.reading": {
@@ -2461,20 +2317,18 @@
     "gui.reading.rss": {
         "tags": [
             "gui",
-            "reading"
-        ],
-        "subtags": [
+            "reading",
             "rss"
         ],
+        "subtags": [],
         "type": ""
     },
     "gui.remote_desktop": {
         "tags": [
-            "gui"
-        ],
-        "subtags": [
+            "gui",
             "remoteDesktop"
         ],
+        "subtags": [],
         "type": ""
     },
     "gui.translation": {
@@ -2488,497 +2342,454 @@
     "media.consumption.audio.console": {
         "tags": [
             "media",
-            "audio"
-        ],
-        "subtags": [
             "consumption",
+            "audio",
             "console"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.consumption.audio.gui": {
         "tags": [
             "media",
+            "consumption",
             "audio",
             "gui"
         ],
-        "subtags": [
-            "consumption"
-        ],
+        "subtags": [],
         "type": ""
     },
     "media.consumption.audio.podcast_and_audiobook": {
         "tags": [
             "media",
-            "podcast"
-        ],
-        "subtags": [
             "consumption",
+            "podcast",
             "audiobook",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.consumption.audio.search_download_library_management_metadata_art_etc": {
         "tags": [
             "media",
+            "consumption",
+            "EDITMANUALLY",
             "audio"
         ],
         "subtags": [
-            "miscellaneous",
-            "consumption",
-            "EDITMANUALLY"
+            "miscellaneous"
         ],
         "type": ""
     },
     "media.consumption.audio.song_id": {
         "tags": [
             "media",
-            "audio"
-        ],
-        "subtags": [
             "consumption",
+            "audio",
             "songId"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.consumption.audio.visualization": {
         "tags": [
             "media",
+            "consumption",
             "audio",
             "visualization"
         ],
-        "subtags": [
-            "consumption"
-        ],
+        "subtags": [],
         "type": ""
     },
     "media.consumption.audiovisual.media_server_and_daemon": {
         "tags": [
             "media",
-            "audio"
-        ],
-        "subtags": [
             "consumption",
+            "audio",
             "video",
             "mediaServer"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.consumption.cli_player_controllers": {
         "tags": [
             "media",
-            "cli"
-        ],
-        "subtags": [
             "consumption",
+            "cli",
             "playerController"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.consumption.image": {
         "tags": [
             "media",
+            "consumption",
             "image"
         ],
-        "subtags": [
-            "consumption"
-        ],
+        "subtags": [],
         "type": ""
     },
     "media.consumption.library_and_list_management": {
         "tags": [
-            "media"
-        ],
-        "subtags": [
+            "media",
             "consumption",
             "libraryManagement"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.consumption.lyrics": {
         "tags": [
-            "media"
-        ],
-        "subtags": [
+            "media",
             "consumption",
             "lyrics"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.consumption.miscellaneous.volume": {
         "tags": [
-            "media"
-        ],
-        "subtags": [
+            "media",
             "consumption",
             "volume"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.consumption.player_controller": {
         "tags": [
-            "media"
-        ],
-        "subtags": [
+            "media",
             "consumption",
             "playerController"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.consumption.video": {
         "tags": [
-            "media"
-        ],
-        "subtags": [
+            "media",
             "consumption",
             "video"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.consumption.video.television": {
         "tags": [
-            "media"
-        ],
-        "subtags": [
+            "media",
             "consumption",
-            "television",
-            "video"
+            "video",
+            "television"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.consumption.video.youtube": {
         "tags": [
             "media",
+            "consumption",
+            "video",
             "youtube"
         ],
-        "subtags": [
-            "consumption",
-            "video"
-        ],
+        "subtags": [],
         "type": ""
     },
     "media.consumption.video.youtube.music": {
         "tags": [
             "media",
+            "consumption",
+            "video",
             "youtube",
             "music"
         ],
-        "subtags": [
-            "consumption",
-            "video"
-        ],
+        "subtags": [],
         "type": ""
     },
     "media.consumption.youtube": {
         "tags": [
             "media",
+            "consumption",
             "youtube"
         ],
-        "subtags": [
-            "consumption"
-        ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.ascii": {
         "tags": [
-            "media"
-        ],
-        "subtags": [
+            "media",
             "creation",
             "ascii"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.audio": {
         "tags": [
             "media",
+            "creation",
             "audio"
         ],
-        "subtags": [
-            "creation"
-        ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.audio.editing": {
         "tags": [
             "media",
-            "audio"
-        ],
-        "subtags": [
             "creation",
+            "audio",
             "editing"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.audio.file_tagging": {
         "tags": [
             "media",
-            "audio"
-        ],
-        "subtags": [
             "creation",
+            "audio",
             "fileTagging"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.audio.powerful_editors": {
         "tags": [
             "media",
+            "creation",
             "editor"
         ],
         "subtags": [
-            "powerful",
-            "creation"
+            "powerful"
         ],
         "type": ""
     },
     "media.creation.audio.speech_processing": {
         "tags": [
             "media",
+            "creation",
             "audio",
             "speechProcessing"
         ],
-        "subtags": [
-            "creation"
-        ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.audio.transcription": {
         "tags": [
             "media",
+            "creation",
             "audio"
         ],
-        "subtags": [
-            "creation"
-        ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.camera": {
         "tags": [
-            "media"
-        ],
-        "subtags": [
+            "media",
             "creation",
             "camera"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.cool_software_needs_theming_fixes": {
         "tags": [
-            "media"
-        ],
-        "subtags": [
+            "media",
             "creation",
             "coolSoftwareNeedsThemingFixes"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.everything": {
         "tags": [
-            "media"
-        ],
-        "subtags": [
-            "everything",
+            "media",
             "creation",
             "EDITMANUALLY"
+        ],
+        "subtags": [
+            "everything"
         ],
         "type": ""
     },
     "media.creation.gif_creation": {
         "tags": [
-            "media"
-        ],
-        "subtags": [
+            "media",
             "creation",
             "gif"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.image.editing": {
         "tags": [
             "media",
-            "image"
-        ],
-        "subtags": [
             "creation",
+            "image",
             "editing"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.image.editing_and_management": {
         "tags": [
             "media",
-            "image"
-        ],
-        "subtags": [
             "creation",
+            "image",
             "editing",
             "management"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.image.photo_search": {
         "tags": [
             "media",
+            "creation",
+            "photo",
             "search"
         ],
-        "subtags": [
-            "creation",
-            "photo"
-        ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.image.svg": {
         "tags": [
             "media",
+            "creation",
             "image",
+            "vector",
             "svg"
         ],
-        "subtags": [
-            "creation",
-            "vector"
-        ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.image.vector": {
         "tags": [
             "media",
-            "image"
-        ],
-        "subtags": [
             "creation",
+            "image",
             "vector"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.library_and_api": {
         "tags": [
             "media",
+            "creation",
             "api"
         ],
-        "subtags": [
-            "creation"
-        ],
+        "subtags": [],
         "type": "",
         "subtype": "library"
     },
     "media.creation.recording_broadcasting_streaming": {
         "tags": [
-            "media"
-        ],
-        "subtags": [
+            "media",
             "creation",
-            "EDITMANUALLY",
-            "broadcastStreamingRecording"
+            "broadcastStreamingRecording",
+            "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.recording_streaming_etc": {
         "tags": [
-            "media"
-        ],
-        "subtags": [
+            "media",
             "creation",
-            "EDITMANUALLY",
-            "broadcastStreamingRecording"
+            "broadcastStreamingRecording",
+            "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.special": {
         "tags": [
-            "media"
-        ],
-        "subtags": [
+            "media",
             "creation",
             "special"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.specific_platforms": {
         "tags": [
-            "media"
-        ],
-        "subtags": [
+            "media",
             "creation",
             "specificPlatform"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.streaming_and_broadcasting": {
         "tags": [
-            "media"
-        ],
-        "subtags": [
+            "media",
             "creation",
-            "EDITMANUALLY",
-            "broadcastStreamingRecording"
+            "broadcastStreamingRecording",
+            "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.visual.drawing": {
         "tags": [
             "media",
+            "creation",
+            "visual",
             "drawing"
         ],
-        "subtags": [
-            "creation",
-            "visual"
-        ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.visual.drawing_boards": {
         "tags": [
             "media",
-            "drawing"
-        ],
-        "subtags": [
             "creation",
-            "board",
-            "visual"
+            "visual",
+            "drawing",
+            "board"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.visual.text_to_graphic": {
         "tags": [
-            "media"
-        ],
-        "subtags": [
+            "media",
             "creation",
-            "graphicFromText",
-            "visual"
+            "visual",
+            "graphicFromText"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.visualization": {
         "tags": [
             "media",
+            "creation",
             "visualization"
         ],
-        "subtags": [
-            "creation"
-        ],
+        "subtags": [],
         "type": ""
     },
     "media.creation.visualization.libraries": {
         "tags": [
             "media",
+            "creation",
             "visualization"
         ],
-        "subtags": [
-            "creation"
-        ],
+        "subtags": [],
         "type": "",
         "subtype": "library"
     },
     "media.music.radio": {
         "tags": [
             "media",
-            "music"
-        ],
-        "subtags": [
+            "music",
             "radio"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.music.spotify.cli": {
@@ -3005,11 +2816,10 @@
         "tags": [
             "media",
             "music",
-            "spotify"
-        ],
-        "subtags": [
+            "spotify",
             "other"
         ],
+        "subtags": [],
         "type": ""
     },
     "media.music.spotify.tui": {
@@ -3024,12 +2834,11 @@
     },
     "media.video.editing": {
         "tags": [
-            "media"
-        ],
-        "subtags": [
+            "media",
             "video",
             "editing"
         ],
+        "subtags": [],
         "type": ""
     },
     "messaging.discord": {
@@ -3124,56 +2933,52 @@
         "type": ""
     },
     "move": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "needs_work": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "EDITMANUALLY",
             "needsWork"
         ],
+        "subtags": [],
         "type": ""
     },
     "needs_work.clock": {
         "tags": [
-            "clock"
-        ],
-        "subtags": [
+            "clock",
             "EDITMANUALLY",
             "needsWork"
         ],
+        "subtags": [],
         "type": ""
     },
     "system.app_running_and_user_management": {
         "tags": [
-            "system"
-        ],
-        "subtags": [
+            "system",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "system.bluetooth": {
         "tags": [
-            "system"
-        ],
-        "subtags": [
+            "system",
             "bluetooth"
         ],
+        "subtags": [],
         "type": ""
     },
     "system.boot.iso_creation": {
         "tags": [
-            "system"
-        ],
-        "subtags": [
+            "system",
             "iso",
             "isoCreation"
         ],
+        "subtags": [],
         "type": ""
     },
     "system.boot.tools": {
@@ -3186,51 +2991,48 @@
     },
     "system.debianoid_only": {
         "tags": [
-            "system"
+            "system",
+            "nonNix"
         ],
         "subtags": [
-            "debianoidOnly",
-            "nonNix"
+            "debianoidOnly"
         ],
         "type": ""
     },
     "system.disk.partitioning": {
         "tags": [
-            "system"
-        ],
-        "subtags": [
+            "system",
             "disk",
             "partitioning"
         ],
+        "subtags": [],
         "type": ""
     },
     "system.input": {
         "tags": [
-            "system"
-        ],
-        "subtags": [
+            "system",
             "input"
         ],
+        "subtags": [],
         "type": ""
     },
     "system.input.chinese": {
         "tags": [
-            "system"
+            "system",
+            "input"
         ],
         "subtags": [
-            "ZH",
-            "input"
+            "ZH"
         ],
         "type": ""
     },
     "system.kernel.modprobe": {
         "tags": [
-            "system"
-        ],
-        "subtags": [
+            "system",
             "kernel",
             "modprobe"
         ],
+        "subtags": [],
         "type": ""
     },
     "system.nixos_only": {
@@ -3245,21 +3047,19 @@
     },
     "system.non_nix_config_management": {
         "tags": [
-            "system"
-        ],
-        "subtags": [
+            "system",
             "nonNix",
             "configManagement"
         ],
+        "subtags": [],
         "type": ""
     },
     "system.non_nixos_only": {
         "tags": [
-            "system"
-        ],
-        "subtags": [
+            "system",
             "nonNix"
         ],
+        "subtags": [],
         "type": ""
     },
     "system.nvidia_only": {
@@ -3290,20 +3090,18 @@
     },
     "system.system_management": {
         "tags": [
-            "system"
-        ],
-        "subtags": [
+            "system",
             "management"
         ],
+        "subtags": [],
         "type": ""
     },
     "system.tuxedo_only": {
         "tags": [
-            "system"
-        ],
-        "subtags": [
+            "system",
             "tuxedoOnly"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.calendar": {
@@ -3335,10 +3133,10 @@
         "type": ""
     },
     "tool.general.best": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.general.gui": {
@@ -3351,196 +3149,183 @@
     },
     "tool.general.inspiration": {
         "tags": [
-            "general"
-        ],
-        "subtags": [
+            "general",
             "inspiration"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.general.multiple": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.networking": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "networking",
             "networking"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.networking.automation": {
         "tags": [
+            "networking",
             "automation"
         ],
-        "subtags": [
-            "networking"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.networking.bookmarkManagement": {
         "tags": [
+            "networking",
             "bookmarkManagement"
         ],
-        "subtags": [
-            "networking"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.networking.desktop": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "networking",
             "desktop"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.networking.hosting": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "networking",
             "hosting"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.networking.matrix": {
         "tags": [
+            "networking",
             "matrix"
         ],
-        "subtags": [
-            "networking"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.networking.mobile": {
         "tags": [
+            "networking",
             "mobile"
         ],
-        "subtags": [
-            "networking"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.networking.mobile.bot": {
         "tags": [
+            "networking",
             "mobile",
             "bot"
         ],
-        "subtags": [
-            "networking"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.networking.mobile.foreground": {
         "tags": [
-            "mobile"
-        ],
-        "subtags": [
             "networking",
+            "mobile",
             "foreground"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.networking.mobile.general": {
         "tags": [
+            "networking",
             "mobile",
             "general"
         ],
-        "subtags": [
-            "networking"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.networking.mobile.intheam": {
         "tags": [
-            "mobile"
-        ],
-        "subtags": [
             "networking",
+            "mobile",
             "intheam"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.networking.mobile.signal": {
         "tags": [
-            "mobile"
-        ],
-        "subtags": [
             "networking",
+            "mobile",
             "signal"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.networking.mobile.sync": {
         "tags": [
-            "mobile"
-        ],
-        "subtags": [
             "networking",
+            "mobile",
             "sync"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.networking.notification": {
         "tags": [
+            "networking",
             "notification"
         ],
-        "subtags": [
-            "networking"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.networking.server": {
         "tags": [
+            "networking",
             "server"
         ],
-        "subtags": [
-            "networking"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.networking.signal": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "networking",
             "signal"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.networking.sync": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "networking",
             "sync"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.networking.telegram": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "networking",
             "telegram"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.networking.web": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "networking",
             "web"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.networking.webhook": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "networking",
             "webhook"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.note": {
@@ -3552,51 +3337,46 @@
     },
     "tool.note.2ndbrain": {
         "tags": [
-            "noteTaking"
-        ],
-        "subtags": [
+            "noteTaking",
             "secondBrain"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.note.2ndbrain.cli": {
         "tags": [
             "noteTaking",
+            "secondBrain",
             "cli"
         ],
-        "subtags": [
-            "secondBrain"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.note.2ndbrain.gui": {
         "tags": [
             "noteTaking",
+            "secondBrain",
             "gui"
         ],
-        "subtags": [
-            "secondBrain"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.note.2ndbrain.obsidian": {
         "tags": [
             "noteTaking",
+            "secondBrain",
             "obsidian"
         ],
-        "subtags": [
-            "secondBrain"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.note.appflowy_etc": {
         "tags": [
-            "noteTaking"
-        ],
-        "subtags": [
+            "noteTaking",
             "secondBrain",
             "appFlowy"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.note.gui": {
@@ -3610,11 +3390,10 @@
     "tool.note.gui.multiple": {
         "tags": [
             "noteTaking",
-            "gui"
-        ],
-        "subtags": [
+            "gui",
             "multiPlatform"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.note.mobile": {
@@ -3627,20 +3406,18 @@
     },
     "tool.note.multiple": {
         "tags": [
-            "noteTaking"
-        ],
-        "subtags": [
+            "noteTaking",
             "multiPlatform"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.note.notion": {
         "tags": [
-            "noteTaking"
-        ],
-        "subtags": [
+            "noteTaking",
             "notion"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.note.orgmode": {
@@ -3661,11 +3438,10 @@
     },
     "tool.note.web": {
         "tags": [
-            "noteTaking"
-        ],
-        "subtags": [
+            "noteTaking",
             "web"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.nvim": {
@@ -3688,18 +3464,17 @@
     "tool.nvim.taskwarrior": {
         "tags": [
             "editor",
-            "nvim"
-        ],
-        "subtags": [
+            "nvim",
             "taskwarrior"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.other": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.other.bookmarks": {
@@ -3731,24 +3506,24 @@
         "type": ""
     },
     "tool.other.home_assistant": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "homeAssistant"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.other.list_management": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "listManagement"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.other.luxury": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "luxury"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.other.meditation": {
@@ -3759,17 +3534,17 @@
         "type": ""
     },
     "tool.other.noise": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "noise"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.other.spaced_repitition": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "spacedRepitition"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.other.visualization": {
@@ -3780,19 +3555,18 @@
         "type": ""
     },
     "tool.project_management": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "projectManagement"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.task.->": {
         "tags": [
-            "todoManagement"
-        ],
-        "subtags": [
+            "todoManagement",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.task.android": {
@@ -3830,11 +3604,10 @@
     "tool.task.gui.desktop": {
         "tags": [
             "todoManagement",
-            "gui"
-        ],
-        "subtags": [
+            "gui",
             "desktop"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.task.gui.gtd": {
@@ -3864,11 +3637,10 @@
     },
     "tool.task.multiple": {
         "tags": [
-            "todoManagement"
-        ],
-        "subtags": [
+            "todoManagement",
             "multiple"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.task.nvim": {
@@ -3881,11 +3653,10 @@
     },
     "tool.task.platform": {
         "tags": [
-            "todoManagement"
-        ],
-        "subtags": [
+            "todoManagement",
             "platform"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.task.tui": {
@@ -3898,718 +3669,694 @@
     },
     "tool.task.web": {
         "tags": [
-            "todoManagement"
-        ],
-        "subtags": [
+            "todoManagement",
             "web"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.->": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.android": {
         "tags": [
+            "taskwarrior",
             "android"
         ],
-        "subtags": [
-            "taskwarrior"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.bot": {
         "tags": [
+            "taskwarrior",
             "bot"
         ],
-        "subtags": [
-            "taskwarrior"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.connection": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
             "networking"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.connection.android": {
         "tags": [
+            "taskwarrior",
+            "networking",
             "android"
         ],
-        "subtags": [
-            "taskwarrior",
-            "networking"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.connection.mail": {
         "tags": [
+            "taskwarrior",
+            "networking",
             "email"
         ],
-        "subtags": [
-            "taskwarrior",
-            "networking"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.connection.sync": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
-            "sync",
-            "networking"
+            "networking",
+            "sync"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.data": {
         "tags": [
+            "taskwarrior",
             "data"
         ],
-        "subtags": [
-            "taskwarrior"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.dependency_graph": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
             "dependencyGraph"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.desktop": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
             "desktop"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.export": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
             "export"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.extra": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
             "extra"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.feature": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
             "feature"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.feature.hook": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
-            "hook",
-            "feature"
+            "feature",
+            "hook"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.feature.note": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
-            "note",
-            "feature"
+            "feature",
+            "note"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.gtd": {
         "tags": [
+            "taskwarrior",
             "gtd"
         ],
-        "subtags": [
-            "taskwarrior"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.gui": {
         "tags": [
+            "taskwarrior",
             "gui"
         ],
-        "subtags": [
-            "taskwarrior"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.hook": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
             "hook"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.import": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
             "import"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.install": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
             "install"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.integration": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
             "integration"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.integration.bookmarkManagement": {
         "tags": [
+            "taskwarrior",
+            "integration",
             "bookmarkManagement"
         ],
-        "subtags": [
-            "taskwarrior",
-            "integration"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.integration.desktop": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
-            "desktop",
-            "integration"
+            "integration",
+            "desktop"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.integration.email": {
         "tags": [
+            "taskwarrior",
+            "integration",
             "email"
         ],
-        "subtags": [
-            "taskwarrior",
-            "integration"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.integration.export": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
-            "export",
-            "integration"
+            "integration",
+            "export"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.integration.notification": {
         "tags": [
+            "taskwarrior",
+            "integration",
             "notification"
         ],
-        "subtags": [
-            "taskwarrior",
-            "integration"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.library": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior"
         ],
+        "subtags": [],
         "type": "",
         "subtype": "library"
     },
     "tool.taskwarrior.meta": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
             "meta"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.misc": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
             "misc"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.miscellaneous": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
             "miscellaneous"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.networking.mobile": {
         "tags": [
+            "taskwarrior",
+            "networking",
             "mobile"
         ],
-        "subtags": [
-            "taskwarrior",
-            "networking"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.nix": {
         "tags": [
+            "taskwarrior",
             "nix"
         ],
-        "subtags": [
-            "taskwarrior"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.nvim": {
         "tags": [
+            "taskwarrior",
             "nvim"
         ],
-        "subtags": [
-            "taskwarrior"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.server": {
         "tags": [
+            "taskwarrior",
             "server"
         ],
-        "subtags": [
-            "taskwarrior"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.similar": {
-        "tags": [],
-        "subtags": [
-            "similar",
+        "tags": [
             "taskwarrior"
+        ],
+        "subtags": [
+            "similar"
         ],
         "type": ""
     },
     "tool.taskwarrior.theme": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
             "theme"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.timewarrior": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "taskwarrior",
             "timewarrior"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.tui": {
         "tags": [
+            "taskwarrior",
             "tui"
         ],
-        "subtags": [
-            "taskwarrior"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.visualization": {
         "tags": [
+            "taskwarrior",
             "visualization"
         ],
-        "subtags": [
-            "taskwarrior"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.taskwarrior.wrapper": {
-        "tags": [],
-        "subtags": [
-            "wrapper",
+        "tags": [
             "taskwarrior"
+        ],
+        "subtags": [
+            "wrapper"
         ],
         "type": ""
     },
     "tool.taskwarrior.wrapper.android": {
         "tags": [
+            "taskwarrior",
             "android"
         ],
         "subtags": [
-            "wrapper",
-            "taskwarrior"
+            "wrapper"
         ],
         "type": ""
     },
     "tool.taskwarrior.wrapper.api": {
         "tags": [
+            "taskwarrior",
             "api"
         ],
         "subtags": [
-            "wrapper",
-            "taskwarrior"
+            "wrapper"
         ],
         "type": ""
     },
     "tool.taskwarrior.wrapper.cli": {
         "tags": [
+            "taskwarrior",
             "cli"
         ],
         "subtags": [
-            "wrapper",
-            "taskwarrior"
+            "wrapper"
         ],
         "type": ""
     },
     "tool.taskwarrior.wrapper.multiple": {
-        "tags": [],
-        "subtags": [
-            "wrapper",
+        "tags": [
             "taskwarrior",
             "multiPlatform"
+        ],
+        "subtags": [
+            "wrapper"
         ],
         "type": ""
     },
     "tool.taskwarrior.wrapper.tui": {
         "tags": [
+            "taskwarrior",
             "tui"
         ],
         "subtags": [
-            "wrapper",
-            "taskwarrior"
+            "wrapper"
         ],
         "type": ""
     },
     "tool.taskwarrior.wrapper.web": {
-        "tags": [],
-        "subtags": [
-            "wrapper",
+        "tags": [
             "taskwarrior",
             "web"
+        ],
+        "subtags": [
+            "wrapper"
         ],
         "type": ""
     },
     "tool.timewarrior": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "timewarrior"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.timewarrior.->": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "timewarrior",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.timewarrior.clockodo": {
         "tags": [
+            "timewarrior",
             "clockodo"
         ],
-        "subtags": [
-            "timewarrior"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.timewarrior.completion": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "timewarrior",
             "completion"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.timewarrior.connection.sync": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "timewarrior",
-            "sync",
-            "networking"
+            "networking",
+            "sync"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.timewarrior.feature": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "timewarrior",
             "feature"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.timewarrior.info": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "timewarrior",
             "info"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.timewarrior.integration": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "timewarrior",
             "integration"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.timewarrior.library": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "timewarrior"
         ],
+        "subtags": [],
         "type": "",
         "subtype": "library"
     },
     "tool.timewarrior.output": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "timewarrior",
             "output"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.timewarrior.similar": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "timewarrior",
             "similar"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.timewarrior.taskwarrior": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "timewarrior",
             "taskwarrior"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.timewarrior.visualization": {
         "tags": [
+            "timewarrior",
             "visualization"
         ],
-        "subtags": [
-            "timewarrior"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.timewarrior.wrapper.cli": {
         "tags": [
+            "timewarrior",
             "cli"
         ],
         "subtags": [
-            "wrapper",
-            "timewarrior"
+            "wrapper"
         ],
         "type": ""
     },
     "tool.timewarrior.wrapper.gui": {
         "tags": [
+            "timewarrior",
             "gui"
         ],
         "subtags": [
-            "wrapper",
-            "timewarrior"
+            "wrapper"
         ],
         "type": ""
     },
     "tool.timewarrior.wrapper.tui": {
         "tags": [
+            "timewarrior",
             "tui"
         ],
         "subtags": [
-            "wrapper",
-            "timewarrior"
+            "wrapper"
         ],
         "type": ""
     },
     "tool.tracking": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "tracking"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.tracking.dashboard": {
         "tags": [
+            "tracking",
             "dashboard"
         ],
-        "subtags": [
-            "tracking"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.tracking.fitness": {
         "tags": [
+            "tracking",
             "fitness"
         ],
-        "subtags": [
-            "tracking"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.tracking.fitness.->": {
         "tags": [
-            "fitness"
-        ],
-        "subtags": [
             "tracking",
+            "fitness",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.tracking.fitness.food": {
         "tags": [
+            "tracking",
             "fitness",
             "food"
         ],
-        "subtags": [
-            "tracking"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.tracking.fitness.food.cli": {
         "tags": [
+            "tracking",
             "fitness",
             "food",
             "cli"
         ],
-        "subtags": [
-            "tracking"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.tracking.fitness.workout": {
         "tags": [
+            "tracking",
             "fitness",
             "workout"
         ],
-        "subtags": [
-            "tracking"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.tracking.fitness.workout.algorithm": {
         "tags": [
+            "tracking",
             "fitness",
             "workout",
             "algorithm"
         ],
-        "subtags": [
-            "tracking"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.tracking.general": {
-        "tags": [],
-        "subtags": [
-            "general",
+        "tags": [
             "tracking"
+        ],
+        "subtags": [
+            "general"
         ],
         "type": ""
     },
     "tool.tracking.general.multiple": {
-        "tags": [],
+        "tags": [
+            "tracking"
+        ],
         "subtags": [
             "general",
-            "multiple",
-            "tracking"
+            "multiple"
         ],
         "type": ""
     },
     "tool.tracking.habit": {
         "tags": [
+            "tracking",
             "habit"
         ],
-        "subtags": [
-            "tracking"
-        ],
+        "subtags": [],
         "type": ""
     },
     "tool.tracking.pomodoro": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "tracking",
             "pomodoro"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.tracking.pomodoro.taskwarrior": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "tracking",
-            "taskwarrior",
-            "pomodoro"
+            "pomodoro",
+            "taskwarrior"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.tracking.time": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "tracking",
             "time"
         ],
+        "subtags": [],
         "type": ""
     },
     "tool.tracking.time.cli": {
         "tags": [
+            "tracking",
+            "time",
             "cli"
         ],
-        "subtags": [
-            "tracking",
-            "time"
-        ],
+        "subtags": [],
         "type": ""
     },
     "version_control.codeberg": {
         "tags": [
             "versionControl",
-            "git"
-        ],
-        "subtags": [
+            "git",
             "gitServer",
             "codeberg"
         ],
+        "subtags": [],
         "type": ""
     },
     "version_control.commitmsg_and_versioning": {
         "tags": [
-            "versionControl"
-        ],
-        "subtags": [
+            "versionControl",
             "commitMessage",
             "versioning"
         ],
+        "subtags": [],
         "type": ""
     },
     "version_control.development": {
@@ -4631,12 +4378,11 @@
     },
     "version_control.git_alternatives_and_complements": {
         "tags": [
-            "versionControl"
-        ],
-        "subtags": [
+            "versionControl",
             "gitAlternative",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "version_control.git_education": {
@@ -4652,33 +4398,30 @@
     "version_control.git_servers": {
         "tags": [
             "versionControl",
-            "git"
-        ],
-        "subtags": [
+            "git",
             "gitServer"
         ],
+        "subtags": [],
         "type": ""
     },
     "version_control.git_servers.github": {
         "tags": [
             "versionControl",
             "git",
+            "gitServer",
             "github"
         ],
-        "subtags": [
-            "gitServer"
-        ],
+        "subtags": [],
         "type": ""
     },
     "version_control.git_servers.gitlab": {
         "tags": [
             "versionControl",
             "git",
+            "gitServer",
             "gitlab"
         ],
-        "subtags": [
-            "gitServer"
-        ],
+        "subtags": [],
         "type": ""
     },
     "version_control.git.extensions": {
@@ -4741,30 +4484,27 @@
     },
     "version_control.qol": {
         "tags": [
-            "versionControl"
-        ],
-        "subtags": [
+            "versionControl",
             "qualityOfLife"
         ],
+        "subtags": [],
         "type": ""
     },
     "version_control.reimplementations": {
         "tags": [
-            "versionControl"
-        ],
-        "subtags": [
+            "versionControl",
             "reimplementation"
         ],
+        "subtags": [],
         "type": ""
     },
     "version_control.sourcehut:": {
         "tags": [
-            "versionControl"
-        ],
-        "subtags": [
+            "versionControl",
             "gitServer",
             "sourcehut"
         ],
+        "subtags": [],
         "type": ""
     },
     "version_control.tui": {
@@ -4784,47 +4524,46 @@
         "type": ""
     },
     "view.gantt": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "dataView",
             "gantt"
         ],
+        "subtags": [],
         "type": ""
     },
     "view.gantt.taskwarrior": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "dataView",
-            "taskwarrior",
-            "gantt"
+            "gantt",
+            "taskwarrior"
         ],
+        "subtags": [],
         "type": ""
     },
     "view.kanban": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "dataView",
             "kanban"
         ],
+        "subtags": [],
         "type": ""
     },
     "view.kanban.gui": {
         "tags": [
+            "dataView",
+            "kanban",
             "gui"
         ],
-        "subtags": [
-            "dataView",
-            "kanban"
-        ],
+        "subtags": [],
         "type": ""
     },
     "view.kanban.taskwarrior": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "dataView",
-            "taskwarrior",
-            "kanban"
+            "kanban",
+            "taskwarrior"
         ],
+        "subtags": [],
         "type": ""
     },
     "web.internet_related.bookmarks": {
@@ -4844,32 +4583,29 @@
     },
     "webdev.crawling_scraping_downloading": {
         "tags": [
-            "webDev"
-        ],
-        "subtags": [
+            "webDev",
             "crawlingAndScraping",
             "download"
         ],
+        "subtags": [],
         "type": ""
     },
     "webdev.frameworks_etc": {
         "tags": [
-            "webDev"
-        ],
-        "subtags": [
+            "webDev",
             "framework"
         ],
+        "subtags": [],
         "type": ""
     },
     "webdev.http_and_rest_client": {
         "tags": [
-            "webDev"
-        ],
-        "subtags": [
+            "webDev",
             "client",
-            "rest",
-            "htpp"
+            "htpp",
+            "rest"
         ],
+        "subtags": [],
         "type": ""
     },
     "webdev.messaging.email.gui": {
@@ -4884,51 +4620,46 @@
     },
     "webdev.miscellaneous": {
         "tags": [
-            "webDev"
-        ],
-        "subtags": [
+            "webDev",
             "EDITMANUALLY",
             "miscellaneous"
         ],
+        "subtags": [],
         "type": ""
     },
     "webdev.monitoring_and_hooks": {
         "tags": [
             "webDev",
-            "monitoring"
-        ],
-        "subtags": [
+            "monitoring",
             "hooks",
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": ""
     },
     "webdev.multiple": {
         "tags": [
-            "webDev"
-        ],
-        "subtags": [
+            "webDev",
             "multiple"
         ],
+        "subtags": [],
         "type": ""
     },
     "webdev.networking": {
         "tags": [
-            "webDev"
-        ],
-        "subtags": [
+            "webDev",
             "networking"
         ],
+        "subtags": [],
         "type": ""
     },
     "webdev.networking_and_ssh": {
         "tags": [
-            "webDev"
-        ],
-        "subtags": [
+            "webDev",
             "networking",
             "ssh"
         ],
+        "subtags": [],
         "type": ""
     },
     "webdev.security": {
@@ -4942,108 +4673,100 @@
     "webdev.security.firewalls": {
         "tags": [
             "webDev",
-            "security"
-        ],
-        "subtags": [
+            "security",
             "firewall"
         ],
+        "subtags": [],
         "type": ""
     },
     "webdev.self_hosted": {
         "tags": [
-            "webDev"
-        ],
-        "subtags": [
+            "webDev",
             "networking",
             "selfHosted"
         ],
+        "subtags": [],
         "type": ""
     },
     "webdev.server": {
         "tags": [
             "webDev",
+            "networking",
             "server"
         ],
-        "subtags": [
-            "networking"
-        ],
+        "subtags": [],
         "type": ""
     },
     "webdev.sockets": {
         "tags": [
-            "webDev"
-        ],
-        "subtags": [
+            "webDev",
             "networking",
             "socket"
         ],
+        "subtags": [],
         "type": ""
     },
     "webdev.ssh_web_interface": {
         "tags": [
-            "webDev"
-        ],
-        "subtags": [
-            "webInterface",
+            "webDev",
             "networking",
             "ssh"
+        ],
+        "subtags": [
+            "webInterface"
         ],
         "type": ""
     },
     "webdev.static": {
         "tags": [
-            "webDev"
-        ],
-        "subtags": [
+            "webDev",
             "static"
         ],
+        "subtags": [],
         "type": ""
     },
     "webdev.streamlined": {
         "tags": [
-            "webDev"
-        ],
-        "subtags": [
+            "webDev",
             "EDITMANUALLY",
             "streamlined"
         ],
+        "subtags": [],
         "type": ""
     },
     "webdev.testing.speed_bandwidth_connectivity_etc": {
         "tags": [
-            "webDev"
-        ],
-        "subtags": [
+            "webDev",
             "connectivityTesting"
         ],
+        "subtags": [],
         "type": ""
     },
     "webdev.vpn": {
         "tags": [
-            "webDev"
-        ],
-        "subtags": [
+            "webDev",
             "vpn"
         ],
+        "subtags": [],
         "type": ""
     },
     "websites.ai": {
-        "tags": [],
-        "subtags": [
-            "ai",
+        "tags": [
             "EDITMANUALLY"
         ],
+        "subtags": ["ai"],
         "type": "websiteWebapp"
     },
     "websites.development": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "EDITMANUALLY"
         ],
+        "subtags": [],
         "type": "websiteWebapp"
     },
     "websites.directories_collections": {
-        "tags": [],
+        "tags": [
+        ],
         "subtags": [],
         "type": "websiteWebapp",
         "subtype": "collection"
@@ -5056,10 +4779,10 @@
         "type": "websiteWebapp"
     },
     "websites.editing": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "editing"
         ],
+        "subtags": [],
         "type": "websiteWebapp"
     },
     "websites.human_language_learning": {
@@ -5084,26 +4807,25 @@
         "type": "websiteWebapp"
     },
     "websites.miscellaneous": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "miscellaneous"
         ],
+        "subtags": [],
         "type": "websiteWebapp"
     },
     "websites.mobile_connection": {
         "tags": [
-            "mobile"
-        ],
-        "subtags": [
+            "mobile",
             "networking"
         ],
+        "subtags": [],
         "type": "websiteWebapp"
     },
     "websites.prog_edu": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "programmingEducation"
         ],
+        "subtags": [],
         "type": "websiteWebapp"
     },
     "websites.search": {
@@ -5129,10 +4851,10 @@
         "type": "websiteWebapp"
     },
     "websites.storage": {
-        "tags": [],
-        "subtags": [
+        "tags": [
             "storage"
         ],
+        "subtags": [],
         "type": "websiteWebapp"
     },
     "websites.webdev": {

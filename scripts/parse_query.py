@@ -6,8 +6,10 @@ NEW CONSIDERATIONS =============================================
 bash special characters not allowed; neither are spaces
 structural characters in the query language are { } , . : 
 : should be reserved for binding attribute names to values, such as type:book
-_ and - would be nice to have as valid identifier characters
+_ and - would be nice to have as valid non-initial identifier characters; identifiers must start with a letter (or number?)
 support character sets from other languages, such as cyrillic
+only tags start with [A-Za-z]
+_ for subtags
 ~ for negation
 = for id
 @ to reference saved queries

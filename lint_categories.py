@@ -77,6 +77,33 @@ STATI = {
 }
 TAGS = set(
     [
+        "spreadsheet",
+        "console",
+        "secrets",
+        "donation",
+        "adblock",
+        "api",
+        "aiAssistant",
+        "bookmarkManagement",
+        "matrix",
+        "drawing",
+        "automation",
+        "github",
+        "cleanup",
+        "clipboard",
+        "desktopShell",
+        "contactManagement",
+        "clockodo",
+        "noteTaking",
+        "codeNavigation",
+        "versionControl",
+        "bot",
+        "todoManagement",
+        "dataManagement",
+        "dataWrangling",
+        "wayland",
+        "workout",
+
         "accent",
         "acoustics",
         "adversarial",
@@ -605,10 +632,20 @@ with open(p) as f:
 tags = set()
 subtags = set()
 types = set()
-for v in d.values():
+new = {}
+for k, v in d.items():
+    for tag in v["tags"]:
+        if not tag in TAGS:
+            v["tags"].remove(tag)
+            v["subtags"].append(tag)
     tags.update(v["tags"])
     subtags.update(v["subtags"])
     types.add(v["type"])
+    new.update({k: v})
+
+
+with open(p, "w") as f:
+    json.dump(new, f, indent=4, ensure_ascii=False)
 
 print("============ bad tags ============")
 print("\n".join(tags.difference(TAGS)))
@@ -617,5 +654,5 @@ print("============ bad types ============")
 print("\n".join(types.difference(TYPES)))
 
 print("============ subtags ============")
-print("\n".join(subtags))
+# print("\n".join(subtags))
 
