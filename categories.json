@@ -4758,63 +4758,63 @@
             "EDITMANUALLY"
         ],
         "subtags": [],
-        "type": "website"
+        "type": "websiteWebapp"
     },
     "websites.development": {
         "tags": [
             "EDITMANUALLY"
         ],
         "subtags": [],
-        "type": "website"
+        "type": "websiteWebapp"
     },
     "websites.directories_collections": {
         "tags": [
             "collection"
         ],
         "subtags": [],
-        "type": "website"
+        "type": "websiteWebapp"
     },
     "websites.donations": {
         "tags": [
             "donation"
         ],
         "subtags": [],
-        "type": "website"
+        "type": "websiteWebapp"
     },
     "websites.editing": {
         "tags": [
             "editing"
         ],
         "subtags": [],
-        "type": "website"
+        "type": "websiteWebapp"
     },
     "websites.human_language_learning": {
         "tags": [
             "languageLearning"
         ],
         "subtags": [],
-        "type": "website"
+        "type": "websiteWebapp"
     },
     "websites.maps": {
         "tags": [
             "map"
         ],
         "subtags": [],
-        "type": "website"
+        "type": "websiteWebapp"
     },
     "websites.media": {
         "tags": [
             "media"
         ],
         "subtags": [],
-        "type": "website"
+        "type": "websiteWebapp"
     },
     "websites.miscellaneous": {
         "tags": [
             "miscellaneous"
         ],
         "subtags": [],
-        "type": "website"
+        "type": "websiteWebapp"
     },
     "websites.mobile_connection": {
         "tags": [
@@ -4822,21 +4822,21 @@
             "networking"
         ],
         "subtags": [],
-        "type": "website"
+        "type": "websiteWebapp"
     },
     "websites.prog_edu": {
         "tags": [
             "programmingEducation"
         ],
         "subtags": [],
-        "type": "website"
+        "type": "websiteWebapp"
     },
     "websites.search": {
         "tags": [
             "search"
         ],
         "subtags": [],
-        "type": "website"
+        "type": "websiteWebapp"
     },
     "websites.search.mobile": {
         "tags": [
@@ -4844,27 +4844,27 @@
             "mobile"
         ],
         "subtags": [],
-        "type": "website"
+        "type": "websiteWebapp"
     },
     "websites.security": {
         "tags": [
             "security"
         ],
         "subtags": [],
-        "type": "website"
+        "type": "websiteWebapp"
     },
     "websites.storage": {
         "tags": [
             "storage"
         ],
         "subtags": [],
-        "type": "website"
+        "type": "websiteWebapp"
     },
     "websites.webdev": {
         "tags": [
             "webDev"
         ],
         "subtags": [],
-        "type": "website"
+        "type": "websiteWebapp"
     }
 }

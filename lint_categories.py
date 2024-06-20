@@ -1,61 +1,6 @@
-#!/usr/bin/env python
-
 import json
 import re
-import sys
-from pathlib import Path
-import random
-import string
-import os
 
-
-directory = Path("json-notes")
-files = (
-    [sys.argv[1]] if sys.argv[1:] else [directory / f for f in os.listdir(directory)]
-)
-
-KEYS = {
-    "text",
-    "link",
-    "type",
-    "subtype",
-    "tags",
-    "subtags",
-    "status",
-    "dateCreated",
-    "dateModified",
-    "extra",
-    "sorter",
-    "id",
-}
-EXTRA_KEYS = {
-    "language",
-    "rating",
-    "extraTags",
-    "notes",
-    "description",
-    "category",
-    "recency",
-    "features",
-    "commits",
-    "class",
-    "nixName",
-    "filetype",
-}
-DEFAULT = {
-    "text": "",
-    "link": "",
-    "type": "",
-    "subtype": "",
-    "tags": ["SORT"],
-    "subtags": [],
-    "status": "toRead",
-    "dateCreated": "1970-01-01",
-    "dateModified": "1970-01-01",
-    "extra": {},
-    "sorter": "",
-    "id": None,
-}
 TYPES = {
     "",
     "listeningAtom",
@@ -652,74 +597,25 @@ TAGS = set(
     ]
 )
 
+p = "/home/isaac/repos/notes/categories.json"
 
-def remove_duplicates_keep_order(tags: list[str]) -> list[str]:
-    already = set()
-    cleaned = []
-    for tag in tags:
-        if not tag in already:
-            already.add(tag)
-            cleaned.append(tag)
-    return cleaned
+with open(p) as f:
+    d = json.load(f)
 
+tags = set()
+subtags = set()
+types = set()
+for v in d.values():
+    tags.update(v["tags"])
+    subtags.update(v["subtags"])
+    types.add(v["type"])
 
-def lint_tags(tags: list[str]) -> list[str]:
-    tags = list(filter(bool, tags))
-    if len(tags) != len(set(tags)):
-        # print("DUPLICATE TAGS:", tags)
-        tags = remove_duplicates_keep_order(tags)
+print("============ bad tags ============")
+print("\n".join(tags.difference(TAGS)))
 
-    return tags
+print("============ bad types ============")
+print("\n".join(types.difference(TYPES)))
 
+print("============ subtags ============")
+print("\n".join(subtags))
 
-def make_id() -> str:
-    random16 = "".join(random.choices(string.ascii_uppercase + string.digits, k=16))
-    return f"AUTO:{random16}"
-
-
-def lint_note(note: dict) -> dict:
-    note = DEFAULT | note
-
-    note["tags"] = lint_tags(note["tags"])
-    note["subtags"] = lint_tags(note["subtags"])
-    extra = {k: v for k, v in note.items() if k not in KEYS}
-    note = {k: v for k, v in note.items() if k in KEYS}
-    # print(note)
-    note["extra"].update(extra)
-    if diff := (set(note["extra"]) - EXTRA_KEYS):
-        for k in diff:
-            print(f"Bad extra key in {note['id']}: {k}")
-    if diff := (set(note["tags"]) - TAGS):
-        for k in diff:
-            print(f"Bad tag in {note['id']}: {k}")
-    if note["type"] not in TYPES:
-        print(f"Bad type in {note['id']}: {note['type']}")
-    if note["subtype"] not in SUBTYPES:
-        print(f"Bad subtype in {note['id']}: {note['subtype']}")
-    if note["status"] not in STATI:
-        print(f"Bad status in {note['id']}: {note['status']}")
-
-    return note
-
-
-def format_notes(notes: list[dict]) -> str:
-    s = json.dumps(notes, ensure_ascii=False)
-    s = re.sub('("[^"]+": \{"text")', r"\n\1", s)
-    return s
-
-
-for p in files:
-    print(p)
-    with open(p) as f:
-        notes = json.load(f)
-
-    notes = {k: lint_note(v) for k, v in notes.items()}
-    # notes = {k: v | {"id": k} for k, v in notes.items()}
-    note_string = format_notes(notes)
-    # print(note_string[:1000])
-
-    with open(p, "w") as f:
-        f.write(note_string)
-
-# "text": "([^\]]+)\[([^\(]+)\]\((http[^\)]+)\)([^"]*)", "link": ""
-# "text": "[$1]  $2  $4", "link": "$3"
