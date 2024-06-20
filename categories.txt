@@ -1,555 +1,555 @@
-->.lookinto.person	->,										.
-->.lookinto.resource_list									.
-->.view														.
-->.view.development.tui										.
-->.view.discussion											.
-->.view.taskwarrior											.
-->.view.theory												.
-->.view.tool.taskwarrior									.
-->.view.video/blog explaining personal system				.
-algorithm.diff												.algorithm,diff			$
-algorithm.planning											.algorithm,planning			$
-algorithm.scheduling										.algorithm,planning			$
-console.ai_assistant										.console
-console.best_devenv											.console
-console.browser.cli											.console,browser:cli			$
-console.browser.tui											.console
-console.calculator-conversion-date							.console
-console.cleanup												.console
-console.core												.console
-console.core.tree											.consoletree
-console.dashboard											.console,dashboard
-console.data.document.epub									.console,dataWrangling,dataFormat,epub			$
-console.data.document.html									.console,dataWrangling,dataFormat
-console.data.document.json									.console,dataWrangling,dataFormat
-console.data.document.markdown								.console,dataWrangling,dataFormat
-console.data.document.miscellaneous							.console,dataWrangling,dataFormat
-console.data.document.pdf									.console,dataWrangling,dataFormat
-console.data.document.polyglot								.console,dataWrangling,dataFormat
-console.data.document.slideshow								.console,dataWrangling,dataFormat
-console.data.document.tabular								.console,dataWrangling,dataFormat
-console.data.document.toml									.console,dataWrangling,dataFormat
-console.data.document.yaml									.console,dataWrangling,dataFormat
-console.data.fake											.console
-console.data.pdf											.console
-console.data.wrangling										.console
-console.database											.console
-console.development											.console
-console.development.analysis_refactoring_formatting			.console
-console.development.changelog								.console
-console.development.code_navigaion							.console
-console.development.code_quality							.console
-console.development.debugging								.console
-console.development.license									.console
-console.development.logs									.console
-console.development.miscellaneous							.console
-console.development.readme									.console
-console.development.repl									.console
-console.development.semver									.console
-console.development.syntax_highlighting						.console
-console.development.task_scripting							.console
-console.development.templating								.console
-console.development.testing									.console
-console.developmentl.license								.console
-console.devshell											.console
-console.educational											.console
-console.educational.flashcards								.console
-console.educational.reading									.console
-console.educational.speedreading							.console
-console.envvars												.console
-console.fetch												.console
-console.file-browser										.console
-console.fun													.console
-console.fun.cowsay_family									.console
-console.fun.educational										.console
-console.fun.effects											.console
-console.fun.emoji											.console
-console.fun.eye_candy										.console
-console.fun.games											.console
-console.fun.maps											.console
-console.fun.meme											.console
-console.fun.messages_quotes_welcomes						.console
-console.help												.console
-console.illustration										.console
-console.illustration.modeling_and_visualization				.console
-console.menu_and-launcher									.console
-console.miscellaneous										.console
-console.miscellaneous.bibliography							.console
-console.miscellaneous.news									.console
-console.miscellaneous.weather								.console
-console.multiplexer											.console
-console.renaming											.console
-console.scripts												.console
-console.search												.console
-console.secrets												.console
-console.secrets.steganography								.console
-console.session_sharing										.console
-console.sets.core											.console
-console.sets.maximalist										.console
-console.shells												.console
-console.shells.completion									.console
-console.shells.scripting									.console
-console.sleep_and_eyes										.console
-console.sleep_and_eyes.timer								.console
-console.snippets											.console
-console.specific_app										.console
-console.task_scripting										.console
-console.termulator.wezterm									.console
-console.time.clock											.console
-console.time.clock.binary									.console
-console.time.clock.special									.console
-console.time.pomodoro										.console
-console.time.sleep											.console
-console.translation											.console
-console.viewing												.console
-console.web.rss												.console
-console.website_interfaces									.console
-data.format.garmin											.dataFormat,fitness
-data.format.garmin.fit										.dataFormat,fitness
-data.format.garmin.fit.->									.dataFormat,fitness
-data.format.garmin.gpx										.dataFormat,fitness
-data.format.garmin.tcx										.dataFormat,fitness
-data.format.json											.dataFormat
-data.format.miscellaneous									.dataFormat
-data.format.plaintext_based									.dataFormat,plaintextBased
-data.format.plaintext_based.todotxt							.dataFormat,plaintextBased
-data.format.plaintext_based.xit								.dataFormat,plaintextBased
-data.format.plaintext_based.xit.nvim						.dataFormat,plaintextBased
-data.format.taskwarrior										.dataFormat,taskwarrior
-data.management												.dataManagement
-desktop.bar													.desktop
-desktop.bar.inputs											.desktop
-desktop.bar.widgets											.desktop
-desktop.color_picker										.desktop
-desktop.compositor											.desktop
-desktop.compositor_internals_and_theory						.desktop
-desktop.compositor.hyprland_apps							.desktop
-desktop.greeter.console										.desktop
-desktop.greeter.gui											.desktop
-desktop.launcher.gui										.desktop
-desktop.launcher.plugins									.desktop
-desktop.lockscreen											.desktop
-desktop.logout_menu											.desktop
-desktop.miscellaneous.clipboard								.desktop
-desktop.miscellaneous.drag_and_drop							.desktop
-desktop.miscellaneous.theme_switcher						.desktop
-desktop.miscellaneous.window_management_tools				.desktop
-desktop.notifications										.desktop
-desktop.openers												.desktop
-desktop.relevant_system_libraries							.desktop
-desktop.ricing_and_mixing									.desktop
-desktop.screenshot											.desktop
-desktop.screenshot.annotation								.desktop
-desktop.shell.integrated									.desktop
-desktop.shell.piecewise										.desktop
-desktop.utils.brightness_and_battery						.desktop
-desktop.utils.internet_connectivity_manager					.desktop
-desktop.wallpaper											.desktop
-desktop.wallpaper.monitoring								.desktop
-desktop.wayland_libraries									.desktop
-development.ai												.
-development.apis											.
-development.cli_tui_development								.
-development.containers_orchestration_ci						.
-development.cross_environment								.
-development.documentation									.
-development.documentation.browsers							.
-development.editor.gui										.editor
-development.editor.gui.in_browser							.editor
-development.editor.gui.in_browser.integration				.editor
-development.editor.gui.in_browser.notebook.jupyter			.editor
-development.editor.gui.in_browser.notebook.nonjupyter		.editor
-development.editor.markdown.cli								.editor
-development.editor.markdown.gui								.editor
-development.editor.pdf										.editor
-development.editor.tex.gui									.editor
-development.editor.typesetting								.editor
-development.editor.typesetting.tex							.editor
-development.formatting										.
-development.haskell											.EDITMANUALLY			$
-development.haskell.constraint_programming					.EDITMANUALLY			$
-development.input											.
-development.lua												.EDITMANUALLY			$
-development.misc											.
-development.miscellaneous.maps								.
-development.miscellaneous.wiki								.
-development.proglangs.config_and_serialization				.
-development.proglangs.frameworks							.
-development.proglangs.haskell								.
-development.proglangs.http_server							.
-development.proglangs.julia									.
-development.proglangs.kotlin_and_android					.kotlin,android
-development.proglangs.language_specific_libraries			.
-development.proglangs.regex									.regex,EDITMANUALLY			$
-development.proglangs.rpc									.
-development.proglangs.tex									.
-development.python											.
-development.python.cli										.
-development.resume											.
-development.rust											.
-development.testing_and_mocking								.
-development.tools.educational_projects						.
-development.tools.project_info								.
-development.tools.snap										.
-development.tools.workflow_and_pipeline						.
-development.tui												.
-development.type_systems									.
-development.utilities										.
-development.visual											.
-development.web.note										.
-development.webdev.hosting_and_networking					.
-development.webdev.server_benchmarking						.
-docker														.docker
-file_management.app_internal								.fileManagement
-file_management.backup										.fileManagement
-file_management.cleanup.gui									.fileManagement
-file_management.cli											.fileManagement
-file_management.clipboard_sharing							.fileManagement
-file_management.compression_and_extraction					.fileManagement
-file_management.download									.fileManagement
-file_management.editor_based								.fileManagement
-file_management.gui											.fileManagement
-file_management.hooks_and_watchers							.fileManagement
-file_management.launcher_based								.fileManagement
-file_management.linux_mobile								.fileManagement
-file_management.other										.fileManagement
-file_management.qr											.fileManagement
-file_management.remote										.fileManagement
-file_management.synchronization								.fileManagement
-file_management.torrent										.fileManagement
-file_management.transfer_and_remote							.fileManagement
-gui.browser.esoteric.maximal_privacy						.gui,browser
-gui.browser.esoteric.nonvim									.gui,browser
-gui.browser.esoteric.vim									.gui,browser
-gui.browser.extensions										.gui,browser:extension
-gui.browser.extensions.adblock								.gui,browser:extension
-gui.browser.extensions.bookmarks							.gui,browser:extension
-gui.browser.extensions.human_language						.gui,browser:extension
-gui.browser.extensions.link_hoarding						.gui,browser:extensions
-gui.browser.extensions.privacy								.gui,browser:extensions
-gui.browser.extensions.reader								.gui,browser:extensions
-gui.browser.extensions.specific_sites						.gui,browser:extensions
-gui.browser.extensions.theory								.gui,browser:extensions
-gui.browser.extensions.vim.chromium							.gui,browser:extensions
-gui.browser.extensions.vim.ecumenical						.gui,browser:extensions
-gui.browser.extensions.webkit								.gui,browser:extensions
-gui.browser.hacker											.gui,browser
-gui.browser.mobile											.gui,browser
-gui.browser.normie											.gui,browser
-gui.browser.related_tools									.gui,browser
-gui.browser.ricing.chromium									.gui,browser
-gui.browser.ricing.css_sources								.gui,browser
-gui.browser.ricing.firefox									.gui,browser
-gui.browser.ricing.firefox.hardening						.gui,browser
-gui.browser.ricing.floorp									.gui,browser
-gui.browser.ricing.reference_extensions						.gui,browser
-gui.browser.ricing.startpage/launcher						.gui,browser
-gui.browser.ricing.userscripting							.gui,browser
-gui.browser.terminal_gui									.gui,browser
-gui.calculator												.gui
-gui.calculator_and_spreadsheet								.gui
-gui.editor													.gui
-gui.editor.spreadsheet										.gui
-gui.finances												.gui
-gui.fonts													.gui
-gui.in_browser												.gui
-gui.inspection												.gui
-gui.misc.noise												.gui
-gui.nix_cheats												.gui
-gui.reading													.gui
-gui.reading.rss												.gui
-gui.remote_desktop											.gui
-gui.translation												.gui
-media.consumption.audio.console								.media
-media.consumption.audio.gui									.media
-media.consumption.audio.podcast_and_audiobook				.media
-media.consumption.audio.search_download_library_management_metadata_art_etc		.media
-media.consumption.audio.song_id								.media
-media.consumption.audio.visualization						.media
-media.consumption.audiovisual.media_server_and_daemon		.media
-media.consumption.cli_player_controllers					.media
-media.consumption.image										.media
-media.consumption.library_and_list_management				.media
-media.consumption.lyrics									.media
-media.consumption.miscellaneous.volume						.media
-media.consumption.player_controller							.media
-media.consumption.video										.media
-media.consumption.video.television							.media
-media.consumption.video.youtube								.media
-media.consumption.video.youtube.music						.media
-media.consumption.youtube									.media
-media.creation.ascii										.media
-media.creation.audio										.media
-media.creation.audio.editing								.media
-media.creation.audio.file_tagging							.media
-media.creation.audio.powerful_editors						.media
-media.creation.audio.speech_processing						.media
-media.creation.audio.transcription							.media
-media.creation.camera										.media
-media.creation.cool_software_needs_theming_fixes			.media
-media.creation.everything									.media
-media.creation.gif_creation									.media
-media.creation.image.editing								.media
-media.creation.image.editing_and_management					.media
-media.creation.image.photo_search							.media
-media.creation.image.svg									.media
-media.creation.image.vector									.media
-media.creation.library_and_api								.media
-media.creation.recording_broadcasting_streaming				.media
-media.creation.recording_streaming_etc						.media
-media.creation.special										.media
-media.creation.specific_platforms							.media
-media.creation.streaming_and_broadcasting					.media
-media.creation.visual.drawing								.media
-media.creation.visual.drawing_boards						.media
-media.creation.visual.text_to_graphic						.media
-media.creation.visualization								.media
-media.creation.visualization.libraries						.media
-media.music.radio											.media
-media.music.spotify.cli										.media
-media.music.spotify.gui										.media
-media.music.spotify.other									.media
-media.music.spotify.tui										.media
-media.video.editing											.media
-messaging.discord											.
-messaging.email												.
-messaging.email.tui											.
-messaging.fediverse											.
-messaging.lemmy												.
-messaging.matrix											.
-messaging.miscellaneous										.
-messaging.signal											.
-messaging.unfree											.
-messaging.whatsapp											.
-move														.
-needs_work													.
-needs_work.clock											.
-system.app_running_and_user_management						.
-system.bluetooth											.
-system.boot.iso_creation									.
-system.boot.tools											.
-system.debianoid_only										.
-system.disk.partitioning									.
-system.input												.
-system.input.chinese										.
-system.kernel.modprobe										.
-system.nixos_only											.
-system.non_nix_config_management							.
-system.non_nixos_only										.
-system.nvidia_only											.
-system.security_cryptography_etc							.
-system.software												.
-system.system_management									.
-system.tuxedo_only											.
-tool.calendar												.
-tool.dashboard												.
-tool.finance												.
-tool.general												.
-tool.general.best											.
-tool.general.gui											.
-tool.general.inspiration									.
-tool.general.multiple										.
-tool.networking												.networking
-tool.networking.automation									.networking
-tool.networking.bookmarking									.networking
-tool.networking.desktop										.networking
-tool.networking.hosting										.networking
-tool.networking.matrix										.networking
-tool.networking.mobile										.networking
-tool.networking.mobile.bot									.networking
-tool.networking.mobile.foreground							.networking
-tool.networking.mobile.general								.networking
-tool.networking.mobile.intheam								.networking
-tool.networking.mobile.signal								.networking
-tool.networking.mobile.sync									.networking
-tool.networking.notification								.networking
-tool.networking.server										.networking
-tool.networking.signal										.networking
-tool.networking.sync										.networking
-tool.networking.telegram									.networking
-tool.networking.web											.networking
-tool.networking.webhook										.networking
-tool.note													.noteTaking
-tool.note.2ndbrain											.noteTaking
-tool.note.2ndbrain.cli										.noteTaking
-tool.note.2ndbrain.gui										.noteTaking
-tool.note.2ndbrain.obsidian									.noteTaking
-tool.note.appflowy_etc										.noteTaking
-tool.note.gui												.noteTaking
-tool.note.gui.multiple										.noteTaking
-tool.note.mobile											.noteTaking
-tool.note.multiple											.noteTaking
-tool.note.notion											.noteTaking
-tool.note.orgmode											.noteTaking
-tool.note.tui												.noteTaking
-tool.note.web												.noteTaking
-tool.nvim													.editor,nvim
-tool.nvim.neorg												.editor,nvim
-tool.nvim.taskwarrior										.editor,nvim
-tool.other													.
-tool.other.bookmarks										.
-tool.other.contacts											.
-tool.other.cryptography										.
-tool.other.git												.
-tool.other.home_assistant									.
-tool.other.list_management									.
-tool.other.luxury											.
-tool.other.meditation										.
-tool.other.noise											.
-tool.other.spaced_repitition								.
-tool.other.visualization									.
-tool.project_management										.
-tool.task.->												.task
-tool.task.android											.task
-tool.task.cli												.task
-tool.task.gtd												.task
-tool.task.gui												.task
-tool.task.gui.desktop										.task
-tool.task.gui.gtd											.task
-tool.task.library											.task
-tool.task.mobile											.task
-tool.task.multiple											.task
-tool.task.nvim												.task
-tool.task.platform											.task
-tool.task.tui												.task
-tool.task.web												.task
-tool.taskwarrior											.taskwarrior
-tool.taskwarrior.->											.taskwarrior
-tool.taskwarrior.android									.taskwarrior
-tool.taskwarrior.bot										.taskwarrior
-tool.taskwarrior.connection									.taskwarrior
-tool.taskwarrior.connection.android							.taskwarrior
-tool.taskwarrior.connection.mail							.taskwarrior
-tool.taskwarrior.connection.sync							.taskwarrior
-tool.taskwarrior.data										.taskwarrior
-tool.taskwarrior.dependency_graph							.taskwarrior
-tool.taskwarrior.desktop									.taskwarrior
-tool.taskwarrior.export										.taskwarrior
-tool.taskwarrior.extra										.taskwarrior
-tool.taskwarrior.feature									.taskwarrior
-tool.taskwarrior.feature.hook								.taskwarrior
-tool.taskwarrior.feature.note								.taskwarrior
-tool.taskwarrior.gtd										.taskwarrior
-tool.taskwarrior.gui										.taskwarrior
-tool.taskwarrior.hook										.taskwarrior
-tool.taskwarrior.import										.taskwarrior
-tool.taskwarrior.install									.taskwarrior
-tool.taskwarrior.integration								.taskwarrior
-tool.taskwarrior.integration.bookmark						.taskwarrior
-tool.taskwarrior.integration.desktop						.taskwarrior
-tool.taskwarrior.integration.email							.taskwarrior
-tool.taskwarrior.integration.export							.taskwarrior
-tool.taskwarrior.integration.notification					.taskwarrior
-tool.taskwarrior.library									.taskwarrior
-tool.taskwarrior.meta										.taskwarrior
-tool.taskwarrior.misc										.taskwarrior
-tool.taskwarrior.miscellaneous								.taskwarrior
-tool.taskwarrior.networking.mobile							.taskwarrior
-tool.taskwarrior.nix										.taskwarrior
-tool.taskwarrior.nvim										.taskwarrior
-tool.taskwarrior.server										.taskwarrior
-tool.taskwarrior.similar									.taskwarrior
-tool.taskwarrior.theme										.taskwarrior
-tool.taskwarrior.timewarrior								.taskwarrior
-tool.taskwarrior.tui										.taskwarrior
-tool.taskwarrior.visualization								.taskwarrior
-tool.taskwarrior.wrapper									.taskwarrior
-tool.taskwarrior.wrapper.android							.taskwarrior
-tool.taskwarrior.wrapper.api								.taskwarrior
-tool.taskwarrior.wrapper.cli								.taskwarrior
-tool.taskwarrior.wrapper.multiple							.taskwarrior
-tool.taskwarrior.wrapper.tui								.taskwarrior
-tool.taskwarrior.wrapper.web								.taskwarrior
-tool.timewarrior											.timewarrior
-tool.timewarrior.->											.timewarrior
-tool.timewarrior.clockodo									.timewarrior
-tool.timewarrior.completion									.timewarrior
-tool.timewarrior.connection.sync							.timewarrior
-tool.timewarrior.feature									.timewarrior
-tool.timewarrior.info										.timewarrior
-tool.timewarrior.integration								.timewarrior
-tool.timewarrior.library									.timewarrior
-tool.timewarrior.output										.timewarrior
-tool.timewarrior.similar									.timewarrior
-tool.timewarrior.taskwarrior								.timewarrior
-tool.timewarrior.visualization								.timewarrior
-tool.timewarrior.wrapper.cli								.timewarrior
-tool.timewarrior.wrapper.gui								.timewarrior
-tool.timewarrior.wrapper.tui								.timewarrior
-tool.tracking												.tracking
-tool.tracking.dashboard										.tracking,dashboard
-tool.tracking.fitness										.tracking,fitness
-tool.tracking.fitness.->									.tracking,fitness
-tool.tracking.fitness.food									.tracking,fitness
-tool.tracking.fitness.food.cli								.tracking,fitness
-tool.tracking.fitness.workout								.tracking,fitness
-tool.tracking.fitness.workout.algorithm						.tracking,fitness
-tool.tracking.general										.tracking
-tool.tracking.general.multiple								.tracking
-tool.tracking.habit											.tracking
-tool.tracking.pomodoro										.tracking
-tool.tracking.pomodoro.taskwarrior							.tracking
-tool.tracking.time											.tracking
-tool.tracking.time.cli										.tracking
-version_control.codeberg									.versionControl
-version_control.commitmsg_and_versioning					.versionControl
-version_control.development									.versionControl
-version_control.diff										.versionControl
-version_control.git_alternatives_and_complements			.versionControl
-version_control.git_education								.versionControl
-version_control.git_servers									.versionControl
-version_control.git_servers.github							.versionControl
-version_control.git_servers.gitlab							.versionControl
-version_control.git.extensions								.versionControl
-version_control.gitignore									.versionControl
-version_control.gui											.versionControl
-version_control.hooks										.versionControl
-version_control.multi_repo									.versionControl
-version_control.non_source									.versionControl
-version_control.qol											.versionControl
-version_control.reimplementations							.versionControl
-version_control.sourcehut:									.versionControl
-version_control.tui											.versionControl
-version_control.visualization								.versionControl
-view.gantt													.
-view.gantt.taskwarrior										.
-view.kanban													.
-view.kanban.gui												.
-view.kanban.taskwarrior										.
-web.internet_related.bookmarks								.
-webdev.adblocking_etc										.webDev
-webdev.crawling_scraping_downloading						.webDev
-webdev.frameworks_etc										.webDev
-webdev.http_and_rest_client									.webDev
-webdev.messaging.email.gui									.webDev
-webdev.miscellaneous										.webDev
-webdev.monitoring_and_hooks									.webDev
-webdev.multiple												.webDev
-webdev.networking											.webDev
-webdev.networking_and_ssh									.webDev
-webdev.security												.webDev
-webdev.security.firewalls									.webDev
-webdev.self_hosted											.webDev
-webdev.server												.webDev
-webdev.sockets												.webDev
-webdev.ssh_web_interface									.webDev
-webdev.static												.webDev
-webdev.streamlined											.webDev
-webdev.testing.speed_bandwidth_connectivity_etc				.webDev
-webdev.vpn													.webDev
-websites.ai													.website
-websites.development										.website
-websites.directories_collections							.website
-websites.donations											.website
-websites.editing											.website
-websites.human_language_learning							.website
-websites.maps												.website
-websites.media												.website
-websites.miscellaneous										.website
-websites.mobile_connection									.website
-websites.prog_edu											.website
-websites.search												.website
-websites.search.mobile										.website
-websites.security											.website
-websites.storage											.website
-websites.webdev												.website
+->.lookinto.person	->,										.EDITMANUALLY								$
+->.lookinto.resource_list									.EDITMANUALLY								$
+->.view														.EDITMANUALLY								$
+->.view.development.tui										.EDITMANUALLY								$
+->.view.discussion											.EDITMANUALLY								$
+->.view.taskwarrior											.EDITMANUALLY								$
+->.view.theory												.EDITMANUALLY								$
+->.view.tool.taskwarrior									.EDITMANUALLY								$
+->.view.video/blog explaining personal system				.EDITMANUALLY								$
+algorithm.diff												.algorithm,diff								$
+algorithm.planning											.algorithm,planning							$
+algorithm.scheduling										.algorithm,planning							$
+console.ai_assistant										.console,aiAssistant						$
+console.best_devenv											.console,EDITMANUALLY						$
+console.browser.cli											.console,browser,cli						$
+console.browser.tui											.console,browser,tui						$
+console.calculator-conversion-date							.console,calculator,EDITMANUALLY			$
+console.cleanup												.console,cleanup							$
+console.core												.console,EDITMANUALLY						$
+console.core.tree											.console,tree								$
+console.dashboard											.console,dashboard							$
+console.data.document.epub									.console,dataWrangling,dataFormat:epub		$
+console.data.document.html									.console,dataWrangling,dataFormat:html		$
+console.data.document.json									.console,dataWrangling,dataFormat:json		$
+console.data.document.markdown								.console,dataWrangling,dataFormat:markdown	$
+console.data.document.miscellaneous							.console,dataWrangling,dataFormat:misc		$
+console.data.document.pdf									.console,dataWrangling,dataFormat:pdf		$
+console.data.document.polyglot								.console,dataWrangling,dataFormat:polyglot	$
+console.data.document.slideshow								.console,dataWrangling,dataFormat:slideshow	$
+console.data.document.tabular								.console,dataWrangling,dataFormat:tabular	$
+console.data.document.toml									.console,dataWrangling,dataFormat:toml		$
+console.data.document.yaml									.console,dataWrangling,dataFormat:yaml		$
+console.data.fake											.console:fakeData							$
+console.data.pdf											.console,dataWrangling,dataFormat:pdf		$
+console.data.wrangling										.console,dataWrangling						$
+console.database											.console,database							$
+console.development											.console,development,EDITMANUALLY			$
+console.development.analysis_refactoring_formatting			.console,development,codeQuality,EDITMANUALLY	$
+console.development.changelog								.console,development,changelog				$
+console.development.code_navigaion							.console,development,codeNavigation			$
+console.development.code_quality							.console,development,codeQuality			$
+console.development.debugging								.console,development,debugging				$
+console.development.license									.console,development,license				$
+console.development.logs									.console,development,logging				$
+console.development.miscellaneous							.console,development,miscellaneous			$
+console.development.readme									.console,development,readme					$
+console.development.repl									.console,development,repl,EDITMANUALLY		$
+console.development.semver									.console,development,versioning:semver		$
+console.development.syntax_highlighting						.console,development,syntax,highlighting	$
+console.development.task_scripting							.console,development,taskScripting			$
+console.development.templating								.console,development,templating				$
+console.development.testing									.console,development,testing				$
+console.developmentl.license								.console,development,license				$
+console.devshell											.console,development,devshell				$
+console.educational											.console,educational						$
+console.educational.flashcards								.console,educational,flashcards				$
+console.educational.reading									.console,educational,reading				$
+console.educational.speedreading							.console,educational,reading,speedreading	$
+console.envvars												.console,envVar								$
+console.fetch												.console,fetch								$
+console.file-browser										.console,fileManagement						$
+console.fun													.console,fun								$
+console.fun.cowsay_family									.console,fun:cowsay							$
+console.fun.educational										.console,fun,educational					$
+console.fun.effects											.console,fun,effects						$
+console.fun.emoji											.console,fun,emoji							$
+console.fun.eye_candy										.console,fun,eyeCandy						$
+console.fun.games											.console,fun,game							$
+console.fun.maps											.console,fun,map							$
+console.fun.meme											.console,fun,meme							$
+console.fun.messages_quotes_welcomes						.console,fun,messageQuoteWelcome			$
+console.help												.console,help								$
+console.illustration										.console,illustration						$
+console.illustration.modeling_and_visualization				.console,illustration,modelling,visualization	$
+console.menu_and-launcher									.console,menu,launcher						$
+console.miscellaneous										.console,miscellaneous						$
+console.miscellaneous.bibliography							.console,bibliography						$
+console.miscellaneous.news									.console,news								$
+console.miscellaneous.weather								.console,weather							$
+console.multiplexer											.console,multiplexer						$
+console.renaming											.console,renaming							$
+console.scripts												.console,scriptCollection					$
+console.search												.console,search								$
+console.secrets												.console,secrets							$
+console.secrets.steganography								.console,secrets,steganography				$
+console.session_sharing										.console,sessionSharing						$
+console.sets.core											.console,EDITMANUALLY:coreSet				$
+console.sets.maximalist										.console,EDITMANUALLY:maximalistSet			$
+console.shells												.console,shell								$
+console.shells.completion									.console,shell,completion					$
+console.shells.scripting									.console,shell,scripting					$
+console.sleep_and_eyes										.console,sleepAndEyes						$
+console.sleep_and_eyes.timer								.console,sleepAndEyes,timer					$
+console.snippets											.console,snippet							$
+console.specific_app										.console,specificApp						$
+console.task_scripting										.console,taskScripting						$
+console.termulator.wezterm									.console,termulator,wezterm					$
+console.time.clock											.console,time,clock							$
+console.time.clock.binary									.console,time,clock,binary					$
+console.time.clock.special									.console,time,clock,special					$
+console.time.pomodoro										.console,time,pomodoro						$
+console.time.sleep											.console,time,sleep							$
+console.translation											.console,translation						$
+console.viewing												.console,viewing							$
+console.web.rss												.console,web,rss							$
+console.website_interfaces									.console,website,interface					$
+data.format.garmin											.dataFormat,fitness:garmin					$
+data.format.garmin.fit										.dataFormat,fitness:garmin,fit				$
+data.format.garmin.fit.->									.dataFormat,fitness:garmin,fit,SORT			$
+data.format.garmin.gpx										.dataFormat,fitness:garmin,gpx				$
+data.format.garmin.tcx										.dataFormat,fitness:garmin,tcx				$
+data.format.json											.dataFormat,json							$
+data.format.miscellaneous									.dataFormat,miscellaneous					$
+data.format.plaintext_based									.dataFormat,plaintextBased					$
+data.format.plaintext_based.todotxt							.dataFormat,plaintextBased,todotxt			$
+data.format.plaintext_based.xit								.dataFormat,plaintextBased,xit				$
+data.format.plaintext_based.xit.nvim						.dataFormat,plaintextBased,xit,nvim			$
+data.format.taskwarrior										.dataFormat,taskwarrior						$
+data.management												.dataManagement								$
+desktop.bar													.desktop,bar								$
+desktop.bar.inputs											.desktop,bar,barInputs,widget				$
+desktop.bar.widgets											.desktop,bar,widget							$
+desktop.color_picker										.desktop,colorPicker						$
+desktop.compositor											.desktop,compositor							$
+desktop.compositor_internals_and_theory						.desktop,compositor,internals				$
+desktop.compositor.hyprland_apps							.desktop,compositor:hyprlandApps			$
+desktop.greeter.console										.desktop,greeter,console					$
+desktop.greeter.gui											.desktop,greeter,gui						$
+desktop.launcher.gui										.desktop,launcher,gui						$
+desktop.launcher.plugins									.desktop,launcher,plugin					$
+desktop.lockscreen											.desktop,lockscreen							$
+desktop.logout_menu											.desktop,logoutMenu							$
+desktop.miscellaneous.clipboard								.desktop,clipboard							$
+desktop.miscellaneous.drag_and_drop							.desktop,dragAndDrop						$
+desktop.miscellaneous.theme_switcher						.desktop,themeSwitcher						$
+desktop.miscellaneous.window_management_tools				.desktop,windowManagement					$
+desktop.notifications										.desktop,notification						$
+desktop.openers												.desktop,opener								$
+desktop.relevant_system_libraries							.desktop,EDITMANUALLY						$
+desktop.ricing_and_mixing									.desktop,ricingMixing						$
+desktop.screenshot											.desktop,screenshot							$
+desktop.screenshot.annotation								.desktop,screenshot,annotation				$
+desktop.shell.integrated									.desktop,desktopShell:integrated			$
+desktop.shell.piecewise										.desktop,desktopShell:piecewise				$
+desktop.utils.brightness_and_battery						.desktop,util,brightnessAndBattery			$
+desktop.utils.internet_connectivity_manager					.desktop,connectivityManager				$
+desktop.wallpaper											.desktop,wallpaper							$
+desktop.wallpaper.monitoring								.desktop,wallpaper,monitoring				$
+desktop.wayland_libraries									.desktop,wayland,library					$
+development.ai												.development,ml								$
+development.apis											.development,api							$
+development.cli_tui_development								.development,EDITMANUALLY					$
+development.containers_orchestration_ci						.development,EDITMANUALLY					$
+development.cross_environment								.development,crossEnvironment,EDITMANUALLY	$
+development.documentation									.development,documentation					$
+development.documentation.browsers							.development,documentation,viewing			$
+development.editor.gui										.development,editor,gui						$
+development.editor.gui.in_browser							.development,editor,gui,browserBased					$
+development.editor.gui.in_browser.integration				.development,editor,gui,browserBased,integration		$
+development.editor.gui.in_browser.notebook.jupyter			.development,editor,gui,browserBased,notebook,jupyter 	$
+development.editor.gui.in_browser.notebook.nonjupyter		.development,editor,gui,browserBased,notebook,nonJupyter	$
+development.editor.markdown.cli								.development,editor,markdown,cli			$
+development.editor.markdown.gui								.development,editor,markdown,gui			$
+development.editor.pdf										.development,editor,pdf						$
+development.editor.tex.gui									.development,editor,tex,gui					$
+development.editor.typesetting								.development,editor,typesetting				$
+development.editor.typesetting.tex							.development,editor,typesetting,tex			$
+development.formatting										.development,formatting						$
+development.haskell											.development,EDITMANUALLY					$
+development.haskell.constraint_programming					.development,EDITMANUALLY					$
+development.input											.development,input							$
+development.lua												.development,EDITMANUALLY					$
+development.misc											.development,lua							$
+development.miscellaneous.maps								.development,map							$
+development.miscellaneous.wiki								.development,wiki							$
+development.proglangs.config_and_serialization				.development,configLang,serializationLang,EDITMANUALLY										$
+development.proglangs.frameworks							.development,framework						$
+development.proglangs.haskell								.development,haskell						$
+development.proglangs.http_server							.development,http,server					$
+development.proglangs.julia									.development,julia							$
+development.proglangs.kotlin_and_android					.development,kotlin,android					$
+development.proglangs.language_specific_libraries			.development,EDITMANUALLY					$
+development.proglangs.regex									.development,regex,EDITMANUALLY				$
+development.proglangs.rpc									.development,EDITMANUALLY					$
+development.proglangs.tex									.development,tex							$
+development.python											.development,python							$
+development.python.cli										.development,python,cli						$
+development.resume											.development,resume							$
+development.rust											.development,rust							$
+development.testing_and_mocking								.development,testing,mocking				$
+development.tools.educational_projects						.development,educationalProject				$
+development.tools.project_info								.development,project,projectInfo			$
+development.tools.snap										.development,snap							$
+development.tools.workflow_and_pipeline						.development,workflow,pipeline				$
+development.tui												.development,tui							$
+development.type_systems									.development,typeSystem						$
+development.utilities										.development,devUtils						$
+development.visual											.development,visual							$
+development.web.note										.development,EDITMANUALLY,noteTaking		$
+development.webdev.hosting_and_networking					.development,webDev,hosting,networking		$
+development.webdev.server_benchmarking						.development,server,benchmarking			$
+docker														.docker										$
+file_management.app_internal								.fileManagement,appInternal					$
+file_management.backup										.fileManagement,backup						$
+file_management.cleanup.gui									.fileManagement,cleanup,gui					$
+file_management.cli											.fileManagement,cli							$
+file_management.clipboard_sharing							.fileManagement,clipboard,sharing			$
+file_management.compression_and_extraction					.fileManagement,compression,extraction		$
+file_management.download									.fileManagement,download					$
+file_management.editor_based								.fileManagement,editorBased					$
+file_management.gui											.fileManagement,gui							$
+file_management.hooks_and_watchers							.fileManagement,hook,watcher				$
+file_management.launcher_based								.fileManagement,launcher					$
+file_management.linux_mobile								.fileManagement,linuxMobile,mobile			$
+file_management.other										.fileManagement,EDITMANUALLY				$
+file_management.qr											.fileManagement,qr							$
+file_management.remote										.fileManagement,remote						$
+file_management.synchronization								.fileManagement,sync						$
+file_management.torrent										.fileManagement,torrent						$
+file_management.transfer_and_remote							.fileManagement,transfer,remote				$
+gui.browser.esoteric.maximal_privacy						.gui,browser,esoteric,maxPrivacy			$
+gui.browser.esoteric.nonvim									.gui,browser,esoteric,nonVim				$
+gui.browser.esoteric.vim									.gui,browser,esoteric,vim					$
+gui.browser.extensions										.gui,browser:extension						$
+gui.browser.extensions.adblock								.gui,browser:extension,adblock				$
+gui.browser.extensions.bookmarks							.gui,browser:extension,bookmark				$
+gui.browser.extensions.human_language						.gui,browser:extension,language				$
+gui.browser.extensions.link_hoarding						.gui,browser:extension,linkHoarding,bookmark	$
+gui.browser.extensions.privacy								.gui,browser:extension,privacy				$
+gui.browser.extensions.reader								.gui,browser:extension,reader				$
+gui.browser.extensions.specific_sites						.gui,browser:extension,specificSite			$
+gui.browser.extensions.theory								.gui,browser:extension,theory				$
+gui.browser.extensions.vim.chromium							.gui,browser:extension,vim,chromium			$
+gui.browser.extensions.vim.ecumenical						.gui,browser:extension,vim,ecumenical		$
+gui.browser.extensions.webkit								.gui,browser:extension,webkit				$
+gui.browser.hacker											.gui,browser,hacker							$
+gui.browser.mobile											.gui,browser,mobile							$
+gui.browser.normie											.gui,browser,normie							$
+gui.browser.related_tools									.gui,browser,relatedTools					$
+gui.browser.ricing.chromium									.gui,browser,ricing,chromium				$
+gui.browser.ricing.css_sources								.gui,browser,css,ricing,cssSources			$
+gui.browser.ricing.firefox									.gui,browser,ricing,firefox					$
+gui.browser.ricing.firefox.hardening						.gui,browser,ricing,firefox:hardening		$
+gui.browser.ricing.floorp									.gui,browser,ricing,floorp					$
+gui.browser.ricing.reference_extensions						.gui,browser,ricing:referenceExtension		$
+gui.browser.ricing.startpage/launcher						.gui,browser,ricing:startpage				$
+gui.browser.ricing.userscripting							.gui,browser,ricing,userscript				$
+gui.browser.terminal_gui									.gui,browser:terminalGui					$
+gui.calculator												.gui,calculator								$
+gui.calculator_and_spreadsheet								.gui,calculator,spreadsheet					$
+gui.editor													.gui,editor									$
+gui.editor.spreadsheet										.gui,editor,spreadsheet						$
+gui.finances												.gui,finances								$
+gui.fonts													.gui,font									$
+gui.in_browser												.gui,browserBased							$
+gui.inspection												.gui,inspection								$
+gui.misc.noise												.gui,noise									$
+gui.nix_cheats												.gui,nixCheat								$
+gui.reading													.gui,reading								$
+gui.reading.rss												.gui,reading,rss							$
+gui.remote_desktop											.gui,remoteDesktop							$
+gui.translation												.gui,translation							$
+media.consumption.audio.console								.media,consumption,audio,console			$
+media.consumption.audio.gui									.media,consumption,audio,gui												$
+media.consumption.audio.podcast_and_audiobook				.media,consumption,podcast,audiobook,EDITMANUALLY							$
+media.consumption.audio.search_download_library_management_metadata_art_etc		.media,consumption,EDITMANUALLY,audio:miscellaneous		$
+media.consumption.audio.song_id								.media,consumption,audio,songId				$
+media.consumption.audio.visualization						.media,consumption,audio,visualization		$
+media.consumption.audiovisual.media_server_and_daemon		.media,consumption,audio,video,mediaServer	$
+media.consumption.cli_player_controllers					.media,consumption,cli,playerController		$
+media.consumption.image										.media,consumption,image					$
+media.consumption.library_and_list_management				.media,consumption,libraryManagement		$
+media.consumption.lyrics									.media,consumption,lyrics					$
+media.consumption.miscellaneous.volume						.media,consumption,volume					$
+media.consumption.player_controller							.media,consumption,playerController			$
+media.consumption.video										.media,consumption,video					$
+media.consumption.video.television							.media,consumption,video,television			$
+media.consumption.video.youtube								.media,consumption,video,youtube			$
+media.consumption.video.youtube.music						.media,consumption,video,youtube,music		$
+media.consumption.youtube									.media,consumption,youtube					$
+media.creation.ascii										.media,creation,ascii						$
+media.creation.audio										.media,creation,audio						$
+media.creation.audio.editing								.media,creation,audio,editing				$
+media.creation.audio.file_tagging							.media,creation,audio,fileTagging			$
+media.creation.audio.powerful_editors						.media,creation,editor:powerful				$
+media.creation.audio.speech_processing						.media,creation,audio,speechProcessing		$
+media.creation.audio.transcription							.media,creation,audio						$
+media.creation.camera										.media,creation,camera						$
+media.creation.cool_software_needs_theming_fixes			.media,creation,coolSoftwareNeedsThemingFixes	$
+media.creation.everything									.media,creation,EDITMANUALLY:everything		$
+media.creation.gif_creation									.media,creation,gif							$
+media.creation.image.editing								.media,creation,image,editing				$
+media.creation.image.editing_and_management					.media,creation,image,editing,management	$
+media.creation.image.photo_search							.media,creation,photo,search				$
+media.creation.image.svg									.media,creation,image,vector,svg			$
+media.creation.image.vector									.media,creation,image,vector				$
+media.creation.library_and_api								.media,creation,library,api					$
+media.creation.recording_broadcasting_streaming				.media,creation,broadcastStreamingRecording,Editmanually	$
+media.creation.recording_streaming_etc						.media,creation,broadcastStreamingRecording,Editmanually	$
+media.creation.special										.media,creation,special						$
+media.creation.specific_platforms							.media,creation,specificPlatform							$
+media.creation.streaming_and_broadcasting					.media,creation,broadcastStreamingRecording,Editmanually	$
+media.creation.visual.drawing								.media,creation,visual,drawing				$
+media.creation.visual.drawing_boards						.media,creation,visual,drawing,board		$
+media.creation.visual.text_to_graphic						.media,creation,visual,graphicFromText		$
+media.creation.visualization								.media,creation,visualization				$
+media.creation.visualization.libraries						.media,creation,visualization,library		$
+media.music.radio											.media,music,radio							$
+media.music.spotify.cli										.media,music,spotify,cli					$
+media.music.spotify.gui										.media,music,spotify,gui					$
+media.music.spotify.other									.media,music,spotify,other					$
+media.music.spotify.tui										.media,music,spotify,tui					$
+media.video.editing											.media,video,editing						$
+messaging.discord											.communication:discord						$
+messaging.email												.communication:email						$
+messaging.email.tui											.communication,tui:email					$
+messaging.fediverse											.communication:fediverse					$
+messaging.lemmy												.communication:lemmy						$
+messaging.matrix											.communication:matrix						$
+messaging.miscellaneous										.communication:miscellaneous				$
+messaging.signal											.communication:signal						$
+messaging.unfree											.communication:unfree						$
+messaging.whatsapp											.communication:whatsapp						$
+move														.EDITMANUALLY								$
+needs_work													.EDITMANUALLY,needsWork						$
+needs_work.clock											.clock,EDITMANUALLY,needsWork				$
+system.app_running_and_user_management						.system,EDITMANUALLY						$
+system.bluetooth											.system,bluetooth							$
+system.boot.iso_creation									.system,iso,isoCreation						$
+system.boot.tools											.system,boot								$
+system.debianoid_only										.system,nonNix:debianoidOnly				$
+system.disk.partitioning									.system,disk,partitioning					$
+system.input												.system,input								$
+system.input.chinese										.system,input:ZH							$
+system.kernel.modprobe										.system,kernel,modprobe						$
+system.nixos_only											.system,nixos:nixosOnly						$
+system.non_nix_config_management							.system,nonNix,configManagement				$
+system.non_nixos_only										.system,nonNix								$
+system.nvidia_only											.system,nvidia:nvidiaOnly					$
+system.security_cryptography_etc							.system,security,cryptography				$
+system.software												.system										$
+system.system_management									.system,management							$
+system.tuxedo_only											.system,tuxedoOnly							$
+tool.calendar												.calendar									$
+tool.dashboard												.dashboard									$
+tool.finance												.finance									$
+tool.general												.general									$
+tool.general.best											.general,->best								$
+tool.general.gui											.general,gui								$
+tool.general.inspiration									.general,inspiration						$
+tool.general.multiple										.general,->multiple							$
+tool.networking												.networking,networking						$
+tool.networking.automation									.networking,automation						$
+tool.networking.bookmarking									.networking,bookmarking						$
+tool.networking.desktop										.networking,desktop							$
+tool.networking.hosting										.networking,hosting							$
+tool.networking.matrix										.networking,matrix							$
+tool.networking.mobile										.networking,mobile							$
+tool.networking.mobile.bot									.networking,mobile,bot						$
+tool.networking.mobile.foreground							.networking,mobile,foreground				$
+tool.networking.mobile.general								.networking,mobile,general					$
+tool.networking.mobile.intheam								.networking,mobile,intheam					$
+tool.networking.mobile.signal								.networking,mobile,signal					$
+tool.networking.mobile.sync									.networking,mobile,sync						$
+tool.networking.notification								.networking,notification					$
+tool.networking.server										.networking,server							$
+tool.networking.signal										.networking,signal							$
+tool.networking.sync										.networking,sync							$
+tool.networking.telegram									.networking,telegram						$
+tool.networking.web											.networking,web								$
+tool.networking.webhook										.networking,webhook							$
+tool.note													.noteTaking									$
+tool.note.2ndbrain											.noteTaking,secondBrain						$
+tool.note.2ndbrain.cli										.noteTaking,secondBrain,cli					$
+tool.note.2ndbrain.gui										.noteTaking,secondBrain,gui					$
+tool.note.2ndbrain.obsidian									.noteTaking,secondBrain,obsidian			$
+tool.note.appflowy_etc										.noteTaking,secondBrain,appFlowy			$
+tool.note.gui												.noteTaking,gui								$
+tool.note.gui.multiple										.noteTaking,gui,multiPlatform				$
+tool.note.mobile											.noteTaking,mobile							$
+tool.note.multiple											.noteTaking,multiPlatform					$
+tool.note.notion											.noteTaking,notion							$
+tool.note.orgmode											.noteTaking,orgmode							$
+tool.note.tui												.noteTaking,tui								$
+tool.note.web												.noteTaking,web								$
+tool.nvim													.editor,nvim								$
+tool.nvim.neorg												.editor,nvim,neorg							$
+tool.nvim.taskwarrior										.editor,nvim,taskwarrior					$
+tool.other													.EDITMANUALLY								$
+tool.other.bookmarks										.bookmarkManagement							$
+tool.other.contacts											.contactManagement							$
+tool.other.cryptography										.cryptography								$
+tool.other.git												.git										$
+tool.other.home_assistant									.homeAssistant								$
+tool.other.list_management									.listManagement								$
+tool.other.luxury											.luxury										$
+tool.other.meditation										.meditation									$
+tool.other.noise											.noise										$
+tool.other.spaced_repitition								.spacedRepitition							$
+tool.other.visualization									.visualization								$
+tool.project_management										.projectManagement							$
+tool.task.->												.todoManagement,EDITMANUALLY				$
+tool.task.android											.todoManagement,android						$
+tool.task.cli												.todoManagement,cli							$
+tool.task.gtd												.todoManagement,gtd							$
+tool.task.gui												.todoManagement,gui							$
+tool.task.gui.desktop										.todoManagement,gui,desktop					$
+tool.task.gui.gtd											.todoManagement,gui,gtd						$
+tool.task.library											.todoManagement,library						$
+tool.task.mobile											.todoManagement,mobile						$
+tool.task.multiple											.todoManagement,multiple					$
+tool.task.nvim												.todoManagement,nvim						$
+tool.task.platform											.todoManagement,platform					$
+tool.task.tui												.todoManagement,tui							$
+tool.task.web												.todoManagement,web							$
+tool.taskwarrior											.taskwarrior								$
+tool.taskwarrior.->											.taskwarrior,EDITMANUALLY					$
+tool.taskwarrior.android									.taskwarrior,android						$
+tool.taskwarrior.bot										.taskwarrior,bot							$
+tool.taskwarrior.connection									.taskwarrior,networking						$
+tool.taskwarrior.connection.android							.taskwarrior,networking,android				$
+tool.taskwarrior.connection.mail							.taskwarrior,networking,email				$
+tool.taskwarrior.connection.sync							.taskwarrior,networking,sync				$
+tool.taskwarrior.data										.taskwarrior,data							$
+tool.taskwarrior.dependency_graph							.taskwarrior,dependencyGraph				$
+tool.taskwarrior.desktop									.taskwarrior,desktop						$
+tool.taskwarrior.export										.taskwarrior,export							$
+tool.taskwarrior.extra										.taskwarrior,extra							$
+tool.taskwarrior.feature									.taskwarrior,feature						$
+tool.taskwarrior.feature.hook								.taskwarrior,feature,hook					$
+tool.taskwarrior.feature.note								.taskwarrior,feature,note					$
+tool.taskwarrior.gtd										.taskwarrior,gtd							$
+tool.taskwarrior.gui										.taskwarrior,gui							$
+tool.taskwarrior.hook										.taskwarrior,hook							$
+tool.taskwarrior.import										.taskwarrior,import							$
+tool.taskwarrior.install									.taskwarrior,install						$
+tool.taskwarrior.integration								.taskwarrior,integration					$
+tool.taskwarrior.integration.bookmark						.taskwarrior,integration,bookmark			$
+tool.taskwarrior.integration.desktop						.taskwarrior,integration,desktop			$
+tool.taskwarrior.integration.email							.taskwarrior,integration,email				$
+tool.taskwarrior.integration.export							.taskwarrior,integration,export				$
+tool.taskwarrior.integration.notification					.taskwarrior,integration,notification		$
+tool.taskwarrior.library									.taskwarrior,library						$
+tool.taskwarrior.meta										.taskwarrior,meta							$
+tool.taskwarrior.misc										.taskwarrior,misc							$
+tool.taskwarrior.miscellaneous								.taskwarrior,miscellaneous					$
+tool.taskwarrior.networking.mobile							.taskwarrior,networking,mobile				$
+tool.taskwarrior.nix										.taskwarrior,nix							$
+tool.taskwarrior.nvim										.taskwarrior,nvim							$
+tool.taskwarrior.server										.taskwarrior,server							$
+tool.taskwarrior.similar									.taskwarrior:similar						$
+tool.taskwarrior.theme										.taskwarrior,theme							$
+tool.taskwarrior.timewarrior								.taskwarrior,timewarrior					$
+tool.taskwarrior.tui										.taskwarrior,tui							$
+tool.taskwarrior.visualization								.taskwarrior,visualization					$
+tool.taskwarrior.wrapper									.taskwarrior:wrapper						$
+tool.taskwarrior.wrapper.android							.taskwarrior,android:wrapper				$
+tool.taskwarrior.wrapper.api								.taskwarrior,api:wrapper					$
+tool.taskwarrior.wrapper.cli								.taskwarrior,cli:wrapper					$
+tool.taskwarrior.wrapper.multiple							.taskwarrior,multiPlatform:wrapper			$
+tool.taskwarrior.wrapper.tui								.taskwarrior,tui:wrapper					$
+tool.taskwarrior.wrapper.web								.taskwarrior,web:wrapper					$
+tool.timewarrior											.timewarrior								$
+tool.timewarrior.->											.timewarrior,EDITMANUALLY					$
+tool.timewarrior.clockodo									.timewarrior,clockodo						$
+tool.timewarrior.completion									.timewarrior,completion						$
+tool.timewarrior.connection.sync							.timewarrior,networking,sync				$
+tool.timewarrior.feature									.timewarrior,feature						$
+tool.timewarrior.info										.timewarrior,info							$
+tool.timewarrior.integration								.timewarrior,integration					$
+tool.timewarrior.library									.timewarrior,library						$
+tool.timewarrior.output										.timewarrior,output							$
+tool.timewarrior.similar									.timewarrior,similar						$
+tool.timewarrior.taskwarrior								.timewarrior,taskwarrior					$
+tool.timewarrior.visualization								.timewarrior,visualization					$
+tool.timewarrior.wrapper.cli								.timewarrior,cli:wrapper					$
+tool.timewarrior.wrapper.gui								.timewarrior,gui:wrapper					$
+tool.timewarrior.wrapper.tui								.timewarrior,tui:wrapper					$
+tool.tracking												.tracking									$
+tool.tracking.dashboard										.tracking,dashboard							$
+tool.tracking.fitness										.tracking,fitness							$
+tool.tracking.fitness.->									.tracking,fitness,EDITMANUALLY				$
+tool.tracking.fitness.food									.tracking,fitness,food						$
+tool.tracking.fitness.food.cli								.tracking,fitness,food,cli					$
+tool.tracking.fitness.workout								.tracking,fitness,workout					$
+tool.tracking.fitness.workout.algorithm						.tracking,fitness,workout,algorithm			$
+tool.tracking.general										.tracking:general							$
+tool.tracking.general.multiple								.tracking:general,multiple					$
+tool.tracking.habit											.tracking,habit								$
+tool.tracking.pomodoro										.tracking,pomodoro							$
+tool.tracking.pomodoro.taskwarrior							.tracking,pomodoro,taskwarrior				$
+tool.tracking.time											.tracking,time								$
+tool.tracking.time.cli										.tracking,time,cli							$
+version_control.codeberg									.versionControl,git,gitServer,codeberg		$
+version_control.commitmsg_and_versioning					.versionControl,commitMessage,versioning	$
+version_control.development									.versionControl:development					$
+version_control.diff										.versionControl,diff						$
+version_control.git_alternatives_and_complements			.versionControl,gitAlternative,EDITMANUALLY	$
+version_control.git_education								.versionControl,git:education				$
+version_control.git_servers									.versionControl,git,gitServer				$
+version_control.git_servers.github							.versionControl,git,gitServer,github		$
+version_control.git_servers.gitlab							.versionControl,git,gitServer,gitlab		$
+version_control.git.extensions								.versionControl,git:extension				$
+version_control.gitignore									.versionControl,git:gitignore				$
+version_control.gui											.versionControl,git,gui						$
+version_control.hooks										.versionControl,git:hook					$
+version_control.multi_repo									.versionControl,git:multiRepo				$
+version_control.non_source									.versionControl:nonSource					$
+version_control.qol											.versionControl,qualityOfLife				$
+version_control.reimplementations							.versionControl,reimplementation			$
+version_control.sourcehut:									.versionControl,gitServer,sourcehut			$
+version_control.tui											.versionControl,tui							$
+version_control.visualization								.versionControl,visualization				$
+view.gantt													.dataView,gantt								$
+view.gantt.taskwarrior										.dataView,gantt,taskwarrior					$
+view.kanban													.dataView,kanban							$
+view.kanban.gui												.dataView,kanban,gui						$
+view.kanban.taskwarrior										.dataView,kanban,taskwarrior				$
+web.internet_related.bookmarks								.bookmark									$
+webdev.adblocking_etc										.webDev,adblock								$
+webdev.crawling_scraping_downloading						.webDev,crawlingAndScraping,download		$
+webdev.frameworks_etc										.webDev,framework							$
+webdev.http_and_rest_client									.webDev,client,htpp,rest					$
+webdev.messaging.email.gui									.webDev,communication,email,gui				$
+webdev.miscellaneous										.webDev,EDITMANUALLY,miscellaneous			$
+webdev.monitoring_and_hooks									.webDev,monitoring,hooks,EDITMANUALLY		$
+webdev.multiple												.webDev,multiple							$
+webdev.networking											.webDev,networking							$
+webdev.networking_and_ssh									.webDev,networking,ssh						$
+webdev.security												.webDev,security							$
+webdev.security.firewalls									.webDev,security,firewall					$
+webdev.self_hosted											.webDev,networking,selfHosted				$
+webdev.server												.webDev,networking,server					$
+webdev.sockets												.webDev,networking,socket					$
+webdev.ssh_web_interface									.webDev,networking,ssh:webInterface			$
+webdev.static												.webDev,static								$
+webdev.streamlined											.webDev,EDITMANUALLY,streamlined			$
+webdev.testing.speed_bandwidth_connectivity_etc				.webDev,connectivityTesting					$
+webdev.vpn													.webDev,vpn									$
+websites.ai													.type:website,ai,EDITMANUALLY				$
+websites.development										.type:website,EDITMANUALLY					$
+websites.directories_collections							.type:website,collection					$
+websites.donations											.type:website,donation						$
+websites.editing											.type:website,editing						$
+websites.human_language_learning							.type:website,languageLearning				$
+websites.maps												.type:website,map							$
+websites.media												.type:website,media							$
+websites.miscellaneous										.type:website,miscellaneous					$
+websites.mobile_connection									.type:website,mobile,networking				$
+websites.prog_edu											.type:website,programmingEducation			$
+websites.search												.type:website,search						$
+websites.search.mobile										.type:website,search,mobile					$
+websites.security											.type:website,security						$
+websites.storage											.type:website,storage						$
+websites.webdev												.type:website,webDev						$
