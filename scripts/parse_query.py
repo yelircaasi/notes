@@ -17,7 +17,7 @@ _ for subtags
 + to prefix extra attributes
 ^ for date
 * for rating (allowing ~~ for exact; default is *5 for geq 5 and *~5 for leq 5)
-% for type
+% for type, with : inside 
 ] for subtype (or ﹪)
 € for (human) language
 … for programming language

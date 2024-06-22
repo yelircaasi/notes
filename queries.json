@@ -1,0 +1,5 @@
+{
+    "appFlowyGood": "%software.noteManagement._appFlowy.*3",
+    "notesPyRsHs": "%software.noteManagement.{…python,…rust,…haskell}",
+    "noteAndTask": "noteManagement,todoManagement"
+}
