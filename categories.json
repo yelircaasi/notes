@@ -3391,6 +3391,15 @@
         ],
         "type": ""
     },
+    "tool.networking.bookmarking": {
+        "tags": [
+            "bookmarkManagement"
+        ],
+        "subtags": [
+            "networking"
+        ],
+        "type": ""
+    },
     "tool.networking.desktop": {
         "tags": [],
         "subtags": [
@@ -4093,6 +4102,16 @@
         "type": ""
     },
     "tool.taskwarrior.integration.bookmarkManagement": {
+        "tags": [
+            "bookmarkManagement"
+        ],
+        "subtags": [
+            "taskwarrior",
+            "integration"
+        ],
+        "type": ""
+    },
+    "tool.taskwarrior.integration.bookmark": {
         "tags": [
             "bookmarkManagement"
         ],

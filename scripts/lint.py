@@ -107,8 +107,9 @@ SUBTYPES = {
     "longCourse",
     "blogPost",
     "tutorial",
-
-
+    "library",
+    "browserBased",
+    "collection",
 }
 STATI = {
     "",
