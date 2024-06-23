@@ -1,0 +1,5096 @@
+{
+    "tags": {
+        "css": {
+            "proglangs": 18,
+            "cs": 6,
+            "config-work": 28,
+            "software": 5
+        },
+        "browser": {
+            "proglangs": 5,
+            "config-work": 1,
+            "software": 146
+        },
+        "work": {
+            "proglangs": 4,
+            "work": 424
+        },
+        "distribution": {
+            "proglangs": 23
+        },
+        "interlinear": {
+            "proglangs": 27
+        },
+        "media": {
+            "proglangs": 30,
+            "mathematics": 3,
+            "general": 998,
+            "cs": 365,
+            "fitness": 21,
+            "config-work": 31,
+            "ml-ai": 123,
+            "humanities": 496,
+            "non-biological-sciences": 478,
+            "social-sciences": 21,
+            "software": 249
+        },
+        "haskell": {
+            "proglangs": 289,
+            "software": 4
+        },
+        "config": {
+            "proglangs": 8,
+            "config-work": 4392,
+            "nvim-plugins": 35,
+            "nvim": 364
+        },
+        "proglang": {
+            "proglangs": 5087,
+            "cs": 18
+        },
+        "top": {
+            "proglangs": 1,
+            "general": 8,
+            "cs": 704,
+            "config-work": 95,
+            "ml-ai": 211,
+            "nvim": 72
+        },
+        "python": {
+            "proglangs": 1538,
+            "cs": 15,
+            "config-work": 91,
+            "ml-ai": 101,
+            "cs-books": 49,
+            "nvim-plugins": 9,
+            "nebokrai-software": 14,
+            "projects": 114
+        },
+        "template": {
+            "proglangs": 11,
+            "config-work": 1,
+            "nvim-plugins": 4
+        },
+        "challenge": {
+            "proglangs": 9,
+            "cs": 74,
+            "ml-ai": 7
+        },
+        "julia": {
+            "proglangs": 711,
+            "cs": 5,
+            "software": 2
+        },
+        "notebook": {
+            "proglangs": 36,
+            "nvim-plugins": 5,
+            "projects": 134,
+            "software": 11
+        },
+        "go": {
+            "proglangs": 27,
+            "nvim-plugins": 25,
+            "nvim": 1
+        },
+        "interactive": {
+            "proglangs": 5
+        },
+        "project": {
+            "proglangs": 103,
+            "cs": 298,
+            "config-work": 14,
+            "ml-ai": 27,
+            "nvim-plugins": 84,
+            "projects": 3034,
+            "software": 1
+        },
+        "jupyter": {
+            "proglangs": 37,
+            "nvim-plugins": 9,
+            "nvim": 25,
+            "projects": 134
+        },
+        "zig": {
+            "proglangs": 4
+        },
+        "ide": {
+            "proglangs": 8,
+            "software-later-or-nah": 13,
+            "nvim-plugins": 1
+        },
+        "cli": {
+            "proglangs": 21,
+            "nebokrai-software": 42,
+            "software": 13
+        },
+        "database": {
+            "proglangs": 169,
+            "cs": 1,
+            "software-later-or-nah": 2,
+            "nvim-plugins": 9,
+            "software": 10
+        },
+        "ml": {
+            "proglangs": 11,
+            "cs": 399,
+            "ml-ai": 8147,
+            "cs-books": 566,
+            "work": 25,
+            "projects": 6,
+            "software": 15
+        },
+        "packaging": {
+            "proglangs": 20
+        },
+        "app": {
+            "proglangs": 11,
+            "cs": 5,
+            "config-work": 96,
+            "cs-books": 2
+        },
+        "octave": {
+            "proglangs": 8
+        },
+        "appDevelopment": {
+            "proglangs": 50
+        },
+        "documentation": {
+            "proglangs": 36,
+            "cs": 11,
+            "ml-ai": 42,
+            "nvim-plugins": 31,
+            "software": 15
+        },
+        "kotlin": {
+            "proglangs": 6,
+            "software": 2
+        },
+        "node": {
+            "proglangs": 7
+        },
+        "regex": {
+            "proglangs": 27,
+            "cs": 58,
+            "nvim-plugins": 3,
+            "nvim": 1,
+            "software": 1
+        },
+        "java": {
+            "proglangs": 215,
+            "cs": 1,
+            "cs-books": 4,
+            "projects": 63
+        },
+        "gui": {
+            "proglangs": 12,
+            "nebokrai-software": 26,
+            "nvim": 18,
+            "projects": 3,
+            "software": 319
+        },
+        "cOrCpp": {
+            "proglangs": 519
+        },
+        "ui": {
+            "proglangs": 4
+        },
+        "qAndA": {
+            "proglangs": 156
+        },
+        "font": {
+            "proglangs": 4,
+            "config-work": 39,
+            "nvim-plugins": 9,
+            "nvim": 2,
+            "software": 4
+        },
+        "dotnet": {
+            "proglangs": 3
+        },
+        "perl": {
+            "proglangs": 24,
+            "config-work": 3
+        },
+        "javascript": {
+            "proglangs": 87,
+            "cs": 8,
+            "cs-books": 12,
+            "software-later-or-nah": 8
+        },
+        "person": {
+            "proglangs": 12,
+            "mathematics": 1,
+            "general": 366,
+            "cs": 467,
+            "config-work": 9,
+            "ml-ai": 14,
+            "social-sciences": 47,
+            "nvim": 5
+        },
+        "rust": {
+            "proglangs": 147,
+            "nebokrai-software": 1,
+            "nvim": 4
+        },
+        "webDev": {
+            "proglangs": 529,
+            "cs": 8,
+            "cs-books": 73,
+            "software": 187
+        },
+        "institution": {
+            "proglangs": 3,
+            "cs": 44,
+            "ml-ai": 68
+        },
+        "scraping": {
+            "proglangs": 6
+        },
+        "community": {
+            "proglangs": 6
+        },
+        "cheatsheet": {
+            "proglangs": 4,
+            "mathematics": 27,
+            "cs": 17,
+            "ml-ai": 14
+        },
+        "crystal": {
+            "proglangs": 1
+        },
+        "lisp": {
+            "proglangs": 90,
+            "cs-books": 1
+        },
+        "ruby": {
+            "proglangs": 2,
+            "nvim-plugins": 6
+        },
+        "devenv": {
+            "proglangs": 4,
+            "config-work": 41
+        },
+        "general": {
+            "proglangs": 57,
+            "mathematics": 50,
+            "general": 3913,
+            "cs": 197,
+            "config-work": 95,
+            "ml-ai": 30,
+            "philosophy": 239,
+            "social-sciences": 6,
+            "nebokrai-software": 20,
+            "nvim": 5,
+            "projects": 5
+        },
+        "book": {
+            "proglangs": 270,
+            "mathematics": 47,
+            "general": 3978,
+            "nebokrai": 15,
+            "language-learning": 19,
+            "ml-ai": 18,
+            "humanities": 92,
+            "cs-books": 11,
+            "philosophy": 638,
+            "social-sciences": 1114,
+            "practical-living": 200
+        },
+        "codeRunning": {
+            "proglangs": 1,
+            "cs": 6
+        },
+        "interview": {
+            "proglangs": 9,
+            "cs": 98,
+            "ml-ai": 233
+        },
+        "parsing": {
+            "proglangs": 6,
+            "cs": 40
+        },
+        "nim": {
+            "proglangs": 4
+        },
+        "lua": {
+            "proglangs": 48,
+            "nvim-plugins": 42,
+            "nvim": 1,
+            "software": 11
+        },
+        "game": {
+            "proglangs": 4,
+            "cs": 6,
+            "software-later-or-nah": 41,
+            "projects": 2,
+            "software": 1
+        },
+        "typescript": {
+            "proglangs": 5,
+            "nvim": 1
+        },
+        "SORT": {
+            "proglangs": 1736,
+            "mathematics": 2141,
+            "general": 4299,
+            "cs": 2443,
+            "fitness": 38,
+            "config-work": 667,
+            "nebokrai": 21,
+            "language-learning": 182,
+            "ml-ai": 7006,
+            "humanities": 2054,
+            "cs-books": 543,
+            "software-later-or-nah": 56,
+            "nvim-plugins": 29,
+            "work": 110,
+            "philosophy": 303,
+            "social-sciences": 7974,
+            "nebokrai-software": 1103,
+            "nvim": 851,
+            "practical-living": 202,
+            "projects": 1443,
+            "software": 2330
+        },
+        "tui": {
+            "proglangs": 7,
+            "nebokrai-software": 50,
+            "software": 30
+        },
+        "build": {
+            "proglangs": 32,
+            "cs": 9,
+            "cs-books": 2,
+            "nvim-plugins": 10
+        },
+        "tex": {
+            "proglangs": 178,
+            "config-work": 4,
+            "nvim-plugins": 29,
+            "nvim": 22,
+            "software": 20
+        },
+        "jvm": {
+            "proglangs": 5
+        },
+        "youtube": {
+            "proglangs": 15,
+            "cs": 94,
+            "ml-ai": 400,
+            "software": 29
+        },
+        "rlang": {
+            "proglangs": 121,
+            "cs-books": 19,
+            "nvim-plugins": 2
+        },
+        "scala": {
+            "proglangs": 24
+        },
+        "reading": {
+            "proglangs": 505,
+            "mathematics": 469,
+            "general": 410,
+            "cs": 121,
+            "config-work": 12,
+            "language-learning": 2945,
+            "ml-ai": 304,
+            "humanities": 7,
+            "social-sciences": 272,
+            "projects": 25,
+            "software": 22
+        },
+        "html": {
+            "proglangs": 8,
+            "nvim-plugins": 5
+        },
+        "docker": {
+            "proglangs": 10,
+            "nvim-plugins": 7,
+            "nebokrai-software": 19
+        },
+        "android": {
+            "proglangs": 8,
+            "config-work": 96,
+            "nebokrai": 1,
+            "cs-books": 2,
+            "software-later-or-nah": 12,
+            "nebokrai-software": 15,
+            "software": 2
+        },
+        "network": {
+            "proglangs": 5,
+            "cs-books": 2
+        },
+        "testing": {
+            "proglangs": 8,
+            "cs": 6,
+            "nvim-plugins": 22,
+            "software": 6
+        },
+        "fortran": {
+            "proglangs": 6
+        },
+        "design": {
+            "proglangs": 8,
+            "cs": 5,
+            "cs-books": 9
+        },
+        "raku": {
+            "proglangs": 14
+        },
+        "software": {
+            "proglangs": 392,
+            "cs": 94,
+            "config-work": 113,
+            "nebokrai": 21,
+            "ml-ai": 985,
+            "cs-books": 13,
+            "software-later-or-nah": 769,
+            "nvim": 3,
+            "projects": 3
+        },
+        "wasm": {
+            "proglangs": 9,
+            "cs-books": 9
+        },
+        "ocaml": {
+            "proglangs": 2
+        },
+        "philosophy": {
+            "biological-sciences": 3,
+            "philosophy": 4050,
+            "social-sciences": 4
+        },
+        "ornithology": {
+            "biological-sciences": 28
+        },
+        "biology": {
+            "biological-sciences": 1072
+        },
+        "dermatology": {
+            "biological-sciences": 9
+        },
+        "math": {
+            "biological-sciences": 1,
+            "mathematics": 4668,
+            "cs": 1,
+            "cs-books": 3,
+            "software-later-or-nah": 5,
+            "nvim-plugins": 1
+        },
+        "consciousness": {
+            "biological-sciences": 45
+        },
+        "neuro": {
+            "biological-sciences": 740,
+            "social-sciences": 1
+        },
+        "evolution": {
+            "biological-sciences": 11
+        },
+        "anatomy": {
+            "biological-sciences": 42
+        },
+        "discrete": {
+            "mathematics": 32
+        },
+        "differentiation": {
+            "mathematics": 16
+        },
+        "topology": {
+            "mathematics": 222
+        },
+        "econometrics": {
+            "mathematics": 36
+        },
+        "setTheory": {
+            "mathematics": 8
+        },
+        "proof": {
+            "mathematics": 19
+        },
+        "clustering": {
+            "mathematics": 58,
+            "ml-ai": 37,
+            "cs-books": 18
+        },
+        "linearAlgebra": {
+            "mathematics": 293
+        },
+        "interaction": {
+            "mathematics": 6
+        },
+        "logic": {
+            "mathematics": 12
+        },
+        "trace": {
+            "mathematics": 1
+        },
+        "geometry": {
+            "mathematics": 31
+        },
+        "stata": {
+            "mathematics": 20
+        },
+        "eigen": {
+            "mathematics": 7
+        },
+        "moments": {
+            "mathematics": 26
+        },
+        "statistics": {
+            "mathematics": 765,
+            "ml-ai": 13,
+            "cs-books": 17,
+            "social-sciences": 18
+        },
+        "neuralNetwork": {
+            "mathematics": 3,
+            "ml-ai": 160,
+            "cs-books": 103
+        },
+        "determinant": {
+            "mathematics": 8
+        },
+        "complex": {
+            "mathematics": 2
+        },
+        "regression": {
+            "mathematics": 10,
+            "ml-ai": 13,
+            "cs-books": 4
+        },
+        "jordanNormalForm": {
+            "mathematics": 117
+        },
+        "mathForNN": {
+            "mathematics": 8
+        },
+        "matrix": {
+            "mathematics": 8,
+            "nebokrai-software": 1
+        },
+        "symbolicComputing": {
+            "mathematics": 1
+        },
+        "analysis": {
+            "mathematics": 11,
+            "cs-books": 2
+        },
+        "matrixDecomposition": {
+            "mathematics": 10
+        },
+        "allusion": {
+            "general": 121
+        },
+        "music": {
+            "general": 4,
+            "humanities": 1489,
+            "nvim-plugins": 11,
+            "software": 24
+        },
+        "art": {
+            "general": 6
+        },
+        "psychology": {
+            "general": 10,
+            "social-sciences": 735,
+            "practical-living": 1
+        },
+        "quote": {
+            "general": 38,
+            "humanities": 20
+        },
+        "learningTheory": {
+            "general": 131,
+            "ml-ai": 5,
+            "social-sciences": 4,
+            "practical-living": 82
+        },
+        "languageLearning": {
+            "general": 218,
+            "language-learning": 7427,
+            "humanities": 7,
+            "software": 1
+        },
+        "politics": {
+            "general": 16,
+            "cs": 340,
+            "ml-ai": 24,
+            "social-sciences": 3089
+        },
+        "veryShortIntroduction": {
+            "general": 685
+        },
+        "africa": {
+            "general": 35
+        },
+        "writing": {
+            "general": 15,
+            "cs": 1,
+            "humanities": 5,
+            "projects": 12
+        },
+        "hindu": {
+            "general": 4
+        },
+        "economics": {
+            "general": 136,
+            "cs": 21,
+            "ml-ai": 34,
+            "social-sciences": 1439
+        },
+        "bookNotes": {
+            "general": 15
+        },
+        "linguistics": {
+            "general": 4,
+            "cs": 4,
+            "social-sciences": 435
+        },
+        "feminism": {
+            "general": 42
+        },
+        "vision": {
+            "general": 7
+        },
+        "buddhist": {
+            "general": 64
+        },
+        "news": {
+            "general": 255,
+            "humanities": 496,
+            "software": 1
+        },
+        "shinto": {
+            "general": 11
+        },
+        "pedagogy": {
+            "general": 6,
+            "social-sciences": 162,
+            "practical-living": 6
+        },
+        "nativeAmerican": {
+            "general": 9
+        },
+        "sociology": {
+            "general": 6,
+            "social-sciences": 200
+        },
+        "publicSpeaking": {
+            "general": 3
+        },
+        "wisdom": {
+            "general": 500,
+            "humanities": 12,
+            "practical-living": 81
+        },
+        "idea": {
+            "general": 243,
+            "cs": 123,
+            "config-work": 107,
+            "ml-ai": 42,
+            "humanities": 345,
+            "philosophy": 329,
+            "social-sciences": 1090,
+            "nvim": 3,
+            "practical-living": 88,
+            "projects": 157
+        },
+        "history": {
+            "general": 26,
+            "cs": 64,
+            "cs-books": 6,
+            "nvim-plugins": 2,
+            "social-sciences": 1200
+        },
+        "humanities": {
+            "general": 2,
+            "humanities": 4830
+        },
+        "zoroastrian": {
+            "general": 28
+        },
+        "jewish": {
+            "general": 56
+        },
+        "algorithm": {
+            "cs": 109,
+            "nebokrai": 14,
+            "ml-ai": 52,
+            "cs-books": 14,
+            "nebokrai-software": 34,
+            "projects": 65
+        },
+        "distro": {
+            "cs": 64
+        },
+        "nsm": {
+            "cs": 104
+        },
+        "aesthetics": {
+            "cs": 6
+        },
+        "semantics": {
+            "cs": 99
+        },
+        "cryptography": {
+            "cs": 14,
+            "nvim-plugins": 10,
+            "nebokrai-software": 4,
+            "software": 23
+        },
+        "quantum": {
+            "cs": 31,
+            "cs-books": 6
+        },
+        "hardware": {
+            "cs": 57
+        },
+        "mathExpressionParsing": {
+            "cs": 14
+        },
+        "paremiology": {
+            "cs": 20,
+            "humanities": 20,
+            "projects": 90
+        },
+        "documentary": {
+            "cs": 1
+        },
+        "scripting": {
+            "cs": 18,
+            "software": 2
+        },
+        "compilation": {
+            "cs": 5,
+            "nvim-plugins": 9
+        },
+        "commercial": {
+            "cs": 1
+        },
+        "operatingSystem": {
+            "cs": 19,
+            "config-work": 1,
+            "cs-books": 2
+        },
+        "exercism": {
+            "cs": 18
+        },
+        "boot": {
+            "cs": 9,
+            "cs-books": 4,
+            "software": 5
+        },
+        "podcast": {
+            "cs": 42,
+            "ml-ai": 96,
+            "software": 4
+        },
+        "linux": {
+            "cs": 376,
+            "cs-books": 41
+        },
+        "paradigm": {
+            "cs": 16
+        },
+        "nvim": {
+            "cs": 84,
+            "config-work": 66,
+            "nebokrai-software": 32,
+            "nvim": 1947,
+            "projects": 134
+        },
+        "container": {
+            "cs": 12
+        },
+        "cracking": {
+            "cs": 1
+        },
+        "referenceProject": {
+            "cs": 5
+        },
+        "nlp": {
+            "cs": 359,
+            "ml-ai": 1446,
+            "cs-books": 4,
+            "work": 16
+        },
+        "languageSimilarity": {
+            "cs": 1
+        },
+        "wikipedia": {
+            "cs": 15,
+            "ml-ai": 73
+        },
+        "llm": {
+            "cs": 2,
+            "ml-ai": 81,
+            "cs-books": 19,
+            "nvim-plugins": 71,
+            "work": 16,
+            "nvim": 5
+        },
+        "foss": {
+            "cs": 26,
+            "cs-books": 2
+        },
+        "license": {
+            "cs": 2,
+            "nvim-plugins": 2,
+            "software": 6
+        },
+        "social": {
+            "cs": 4
+        },
+        "science": {
+            "cs": 1,
+            "non-biological-sciences": 1379,
+            "cs-books": 12,
+            "software-later-or-nah": 1
+        },
+        "cs": {
+            "cs": 4636,
+            "cs-books": 310,
+            "projects": 5
+        },
+        "nlq": {
+            "cs": 41,
+            "work": 2
+        },
+        "audio": {
+            "cs": 6,
+            "language-learning": 1357,
+            "ml-ai": 296,
+            "software": 44
+        },
+        "encoding": {
+            "cs": 22,
+            "nvim-plugins": 1
+        },
+        "curriculum": {
+            "cs": 1
+        },
+        "shell": {
+            "cs": 83,
+            "cs-books": 9,
+            "nvim-plugins": 5,
+            "software": 14
+        },
+        "data": {
+            "cs": 5,
+            "ml-ai": 102,
+            "nebokrai-software": 1,
+            "projects": 5
+        },
+        "assembler": {
+            "cs": 139,
+            "cs-books": 5
+        },
+        "lowLevel": {
+            "cs": 339,
+            "cs-books": 50,
+            "projects": 5
+        },
+        "make": {
+            "cs": 4,
+            "nvim-plugins": 2
+        },
+        "disassembly": {
+            "cs": 7
+        },
+        "freeCodeCamp": {
+            "cs": 145
+        },
+        "privacy": {
+            "cs": 14
+        },
+        "git": {
+            "cs": 12,
+            "nvim-plugins": 88,
+            "nebokrai-software": 3,
+            "software": 39
+        },
+        "forum": {
+            "cs": 55,
+            "config-work": 4
+        },
+        "personalSite": {
+            "cs": 351
+        },
+        "anki": {
+            "cs": 45
+        },
+        "graphics": {
+            "cs": 8,
+            "software-later-or-nah": 10
+        },
+        "fitness": {
+            "fitness": 363,
+            "nebokrai": 3,
+            "nebokrai-software": 83
+        },
+        "food": {
+            "fitness": 272,
+            "nebokrai-software": 17,
+            "practical-living": 15
+        },
+        "sexuality": {
+            "fitness": 23
+        },
+        "running": {
+            "fitness": 9
+        },
+        "sport": {
+            "fitness": 21
+        },
+        "nvidia": {
+            "config-work": 34,
+            "software": 4
+        },
+        "reddit": {
+            "config-work": 22,
+            "ml-ai": 20
+        },
+        "hybridModifier": {
+            "config-work": 20
+        },
+        "keyboard": {
+            "config-work": 112
+        },
+        "colorSpaceMapping": {
+            "config-work": 4
+        },
+        "color": {
+            "config-work": 189
+        },
+        "kanata": {
+            "config-work": 70
+        },
+        "keybind": {
+            "config-work": 10,
+            "nvim-plugins": 16,
+            "nvim": 8,
+            "projects": 11
+        },
+        "nixEli5": {
+            "config-work": 1
+        },
+        "raspberryPi": {
+            "config-work": 53
+        },
+        "kde": {
+            "config-work": 2
+        },
+        "teams": {
+            "config-work": 22
+        },
+        "alpine": {
+            "config-work": 6
+        },
+        "search": {
+            "config-work": 17,
+            "cs-books": 4,
+            "nvim-plugins": 120,
+            "software": 41
+        },
+        "garbageCollection": {
+            "config-work": 9
+        },
+        "gtk": {
+            "config-work": 17
+        },
+        "malina": {
+            "config-work": 52
+        },
+        "emacs": {
+            "config-work": 80,
+            "cs-books": 1
+        },
+        "nix": {
+            "config-work": 1653,
+            "nebokrai-software": 1,
+            "nvim": 18,
+            "software": 1
+        },
+        "sops": {
+            "config-work": 9
+        },
+        "icon": {
+            "config-work": 12,
+            "nvim-plugins": 15
+        },
+        "userscript": {
+            "config-work": 28,
+            "software": 4
+        },
+        "opengl": {
+            "config-work": 34
+        },
+        "snippet": {
+            "config-work": 13,
+            "nvim-plugins": 30,
+            "software": 5
+        },
+        "dualMonitor": {
+            "config-work": 5
+        },
+        "phone": {
+            "config-work": 346
+        },
+        "ricing": {
+            "config-work": 878,
+            "nvim": 5,
+            "software": 75
+        },
+        "scriptCollection": {
+            "config-work": 17,
+            "software": 1
+        },
+        "qt": {
+            "config-work": 2
+        },
+        "kmonad": {
+            "config-work": 15
+        },
+        "i3": {
+            "config-work": 80
+        },
+        "hyprland": {
+            "config-work": 96
+        },
+        "templating": {
+            "config-work": 14,
+            "software": 8
+        },
+        "editor": {
+            "config-work": 156,
+            "software-later-or-nah": 45,
+            "nebokrai-software": 29,
+            "software": 94
+        },
+        "hank": {
+            "config-work": 37
+        },
+        "dots": {
+            "config-work": 1451
+        },
+        "wallpaper": {
+            "config-work": 68,
+            "software": 15
+        },
+        "gnome": {
+            "config-work": 2,
+            "software-later-or-nah": 39
+        },
+        "guix": {
+            "config-work": 60
+        },
+        "landscapeClient": {
+            "config-work": 16
+        },
+        "vscode": {
+            "config-work": 79,
+            "nvim": 1
+        },
+        "initSystem": {
+            "config-work": 9
+        },
+        "flake": {
+            "config-work": 51
+        },
+        "mobile": {
+            "config-work": 359,
+            "cs-books": 2,
+            "software-later-or-nah": 15,
+            "nebokrai-software": 77,
+            "software": 8
+        },
+        "display": {
+            "config-work": 5
+        },
+        "presentation": {
+            "config-work": 3,
+            "nvim-plugins": 2
+        },
+        "homeManager": {
+            "config-work": 83
+        },
+        "cuda": {
+            "config-work": 34
+        },
+        "pictrix": {
+            "config-work": 9
+        },
+        "siteTheming": {
+            "config-work": 28
+        },
+        "colorInterpolation": {
+            "config-work": 4
+        },
+        "nebokrai": {
+            "nebokrai": 70
+        },
+        "solver": {
+            "nebokrai": 21
+        },
+        "dataFormat": {
+            "nebokrai": 11,
+            "nebokrai-software": 38,
+            "software": 86
+        },
+        "server": {
+            "nebokrai": 15,
+            "nebokrai-software": 7,
+            "projects": 2,
+            "software": 20
+        },
+        "connectivity": {
+            "nebokrai": 1
+        },
+        "speechSynthesis": {
+            "ml-ai": 131
+        },
+        "hwOrExam": {
+            "ml-ai": 34
+        },
+        "conference": {
+            "ml-ai": 7
+        },
+        "sequence": {
+            "ml-ai": 14
+        },
+        "annotation": {
+            "ml-ai": 1,
+            "software": 1
+        },
+        "transcription": {
+            "ml-ai": 43
+        },
+        "gan": {
+            "ml-ai": 136,
+            "cs-books": 4
+        },
+        "cloud": {
+            "ml-ai": 20
+        },
+        "signalProcessing": {
+            "ml-ai": 71,
+            "cs-books": 1
+        },
+        "tts": {
+            "ml-ai": 17,
+            "projects": 63
+        },
+        "chatbot": {
+            "ml-ai": 89
+        },
+        "rag": {
+            "ml-ai": 60
+        },
+        "visualization": {
+            "ml-ai": 5,
+            "nebokrai-software": 8,
+            "software": 22
+        },
+        "huggingface": {
+            "ml-ai": 13
+        },
+        "speechProcessing": {
+            "ml-ai": 793,
+            "cs-books": 3,
+            "software": 1
+        },
+        "forcedAlignment": {
+            "ml-ai": 103,
+            "projects": 5
+        },
+        "xgboost": {
+            "ml-ai": 38
+        },
+        "naiveBayes": {
+            "ml-ai": 5
+        },
+        "ralm": {
+            "ml-ai": 60
+        },
+        "phon": {
+            "ml-ai": 141,
+            "projects": 3
+        },
+        "decisionTree": {
+            "ml-ai": 37
+        },
+        "attention": {
+            "ml-ai": 105
+        },
+        "corpus": {
+            "ml-ai": 13
+        },
+        "paperReading": {
+            "ml-ai": 5
+        },
+        "acoustics": {
+            "ml-ai": 24
+        },
+        "earley": {
+            "ml-ai": 35
+        },
+        "mlops": {
+            "ml-ai": 17,
+            "cs-books": 8
+        },
+        "computerVision": {
+            "ml-ai": 250,
+            "cs-books": 17,
+            "work": 2
+        },
+        "hierarchical": {
+            "ml-ai": 1
+        },
+        "cloudResource": {
+            "ml-ai": 20
+        },
+        "factorAnalysis": {
+            "ml-ai": 34
+        },
+        "pytorch": {
+            "ml-ai": 5,
+            "cs-books": 17
+        },
+        "transformer": {
+            "ml-ai": 105
+        },
+        "tf": {
+            "ml-ai": 274,
+            "cs-books": 39
+        },
+        "accent": {
+            "ml-ai": 61
+        },
+        "model": {
+            "ml-ai": 45,
+            "cs-books": 19
+        },
+        "voiceConversion": {
+            "ml-ai": 61
+        },
+        "arxiv": {
+            "ml-ai": 43,
+            "cs-books": 8
+        },
+        "wordEmbedding": {
+            "ml-ai": 28
+        },
+        "learnopencv": {
+            "ml-ai": 241
+        },
+        "styleTransfer": {
+            "ml-ai": 33
+        },
+        "graph": {
+            "ml-ai": 3,
+            "cs-books": 6
+        },
+        "scikit": {
+            "ml-ai": 5,
+            "cs-books": 6
+        },
+        "randomForest": {
+            "ml-ai": 37
+        },
+        "rl": {
+            "ml-ai": 183,
+            "cs-books": 11,
+            "projects": 2
+        },
+        "viterbi": {
+            "ml-ai": 52
+        },
+        "stackexchange": {
+            "ml-ai": 23
+        },
+        "fairness": {
+            "ml-ai": 2
+        },
+        "cinema": {
+            "humanities": 189
+        },
+        "sheetMusic": {
+            "humanities": 4
+        },
+        "poetry": {
+            "humanities": 38
+        },
+        "song": {
+            "humanities": 811
+        },
+        "scienceFiction": {
+            "humanities": 6
+        },
+        "comedy": {
+            "humanities": 112
+        },
+        "literature": {
+            "humanities": 580,
+            "practical-living": 11
+        },
+        "humor": {
+            "humanities": 112
+        },
+        "relativity": {
+            "non-biological-sciences": 6
+        },
+        "adversarial": {
+            "cs-books": 1
+        },
+        "autodiff": {
+            "cs-books": 4
+        },
+        "electronics": {
+            "cs-books": 7
+        },
+        "keras": {
+            "cs-books": 7
+        },
+        "architecture": {
+            "cs-books": 8,
+            "projects": 6
+        },
+        "commandLine": {
+            "cs-books": 1,
+            "software-later-or-nah": 6,
+            "nvim-plugins": 9
+        },
+        "engineering": {
+            "cs-books": 2,
+            "general-tech": 85
+        },
+        "backend": {
+            "cs-books": 7
+        },
+        "cpp": {
+            "cs-books": 1,
+            "nvim-plugins": 5,
+            "nvim": 3,
+            "projects": 43
+        },
+        "php": {
+            "cs-books": 16,
+            "nvim-plugins": 3
+        },
+        "deepLearning": {
+            "cs-books": 76
+        },
+        "hpc": {
+            "cs-books": 1
+        },
+        "llvm": {
+            "cs-books": 12
+        },
+        "latent": {
+            "cs-books": 11
+        },
+        "bigData": {
+            "cs-books": 9
+        },
+        "c": {
+            "cs-books": 1,
+            "projects": 25
+        },
+        "theano": {
+            "cs-books": 5
+        },
+        "machineEmulators": {
+            "software-later-or-nah": 19
+        },
+        "novelWriting": {
+            "software-later-or-nah": 9
+        },
+        "streaming": {
+            "software-later-or-nah": 7
+        },
+        "bugTracker": {
+            "software-later-or-nah": 7
+        },
+        "map": {
+            "software-later-or-nah": 4,
+            "software": 12
+        },
+        "touchTyping": {
+            "software-later-or-nah": 4,
+            "nvim-plugins": 6
+        },
+        "screenshot": {
+            "software-later-or-nah": 3,
+            "nvim-plugins": 10,
+            "software": 11
+        },
+        "system": {
+            "software-later-or-nah": 30,
+            "software": 116
+        },
+        "termulator": {
+            "software-later-or-nah": 8,
+            "software": 5
+        },
+        "fun": {
+            "software-later-or-nah": 80,
+            "nvim-plugins": 13,
+            "software": 73
+        },
+        "image": {
+            "software-later-or-nah": 35,
+            "nvim-plugins": 11,
+            "software": 31
+        },
+        "npm": {
+            "software-later-or-nah": 8
+        },
+        "chemistry": {
+            "software-later-or-nah": 4
+        },
+        "email": {
+            "software-later-or-nah": 4,
+            "nvim-plugins": 2,
+            "nebokrai-software": 2,
+            "software": 1
+        },
+        "videoEditor": {
+            "software-later-or-nah": 16
+        },
+        "gaming": {
+            "software-later-or-nah": 47,
+            "nvim-plugins": 1
+        },
+        "screenRecorder": {
+            "software-later-or-nah": 6
+        },
+        "launcher": {
+            "software-later-or-nah": 8,
+            "software": 44
+        },
+        "monitoring": {
+            "software-later-or-nah": 30,
+            "software": 6
+        },
+        "terminal": {
+            "software-later-or-nah": 66,
+            "nvim-plugins": 52
+        },
+        "movie": {
+            "software-later-or-nah": 8
+        },
+        "security": {
+            "software-later-or-nah": 13,
+            "nvim-plugins": 9,
+            "software": 30
+        },
+        "emulation": {
+            "software-later-or-nah": 7
+        },
+        "windows": {
+            "software-later-or-nah": 8
+        },
+        "communication": {
+            "software-later-or-nah": 43,
+            "practical-living": 8,
+            "software": 82
+        },
+        "astronomy": {
+            "software-later-or-nah": 3
+        },
+        "embedded": {
+            "software-later-or-nah": 2
+        },
+        "flashcard": {
+            "software-later-or-nah": 5
+        },
+        "imageEditor": {
+            "software-later-or-nah": 7
+        },
+        "emulator": {
+            "software-later-or-nah": 8
+        },
+        "widget": {
+            "software-later-or-nah": 4,
+            "software": 4
+        },
+        "debug": {
+            "nvim-plugins": 76
+        },
+        "grammar": {
+            "nvim-plugins": 1
+        },
+        "picker": {
+            "nvim-plugins": 5
+        },
+        "productivity": {
+            "nvim-plugins": 35
+        },
+        "ast": {
+            "nvim-plugins": 2
+        },
+        "ansiColor": {
+            "nvim-plugins": 1
+        },
+        "date": {
+            "nvim-plugins": 4
+        },
+        "sorting": {
+            "nvim-plugins": 2
+        },
+        "discord": {
+            "nvim-plugins": 4
+        },
+        "comment": {
+            "nvim-plugins": 1
+        },
+        "refactoring": {
+            "nvim-plugins": 8
+        },
+        "clock": {
+            "nvim-plugins": 1,
+            "software": 10
+        },
+        "taskRunner": {
+            "nvim-plugins": 26
+        },
+        "translation": {
+            "nvim-plugins": 12,
+            "software": 7
+        },
+        "typst": {
+            "nvim-plugins": 3
+        },
+        "fennel": {
+            "nvim-plugins": 8
+        },
+        "keyboardLayout": {
+            "nvim-plugins": 4
+        },
+        "typing": {
+            "nvim-plugins": 3
+        },
+        "rootDetector": {
+            "nvim-plugins": 9
+        },
+        "benchmarking": {
+            "nvim-plugins": 1,
+            "software": 3
+        },
+        "calculator": {
+            "nvim-plugins": 5,
+            "software": 25
+        },
+        "markdown": {
+            "nvim-plugins": 26,
+            "software": 15
+        },
+        "zettelkasten": {
+            "nvim-plugins": 8
+        },
+        "zen": {
+            "nvim-plugins": 13
+        },
+        "zellij": {
+            "nvim-plugins": 1
+        },
+        "configSwitching": {
+            "nvim-plugins": 3
+        },
+        "gitlab": {
+            "nvim-plugins": 7,
+            "software": 1
+        },
+        "emoji": {
+            "nvim-plugins": 6,
+            "software": 7
+        },
+        "stackoverflow": {
+            "nvim-plugins": 1
+        },
+        "kubernetes": {
+            "nvim-plugins": 9
+        },
+        "fileBrowser": {
+            "nvim-plugins": 51
+        },
+        "editingExtensions": {
+            "nvim-plugins": 68
+        },
+        "yankPaste": {
+            "nvim-plugins": 41
+        },
+        "nvimPlugin": {
+            "nvim-plugins": 3350
+        },
+        "async": {
+            "nvim-plugins": 15
+        },
+        "notification": {
+            "nvim-plugins": 16,
+            "nebokrai-software": 8,
+            "software": 11
+        },
+        "fuzzyFinder": {
+            "nvim-plugins": 15
+        },
+        "changeDirectory": {
+            "nvim-plugins": 6
+        },
+        "chatgpt": {
+            "nvim-plugins": 25
+        },
+        "joke": {
+            "nvim-plugins": 4
+        },
+        "codeAnalysis": {
+            "nvim-plugins": 4
+        },
+        "dotfileManager": {
+            "nvim-plugins": 1
+        },
+        "websocket": {
+            "nvim-plugins": 2
+        },
+        "asciiArt": {
+            "nvim-plugins": 11
+        },
+        "gemini": {
+            "nvim-plugins": 1
+        },
+        "bibliography": {
+            "nvim-plugins": 1,
+            "software": 8
+        },
+        "json": {
+            "nvim-plugins": 4,
+            "nebokrai-software": 7
+        },
+        "pandoc": {
+            "nvim-plugins": 6
+        },
+        "spotify": {
+            "nvim-plugins": 3,
+            "software": 11
+        },
+        "dashboard": {
+            "nvim-plugins": 13,
+            "nebokrai-software": 9,
+            "software": 3
+        },
+        "calendar": {
+            "nvim-plugins": 4,
+            "nebokrai-software": 24
+        },
+        "orgmode": {
+            "nvim-plugins": 7,
+            "nebokrai-software": 7
+        },
+        "diagram": {
+            "nvim-plugins": 1
+        },
+        "editingEnhancement": {
+            "nvim-plugins": 174
+        },
+        "svg": {
+            "nvim-plugins": 1,
+            "software": 4
+        },
+        "coreutils": {
+            "nvim-plugins": 5
+        },
+        "codeImage": {
+            "nvim-plugins": 6
+        },
+        "indentation": {
+            "nvim-plugins": 30
+        },
+        "weather": {
+            "nvim-plugins": 3,
+            "software": 5
+        },
+        "fileMonitor": {
+            "nvim-plugins": 3
+        },
+        "grpc": {
+            "nvim-plugins": 1
+        },
+        "cowsay": {
+            "nvim-plugins": 3
+        },
+        "lsp": {
+            "nvim-plugins": 119,
+            "nvim": 31
+        },
+        "treesitter": {
+            "nvim-plugins": 10
+        },
+        "commit": {
+            "nvim-plugins": 7
+        },
+        "hex": {
+            "nvim-plugins": 3
+        },
+        "jira": {
+            "nvim-plugins": 15
+        },
+        "diff": {
+            "nvim-plugins": 16,
+            "nebokrai-software": 13,
+            "software": 11
+        },
+        "performance": {
+            "nvim-plugins": 1
+        },
+        "obsidian": {
+            "nvim-plugins": 8,
+            "nebokrai-software": 2
+        },
+        "pipeline": {
+            "work": 9,
+            "software": 1
+        },
+        "table": {
+            "work": 1
+        },
+        "dataGeneration": {
+            "work": 1
+        },
+        "knutils": {
+            "work": 28
+        },
+        "logging": {
+            "work": 26,
+            "software": 3
+        },
+        "tech": {
+            "general-tech": 102
+        },
+        "agriculture": {
+            "general-tech": 1
+        },
+        "car": {
+            "general-tech": 13
+        },
+        "polymathy": {
+            "general-tech": 1
+        },
+        "medicine": {
+            "general-tech": 2
+        },
+        "ethics": {
+            "philosophy": 2541
+        },
+        "ipa": {
+            "social-sciences": 435
+        },
+        "thinkTank": {
+            "social-sciences": 37
+        },
+        "inequality": {
+            "social-sciences": 9
+        },
+        "gameTheory": {
+            "social-sciences": 34
+        },
+        "curiosity": {
+            "social-sciences": 6
+        },
+        "socialScience": {
+            "social-sciences": 7974
+        },
+        "finance": {
+            "social-sciences": 7,
+            "nebokrai-software": 12,
+            "practical-living": 11
+        },
+        "geography": {
+            "social-sciences": 7
+        },
+        "decisionTheory": {
+            "social-sciences": 23
+        },
+        "anthropology": {
+            "social-sciences": 2
+        },
+        "neorg": {
+            "nebokrai-software": 7,
+            "nvim": 96
+        },
+        "clockodo": {
+            "nebokrai-software": 1
+        },
+        "workout": {
+            "nebokrai-software": 43
+        },
+        "automation": {
+            "nebokrai-software": 1
+        },
+        "noteTaking": {
+            "nebokrai-software": 88
+        },
+        "api": {
+            "nebokrai-software": 2,
+            "software": 7
+        },
+        "habit": {
+            "nebokrai-software": 12,
+            "practical-living": 5
+        },
+        "bot": {
+            "nebokrai-software": 29
+        },
+        "dataManagement": {
+            "nebokrai-software": 2
+        },
+        "meditation": {
+            "nebokrai-software": 3,
+            "practical-living": 2
+        },
+        "todoManagement": {
+            "nebokrai-software": 66
+        },
+        "bookmarkManagement": {
+            "nebokrai-software": 13,
+            "software": 4
+        },
+        "contactManagement": {
+            "nebokrai-software": 3
+        },
+        "gtd": {
+            "nebokrai-software": 13,
+            "nvim": 88
+        },
+        "multiplexer": {
+            "nvim": 56,
+            "software": 5
+        },
+        "ironNvim": {
+            "nvim": 1
+        },
+        "oldvim": {
+            "nvim": 36
+        },
+        "clojure": {
+            "nvim": 1
+        },
+        "fsharp": {
+            "nvim": 1
+        },
+        "lazyman": {
+            "nvim": 111
+        },
+        "pde": {
+            "nvim": 2
+        },
+        "correctThinking": {
+            "practical-living": 1
+        },
+        "sex": {
+            "practical-living": 108
+        },
+        "lifeHack": {
+            "practical-living": 218
+        },
+        "relationship": {
+            "practical-living": 14
+        },
+        "parenting": {
+            "practical-living": 14
+        },
+        "mentalHealth": {
+            "practical-living": 14
+        },
+        "motivation": {
+            "practical-living": 17
+        },
+        "bookToLiveBy": {
+            "practical-living": 33
+        },
+        "aphorism": {
+            "practical-living": 3
+        },
+        "travel": {
+            "practical-living": 45
+        },
+        "family": {
+            "practical-living": 1
+        },
+        "mentalFortitude": {
+            "practical-living": 2
+        },
+        "identity": {
+            "practical-living": 5
+        },
+        "practicalLiving": {
+            "practical-living": 995
+        },
+        "creativity": {
+            "practical-living": 16
+        },
+        "fallacy": {
+            "practical-living": 1
+        },
+        "wisdomLiterature": {
+            "practical-living": 11
+        },
+        "noteToSelf": {
+            "practical-living": 4
+        },
+        "philanthropy": {
+            "practical-living": 8
+        },
+        "gardening": {
+            "practical-living": 23
+        },
+        "proglangTable": {
+            "projects": 195
+        },
+        "interlineator": {
+            "projects": 3
+        },
+        "bash": {
+            "projects": 64
+        },
+        "parallelPhrases": {
+            "projects": 1
+        },
+        "dataset": {
+            "projects": 32
+        },
+        "personalWebsite": {
+            "projects": 40
+        },
+        "ifThen": {
+            "projects": 29
+        },
+        "rosettaRegex": {
+            "projects": 14
+        },
+        "keyboardTrainer": {
+            "projects": 33
+        },
+        "rlcard": {
+            "projects": 21
+        },
+        "tripPlanner": {
+            "projects": 10
+        },
+        "functional": {
+            "projects": 92
+        },
+        "polyglotToolkit": {
+            "projects": 2
+        },
+        "githoarder": {
+            "projects": 3
+        },
+        "proofsBook": {
+            "projects": 1
+        },
+        "rosettaProjects": {
+            "projects": 490
+        },
+        "nbcat": {
+            "projects": 17
+        },
+        "grecromancer": {
+            "projects": 38
+        },
+        "beautifulAlgorithms": {
+            "projects": 47
+        },
+        "bitextAlignment": {
+            "projects": 879
+        },
+        "wiktionary": {
+            "projects": 82
+        },
+        "henryhiggins": {
+            "projects": 3
+        },
+        "juventas": {
+            "projects": 117
+        },
+        "sponsorship": {
+            "projects": 101
+        },
+        "nand2tetris": {
+            "projects": 5
+        },
+        "donation": {
+            "software": 3
+        },
+        "versionControl": {
+            "software": 101
+        },
+        "github": {
+            "software": 2
+        },
+        "dataWrangling": {
+            "software": 125
+        },
+        "codeNavigation": {
+            "software": 1
+        },
+        "clipboard": {
+            "software": 5
+        },
+        "adblock": {
+            "software": 5
+        },
+        "desktopShell": {
+            "software": 18
+        },
+        "drawing": {
+            "software": 12
+        },
+        "cleanup": {
+            "software": 20
+        },
+        "console": {
+            "software": 331
+        },
+        "secrets": {
+            "software": 5
+        },
+        "spreadsheet": {
+            "software": 7
+        },
+        "aiAssistant": {
+            "software": 31
+        },
+        "wayland": {
+            "software": 4
+        }
+    },
+    "subtags": {
+        "multilang": {
+            "proglangs": 8
+        },
+        "theory": {
+            "proglangs": 58,
+            "cs": 19,
+            "nebokrai": 1,
+            "humanities": 32,
+            "cs-books": 6,
+            "social-sciences": 4,
+            "software": 1
+        },
+        "jekyll": {
+            "proglangs": 4
+        },
+        "small": {
+            "proglangs": 23,
+            "cs": 3
+        },
+        "mysql": {
+            "proglangs": 6
+        },
+        "academic": {
+            "proglangs": 4
+        },
+        "development": {
+            "proglangs": 8,
+            "general": 11,
+            "cs": 13,
+            "config-work": 124,
+            "software-later-or-nah": 27,
+            "social-sciences": 20,
+            "nebokrai-software": 64,
+            "software": 349
+        },
+        "dioxus": {
+            "proglangs": 5
+        },
+        "large": {
+            "proglangs": 41
+        },
+        "library": {
+            "proglangs": 166,
+            "cs": 21,
+            "language-learning": 19,
+            "nvim-plugins": 1
+        },
+        "plotting": {
+            "proglangs": 12
+        },
+        "react": {
+            "proglangs": 5,
+            "cs": 7
+        },
+        "framework": {
+            "proglangs": 8,
+            "cs-books": 10,
+            "nvim-plugins": 29,
+            "software": 15
+        },
+        "type:tool": {
+            "proglangs": 23,
+            "mathematics": 1,
+            "cs": 46
+        },
+        "django": {
+            "proglangs": 13,
+            "cs": 4
+        },
+        "example": {
+            "proglangs": 32,
+            "cs": 5,
+            "cs-books": 1
+        },
+        "prolog": {
+            "proglangs": 6
+        },
+        "internals": {
+            "proglangs": 5,
+            "config-work": 15,
+            "software": 28
+        },
+        "rasa": {
+            "proglangs": 4
+        },
+        "package": {
+            "proglangs": 692
+        },
+        "reference": {
+            "proglangs": 49,
+            "nvim-plugins": 8,
+            "nvim": 1,
+            "projects": 27
+        },
+        "zoology": {
+            "biological-sciences": 5
+        },
+        "groupSelection": {
+            "biological-sciences": 1
+        },
+        "gameTheory": {
+            "biological-sciences": 1
+        },
+        "filetype:PDF": {
+            "biological-sciences": 1
+        },
+        "language": {
+            "biological-sciences": 1,
+            "config-work": 33,
+            "software": 5
+        },
+        "scalp": {
+            "biological-sciences": 9
+        },
+        "pca": {
+            "mathematics": 5
+        },
+        "errorClustering": {
+            "mathematics": 14
+        },
+        "multiple": {
+            "mathematics": 1,
+            "nebokrai-software": 4,
+            "software": 10
+        },
+        "svd": {
+            "mathematics": 2
+        },
+        "model": {
+            "mathematics": 10
+        },
+        "meta": {
+            "mathematics": 7,
+            "cs": 18,
+            "config-work": 22,
+            "ml-ai": 5,
+            "humanities": 48,
+            "work": 1,
+            "nebokrai-software": 5,
+            "nvim": 12,
+            "projects": 3
+        },
+        "estimator": {
+            "mathematics": 10
+        },
+        "geogebra": {
+            "mathematics": 10
+        },
+        "instrumentalVariables": {
+            "mathematics": 5
+        },
+        "tensor": {
+            "mathematics": 4
+        },
+        "miscellaneous": {
+            "mathematics": 443,
+            "general": 5,
+            "config-work": 2,
+            "nvim-plugins": 74,
+            "work": 14,
+            "nebokrai-software": 2,
+            "nvim": 7,
+            "projects": 17,
+            "software": 135
+        },
+        "probitLogitTobit": {
+            "mathematics": 3
+        },
+        "treatmentEffects": {
+            "mathematics": 11
+        },
+        "dotProduct": {
+            "mathematics": 3
+        },
+        "tests": {
+            "mathematics": 8
+        },
+        "fixedEffects": {
+            "mathematics": 9
+        },
+        "advanced": {
+            "mathematics": 16,
+            "cs": 1,
+            "cs-books": 3,
+            "nvim": 2
+        },
+        "graphing": {
+            "mathematics": 10
+        },
+        "2sls": {
+            "mathematics": 58
+        },
+        "topicMap": {
+            "mathematics": 7
+        },
+        "macro": {
+            "general": 25,
+            "nvim-plugins": 7,
+            "social-sciences": 3
+        },
+        "kojiki": {
+            "general": 4
+        },
+        "subtag:cornwall": {
+            "general": 4
+        },
+        "celtic": {
+            "general": 98
+        },
+        "old": {
+            "general": 15
+        },
+        "subtag:welsh": {
+            "general": 12
+        },
+        "subtag:manx": {
+            "general": 3
+        },
+        "formerlyCalled'Links'": {
+            "general": 46
+        },
+        "micro": {
+            "general": 9,
+            "social-sciences": 14
+        },
+        "jain": {
+            "general": 2
+        },
+        "babylonian": {
+            "general": 5
+        },
+        "subtag:scotland": {
+            "general": 18
+        },
+        "ireland": {
+            "general": 38
+        },
+        "behavioral": {
+            "general": 2,
+            "social-sciences": 15
+        },
+        "taoist": {
+            "general": 40
+        },
+        "asia": {
+            "general": 27
+        },
+        "confucian": {
+            "general": 32
+        },
+        "gnostic": {
+            "general": 20
+        },
+        "swAsia": {
+            "general": 15
+        },
+        "subtype:educational": {
+            "cs": 10
+        },
+        "tda": {
+            "cs": 46,
+            "ml-ai": 12
+        },
+        "recent": {
+            "cs": 22,
+            "nvim-plugins": 10
+        },
+        "management": {
+            "cs": 13,
+            "config-work": 10,
+            "nvim-plugins": 39,
+            "software": 56
+        },
+        "notLookedAtInAWhile": {
+            "cs": 293
+        },
+        "programming": {
+            "cs": 54,
+            "config-work": 8
+        },
+        "comparison": {
+            "cs": 5
+        },
+        "assistant": {
+            "cs": 2,
+            "nvim-plugins": 71
+        },
+        "certification": {
+            "cs": 3
+        },
+        "practice": {
+            "cs": 15
+        },
+        "gray": {
+            "config-work": 15
+        },
+        "light": {
+            "config-work": 1
+        },
+        "manual": {
+            "config-work": 6,
+            "nvim-plugins": 1
+        },
+        "learning": {
+            "config-work": 24
+        },
+        "alternatives": {
+            "config-work": 7
+        },
+        "relatedProjects": {
+            "config-work": 1
+        },
+        "specificApps": {
+            "config-work": 59
+        },
+        "xmonad": {
+            "config-work": 13
+        },
+        "sway": {
+            "config-work": 16
+        },
+        "brownOrOther": {
+            "config-work": 18
+        },
+        "gallery": {
+            "config-work": 10
+        },
+        "harmonizing": {
+            "config-work": 2
+        },
+        "specificApp": {
+            "config-work": 12,
+            "nvim-plugins": 23,
+            "software": 5
+        },
+        "specificTopics": {
+            "config-work": 11
+        },
+        "roadmap": {
+            "config-work": 1,
+            "projects": 117
+        },
+        "dwm": {
+            "config-work": 35
+        },
+        "otherWm": {
+            "config-work": 34
+        },
+        "qtile": {
+            "config-work": 38
+        },
+        "education": {
+            "config-work": 12,
+            "software-later-or-nah": 7,
+            "social-sciences": 8,
+            "software": 1
+        },
+        "singleApp": {
+            "config-work": 4
+        },
+        "introduction": {
+            "config-work": 11
+        },
+        "bspwm": {
+            "config-work": 63
+        },
+        "fromPicture": {
+            "config-work": 14
+        },
+        "appToRice": {
+            "config-work": 14
+        },
+        "siteToRice": {
+            "config-work": 21
+        },
+        "intro": {
+            "config-work": 25
+        },
+        "rain": {
+            "config-work": 4
+        },
+        "awesomewm": {
+            "config-work": 55
+        },
+        "wayfire": {
+            "config-work": 1
+        },
+        "readingRoadmap": {
+            "config-work": 9
+        },
+        "purple": {
+            "config-work": 21
+        },
+        "blue": {
+            "config-work": 47
+        },
+        "nextSteps": {
+            "config-work": 7
+        },
+        "bluish": {
+            "config-work": 47
+        },
+        "dwl": {
+            "config-work": 2
+        },
+        "ricingTool": {
+            "config-work": 14
+        },
+        "installation": {
+            "config-work": 19
+        },
+        "interactive": {
+            "config-work": 13
+        },
+        "sigmaOs": {
+            "config-work": 6
+        },
+        "switching": {
+            "config-work": 27
+        },
+        "cheats": {
+            "config-work": 2
+        },
+        "river": {
+            "config-work": 3
+        },
+        "black": {
+            "config-work": 11
+        },
+        "customLinuxKernel": {
+            "config-work": 7
+        },
+        "workflow": {
+            "nebokrai": 1,
+            "software": 1
+        },
+        "kivy": {
+            "nebokrai": 1
+        },
+        "constraint": {
+            "nebokrai": 21
+        },
+        "berlin": {
+            "language-learning": 19
+        },
+        "softmax": {
+            "ml-ai": 1
+        },
+        "asr": {
+            "ml-ai": 100,
+            "cs-books": 2
+        },
+        "util": {
+            "ml-ai": 3,
+            "nvim-plugins": 11,
+            "software": 4
+        },
+        "bellman": {
+            "ml-ai": 57
+        },
+        "interpretable": {
+            "ml-ai": 2
+        },
+        "disentanglement": {
+            "ml-ai": 5
+        },
+        "generalResource": {
+            "ml-ai": 6
+        },
+        "featureLearning": {
+            "ml-ai": 9
+        },
+        "educationalProject": {
+            "ml-ai": 6,
+            "software": 1
+        },
+        "automated": {
+            "ml-ai": 7
+        },
+        "activeLearning": {
+            "ml-ai": 5
+        },
+        "semisupervised": {
+            "ml-ai": 4
+        },
+        "gpt": {
+            "ml-ai": 7
+        },
+        "speechRecognition": {
+            "ml-ai": 1
+        },
+        "feature": {
+            "ml-ai": 9,
+            "nvim-plugins": 11,
+            "nebokrai-software": 68
+        },
+        "tensorNetwork": {
+            "ml-ai": 2
+        },
+        "knn": {
+            "ml-ai": 2
+        },
+        "jimmyCarr": {
+            "humanities": 4
+        },
+        "summary": {
+            "humanities": 5
+        },
+        "studioC": {
+            "humanities": 50
+        },
+        "foilArmsAndHog": {
+            "humanities": 16
+        },
+        "classical": {
+            "humanities": 46
+        },
+        "approach": {
+            "humanities": 2
+        },
+        "rachelParris": {
+            "humanities": 8
+        },
+        "joshJohnson": {
+            "humanities": 2
+        },
+        "mitchellAndWebb": {
+            "humanities": 20
+        },
+        "snl": {
+            "humanities": 12
+        },
+        "favorite": {
+            "humanities": 534
+        },
+        "pgm": {
+            "cs-books": 4
+        },
+        "deepRl": {
+            "cs-books": 6
+        },
+        "bioinformatics": {
+            "cs-books": 3
+        },
+        "inference": {
+            "cs-books": 2
+        },
+        "fundamental": {
+            "cs-books": 13
+        },
+        "linuxKernel": {
+            "cs-books": 3
+        },
+        "windowManager": {
+            "cs-books": 1
+        },
+        "cleanCode": {
+            "cs-books": 1
+        },
+        "softwareDevelopment": {
+            "cs-books": 1
+        },
+        "fullstack": {
+            "cs-books": 5
+        },
+        "knowledgeDiscovery": {
+            "cs-books": 9
+        },
+        "bayesian": {
+            "cs-books": 1
+        },
+        "generative": {
+            "cs-books": 4
+        },
+        "evolutionary": {
+            "cs-books": 1
+        },
+        "dataMining": {
+            "cs-books": 18
+        },
+        "desktop": {
+            "cs-books": 1,
+            "nebokrai-software": 6,
+            "software": 214
+        },
+        "x86": {
+            "cs-books": 4
+        },
+        "turnBasedStrategy": {
+            "software-later-or-nah": 4
+        },
+        "atom": {
+            "software-later-or-nah": 9
+        },
+        "packageManager": {
+            "software-later-or-nah": 8
+        },
+        "puzzle": {
+            "software-later-or-nah": 4
+        },
+        "rts": {
+            "software-later-or-nah": 6
+        },
+        "rpg": {
+            "software-later-or-nah": 7
+        },
+        "subtag:engine": {
+            "software-later-or-nah": 7
+        },
+        "graphicCreation": {
+            "software-later-or-nah": 14
+        },
+        "sandbox": {
+            "software-later-or-nah": 6
+        },
+        "macos": {
+            "software-later-or-nah": 12,
+            "nvim": 2
+        },
+        "racing": {
+            "software-later-or-nah": 3
+        },
+        "science": {
+            "software-later-or-nah": 7
+        },
+        "bibliographyManagement": {
+            "software-later-or-nah": 8
+        },
+        "dockApp": {
+            "software-later-or-nah": 4
+        },
+        "wiki": {
+            "software-later-or-nah": 12,
+            "nvim-plugins": 1,
+            "software": 1
+        },
+        "dock": {
+            "software-later-or-nah": 4
+        },
+        "screencasting": {
+            "software-later-or-nah": 3
+        },
+        "engine": {
+            "software-later-or-nah": 9
+        },
+        "shooter": {
+            "software-later-or-nah": 2
+        },
+        "cityBuildingSimulation": {
+            "software-later-or-nah": 4
+        },
+        "sublimeText": {
+            "software-later-or-nah": 12
+        },
+        "wine": {
+            "software-later-or-nah": 17
+        },
+        "network": {
+            "software-later-or-nah": 5
+        },
+        "file": {
+            "software-later-or-nah": 8,
+            "nvim-plugins": 20
+        },
+        "dictionary": {
+            "software-later-or-nah": 1,
+            "nvim-plugins": 1
+        },
+        "game": {
+            "software-later-or-nah": 28,
+            "nvim-plugins": 8
+        },
+        "boilerplate": {
+            "software-later-or-nah": 3
+        },
+        "dmenuWrapper": {
+            "software-later-or-nah": 7
+        },
+        "color": {
+            "nvim-plugins": 67
+        },
+        "github": {
+            "nvim-plugins": 24
+        },
+        "vertical": {
+            "nvim-plugins": 2
+        },
+        "subtag:react": {
+            "nvim-plugins": 4
+        },
+        "obsolete": {
+            "nvim-plugins": 12
+        },
+        "count": {
+            "nvim-plugins": 1
+        },
+        "xml": {
+            "nvim-plugins": 1
+        },
+        "graphql": {
+            "nvim-plugins": 2
+        },
+        "pull": {
+            "nvim-plugins": 1
+        },
+        "autocommand": {
+            "nvim-plugins": 2
+        },
+        "pluginManagement": {
+            "nvim-plugins": 1
+        },
+        "subtraction": {
+            "nvim-plugins": 6
+        },
+        "gesture": {
+            "nvim-plugins": 1
+        },
+        "disableEnable": {
+            "nvim-plugins": 1
+        },
+        "codeLens": {
+            "nvim-plugins": 2
+        },
+        "idea": {
+            "nvim-plugins": 10
+        },
+        "external": {
+            "nvim-plugins": 24
+        },
+        "auto": {
+            "nvim-plugins": 30
+        },
+        "typst": {
+            "nvim-plugins": 1
+        },
+        "go": {
+            "nvim-plugins": 3
+        },
+        "notes": {
+            "nvim-plugins": 51
+        },
+        "hover": {
+            "nvim-plugins": 8
+        },
+        "handler": {
+            "nvim-plugins": 2
+        },
+        "navigation": {
+            "nvim-plugins": 116
+        },
+        "mode": {
+            "nvim-plugins": 27
+        },
+        "bionicReading": {
+            "nvim-plugins": 3
+        },
+        "update": {
+            "nvim-plugins": 1
+        },
+        "scratch": {
+            "nvim-plugins": 14
+        },
+        "pdf": {
+            "nvim-plugins": 3,
+            "software": 9
+        },
+        "add": {
+            "nvim-plugins": 1
+        },
+        "completion": {
+            "nvim-plugins": 65,
+            "nebokrai-software": 3,
+            "software": 2
+        },
+        "mouse": {
+            "nvim-plugins": 1
+        },
+        "vimscript": {
+            "nvim-plugins": 4
+        },
+        "jump": {
+            "nvim-plugins": 44
+        },
+        "textAlignment": {
+            "nvim-plugins": 6
+        },
+        "pluginIntegration": {
+            "nvim-plugins": 6
+        },
+        "makefile": {
+            "nvim-plugins": 1
+        },
+        "toc": {
+            "nvim-plugins": 2
+        },
+        "coderunner": {
+            "nvim-plugins": 1
+        },
+        "global": {
+            "nvim-plugins": 1
+        },
+        "humanReadable": {
+            "nvim-plugins": 2
+        },
+        "networkFileBrowser": {
+            "nvim-plugins": 1
+        },
+        "subtype:dictionary": {
+            "nvim-plugins": 1
+        },
+        "pluginUtil": {
+            "nvim-plugins": 22
+        },
+        "progress": {
+            "nvim-plugins": 5
+        },
+        "uml": {
+            "nvim-plugins": 7
+        },
+        "session": {
+            "nvim-plugins": 39
+        },
+        "copyright": {
+            "nvim-plugins": 1
+        },
+        "undoRedo": {
+            "nvim-plugins": 6
+        },
+        "table/list": {
+            "nvim-plugins": 4
+        },
+        "java": {
+            "nvim-plugins": 1
+        },
+        "gh": {
+            "nvim-plugins": 4
+        },
+        "tab": {
+            "nvim-plugins": 33
+        },
+        "prefix": {
+            "nvim-plugins": 6
+        },
+        "persistence": {
+            "nvim-plugins": 1
+        },
+        "code": {
+            "nvim-plugins": 11
+        },
+        "type:videoAtom": {
+            "nvim-plugins": 2
+        },
+        "reason": {
+            "nvim-plugins": 1
+        },
+        "rust": {
+            "nvim-plugins": 5
+        },
+        "webDev": {
+            "nvim-plugins": 17
+        },
+        "specificSoftware": {
+            "nvim-plugins": 6
+        },
+        "download": {
+            "nvim-plugins": 4,
+            "software": 11
+        },
+        "export": {
+            "nvim-plugins": 12,
+            "nebokrai-software": 14
+        },
+        "textobject": {
+            "nvim-plugins": 10
+        },
+        "simple": {
+            "nvim-plugins": 9
+        },
+        "multicursor": {
+            "nvim-plugins": 5
+        },
+        "sudo": {
+            "nvim-plugins": 1
+        },
+        "monorepo": {
+            "nvim-plugins": 2
+        },
+        "prompt": {
+            "nvim-plugins": 19
+        },
+        "brackets": {
+            "nvim-plugins": 1
+        },
+        "formatter": {
+            "nvim-plugins": 3
+        },
+        "asciidoc": {
+            "nvim-plugins": 3
+        },
+        "dockerCompose": {
+            "nvim-plugins": 2
+        },
+        "provacy": {
+            "nvim-plugins": 1
+        },
+        "trimming": {
+            "nvim-plugins": 10
+        },
+        "codeRunning": {
+            "nvim-plugins": 2,
+            "nvim": 23
+        },
+        "menu": {
+            "nvim-plugins": 19,
+            "software": 10
+        },
+        "swap": {
+            "nvim-plugins": 7
+        },
+        "bqn": {
+            "nvim-plugins": 1
+        },
+        "startup": {
+            "nvim-plugins": 15
+        },
+        "detection": {
+            "nvim-plugins": 1
+        },
+        "emacsStyle": {
+            "nvim-plugins": 3
+        },
+        "whitespace": {
+            "nvim-plugins": 10
+        },
+        "shell": {
+            "nvim-plugins": 3
+        },
+        "backwards": {
+            "nvim-plugins": 1
+        },
+        "creation": {
+            "nvim-plugins": 12,
+            "software": 105
+        },
+        "gist": {
+            "nvim-plugins": 1
+        },
+        "autoDetect": {
+            "nvim-plugins": 5
+        },
+        "cursor": {
+            "nvim-plugins": 4
+        },
+        "scala": {
+            "nvim-plugins": 2
+        },
+        "ffi": {
+            "nvim-plugins": 1
+        },
+        "time": {
+            "nvim-plugins": 1,
+            "nebokrai-software": 45,
+            "software": 16
+        },
+        "sidebar": {
+            "nvim-plugins": 8
+        },
+        "assertion": {
+            "nvim-plugins": 1
+        },
+        "codeRunner": {
+            "nvim-plugins": 2
+        },
+        "alarm": {
+            "nvim-plugins": 4
+        },
+        "query": {
+            "nvim-plugins": 1
+        },
+        "ollama": {
+            "nvim-plugins": 7
+        },
+        "proglangSpecific": {
+            "nvim-plugins": 331
+        },
+        "checkbox": {
+            "nvim-plugins": 6
+        },
+        "bard": {
+            "nvim-plugins": 1
+        },
+        "lint": {
+            "nvim-plugins": 5
+        },
+        "csv": {
+            "nvim-plugins": 9
+        },
+        "marketplace": {
+            "nvim-plugins": 2
+        },
+        "pair": {
+            "nvim-plugins": 18
+        },
+        "breadcrumbs": {
+            "nvim-plugins": 4
+        },
+        "ranger": {
+            "nvim-plugins": 5
+        },
+        "replace": {
+            "nvim-plugins": 26
+        },
+        "easymotion": {
+            "nvim-plugins": 17
+        },
+        "codeAction": {
+            "nvim-plugins": 6
+        },
+        "saving": {
+            "nvim-plugins": 13
+        },
+        "backup": {
+            "nvim-plugins": 2,
+            "software": 2
+        },
+        "vimdoc": {
+            "nvim-plugins": 2
+        },
+        "ownership": {
+            "nvim-plugins": 2
+        },
+        "codeBlockSeparation": {
+            "nvim-plugins": 1
+        },
+        "nN": {
+            "nvim-plugins": 2
+        },
+        "layout": {
+            "nvim-plugins": 28
+        },
+        "specificTerminal": {
+            "nvim-plugins": 1
+        },
+        "incremental": {
+            "nvim-plugins": 1
+        },
+        "duplicate": {
+            "nvim-plugins": 1
+        },
+        "pluginDevelopment": {
+            "nvim-plugins": 21
+        },
+        "linting": {
+            "nvim-plugins": 20
+        },
+        "macOnly": {
+            "nvim-plugins": 1
+        },
+        "notion": {
+            "nvim-plugins": 2,
+            "nebokrai-software": 8
+        },
+        "remote": {
+            "nvim-plugins": 11,
+            "software": 34
+        },
+        "close": {
+            "nvim-plugins": 4
+        },
+        "help": {
+            "nvim-plugins": 43,
+            "software": 15
+        },
+        "taskwarrior": {
+            "nvim-plugins": 1,
+            "nebokrai-software": 278
+        },
+        "parenthetical": {
+            "nvim-plugins": 2
+        },
+        "concealer": {
+            "nvim-plugins": 4
+        },
+        "project": {
+            "nvim-plugins": 1
+        },
+        "telescope": {
+            "nvim-plugins": 38
+        },
+        "rest": {
+            "nvim-plugins": 2,
+            "software": 3
+        },
+        "todo": {
+            "nvim-plugins": 34
+        },
+        "variable": {
+            "nvim-plugins": 2
+        },
+        "action": {
+            "nvim-plugins": 1
+        },
+        "macros": {
+            "nvim-plugins": 3
+        },
+        "taskRunning": {
+            "nvim-plugins": 58
+        },
+        "rebase": {
+            "nvim-plugins": 2
+        },
+        "nix": {
+            "nvim-plugins": 1
+        },
+        "quarto": {
+            "nvim-plugins": 1
+        },
+        "grep": {
+            "nvim-plugins": 61
+        },
+        "tweaks": {
+            "nvim-plugins": 2
+        },
+        "word": {
+            "nvim-plugins": 9
+        },
+        "configSharing": {
+            "nvim-plugins": 1
+        },
+        "gitLens": {
+            "nvim-plugins": 1
+        },
+        "repeat": {
+            "nvim-plugins": 1
+        },
+        "viewing": {
+            "nvim-plugins": 2,
+            "software": 10
+        },
+        "floating": {
+            "nvim-plugins": 3
+        },
+        "uuid": {
+            "nvim-plugins": 6
+        },
+        "status": {
+            "nvim-plugins": 66
+        },
+        "mongo": {
+            "nvim-plugins": 1
+        },
+        "neotestAdapter": {
+            "nvim-plugins": 11
+        },
+        "current": {
+            "nvim-plugins": 3
+        },
+        "fzfStyle": {
+            "nvim-plugins": 5
+        },
+        "info": {
+            "nvim-plugins": 1,
+            "nebokrai-software": 1
+        },
+        "dotnet": {
+            "nvim-plugins": 4
+        },
+        "mjml": {
+            "nvim-plugins": 1
+        },
+        "gitui": {
+            "nvim-plugins": 2
+        },
+        "switcher": {
+            "nvim-plugins": 32
+        },
+        "study": {
+            "nvim-plugins": 3
+        },
+        "highlight": {
+            "nvim-plugins": 27
+        },
+        "spelling": {
+            "nvim-plugins": 3
+        },
+        "compiler": {
+            "nvim-plugins": 1
+        },
+        "pandoc": {
+            "nvim-plugins": 2
+        },
+        "stocks": {
+            "nvim-plugins": 2
+        },
+        "unit": {
+            "nvim-plugins": 1
+        },
+        "wordCount": {
+            "nvim-plugins": 2
+        },
+        "wrapping": {
+            "nvim-plugins": 1
+        },
+        "plantUml": {
+            "nvim-plugins": 4
+        },
+        "buffer": {
+            "nvim-plugins": 108
+        },
+        "colorizer": {
+            "nvim-plugins": 3
+        },
+        "hurl": {
+            "nvim-plugins": 2
+        },
+        "errorHandling": {
+            "nvim-plugins": 1
+        },
+        "maximize": {
+            "nvim-plugins": 9
+        },
+        "signature": {
+            "nvim-plugins": 1
+        },
+        "alternative": {
+            "nvim-plugins": 1
+        },
+        "list": {
+            "nvim-plugins": 4
+        },
+        "runtimepath": {
+            "nvim-plugins": 1
+        },
+        "typescript": {
+            "nvim-plugins": 59
+        },
+        "collaboration": {
+            "nvim-plugins": 2
+        },
+        "print": {
+            "nvim-plugins": 6
+        },
+        "definition": {
+            "nvim-plugins": 8
+        },
+        "screensaver": {
+            "nvim-plugins": 3
+        },
+        "boolean": {
+            "nvim-plugins": 1
+        },
+        "manager": {
+            "nvim-plugins": 13
+        },
+        "narrowing": {
+            "nvim-plugins": 1
+        },
+        "sepcificApp": {
+            "nvim-plugins": 8
+        },
+        "ftp": {
+            "nvim-plugins": 2
+        },
+        "motion": {
+            "nvim-plugins": 3
+        },
+        "tldr": {
+            "nvim-plugins": 1
+        },
+        "typeHierarchy": {
+            "nvim-plugins": 1
+        },
+        "size": {
+            "nvim-plugins": 9
+        },
+        "mkdir": {
+            "nvim-plugins": 3
+        },
+        "quotationMark": {
+            "nvim-plugins": 1
+        },
+        "minimap": {
+            "nvim-plugins": 4
+        },
+        "toggle": {
+            "nvim-plugins": 4
+        },
+        "liveServer": {
+            "nvim-plugins": 4
+        },
+        "make": {
+            "nvim-plugins": 2
+        },
+        "ripgrep": {
+            "nvim-plugins": 2
+        },
+        "cscope": {
+            "nvim-plugins": 1
+        },
+        "dap": {
+            "nvim-plugins": 41
+        },
+        "zathura": {
+            "nvim-plugins": 1
+        },
+        "tmux": {
+            "nvim-plugins": 25,
+            "nvim": 4
+        },
+        "midi": {
+            "nvim-plugins": 1
+        },
+        "check": {
+            "nvim-plugins": 1
+        },
+        "guide": {
+            "nvim-plugins": 16
+        },
+        "jira": {
+            "nvim-plugins": 1
+        },
+        "center": {
+            "nvim-plugins": 1
+        },
+        "formatting": {
+            "nvim-plugins": 25,
+            "software": 3
+        },
+        "hook": {
+            "nvim-plugins": 1,
+            "nebokrai-software": 5,
+            "software": 18
+        },
+        "postgresql": {
+            "nvim-plugins": 3
+        },
+        "shift": {
+            "nvim-plugins": 1
+        },
+        "submode": {
+            "nvim-plugins": 3
+        },
+        "delete": {
+            "nvim-plugins": 5
+        },
+        "mentat": {
+            "nvim-plugins": 1
+        },
+        "tailwind": {
+            "nvim-plugins": 11
+        },
+        "scheduling": {
+            "nvim-plugins": 1
+        },
+        "commandStyle": {
+            "nvim-plugins": 21
+        },
+        "background": {
+            "nvim-plugins": 3
+        },
+        "nnn": {
+            "nvim-plugins": 2
+        },
+        "scratchpad": {
+            "nvim-plugins": 4
+        },
+        "rsync": {
+            "nvim-plugins": 6
+        },
+        "addition": {
+            "nvim-plugins": 6
+        },
+        "preview": {
+            "nvim-plugins": 4
+        },
+        "generation": {
+            "nvim-plugins": 1
+        },
+        "arguments": {
+            "nvim-plugins": 9
+        },
+        "input": {
+            "nvim-plugins": 1,
+            "nebokrai-software": 3,
+            "software": 19
+        },
+        "path": {
+            "nvim-plugins": 4
+        },
+        "cpp": {
+            "nvim-plugins": 30
+        },
+        "multipleWords": {
+            "nvim-plugins": 5
+        },
+        "filetypeSpecific": {
+            "nvim-plugins": 79
+        },
+        "clock/timer": {
+            "nvim-plugins": 15
+        },
+        "fuzzy": {
+            "nvim-plugins": 4
+        },
+        "base64": {
+            "nvim-plugins": 2
+        },
+        "?": {
+            "nvim-plugins": 31
+        },
+        "sorter": {
+            "nvim-plugins": 2
+        },
+        "autoClose": {
+            "nvim-plugins": 4
+        },
+        "sql": {
+            "nvim-plugins": 9
+        },
+        "scrolling": {
+            "nvim-plugins": 20
+        },
+        "marks": {
+            "nvim-plugins": 17
+        },
+        "sign": {
+            "nvim-plugins": 2
+        },
+        "ai": {
+            "nvim-plugins": 71,
+            "software": 3
+        },
+        "zig": {
+            "nvim-plugins": 1
+        },
+        "clipboard": {
+            "nvim-plugins": 41
+        },
+        "bracket": {
+            "nvim-plugins": 1
+        },
+        "paste": {
+            "nvim-plugins": 5
+        },
+        "markdown": {
+            "nvim-plugins": 39,
+            "software": 10
+        },
+        "jumpList": {
+            "nvim-plugins": 8
+        },
+        "reloading": {
+            "nvim-plugins": 2
+        },
+        "directory": {
+            "nvim-plugins": 4
+        },
+        "formatSpecific": {
+            "nvim-plugins": 64
+        },
+        "subtag:meta": {
+            "nvim-plugins": 3
+        },
+        "colorscheme": {
+            "nvim-plugins": 13
+        },
+        "analytics": {
+            "nvim-plugins": 9
+        },
+        "readline": {
+            "nvim-plugins": 2
+        },
+        "preconfiguration": {
+            "nvim-plugins": 4
+        },
+        "tags": {
+            "nvim-plugins": 2
+        },
+        "codeBlock": {
+            "nvim-plugins": 9
+        },
+        "redirection": {
+            "nvim-plugins": 1
+        },
+        "kotlin": {
+            "nvim-plugins": 1
+        },
+        "profiler": {
+            "nvim-plugins": 1
+        },
+        "linkedEdit": {
+            "nvim-plugins": 1
+        },
+        "document": {
+            "nvim-plugins": 21
+        },
+        "contextHeader": {
+            "nvim-plugins": 2
+        },
+        "actions": {
+            "nvim-plugins": 1
+        },
+        "currentWord": {
+            "nvim-plugins": 6
+        },
+        "split": {
+            "nvim-plugins": 3
+        },
+        "window": {
+            "nvim-plugins": 9
+        },
+        "profiling": {
+            "nvim-plugins": 1
+        },
+        "url": {
+            "nvim-plugins": 6
+        },
+        "operator": {
+            "nvim-plugins": 21
+        },
+        "packageManagement": {
+            "nvim-plugins": 2
+        },
+        "projectConfig": {
+            "nvim-plugins": 15
+        },
+        "link": {
+            "nvim-plugins": 26
+        },
+        "error": {
+            "nvim-plugins": 3
+        },
+        "installer": {
+            "nvim-plugins": 4
+        },
+        "folding": {
+            "nvim-plugins": 17
+        },
+        "xmake": {
+            "nvim-plugins": 2
+        },
+        "perl": {
+            "nvim-plugins": 3
+        },
+        "horizontal": {
+            "nvim-plugins": 11
+        },
+        "quickfix": {
+            "nvim-plugins": 46
+        },
+        "tracking": {
+            "nvim-plugins": 4,
+            "nebokrai-software": 141
+        },
+        "http": {
+            "nvim-plugins": 1,
+            "software": 6
+        },
+        "bookmark": {
+            "nvim-plugins": 8
+        },
+        "yaml": {
+            "nvim-plugins": 4,
+            "software": 3
+        },
+        "devcontainer": {
+            "nvim-plugins": 4
+        },
+        "hint": {
+            "nvim-plugins": 17
+        },
+        "plugin": {
+            "nvim-plugins": 44,
+            "software": 4
+        },
+        "move": {
+            "nvim-plugins": 19
+        },
+        "scss": {
+            "nvim-plugins": 1
+        },
+        "fileBrowsing": {
+            "nvim-plugins": 13
+        },
+        "number": {
+            "nvim-plugins": 1
+        },
+        "editing": {
+            "nvim-plugins": 2,
+            "software": 30
+        },
+        "lua": {
+            "nvim-plugins": 17
+        },
+        "line": {
+            "nvim-plugins": 98
+        },
+        "concurrency": {
+            "nvim-plugins": 1
+        },
+        "lineWrapping": {
+            "nvim-plugins": 1
+        },
+        "just": {
+            "nvim-plugins": 3
+        },
+        "upload": {
+            "nvim-plugins": 1
+        },
+        "bazel": {
+            "nvim-plugins": 3
+        },
+        "rtp": {
+            "nvim-plugins": 13
+        },
+        "copilot": {
+            "nvim-plugins": 4
+        },
+        "morse": {
+            "nvim-plugins": 1
+        },
+        "selection": {
+            "nvim-plugins": 51
+        },
+        "import": {
+            "nvim-plugins": 3,
+            "nebokrai-software": 2
+        },
+        "selectEdit": {
+            "nvim-plugins": 1
+        },
+        "commandPalette": {
+            "nvim-plugins": 5
+        },
+        "header": {
+            "nvim-plugins": 4
+        },
+        "visual": {
+            "nvim-plugins": 7,
+            "software": 17
+        },
+        "semicolon": {
+            "nvim-plugins": 2
+        },
+        "overwriting": {
+            "nvim-plugins": 1
+        },
+        "winbar": {
+            "nvim-plugins": 2
+        },
+        "insert": {
+            "nvim-plugins": 6
+        },
+        "goToFile": {
+            "nvim-plugins": 1
+        },
+        "debug": {
+            "nvim-plugins": 3
+        },
+        "pullRequest": {
+            "nvim-plugins": 5
+        },
+        "pixel": {
+            "nvim-plugins": 1
+        },
+        "selector": {
+            "nvim-plugins": 1
+        },
+        "special": {
+            "nvim-plugins": 8,
+            "software": 5
+        },
+        "haskell": {
+            "nvim-plugins": 2
+        },
+        "conversion": {
+            "nvim-plugins": 19
+        },
+        "surround": {
+            "nvim-plugins": 4
+        },
+        "hierarchy": {
+            "nvim-plugins": 3
+        },
+        "diagnostics": {
+            "nvim-plugins": 32
+        },
+        "plugindev": {
+            "nvim-plugins": 4
+        },
+        "ignore": {
+            "nvim-plugins": 1
+        },
+        "python": {
+            "nvim-plugins": 36
+        },
+        "gitLog": {
+            "nvim-plugins": 4
+        },
+        "execFromConfigFile": {
+            "nvim-plugins": 35
+        },
+        "glow": {
+            "nvim-plugins": 2
+        },
+        "recording": {
+            "nvim-plugins": 4
+        },
+        "pet": {
+            "nvim-plugins": 2
+        },
+        "keybinding": {
+            "nvim-plugins": 29
+        },
+        "surreal": {
+            "nvim-plugins": 1
+        },
+        "clone": {
+            "nvim-plugins": 1
+        },
+        "highlighting": {
+            "nvim-plugins": 24,
+            "software": 6
+        },
+        "accessControl": {
+            "nvim-plugins": 2
+        },
+        "ci": {
+            "nvim-plugins": 2
+        },
+        "integration": {
+            "nvim-plugins": 49,
+            "nebokrai-software": 74,
+            "nvim": 3,
+            "software": 2
+        },
+        "compatibility": {
+            "nvim-plugins": 1
+        },
+        "pluginManager": {
+            "nvim-plugins": 7
+        },
+        "selfReferential": {
+            "nvim-plugins": 3
+        },
+        "dynamic": {
+            "nvim-plugins": 13
+        },
+        "presentation": {
+            "nvim-plugins": 1
+        },
+        "sharing": {
+            "nvim-plugins": 1,
+            "software": 4
+        },
+        "explorer": {
+            "nvim-plugins": 1
+        },
+        "patch": {
+            "nvim-plugins": 2
+        },
+        "filetype": {
+            "nvim-plugins": 2
+        },
+        "clang": {
+            "nvim-plugins": 1
+        },
+        "submodule": {
+            "nvim-plugins": 1
+        },
+        "repl": {
+            "nvim-plugins": 26,
+            "software": 3
+        },
+        "comments": {
+            "nvim-plugins": 31
+        },
+        "conceal": {
+            "nvim-plugins": 2
+        },
+        "emacs": {
+            "nvim-plugins": 2
+        },
+        "database": {
+            "nvim-plugins": 12
+        },
+        "log": {
+            "nvim-plugins": 7
+        },
+        "table": {
+            "nvim-plugins": 2
+        },
+        "dapExtension": {
+            "nvim-plugins": 18
+        },
+        "show": {
+            "nvim-plugins": 1
+        },
+        "elixir": {
+            "nvim-plugins": 1
+        },
+        "column": {
+            "nvim-plugins": 8
+        },
+        "syntax": {
+            "nvim-plugins": 6,
+            "software": 6
+        },
+        "string": {
+            "nvim-plugins": 23
+        },
+        "subtag:installation": {
+            "nvim-plugins": 1
+        },
+        "vale": {
+            "nvim-plugins": 1
+        },
+        "errorFormat": {
+            "nvim-plugins": 1
+        },
+        "specificTool": {
+            "nvim-plugins": 49
+        },
+        "outline": {
+            "nvim-plugins": 18
+        },
+        "builtin": {
+            "nvim-plugins": 29
+        },
+        "node": {
+            "nvim-plugins": 16
+        },
+        "callHierarchy": {
+            "nvim-plugins": 2
+        },
+        "casing": {
+            "nvim-plugins": 16
+        },
+        "ui": {
+            "nvim-plugins": 7
+        },
+        "tips": {
+            "nvim-plugins": 1
+        },
+        "coauthor": {
+            "nvim-plugins": 1
+        },
+        "popup": {
+            "nvim-plugins": 27
+        },
+        "javascript": {
+            "nvim-plugins": 54
+        },
+        "spellcheck": {
+            "nvim-plugins": 7
+        },
+        "smooth": {
+            "nvim-plugins": 9
+        },
+        "coverage": {
+            "nvim-plugins": 13
+        },
+        "tsv": {
+            "nvim-plugins": 2
+        },
+        "range": {
+            "nvim-plugins": 1
+        },
+        "tsc": {
+            "nvim-plugins": 2
+        },
+        "venv": {
+            "nvim-plugins": 5
+        },
+        "training": {
+            "nvim-plugins": 5
+        },
+        "lineLength": {
+            "nvim-plugins": 1
+        },
+        "termplate": {
+            "nvim-plugins": 9
+        },
+        "ctags": {
+            "nvim-plugins": 3
+        },
+        "audio": {
+            "nvim-plugins": 2
+        },
+        "command": {
+            "nvim-plugins": 11
+        },
+        "extension": {
+            "nvim-plugins": 32,
+            "projects": 45,
+            "software": 35
+        },
+        "bootArguments": {
+            "nvim-plugins": 2
+        },
+        "animation": {
+            "nvim-plugins": 2
+        },
+        "pluginDev": {
+            "nvim-plugins": 28
+        },
+        "open": {
+            "nvim-plugins": 24
+        },
+        "random": {
+            "nvim-plugins": 2
+        },
+        "cmake": {
+            "nvim-plugins": 7
+        },
+        "worktree": {
+            "nvim-plugins": 1
+        },
+        "specificIntegration": {
+            "nvim-plugins": 9
+        },
+        "editHistory": {
+            "nvim-plugins": 2
+        },
+        "touchTyping": {
+            "nvim-plugins": 1
+        },
+        "test": {
+            "nvim-plugins": 29
+        },
+        "blame": {
+            "nvim-plugins": 8
+        },
+        "name": {
+            "nvim-plugins": 4
+        },
+        "colorPicking": {
+            "nvim-plugins": 12
+        },
+        "quit": {
+            "nvim-plugins": 2
+        },
+        "toml": {
+            "nvim-plugins": 2,
+            "software": 5
+        },
+        "gitignore": {
+            "nvim-plugins": 2,
+            "software": 1
+        },
+        "deletion": {
+            "nvim-plugins": 6
+        },
+        "endwise": {
+            "nvim-plugins": 2
+        },
+        "insertion": {
+            "nvim-plugins": 20
+        },
+        "partialExecution": {
+            "nvim-plugins": 9
+        },
+        "inline": {
+            "nvim-plugins": 3
+        },
+        "lazygit": {
+            "nvim-plugins": 2
+        },
+        "resize": {
+            "nvim-plugins": 4
+        },
+        "timeout": {
+            "nvim-plugins": 2
+        },
+        "jk": {
+            "nvim-plugins": 4
+        },
+        "display": {
+            "nvim-plugins": 2
+        },
+        "introspection": {
+            "nvim-plugins": 2
+        },
+        "llama": {
+            "nvim-plugins": 5
+        },
+        "wasm": {
+            "nvim-plugins": 1
+        },
+        "abbreviation": {
+            "nvim-plugins": 3
+        },
+        "weiterbildung": {
+            "work": 215
+        },
+        "pseudoscience": {
+            "general-tech": 1
+        },
+        "health": {
+            "social-sciences": 1
+        },
+        "heterodox": {
+            "social-sciences": 5
+        },
+        "basic": {
+            "social-sciences": 15
+        },
+        "govSite": {
+            "social-sciences": 9
+        },
+        "poverty": {
+            "social-sciences": 1
+        },
+        "criticism": {
+            "social-sciences": 3
+        },
+        "noise": {
+            "nebokrai-software": 2,
+            "software": 2
+        },
+        "xit": {
+            "nebokrai-software": 6
+        },
+        "EDITMANUALLY": {
+            "nebokrai-software": 95,
+            "software": 324
+        },
+        "fit": {
+            "nebokrai-software": 6
+        },
+        "intheam": {
+            "nebokrai-software": 4
+        },
+        "webhook": {
+            "nebokrai-software": 2
+        },
+        "foreground": {
+            "nebokrai-software": 1
+        },
+        "spacedRepitition": {
+            "nebokrai-software": 5
+        },
+        "sync": {
+            "nebokrai-software": 11,
+            "software": 8
+        },
+        "hosting": {
+            "nebokrai-software": 13,
+            "software": 18
+        },
+        "secondBrain": {
+            "nebokrai-software": 31
+        },
+        "homeAssistant": {
+            "nebokrai-software": 2
+        },
+        "note": {
+            "nebokrai-software": 4
+        },
+        "multiPlatform": {
+            "nebokrai-software": 5
+        },
+        "general": {
+            "nebokrai-software": 2
+        },
+        "telegram": {
+            "nebokrai-software": 2
+        },
+        "gpx": {
+            "nebokrai-software": 6
+        },
+        "timewarrior": {
+            "nebokrai-software": 55
+        },
+        "install": {
+            "nebokrai-software": 3
+        },
+        "plaintextBased": {
+            "nebokrai-software": 12
+        },
+        "projectManagement": {
+            "nebokrai-software": 7
+        },
+        "pomodoro": {
+            "nebokrai-software": 5,
+            "software": 9
+        },
+        "theme": {
+            "nebokrai-software": 3
+        },
+        "todotxt": {
+            "nebokrai-software": 3
+        },
+        "web": {
+            "nebokrai-software": 36,
+            "software": 6
+        },
+        "networking": {
+            "nebokrai-software": 142,
+            "software": 72
+        },
+        "similar": {
+            "nebokrai-software": 6
+        },
+        "garmin": {
+            "nebokrai-software": 17
+        },
+        "inspiration": {
+            "nebokrai-software": 7
+        },
+        "gantt": {
+            "nebokrai-software": 3
+        },
+        "kanban": {
+            "nebokrai-software": 14
+        },
+        "listManagement": {
+            "nebokrai-software": 1
+        },
+        "appFlowy": {
+            "nebokrai-software": 6
+        },
+        "platform": {
+            "nebokrai-software": 1
+        },
+        "planning": {
+            "nebokrai-software": 19
+        },
+        "misc": {
+            "nebokrai-software": 1,
+            "software": 7
+        },
+        "output": {
+            "nebokrai-software": 1
+        },
+        "signal": {
+            "nebokrai-software": 5,
+            "software": 3
+        },
+        "wrapper": {
+            "nebokrai-software": 44
+        },
+        "dependencyGraph": {
+            "nebokrai-software": 3
+        },
+        "luxury": {
+            "nebokrai-software": 1
+        },
+        "tcx": {
+            "nebokrai-software": 3
+        },
+        "extra": {
+            "nebokrai-software": 4
+        },
+        "SORT": {
+            "nebokrai-software": 1
+        },
+        "dataView": {
+            "nebokrai-software": 17
+        },
+        "vonheikemen": {
+            "nvim": 8
+        },
+        "otherLangs": {
+            "nvim": 25
+        },
+        "other": {
+            "nvim": 84,
+            "software": 5
+        },
+        "personal": {
+            "nvim": 48
+        },
+        "pde": {
+            "nvim": 25
+        },
+        "nextStep": {
+            "nvim": 623
+        },
+        "starter": {
+            "nvim": 46
+        },
+        "fontSize": {
+            "nvim": 2
+        },
+        "base": {
+            "nvim": 33
+        },
+        "generalGuideline": {
+            "practical-living": 6
+        },
+        "relatedProject": {
+            "projects": 30
+        },
+        "techStack": {
+            "projects": 7
+        },
+        "treeCommand": {
+            "projects": 8
+        },
+        "ip": {
+            "projects": 3
+        },
+        "preprocessing": {
+            "projects": 11
+        },
+        "components": {
+            "projects": 19
+        },
+        "libraryManagement": {
+            "software": 1
+        },
+        "powerful": {
+            "software": 6
+        },
+        "opener": {
+            "software": 3
+        },
+        "iso": {
+            "software": 2
+        },
+        "mediaServer": {
+            "software": 10
+        },
+        "audiobook": {
+            "software": 4
+        },
+        "reader": {
+            "software": 5
+        },
+        "partitioning": {
+            "software": 3
+        },
+        "themeSwitcher": {
+            "software": 1
+        },
+        "speedreading": {
+            "software": 3
+        },
+        "codeberg": {
+            "software": 1
+        },
+        "isoCreation": {
+            "software": 2
+        },
+        "nixCheat": {
+            "software": 2
+        },
+        "whatsapp": {
+            "software": 7
+        },
+        "resume": {
+            "software": 3
+        },
+        "connectivityManager": {
+            "software": 2
+        },
+        "codeQuality": {
+            "software": 21
+        },
+        "interface": {
+            "software": 6
+        },
+        "illustration": {
+            "software": 23
+        },
+        "appInternal": {
+            "software": 1
+        },
+        "discord": {
+            "software": 11
+        },
+        "chromium": {
+            "software": 4
+        },
+        "sourcehut": {
+            "software": 1
+        },
+        "client": {
+            "software": 3
+        },
+        "greeter": {
+            "software": 14
+        },
+        "configLang": {
+            "software": 12
+        },
+        "devshell": {
+            "software": 11
+        },
+        "commitMessage": {
+            "software": 6
+        },
+        "watcher": {
+            "software": 13
+        },
+        "linuxMobile": {
+            "software": 1
+        },
+        "wezterm": {
+            "software": 5
+        },
+        "floorp": {
+            "software": 4
+        },
+        "hyprlandApps": {
+            "software": 4
+        },
+        "windowManagement": {
+            "software": 3
+        },
+        "effects": {
+            "software": 1
+        },
+        "ecumenical": {
+            "software": 2
+        },
+        "modelling": {
+            "software": 6
+        },
+        "webInterface": {
+            "software": 5
+        },
+        "devUtils": {
+            "software": 1
+        },
+        "nvidiaOnly": {
+            "software": 4
+        },
+        "bar": {
+            "software": 8
+        },
+        "piecewise": {
+            "software": 12
+        },
+        "logoutMenu": {
+            "software": 3
+        },
+        "eyeCandy": {
+            "software": 20
+        },
+        "nonNix": {
+            "software": 5
+        },
+        "sessionSharing": {
+            "software": 3
+        },
+        "inspection": {
+            "software": 2
+        },
+        "typeSystem": {
+            "software": 1
+        },
+        "storage": {
+            "software": 3
+        },
+        "meme": {
+            "software": 3
+        },
+        "fediverse": {
+            "software": 2
+        },
+        "polyglot": {
+            "software": 7
+        },
+        "qualityOfLife": {
+            "software": 17
+        },
+        "renaming": {
+            "software": 5
+        },
+        "serializationLang": {
+            "software": 12
+        },
+        "vim": {
+            "software": 6
+        },
+        "linkHoarding": {
+            "software": 2
+        },
+        "referenceExtension": {
+            "software": 5
+        },
+        "epub": {
+            "software": 1
+        },
+        "nonJupyter": {
+            "software": 5
+        },
+        "dragAndDrop": {
+            "software": 1
+        },
+        "bluetooth": {
+            "software": 2
+        },
+        "firewall": {
+            "software": 4
+        },
+        "vpn": {
+            "software": 2
+        },
+        "readme": {
+            "software": 4
+        },
+        "extraction": {
+            "software": 9
+        },
+        "slideshow": {
+            "software": 13
+        },
+        "editorBased": {
+            "software": 2
+        },
+        "rss": {
+            "software": 11
+        },
+        "graphicFromText": {
+            "software": 3
+        },
+        "firefox": {
+            "software": 48
+        },
+        "hacker": {
+            "software": 6
+        },
+        "nonSource": {
+            "software": 3
+        },
+        "remoteDesktop": {
+            "software": 4
+        },
+        "tree": {
+            "software": 2
+        },
+        "reimplementation": {
+            "software": 1
+        },
+        "ricingMixing": {
+            "software": 4
+        },
+        "programmingEducation": {
+            "software": 5
+        },
+        "jupyter ": {
+            "software": 6
+        },
+        "changelog": {
+            "software": 5
+        },
+        "versioning": {
+            "software": 9
+        },
+        "disk": {
+            "software": 3
+        },
+        "adblock": {
+            "software": 2
+        },
+        "matrix": {
+            "software": 5
+        },
+        "mocking": {
+            "software": 3
+        },
+        "gif": {
+            "software": 8
+        },
+        "coolSoftwareNeedsThemingFixes": {
+            "software": 3
+        },
+        "htpp": {
+            "software": 3
+        },
+        "streamlined": {
+            "software": 2
+        },
+        "selfHosted": {
+            "software": 1
+        },
+        "flashcards": {
+            "software": 2
+        },
+        "startpage": {
+            "software": 6
+        },
+        "connectivityTesting": {
+            "software": 15
+        },
+        "barInputs": {
+            "software": 1
+        },
+        "cssSources": {
+            "software": 5
+        },
+        "timer": {
+            "software": 1
+        },
+        "multiRepo": {
+            "software": 10
+        },
+        "gitAlternative": {
+            "software": 8
+        },
+        "colorPicker": {
+            "software": 3
+        },
+        "coreSet": {
+            "software": 68
+        },
+        "envVar": {
+            "software": 1
+        },
+        "lyrics": {
+            "software": 4
+        },
+        "broadcastStreamingRecording": {
+            "software": 21
+        },
+        "maximalistSet": {
+            "software": 3
+        },
+        "integrated": {
+            "software": 6
+        },
+        "debugging": {
+            "software": 5
+        },
+        "ZH": {
+            "software": 2
+        },
+        "sleepAndEyes": {
+            "software": 7
+        },
+        "snap": {
+            "software": 4
+        },
+        "nonVim": {
+            "software": 7
+        },
+        "songId": {
+            "software": 1
+        },
+        "json": {
+            "software": 22
+        },
+        "specificPlatform": {
+            "software": 2
+        },
+        "brightnessAndBattery": {
+            "software": 4
+        },
+        "crawlingAndScraping": {
+            "software": 9
+        },
+        "maxPrivacy": {
+            "software": 2
+        },
+        "crossEnvironment": {
+            "software": 2
+        },
+        "semver": {
+            "software": 3
+        },
+        "needsWork": {
+            "software": 39
+        },
+        "torrent": {
+            "software": 12
+        },
+        "gitServer": {
+            "software": 13
+        },
+        "debianoidOnly": {
+            "software": 3
+        },
+        "binary": {
+            "software": 1
+        },
+        "fileManagement": {
+            "software": 122
+        },
+        "static": {
+            "software": 7
+        },
+        "website": {
+            "software": 6
+        },
+        "ssh": {
+            "software": 25
+        },
+        "relatedTools": {
+            "software": 3
+        },
+        "taskScripting": {
+            "software": 9
+        },
+        "sleep": {
+            "software": 1
+        },
+        "consumption": {
+            "software": 103
+        },
+        "esoteric": {
+            "software": 12
+        },
+        "specificSite": {
+            "software": 1
+        },
+        "television": {
+            "software": 2
+        },
+        "webkit": {
+            "software": 1
+        },
+        "normie": {
+            "software": 4
+        },
+        "transfer": {
+            "software": 24
+        },
+        "photo": {
+            "software": 1
+        },
+        "finances": {
+            "software": 2
+        },
+        "kernel": {
+            "software": 1
+        },
+        "tuxedoOnly": {
+            "software": 3
+        },
+        "board": {
+            "software": 2
+        },
+        "radio": {
+            "software": 8
+        },
+        "fakeData": {
+            "software": 1
+        },
+        "unfree": {
+            "software": 4
+        },
+        "ascii": {
+            "software": 3
+        },
+        "nixosOnly": {
+            "software": 1
+        },
+        "modprobe": {
+            "software": 1
+        },
+        "email": {
+            "software": 25
+        },
+        "lockscreen": {
+            "software": 5
+        },
+        "console": {
+            "software": 383
+        },
+        "everything": {
+            "software": 1
+        },
+        "messageQuoteWelcome": {
+            "software": 4
+        },
+        "steganography": {
+            "software": 3
+        },
+        "camera": {
+            "software": 1
+        },
+        "cowsay": {
+            "software": 1
+        },
+        "fetch": {
+            "software": 10
+        },
+        "html": {
+            "software": 4
+        },
+        "typesetting": {
+            "software": 14
+        },
+        "compression": {
+            "software": 9
+        },
+        "configManagement": {
+            "software": 1
+        },
+        "educational": {
+            "software": 14
+        },
+        "hardening": {
+            "software": 3
+        },
+        "video": {
+            "software": 40
+        },
+        "socket": {
+            "software": 2
+        },
+        "hooks": {
+            "software": 3
+        },
+        "compositor": {
+            "software": 66
+        },
+        "terminalGui": {
+            "software": 2
+        },
+        "projectInfo": {
+            "software": 1
+        },
+        "qr": {
+            "software": 3
+        },
+        "bookmarkManagement": {
+            "software": 3
+        },
+        "lemmy": {
+            "software": 2
+        },
+        "privacy": {
+            "software": 1
+        },
+        "fileTagging": {
+            "software": 1
+        },
+        "playerController": {
+            "software": 5
+        },
+        "vector": {
+            "software": 5
+        },
+        "volume": {
+            "software": 2
+        },
+        "tabular": {
+            "software": 6
+        }
+    },
+    "extra_attrs": {
+        "filetype": {
+            "proglangs": 14,
+            "ml-ai": 125,
+            "cs-books": 39
+        },
+        "language": {
+            "proglangs": 5124,
+            "mathematics": 4668,
+            "general": 6362,
+            "cs": 5076,
+            "fitness": 363,
+            "config-work": 4397,
+            "nebokrai": 70,
+            "language-learning": 7427,
+            "ml-ai": 8971,
+            "humanities": 4831,
+            "non-biological-sciences": 1379,
+            "cs-books": 803,
+            "software-later-or-nah": 769,
+            "nvim-plugins": 3350,
+            "work": 424,
+            "philosophy": 4050,
+            "social-sciences": 7974,
+            "nebokrai-software": 1103,
+            "nvim": 1947,
+            "practical-living": 995,
+            "projects": 3178,
+            "software": 2330
+        },
+        "extraTags": {
+            "proglangs": 5098,
+            "cs": 145,
+            "config-work": 167,
+            "ml-ai": 552,
+            "cs-books": 803
+        },
+        "rating": {
+            "proglangs": 5098,
+            "cs": 151,
+            "config-work": 702,
+            "ml-ai": 552,
+            "cs-books": 803,
+            "software-later-or-nah": 14,
+            "nebokrai-software": 1103
+        },
+        "commits": {
+            "nebokrai-software": 1103
+        },
+        "class": {
+            "nebokrai-software": 1103
+        },
+        "recency": {
+            "nebokrai-software": 1103
+        },
+        "notes": {
+            "nebokrai-software": 1103,
+            "software": 2330
+        },
+        "features": {
+            "nebokrai-software": 1103
+        },
+        "description": {
+            "nebokrai-software": 1103,
+            "software": 2330
+        },
+        "nixName": {
+            "software": 471
+        }
+    },
+    "types": {
+        "": {
+            "proglangs": 4484,
+            "biological-sciences": 829,
+            "mathematics": 218,
+            "general": 5525,
+            "cs": 4330,
+            "fitness": 50,
+            "config-work": 3316,
+            "nebokrai": 70,
+            "language-learning": 1697,
+            "ml-ai": 6392,
+            "humanities": 3997,
+            "non-biological-sciences": 658,
+            "software-later-or-nah": 735,
+            "nvim-plugins": 3350,
+            "work": 424,
+            "general-tech": 13,
+            "philosophy": 4050,
+            "social-sciences": 7259,
+            "nebokrai-software": 1103,
+            "nvim": 1866,
+            "practical-living": 995,
+            "projects": 3109,
+            "software": 2201
+        },
+        "viewingSet": {
+            "proglangs": 1,
+            "mathematics": 128,
+            "fitness": 21,
+            "language-learning": 2867,
+            "non-biological-sciences": 53,
+            "general-tech": 5
+        },
+        "instruction": {
+            "proglangs": 47,
+            "mathematics": 72,
+            "general": 751,
+            "cs": 272,
+            "config-work": 171,
+            "language-learning": 2,
+            "ml-ai": 18,
+            "humanities": 51,
+            "cs-books": 7,
+            "social-sciences": 112,
+            "nvim": 58,
+            "projects": 69
+        },
+        "readingAtom": {
+            "proglangs": 131,
+            "mathematics": 1696,
+            "cs": 55,
+            "config-work": 25,
+            "ml-ai": 1287,
+            "general-tech": 1
+        },
+        "resourceList": {
+            "proglangs": 2,
+            "cs": 23,
+            "config-work": 13,
+            "ml-ai": 14,
+            "humanities": 52,
+            "nvim": 23
+        },
+        "course": {
+            "proglangs": 67,
+            "mathematics": 229,
+            "general": 86,
+            "cs": 66,
+            "ml-ai": 630
+        },
+        "viewingAtom": {
+            "proglangs": 88,
+            "mathematics": 1125,
+            "cs": 175,
+            "config-work": 77,
+            "ml-ai": 398,
+            "software-later-or-nah": 21,
+            "general-tech": 1,
+            "social-sciences": 593
+        },
+        "readingSet": {
+            "proglangs": 272,
+            "biological-sciences": 220,
+            "mathematics": 1197,
+            "cs": 153,
+            "fitness": 23,
+            "language-learning": 2861,
+            "ml-ai": 223,
+            "non-biological-sciences": 668,
+            "cs-books": 789,
+            "general-tech": 78,
+            "social-sciences": 5
+        },
+        "tool": {
+            "proglangs": 27,
+            "cs": 2,
+            "config-work": 101,
+            "software-later-or-nah": 13
+        },
+        "reference": {
+            "proglangs": 5,
+            "config-work": 4,
+            "ml-ai": 3,
+            "cs-books": 7,
+            "social-sciences": 5
+        },
+        "idea": {
+            "biological-sciences": 4,
+            "general-tech": 3
+        },
+        "person": {
+            "biological-sciences": 19
+        },
+        "ankiSet": {
+            "mathematics": 3
+        },
+        "route": {
+            "fitness": 9
+        },
+        "foodItem": {
+            "fitness": 260
+        },
+        "discussion": {
+            "config-work": 1
+        },
+        "dots": {
+            "config-work": 689
+        },
+        "listeningAtom": {
+            "ml-ai": 6,
+            "humanities": 720,
+            "general-tech": 1
+        },
+        "vocabWord": {
+            "humanities": 11
+        },
+        "websiteWebapp": {
+            "software": 129
+        }
+    },
+    "stati": {
+        "toRead": {
+            "proglangs": 5124,
+            "biological-sciences": 1072,
+            "mathematics": 4668,
+            "general": 6362,
+            "cs": 5076,
+            "fitness": 363,
+            "config-work": 4397,
+            "nebokrai": 70,
+            "language-learning": 7427,
+            "ml-ai": 8971,
+            "humanities": 4815,
+            "non-biological-sciences": 1379,
+            "cs-books": 803,
+            "nvim-plugins": 3350,
+            "work": 424,
+            "general-tech": 102,
+            "philosophy": 4050,
+            "social-sciences": 7974,
+            "nvim": 1947,
+            "practical-living": 995,
+            "projects": 3178,
+            "software": 100
+        },
+        "currentReading": {
+            "humanities": 16
+        },
+        "softwareNah": {
+            "software-later-or-nah": 20
+        },
+        "softwareRejected": {
+            "software-later-or-nah": 14
+        },
+        "softwareNahReference": {
+            "software-later-or-nah": 223
+        },
+        "softwareLater": {
+            "software-later-or-nah": 512
+        },
+        "": {
+            "nebokrai-software": 1099
+        },
+        "softwareSelected": {
+            "nebokrai-software": 1,
+            "software": 1354
+        },
+        "softwareNeedsWork": {
+            "nebokrai-software": 3,
+            "software": 434
+        },
+        "softwareUseAsReference": {
+            "software": 68
+        },
+        "softwareNeedToTry": {
+            "software": 25
+        },
+        "softwareSelectedForLater": {
+            "software": 132
+        },
+        "softwareSelectedNeedsNix": {
+            "software": 35
+        },
+        "softwareAlreadyInUse": {
+            "software": 91
+        },
+        "softwareBackPocket": {
+            "software": 91
+        }
+    }
+}

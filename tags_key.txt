@@ -1,9 +1,0 @@
-KEY:
-m move to extra
-e edit - check by hand
-r rename key
-k keep
-x remove
-s move to subtags or extra
-t move to type or subtype
-p programkatically modify

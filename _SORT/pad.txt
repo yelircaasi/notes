@@ -1,0 +1,235 @@
+https://pnp.github.io/cli-microsoft365/cmd/outlook/mail/mail-send/
+
+
+name idea: notae
+https://github.com/mintty/utils
+https://github.com/pkulak/matui/
+look for matrix-commander-tui (package it myself? re-(ckage matrix-commander to include tui?)
+https://github.com/pkulak/matui/
+
+
+
+Key:
+* 1 ### definitely using in my first iteration
+* 2 ### to add once the core functionality is solid
+* 3 - want to add, but need to compare to alternatives
+* 4 ### nice functionality I would like to add
+* 5 - definitely to use someday, but not right now
+* 6 ### need to try out to see how it works
+* 7 ### probably not
+* 8 ### obsoleted by another plugin
+* 9 ### inherently obsolete
+
+https://www.reddit.com/r/neovim/comments/1bxmbki/when_you_want_to_use_neovim_but_dont_want_to/?share_id=8O3Yu6a-RuZst7KiMHBX4&utm_content=1&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=10
+
+https://github.com/yutkat/my-neovim-pluginlist <- get recent changes
+
+https://github.com/folke/paint.nvim for note highlighting
+https://github.com/nvim-treesitter/nvim-treesitter#adding-parsers alternative for note highlighting
+
+https://thenextweb.com/news/everything-you-need-to-know-about-finch-the-latest-programming-language-developed-by-mit
+
+https://github.com/Dartypier/image-editor
+-> https://www.tecmint.com/best-image-photo-editors-for-linux/
+https://github.com/dair-ai/Prompt-Engineering-Guide https://www.promptingguide.ai/
+
+http://elvissaravia.com/
+
+
+consilium subcommand groups: declare, derive, journal, note, maintain (with aliases {} ++ [] :: ~~)
+
+algorithmic consideration for scheduling: I should first compute a feasible schedule based on easy constraints, then follow a series of optimizations to move tasks according to score -> incremental approach is computationally faster and a brute-force search of the schedule space, and is still likely to yield very good results. Basic idea: make change if one score/metric can be improved without hurting others (or without decreasing some weighted global score), perhaps to find a pareto optimal schedule -> requires a number of metrics, i.e. score functions, which may be arbitrarily complex, but should ideally be reasonably fast to compute
+
+
+https://github.com/Facundo-c-c/labwc-solus-dotefiles dots
+https://m.youtube.com/watch?v=zc5NTeJbk-k dl,video,theory
+https://m.youtube.com/watch?v=SmZmBKc7Lrs backprop,video
+https://m.youtube.com/watch?v=UbPYnigL344&feature=youtu.be categorytheory,video
+https://github.com/rikodot/kardi_notes_api notes,server
+https://github.com/VikParuchuri/marker work,docproc,conversion
+https://github.com/VikParuchuri/surya work,ocr
+https://codereport.github.io/about/ person,cs,proglang
+https://advanywhere.com/google-maps-exporting-your-pins-gpx-file/ maps,gpx,fitness,nebokrai
+https://open.spotify.com/episode/5cTkLZLrtlQXAoFbZTsWkl?si=fZNTlYI0RaCI1yQTIMyrRg podcast,freewill,luck
+https://open.spotify.com/episode/7nE3gGSEhTaMxlo7D29NGX?si=JxfD6x63TWqKD_eUJlYaLg podcast,freewill
+https://open.spotify.com/episode/1MkeiZYxvIKKRaZrCQR6Po?si=-02a2HcmQFWnXfVmoW8FPw podcast,freewill
+https://bird-bench.github.io/ work,text2sql
+https://technitium.com/ software,networking,server,dns
+https://knowledge.mdaemon.com/how-to-sync-calendars-and-tasks-using-caldav-sync-for-android-devices android,caldav,instruction
+WD Notes (A note-taking app that syncs with any WebDAV server)
+    https://f-droid.org/packages/es.ideotec.wdnotes/]] webdav,android,sync,nebokrai
+DAVx⁵ (CalDAV/CardDAV Synchronization and Client)
+    https://f-droid.org/packages/at.bitfire.davdroid/]] android,app,caldav,sync
+[[soccer gables oxygen asked tunnel ulcers feast flying react yoga vector python flying]] session,recovery
+[[timeto.me is almost perfect]] android,task,calendar,app,nebokrai,software $$$$$$
+Received file: timeto.me.apk [https://matrix.org/_matrix/media/r0/download/matrix.org/LQzYdJRxglDLNjjdQjdqfhXe]
+DecSync CC (Sync contacts, calendars and tasks without a server using DecSync)
+    https://f-droid.org/packages/org.decsync.cc/ ]] android,connection,sync
+https://github.com/FossifyOrg/Calendar android,calendar
+https://github.com/Etar-Group/Etar-Calendar android,calendar
+MinCal Widget (Minimal Calendar Widget)
+    https://f-droid.org/packages/cat.mvmike.minimalcalendarwidget/ android,calendar
+https://silverbullet.md/ nebokrai,notes,ideas,inspiration $$$$$$
+Simple Calendar Pro (Calendar 2023 widget for Android. Appointment scheduler, planner, and reminder)
+    https://f-droid.org/packages/com.simplemobiletools.calendar.pro/]] android,app,calendar
+https://simplemobiletools.com/ android $$$$$$
+GraphHopper Maps (Online route planner and experimental GPS navigation)
+    https://f-droid.org/packages/com.graphhopper.maps/]] android,app,software,map
+* [[other mechanisms: breaks, buffer time (small time variation), flextime (larger time block for arbitrary catch-up or activity from list of time-independent activities]] notes,resilience 
+[[other mechanisms: breaks, buffer time (small time variation), flextime (larger time block for arbitrary catch-up or activity from list of time-independent activities
+[[how to fuzzy-search ids? limit on tags & attributes, then do fuzzy search (edit distance or n-gram overlap) on all returned note text -> alternatively "?" wild-card id to signify that there should be a link, but I couldn't remember the id  ]] notes,search,fuzzy
+http://www.webdav.org/specs/rfc3648.html webdav,server,nebokrai,connection
+https://github.com/Airsequel/SQLiteDAV haskell,sqlite,webdav,connection,nnebokrai
+https://github.com/ad-si/webdavServer haskell,webdav,git,server,software,nebokrai
+https://hackage.haskell.org/package/git-annex-4.20130627/src/debian/git-annex/usr/share/doc/git-annex/html/special_remotes/webdav.html haskell,webdav,git,software,connection,nebokrai
+https://nix-ci.com/ nix,software,ci,service
+https://github.com/supermaven-inc/supermaven-nvim ai,codingassistant,nvim
+https://github.com/forste/haskellVCSWrapper nebokrai,haskell,git,software
+https://vaibhavsagar.com/blog/2017/08/13/i-haskell-a-git/ edu,haskell,software,git
+* https://github.com/vincenthz/hs-libgit software,haskell,git,nebokrai
+https://github.com/mitchellwrosen/mit software,haskell,git,nebokrai
+https://github.com/vincenthz/hs-libgit software,haskell,git
+https://www.xda-developers.com/x-best-free-alternatives-to-the-most-popular-paid-software/ foss,list
+[[ need a mechanism with tasks, especially with reading, to add a followup to re-read some task or review sone topic -> add feature to declaration editor -> add a link to original task ]] nebokrai,followup,feedback
+https://heptabase.com/ notes,pkm,ideas,software
+https://www.reddit.com/r/PKMS/s/JplWPnspsv my description on reddit of my system]] notes,pim,pkm
+https://www.reddit.com/r/PKMS/s/fLiFQtxa92 list of pkms systems]] pkm,pim,notes,theory,resourcelist
+https://www.reddit.com/r/PKMS/ pim,pkm,notes
+* [[ syntax: text in double square brackets, id prefixed by !, tags comma-separated, attributes, other attributes with a colon, as attrName:attrValue, extra attrs prefixed by '&', rating prefix-optional (e.g. *****), status using single-letter code ]]
+* [[ link types: related (default link?), dependency, constituence/inclusion, seqbefore/seqafter -> probably requires topological sorting "links": {"relatedNotes": [...], "containedBy": [...], "contains": [...], "predecessor": "...", " successor": "..."} ]] notes,links,sorting
+* [[ link types: related (default link?), dependency, constituence/inclusion, seqbefore/seqafter -> probably requires topological sorting "links": {"relatedNotes": [...], " subNotes": [...], "superNotes": [...], "predecessor": "...", " successor": "..."} ]] notes,links,sorting
+* [[ link types: related (default link?), dependency, constituence/inclusion, seqbefore/seqafter -> probably requires topological sorting "links": {"related": [...], " subNotes": [...], "superNotes": [...], "predecessors": "...", " successor": "..."} ]] notes,links,sorting
+[[ link types: dependency, constituence/inclusion, seqbefore/seqafter -> probably requires topological sorting ]] notes,links,sorting
+https://youtu.be/poc4ctbnDYA?feature=shared productivity,personalmanagement
+https://www.reddit.com/r/ObsidianMD/s/rQI1otQKIO secondbrain,notes,pim
+https://github.com/gokhanmeteerturk/HeadwindHTML webdev,css,html,generation
+https://github.com/AccentDesign/gcss css,parser,go
+https://abhinavsarkar.net/posts/json-parsing-from-scratch-in-haskell/ haskell,tutorial,json,parsing
+https://www.codium.ai/blog/will-ai-take-over-your-programming-job/ career
+https://www.reddit.com/r/hyprland/s/DwEodEMk2H nix,dots
+https://libgen.rs/search.php?&req=programming+languages&phrase=1&view=simple&column=def&sort=year&sortmode=DESC book,proglang
+* https://libgen.rs/book/index.php?md5=DAEE1D13FD140052ABD1EAA3D861B389 book,proglang,history,proglangtable
+* https://library.lol/main/DA22B0292993361AA8F29958B7D731CF book,proglang,theory
+https://libgen.rs/book/index.php?md5=4006048A5168499A3B5766C6D96EDB6B proglang,theory
+https://library.lol/main/DA22B0292993361AA8F29958B7D731CF proglang,theory
+https://libgen.rs/book/index.php?md5=DAEE1D13FD140052ABD1EAA3D861B389 proglang,history,proglangtable
+https://libgen.rs/book/index.php?md5=8FB17279A788959D23FF0DF4D4F1E8C3 book,proglang,cs,theory
+https://libgen.rs/book/index.php?md5=FE86974D477ABC34D2D12E9556C141DB book,proglang,theory
+* [[Add tagged links to notes with >linktype:noteid (or @@ to prevent matrix from linking) , and automatically add appropriate link to linked note]]  notes,links
+[[Add tagged links to notes with @linktype:noteid, and automatically add appropriate link to linked note]]  notes,links
+* [[Handbook of Open-Source Tools]] software,foss author:koranne ***** %book 
+[[Handbook of Open-Source Tools]] software,foss author:koranne *****
+notes,tags,clustering [[ basic tag suggestion by computing most frequent tags  when tags A and B are present: p(C | A, B) (maybe only above sone frequency threshold) ]]
+https://forum.inkdrop.app/t/how-do-you-organize-notes/2545/9 notes,theory,tags
+https://github.com/nvim-neorocks/nvim-best-practices nvim,lazyloading
+[[https://medium.com/geekculture/optimized-note-taking-9d663eec898c use a hack to read this]] notes,tags
+[[ interactive clustering, including tree-structure options, or automatic sorting algorithms, e.g. sort first on tag frequency ]] notes,ideas,design
+notes,nebokrai,design,thoughts
+[[ syntax: text in double square brackets, tags comma-separated, attributes, other attributes with a colon, as attrName:attrValue, extra attrs prefixed by '&', rating prefix-optional (e.g. *****), status using single-letter code ]]
+https://github.com/sachinchaudhary1808/nixvim-flake nvim,nix,dots,config
+https://github.com/TarunDaCoder/AlphaNvim nvim,config,dots
+https://github.com/NTBBloodbath/norgolith/blob/master/doc/themes.norg software,web,norg,static
+https://ohshitgit.com/ site,git,resource,edu
+[[ make algorithms for suggesting tags based on text and pre-existing tags ]] nebokrai,tags,clustering,nlp,editing
+[[ integrate sophisticated JSON-diffing tools and algorithms -> search for available software and algorithms I can use ]] nebokrai,->,software,json,diff
+[[ add built-in history to nebokrai declaration to track and visualize how my long-term goals and plans have evolved ]] #nebokrai,declaration,history,versioning
+//add tags to tasks, add custom workout generation algorithms to declaration editor to add workout items -> easily editable by tag; use arbitrarily complex increment algorithm (increasing/decreasing rate of increase, custom function of reps, sets, weight, subjective difficulty, etc -> need to first collect some data to see which increase algorithms are reasonable// #nebokrai,planning,editing,fitness,workout
+https://github.com/fioncat/otree nebokrai,software,datawrangling,rust proglang:rust rating:$$$$$$
+https://www.cloudwards.net/what-is-webdav/ #webdav,intro,nebokrai
+https://en.wikipedia.org/wiki/WebDAV nebokrai,webdav
+#matrix,notes //enclose a plain-text note inside double slashes//
+https://joplinapp.org/help/apps/sync/webdav nebokrai,sync,webdav,joplin
+https://athenaos.org/ nix,nixos,pentesting,os,ideas
+https://github.com/gmkng01/newqtile_test dots,qtile
+https://github.com/megalinee/hyprlandconfig dots,hyprland
+https://github.com/ysfgrgO7/Dotfiles dots
+https://kagi.com/ search,subscription,privacy
+https://github.com/onionware-github/OnionMedia-X software,gui,download
+https://github.com/johnwangwyx/cmdCompass software,gui,help,reference
+https://github.com/cheat/cheat #console,software
+https://github.com/LeonHeidelbach/trailblazer.nvim #nvim,marks,navigation,motion
+https://github.com/lotabout/skim console,search,interface,fzf
+https://thenewstack.io/meet-grain-the-high-level-language-optimized-for-webassembly/ proglang,wasm,grain
+https://libgen.rs/book/index.php?md5=BD32537EDBAD3B772230218B05A38C9F #book,freewill,philosophie
+Daily Dozen (Keep track of the foods that Dr Greger recommends in his book How Not to Die)
+    https://f-droid.org/packages/org.nutritionfacts.dailydozen/ nebokrai,tracking,food
+https://github.com/bahaaTuffaha/Project-ClosetArchive #android,planning,clothes,nebokrai
+AAT Another Activity Tracker (GPS-tracking application for sportive activities, with emphasis on cycling.)
+    https://f-droid.org/packages/ch.bailu.aat/ #android,nebokrai,fitness
+GreenStash: Track Your Savings (Plan, manage, and achieve your savings goals easily)
+    https://f-droid.org/packages/com.starry.greenstash/ #nebokrai,finances
+Forage (A shopping list front-end to your self-hosted Mealie instance.)
+    https://f-droid.org/packages/net.ser1.forage/ #nebokrai,food,shoppinglist
+Track & Graph (Track personal data and create custom graphs to gain personal insight!)
+    https://f-droid.org/packages/com.samco.trackandgraph/ #nebokrai,tracking
+BetterCounter (A simple, multi-purpose counter app)
+    https://f-droid.org/packages/org.kde.bettercounter/ #nebokrai,tracking,fitness
+Simple Counter (Keep track of things)
+    https://f-droid.org/packages/org.quicksc0p3r.simplecounter/ nebokrai,tracking
+Broccoli: The Green Recipe App (Recipe manager, cooking assistant, seasonal calendar: the eco-friendly cookbook.)
+    https://f-droid.org/packages/com.flauschcode.broccoli/ #nebokrai,android,food,recipe
+Tournant (Recipe manager with Gourmand compatibility)
+    https://f-droid.org/packages/eu.zimbelstern.tournant/ nebokrai,food,android
+https://gitlab.com/ngrob/bluemoon-android remark:read_source_code #nebrokai,tracking
+https://github.com/DesarrolloAntonio/Shiori-Android-Client nebokrai,bookmarks,notes
+https://github.com/go-shiori/shiori nebokrai,bookmarks,notes
+https://github.com/appml/neutrinote #nebokrai,notes,math,latex rating:*****
+Immich (This is a client app for the self-hostable Immich Server)
+    https://f-droid.org/packages/app.alextran.immich/ selfhosted,image
+Saber (The notes app built for handwriting)
+    https://f-droid.org/packages/com.adilhanney.saber/ android,notes,handwriting
+Copy SMS Code - OTP Helper (an open-source app that can detect and copy any code for you)
+    https://f-droid.org/packages/io.github.jd1378.otphelper/ android,app,copypaste
+ImapNotes3 (View, edit and synchronize HTML notes and check lists on your IMAP mailboxes)
+    https://f-droid.org/packages/de.niendo.ImapNotes3/ #nebokrai,imap,connection,sync,notes
+https://jsonnet.org/ #proglang,config,json
+https://github.com/lj3954/quickemu-rs #software,emulation,lowlevel
+https://github.com/harsh-m-patil/.dotfiles #dots
+https://github.com/CapnDangerPants/archdots #dots,suckless
+#thought I need to add a startup wrapper script for each termulator to set the TERMINAL_NAME envvar -> important for image protocol commands, mpl, ipython, etc
+https://github.com/itsjunetime/tdf #software,console,pdf
+https://git.mccd.space/pub/rcm/ #dots
+https://git.mccd.space/pub/stitch/about/ #software,notes,2ndbrain rating:*******
+https://gitlab.com/IamPyu/ndots #dots
+https://github.com/troutcobbler/goober #software,desktop
+https://github.com/Sheebeehs/dotfiles #dots
+https://github.com/Rustnot/Tetrisfetch #fetch,software
+https://github.com/water-sucks/nixos #nix,cli,qol
+https://github.com/SamuelBanya/morrowind-theme?tab=readme-ov-file #colorscheme,green,dark
+Linwood Butterfly (Powerful, minimalistic, cross-platform, opensource note-taking app)
+    https://f-droid.org/packages/dev.linwood.butterfly/ #android,app,notes,stylus
+K-9 Mail (Full-featured email client)
+    https://f-droid.org/packages/com.fsck.k9/ #android,app,email
+https://github.com/XilinJia/Podcini #app,android,podcast
+Movie DB (Explore and organize your personal collection of movies and tv shows)
+    https://f-droid.org/packages/com.wirelessalien.android.moviedb/ #app,phone,media
+https://github.com/vicolo-dev/chrono #app,phone,time,clock
+https://github.com/streetwriters/notesnook #nebokrai,notes
+https://github.com/bitfireAT/davx5-ose #nebokrai,sync,dav rating:******
+https://dev.to/jderochervlk/rescript-has-come-a-long-way-maybe-its-time-to-switch-from-typescript-29he #proglang
+https://www.reddit.com/r/haskell/comments/9t7jmp/haskell_worse_than_go_ocaml_yes_this_is_a/ #proglang,comparison
+https://danluu.com/empirical-pl/ #proglang,comparison
+https://thume.ca/2019/04/29/comparing-compilers-in-rust-haskell-c-and-python/
+https://stackshare.io/stackups/make-vs-rake #software
+https://eltonminetto.dev/en/post/2024-05-26-alternatives-make/ #software,task,build
+https://objectbox.io/python-on-device-vector-and-object-database-for-local-ai/ #python,ai,software
+https://m.youtube.com/@kitlangton #channel
+https://siriusmart.github.io/youtube-tui/ #software,video,youtube
+https://github.com/SomewhatAwake/dotfiles #dots
+https://aphyr.com/about tags:perso
+https://aphyr.com/posts/342-typing-the-technical-interview haskell,fun
+https://www.marktechpost.com/2024/05/27/cognita-an-open-source-framework-for-building-modular-rag-applications/
+https://cuis.st/
+https://dev.to/sein_digital/why-you-should-self-host-everything-2f31
+https://github.com/command-z-z/Arch-dotfiles
+https://rheinneckar.social/@ammoniumperchlorate :person
+https://www.truenas.com/freenas/
+https://www.truenas.com/freenas/
+https://en.wikipedia.org/wiki/Unraid?wprov=sfla1
+https://en.wikipedia.org/wiki/OpenZFS?wprov=sfla1
+https://www.quora.com/Why-is-it-a-bad-idea-to-make-a-desktop-PC-a-public-facing-server-at-home
+https://www.reddit.com/r/unixporn/s/tlLfkoMhdV
+https://github.com/Manas2325/Hyprland tags:dots,hyprland
+https://github.com/T0kyoB0y/PotatoWidgets
+https://github.com/boxdot/gurk-rs
+https://github.com/ARKye03/HyprDots

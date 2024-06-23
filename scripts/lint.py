@@ -135,6 +135,7 @@ TAGS = set(
     [
         "spreadsheet",
         "console",
+        "nebokraiSoftware",
 
         "secrets",
         "donation",
@@ -707,6 +708,7 @@ def make_id() -> str:
 
 
 def lint_note(note: dict) -> dict:
+
     note = DEFAULT | note
 
     note["tags"] = lint_tags(note["tags"])
