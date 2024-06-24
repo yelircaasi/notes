@@ -3,5 +3,6 @@
     "notesPyRsHs": "%software.noteManagement.{…python,…rust,…haskell}",
     "noteAndTask": "noteManagement,todoManagement",
     "testComplex": "tagA,{tagB,tagC}.{tagD,{tagE.tagF.tagG}}",
-    "testComplexRegex": "tagA,｟^In\\sthe\\sbeginning｠.{tagB,tagC}.{tagD,{tagE.tagF.tagG}}"
+    "testComplexRegex": "tagA,｟^In the beginning｠.{tagB,tagC}.{tagD,{tagE.tagF.tagG}}",
+    "testAttrs": "=idA,asdf,｟^In the beginning｠._subtagA,%typeA:subtypeC,/status,+extraA,€EN,…python,*~~ratingB,*ratingA,^2024-05-07,@cached,©2021-04-04"
 }
