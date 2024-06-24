@@ -1,0 +1,228 @@
+https://github.com/nix-community/home-manager/blob/master/modules/programs/taskwarrior.nix
+
+https://www.modular.com/blog/what-ownership-is-really-about-a-mental-model-approac
+
+===================================================================
+Keyboard Shortcuts
+Designate a special kanata leader key combination? Something like META
+Layers:
+- US default
+    -> access via 
+- programming special characters
+    -> 
+- numeric
+    -> 
+- APL https://dfns.dyalog.com/n_keyboards.htm
+    -> 
+- German (convenience for germans)
+    -> 
+- latin (US layout) + basic internationals via modifiers
+    -> 
+- latin extended international
+    -> 
+- ukrainian
+    -> 
+- russian
+    -> 
+- arabic
+    -> 
+- chinese traditional stroke-based
+    -> 
+- chinese traditional bopomofo-based (functionally equivalent to pinyin-based)
+    -> 
+- chinese simplified stroke-based
+    -> 
+- chinese simplified bopomofo-based (functionally equivalent to pinyin-based)
+    -> 
+
+==================================================================
+Strength Training Planning
+
+https://en.wikipedia.org/wiki/Strength_training
+https://www.strengthlog.com/strength-training-for-beginners/
+https://www.strengthlog.com/personal-training-programming/
+https://www.wholelifechallenge.com/how-to-design-your-own-workout-program-a-guide-for-beginners/
+https://www.puregym.com/blog/how-to-plan-your-weight-training-programme/
+https://barbend.com/strength-training/
+https://www.aworkoutroutine.com/the-ultimate-weight-training-workout-routine/
+https://www.verywellfit.com/sample-workout-schedule-1230758
+https://www.kaleishafetters.com/weight-training-guide/
+https://www.syattfitness.com/powerlifting/strength-training-program-design/
+https://www.setforset.com/blogs/news/4-day-workout-split
+https://pumpd.fit/ (paid service with one free sample)
+https://www.fleetfeet.com/how-to-start-running/training-make-your-own
+https://www.runnersworld.com/uk/training/a38549277/how-to-make-a-training-plan-for-running/
+https://www.polar.com/blog/how-to-create-your-own-running-training-plan/
+https://www.livefortheoutdoors.com/trail-running/training/how-to-create-a-running-training-plan/
+https://therunexperience.com/the-only-running-plan-you-need/
+
+
+
+
+add to list: https://f-droid.org/en/packages/com.noahjutz.gymroutines/
+
+
+Concepts: 
+- SAID principle: That’s “specific adaptations to imposed demand.”
+- periodization - the organizational structure that guides your progress and gets you from “A” to “B”   https://en.wikipedia.org/wiki/Sports_periodization
+- progressive overload
+- endurance
+- split weight training https://en.wikipedia.org/wiki/Split_weight_training
+
+Workout Types:
+- AMRAP: as many repetitions as possible
+- 1-rep max (SRM, single-rep maximum)
+- AMRAP multi-set decreasing n, with fixed break length
+-  rhythm: 4-number tempo code such as 3/1/4/2, meaning an eccentric phase lasting 3 seconds, a pause of 1 second, a concentric phase of 4 seconds, and another pause of 2 seconds
+- rest time: 60-160s
+
+Notes:
+- critical ingredient: mechanism for dynamically adapting declaration to current circumstances
+
+- also use NRM, nine-rep maximum
+- jsonize this table/page: https://en.wikipedia.org/wiki/List_of_weight_training_exercises
+
+
+General algorithm:
+Find 1RM for each exercise; due to impossibility of getting SRM, get SRM for a few key exercises, then attempt other exercises and adjust upwards
+
+
+Target medium loads of 8-12 repetitions at 60-80% of SRM, alternating between different muscle groups and exercise types
+
+Algorithmic considerations:
+- how many sessions per week
+- how many sessions per day
+- length of the session
+- permissible exhaustion (depending on what comes afterward)
+- access to gym & probable access to equipment (function of day & time)
+
+Ideas:
+- may be best to discard weekly 7-day cadence and simply follow n-day rhythm where n \in {2, 3, 4, 5}    -> still need to plan around workdays due to gym access
+    -> nah - weekly cadence is probably the most effective, due to no gym for 2 days
+    -> maybe add one extra lunchtime / after-work workout to have 6 workouts during the week;
+        weekend may be appropriate for rest days / relaxing long-distance jogging days
+- create function to assign overall difficulty to a run based on elevation loss/gain in addition to distance and time (also possible to take some Gini-like function of incline to differentiate between long gentle slopes and short steep slopes, but this may be negligible)
+
+Exampl with 3-day cadence:
+M  push, run[intense] 
+T   pull, run[moderate]
+W  legs, no run, mild swim
+Th   push, run[intense] 
+F      pull, run[moderate]
+Sa    intense run
+Su    bodyweight exercises, run 
+M     
+T
+W
+Th
+F
+Sa
+Su
+M
+T
+W
+Th
+F
+Sa
+Su
+M
+T
+W
+Th
+F
+Sa
+Su
+
+
+=================================================================
+Sexy books I found
+
+Automata and Languages - Alexander Meduna
+Duden Informatik A-Y
+Software Studies - Fuller
+Encyclopédie de l'Informatique et des Systèmes d'Information - Vuibert
+Programming Languages - Principles and Paradigms
+
+
+
+=================================================================
+create list of all apps on phone, add to notes and tag them appropriately
+
+
+
+
+Computer Networks - Olifer and Olifer
+Handbook of Data-Intensive Computing
+CRC Algorithms and Theiry of Computation Handbook
+Encyclopedia of Machine Learning (Sammut, Webb)
+Handbuch für Fachinformatiker
+Künstliche Intelligenz Lämmel Cleve
+Programmung Languages Pandey *********
+Mathematical Methods in Artificial Intelligence
+
+Dictionnaire encyclopédique du génie logiciel
+
+
+
+Full tracking:
+
+== Nutrition
+fats, proteins, simple & complex carbohydrates
+processing level of foods
+calories
+<= all via amount in grams
+
+== Cardiovascular
+...
+
+== Strength
+...
+
+== Stretching
+
+
+== Mental Health
+
+
+== Sexuality
+
+
+== Time Usage
+
+
+== Other Habits and Routines
+
+
+
+
+tracking:
+
+
+subjective metrics:
+
+- overall subjective well-being
+
+- focus/distractedness
+
+- calm/serenity
+
+- anxiety
+
+- intrusive thoughts
+
+- loneliness
+
+- sexual arousal
+
+- sense of ethicality
+
+- fatigue/energy
+
+- cleanliness
+
+- head above water
+
+- ego/pride/vanity
+
+
+add scatteredness for more fine-grained distinctions?
