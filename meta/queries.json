@@ -1,5 +1,7 @@
 {
     "appFlowyGood": "%software.noteManagement._appFlowy.*3",
     "notesPyRsHs": "%software.noteManagement.{…python,…rust,…haskell}",
-    "noteAndTask": "noteManagement,todoManagement"
+    "noteAndTask": "noteManagement,todoManagement",
+    "testComplex": "tagA,{tagB,tagC}.{tagD,{tagE.tagF.tagG}}",
+    "testComplexRegex": "tagA,｟^In\\sthe\\sbeginning｠.{tagB,tagC}.{tagD,{tagE.tagF.tagG}}"
 }

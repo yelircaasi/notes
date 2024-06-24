@@ -17,5 +17,38 @@
         "status": "$metaDir/STATUS",
         "state": "$metaDir/state.json",
         "queries": "$metaDir/queries.json"
+    },
+    "queryLanguage": {
+        "reserved": {
+            "and": ".",
+            "or": ",",
+            "not": "~",
+            "leftBracket": "{",
+            "rightBracket": "}",
+            "openPath": "@[",
+            "closePath": "]",
+            "matchNull": "?",
+            "valueBinder": ":",
+            "openRegex": "｟",
+            "closeRegex": "｠"
+        },
+        "alias": {
+            "id": "=",
+            "tag": "",
+            "subtag": "_",
+            "type": "%",
+            "subtypeBinder": ":",
+            "status": "/",
+            "extra": "+",
+            "language": "€",
+            "progLang": "…",
+            "rating": "*",
+            "ratingExactnessModifier": "~~",
+            "dateModified": "^",
+            "cachedQuery": "@",
+            "dateCreated": "©"
+
+        },
+        "unusedSpecial": ["]", "-"]
     }
 }
