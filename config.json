@@ -27,14 +27,14 @@
             "rightBracket": "}",
             "openPath": "@[",
             "closePath": "]",
-            "matchNull": "?",
+            "matchEmpty": "?",
             "valueBinder": ":",
             "openRegex": "｟",
             "closeRegex": "｠"
         },
         "alias": {
             "id": "=",
-            "tag": "",
+            "tag": "a-z",
             "subtag": "_",
             "type": "%",
             "subtypeBinder": ":",

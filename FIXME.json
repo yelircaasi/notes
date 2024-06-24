@@ -9853,9 +9853,9 @@
         "sorter": "",
         "id": null
     },
-
-
-"hub.io/cli-mic": {"text": "https://pnp.github.io/cli-microsoft365/cmd/outlook/mail/mail-send/", "link": "",
+    "hub.io/cli-mic": {
+        "text": "https://pnp.github.io/cli-microsoft365/cmd/outlook/mail/mail-send/",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -9867,12 +9867,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "hub.io/cli-mic"},
-
-
-    
-
-    "NameNotae": {"text": "name idea: notae", "link": "",
+        "id": "hub.io/cli-mic"
+    },
+    "NameNotae": {
+        "text": "name idea: notae",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -9884,8 +9883,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "NameNotae"},
-"com/mintty/uti": {"text": "https://github.com/mintty/utils", "link": "",
+        "id": "NameNotae"
+    },
+    "com/mintty/uti": {
+        "text": "https://github.com/mintty/utils",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -9897,8 +9899,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/mintty/uti"},
-"matui": {"text": "https://github.com/pkulak/matui/", "link": "",
+        "id": "com/mintty/uti"
+    },
+    "matui": {
+        "text": "https://github.com/pkulak/matui/",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -9910,8 +9915,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/pkulak/mat"},
-"commander-tui": {"text": "look for matrix-commander-tui (package it myself? repackage matrix-commander to include tui?)", "link": "",
+        "id": "com/pkulak/mat"
+    },
+    "commander-tui": {
+        "text": "look for matrix-commander-tui (package it myself? repackage matrix-commander to include tui?)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -9923,8 +9931,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "-commander-tui"},
-"com/pkulak/mat": {"text": "https://github.com/pkulak/matui/", "link": "",
+        "id": "-commander-tui"
+    },
+    "com/pkulak/mat": {
+        "text": "https://github.com/pkulak/matui/",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -9936,9 +9947,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/pkulak/mat"},
-    
-"dit.com/r/neov": {"text": "https://www.reddit.com/r/neovim/comments/1bxmbki/when_you_want_to_use_neovim_but_dont_want_to/", "link": "",
+        "id": "com/pkulak/mat"
+    },
+    "dit.com/r/neov": {
+        "text": "https://www.reddit.com/r/neovim/comments/1bxmbki/when_you_want_to_use_neovim_but_dont_want_to/",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -9950,9 +9963,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "dit.com/r/neov"},
-    
-"com/yutkat/my-": {"text": "https://github.com/yutkat/my-neovim-pluginlist <- get recent changes", "link": "",
+        "id": "dit.com/r/neov"
+    },
+    "com/yutkat/my-": {
+        "text": "https://github.com/yutkat/my-neovim-pluginlist <- get recent changes",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -9964,9 +9979,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/yutkat/my-"},
-    
-"com/folke/pain": {"text": "https://github.com/folke/paint.nvim for note highlighting", "link": "",
+        "id": "com/yutkat/my-"
+    },
+    "com/folke/pain": {
+        "text": "https://github.com/folke/paint.nvim for note highlighting",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -9978,8 +9995,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/folke/pain"},
-"com/nvim-trees": {"text": "https://github.com/nvim-treesitter/nvim-treesitter#adding-parsers alternative for note highlighting", "link": "",
+        "id": "com/folke/pain"
+    },
+    "com/nvim-trees": {
+        "text": "https://github.com/nvim-treesitter/nvim-treesitter#adding-parsers alternative for note highlighting",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -9991,9 +10011,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/nvim-trees"},
-    
-"web.com/news/e": {"text": "https://thenextweb.com/news/everything-you-need-to-know-about-finch-the-latest-programming-language-developed-by-mit", "link": "",
+        "id": "com/nvim-trees"
+    },
+    "web.com/news/e": {
+        "text": "https://thenextweb.com/news/everything-you-need-to-know-about-finch-the-latest-programming-language-developed-by-mit",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10005,9 +10027,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "web.com/news/e"},
-    
-"com/Dartypier/": {"text": "https://github.com/Dartypier/image-editor", "link": "",
+        "id": "web.com/news/e"
+    },
+    "com/Dartypier/": {
+        "text": "https://github.com/Dartypier/image-editor",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10019,8 +10043,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/Dartypier/"},
-"tecmint.com/be": {"text": "-> https://www.tecmint.com/best-image-photo-editors-for-linux/", "link": "",
+        "id": "com/Dartypier/"
+    },
+    "tecmint.com/be": {
+        "text": "-> https://www.tecmint.com/best-image-photo-editors-for-linux/",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10032,8 +10059,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "tecmint.com/be"},
-"com/dair-ai/Pr": {"text": "https://github.com/dair-ai/Prompt-Engineering-Guide https://www.promptingguide.ai/", "link": "",
+        "id": "tecmint.com/be"
+    },
+    "com/dair-ai/Pr": {
+        "text": "https://github.com/dair-ai/Prompt-Engineering-Guide https://www.promptingguide.ai/",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10045,9 +10075,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/dair-ai/Pr"},
-
-        "ElvisSaravia": {"text": "http://elvissaravia.com/", "link": "",
+        "id": "com/dair-ai/Pr"
+    },
+    "ElvisSaravia": {
+        "text": "http://elvissaravia.com/",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10059,11 +10091,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "ElvisSaravia"},
-    
-    
-    
-"mmand groups: ": {"text": "consilium subcommand groups: declare, derive, journal, note, maintain (with aliases {} ++ [] :: ~~)", "link": "",
+        "id": "ElvisSaravia"
+    },
+    "mmand groups: ": {
+        "text": "consilium subcommand groups: declare, derive, journal, note, maintain (with aliases {} ++ [] :: ~~)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10075,9 +10107,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "mmand groups: "},
-    
-"sideration for": {"text": "algorithmic consideration for scheduling: I should first compute a feasible schedule based on easy constraints, then follow a series of optimizations to move tasks according to score -> incremental approach is computationally faster and a brute-force search of the schedule space, and is still likely to yield very good results. Basic idea: make change if one score/metric can be improved without hurting others (or without decreasing some weighted global score), perhaps to find a pareto optimal schedule -> requires a number of metrics, i.e. score functions, which may be arbitrarily complex, but should ideally be reasonably fast to compute", "link": "",
+        "id": "mmand groups: "
+    },
+    "sideration for": {
+        "text": "algorithmic consideration for scheduling: I should first compute a feasible schedule based on easy constraints, then follow a series of optimizations to move tasks according to score -> incremental approach is computationally faster and a brute-force search of the schedule space, and is still likely to yield very good results. Basic idea: make change if one score/metric can be improved without hurting others (or without decreasing some weighted global score), perhaps to find a pareto optimal schedule -> requires a number of metrics, i.e. score functions, which may be arbitrarily complex, but should ideally be reasonably fast to compute",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10089,10 +10123,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "sideration for"},
-    
-    
-"com/Facundo-c-": {"text": "https://github.com/Facundo-c-c/labwc-solus-dotefiles dots", "link": "",
+        "id": "sideration for"
+    },
+    "com/Facundo-c-": {
+        "text": "https://github.com/Facundo-c-c/labwc-solus-dotefiles dots",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10104,8 +10139,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/Facundo-c-"},
-"DIFFVSAUTOREG": {"text": "Why Does Diffusion Work Better than Auto-Regression? https://m.youtube.com/watch?v=zc5NTeJbk-k dl,video,theory", "link": "",
+        "id": "com/Facundo-c-"
+    },
+    "DIFFVSAUTOREG": {
+        "text": "Why Does Diffusion Work Better than Auto-Regression? https://m.youtube.com/watch?v=zc5NTeJbk-k dl,video,theory",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10117,8 +10155,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "DIFFVSAUTOREG"},
-"BACKPROPKIRSANOV": {"text": "The Most Important Algorithm in Machine Learning https://m.youtube.com/watch?v=SmZmBKc7Lrs backprop,video", "link": "",
+        "id": "DIFFVSAUTOREG"
+    },
+    "BACKPROPKIRSANOV": {
+        "text": "The Most Important Algorithm in Machine Learning https://m.youtube.com/watch?v=SmZmBKc7Lrs backprop,video",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10130,8 +10171,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "BACKPROPKIRSANOV"},
-"CATTHEORY": {"text": "https://m.youtube.com/watch?v=UbPYnigL344&feature=youtu.be categorytheory,video", "link": "",
+        "id": "BACKPROPKIRSANOV"
+    },
+    "CATTHEORY": {
+        "text": "https://m.youtube.com/watch?v=UbPYnigL344&feature=youtu.be categorytheory,video",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10143,8 +10187,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "CATTHEORY"},
-"com/rikodot/ka": {"text": "https://github.com/rikodot/kardi_notes_api notes,server", "link": "",
+        "id": "CATTHEORY"
+    },
+    "com/rikodot/ka": {
+        "text": "https://github.com/rikodot/kardi_notes_api notes,server",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10156,8 +10203,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/rikodot/ka"},
-"com/VikParuchu": {"text": "https://github.com/VikParuchuri/marker work,docproc,conversion", "link": "",
+        "id": "com/rikodot/ka"
+    },
+    "com/VikParuchu": {
+        "text": "https://github.com/VikParuchuri/marker work,docproc,conversion",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10169,8 +10219,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/VikParuchu"},
-"VikParuchu": {"text": "https://github.com/VikParuchuri/surya work,ocr", "link": "",
+        "id": "com/VikParuchu"
+    },
+    "VikParuchu": {
+        "text": "https://github.com/VikParuchuri/surya work,ocr",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10182,8 +10235,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "VikParuchu"},
-"CODEREPORT": {"text": "https://codereport.github.io/about/ person,cs,proglang", "link": "",
+        "id": "VikParuchu"
+    },
+    "CODEREPORT": {
+        "text": "https://codereport.github.io/about/ person,cs,proglang",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10195,8 +10251,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "CODEREPORT"},
-"here.com/googl": {"text": "https://advanywhere.com/google-maps-exporting-your-pins-gpx-file/ maps,gpx,fitness,nebokrai", "link": "",
+        "id": "CODEREPORT"
+    },
+    "here.com/googl": {
+        "text": "https://advanywhere.com/google-maps-exporting-your-pins-gpx-file/ maps,gpx,fitness,nebokrai",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10208,8 +10267,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "here.com/googl"},
-"EPISODE:JDFGNDF": {"text": "https://open.spotify.com/episode/5cTkLZLrtlQXAoFbZTsWkl?si=fZNTlYI0RaCI1yQTIMyrRg podcast,freewill,luck", "link": "",
+        "id": "here.com/googl"
+    },
+    "EPISODE:JDFGNDF": {
+        "text": "https://open.spotify.com/episode/5cTkLZLrtlQXAoFbZTsWkl?si=fZNTlYI0RaCI1yQTIMyrRg podcast,freewill,luck",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10221,8 +10283,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "EPISODE:JDFGNDF"},
-"EPISODE:SDHFSDAGG": {"text": "https://open.spotify.com/episode/7nE3gGSEhTaMxlo7D29NGX?si=JxfD6x63TWqKD_eUJlYaLg podcast,freewill", "link": "",
+        "id": "EPISODE:JDFGNDF"
+    },
+    "EPISODE:SDHFSDAGG": {
+        "text": "https://open.spotify.com/episode/7nE3gGSEhTaMxlo7D29NGX?si=JxfD6x63TWqKD_eUJlYaLg podcast,freewill",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10234,8 +10299,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "EPISODE:SDHFSDAGG"},
-"EPISODE:SFHTYRIWE": {"text": "https://open.spotify.com/episode/1MkeiZYxvIKKRaZrCQR6Po?si=-02a2HcmQFWnXfVmoW8FPw podcast,freewill", "link": "",
+        "id": "EPISODE:SDHFSDAGG"
+    },
+    "EPISODE:SFHTYRIWE": {
+        "text": "https://open.spotify.com/episode/1MkeiZYxvIKKRaZrCQR6Po?si=-02a2HcmQFWnXfVmoW8FPw podcast,freewill",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10247,8 +10315,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "EPISODE:SFHTYRIWE"},
-"nch.github.io/": {"text": "https://bird-bench.github.io/ work,text2sql", "link": "",
+        "id": "EPISODE:SFHTYRIWE"
+    },
+    "nch.github.io/": {
+        "text": "https://bird-bench.github.io/ work,text2sql",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10260,8 +10331,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "nch.github.io/"},
-"ium.com/ softw": {"text": "https://technitium.com/ software,networking,server,dns", "link": "",
+        "id": "nch.github.io/"
+    },
+    "ium.com/ softw": {
+        "text": "https://technitium.com/ software,networking,server,dns",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10273,8 +10347,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "ium.com/ softw"},
-"ge.mdaemon.com": {"text": "https://knowledge.mdaemon.com/how-to-sync-calendars-and-tasks-using-caldav-sync-for-android-devices android,caldav,instruction", "link": "",
+        "id": "ium.com/ softw"
+    },
+    "ge.mdaemon.com": {
+        "text": "https://knowledge.mdaemon.com/how-to-sync-calendars-and-tasks-using-caldav-sync-for-android-devices android,caldav,instruction",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10286,8 +10363,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "ge.mdaemon.com"},
-"e-taking app t": {"text": "WD Notes (A note-taking app that syncs with any WebDAV server)", "link": "",
+        "id": "ge.mdaemon.com"
+    },
+    "e-taking app t": {
+        "text": "WD Notes (A note-taking app that syncs with any WebDAV server)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10299,8 +10379,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "e-taking app t"},
-"WDNOTES": {"text": "    https://f-droid.org/packages/es.ideotec.wdnotes/]] webdav,android,sync,nebokrai", "link": "",
+        "id": "e-taking app t"
+    },
+    "WDNOTES": {
+        "text": "    https://f-droid.org/packages/es.ideotec.wdnotes/]] webdav,android,sync,nebokrai",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10312,8 +10395,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "WDNOTES"},
-"ardDAV Synchro": {"text": "DAVx⁵ (CalDAV/CardDAV Synchronization and Client)", "link": "",
+        "id": "WDNOTES"
+    },
+    "ardDAV Synchro": {
+        "text": "DAVx⁵ (CalDAV/CardDAV Synchronization and Client)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10325,8 +10411,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "ardDAV Synchro"},
-"DAVDROID": {"text": "    https://f-droid.org/packages/at.bitfire.davdroid/]] android,app,caldav,sync", "link": "",
+        "id": "ardDAV Synchro"
+    },
+    "DAVDROID": {
+        "text": "    https://f-droid.org/packages/at.bitfire.davdroid/]] android,app,caldav,sync",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10338,8 +10427,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "DAVDROID"},
-"WORDS": {"text": "[[soccer gables oxygen asked tunnel ulcers feast flying react yoga vector python flying]] session,recovery", "link": "",
+        "id": "DAVDROID"
+    },
+    "WORDS": {
+        "text": "[[soccer gables oxygen asked tunnel ulcers feast flying react yoga vector python flying]] session,recovery",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10351,8 +10443,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "WORDS"},
-"PERFECTAPP": {"text": "[[timeto.me is almost perfect]] android,task,calendar,app,nebokrai,software $$$$$$", "link": "",
+        "id": "WORDS"
+    },
+    "PERFECTAPP": {
+        "text": "[[timeto.me is almost perfect]] android,task,calendar,app,nebokrai,software $$$$$$",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10364,8 +10459,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "PERFECTAPP"},
-"timeto.me.apk ": {"text": "Received file: timeto.me.apk [https://matrix.org/_matrix/media/r0/download/matrix.org/LQzYdJRxglDLNjjdQjdqfhXe]", "link": "",
+        "id": "PERFECTAPP"
+    },
+    "timeto.me.apk ": {
+        "text": "Received file: timeto.me.apk [https://matrix.org/_matrix/media/r0/download/matrix.org/LQzYdJRxglDLNjjdQjdqfhXe]",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10377,8 +10475,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "timeto.me.apk "},
-"c contacts, ca": {"text": "DecSync CC (Sync contacts, calendars and tasks without a server using DecSync)", "link": "",
+        "id": "timeto.me.apk "
+    },
+    "c contacts, ca": {
+        "text": "DecSync CC (Sync contacts, calendars and tasks without a server using DecSync)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10390,8 +10491,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "c contacts, ca"},
-"DECSYNC": {"text": "    https://f-droid.org/packages/org.decsync.cc/ ]] android,connection,sync", "link": "",
+        "id": "c contacts, ca"
+    },
+    "DECSYNC": {
+        "text": "    https://f-droid.org/packages/org.decsync.cc/ ]] android,connection,sync",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10403,8 +10507,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "DECSYNC"},
-"com/FossifyOrg": {"text": "https://github.com/FossifyOrg/Calendar android,calendar", "link": "",
+        "id": "DECSYNC"
+    },
+    "com/FossifyOrg": {
+        "text": "https://github.com/FossifyOrg/Calendar android,calendar",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10416,8 +10523,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/FossifyOrg"},
-"ETARCALENDAR": {"text": "https://github.com/Etar-Group/Etar-Calendar android,calendar", "link": "",
+        "id": "com/FossifyOrg"
+    },
+    "ETARCALENDAR": {
+        "text": "https://github.com/Etar-Group/Etar-Calendar android,calendar",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10429,11 +10539,17 @@
             "language": ""
         },
         "sorter": "",
-        "id": "ETARCALENDAR"},
-"MINCALWIDGET:SDFGFDG": {"text": "MinCal Widget (Minimal Calendar Widget)", "link": "https://f-droid.org/packages/cat.mvmike.minimalcalendarwidget/",
+        "id": "ETARCALENDAR"
+    },
+    "MINCALWIDGET:SDFGFDG": {
+        "text": "MinCal Widget (Minimal Calendar Widget)",
+        "link": "https://f-droid.org/packages/cat.mvmike.minimalcalendarwidget/",
         "type": "",
         "subtype": "",
-        "tags": ["android", "calendar"],
+        "tags": [
+            "android",
+            "calendar"
+        ],
         "subtags": [],
         "status": "toRead",
         "dateCreated": "1970-01-01",
@@ -10442,8 +10558,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "MINCALWIDGET:SDFGFDG"},
-"MINCALWIDGET": {"text": "     ", "link": "",
+        "id": "MINCALWIDGET:SDFGFDG"
+    },
+    "MINCALWIDGET": {
+        "text": "     ",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10455,8 +10574,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "MINCALWIDGET"},
-"SILVERBULLET": {"text": "https://silverbullet.md/ nebokrai,notes,ideas,inspiration $$$$$$", "link": "",
+        "id": "MINCALWIDGET"
+    },
+    "SILVERBULLET": {
+        "text": "https://silverbullet.md/ nebokrai,notes,ideas,inspiration $$$$$$",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10468,8 +10590,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "SILVERBULLET"},
-" Pro (Calendar": {"text": "Simple Calendar Pro (Calendar 2023 widget for Android. Appointment scheduler, planner, and reminder)", "link": "",
+        "id": "SILVERBULLET"
+    },
+    " Pro (Calendar": {
+        "text": "Simple Calendar Pro (Calendar 2023 widget for Android. Appointment scheduler, planner, and reminder)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10481,8 +10606,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": " Pro (Calendar"},
-"SIMPLEMOBILECALENDAR": {"text": "    https://f-droid.org/packages/com.simplemobiletools.calendar.pro/]] android,app,calendar", "link": "",
+        "id": " Pro (Calendar"
+    },
+    "SIMPLEMOBILECALENDAR": {
+        "text": "    https://f-droid.org/packages/com.simplemobiletools.calendar.pro/]] android,app,calendar",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10494,8 +10622,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "SIMPLEMOBILECALENDAR"},
-"obiletools.com": {"text": "https://simplemobiletools.com/ android $$$$$$", "link": "",
+        "id": "SIMPLEMOBILECALENDAR"
+    },
+    "obiletools.com": {
+        "text": "https://simplemobiletools.com/ android $$$$$$",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10507,8 +10638,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "obiletools.com"},
-"s (Online rout": {"text": "GraphHopper Maps (Online route planner and experimental GPS navigation)", "link": "",
+        "id": "obiletools.com"
+    },
+    "s (Online rout": {
+        "text": "GraphHopper Maps (Online route planner and experimental GPS navigation)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10520,8 +10654,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "s (Online rout"},
-"GRAPHHOPPER": {"text": "    https://f-droid.org/packages/com.graphhopper.maps/]] android,app,software,map", "link": "",
+        "id": "s (Online rout"
+    },
+    "GRAPHHOPPER": {
+        "text": "    https://f-droid.org/packages/com.graphhopper.maps/]] android,app,software,map",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10533,8 +10670,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "GRAPHHOPPER"},
-"nisms: breaks,": {"text": "* [[other mechanisms: breaks, buffer time (small time variation), flextime (larger time block for arbitrary catch-up or activity from list of time-independent activities]] notes,resilience ", "link": "",
+        "id": "GRAPHHOPPER"
+    },
+    "nisms: breaks,": {
+        "text": "* [[other mechanisms: breaks, buffer time (small time variation), flextime (larger time block for arbitrary catch-up or activity from list of time-independent activities]] notes,resilience ",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10546,8 +10686,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "nisms: breaks,"},
-"sms: breaks, b": {"text": "[[other mechanisms: breaks, buffer time (small time variation), flextime (larger time block for arbitrary catch-up or activity from list of time-independent activities", "link": "",
+        "id": "nisms: breaks,"
+    },
+    "sms: breaks, b": {
+        "text": "[[other mechanisms: breaks, buffer time (small time variation), flextime (larger time block for arbitrary catch-up or activity from list of time-independent activities",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10559,8 +10702,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "sms: breaks, b"},
-"search ids? li": {"text": "[[how to fuzzy-search ids? limit on tags & attributes, then do fuzzy search (edit distance or n-gram overlap) on all returned note text -> alternatively ''?'' wild-card id to signify that there should be a link, but I couldn't remember the id  ]] notes,search,fuzzy", "link": "",
+        "id": "sms: breaks, b"
+    },
+    "search ids? li": {
+        "text": "[[how to fuzzy-search ids? limit on tags & attributes, then do fuzzy search (edit distance or n-gram overlap) on all returned note text -> alternatively ''?'' wild-card id to signify that there should be a link, but I couldn't remember the id  ]] notes,search,fuzzy",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10572,8 +10718,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "search ids? li"},
-"WEBDAVSPEC": {"text": "http://www.webdav.org/specs/rfc3648.html webdav,server,nebokrai,connection", "link": "",
+        "id": "search ids? li"
+    },
+    "WEBDAVSPEC": {
+        "text": "http://www.webdav.org/specs/rfc3648.html webdav,server,nebokrai,connection",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10585,8 +10734,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "WEBDAVSPEC"},
-"SQLITEDAV": {"text": "https://github.com/Airsequel/SQLiteDAV haskell,sqlite,webdav,connection,nnebokrai", "link": "",
+        "id": "WEBDAVSPEC"
+    },
+    "SQLITEDAV": {
+        "text": "https://github.com/Airsequel/SQLiteDAV haskell,sqlite,webdav,connection,nnebokrai",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10598,8 +10750,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "SQLITEDAV"},
-"com/ad-si/webd": {"text": "https://github.com/ad-si/webdavServer haskell,webdav,git,server,software,nebokrai", "link": "",
+        "id": "SQLITEDAV"
+    },
+    "com/ad-si/webd": {
+        "text": "https://github.com/ad-si/webdavServer haskell,webdav,git,server,software,nebokrai",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10611,8 +10766,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/ad-si/webd"},
-"GITANNEX": {"text": "https://hackage.haskell.org/package/git-annex-4.20130627/src/debian/git-annex/usr/share/doc/git-annex/html/special_remotes/webdav.html haskell,webdav,git,software,connection,nebokrai", "link": "",
+        "id": "com/ad-si/webd"
+    },
+    "GITANNEX": {
+        "text": "https://hackage.haskell.org/package/git-annex-4.20130627/src/debian/git-annex/usr/share/doc/git-annex/html/special_remotes/webdav.html haskell,webdav,git,software,connection,nebokrai",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10624,8 +10782,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "GITANNEX"},
-"NIXCI": {"text": "https://nix-ci.com/ nix,software,ci,service", "link": "",
+        "id": "GITANNEX"
+    },
+    "NIXCI": {
+        "text": "https://nix-ci.com/ nix,software,ci,service",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10637,8 +10798,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "NIXCI"},
-"SUPERMAVENNVIM": {"text": "https://github.com/supermaven-inc/supermaven-nvim ai,codingassistant,nvim", "link": "",
+        "id": "NIXCI"
+    },
+    "SUPERMAVENNVIM": {
+        "text": "https://github.com/supermaven-inc/supermaven-nvim ai,codingassistant,nvim",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10650,8 +10814,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "SUPERMAVENNVIM"},
-"com/forste/has": {"text": "https://github.com/forste/haskellVCSWrapper nebokrai,haskell,git,software", "link": "",
+        "id": "SUPERMAVENNVIM"
+    },
+    "com/forste/has": {
+        "text": "https://github.com/forste/haskellVCSWrapper nebokrai,haskell,git,software",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10663,8 +10830,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/forste/has"},
-"sagar.com/blog": {"text": "https://vaibhavsagar.com/blog/2017/08/13/i-haskell-a-git/ edu,haskell,software,git", "link": "",
+        "id": "com/forste/has"
+    },
+    "sagar.com/blog": {
+        "text": "https://vaibhavsagar.com/blog/2017/08/13/i-haskell-a-git/ edu,haskell,software,git",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10676,8 +10846,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "sagar.com/blog"},
-"b.com/vincenth": {"text": "* https://github.com/vincenthz/hs-libgit software,haskell,git,nebokrai", "link": "",
+        "id": "sagar.com/blog"
+    },
+    "b.com/vincenth": {
+        "text": "* https://github.com/vincenthz/hs-libgit software,haskell,git,nebokrai",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10689,8 +10862,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "b.com/vincenth"},
-"com/mitchellwr": {"text": "https://github.com/mitchellwrosen/mit software,haskell,git,nebokrai", "link": "",
+        "id": "b.com/vincenth"
+    },
+    "com/mitchellwr": {
+        "text": "https://github.com/mitchellwrosen/mit software,haskell,git,nebokrai",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10702,8 +10878,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/mitchellwr"},
-"com/vincenthz/": {"text": "https://github.com/vincenthz/hs-libgit software,haskell,git", "link": "",
+        "id": "com/mitchellwr"
+    },
+    "com/vincenthz/": {
+        "text": "https://github.com/vincenthz/hs-libgit software,haskell,git",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10715,8 +10894,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/vincenthz/"},
-"-developers.co": {"text": "https://www.xda-developers.com/x-best-free-alternatives-to-the-most-popular-paid-software/ foss,list", "link": "",
+        "id": "com/vincenthz/"
+    },
+    "-developers.co": {
+        "text": "https://www.xda-developers.com/x-best-free-alternatives-to-the-most-popular-paid-software/ foss,list",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10728,8 +10910,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "-developers.co"},
-"FOLLOWUP": {"text": "[[ need a mechanism with tasks, especially with reading, to add a followup to re-read some task or review sone topic -> add feature to declaration editor -> add a link to original task ]] nebokrai,followup,feedback", "link": "",
+        "id": "-developers.co"
+    },
+    "FOLLOWUP": {
+        "text": "[[ need a mechanism with tasks, especially with reading, to add a followup to re-read some task or review sone topic -> add feature to declaration editor -> add a link to original task ]] nebokrai,followup,feedback",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10741,8 +10926,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "nism with task"},
-"HEPTABASE": {"text": "https://heptabase.com/ notes,pkm,ideas,software", "link": "",
+        "id": "nism with task"
+    },
+    "HEPTABASE": {
+        "text": "https://heptabase.com/ notes,pkm,ideas,software",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10754,8 +10942,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "se.com/ notes,"},
-"PKMSPOST": {"text": "https://www.reddit.com/r/PKMS/s/JplWPnspsv my description on reddit of my system]] notes,pim,pkm", "link": "",
+        "id": "se.com/ notes,"
+    },
+    "PKMSPOST": {
+        "text": "https://www.reddit.com/r/PKMS/s/JplWPnspsv my description on reddit of my system]] notes,pim,pkm",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10767,8 +10958,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "PKMSPOST"},
-"PKMSPOST2": {"text": "https://www.reddit.com/r/PKMS/s/fLiFQtxa92 list of pkms systems]] pkm,pim,notes,theory,resourcelist", "link": "",
+        "id": "PKMSPOST"
+    },
+    "PKMSPOST2": {
+        "text": "https://www.reddit.com/r/PKMS/s/fLiFQtxa92 list of pkms systems]] pkm,pim,notes,theory,resourcelist",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10780,8 +10974,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "PKMSPOST2"},
-"REDDIT:PKMS": {"text": "https://www.reddit.com/r/PKMS/ pim,pkm,notes", "link": "",
+        "id": "PKMSPOST2"
+    },
+    "REDDIT:PKMS": {
+        "text": "https://www.reddit.com/r/PKMS/ pim,pkm,notes",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10793,8 +10990,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "REDDIT:PKMS"},
-"DOUBLESQUARE": {"text": "* [[ syntax: text in double square brackets, id prefixed by !, tags comma-separated, attributes, other attributes with a colon, as attrName:attrValue, extra attrs prefixed by '&', rating prefix-optional (e.g. *****), status using single-letter code ]]", "link": "",
+        "id": "REDDIT:PKMS"
+    },
+    "DOUBLESQUARE": {
+        "text": "* [[ syntax: text in double square brackets, id prefixed by !, tags comma-separated, attributes, other attributes with a colon, as attrName:attrValue, extra attrs prefixed by '&', rating prefix-optional (e.g. *****), status using single-letter code ]]",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10806,8 +11006,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "xt in double s"},
-"LINKTYPES": {"text": "* [[ link types: related (default link?), dependency, constituence/inclusion, seqbefore/seqafter -> probably requires topological sorting ''links'': {''relatedNotes'': [...], ''containedBy'': [...], ''contains'': [...], ''predecessor'': ''...'', '' successor'': ''...''} ]] notes,links,sorting", "link": "",
+        "id": "xt in double s"
+    },
+    "LINKTYPES": {
+        "text": "* [[ link types: related (default link?), dependency, constituence/inclusion, seqbefore/seqafter -> probably requires topological sorting ''links'': {''relatedNotes'': [...], ''containedBy'': [...], ''contains'': [...], ''predecessor'': ''...'', '' successor'': ''...''} ]] notes,links,sorting",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10819,8 +11022,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "LINKTYPES"},
-"LINKTYPES2": {"text": "* [[ link types: related (default link?), dependency, constituence/inclusion, seqbefore/seqafter -> probably requires topological sorting ''links'': {''relatedNotes'': [...], '' subNotes'': [...], ''superNotes'': [...], ''predecessor'': ''...'', '' successor'': ''...''} ]] notes,links,sorting", "link": "",
+        "id": "LINKTYPES"
+    },
+    "LINKTYPES2": {
+        "text": "* [[ link types: related (default link?), dependency, constituence/inclusion, seqbefore/seqafter -> probably requires topological sorting ''links'': {''relatedNotes'': [...], '' subNotes'': [...], ''superNotes'': [...], ''predecessor'': ''...'', '' successor'': ''...''} ]] notes,links,sorting",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10832,8 +11038,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "LINKTYPES2"},
-"LINKTYPES3": {"text": "* [[ link types: related (default link?), dependency, constituence/inclusion, seqbefore/seqafter -> probably requires topological sorting ''links'': {''related'': [...], ''subNotes'': [...], ''superNotes'': [...], ''predecessors'': ''...'', ''successor'': ''...''} ]] notes,links,sorting", "link": "",
+        "id": "LINKTYPES2"
+    },
+    "LINKTYPES3": {
+        "text": "* [[ link types: related (default link?), dependency, constituence/inclusion, seqbefore/seqafter -> probably requires topological sorting ''links'': {''related'': [...], ''subNotes'': [...], ''superNotes'': [...], ''predecessors'': ''...'', ''successor'': ''...''} ]] notes,links,sorting",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10845,8 +11054,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "LINKTYPES3"},
-"LINKTYPES:SDFGDFGDFG": {"text": "[[ link types: dependency, constituence/inclusion, seqbefore/seqafter -> probably requires topological sorting ]] notes,links,sorting", "link": "",
+        "id": "LINKTYPES3"
+    },
+    "LINKTYPES:SDFGDFGDFG": {
+        "text": "[[ link types: dependency, constituence/inclusion, seqbefore/seqafter -> probably requires topological sorting ]] notes,links,sorting",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10858,8 +11070,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "dependency, co"},
-"e/poc4ctbnDYA?": {"text": "https://youtu.be/poc4ctbnDYA?feature=shared productivity,personalmanagement", "link": "",
+        "id": "dependency, co"
+    },
+    "e/poc4ctbnDYA?": {
+        "text": "https://youtu.be/poc4ctbnDYA?feature=shared productivity,personalmanagement",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10871,8 +11086,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "e/poc4ctbnDYA?"},
-"dit.com/r/Obsi": {"text": "https://www.reddit.com/r/ObsidianMD/s/rQI1otQKIO secondbrain,notes,pim", "link": "",
+        "id": "e/poc4ctbnDYA?"
+    },
+    "dit.com/r/Obsi": {
+        "text": "https://www.reddit.com/r/ObsidianMD/s/rQI1otQKIO secondbrain,notes,pim",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10884,8 +11102,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "dit.com/r/Obsi"},
-"com/gokhanmete": {"text": "https://github.com/gokhanmeteerturk/HeadwindHTML webdev,css,html,generation", "link": "",
+        "id": "dit.com/r/Obsi"
+    },
+    "com/gokhanmete": {
+        "text": "https://github.com/gokhanmeteerturk/HeadwindHTML webdev,css,html,generation",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10897,8 +11118,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/gokhanmete"},
-"com/AccentDesi": {"text": "https://github.com/AccentDesign/gcss css,parser,go", "link": "",
+        "id": "com/gokhanmete"
+    },
+    "com/AccentDesi": {
+        "text": "https://github.com/AccentDesign/gcss css,parser,go",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10910,8 +11134,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/AccentDesi"},
-"sarkar.net/pos": {"text": "https://abhinavsarkar.net/posts/json-parsing-from-scratch-in-haskell/ haskell,tutorial,json,parsing", "link": "",
+        "id": "com/AccentDesi"
+    },
+    "sarkar.net/pos": {
+        "text": "https://abhinavsarkar.net/posts/json-parsing-from-scratch-in-haskell/ haskell,tutorial,json,parsing",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10923,8 +11150,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "sarkar.net/pos"},
-"ium.ai/blog/wi": {"text": "https://www.codium.ai/blog/will-ai-take-over-your-programming-job/ career", "link": "",
+        "id": "sarkar.net/pos"
+    },
+    "ium.ai/blog/wi": {
+        "text": "https://www.codium.ai/blog/will-ai-take-over-your-programming-job/ career",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10936,8 +11166,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "ium.ai/blog/wi"},
-"dit.com/r/hypr": {"text": "https://www.reddit.com/r/hyprland/s/DwEodEMk2H nix,dots", "link": "",
+        "id": "ium.ai/blog/wi"
+    },
+    "dit.com/r/hypr": {
+        "text": "https://www.reddit.com/r/hyprland/s/DwEodEMk2H nix,dots",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10949,8 +11182,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "dit.com/r/hypr"},
-"rs/search.php?": {"text": "https://libgen.rs/search.php?&req=programming+languages&phrase=1&view=simple&column=def&sort=year&sortmode=DESC book,proglang", "link": "",
+        "id": "dit.com/r/hypr"
+    },
+    "rs/search.php?": {
+        "text": "https://libgen.rs/search.php?&req=programming+languages&phrase=1&view=simple&column=def&sort=year&sortmode=DESC book,proglang",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10962,8 +11198,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "rs/search.php?"},
-"n.rs/book/inde": {"text": "* https://libgen.rs/book/index.php?md5=DAEE1D13FD140052ABD1EAA3D861B389 book,proglang,history,proglangtable", "link": "",
+        "id": "rs/search.php?"
+    },
+    "n.rs/book/inde": {
+        "text": "* https://libgen.rs/book/index.php?md5=DAEE1D13FD140052ABD1EAA3D861B389 book,proglang,history,proglangtable",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10975,8 +11214,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "n.rs/book/inde"},
-"ry.lol/main/DA": {"text": "* https://library.lol/main/DA22B0292993361AA8F29958B7D731CF book,proglang,theory", "link": "",
+        "id": "n.rs/book/inde"
+    },
+    "ry.lol/main/DA": {
+        "text": "* https://library.lol/main/DA22B0292993361AA8F29958B7D731CF book,proglang,theory",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -10988,8 +11230,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "ry.lol/main/DA"},
-"???": {"text": "https://libgen.rs/book/index.php?md5=4006048A5168499A3B5766C6D96EDB6B proglang,theory", "link": "",
+        "id": "ry.lol/main/DA"
+    },
+    "???": {
+        "text": "https://libgen.rs/book/index.php?md5=4006048A5168499A3B5766C6D96EDB6B proglang,theory",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11001,8 +11246,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "???"},
-".lol/main/DA22": {"text": "https://library.lol/main/DA22B0292993361AA8F29958B7D731CF proglang,theory", "link": "",
+        "id": "???"
+    },
+    ".lol/main/DA22": {
+        "text": "https://library.lol/main/DA22B0292993361AA8F29958B7D731CF proglang,theory",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11014,8 +11262,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": ".lol/main/DA22"},
-"????": {"text": "https://libgen.rs/book/index.php?md5=DAEE1D13FD140052ABD1EAA3D861B389 proglang,history,proglangtable", "link": "",
+        "id": ".lol/main/DA22"
+    },
+    "????": {
+        "text": "https://libgen.rs/book/index.php?md5=DAEE1D13FD140052ABD1EAA3D861B389 proglang,history,proglangtable",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11027,8 +11278,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "????"},
-"PROGLANGBOOK": {"text": "https://libgen.rs/book/index.php?md5=8FB17279A788959D23FF0DF4D4F1E8C3 book,proglang,cs,theory", "link": "",
+        "id": "????"
+    },
+    "PROGLANGBOOK": {
+        "text": "https://libgen.rs/book/index.php?md5=8FB17279A788959D23FF0DF4D4F1E8C3 book,proglang,cs,theory",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11040,8 +11294,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "PROGLANGBOOK"},
-"PLBOOK": {"text": "https://libgen.rs/book/index.php?md5=FE86974D477ABC34D2D12E9556C141DB book,proglang,theory", "link": "",
+        "id": "PROGLANGBOOK"
+    },
+    "PLBOOK": {
+        "text": "https://libgen.rs/book/index.php?md5=FE86974D477ABC34D2D12E9556C141DB book,proglang,theory",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11053,8 +11310,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "PLBOOK"},
-"TAGGEDLINKS": {"text": "* [[Add tagged links to notes with >linktype:noteid (or @@ to prevent matrix from linking) , and automatically add appropriate link to linked note]]  notes,links", "link": "",
+        "id": "PLBOOK"
+    },
+    "TAGGEDLINKS": {
+        "text": "* [[Add tagged links to notes with >linktype:noteid (or @@ to prevent matrix from linking) , and automatically add appropriate link to linked note]]  notes,links",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11066,8 +11326,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "links to notes"},
-"TAGGEDLINKS2": {"text": "[[Add tagged links to notes with @linktype:noteid, and automatically add appropriate link to linked note]]  notes,links", "link": "",
+        "id": "links to notes"
+    },
+    "TAGGEDLINKS2": {
+        "text": "[[Add tagged links to notes with @linktype:noteid, and automatically add appropriate link to linked note]]  notes,links",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11079,8 +11342,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "nks to notes w"},
-"FOSSHANDBOOK": {"text": "* [[Handbook of Open-Source Tools]] software,foss author:koranne ***** %book ", "link": "",
+        "id": "nks to notes w"
+    },
+    "FOSSHANDBOOK": {
+        "text": "* [[Handbook of Open-Source Tools]] software,foss author:koranne ***** %book ",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11092,8 +11358,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": " Open-Source T"},
-"tering [[ basi": {"text": "notes,tags,clustering [[ basic tag suggestion by computing most frequent tags  when tags A and B are present: p(C | A, B) (maybe only above sone frequency threshold) ]]", "link": "",
+        "id": " Open-Source T"
+    },
+    "tering [[ basi": {
+        "text": "notes,tags,clustering [[ basic tag suggestion by computing most frequent tags  when tags A and B are present: p(C | A, B) (maybe only above sone frequency threshold) ]]",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11105,8 +11374,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "tering [[ basi"},
-"nkdrop.app/t/h": {"text": "https://forum.inkdrop.app/t/how-do-you-organize-notes/2545/9 notes,theory,tags", "link": "",
+        "id": "tering [[ basi"
+    },
+    "nkdrop.app/t/h": {
+        "text": "https://forum.inkdrop.app/t/how-do-you-organize-notes/2545/9 notes,theory,tags",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11118,8 +11390,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "nkdrop.app/t/h"},
-"com/nvim-neoro": {"text": "https://github.com/nvim-neorocks/nvim-best-practices nvim,lazyloading", "link": "",
+        "id": "nkdrop.app/t/h"
+    },
+    "com/nvim-neoro": {
+        "text": "https://github.com/nvim-neorocks/nvim-best-practices nvim,lazyloading",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11131,8 +11406,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/nvim-neoro"},
-"m.com/geekcult": {"text": "[[https://medium.com/geekculture/optimized-note-taking-9d663eec898c use a hack to read this]] notes,tags", "link": "",
+        "id": "com/nvim-neoro"
+    },
+    "m.com/geekcult": {
+        "text": "[[https://medium.com/geekculture/optimized-note-taking-9d663eec898c use a hack to read this]] notes,tags",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11144,8 +11422,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "m.com/geekcult"},
-"clustering, in": {"text": "[[ interactive clustering, including tree-structure options, or automatic sorting algorithms, e.g. sort first on tag frequency ]] notes,ideas,design", "link": "",
+        "id": "m.com/geekcult"
+    },
+    "clustering, in": {
+        "text": "[[ interactive clustering, including tree-structure options, or automatic sorting algorithms, e.g. sort first on tag frequency ]] notes,ideas,design",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11157,8 +11438,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "clustering, in"},
-"design,thought": {"text": "notes,nebokrai,design,thoughts", "link": "",
+        "id": "clustering, in"
+    },
+    "design,thought": {
+        "text": "notes,nebokrai,design,thoughts",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11170,8 +11454,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "design,thought"},
-" in double squ": {"text": "[[ syntax: text in double square brackets, tags comma-separated, attributes, other attributes with a colon, as attrName:attrValue, extra attrs prefixed by '&', rating prefix-optional (e.g. *****), status using single-letter code ]]", "link": "",
+        "id": "design,thought"
+    },
+    " in double squ": {
+        "text": "[[ syntax: text in double square brackets, tags comma-separated, attributes, other attributes with a colon, as attrName:attrValue, extra attrs prefixed by '&', rating prefix-optional (e.g. *****), status using single-letter code ]]",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11183,8 +11470,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": " in double squ"},
-"com/sachinchau": {"text": "https://github.com/sachinchaudhary1808/nixvim-flake nvim,nix,dots,config", "link": "",
+        "id": " in double squ"
+    },
+    "com/sachinchau": {
+        "text": "https://github.com/sachinchaudhary1808/nixvim-flake nvim,nix,dots,config",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11196,8 +11486,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/sachinchau"},
-"com/TarunDaCod": {"text": "https://github.com/TarunDaCoder/AlphaNvim nvim,config,dots", "link": "",
+        "id": "com/sachinchau"
+    },
+    "com/TarunDaCod": {
+        "text": "https://github.com/TarunDaCoder/AlphaNvim nvim,config,dots",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11209,8 +11502,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/TarunDaCod"},
-"com/NTBBloodba": {"text": "https://github.com/NTBBloodbath/norgolith/blob/master/doc/themes.norg software,web,norg,static", "link": "",
+        "id": "com/TarunDaCod"
+    },
+    "com/NTBBloodba": {
+        "text": "https://github.com/NTBBloodbath/norgolith/blob/master/doc/themes.norg software,web,norg,static",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11222,8 +11518,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/NTBBloodba"},
-"it.com/ site,g": {"text": "https://ohshitgit.com/ site,git,resource,edu", "link": "",
+        "id": "com/NTBBloodba"
+    },
+    "it.com/ site,g": {
+        "text": "https://ohshitgit.com/ site,git,resource,edu",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11235,8 +11534,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "it.com/ site,g"},
-"hms for sugges": {"text": "[[ make algorithms for suggesting tags based on text and pre-existing tags ]] nebokrai,tags,clustering,nlp,editing", "link": "",
+        "id": "it.com/ site,g"
+    },
+    "hms for sugges": {
+        "text": "[[ make algorithms for suggesting tags based on text and pre-existing tags ]] nebokrai,tags,clustering,nlp,editing",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11248,8 +11550,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "hms for sugges"},
-"phisticated JS": {"text": "[[ integrate sophisticated JSON-diffing tools and algorithms -> search for available software and algorithms I can use ]] nebokrai,->,software,json,diff", "link": "",
+        "id": "hms for sugges"
+    },
+    "phisticated JS": {
+        "text": "[[ integrate sophisticated JSON-diffing tools and algorithms -> search for available software and algorithms I can use ]] nebokrai,->,software,json,diff",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11261,8 +11566,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "phisticated JS"},
-" history to ne": {"text": "[[ add built-in history to nebokrai declaration to track and visualize how my long-term goals and plans have evolved ]] #nebokrai,declaration,history,versioning", "link": "",
+        "id": "phisticated JS"
+    },
+    " history to ne": {
+        "text": "[[ add built-in history to nebokrai declaration to track and visualize how my long-term goals and plans have evolved ]] #nebokrai,declaration,history,versioning",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11274,8 +11582,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": " history to ne"},
-"asks, add cust": {"text": "//add tags to tasks, add custom workout generation algorithms to declaration editor to add workout items -> easily editable by tag; use arbitrarily complex increment algorithm (increasing/decreasing rate of increase, custom function of reps, sets, weight, subjective difficulty, etc -> need to first collect some data to see which increase algorithms are reasonable// #nebokrai,planning,editing,fitness,workout", "link": "",
+        "id": " history to ne"
+    },
+    "asks, add cust": {
+        "text": "//add tags to tasks, add custom workout generation algorithms to declaration editor to add workout items -> easily editable by tag; use arbitrarily complex increment algorithm (increasing/decreasing rate of increase, custom function of reps, sets, weight, subjective difficulty, etc -> need to first collect some data to see which increase algorithms are reasonable// #nebokrai,planning,editing,fitness,workout",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11287,8 +11598,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "asks, add cust"},
-"com/fioncat/ot": {"text": "https://github.com/fioncat/otree nebokrai,software,datawrangling,rust proglang:rust rating:$$$$$$", "link": "",
+        "id": "asks, add cust"
+    },
+    "com/fioncat/ot": {
+        "text": "https://github.com/fioncat/otree nebokrai,software,datawrangling,rust proglang:rust rating:$$$$$$",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11300,8 +11614,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/fioncat/ot"},
-"udwards.net/wh": {"text": "https://www.cloudwards.net/what-is-webdav/ #webdav,intro,nebokrai", "link": "",
+        "id": "com/fioncat/ot"
+    },
+    "udwards.net/wh": {
+        "text": "https://www.cloudwards.net/what-is-webdav/ #webdav,intro,nebokrai",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11313,8 +11630,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "udwards.net/wh"},
-"WEBDAVWIKIPEDIA": {"text": "https://en.wikipedia.org/wiki/WebDAV nebokrai,webdav", "link": "",
+        "id": "udwards.net/wh"
+    },
+    "WEBDAVWIKIPEDIA": {
+        "text": "https://en.wikipedia.org/wiki/WebDAV nebokrai,webdav",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11326,8 +11646,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "WEBDAVWIKIPEDIA"},
-"MATRIXNOTE": {"text": "#matrix,notes //enclose a plain-text note inside double slashes//", "link": "",
+        "id": "WEBDAVWIKIPEDIA"
+    },
+    "MATRIXNOTE": {
+        "text": "#matrix,notes //enclose a plain-text note inside double slashes//",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11339,8 +11662,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "MATRIXNOTE"},
-"pp.org/help/ap": {"text": "https://joplinapp.org/help/apps/sync/webdav nebokrai,sync,webdav,joplin", "link": "",
+        "id": "MATRIXNOTE"
+    },
+    "pp.org/help/ap": {
+        "text": "https://joplinapp.org/help/apps/sync/webdav nebokrai,sync,webdav,joplin",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11352,8 +11678,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "pp.org/help/ap"},
-"s.org/ nix,nix": {"text": "https://athenaos.org/ nix,nixos,pentesting,os,ideas", "link": "",
+        "id": "pp.org/help/ap"
+    },
+    "s.org/ nix,nix": {
+        "text": "https://athenaos.org/ nix,nixos,pentesting,os,ideas",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11365,8 +11694,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "s.org/ nix,nix"},
-"com/gmkng01/ne": {"text": "https://github.com/gmkng01/newqtile_test dots,qtile", "link": "",
+        "id": "s.org/ nix,nix"
+    },
+    "com/gmkng01/ne": {
+        "text": "https://github.com/gmkng01/newqtile_test dots,qtile",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11378,8 +11710,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/gmkng01/ne"},
-"com/megalinee/": {"text": "https://github.com/megalinee/hyprlandconfig dots,hyprland", "link": "",
+        "id": "com/gmkng01/ne"
+    },
+    "com/megalinee/": {
+        "text": "https://github.com/megalinee/hyprlandconfig dots,hyprland",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11391,8 +11726,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/megalinee/"},
-"com/ysfgrgO7/D": {"text": "https://github.com/ysfgrgO7/Dotfiles dots", "link": "",
+        "id": "com/megalinee/"
+    },
+    "com/ysfgrgO7/D": {
+        "text": "https://github.com/ysfgrgO7/Dotfiles dots",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11404,8 +11742,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/ysfgrgO7/D"},
-"m/ search,subs": {"text": "https://kagi.com/ search,subscription,privacy", "link": "",
+        "id": "com/ysfgrgO7/D"
+    },
+    "m/ search,subs": {
+        "text": "https://kagi.com/ search,subscription,privacy",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11417,8 +11758,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "m/ search,subs"},
-"com/onionware-": {"text": "https://github.com/onionware-github/OnionMedia-X software,gui,download", "link": "",
+        "id": "m/ search,subs"
+    },
+    "com/onionware-": {
+        "text": "https://github.com/onionware-github/OnionMedia-X software,gui,download",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11430,8 +11774,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/onionware-"},
-"com/johnwangwy": {"text": "https://github.com/johnwangwyx/cmdCompass software,gui,help,reference", "link": "",
+        "id": "com/onionware-"
+    },
+    "com/johnwangwy": {
+        "text": "https://github.com/johnwangwyx/cmdCompass software,gui,help,reference",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11443,8 +11790,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/johnwangwy"},
-"com/cheat/chea": {"text": "https://github.com/cheat/cheat #console,software", "link": "",
+        "id": "com/johnwangwy"
+    },
+    "com/cheat/chea": {
+        "text": "https://github.com/cheat/cheat #console,software",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11456,8 +11806,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/cheat/chea"},
-"com/LeonHeidel": {"text": "https://github.com/LeonHeidelbach/trailblazer.nvim #nvim,marks,navigation,motion", "link": "",
+        "id": "com/cheat/chea"
+    },
+    "com/LeonHeidel": {
+        "text": "https://github.com/LeonHeidelbach/trailblazer.nvim #nvim,marks,navigation,motion",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11469,8 +11822,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/LeonHeidel"},
-"com/lotabout/s": {"text": "https://github.com/lotabout/skim console,search,interface,fzf", "link": "",
+        "id": "com/LeonHeidel"
+    },
+    "com/lotabout/s": {
+        "text": "https://github.com/lotabout/skim console,search,interface,fzf",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11482,8 +11838,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/lotabout/s"},
-"tack.io/meet-g": {"text": "https://thenewstack.io/meet-grain-the-high-level-language-optimized-for-webassembly/ proglang,wasm,grain", "link": "",
+        "id": "com/lotabout/s"
+    },
+    "tack.io/meet-g": {
+        "text": "https://thenewstack.io/meet-grain-the-high-level-language-optimized-for-webassembly/ proglang,wasm,grain",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11495,8 +11854,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "tack.io/meet-g"},
-"rs/book/index.": {"text": "https://libgen.rs/book/index.php?md5=BD32537EDBAD3B772230218B05A38C9F #book,freewill,philosophie", "link": "",
+        "id": "tack.io/meet-g"
+    },
+    "rs/book/index.": {
+        "text": "https://libgen.rs/book/index.php?md5=BD32537EDBAD3B772230218B05A38C9F #book,freewill,philosophie",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11508,8 +11870,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "rs/book/index."},
-"ep track of th": {"text": "Daily Dozen (Keep track of the foods that Dr Greger recommends in his book How Not to Die)", "link": "",
+        "id": "rs/book/index."
+    },
+    "ep track of th": {
+        "text": "Daily Dozen (Keep track of the foods that Dr Greger recommends in his book How Not to Die)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11521,8 +11886,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "ep track of th"},
-"DAILYDOZEN": {"text": "    https://f-droid.org/packages/org.nutritionfacts.dailydozen/ nebokrai,tracking,food", "link": "",
+        "id": "ep track of th"
+    },
+    "DAILYDOZEN": {
+        "text": "    https://f-droid.org/packages/org.nutritionfacts.dailydozen/ nebokrai,tracking,food",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11534,8 +11902,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "DAILYDOZEN"},
-"com/bahaaTuffa": {"text": "https://github.com/bahaaTuffaha/Project-ClosetArchive #android,planning,clothes,nebokrai", "link": "",
+        "id": "DAILYDOZEN"
+    },
+    "com/bahaaTuffa": {
+        "text": "https://github.com/bahaaTuffaha/Project-ClosetArchive #android,planning,clothes,nebokrai",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11547,8 +11918,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/bahaaTuffa"},
-"ivity Tracker ": {"text": "AAT Another Activity Tracker (GPS-tracking application for sportive activities, with emphasis on cycling.)", "link": "",
+        "id": "com/bahaaTuffa"
+    },
+    "ivity Tracker ": {
+        "text": "AAT Another Activity Tracker (GPS-tracking application for sportive activities, with emphasis on cycling.)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11560,8 +11934,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "ivity Tracker "},
-"BAILU": {"text": "    https://f-droid.org/packages/ch.bailu.aat/ #android,nebokrai,fitness", "link": "",
+        "id": "ivity Tracker "
+    },
+    "BAILU": {
+        "text": "    https://f-droid.org/packages/ch.bailu.aat/ #android,nebokrai,fitness",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11573,8 +11950,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "BAILU"},
-"ck Your Saving": {"text": "GreenStash: Track Your Savings (Plan, manage, and achieve your savings goals easily)", "link": "",
+        "id": "BAILU"
+    },
+    "ck Your Saving": {
+        "text": "GreenStash: Track Your Savings (Plan, manage, and achieve your savings goals easily)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11586,8 +11966,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "ck Your Saving"},
-"GREENSTASH": {"text": "    https://f-droid.org/packages/com.starry.greenstash/ #nebokrai,finances", "link": "",
+        "id": "ck Your Saving"
+    },
+    "GREENSTASH": {
+        "text": "    https://f-droid.org/packages/com.starry.greenstash/ #nebokrai,finances",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11599,8 +11982,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "GREENSTASH"},
-"FORAGE": {"text": "Forage (A shopping list front-end to your self-hosted Mealie instance.)", "link": "",
+        "id": "GREENSTASH"
+    },
+    "FORAGE": {
+        "text": "Forage (A shopping list front-end to your self-hosted Mealie instance.)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11612,8 +11998,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "FORAGE"},
-"FORAGE2": {"text": "    https://f-droid.org/packages/net.ser1.forage/ #nebokrai,food,shoppinglist", "link": "",
+        "id": "FORAGE"
+    },
+    "FORAGE2": {
+        "text": "    https://f-droid.org/packages/net.ser1.forage/ #nebokrai,food,shoppinglist",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11625,8 +12014,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "FORAGE2"},
-"Track personal": {"text": "Track & Graph (Track personal data and create custom graphs to gain personal insight!)", "link": "",
+        "id": "FORAGE2"
+    },
+    "Track personal": {
+        "text": "Track & Graph (Track personal data and create custom graphs to gain personal insight!)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11638,8 +12030,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "Track personal"},
-"TRACKANDGRAPH": {"text": "    https://f-droid.org/packages/com.samco.trackandgraph/ #nebokrai,tracking", "link": "",
+        "id": "Track personal"
+    },
+    "TRACKANDGRAPH": {
+        "text": "    https://f-droid.org/packages/com.samco.trackandgraph/ #nebokrai,tracking",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11651,8 +12046,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "TRACKANDGRAPH"},
-"BETTERCOUNTER:SDFHFDG": {"text": "BetterCounter (A simple, multi-purpose counter app)", "link": "",
+        "id": "TRACKANDGRAPH"
+    },
+    "BETTERCOUNTER:SDFHFDG": {
+        "text": "BetterCounter (A simple, multi-purpose counter app)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11664,8 +12062,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "BETTERCOUNTER:SDFHFDG"},
-"BETTERCOUNTER": {"text": "    https://f-droid.org/packages/org.kde.bettercounter/ #nebokrai,tracking,fitness", "link": "",
+        "id": "BETTERCOUNTER:SDFHFDG"
+    },
+    "BETTERCOUNTER": {
+        "text": "    https://f-droid.org/packages/org.kde.bettercounter/ #nebokrai,tracking,fitness",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11677,8 +12078,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "BETTERCOUNTER"},
-"SIMPLECOUNTER": {"text": "Simple Counter (Keep track of things)", "link": "",
+        "id": "BETTERCOUNTER"
+    },
+    "SIMPLECOUNTER": {
+        "text": "Simple Counter (Keep track of things)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11690,8 +12094,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "SIMPLECOUNTER"},
-"SIMPLECOUNTER2": {"text": "    https://f-droid.org/packages/org.quicksc0p3r.simplecounter/ nebokrai,tracking", "link": "",
+        "id": "SIMPLECOUNTER"
+    },
+    "SIMPLECOUNTER2": {
+        "text": "    https://f-droid.org/packages/org.quicksc0p3r.simplecounter/ nebokrai,tracking",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11703,8 +12110,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "SIMPLECOUNTER2"},
-"Green Recipe Ap": {"text": "Broccoli: The Green Recipe App (Recipe manager, cooking assistant, seasonal calendar: the eco-friendly cookbook.)", "link": "",
+        "id": "SIMPLECOUNTER2"
+    },
+    "Green Recipe Ap": {
+        "text": "Broccoli: The Green Recipe App (Recipe manager, cooking assistant, seasonal calendar: the eco-friendly cookbook.)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11716,8 +12126,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "reen Recipe Ap"},
-"BROCCOLI": {"text": "    https://f-droid.org/packages/com.flauschcode.broccoli/ #nebokrai,android,food,recipe", "link": "",
+        "id": "reen Recipe Ap"
+    },
+    "BROCCOLI": {
+        "text": "    https://f-droid.org/packages/com.flauschcode.broccoli/ #nebokrai,android,food,recipe",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11729,8 +12142,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": ""},
-"e manager with": {"text": "Tournant (Recipe manager with Gourmand compatibility)", "link": "",
+        "id": ""
+    },
+    "e manager with": {
+        "text": "Tournant (Recipe manager with Gourmand compatibility)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11742,8 +12158,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "e manager with"},
-"": {"text": "    https://f-droid.org/packages/eu.zimbelstern.tournant/ nebokrai,food,android", "link": "",
+        "id": "e manager with"
+    },
+    "": {
+        "text": "    https://f-droid.org/packages/eu.zimbelstern.tournant/ nebokrai,food,android",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11755,8 +12174,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": ""},
-"com/ngrob/blue": {"text": "https://gitlab.com/ngrob/bluemoon-android remark:read_source_code #nebrokai,tracking", "link": "",
+        "id": ""
+    },
+    "com/ngrob/blue": {
+        "text": "https://gitlab.com/ngrob/bluemoon-android remark:read_source_code #nebrokai,tracking",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11768,8 +12190,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/ngrob/blue"},
-"com/Desarrollo": {"text": "https://github.com/DesarrolloAntonio/Shiori-Android-Client nebokrai,bookmarks,notes", "link": "",
+        "id": "com/ngrob/blue"
+    },
+    "com/Desarrollo": {
+        "text": "https://github.com/DesarrolloAntonio/Shiori-Android-Client nebokrai,bookmarks,notes",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11781,8 +12206,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/Desarrollo"},
-"com/go-shiori/": {"text": "https://github.com/go-shiori/shiori nebokrai,bookmarks,notes", "link": "",
+        "id": "com/Desarrollo"
+    },
+    "com/go-shiori/": {
+        "text": "https://github.com/go-shiori/shiori nebokrai,bookmarks,notes",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11794,8 +12222,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/go-shiori/"},
-"com/appml/neut": {"text": "https://github.com/appml/neutrinote #nebokrai,notes,math,latex rating:*****", "link": "",
+        "id": "com/go-shiori/"
+    },
+    "com/appml/neut": {
+        "text": "https://github.com/appml/neutrinote #nebokrai,notes,math,latex rating:*****",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11807,8 +12238,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/appml/neut"},
-" a client app ": {"text": "Immich (This is a client app for the self-hostable Immich Server)", "link": "",
+        "id": "com/appml/neut"
+    },
+    " a client app ": {
+        "text": "Immich (This is a client app for the self-hostable Immich Server)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11820,8 +12254,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": " a client app "},
-"IMMICH": {"text": "    https://f-droid.org/packages/app.alextran.immich/ selfhosted,image", "link": "",
+        "id": " a client app "
+    },
+    "IMMICH": {
+        "text": "    https://f-droid.org/packages/app.alextran.immich/ selfhosted,image",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11833,8 +12270,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "IMMICH"},
-"s app built fo": {"text": "Saber (The notes app built for handwriting)", "link": "",
+        "id": "IMMICH"
+    },
+    "s app built fo": {
+        "text": "Saber (The notes app built for handwriting)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11846,8 +12286,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "s app built fo"},
-"SABER": {"text": "    https://f-droid.org/packages/com.adilhanney.saber/ android,notes,handwriting", "link": "",
+        "id": "s app built fo"
+    },
+    "SABER": {
+        "text": "    https://f-droid.org/packages/com.adilhanney.saber/ android,notes,handwriting",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11859,8 +12302,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "SABER"},
-" OTP Helper (a": {"text": "Copy SMS Code - OTP Helper (an open-source app that can detect and copy any code for you)", "link": "",
+        "id": "SABER"
+    },
+    " OTP Helper (a": {
+        "text": "Copy SMS Code - OTP Helper (an open-source app that can detect and copy any code for you)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11872,8 +12318,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": " OTP Helper (a"},
-"OTPHELPER": {"text": "    https://f-droid.org/packages/io.github.jd1378.otphelper/ android,app,copypaste", "link": "",
+        "id": " OTP Helper (a"
+    },
+    "OTPHELPER": {
+        "text": "    https://f-droid.org/packages/io.github.jd1378.otphelper/ android,app,copypaste",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11885,8 +12334,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "OTPHELPER"},
-"w, edit and sy": {"text": "ImapNotes3 (View, edit and synchronize HTML notes and check lists on your IMAP mailboxes)", "link": "",
+        "id": "OTPHELPER"
+    },
+    "w, edit and sy": {
+        "text": "ImapNotes3 (View, edit and synchronize HTML notes and check lists on your IMAP mailboxes)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11898,8 +12350,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "w, edit and sy"},
-"IMAPNOTES3": {"text": "    https://f-droid.org/packages/de.niendo.ImapNotes3/ #nebokrai,imap,connection,sync,notes", "link": "",
+        "id": "w, edit and sy"
+    },
+    "IMAPNOTES3": {
+        "text": "    https://f-droid.org/packages/de.niendo.ImapNotes3/ #nebokrai,imap,connection,sync,notes",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11911,8 +12366,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "IMAPNOTES3"},
-".org/ #proglan": {"text": "https://jsonnet.org/ #proglang,config,json", "link": "",
+        "id": "IMAPNOTES3"
+    },
+    ".org/ #proglan": {
+        "text": "https://jsonnet.org/ #proglang,config,json",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11924,8 +12382,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": ".org/ #proglan"},
-"com/lj3954/qui": {"text": "https://github.com/lj3954/quickemu-rs #software,emulation,lowlevel", "link": "",
+        "id": ".org/ #proglan"
+    },
+    "com/lj3954/qui": {
+        "text": "https://github.com/lj3954/quickemu-rs #software,emulation,lowlevel",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11937,8 +12398,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/lj3954/qui"},
-"com/harsh-m-pa": {"text": "https://github.com/harsh-m-patil/.dotfiles #dots", "link": "",
+        "id": "com/lj3954/qui"
+    },
+    "com/harsh-m-pa": {
+        "text": "https://github.com/harsh-m-patil/.dotfiles #dots",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11950,8 +12414,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/harsh-m-pa"},
-"com/CapnDanger": {"text": "https://github.com/CapnDangerPants/archdots #dots,suckless", "link": "",
+        "id": "com/harsh-m-pa"
+    },
+    "com/CapnDanger": {
+        "text": "https://github.com/CapnDangerPants/archdots #dots,suckless",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11963,8 +12430,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/CapnDanger"},
-" to add a star": {"text": "#thought I need to add a startup wrapper script for each termulator to set the TERMINAL_NAME envvar -> important for image protocol commands, mpl, ipython, etc", "link": "",
+        "id": "com/CapnDanger"
+    },
+    " to add a star": {
+        "text": "#thought I need to add a startup wrapper script for each termulator to set the TERMINAL_NAME envvar -> important for image protocol commands, mpl, ipython, etc",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11976,8 +12446,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": " to add a star"},
-"com/itsjunetim": {"text": "https://github.com/itsjunetime/tdf #software,console,pdf", "link": "",
+        "id": " to add a star"
+    },
+    "com/itsjunetim": {
+        "text": "https://github.com/itsjunetime/tdf #software,console,pdf",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -11989,8 +12462,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/itsjunetim"},
-"d.space/pub/rc": {"text": "https://git.mccd.space/pub/rcm/ #dots", "link": "",
+        "id": "com/itsjunetim"
+    },
+    "d.space/pub/rc": {
+        "text": "https://git.mccd.space/pub/rcm/ #dots",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12002,8 +12478,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "d.space/pub/rc"},
-"d.space/pub/st": {"text": "https://git.mccd.space/pub/stitch/about/ #software,notes,2ndbrain rating:*******", "link": "",
+        "id": "d.space/pub/rc"
+    },
+    "d.space/pub/st": {
+        "text": "https://git.mccd.space/pub/stitch/about/ #software,notes,2ndbrain rating:*******",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12015,8 +12494,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "d.space/pub/st"},
-"com/IamPyu/ndo": {"text": "https://gitlab.com/IamPyu/ndots #dots", "link": "",
+        "id": "d.space/pub/st"
+    },
+    "com/IamPyu/ndo": {
+        "text": "https://gitlab.com/IamPyu/ndots #dots",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12028,8 +12510,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/IamPyu/ndo"},
-"com/troutcobbl": {"text": "https://github.com/troutcobbler/goober #software,desktop", "link": "",
+        "id": "com/IamPyu/ndo"
+    },
+    "com/troutcobbl": {
+        "text": "https://github.com/troutcobbler/goober #software,desktop",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12041,8 +12526,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/troutcobbl"},
-"com/Sheebeehs/": {"text": "https://github.com/Sheebeehs/dotfiles #dots", "link": "",
+        "id": "com/troutcobbl"
+    },
+    "com/Sheebeehs/": {
+        "text": "https://github.com/Sheebeehs/dotfiles #dots",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12054,8 +12542,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/Sheebeehs/"},
-"com/Rustnot/Te": {"text": "https://github.com/Rustnot/Tetrisfetch #fetch,software", "link": "",
+        "id": "com/Sheebeehs/"
+    },
+    "com/Rustnot/Te": {
+        "text": "https://github.com/Rustnot/Tetrisfetch #fetch,software",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12067,8 +12558,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/Rustnot/Te"},
-"com/water-suck": {"text": "https://github.com/water-sucks/nixos #nix,cli,qol", "link": "",
+        "id": "com/Rustnot/Te"
+    },
+    "com/water-suck": {
+        "text": "https://github.com/water-sucks/nixos #nix,cli,qol",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12080,8 +12574,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/water-suck"},
-"com/SamuelBany": {"text": "https://github.com/SamuelBanya/morrowind-theme?tab=readme-ov-file #colorscheme,green,dark", "link": "",
+        "id": "com/water-suck"
+    },
+    "com/SamuelBany": {
+        "text": "https://github.com/SamuelBanya/morrowind-theme?tab=readme-ov-file #colorscheme,green,dark",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12093,8 +12590,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/SamuelBany"},
-"ly (Powerful, ": {"text": "Linwood Butterfly (Powerful, minimalistic, cross-platform, opensource note-taking app)", "link": "",
+        "id": "com/SamuelBany"
+    },
+    "ly (Powerful, ": {
+        "text": "Linwood Butterfly (Powerful, minimalistic, cross-platform, opensource note-taking app)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12106,8 +12606,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "ly (Powerful, "},
-"BUTTERFLY": {"text": "    https://f-droid.org/packages/dev.linwood.butterfly/ #android,app,notes,stylus", "link": "",
+        "id": "ly (Powerful, "
+    },
+    "BUTTERFLY": {
+        "text": "    https://f-droid.org/packages/dev.linwood.butterfly/ #android,app,notes,stylus",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12119,8 +12622,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "BUTTERFLY"},
-"featured email": {"text": "K-9 Mail (Full-featured email client)", "link": "",
+        "id": "BUTTERFLY"
+    },
+    "featured email": {
+        "text": "K-9 Mail (Full-featured email client)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12132,8 +12638,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "featured email"},
-"K9": {"text": "    https://f-droid.org/packages/com.fsck.k9/ #android,app,email", "link": "",
+        "id": "featured email"
+    },
+    "K9": {
+        "text": "    https://f-droid.org/packages/com.fsck.k9/ #android,app,email",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12145,8 +12654,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "K9"},
-"PODCINI": {"text": "https://github.com/XilinJia/Podcini #app,android,podcast", "link": "",
+        "id": "K9"
+    },
+    "PODCINI": {
+        "text": "https://github.com/XilinJia/Podcini #app,android,podcast",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12158,8 +12670,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "PODCINI"},
-"re and organiz": {"text": "Movie DB (Explore and organize your personal collection of movies and tv shows)", "link": "",
+        "id": "PODCINI"
+    },
+    "re and organiz": {
+        "text": "Movie DB (Explore and organize your personal collection of movies and tv shows)",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12171,8 +12686,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "re and organiz"},
-"ANDROIDMOVIEDB": {"text": "    https://f-droid.org/packages/com.wirelessalien.android.moviedb/ #app,phone,media", "link": "",
+        "id": "re and organiz"
+    },
+    "ANDROIDMOVIEDB": {
+        "text": "    https://f-droid.org/packages/com.wirelessalien.android.moviedb/ #app,phone,media",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12184,8 +12702,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "ANDROIDMOVIEDB"},
-"com/vicolo-dev": {"text": "https://github.com/vicolo-dev/chrono #app,phone,time,clock", "link": "",
+        "id": "ANDROIDMOVIEDB"
+    },
+    "com/vicolo-dev": {
+        "text": "https://github.com/vicolo-dev/chrono #app,phone,time,clock",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12197,8 +12718,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/vicolo-dev"},
-"com/streetwrit": {"text": "https://github.com/streetwriters/notesnook #nebokrai,notes", "link": "",
+        "id": "com/vicolo-dev"
+    },
+    "com/streetwrit": {
+        "text": "https://github.com/streetwriters/notesnook #nebokrai,notes",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12210,8 +12734,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/streetwrit"},
-"com/bitfireAT/": {"text": "https://github.com/bitfireAT/davx5-ose #nebokrai,sync,dav rating:******", "link": "",
+        "id": "com/streetwrit"
+    },
+    "com/bitfireAT/": {
+        "text": "https://github.com/bitfireAT/davx5-ose #nebokrai,sync,dav rating:******",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12223,8 +12750,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/bitfireAT/"},
-"jderochervlk/r": {"text": "https://dev.to/jderochervlk/rescript-has-come-a-long-way-maybe-its-time-to-switch-from-typescript-29he #proglang", "link": "",
+        "id": "com/bitfireAT/"
+    },
+    "jderochervlk/r": {
+        "text": "https://dev.to/jderochervlk/rescript-has-come-a-long-way-maybe-its-time-to-switch-from-typescript-29he #proglang",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12236,8 +12766,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "jderochervlk/r"},
-"dit.com/r/hask": {"text": "https://www.reddit.com/r/haskell/comments/9t7jmp/haskell_worse_than_go_ocaml_yes_this_is_a/ #proglang,comparison", "link": "",
+        "id": "jderochervlk/r"
+    },
+    "dit.com/r/hask": {
+        "text": "https://www.reddit.com/r/haskell/comments/9t7jmp/haskell_worse_than_go_ocaml_yes_this_is_a/ #proglang,comparison",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12249,8 +12782,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "dit.com/r/hask"},
-"com/empirical-": {"text": "https://danluu.com/empirical-pl/ #proglang,comparison", "link": "",
+        "id": "dit.com/r/hask"
+    },
+    "com/empirical-": {
+        "text": "https://danluu.com/empirical-pl/ #proglang,comparison",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12262,8 +12798,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/empirical-"},
-"a/2019/04/29/c": {"text": "https://thume.ca/2019/04/29/comparing-compilers-in-rust-haskell-c-and-python/", "link": "",
+        "id": "com/empirical-"
+    },
+    "a/2019/04/29/c": {
+        "text": "https://thume.ca/2019/04/29/comparing-compilers-in-rust-haskell-c-and-python/",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12275,8 +12814,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "a/2019/04/29/c"},
-"are.io/stackup": {"text": "https://stackshare.io/stackups/make-vs-rake #software", "link": "",
+        "id": "a/2019/04/29/c"
+    },
+    "are.io/stackup": {
+        "text": "https://stackshare.io/stackups/make-vs-rake #software",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12288,8 +12830,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "are.io/stackup"},
-"netto.dev/en/p": {"text": "https://eltonminetto.dev/en/post/2024-05-26-alternatives-make/ #software,task,build", "link": "",
+        "id": "are.io/stackup"
+    },
+    "netto.dev/en/p": {
+        "text": "https://eltonminetto.dev/en/post/2024-05-26-alternatives-make/ #software,task,build",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12301,8 +12846,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "netto.dev/en/p"},
-"ox.io/python-o": {"text": "https://objectbox.io/python-on-device-vector-and-object-database-for-local-ai/ #python,ai,software", "link": "",
+        "id": "netto.dev/en/p"
+    },
+    "ox.io/python-o": {
+        "text": "https://objectbox.io/python-on-device-vector-and-object-database-for-local-ai/ #python,ai,software",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12314,8 +12862,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "ox.io/python-o"},
-"be.com/@kitlan": {"text": "https://m.youtube.com/@kitlangton #channel", "link": "",
+        "id": "ox.io/python-o"
+    },
+    "be.com/@kitlan": {
+        "text": "https://m.youtube.com/@kitlangton #channel",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12327,8 +12878,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "be.com/@kitlan"},
-"art.github.io/": {"text": "https://siriusmart.github.io/youtube-tui/ #software,video,youtube", "link": "",
+        "id": "be.com/@kitlan"
+    },
+    "art.github.io/": {
+        "text": "https://siriusmart.github.io/youtube-tui/ #software,video,youtube",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12340,8 +12894,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "art.github.io/"},
-"com/SomewhatAw": {"text": "https://github.com/SomewhatAwake/dotfiles #dots", "link": "",
+        "id": "art.github.io/"
+    },
+    "com/SomewhatAw": {
+        "text": "https://github.com/SomewhatAwake/dotfiles #dots",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12353,8 +12910,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/SomewhatAw"},
-"om/about tags:": {"text": "https://aphyr.com/about tags:perso", "link": "",
+        "id": "com/SomewhatAw"
+    },
+    "om/about tags:": {
+        "text": "https://aphyr.com/about tags:perso",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12366,8 +12926,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "om/about tags:"},
-"om/posts/342-t": {"text": "https://aphyr.com/posts/342-typing-the-technical-interview haskell,fun", "link": "",
+        "id": "om/about tags:"
+    },
+    "om/posts/342-t": {
+        "text": "https://aphyr.com/posts/342-typing-the-technical-interview haskell,fun",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12379,8 +12942,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "om/posts/342-t"},
-"ktechpost.com/": {"text": "https://www.marktechpost.com/2024/05/27/cognita-an-open-source-framework-for-building-modular-rag-applications/", "link": "",
+        "id": "om/posts/342-t"
+    },
+    "ktechpost.com/": {
+        "text": "https://www.marktechpost.com/2024/05/27/cognita-an-open-source-framework-for-building-modular-rag-applications/",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12392,9 +12958,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "ktechpost.com/"},
-
-"cuis": {"text": "https://cuis.st/", "link": "",
+        "id": "ktechpost.com/"
+    },
+    "cuis": {
+        "text": "https://cuis.st/",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12406,9 +12974,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "cuis"},
-    
-"sein_digital/w": {"text": "https://dev.to/sein_digital/why-you-should-self-host-everything-2f31", "link": "",
+        "id": "cuis"
+    },
+    "sein_digital/w": {
+        "text": "https://dev.to/sein_digital/why-you-should-self-host-everything-2f31",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12420,8 +12990,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "sein_digital/w"},
-"com/command-z-": {"text": "https://github.com/command-z-z/Arch-dotfiles", "link": "",
+        "id": "sein_digital/w"
+    },
+    "com/command-z-": {
+        "text": "https://github.com/command-z-z/Arch-dotfiles",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12433,8 +13006,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/command-z-"},
-"ckar.social/@a": {"text": "https://rheinneckar.social/@ammoniumperchlorate :person", "link": "",
+        "id": "com/command-z-"
+    },
+    "ckar.social/@a": {
+        "text": "https://rheinneckar.social/@ammoniumperchlorate :person",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12446,8 +13022,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "ckar.social/@a"},
-"FREENAS": {"text": "https://www.truenas.com/freenas/", "link": "",
+        "id": "ckar.social/@a"
+    },
+    "FREENAS": {
+        "text": "https://www.truenas.com/freenas/",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12459,8 +13038,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "FREENAS"},
-"UNRAID": {"text": "https://en.wikipedia.org/wiki/Unraid?wprov=sfla1", "link": "",
+        "id": "FREENAS"
+    },
+    "UNRAID": {
+        "text": "https://en.wikipedia.org/wiki/Unraid?wprov=sfla1",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12472,8 +13054,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "UNRAID"},
-"OPENZFS": {"text": "https://en.wikipedia.org/wiki/OpenZFS?wprov=sfla1", "link": "",
+        "id": "UNRAID"
+    },
+    "OPENZFS": {
+        "text": "https://en.wikipedia.org/wiki/OpenZFS?wprov=sfla1",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12485,8 +13070,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "OPENZFS"},
-"ra.com/Why-is-": {"text": "https://www.quora.com/Why-is-it-a-bad-idea-to-make-a-desktop-PC-a-public-facing-server-at-home", "link": "",
+        "id": "OPENZFS"
+    },
+    "ra.com/Why-is-": {
+        "text": "https://www.quora.com/Why-is-it-a-bad-idea-to-make-a-desktop-PC-a-public-facing-server-at-home",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12498,8 +13086,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "ra.com/Why-is-"},
-"dit.com/r/unix": {"text": "https://www.reddit.com/r/unixporn/s/tlLfkoMhdV", "link": "",
+        "id": "ra.com/Why-is-"
+    },
+    "dit.com/r/unix": {
+        "text": "https://www.reddit.com/r/unixporn/s/tlLfkoMhdV",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12511,8 +13102,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "dit.com/r/unix"},
-"com/Manas2325/": {"text": "https://github.com/Manas2325/Hyprland tags:dots,hyprland", "link": "",
+        "id": "dit.com/r/unix"
+    },
+    "com/Manas2325/": {
+        "text": "https://github.com/Manas2325/Hyprland tags:dots,hyprland",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12524,8 +13118,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/Manas2325/"},
-"com/T0kyoB0y/P": {"text": "https://github.com/T0kyoB0y/PotatoWidgets", "link": "",
+        "id": "com/Manas2325/"
+    },
+    "com/T0kyoB0y/P": {
+        "text": "https://github.com/T0kyoB0y/PotatoWidgets",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12537,8 +13134,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/T0kyoB0y/P"},
-"com/boxdot/gur": {"text": "https://github.com/boxdot/gurk-rs", "link": "",
+        "id": "com/T0kyoB0y/P"
+    },
+    "com/boxdot/gur": {
+        "text": "https://github.com/boxdot/gurk-rs",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12550,8 +13150,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/boxdot/gur"},
-"com/ARKye03/Hy": {"text": "https://github.com/ARKye03/HyprDots", "link": "",
+        "id": "com/boxdot/gur"
+    },
+    "com/ARKye03/Hy": {
+        "text": "https://github.com/ARKye03/HyprDots",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12563,8 +13166,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "com/ARKye03/Hy"},
-"tti.me/parsing": {"text": "https://tomassetti.me/parsing-in-python/", "link": "",
+        "id": "com/ARKye03/Hy"
+    },
+    "tti.me/parsing": {
+        "text": "https://tomassetti.me/parsing-in-python/",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12576,11 +13182,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "tti.me/parsing"},
-    
-    
-    
-"cript: (functi": {"text": "Columnate javascript: (function () {function Columnate(){var LoadStylesheet=function(url){var c=document.createElement(%22link%22);c.rel=%22stylesheet%22,c.type=%22text/css%22,c.media=%22all%22,c.href=url,document.getElementsByTagName(%22head%22)[0].appendChild(c)},MakeReadable=function(){var doclone=document.cloneNode(!0),article=new Readability(doclone).parse(),htmltag=document.getElementsByTagName(%22html%22)[0];htmltag.removeAttribute(%22class%22),htmltag.removeAttribute(%22style%22),document.head.innerHTML=%22%22,LoadStylesheet(%22//anoved.github.io/Columnate/columnate.css%22),LoadStylesheet(%22//anoved.github.io/Columnate/appearance.css%22),document.title=article.title,document.body.removeAttribute(%22class%22),document.body.removeAttribute(%22style%22),document.body.innerHTML=%22<h1>%22+article.title+%22</h1>%22+article.content};cmjs=document.createElement(%22script%22),cmjs.type=%22text/javascript%22,cmjs.src=%22//anoved.github.io/Columnate/readability/Readability.js%22,cmjs.onreadystatechange=MakeReadable,cmjs.onload=MakeReadable,document.getElementsByTagName(%22head%22)[0].appendChild(cmjs)}Columnate();}())", "link": "",
+        "id": "tti.me/parsing"
+    },
+    "cript: (functi": {
+        "text": "Columnate javascript: (function () {function Columnate(){var LoadStylesheet=function(url){var c=document.createElement(%22link%22);c.rel=%22stylesheet%22,c.type=%22text/css%22,c.media=%22all%22,c.href=url,document.getElementsByTagName(%22head%22)[0].appendChild(c)},MakeReadable=function(){var doclone=document.cloneNode(!0),article=new Readability(doclone).parse(),htmltag=document.getElementsByTagName(%22html%22)[0];htmltag.removeAttribute(%22class%22),htmltag.removeAttribute(%22style%22),document.head.innerHTML=%22%22,LoadStylesheet(%22//anoved.github.io/Columnate/columnate.css%22),LoadStylesheet(%22//anoved.github.io/Columnate/appearance.css%22),document.title=article.title,document.body.removeAttribute(%22class%22),document.body.removeAttribute(%22style%22),document.body.innerHTML=%22<h1>%22+article.title+%22</h1>%22+article.content};cmjs=document.createElement(%22script%22),cmjs.type=%22text/javascript%22,cmjs.src=%22//anoved.github.io/Columnate/readability/Readability.js%22,cmjs.onreadystatechange=MakeReadable,cmjs.onload=MakeReadable,document.getElementsByTagName(%22head%22)[0].appendChild(cmjs)}Columnate();}())",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12592,8 +13198,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "cript: (functi"},
-"ne Who Sees - ": {"text": "Hagar and the One Who Sees - Arabic Short Film - YouTube https://www.youtube.com/watch?v=0Mio8vP4jNY", "link": "",
+        "id": "cript: (functi"
+    },
+    "ne Who Sees - ": {
+        "text": "Hagar and the One Who Sees - Arabic Short Film - YouTube https://www.youtube.com/watch?v=0Mio8vP4jNY",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12605,8 +13214,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "ne Who Sees - "},
-"SMN:JP": {"text": "A Brief Look at Jordan Peterson - SOME MORE NEWS - YouTube https://www.youtube.com/watch?v=hSNWkRw53Jo", "link": "",
+        "id": "ne Who Sees - "
+    },
+    "SMN:JP": {
+        "text": "A Brief Look at Jordan Peterson - SOME MORE NEWS - YouTube https://www.youtube.com/watch?v=hSNWkRw53Jo",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12618,8 +13230,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": " Jordan Peters"},
-"MUNECAT:EP": {"text": "I Debunked Evolutionary Psychology - YouTube https://www.youtube.com/watch?v=31e0RcImReY", "link": "",
+        "id": " Jordan Peters"
+    },
+    "MUNECAT:EP": {
+        "text": "I Debunked Evolutionary Psychology - YouTube https://www.youtube.com/watch?v=31e0RcImReY",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12631,9 +13246,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "utionary Psych"},
-    
-"n/grammar.md a": {"text": "js-play/Markdown/grammar.md at master · jbranchaud/js-play https://github.com/jbranchaud/js-play/blob/master/Markdown/grammar.md", "link": "",
+        "id": "utionary Psych"
+    },
+    "n/grammar.md a": {
+        "text": "js-play/Markdown/grammar.md at master · jbranchaud/js-play https://github.com/jbranchaud/js-play/blob/master/Markdown/grammar.md",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12645,8 +13262,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "n/grammar.md a"},
-"EBNFNOTES": {"text": "ebnf2.pdf https://ics.uci.edu/~pattis/misc/ebnf2.pdf", "link": "",
+        "id": "n/grammar.md a"
+    },
+    "EBNFNOTES": {
+        "text": "ebnf2.pdf https://ics.uci.edu/~pattis/misc/ebnf2.pdf",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12658,8 +13278,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "EBNFNOTES"},
-"PATTIS": {"text": "Richard Pattis Home Page https://ics.uci.edu/~pattis/", "link": "",
+        "id": "EBNFNOTES"
+    },
+    "PATTIS": {
+        "text": "Richard Pattis Home Page https://ics.uci.edu/~pattis/",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12671,8 +13294,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "PATTIS"},
-"TEACHLEARNGIF": {"text": "teachlearn.gif (GIF Image, 451 × 321 pixels) https://ics.uci.edu/~pattis/images/teachlearn.gif", "link": "",
+        "id": "PATTIS"
+    },
+    "TEACHLEARNGIF": {
+        "text": "teachlearn.gif (GIF Image, 451 × 321 pixels) https://ics.uci.edu/~pattis/images/teachlearn.gif",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12684,8 +13310,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "TEACHLEARNGIF"},
-"pg (JPEG Image": {"text": "favoritegraph.jpg (JPEG Image, 2381 × 3151 pixels) — Scaled (28%) https://ics.uci.edu/~pattis/images/favoritegraph.jpg", "link": "",
+        "id": "TEACHLEARNGIF"
+    },
+    "pg (JPEG Image": {
+        "text": "favoritegraph.jpg (JPEG Image, 2381 × 3151 pixels) — Scaled (28%) https://ics.uci.edu/~pattis/images/favoritegraph.jpg",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12697,9 +13326,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "pg (JPEG Image"},
-    
-"y unavoidable ": {"text": "elythh/flake: my unavoidable system configuration https://github.com/elythh/flake", "link": "",
+        "id": "pg (JPEG Image"
+    },
+    "y unavoidable ": {
+        "text": "elythh/flake: my unavoidable system configuration https://github.com/elythh/flake",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12711,8 +13342,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "y unavoidable "},
-"NVIM:NIXVIM": {"text": "elythh/nixvim: ❄️ my neovim config using nixvim https://github.com/elythh/nixvim", "link": "",
+        "id": "y unavoidable "
+    },
+    "NVIM:NIXVIM": {
+        "text": "elythh/nixvim: ❄️ my neovim config using nixvim https://github.com/elythh/nixvim",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12724,8 +13358,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "NVIM:NIXVIM"},
-"ComfyUI: The m": {"text": "comfyanonymous/ComfyUI: The most powerful and modular stable diffusion GUI, api and backend with a graph/nodes interface. https://github.com/comfyanonymous/ComfyUI", "link": "",
+        "id": "NVIM:NIXVIM"
+    },
+    "ComfyUI: The m": {
+        "text": "comfyanonymous/ComfyUI: The most powerful and modular stable diffusion GUI, api and backend with a graph/nodes interface. https://github.com/comfyanonymous/ComfyUI",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12737,8 +13374,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "ComfyUI: The m"},
-"WEALTH:ETHICS": {"text": "CMV: It is highly immoral to accumulate and spend more wealth than you can consume instead of spending it on the disadvantaged : r/changemyview https://www.reddit.com/r/changemyview/comments/8hxno9/cmv_it_is_highly_immoral_to_accumulate_and_spend/", "link": "",
+        "id": "ComfyUI: The m"
+    },
+    "WEALTH:ETHICS": {
+        "text": "CMV: It is highly immoral to accumulate and spend more wealth than you can consume instead of spending it on the disadvantaged : r/changemyview https://www.reddit.com/r/changemyview/comments/8hxno9/cmv_it_is_highly_immoral_to_accumulate_and_spend/",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12750,8 +13390,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "WEALTH:ETHICS"},
-"xt(Gen) OS - R": {"text": "Redox - Your Next(Gen) OS - Redox - Your Next(Gen) OS https://www.redox-os.org/", "link": "",
+        "id": "WEALTH:ETHICS"
+    },
+    "xt(Gen) OS - R": {
+        "text": "Redox - Your Next(Gen) OS - Redox - Your Next(Gen) OS https://www.redox-os.org/",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12763,8 +13406,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "xt(Gen) OS - R"},
-"s: Writing an ": {"text": "phil-opp/blog_os: Writing an OS in Rust https://github.com/phil-opp/blog_os", "link": "",
+        "id": "xt(Gen) OS - R"
+    },
+    "s: Writing an ": {
+        "text": "phil-opp/blog_os: Writing an OS in Rust https://github.com/phil-opp/blog_os",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12776,8 +13422,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "s: Writing an "},
-"OSINRUST": {"text": "Writing an OS in Rust https://os.phil-opp.com/", "link": "",
+        "id": "s: Writing an "
+    },
+    "OSINRUST": {
+        "text": "Writing an OS in Rust https://os.phil-opp.com/",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12789,8 +13438,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "OSINRUST"},
-"PYRUSTMLOPS": {"text": "🤝 Python, Rust, MLOps, and Ethics - A Balanced Perspective PyCon Dubai - YouTube https://www.youtube.com/watch?v=NqgMM6fRNSs", "link": "",
+        "id": "OSINRUST"
+    },
+    "PYRUSTMLOPS": {
+        "text": "🤝 Python, Rust, MLOps, and Ethics - A Balanced Perspective PyCon Dubai - YouTube https://www.youtube.com/watch?v=NqgMM6fRNSs",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12802,8 +13454,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "PYRUSTMLOPS"},
-": Spring 2024 ": {"text": "6.5840 Schedule: Spring 2024 https://pdos.csail.mit.edu/6.824/schedule.html", "link": "",
+        "id": "PYRUSTMLOPS"
+    },
+    ": Spring 2024 ": {
+        "text": "6.5840 Schedule: Spring 2024 https://pdos.csail.mit.edu/6.824/schedule.html",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12815,8 +13470,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": ": Spring 2024 "},
-"NETWORK:GO": {"text": "Library Genesis: Adam Woodbeck - Network Programming with Go: Learn to Code Secure and Reliable Network Services from Scratch http://libgen.rs/book/index.php?md5=C90E0E38864F41B8C282FACD9DBB05D3", "link": "",
+        "id": ": Spring 2024 "
+    },
+    "NETWORK:GO": {
+        "text": "Library Genesis: Adam Woodbeck - Network Programming with Go: Learn to Code Secure and Reliable Network Services from Scratch http://libgen.rs/book/index.php?md5=C90E0E38864F41B8C282FACD9DBB05D3",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12828,8 +13486,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "NETWORK:GO"},
-": Ronald Petty": {"text": "Library Genesis: Ronald Petty and Jan Newmarch - Network Programming with Go Language http://libgen.rs/book/index.php?md5=1201770C08778A112C8E80E29F2A0AFC", "link": "",
+        "id": "NETWORK:GO"
+    },
+    ": Ronald Petty": {
+        "text": "Library Genesis: Ronald Petty and Jan Newmarch - Network Programming with Go Language http://libgen.rs/book/index.php?md5=1201770C08778A112C8E80E29F2A0AFC",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12841,8 +13502,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": ": Ronald Petty"},
-" of the canoni": {"text": "Is there a list of the canonical introductory textbooks covering the major branches of computer science? : r/compsci https://www.reddit.com/r/compsci/comments/gprp0/is_there_a_list_of_the_canonical_introductory/", "link": "",
+        "id": ": Ronald Petty"
+    },
+    " of the canoni": {
+        "text": "Is there a list of the canonical introductory textbooks covering the major branches of computer science? : r/compsci https://www.reddit.com/r/compsci/comments/gprp0/is_there_a_list_of_the_canonical_introductory/",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12854,8 +13518,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": " of the canoni"},
-"Brml - Home Pa": {"text": "David Barber : Brml - Home Page browse http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.HomePage", "link": "",
+        "id": " of the canoni"
+    },
+    "Brml - Home Pa": {
+        "text": "David Barber : Brml - Home Page browse http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.HomePage",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12867,8 +13534,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "Brml - Home Pa"},
-"NETWORKBEEJ": {"text": "Beej's Guide to Network Programming https://beej.us/guide/bgnet/html/split/", "link": "",
+        "id": "Brml - Home Pa"
+    },
+    "NETWORKBEEJ": {
+        "text": "Beej's Guide to Network Programming https://beej.us/guide/bgnet/html/split/",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12880,8 +13550,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "NETWORKBEEJ"},
-"SMARTQUESTIONS": {"text": "How To Ask Questions The Smart Way http://www.catb.org/~esr/faqs/smart-questions.html", "link": "",
+        "id": "NETWORKBEEJ"
+    },
+    "SMARTQUESTIONS": {
+        "text": "How To Ask Questions The Smart Way http://www.catb.org/~esr/faqs/smart-questions.html",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12893,8 +13566,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "SMARTQUESTIONS"},
-"NETWORKBEEJ2": {"text": "Beej's Guide to Network Programming https://beej.us/guide/bgnet/html/split/index.html", "link": "",
+        "id": "SMARTQUESTIONS"
+    },
+    "NETWORKBEEJ2": {
+        "text": "Beej's Guide to Network Programming https://beej.us/guide/bgnet/html/split/index.html",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12906,8 +13582,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "NETWORKBEEJ2"},
-"BEEJ": {"text": "Beej's Web Page https://beej.us/", "link": "",
+        "id": "NETWORKBEEJ2"
+    },
+    "BEEJ": {
+        "text": "Beej's Web Page https://beej.us/",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12919,8 +13598,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "BEEJ"},
-"opt Abseil? ht": {"text": "abseil / Why Adopt Abseil? https://abseil.io/about/philosophy#upgrade-support", "link": "",
+        "id": "BEEJ"
+    },
+    "opt Abseil? ht": {
+        "text": "abseil / Why Adopt Abseil? https://abseil.io/about/philosophy#upgrade-support",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12932,8 +13614,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "opt Abseil? ht"},
-"ANSIESCAPE": {"text": "fidian/ansi: ANSI escape codes in pure bash - change text color, position the cursor, much more https://github.com/fidian/ansi", "link": "",
+        "id": "opt Abseil? ht"
+    },
+    "ANSIESCAPE": {
+        "text": "fidian/ansi: ANSI escape codes in pure bash - change text color, position the cursor, much more https://github.com/fidian/ansi",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12945,8 +13630,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "ANSIESCAPE"},
-"a parte de EUR": {"text": "¿Por qué en esta parte de EUROPA están algunos de los países más CORRUPTOS del mundo? https://www.youtube.com/watch?v=qqumnQ1bGMA", "link": "",
+        "id": "ANSIESCAPE"
+    },
+    "a parte de EUR": {
+        "text": "¿Por qué en esta parte de EUROPA están algunos de los países más CORRUPTOS del mundo? https://www.youtube.com/watch?v=qqumnQ1bGMA",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12958,8 +13646,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "a parte de EUR"},
-"In Python - DE": {"text": "Creating a DSL In Python - DEV Community https://dev.to/fractalis/creating-a-dsl-in-python-dj6", "link": "",
+        "id": "a parte de EUR"
+    },
+    "In Python - DE": {
+        "text": "Creating a DSL In Python - DEV Community https://dev.to/fractalis/creating-a-dsl-in-python-dj6",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12971,8 +13662,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "In Python - DE"},
-"op-images: A t": {"text": "NatLee/Batch-crop-images: A tool for cropping similar images in a batch with an interface. https://github.com/NatLee/Batch-crop-images", "link": "",
+        "id": "In Python - DE"
+    },
+    "op-images: A t": {
+        "text": "NatLee/Batch-crop-images: A tool for cropping similar images in a batch with an interface. https://github.com/NatLee/Batch-crop-images",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12984,8 +13678,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "op-images: A t"},
-"e_messenger: N": {"text": "tridactyl/native_messenger: Native messenger for Tridactyl, a vim-like web-extension. https://github.com/tridactyl/native_messenger", "link": "",
+        "id": "op-images: A t"
+    },
+    "e_messenger: N": {
+        "text": "tridactyl/native_messenger: Native messenger for Tridactyl, a vim-like web-extension. https://github.com/tridactyl/native_messenger",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -12997,8 +13694,11 @@
             "language": ""
         },
         "sorter": "",
-        "id": "e_messenger: N"},
-"ctyl: A Vim-li": {"text": "tridactyl/tridactyl: A Vim-like interface for Firefox, inspired by Vimperator/Pentadactyl.  https://github.com/tridactyl/tridactyl", "link": "",
+        "id": "e_messenger: N"
+    },
+    "ctyl: A Vim-li": {
+        "text": "tridactyl/tridactyl: A Vim-like interface for Firefox, inspired by Vimperator/Pentadactyl.  https://github.com/tridactyl/tridactyl",
+        "link": "",
         "type": "",
         "subtype": "",
         "tags": [],
@@ -13010,6 +13710,6 @@
             "language": ""
         },
         "sorter": "",
-        "id": "ctyl: A Vim-li"}
-    
+        "id": "ctyl: A Vim-li"
+    }
 }
