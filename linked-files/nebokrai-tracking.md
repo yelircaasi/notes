@@ -80,3 +80,14 @@ the advantage of generality, but it is probably worth adding some classes to the
 for complex and idiosynchratic tracking tasks: WorkoutTracker, NutritionTracker,
 FinanceTracker (?), TimeTracker (?) (for general time tracking), especially
 where these might need to interact with the derivation to access goals from the plan.
+
+## Full List (in progress)
+
+* Morning Routine
+* Midday Routine
+* Evening Routine
+* Subjective Evaluation (per hour or k key points throughout the day) -> integrate with character attributes
+* food and drink
+* physical activity
+* number of messages sent by platform
+* financial activity (integrate with hledger)

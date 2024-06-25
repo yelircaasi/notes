@@ -262,3 +262,6 @@ Maybe prototype in Bash, Python, or Julia.
 
 * can a Kanban board be combined with my system -> integrate as a view of the tasks
 * Personal Kanban
+
+## Dependencies between Elements
+

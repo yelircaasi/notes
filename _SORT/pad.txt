@@ -226,3 +226,21 @@ subjective metrics:
 
 
 add scatteredness for more fine-grained distinctions?
+
+
+ascii sequences unlikely to appear in normal text (quoted): ['|','|','|'], ['<','|','<'], ['>','|','<'], ['_','|','_'], ['<','-','>'], ['<','^','>'], ['<','ellipse','>'],  -> make equivalence of ascii-compact unicode-representation -> in config
+task object organization: single ''project'' attribute; tags for topical organization -> roadmaps can simply refer to projects/tags, rather than everything being part of one rigid structure -> more flexible that way 
+fitness: end-to-end, self-contained; save fitness derivation as own file (type-compatible with plan)
+link logic: directionality? (''to'' and ''from'') comment/commented relationship; sequential relationship  -> put links inside ''exta'' for lighter implementation (i.e. optionality) and greater compatibility
+to consider: what is the advantage of links vs tags? Maybe replace it with dependency tags? -> before/after (redundant? same info in different places?) -> also add ''simulatneous''/''with'' link type (?)
+integrate nebokrai and notes by linking between between tasks and notes via ID -> ensuring consistency requires an all-in-one consilium and a single data folder
+
+compare terminal color output to wezterm declaration; also to apathy color definition -> reassign to nearest color (red should be reddish, etc.)
+https://tvix.dev/
+first minimal subcommands of jn / consilium note: add, matrix, extract, merge -> with automatic commits for safety
+how to implement fuzzy search over json notes? use n-gram index?
+automate ID from tags: TagOthertagThirdtag-RANDOMHASH (hash from time?)
+journaling dashboard: illustrate (and even animate) plan vs actual, using history
+habits dashboard: show longest and current streak, as well as percentage (also compute streak with mulligan, etc)
+consilium: integrate asciigraphs into CLI visualization output
+consilium-py: use click, rich, etc. to make output colorful

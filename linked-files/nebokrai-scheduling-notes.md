@@ -119,3 +119,39 @@ important tasks out of the way first to avoid procrastination.
   * from plan via project expansion from roadmap file
   * from AdHoc, from adhoc file
   * from Routines, from routines file
+
+## Scratch
+
+Add property `fuidity` to determine which entries to split up first (0, 1, 2, 3, 4) or (1, 2, 3, 4, 5)
+
+Scheduling:
+
+1. Start with CalDay: all fixed appointments
+2. Sort entries according to config, e.g.: f(priority, dread)
+3. Assert that time entries fit
+4. Add entries one-by-one, finding first suitable slot
+   * first search available blocks, then unblocked
+   * first search slots that don't require splitting
+
+```haskell
+FreeSlots :: map BlockName Int
+
+getFreeSlots :: CalDay -> FreeSlots
+
+getFirstSlot :: FreeSlots -> TimeSlot
+
+addEntries :: Schedule -> [Entry] -> Schedule
+addEntries initialEntries entries = foldl addEntry initialSchedule entries
+
+getOverlapping :: Span -> [Span] -> [Span]
+
+addEntry schedule entry = ...
+```
+
+Cases:
+
+1. Entry fits in block: add to block
+2. Get all candidates (based on earliest & latest) -> see getOverlapping
+3. Add according to orderScore (derivedOrder), and return (newSchedule, remainingEntries) if entry fits; otherwise select most fluid entry
+4. Repeat until full
+5. Optimize schedule: make small adjustments to improve certain desirable metrics (qualities of the schedule)
