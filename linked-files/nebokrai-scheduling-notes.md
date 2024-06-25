@@ -155,3 +155,8 @@ Cases:
 3. Add according to orderScore (derivedOrder), and return (newSchedule, remainingEntries) if entry fits; otherwise select most fluid entry
 4. Repeat until full
 5. Optimize schedule: make small adjustments to improve certain desirable metrics (qualities of the schedule)
+
+## Miscellaneous
+
+Support rearranging, based on focus and energy levels (dynamic flexibility).
+

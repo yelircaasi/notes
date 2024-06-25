@@ -52,8 +52,28 @@ anyone who has spent time in or around software development:
 
 ## Miscellaneous
 
+Rename tracking to journaling.
+
+Integrate nebokrai and notes with git/jujutsu in order to version and back up every single edit.
+
+* automatically generate as informative a commit message as possible (allowing for manual custom messages)
+* possibly alleviate the in-JSON burden for history (i.e. if the history is accessible via version control)
+
 Switch fom Roadmaps::Project::Task hierarchy to Project::Task; use tags for organizing projects and tasks.
 
+How to update declaration from journaling (i.e. tracking)?
+
+* during interactive prompting, save all edits, then instantiate them in a single commit -> or each edit as its own commit?
+* move all completed items to task-completed.json
+* prompt for new declaration info or uncompleted tasks (and unused food, unworn clothes, etc.)
+
+### Command Hierarchy
+
+consilium edit
+
+consilium derive [plan | schedule | fitness | food | clothes | ...?]
+
+consilium journal [fitness | ...]
 ### Android App
 
 * Design: to-do list with routine lists, scheduler, and corresponding notifications
@@ -79,8 +99,8 @@ Switch fom Roadmaps::Project::Task hierarchy to Project::Task; use tags for orga
 ### Operations
 
 * Schedule Item → add to Planner
-* Move Item | Year to quarter | Quarter to month | Month to Week | Month to Day | Week to Day | 
-* Change time: push back in time | pull forward in time | switch items | 
+* Move Item | Year to quarter | Quarter to month | Month to Week | Month to Day | Week to Day | ...
+* Change time: push back in time | pull forward in time | switch items | ...
 
 ## Dev Notes
 
@@ -90,6 +110,10 @@ functions should be composable and, as much as posssible, do exactly one thing.
 This will make testing easier, as well as adding new functionalities.
 
 ## Nebokrai Feature Ideas
+
+Lock notes when a subset is checked out; first return borrowed subset before being allowed to perform any other operation
+
+Save certain queries as `namedQuery`s or aliases
 
 * ( ) Gantt chart (from Roadmaps spreadsheet)
 * ( ) support for different roadmaps, zipped together
@@ -265,3 +289,95 @@ Maybe prototype in Bash, Python, or Julia.
 
 ## Dependencies between Elements
 
+Feedback Mechanisms / Updating:
+
+Fitness Planning ---> Calendar
+    `---> Fitness Plan --^
+
+Food Planning ---> Calendar
+    `---> Food Plan --^
+
+Clothes Planning ---> Calendar
+    `---> Clothes Plan --^
+
+DeclarationEditor --> Declaration: interface for all declaration objects
+declarationEdit () --> Declaration {Config, Fitnes, Food, Clothes, Tasks, Routines, Calendar}
+derive --> Declaration {Config, Fitness, Food, Clothes, Tasks, Routines} -> (Calendar, Schedule)
+
+Config --> everything
+Fitness  --> Fitness Plan  --> Calendar --> Tracking
+Food     --> Food Plan     --> Calendar --> Tracking
+Clothes  --> Clothes Plan  --> Calendar --> Tracking
+Tasks    --> Tasks Plan    --> Calendar --> Tracking
+Routines --> Routines Plan --> Calendar --> Tracking
+
+Tracking --> back into everything (except Config)
+
+```sh
+consilium journal
+consilium edit [fitness|food|clothes|tasks|routines]
+```
+
+## Programming Practice
+
+General design guideline for imperative languages:
+
+Functions should be "print-pure" - no side effects effect console output and logging. Exception: IO functions, marked with a trailing _; any more severely impure functions must be marked with two trailing uderscores.
+
+Generally only functions, with classes only for very local and very specific methods, such as magic methods for sorting.
+
+## Notes Module
+
+write maintenance functions such as
+
+* `replace_tag` -> rename tag in all occurrences matching query
+* `generate_tag` -> add tag in all occurrences matching query
+* `rename_tag` -> rename tag in all occurrences matching query
+
+Make clustering feature on tags or some combination of tags and attributes.
+
+Improve diffing capabilities for when I add an edited subset back in. Require some confirmation if certain conditions are found.
+
+Make a commit before and after checking out notes.
+
+Renane `subset` / `extract` and `merge` to `checkout` and `checkin`
+
+Write or find diffing tools for each format I support, such as .xit. Example: todiff
+
+Need to write special sorting and representation using links:
+
+Sorting:
+
+1. Set aside included notes
+2. Group the sequential (before/after) links
+3. Group ''related'' links
+4. Group using dependency
+5. Insert included notes
+
+Representation:
+
+1. Indent each level of included
+2. Add arow for dependency (arrows in the margin might look best)
+3. Add visual link for before/after
+4. Special color for related (slightly different hue(s)?)
+
+Optimizing function to partition on tags such that purity is optimized
+
+1. Formalize concept of tag purity
+2. Write optimizer
+3. Write prototype
+4. Write tests
+
+How to handle permeability between notes and tasks? -> need formalized import and export for each direction
+
+Need to make fun little color module to calculate shades with given (typically slight) contrast to another color
+
+Tiebreaker for conflicting 'related' links: tag similarity, note n-gram similarity (or some other string similarity measure), avg status in group, ...
+
+There is practically no limit to how advanced and complex I can make the network/graph module. But how beneficial would it really be? What is the added value relative to tag-based clustering?
+
+Good roadmap: leave links blank, or if not blank, ignore them until the basic functionality is rock-solid. Having links inside the ''extra'' object is a good idea.
+
+Add way to export notes as tasks -> well-defined JSON format to import into nebokrai.
+
+To edit an ID, I need to change ID everywhere -> make a class of specialized operations requiring verification and validation to ensure consistency -> keep dictionary of aliases? seems relatively clean and lightweight

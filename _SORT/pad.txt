@@ -244,3 +244,48 @@ journaling dashboard: illustrate (and even animate) plan vs actual, using histor
 habits dashboard: show longest and current streak, as well as percentage (also compute streak with mulligan, etc)
 consilium: integrate asciigraphs into CLI visualization output
 consilium-py: use click, rich, etc. to make output colorful
+add ipython wezterm function to home manager config
+
+consilium: how to ensure consistency at every juncture? Especially with index -> each subcommand needs to update indices (if changed) -> potential for async and mulithreading
+write own argparse package to be simpler than the current argparse, with a more flexible and ergonomic interface. -> look at alternatives such as click and typer.
+
+Queries: re-write into canonical form -> should be easier from the dictionary tree format, supporting flattening of {"AND": [{"AND": [...]}, {"AND": [...]}]} to {"AND": [......]}
+
+see this for nutritional recommendations: https://runnersconnect.net/calories/
+
+xit.nvim demo https://www.youtube.com/watch?v=VrFdujDqeOA
+
+make small library encapsulating the scheduling logic: `coherent-scheduler-{{language}}` -> maybe add to RosettaProjects
+
+nebokrai subdivision: primitives/entities, planning, scheduling, traveling, display
+basic scheduling algorithms: greedily fill up around 'rocks' -> recursion may be required -> order: fixed, routines (filtered by dayon week, date, etc.), flex (from plans)
+entries: include ''splittable'' attribute 
+add concept: buffer time, planned catch-up/work-ahead time, sacred time: inviolable timeboxes
+boulders -> rocks -> sand (sand fills buffer time)
+location matrix: estimated time to travel between locations -> integrate transportation schedules? how to make the data format support this?
+project creation rules for compact definition: integer and letter rangers, etc.
+
+Linux Network Administrator's Guide (Bautts, Dawson, Purdy)
+Linux Networking Cookbook (Schroder)
+Unix and Linux System Administration Handbook (Nemeth, Snyder, Hein, Whaley)
+
+potential type values for notes: link, idea, studyNote, noteToSelf, journal, snippet
+potential stati: needsAction, backlog, alreadyRead, toRead, resource
+rating: float in [-1.0, 5.0]
+
+look at db viewer plugins for nvim and command-line
+streamlit, Python
+look at power consumption numbers for my devices and programs -> ethical questions
+physically print out (a formatted version of) my notes as a secure backup
+shadow files in cache: embeddings (vector store?), keyword counts, notes usage statistics (-> insights, discovery, quantified self)
+
+write a custom nvim plugin (or custom commands) for editing my custom notes format
+make MR to LineageOS to fix crappy share suggestions
+add special formatter to jn to make JSON more compact
+make special concealer to make JSON more legible and accessible: color highlighting, compact display of metadata, focus on text and tags; conceal quotes and dim brackets
+
+jn: suggest similar notes (NLP features, however simple)
+anglicism: reinfeeden
+integrate powerful tools JSON into jn 
+command to identify notes that need attention
+
