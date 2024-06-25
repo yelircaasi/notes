@@ -1,5 +1,69 @@
 {
-    "appFlowyGood": "%software.noteManagement._appFlowy.*3",
+    "appFlowyGood": {
+        "query": "%software.noteManagement._appFlowy.*3",
+        "tokens": [
+            {
+                "PREFIX_TYPE": "%"
+            },
+            {
+                "IDENTIFIER": "software"
+            },
+            {
+                "AND": "."
+            },
+            {
+                "IDENTIFIER": "noteManagement"
+            },
+            {
+                "AND": "."
+            },
+            {
+                "PREFIX_SUBTAG": "_"
+            },
+            {
+                "IDENTIFIER": "appFlowy"
+            },
+            {
+                "AND": "."
+            },
+            {
+                "PREFIX_RATING": "*"
+            },
+            {
+                "IDENTIFIER": "3"
+            }
+        ],
+        "ast": [],
+        "dictionary": {
+            "AND": [
+                {
+                    "ATOM": {
+                        "TYPE": "type",
+                        "VALUE": "software"
+                    }
+                },
+                {
+                    "ATOM": {
+                        "TYPE": "tag",
+                        "VALUE": "noteManagement"
+                    }
+                },
+                {
+                    "ATOM": {
+                        "TYPE": "subtag",
+                        "VALUE": "appFlowy"
+                    }
+                },
+                {
+                    "ATOM": {
+                        "TYPE": "rating",
+                        "VALUE": "3"
+                    }
+                }
+            ]
+        },
+        "equivalentPythonCode": "lambda d: (d['type'] == software) and ('noteManagement' in d['tags']) and ('appFlowy' in d['subtags']) and (d['extra']['rating'] >= 3)"
+    },
     "notesPyRsHs": "%software.noteManagement.{…python,…rust,…haskell}",
     "noteAndTask": "noteManagement,todoManagement",
     "testComplex": "tagA,{tagB,tagC}.{tagD,{tagE.tagF.tagG}}",
