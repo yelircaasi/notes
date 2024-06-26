@@ -18,7 +18,7 @@
         "sorter": "",
         "id": ""
     },
-    "NixBuildSh": {
+    "NIXBUILDSH": {
         "text": "add propagated build inputs to packaged shell scripts, such as git-fuzzy and forgit.",
         "link": "",
         "type": "",
@@ -36,7 +36,7 @@
         "sorter": "",
         "id": ""
     },
-    "HmmNix": {
+    "HMMNIX": {
         "text": "Package h-m-m for Nix.",
         "link": "",
         "type": "",
@@ -54,7 +54,7 @@
         "sorter": "",
         "id": ""
     },
-    "NixosImage": {
+    "NIXOSIMAGE": {
         "text": "Building a NixOS Image",
         "link": "https://nixos.org/manual/nixos/stable/index.html#sec-building-image",
         "type": "",
@@ -90,8 +90,8 @@
         "sorter": "",
         "id": ""
     },
-    "TuiJournal": {
-        "text": "tui-journal",
+    "TUIJOURNAL": {
+        "text": "tio-journal",
         "link": "https://github.com/AmmarAbouZor/tui-journal $$$$$$$$$",
         "type": "",
         "subtype": "",
@@ -109,7 +109,7 @@
         "sorter": "",
         "id": ""
     },
-    "CssydBlog": {
+    "CSSYDBLOG": {
         "text": "CS-Syd Blog",
         "link": "https://cs-syd.eu/blog",
         "type": "",
@@ -128,7 +128,7 @@
         "sorter": "",
         "id": ""
     },
-    "CommonmarkWikilink": {
+    "COMMONMARK:WIKILINK": {
         "text": "",
         "link": "https://github.com/srid/commonmark-wikilink",
         "type": "",
@@ -146,7 +146,7 @@
         "sorter": "",
         "id": ""
     },
-    "Srid": {
+    "SRID": {
         "text": "",
         "link": "https://github.com/srid",
         "type": "",
@@ -164,7 +164,7 @@
         "sorter": "",
         "id": ""
     },
-    "NixShellScripts": {
+    "NIXSHELLSCRIPTS": {
         "text": "",
         "link": "https://ertt.ca/nix/shell-scripts/",
         "type": "",
@@ -182,7 +182,7 @@
         "sorter": "",
         "id": ""
     },
-    "ErttNix": {
+    "ERTT:NIX": {
         "text": "",
         "link": "https://ertt.ca/nix/",
         "type": "",
@@ -200,7 +200,7 @@
         "sorter": "",
         "id": ""
     },
-    "ErttCa": {
+    "ERTT:CA": {
         "text": "",
         "link": "https://ertt.ca/ ",
         "type": "",
@@ -236,7 +236,7 @@
         "sorter": "",
         "id": ""
     },
-    "Noteshrink": {
+    "NOTESHRINK": {
         "text": "",
         "link": "https://mzucker.github.io/2016/09/20/noteshrink.html",
         "type": "",
@@ -4305,7 +4305,7 @@
         "sorter": "",
         "id": ""
     },
-    "NixosOverlays": {
+    "NIXOSOVERLAYS": {
         "text": "",
         "link": "https://nixos.wiki/wiki/Overlays#On_the_system_level",
         "type": "",
@@ -4323,7 +4323,7 @@
         "sorter": "",
         "id": ""
     },
-    "SixteenColors": {
+    "SIXTEENCOLORS": {
         "text": "",
         "link": "https://16colo.rs/",
         "type": "",
@@ -4341,7 +4341,7 @@
         "sorter": "",
         "id": ""
     },
-    "AiTools": {
+    "AITOOLS": {
         "text": "",
         "link": "https://www.dice.com/career-advice/ai-tools-for-programmers-what-can-they-do-for-you",
         "type": "",
@@ -4395,7 +4395,7 @@
         "sorter": "",
         "id": ""
     },
-    "TomsHardware": {
+    "TOMSHARDWARE": {
         "text": "",
         "link": "https://www.tomshardware.com/software/linux/enthusiast-demos-installing-alpine-linux-with-the-windows-installer",
         "type": "",
@@ -7261,7 +7261,7 @@
         "sorter": "",
         "id": ""
     },
-    "QUICKSHELL": {
+    "QUICKSHELLquickshell.outfo": {
         "text": "Quickshell - a fully user customizable desktop shell based on QtQuick.",
         "link": "https://quickshell.outfoxxed.me/",
         "type": "",
@@ -8758,7 +8758,7 @@
         "sorter": "",
         "id": ""
     },
-    "HYPRNOVA": {
+    "HYPRNOVAgithub.comzDyanT": {
         "text": "HyprNova",
         "link": "https://github.com/zDyanTB/HyprNova",
         "type": "",
@@ -8777,7 +8777,7 @@
         "sorter": "",
         "id": ""
     },
-    "ZENBROWSER": {
+    "ZENBROWSERgithub.comzen-br": {
         "text": "zen-browser/desktop",
         "link": "https://github.com/zen-browser/desktop",
         "type": "",
@@ -8795,7 +8795,7 @@
         "sorter": "",
         "id": ""
     },
-    "ZOMBIEFOX": {
+    "ZOMBIEFOXzombiefox.github": {
         "text": "zombiefox.github.io/nightTab/",
         "link": "https://zombiefox.github.io/nightTab/",
         "type": "",
@@ -8813,7 +8813,7 @@
         "sorter": "",
         "id": ""
     },
-    "DOTX": {
+    "DOTXgithub.com4lxsdo": {
         "text": "4lxs",
         "link": "https://github.com/4lxs/dotx",
         "type": "",
@@ -8831,7 +8831,7 @@
         "sorter": "",
         "id": ""
     },
-    "PYKAN": {
+    "PYKANgithub.comKindXi": {
         "text": "pykan - Kolmogorov Arnold Networks ",
         "link": "https://github.com/KindXiaoming/pykan",
         "type": "",
@@ -8849,7 +8849,7 @@
         "sorter": "",
         "id": ""
     },
-    "NEVEROVER": {
+    "NEVEROVERgithub.comNever-": {
         "text": "Never-Over",
         "link": "https://github.com/Never-Over/tach",
         "type": "",
@@ -8867,7 +8867,7 @@
         "sorter": "",
         "id": ""
     },
-    "WAYLANDFEDORA": {
+    "WAYLANDFEDORAgithub.comSSKT7W": {
         "text": "Wayland Fedora",
         "link": "https://github.com/SSKT7/WaylandFedora",
         "type": "",
@@ -8886,7 +8886,7 @@
         "sorter": "",
         "id": ""
     },
-    "SHADOWSONG": {
+    "SHADOWSONGgithub.comShadow": {
         "text": "ShadowS0ng",
         "link": "https://github.com/ShadowS0ng/Vagabond",
         "type": "",
@@ -8905,7 +8905,7 @@
         "sorter": "",
         "id": ""
     },
-    "SEAGLASS": {
+    "SEAGLASSgithub.comalexhu": {
         "text": "alexhulbert",
         "link": "https://github.com/alexhulbert/SeaGlass",
         "type": "",
@@ -8924,7 +8924,7 @@
         "sorter": "",
         "id": ""
     },
-    "ALYRAFFAUF": {
+    "ALYRAFFAUFgithub.comalyraf": {
         "text": "alyraffauf",
         "link": "https://github.com/alyraffauf/nixcfg",
         "type": "",
@@ -8944,7 +8944,7 @@
         "sorter": "",
         "id": ""
     },
-    "AMATSAGU": {
+    "AMATSAGUgithub.comamatsa": {
         "text": "amatsagu",
         "link": "https://github.com/amatsagu/amari",
         "type": "",
@@ -8980,7 +8980,7 @@
         "sorter": "",
         "id": ""
     },
-    "PWASFORFIREFOX": {
+    "PWASFORFIREFOXgithub.comfilips": {
         "text": "filips123",
         "link": "https://github.com/filips123/PWAsForFirefox",
         "type": "",
@@ -8998,7 +8998,7 @@
         "sorter": "",
         "id": ""
     },
-    "FITSLEEPINSIGHTS": {
+    "FITSLEEPINSIGHTSgithub.comgaleon": {
         "text": "galeone",
         "link": "https://github.com/galeone/fitsleepinsights",
         "type": "",
@@ -9016,7 +9016,7 @@
         "sorter": "",
         "id": ""
     },
-    "HELIXDISCUSSION-": {
+    "HELIXDISCUSSIONgithub.comhelix-": {
         "text": "helix-editor",
         "link": "https://github.com/helix-editor/helix/discussions/1511",
         "type": "",
@@ -9034,7 +9034,7 @@
         "sorter": "",
         "id": ""
     },
-    "RUSTPROJECTS": {
+    "RUSTPROJECTSgithub.comisaka-": {
         "text": "isaka-james",
         "link": "https://github.com/isaka-james/rust-projects",
         "type": "",
@@ -9052,7 +9052,7 @@
         "sorter": "",
         "id": ""
     },
-    "NIXEL": {
+    "NIXELgithub.comkamado": {
         "text": "kamadorueda",
         "link": "https://github.com/kamadorueda/nixel",
         "type": "",
@@ -9142,7 +9142,7 @@
         "sorter": "",
         "id": ""
     },
-    "NeovideDiscussion": {
+    "NEOVIDE:DISCUSSIONgithub.comneovid": {
         "text": "neovide",
         "link": "https://github.com/neovide/neovide/issues/1144",
         "type": "",
@@ -9160,7 +9160,7 @@
         "sorter": "",
         "id": ""
     },
-    "ARTTIME": {
+    "ARTTIMEgithub.compoetam": {
         "text": "poetaman",
         "link": "https://github.com/poetaman/arttime",
         "type": "",
@@ -9178,7 +9178,7 @@
         "sorter": "",
         "id": ""
     },
-    "GAUNTLET": {
+    "GAUNTLETgithub.comprojec": {
         "text": "project-gauntlet",
         "link": "https://github.com/project-gauntlet/gauntlet",
         "type": "",
@@ -9196,7 +9196,7 @@
         "sorter": "",
         "id": ""
     },
-    "SIMONE": {
+    "SIMONEgithub.comrajtil": {
         "text": "simone",
         "link": "https://github.com/rajtilakjee/simone",
         "type": "",
@@ -9214,7 +9214,7 @@
         "sorter": "",
         "id": ""
     },
-    "AOC2023": {
+    "AOC2023github.comsmores": {
         "text": "smores56",
         "link": "https://github.com/smores56/aoc-2023",
         "type": "",
@@ -9232,7 +9232,7 @@
         "sorter": "",
         "id": ""
     },
-    "MNVIM": {
+    "MNVIMgithub.comzoedso": {
         "text": "mnvim",
         "link": "https://github.com/zoedsoupe/mnvim",
         "type": "",
@@ -9286,7 +9286,7 @@
         "sorter": "",
         "id": ""
     },
-    "AICATALOG": {
+    "AICATALOGgithub.commehmet": {
         "text": "AI-Catalog",
         "link": "https://github.com/mehmetkahya0/AI-Catalog",
         "type": "",
@@ -9304,7 +9304,7 @@
         "sorter": "",
         "id": ""
     },
-    "DEVCOMMUNITIES": {
+    "DEVCOMMUNITIESwww.codium.aiblo": {
         "text": "Top 10 Developer Communities",
         "link": "https://www.codium.ai/blog/top-10-developer-communities-you-should-explore/",
         "type": "",
@@ -9322,7 +9322,7 @@
         "sorter": "",
         "id": ""
     },
-    "SMARTASSISTANTAI": {
+    "SMARTASSISTANTAIwww.futurised.de": {
         "text": "futurised.de/ai-solutions/smartassistantai",
         "link": "https://www.futurised.de/ai-solutions/smartassistantai",
         "type": "",
@@ -9340,7 +9340,7 @@
         "sorter": "",
         "id": ""
     },
-    "OPTPARSEAPPLICATIVEINTRO": {
+    "OPTPARSEAPPLICATIVEINTROwww.prborges.com": {
         "text": "www.prborges.com/2023/introduction-to-optparse-applicative/",
         "link": "https://www.prborges.com/2023/introduction-to-optparse-applicative/",
         "type": "",
@@ -9358,7 +9358,7 @@
         "sorter": "",
         "id": ""
     },
-    "GvolpeBlogg": {
+    "GVOLPE:BLOGgvolpe.comblog": {
         "text": "gvolpe.com/blog/",
         "link": "https://gvolpe.com/blog/",
         "type": "",
@@ -9376,7 +9376,7 @@
         "sorter": "",
         "id": ""
     },
-    "JONRINGERCFG": {
+    "JONRINGERCFGgithub.comjonrin": {
         "text": "jonringer",
         "link": "https://github.com/jonringer/nixpkgs-config",
         "type": "",
@@ -9394,7 +9394,7 @@
         "sorter": "",
         "id": ""
     },
-    "DISTROCHOOSER": {
+    "DISTROCHOOSERdistrochooser.de": {
         "text": "distrochooser.de/",
         "link": "https://distrochooser.de/",
         "type": "",
@@ -9412,7 +9412,7 @@
         "sorter": "",
         "id": ""
     },
-    "HACKERSTOLZ": {
+    "HACKERSTOLZwww.hackerstolz.": {
         "text": "www.hackerstolz.de/en/",
         "link": "https://www.hackerstolz.de/en/",
         "type": "",
@@ -9430,7 +9430,7 @@
         "sorter": "",
         "id": ""
     },
-    "BASICSORTINGALGS": {
+    "BASICSORTINGALGSdev.tom__mdy__mb": {
         "text": "Basic Sorting Algorithms",
         "link": "https://dev.to/m__mdy__m/basic-sorting-5h20",
         "type": "",
@@ -9448,7 +9448,7 @@
         "sorter": "",
         "id": ""
     },
-    "REFLEX": {
+    "REFLEXgithub.comreflex": {
         "text": "reflex",
         "link": "https://github.com/reflex-dev/reflex",
         "type": "",
@@ -9466,7 +9466,7 @@
         "sorter": "",
         "id": ""
     },
-    "OVERLAYED": {
+    "OVERLAYEDoverlayed.dev": {
         "text": "overlayed.dev/",
         "link": "https://overlayed.dev/",
         "type": "",
@@ -9484,7 +9484,7 @@
         "sorter": "",
         "id": ""
     },
-    "WEAVER": {
+    "WEAVERsammohr.devbloga": {
         "text": "sammohr.dev/blog/announcing-weaver",
         "link": "https://sammohr.dev/blog/announcing-weaver",
         "type": "",
@@ -9503,7 +9503,7 @@
         "sorter": "",
         "id": ""
     },
-    "ELEVENTY": {
+    "ELEVENTYwww.11ty.devdocs": {
         "text": "11ty.dev/docs/languages/custom/",
         "link": "https://www.11ty.dev/docs/languages/custom/",
         "type": "",
@@ -9522,7 +9522,7 @@
         "sorter": "",
         "id": ""
     },
-    "FISHNIKIV": {
+    "FISHNIKIVwiki.nikiv.devun": {
         "text": "->  wiki.nikiv.dev",
         "link": "https://wiki.nikiv.dev/unix/shell/fish",
         "type": "",
@@ -9578,7 +9578,7 @@
         "sorter": "",
         "id": ""
     },
-    "AESONINTRO": {
+    "AESONINTROwww.fpcomplete.c": {
         "text": "www.fpcomplete.com/haskell/library/aeson/",
         "link": "https://www.fpcomplete.com/haskell/library/aeson/",
         "type": "",
@@ -9596,7 +9596,7 @@
         "sorter": "",
         "id": ""
     },
-    "ULTHASKELLCS": {
+    "ULTHASKELLCSwwwcip.cs.fau.de": {
         "text": "Ultimate Haskell Cheat Sheet",
         "link": "https://wwwcip.cs.fau.de/~oj14ozun/src+etc/cheatsheets/haskell-ucs-0.4.pdf",
         "type": "",
@@ -9616,7 +9616,7 @@
         "sorter": "",
         "id": ""
     },
-    "HYPRLANDWIKINVIDIA": {
+    "HYPRLANDWIKINVIDIAwiki.hyprland.or": {
         "text": "wiki.hyprland.org/Nvidia/",
         "link": "https://wiki.hyprland.org/Nvidia/",
         "type": "",
@@ -9634,7 +9634,7 @@
         "sorter": "",
         "id": ""
     },
-    "LanguageLlm": {
+    "LANGUAGE:LLMthegradientpub.s": {
         "text": "->  thegradientpub.substack.com",
         "link": "https://thegradientpub.substack.com/p/ted-gibson-language-structure-communication-llms",
         "type": "",
@@ -9652,7 +9652,7 @@
         "sorter": "",
         "id": ""
     },
-    "JSLANGUAGES": {
+    "JSLANGUAGESgithub.comspigbo": {
         "text": "spigbop",
         "link": "https://github.com/spigbop/js-languages",
         "type": "",
@@ -10875,7 +10875,7 @@
         "sorter": "",
         "id": ""
     },
-    "MAILSEND": {
+    "MAILSENDpnp.github.iocli": {
         "text": "mail-send",
         "link": "https://pnp.github.io/cli-microsoft365/cmd/outlook/mail/mail-send/",
         "type": "",
@@ -10911,7 +10911,7 @@
         "sorter": "",
         "id": ""
     },
-    "MINTTY": {
+    "MINTTYgithub.commintty": {
         "text": "mintty",
         "link": "https://github.com/mintty/utils",
         "type": "",
@@ -10929,7 +10929,7 @@
         "sorter": "",
         "id": ""
     },
-    "MATUI": {
+    "MATUIgithub.compkulak": {
         "text": "matui",
         "link": "https://github.com/pkulak/matui/",
         "type": "",
@@ -10965,7 +10965,7 @@
         "sorter": "",
         "id": ""
     },
-    "NVIMDISCUSSION": {
+    "NVIMDISCUSSIONwww.reddit.comrn": {
         "text": "Neovim with VSCode",
         "link": "https://www.reddit.com/r/neovim/comments/1bxmbki/when_you_want_to_use_neovim_but_dont_want_to/",
         "type": "",
@@ -11092,7 +11092,7 @@
         "sorter": "",
         "id": ""
     },
-    "LPPARAUDIO": {
+    "LPPARAUDIOwww.youtube.comw": {
         "text": "LPP AR Audio",
         "link": "https://www.youtube.com/watch?v=4GFa9bnxNpA",
         "type": "",
@@ -11110,7 +11110,7 @@
         "sorter": "",
         "id": ""
     },
-    "PROMPTENGGUIDE": {
+    "PROMPTENGGUIDEgithub.comdair-a": {
         "text": "Prompt Engineering Guide",
         "link": "https://github.com/dair-ai/Prompt-Engineering-Guide https://www.promptingguide.ai/",
         "type": "",
@@ -11128,7 +11128,7 @@
         "sorter": "",
         "id": ""
     },
-    "ElvisSaraviael": {
+    "ElvisSaraviaelvissaravia.com": {
         "text": "",
         "link": "http://elvissaravia.com/",
         "type": "",
@@ -11377,7 +11377,7 @@
         "sorter": "",
         "id": ""
     },
-    "EpisodeSdhfsdagg": {
+    "Episode:SDHFSDAGG": {
         "text": "",
         "link": "https://open.spotify.com/episode/7nE3gGSEhTaMxlo7D29NGX?si=JxfD6x63TWqKD_eUJlYaLg",
         "type": "",
@@ -11396,7 +11396,7 @@
         "sorter": "",
         "id": ""
     },
-    "EpisodeSfhtyriwe": {
+    "Episode:SFHTYRIWE": {
         "text": "",
         "link": "https://open.spotify.com/episode/1MkeiZYxvIKKRaZrCQR6Po?si=-02a2HcmQFWnXfVmoW8FPw",
         "type": "",
@@ -11635,7 +11635,7 @@
         "sorter": "",
         "id": ""
     },
-    "Mincalwidget": {
+    "MINCALWIDGET:SDFGFDGf-droid.orgpacka": {
         "text": "MinCal Widget (Minimal Calendar Widget)",
         "link": "https://f-droid.org/packages/cat.mvmike.minimalcalendarwidget/",
         "type": "",
@@ -11672,7 +11672,7 @@
         "sorter": "",
         "id": ""
     },
-    "SILVERBULLET": {
+    "SILVERBULLETsilverbullet.md$": {
         "text": "",
         "link": "https://silverbullet.md/ $$$$$$",
         "type": "",
@@ -11845,7 +11845,7 @@
         "sorter": "",
         "id": ""
     },
-    "WEBDAVSPEC": {
+    "WEBDAVSPECwww.webdav.orgsp": {
         "text": "",
         "link": "http://www.webdav.org/specs/rfc3648.html",
         "type": "",
@@ -11866,7 +11866,7 @@
         "sorter": "",
         "id": ""
     },
-    "SQLITEDAV": {
+    "SQLITEDAVgithub.comAirseq": {
         "text": "",
         "link": "https://github.com/Airsequel/SQLiteDAV",
         "type": "",
@@ -11911,7 +11911,7 @@
         "sorter": "",
         "id": ""
     },
-    "GITANNEX": {
+    "GITANNEXhackage.haskell.": {
         "text": "",
         "link": "https://hackage.haskell.org/package/git-annex-4.20130627/src/debian/git-annex/usr/share/doc/git-annex/html/special_remotes/webdav.html",
         "type": "",
@@ -11934,7 +11934,7 @@
         "sorter": "",
         "id": ""
     },
-    "NIXCI": {
+    "NIXCInix-ci.com": {
         "text": "",
         "link": "https://nix-ci.com/",
         "type": "",
@@ -11955,7 +11955,7 @@
         "sorter": "",
         "id": ""
     },
-    "SupermavenNvim": {
+    "SUPERMAVENNVIMgithub.comsuperm": {
         "text": "",
         "link": "https://github.com/supermaven-inc/supermaven-nvim",
         "type": "",
@@ -12098,7 +12098,7 @@
         "sorter": "",
         "id": ""
     },
-    "Followup": {
+    "FOLLOWUP": {
         "text": "[[ need a mechanism with tasks, especially with reading, to add a followup to re-read some task or review sone topic -> add feature to declaration editor -> add a link to original task ]]",
         "link": "",
         "type": "",
@@ -12118,7 +12118,7 @@
         "sorter": "",
         "id": ""
     },
-    "Heptabase": {
+    "HEPTABASEheptabase.com": {
         "text": "",
         "link": "https://heptabase.com/",
         "type": "",
@@ -12159,7 +12159,7 @@
         "sorter": "",
         "id": ""
     },
-    "PKMSPOST2": {
+    "PKMSPOST2www.reddit.comrP": {
         "text": "",
         "link": "https://www.reddit.com/r/PKMS/s/fLiFQtxa92 list of pkms systems]]",
         "type": "",
@@ -12221,7 +12221,7 @@
         "sorter": "",
         "id": ""
     },
-    "Linktypes": {
+    "LINKTYPES": {
         "text": "* [[ link types: related (default link?), dependency, constituence/inclusion, seqbefore/seqafter -> probably requires topological sorting ''links'': {''relatedNotes'': [...], ''containedBy'': [...], ''contains'': [...], ''predecessor'': ''...'', '' successor'': ''...''} ]] ",
         "link": "",
         "type": "",
@@ -12241,7 +12241,7 @@
         "sorter": "",
         "id": ""
     },
-    "Linktypes2": {
+    "LINKTYPES2": {
         "text": "* [[ link types: related (default link?), dependency, constituence/inclusion, seqbefore/seqafter -> probably requires topological sorting ''links'': {''relatedNotes'': [...], '' subNotes'': [...], ''superNotes'': [...], ''predecessor'': ''...'', '' successor'': ''...''} ]] ",
         "link": "",
         "type": "",
@@ -12261,7 +12261,7 @@
         "sorter": "",
         "id": ""
     },
-    "Linktypes3": {
+    "LINKTYPES3": {
         "text": "* [[ link types: related (default link?), dependency, constituence/inclusion, seqbefore/seqafter -> probably requires topological sorting ''links'': {''related'': [...], ''subNotes'': [...], ''superNotes'': [...], ''predecessors'': ''...'', ''successor'': ''...''} ]] ",
         "link": "",
         "type": "",
@@ -12281,7 +12281,7 @@
         "sorter": "",
         "id": ""
     },
-    "Linktypes_SDFGDFGDFG": {
+    "LINKTYPES_SDFGDFGDFG": {
         "text": "[[ link types: dependency, constituence/inclusion, seqbefore/seqafter -> probably requires topological sorting ]] ",
         "link": "",
         "type": "",
@@ -12320,7 +12320,7 @@
         "sorter": "",
         "id": ""
     },
-    "ObsidianmdDiscussion": {
+    "OBSIDIANMD:DISCUSSIONwww.reddit.comrO": {
         "text": "",
         "link": "https://www.reddit.com/r/ObsidianMD/s/rQI1otQKIO ",
         "type": "",
@@ -12340,7 +12340,7 @@
         "sorter": "",
         "id": ""
     },
-    "HeadwindHtml": {
+    "HEADWINDHTMLgithub.comgokhan": {
         "text": "",
         "link": "https://github.com/gokhanmeteerturk/HeadwindHTML",
         "type": "",
@@ -12361,7 +12361,7 @@
         "sorter": "",
         "id": ""
     },
-    "GcssAaccentdesign": {
+    "GCSS:AACCENTDESIGN": {
         "text": "",
         "link": "https://github.com/AccentDesign/gcss",
         "type": "",
@@ -12556,7 +12556,7 @@
         "sorter": "",
         "id": ""
     },
-    "ProglangBook": {
+    "PROGLANGBOOK": {
         "text": "",
         "link": "https://libgen.rs/book/index.php?md5=8FB17279A788959D23FF0DF4D4F1E8C3",
         "type": "",
@@ -12577,7 +12577,7 @@
         "sorter": "",
         "id": ""
     },
-    "PLBook": {
+    "PLBOOK": {
         "text": "",
         "link": "https://libgen.rs/book/index.php?md5=FE86974D477ABC34D2D12E9556C141DB",
         "type": "",
@@ -12597,7 +12597,7 @@
         "sorter": "",
         "id": ""
     },
-    "TaggedLinks": {
+    "TAGGEDLINKS": {
         "text": "* [[Add tagged links to notes with >linktype:noteid (or @@ to prevent matrix from linking) , and automatically add appropriate link to linked note]]",
         "link": "",
         "type": "",
@@ -12616,7 +12616,7 @@
         "sorter": "",
         "id": ""
     },
-    "TaggedLinks2": {
+    "TAGGEDLINKS2": {
         "text": "[[Add tagged links to notes with @linktype:noteid, and automatically add appropriate link to linked note]]",
         "link": "",
         "type": "",
@@ -12635,7 +12635,7 @@
         "sorter": "",
         "id": ""
     },
-    "FOSSHandbook": {
+    "FOSSHANDBOOK": {
         "text": "* [[Handbook of Open-Source Tools]]  author:koranne ***** %book ",
         "link": "",
         "type": "",
@@ -12835,7 +12835,7 @@
         "sorter": "",
         "id": ""
     },
-    "Ohshitgit": {
+    "OHSHITGIT": {
         "text": "",
         "link": "https://ohshitgit.com/",
         "type": "",
@@ -12984,7 +12984,7 @@
         "sorter": "",
         "id": ""
     },
-    "WebdavWikipedia": {
+    "WEBDAVWIKIPEDIA": {
         "text": "",
         "link": "https://en.wikipedia.org/wiki/WebDAV",
         "type": "",
@@ -13003,7 +13003,7 @@
         "sorter": "",
         "id": ""
     },
-    "MatrixNote": {
+    "MATRIXNOTE": {
         "text": "s //enclose a plain-text note inside double slashes//",
         "link": "",
         "type": "",
@@ -13043,7 +13043,7 @@
         "sorter": "",
         "id": ""
     },
-    "AthenaOS": {
+    "ATHENAOS": {
         "text": "",
         "link": "https://athenaos.org/",
         "type": "",
@@ -13065,7 +13065,7 @@
         "sorter": "",
         "id": ""
     },
-    "Qtile": {
+    "QTILE:GMKNG01github.comgmkng0": {
         "text": "",
         "link": "https://github.com/gmkng01/newqtile_test ",
         "type": "",
@@ -13084,7 +13084,7 @@
         "sorter": "",
         "id": ""
     },
-    "DotsMegalinee": {
+    "MEGALINEE": {
         "text": "",
         "link": "https://github.com/megalinee/hyprlandconfig",
         "type": "",
@@ -13122,7 +13122,7 @@
         "sorter": "",
         "id": ""
     },
-    "Kagi": {
+    "KAGI": {
         "text": "kagi",
         "link": "https://kagi.com/ ",
         "type": "",
@@ -13142,7 +13142,7 @@
         "sorter": "",
         "id": ""
     },
-    "OnionMediaX": {
+    "ONIONMEDIAX": {
         "text": "OnionMedia-X",
         "link": "https://github.com/onionware-github/OnionMedia-X",
         "type": "",
@@ -13162,7 +13162,7 @@
         "sorter": "",
         "id": ""
     },
-    "CmdCompass": {
+    "CMDCOMPASS": {
         "text": "cmdCompass",
         "link": "https://github.com/johnwangwyx/cmdCompass ",
         "type": "",
@@ -13183,7 +13183,7 @@
         "sorter": "",
         "id": ""
     },
-    "Cheat": {
+    "CHEAT": {
         "text": "cheat",
         "link": "https://github.com/cheat/cheat",
         "type": "",
@@ -13202,7 +13202,7 @@
         "sorter": "",
         "id": ""
     },
-    "TrailblazerNvim": {
+    "TRAILBLAZERNVIM": {
         "text": "",
         "link": "https://github.com/LeonHeidelbach/trailblazer.nvim",
         "type": "",
@@ -13223,7 +13223,7 @@
         "sorter": "",
         "id": ""
     },
-    "Skim": {
+    "SKIM": {
         "text": "skim",
         "link": "https://github.com/lotabout/skim",
         "type": "",
@@ -13302,7 +13302,7 @@
         "sorter": "",
         "id": ""
     },
-    "DailyDozen": {
+    "DAILYDOZEN": {
         "text": "    https://f-droid.org/packages/org.nutritionfacts.dailydozen/",
         "link": "",
         "type": "",
@@ -13361,7 +13361,7 @@
         "sorter": "",
         "id": ""
     },
-    "Bailu": {
+    "BAILU": {
         "text": "    https://f-droid.org/packages/ch.bailu.aat/",
         "link": "",
         "type": "",
@@ -13381,7 +13381,7 @@
         "sorter": "",
         "id": ""
     },
-    "Greenstash": {
+    "GREENSTASH": {
         "text": "GreenStash: Track Your Savings (Plan, manage, and achieve your savings goals easily)",
         "link": "https://f-droid.org/packages/com.starry.greenstash/",
         "type": "",
@@ -13400,7 +13400,7 @@
         "sorter": "",
         "id": ""
     },
-    "Forage": {
+    "FORAGEf-droid.orgpacka": {
         "text": "Forage (A shopping list front-end to your self-hosted Mealie instance.)",
         "link": "https://f-droid.org/packages/net.ser1.forage/",
         "type": "",
@@ -13420,7 +13420,7 @@
         "sorter": "",
         "id": ""
     },
-    "TrackAndGraph": {
+    "TRACKANDGRAPH": {
         "text": "Track & Graph (Track personal data and create custom graphs to gain personal insight!)",
         "link": "https://f-droid.org/packages/com.samco.trackandgraph/",
         "type": "",
@@ -13439,7 +13439,7 @@
         "sorter": "",
         "id": ""
     },
-    "BetterCounter": {
+    "BETTERCOUNTER": {
         "text": "BetterCounter (A simple, multi-purpose counter app)",
         "link": "https://f-droid.org/packages/org.kde.bettercounter/",
         "type": "",
@@ -13459,7 +13459,7 @@
         "sorter": "",
         "id": ""
     },
-    "SimpleCounter": {
+    "SIMPLECOUNTER": {
         "text": "Simple Counter (Keep track of things)",
         "link": "https://f-droid.org/packages/org.quicksc0p3r.simplecounter/",
         "type": "",
@@ -13478,7 +13478,7 @@
         "sorter": "",
         "id": ""
     },
-    "Broccoli": {
+    "BROCCOLI": {
         "text": "Broccoli: The Green Recipe App (Recipe manager, cooking assistant, seasonal calendar: the eco-friendly cookbook.)",
         "link": "https://f-droid.org/packages/com.flauschcode.broccoli/",
         "type": "",
@@ -13499,7 +13499,7 @@
         "sorter": "",
         "id": ""
     },
-    "Tournant": {
+    "TOURNANT": {
         "text": "Tournant (Recipe manager with Gourmand compatibility)",
         "link": "https://f-droid.org/packages/eu.zimbelstern.tournant/",
         "type": "",
@@ -13519,7 +13519,7 @@
         "sorter": "",
         "id": ""
     },
-    "BluemoonAndroid": {
+    "BLUEMOON:ANDROID": {
         "text": "",
         "link": "https://gitlab.com/ngrob/bluemoon-android remark:read_source_code",
         "type": "",
@@ -13756,7 +13756,7 @@
         "sorter": "",
         "id": ""
     },
-    "DotsCapndangerpants": {
+    "CAPNDANGERPANTS": {
         "text": "",
         "link": "https://github.com/CapnDangerPants/archdots",
         "type": "",
@@ -13793,7 +13793,7 @@
         "sorter": "",
         "id": ""
     },
-    "tdf": {
+    "TDF": {
         "text": "tdf",
         "link": "https://github.com/itsjunetime/tdf",
         "type": "",
@@ -14695,7 +14695,7 @@
         "sorter": "",
         "id": ""
     },
-    "SmnJp": {
+    "SMN:JP": {
         "text": "A Brief Look at Jordan Peterson - SOME MORE NEWS",
         "link": "https://www.youtube.com/watch?v=hSNWkRw53Jo",
         "type": "",
@@ -14713,7 +14713,7 @@
         "sorter": "",
         "id": ""
     },
-    "MunecatEp": {
+    "MUNECAT:EP": {
         "text": "I Debunked Evolutionary Psychology",
         "link": "https://www.youtube.com/watch?v=31e0RcImReY",
         "type": "",
@@ -14749,7 +14749,7 @@
         "sorter": "",
         "id": ""
     },
-    "EBNFNotes": {
+    "EBNFNOTES": {
         "text": "ebnf2.pdf",
         "link": "https://ics.uci.edu/~pattis/misc/ebnf2.pdf",
         "type": "",
@@ -14767,7 +14767,7 @@
         "sorter": "",
         "id": ""
     },
-    "Pattis": {
+    "PATTIS": {
         "text": "Richard Pattis Home Page",
         "link": "https://ics.uci.edu/~pattis/",
         "type": "",
@@ -14785,7 +14785,7 @@
         "sorter": "",
         "id": ""
     },
-    "TeachLearnGif": {
+    "TEACHLEARNGIF": {
         "text": "teachlearn.gif (GIF Image, 451 × 321 pixels) ",
         "link": "https://ics.uci.edu/~pattis/images/teachlearn.gif",
         "type": "",
@@ -14839,7 +14839,7 @@
         "sorter": "",
         "id": ""
     },
-    "NvimNixvim": {
+    "NVIM:NIXVIM": {
         "text": "elythh/nixvim: ❄️ my neovim config using nixvim",
         "link": "https://github.com/elythh/nixvim",
         "type": "",
@@ -14875,7 +14875,7 @@
         "sorter": "",
         "id": ""
     },
-    "WealthEthics": {
+    "WEALTH:ETHICS": {
         "text": "CMV: It is highly immoral to accumulate and spend more wealth than you can consume instead of spending it on the disadvantaged : r/changemyview https://www.reddit.com/r/changemyview/comments/8hxno9/cmv_it_is_highly_immoral_to_accumulate_and_spend/",
         "link": "",
         "type": "",
@@ -14929,7 +14929,7 @@
         "sorter": "",
         "id": ""
     },
-    "OsInRust": {
+    "OSINRUST": {
         "text": "Writing an OS in Rust https://os.phil-opp.com/",
         "link": "",
         "type": "",
@@ -14947,7 +14947,7 @@
         "sorter": "",
         "id": ""
     },
-    "PythonRustMlops": {
+    "PYRUSTMLOPS": {
         "text": "🤝 Python, Rust, MLOps, and Ethics - A Balanced Perspective PyCon Dubai - YouTube https://www.youtube.com/watch?v=NqgMM6fRNSs",
         "link": "",
         "type": "",
@@ -14983,7 +14983,7 @@
         "sorter": "",
         "id": ""
     },
-    "NetworkGo": {
+    "NETWORK:GO": {
         "text": "Library Genesis: Adam Woodbeck - Network Programming with Go: Learn to Code Secure and Reliable Network Services from Scratch http://libgen.rs/book/index.php?md5=C90E0E38864F41B8C282FACD9DBB05D3",
         "link": "",
         "type": "",
@@ -15055,7 +15055,7 @@
         "sorter": "",
         "id": ""
     },
-    "NetworkBeej": {
+    "NETWORKBEEJ": {
         "text": "Beej's Guide to Network Programming",
         "link": "https://beej.us/guide/bgnet/html/split",
         "type": "",
@@ -15217,7 +15217,7 @@
         "sorter": "",
         "id": ""
     },
-    "TridactylNativemessenger": {
+    "TRIDACTYL:NATIVEMESSENGER": {
         "text": "tridactyl/native_messenger: Native messenger for Tridactyl, a vim-like web-extension. https://github.com/tridactyl/native_messenger",
         "link": "",
         "type": "",
@@ -15235,7 +15235,7 @@
         "sorter": "",
         "id": ""
     },
-    "Tridactyl": {
+    "TRIDACTYL": {
         "text": "tridactyl/tridactyl: A Vim-like interface for Firefox, inspired by Vimperator/Pentadactyl.  https://github.com/tridactyl/tridactyl",
         "link": "",
         "type": "",
@@ -15253,7 +15253,7 @@
         "sorter": "",
         "id": ""
     },
-    "PodOnServer": {
+    "PODONSERVER": {
         "text": "",
         "link": "https://open.spotify.com/episode/4nurRBr1OyjI4QzvQvlc01?si=Ts19YlKwRNWOb8tFeRs2IQ",
         "type": "listeningAtom",
@@ -15272,7 +15272,7 @@
         "sorter": "",
         "id": ""
     },
-    "CraftComputing": {
+    "CRAFTCOMPUTING": {
         "text": "",
         "link": "https://m.youtube.com/c/CraftComputing",
         "type": "",
@@ -15290,7 +15290,7 @@
         "sorter": "",
         "id": ""
     },
-    "ImfGenAI": {
+    "IMFGENAI": {
         "text": "",
         "link": "https://www.imf.org/en/Publications/Staff-Discussion-Notes/Issues/2024/06/11/Broadening-the-Gains-from-Generative-AI-The-Role-of-Fiscal-Policies-549639",
         "type": "",
@@ -15308,7 +15308,7 @@
         "sorter": "",
         "id": ""
     },
-    "GraphesFr": {
+    "GRAPHESFR": {
         "text": "Claudi Alsina - Plans de métro et réseaux neuronaux : la théorie des graphes",
         "link": "https://libgen.is/book/index.php?md5=77E62F000C5444F62DBB67D899E8E6DE",
         "type": "readingSet",
@@ -15326,7 +15326,7 @@
         "sorter": "",
         "id": ""
     },
-    "CodeBook": {
+    "CODEBOOK": {
         "text": "Code",
         "link": "https://library.lol/main/C859BB779FE9CB6E58BA42DAAD92551A",
         "type": "readingSet",
@@ -15344,7 +15344,7 @@
         "sorter": "",
         "id": ""
     },
-    "CodeBookDe": {
+    "CODEBOOKDE": {
         "text": " CODE - Wie Computer funktionieren - Die Sprache von Hardware und Software verstehen",
         "link": "https://libgen.is/book/index.php?md5=12A5C24E5419B5555414C0C82CE7F636",
         "type": "",
@@ -15362,7 +15362,7 @@
         "sorter": "",
         "id": ""
     },
-    "Flavours": {
+    "FLAVOURS": {
         "text": "flavours",
         "link": "https://github.com/Misterio77/flavours",
         "type": "",
@@ -15380,7 +15380,7 @@
         "sorter": "",
         "id": ""
     },
-    "docfd": {
+    "DOCFD": {
         "text": "docfd",
         "link": "https://github.com/darrenldl/docfd",
         "type": "",
@@ -15398,7 +15398,7 @@
         "sorter": "",
         "id": ""
     },
-    "lzn": {
+    "LZN": {
         "text": "lz.n",
         "link": "https://github.com/nvim-neorocks/lz.n",
         "type": "",
@@ -15416,7 +15416,7 @@
         "sorter": "",
         "id": ""
     },
-    "DotsDanggooddd": {
+    "DANGGOODDD": {
         "text": "danggooddd",
         "link": "https://github.com/dangooddd/.dotfiles",
         "type": "",
@@ -15560,7 +15560,7 @@
         "sorter": "",
         "id": ""
     },
-    "Numbat": {
+    "NUMBAT": {
         "text": "numbat",
         "link": "https://numbat.dev/doc/introduction.html",
         "type": "",
@@ -15596,7 +15596,7 @@
         "sorter": "",
         "id": ""
     },
-    "Beachpatrol": {
+    "BEACHPATROL": {
         "text": "beachpatrol - browser automation",
         "link": "https://github.com/sebastiancarlos/beachpatrol",
         "type": "",
@@ -15614,7 +15614,7 @@
         "sorter": "",
         "id": ""
     },
-    "LeanLang": {
+    "LEANLANG": {
         "text": "lean lang",
         "link": "https://lean-lang.org/",
         "type": "",
@@ -15669,7 +15669,7 @@
         "sorter": "",
         "id": ""
     },
-    "Spoify": {
+    "SPOIFY": {
         "text": "",
         "link": "https://github.com/slyeet03/spoify",
         "type": "",

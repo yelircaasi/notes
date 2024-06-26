@@ -263,5 +263,4 @@ migrate from black and isort entirely to ruff (neovim config)
 
 https://github.com/BrianPugh/python-template
 
-
-
+https://github.com/epwalsh/obsidian.nvim
