@@ -289,3 +289,10 @@ anglicism: reinfeeden
 integrate powerful tools JSON into jn 
 command to identify notes that need attention
 
+https://github.com/shaunsingh/moonlight.nvim
+migrate from black and isort entirely to ruff (neovim config)
+
+https://github.com/BrianPugh/python-template
+
+
+
