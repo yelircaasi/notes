@@ -72,7 +72,7 @@
         "sorter": "",
         "id": ""
     },
-    "3github.combuildi": {
+    "WikiTui": {
         "text": "",
         "link": "https://github.com/builditluc/wiki-tui",
         "type": "",
@@ -326,7 +326,7 @@
         "sorter": "",
         "id": ""
     },
-    "17nixos.orgmanualn": {
+    "NixosSecImageRepart": {
         "text": "",
         "link": "https://nixos.org/manual/nixos/stable/#sec-image-repart",
         "type": "",
@@ -344,7 +344,7 @@
         "sorter": "",
         "id": ""
     },
-    "18github.comHeinri": {
+    "ThreepennyGui": {
         "text": "",
         "link": "https://github.com/HeinrichApfelmus/threepenny-gui/tree/master",
         "type": "",
@@ -362,7 +362,7 @@
         "sorter": "",
         "id": ""
     },
-    "19wiki.haskell.org": {
+    "HaskellGuiLibraries": {
         "text": "",
         "link": "http://wiki.haskell.org/Applications_and_libraries/GUI_libraries",
         "type": "",
@@ -380,7 +380,7 @@
         "sorter": "",
         "id": ""
     },
-    "20github.comwebvie": {
+    "Webview": {
         "text": "",
         "link": "https://github.com/webview/webview",
         "type": "",
@@ -398,7 +398,7 @@
         "sorter": "",
         "id": ""
     },
-    "21github.comfjvall": {
+    "Monomer": {
         "text": "",
         "link": "https://github.com/fjvallarino/monomer",
         "type": "",
@@ -416,7 +416,7 @@
         "sorter": "",
         "id": ""
     },
-    "22github.comfjvall": {
+    "MonomerTodo": {
         "text": "",
         "link": "https://github.com/fjvallarino/monomer/blob/main/docs/examples/01-todo.md  https://github.com/fjvallarino/monomer/tree/main/examples/todo",
         "type": "",
@@ -434,7 +434,7 @@
         "sorter": "",
         "id": ""
     },
-    "23wiki.haskell.org": {
+    "FunctionalReactiveProgramming": {
         "text": "",
         "link": "http://wiki.haskell.org/Functional_Reactive_Programming",
         "type": "",
@@ -452,7 +452,7 @@
         "sorter": "",
         "id": ""
     },
-    "24": {
+    "VtyVsBrick": {
         "text": "-> https://github.com/jtdaugherty/vty vs brick?",
         "link": "",
         "type": "",
@@ -470,7 +470,7 @@
         "sorter": "",
         "id": ""
     },
-    "25github.comIHaske": {
+    "Ihaskell": {
         "text": "",
         "link": "https://github.com/IHaskell/IHaskell",
         "type": "",
@@ -489,7 +489,7 @@
         "sorter": "",
         "id": ""
     },
-    "26git.sr.ht~khumba": {
+    "Qtah": {
         "text": "",
         "link": "https://git.sr.ht/~khumba/qtah",
         "type": "",
@@ -507,7 +507,7 @@
         "sorter": "",
         "id": ""
     },
-    "27sr.ht~khumbahopp": {
+    "Hoppy": {
         "text": "",
         "link": "https://sr.ht/~khumba/hoppy/",
         "type": "",
@@ -525,7 +525,7 @@
         "sorter": "",
         "id": ""
     },
-    "28github.comgtk2hs": {
+    "Gtk2Hs": {
         "text": "",
         "link": "https://github.com/gtk2hs/gtk2hs",
         "type": "",
@@ -543,7 +543,7 @@
         "sorter": "",
         "id": ""
     },
-    "29owickstrom.githu": {
+    "GiGtkDeclarative": {
         "text": "",
         "link": "https://owickstrom.github.io/gi-gtk-declarative/",
         "type": "",
@@ -561,7 +561,7 @@
         "sorter": "",
         "id": ""
     },
-    "30github.comhaskel": {
+    "HaskellGi": {
         "text": "",
         "link": "https://github.com/haskell-gi/haskell-gi",
         "type": "",
@@ -579,7 +579,7 @@
         "sorter": "",
         "id": ""
     },
-    "31github.comhaskel": {
+    "GiGtkExamples": {
         "text": "",
         "link": "https://github.com/haskell-gi/gi-gtk-examples",
         "type": "",
@@ -597,7 +597,7 @@
         "sorter": "",
         "id": ""
     },
-    "32www.gtk.org": {
+    "Gtk": {
         "text": "",
         "link": "https://www.gtk.org/",
         "type": "",
@@ -615,7 +615,7 @@
         "sorter": "",
         "id": ""
     },
-    "33www.reddit.comrp": {
+    "MatrixRedditExplain": {
         "text": "",
         "link": "https://www.reddit.com/r/privacy/comments/no6if6/can_someone_explain_me_what_is_matrixmatrix_and/",
         "type": "",
@@ -633,7 +633,7 @@
         "sorter": "",
         "id": ""
     },
-    "34www.reddit.comrP": {
+    "ProtonMailMutt": {
         "text": "",
         "link": "https://www.reddit.com/r/ProtonMail/comments/pg1jqi/how_do_i_configure_mutt_the_textbased_terminal/",
         "type": "",
@@ -651,7 +651,7 @@
         "sorter": "",
         "id": ""
     },
-    "35unix.stackexchan": {
+    "ProtonMailMuttHydroxide": {
         "text": "",
         "link": "https://unix.stackexchange.com/questions/689590/configure-mutt-and-hydroxide-for-protonmail",
         "type": "",
@@ -669,7 +669,7 @@
         "sorter": "",
         "id": ""
     },
-    "36www.reddit.comrP": {
+    "___": {
         "text": "",
         "link": "https://www.reddit.com/r/ProtonMail/comments/jb1k7z/mutt_configurations_for_protonmail/ $$$$$$$$$",
         "type": "",
@@ -687,7 +687,7 @@
         "sorter": "",
         "id": ""
     },
-    "37github.comsoftwa": {
+    "MatrixClientHaskell": {
         "text": "",
         "link": "https://github.com/softwarefactory-project/matrix-client-haskell",
         "type": "",
@@ -705,7 +705,7 @@
         "sorter": "",
         "id": ""
     },
-    "38github.comHackla": {
+    "Hasmat": {
         "text": "",
         "link": "https://github.com/HacklabJKL/hasmat",
         "type": "",
@@ -723,7 +723,7 @@
         "sorter": "",
         "id": ""
     },
-    "MATRIXMULTIgithub.comunclec": {
+    "MatrixMultipurposeBot": {
         "text": "",
         "link": "https://github.com/unclechu/matrix-multipurpose-bot",
         "type": "",
@@ -741,7 +741,7 @@
         "sorter": "",
         "id": ""
     },
-    "40github.comsimple": {
+    "SimplexBot": {
         "text": "",
         "link": "https://github.com/simplex-chat/simplex-chat/tree/stable/apps/simplex-bot",
         "type": "",
@@ -759,7 +759,7 @@
         "sorter": "",
         "id": ""
     },
-    "41github.comsimple": {
+    "SimplexChatApps": {
         "text": "",
         "link": "https://github.com/simplex-chat/simplex-chat/tree/stable/apps",
         "type": "",
@@ -777,7 +777,7 @@
         "sorter": "",
         "id": ""
     },
-    "42sr.ht~geyaebhask": {
+    "HaskellPdfToText": {
         "text": "",
         "link": "https://sr.ht/~geyaeb/haskell-pdftotext/",
         "type": "",
@@ -795,7 +795,7 @@
         "sorter": "",
         "id": ""
     },
-    "43sr.ht~khumbanvd": {
+    "Nvd": {
         "text": "",
         "link": "https://sr.ht/~khumba/nvd/",
         "type": "",
@@ -813,7 +813,7 @@
         "sorter": "",
         "id": ""
     },
-    "44artushak.ru": {
+    "Artushak": {
         "text": "",
         "link": "https://artushak.ru/",
         "type": "",
@@ -831,7 +831,7 @@
         "sorter": "",
         "id": ""
     },
-    "45github.comArtUsh": {
+    "Sheet2json": {
         "text": "",
         "link": "https://github.com/ArtUshak/sheet2json",
         "type": "",
@@ -849,7 +849,7 @@
         "sorter": "",
         "id": ""
     },
-    "46radicale.orgv3.h": {
+    "Radicale": {
         "text": "",
         "link": "https://radicale.org/v3.html",
         "type": "",
@@ -867,7 +867,7 @@
         "sorter": "",
         "id": ""
     },
-    "47josm.openstreetm": {
+    "JosmOpenstreetmap": {
         "text": "",
         "link": "https://josm.openstreetmap.de/",
         "type": "",
@@ -885,7 +885,7 @@
         "sorter": "",
         "id": ""
     },
-    "48joe-editor.sourc": {
+    "JoeEditor": {
         "text": "",
         "link": "https://joe-editor.sourceforge.io/ ",
         "type": "",
@@ -903,7 +903,7 @@
         "sorter": "",
         "id": ""
     },
-    "49groq.dev": {
+    "Groq": {
         "text": "",
         "link": "https://groq.dev/",
         "type": "",
@@ -921,7 +921,7 @@
         "sorter": "",
         "id": ""
     },
-    "50github.comArtUsh": {
+    "WikiToolPython": {
         "text": "",
         "link": "https://github.com/ArtUshak/wiki_tool_python",
         "type": "",
@@ -939,7 +939,7 @@
         "sorter": "",
         "id": ""
     },
-    "51www.funtoo.orgFu": {
+    "FuntooKeychain": {
         "text": "",
         "link": "https://www.funtoo.org/Funtoo:Keychain",
         "type": "",
@@ -957,7 +957,7 @@
         "sorter": "",
         "id": ""
     },
-    "52www.gnu.orgsoftw": {
+    "Mcron": {
         "text": "",
         "link": "https://www.gnu.org/software/mcron/",
         "type": "",
@@ -975,7 +975,7 @@
         "sorter": "",
         "id": ""
     },
-    "53people.csail.mit": {
+    "Slib": {
         "text": "",
         "link": "http://people.csail.mit.edu/jaffer/SLIB",
         "type": "",
@@ -993,7 +993,7 @@
         "sorter": "",
         "id": ""
     },
-    "54savannah.nongnu.": {
+    "GuileJson": {
         "text": "",
         "link": "https://savannah.nongnu.org/projects/guile-json",
         "type": "",
@@ -1011,7 +1011,7 @@
         "sorter": "",
         "id": ""
     },
-    "55github.comgoogle": {
+    "Cronutils": {
         "text": "",
         "link": "https://github.com/google/cronutils",
         "type": "",
@@ -1029,7 +1029,7 @@
         "sorter": "",
         "id": ""
     },
-    "56dshearer.github.": {
+    "Jobber": {
         "text": "",
         "link": "https://dshearer.github.io/jobber/",
         "type": "",
@@ -1047,7 +1047,7 @@
         "sorter": "",
         "id": ""
     },
-    "57pkg.go.devbdd.fi": {
+    "runitor": {
         "text": "",
         "link": "https://pkg.go.dev/bdd.fi/x/runitor",
         "type": "",
@@ -1065,7 +1065,7 @@
         "sorter": "",
         "id": ""
     },
-    "58sourceforge.netp": {
+    "Csv2odf": {
         "text": "",
         "link": "https://sourceforge.net/p/csv2odf/wiki/Main_Page/",
         "type": "",
@@ -1083,7 +1083,7 @@
         "sorter": "",
         "id": ""
     },
-    "59huggingface.coju": {
+    "FlanT5Text2sql": {
         "text": "",
         "link": "https://huggingface.co/juierror/flan-t5-text2sql-with-schema",
         "type": "",
@@ -1101,7 +1101,7 @@
         "sorter": "",
         "id": ""
     },
-    "60huggingface.coju": {
+    "FlanT5Text2sqlV2": {
         "text": "",
         "link": "https://huggingface.co/juierror/flan-t5-text2sql-with-schema-v2",
         "type": "",
@@ -1119,7 +1119,7 @@
         "sorter": "",
         "id": ""
     },
-    "61huggingface.cosu": {
+    "___": {
         "text": "",
         "link": "https://huggingface.co/support-pvelocity/Code-Llama-2-7B-instruct-text2sql",
         "type": "",
@@ -1137,7 +1137,7 @@
         "sorter": "",
         "id": ""
     },
-    "62huggingface.codo": {
+    "___": {
         "text": "",
         "link": "https://huggingface.co/docs/transformers/v4.33.0/en/main_classes/quantization#transformers.GPTQConfig",
         "type": "",
@@ -1155,7 +1155,7 @@
         "sorter": "",
         "id": ""
     },
-    "63huggingface.codo": {
+    "___": {
         "text": "",
         "link": "https://huggingface.co/docs/transformers/v4.33.0/en/main_classes/quantization",
         "type": "",
@@ -1173,7 +1173,7 @@
         "sorter": "",
         "id": ""
     },
-    "64huggingface.codo": {
+    "GPTQConfig": {
         "text": "",
         "link": "https://huggingface.co/docs/transformers/main/main_classes/quantization#transformers.GPTQConfig",
         "type": "",
@@ -1191,7 +1191,7 @@
         "sorter": "",
         "id": ""
     },
-    "65huggingface.coco": {
+    "HfText2SqlAbneraigc": {
         "text": "",
         "link": "https://huggingface.co/collections/abneraigc/text-to-sql-65433b4ee48d91b8694e93eb",
         "type": "",
@@ -1209,7 +1209,7 @@
         "sorter": "",
         "id": ""
     },
-    "66arxiv.orgabs2305": {
+    "___": {
         "text": "How to Prompt LLMs for Text-to-SQL: A Study in Zero-shot, Single-domain, and Cross-domain Settings",
         "link": "https://arxiv.org/abs/2305.11853",
         "type": "",
@@ -1227,7 +1227,7 @@
         "sorter": "",
         "id": ""
     },
-    "67arxiv.orgabs2306": {
+    "___": {
         "text": "SQL-PaLM: Improved Large Language Model Adaptation for Text-to-SQL (extended)",
         "link": "https://arxiv.org/abs/2306.00739",
         "type": "",
@@ -1245,25 +1245,7 @@
         "sorter": "",
         "id": ""
     },
-    "68": {
-        "text": "[9 Mar 2024 (this version, v3)]",
-        "link": "",
-        "type": "",
-        "subtype": "",
-        "tags": [
-            ""
-        ],
-        "subtags": [],
-        "status": "toFix",
-        "dateCreated": "2024-05-31",
-        "dateModified": "2024-05-31",
-        "extra": {
-            "language": ""
-        },
-        "sorter": "",
-        "id": ""
-    },
-    "69arxiv.orgabs2403": {
+    "PETSQL": {
         "text": "PET-SQL: A Prompt-enhanced Two-stage Text-to-SQL Framework with Cross-consistency",
         "link": "https://arxiv.org/abs/2403.09732",
         "type": "",
@@ -1281,7 +1263,7 @@
         "sorter": "",
         "id": ""
     },
-    "70github.comBrettl": {
+    "___": {
         "text": "",
         "link": "https://github.com/BrettlyCD/text-to-sql",
         "type": "",
@@ -1299,7 +1281,7 @@
         "sorter": "",
         "id": ""
     },
-    "71stackoverflow.co": {
+    "___": {
         "text": "",
         "link": "https://stackoverflow.com/questions/77630013/how-to-run-any-gguf-model-using-transformers-or-any-other-library",
         "type": "",
@@ -1317,7 +1299,7 @@
         "sorter": "",
         "id": ""
     },
-    "72huggingface.codo": {
+    "Gguf": {
         "text": "",
         "link": "https://huggingface.co/docs/hub/gguf",
         "type": "",
@@ -1335,7 +1317,7 @@
         "sorter": "",
         "id": ""
     },
-    "73huggingface.codo": {
+    "TransformersGguf": {
         "text": "",
         "link": "https://huggingface.co/docs/transformers/main/gguf",
         "type": "",
@@ -1353,7 +1335,7 @@
         "sorter": "",
         "id": ""
     },
-    "74huggingface.coju": {
+    "___": {
         "text": "",
         "link": "https://huggingface.co/jurieyel/Llama3-sqlcoder-8b-4bit-GGUF-q4_K_M",
         "type": "",
@@ -1371,7 +1353,7 @@
         "sorter": "",
         "id": ""
     },
-    "75www.analyticsvid": {
+    "___": {
         "text": "",
         "link": "https://www.analyticsvidhya.com/blog/2024/02/sql-generation-in-text2sql-with-tinyllamas-llm-fine-tuning/",
         "type": "",
@@ -1389,7 +1371,7 @@
         "sorter": "",
         "id": ""
     },
-    "76llama-cpp-python": {
+    "LlamaCppPython": {
         "text": "",
         "link": "https://llama-cpp-python.readthedocs.io/en/latest/",
         "type": "",
@@ -1407,7 +1389,7 @@
         "sorter": "",
         "id": ""
     },
-    "77babashka.org": {
+    "Babashka": {
         "text": "",
         "link": "https://babashka.org/",
         "type": "",
@@ -1425,7 +1407,7 @@
         "sorter": "",
         "id": ""
     },
-    "78github.combabash": {
+    "BabashkaNbb": {
         "text": "",
         "link": "https://github.com/babashka/nbb",
         "type": "",
@@ -1443,7 +1425,7 @@
         "sorter": "",
         "id": ""
     },
-    "79github.comzhshLi": {
+    "PETSQLGithub": {
         "text": "",
         "link": "https://github.com/zhshLii/PETSQL/tree/master",
         "type": "",
@@ -1461,7 +1443,7 @@
         "sorter": "",
         "id": ""
     },
-    "80github.comtaoyds": {
+    "TestSuiteSQLEval": {
         "text": "",
         "link": "https://github.com/taoyds/test-suite-sql-eval",
         "type": "",
@@ -1479,7 +1461,7 @@
         "sorter": "",
         "id": ""
     },
-    "81github.comSkyost": {
+    "Algogo": {
         "text": "",
         "link": "https://github.com/Skyost/Algogo https://www.algogo.xyz/",
         "type": "",
@@ -1497,7 +1479,7 @@
         "sorter": "",
         "id": ""
     },
-    "82www.gnu.orgsoftw": {
+    "Idutils": {
         "text": "",
         "link": "https://www.gnu.org/software/idutils/",
         "type": "",
@@ -1515,7 +1497,7 @@
         "sorter": "",
         "id": ""
     },
-    "83": {
+    "ObsidianAlternatives": {
         "text": "good discussion: https://www.reddit.com/r/ObsidianMD/comments/x95y56/obsidian_alternatives_that_are_open_source_free/  https://vivaldi.com/blog/technology/why-isnt-vivaldi-browser-open-source/",
         "link": "",
         "type": "",
@@ -1533,7 +1515,7 @@
         "sorter": "",
         "id": ""
     },
-    "84developer.wikime": {
+    "WikimediaContributeByLanguage": {
         "text": "",
         "link": "https://developer.wikimedia.org/contribute/by-language/",
         "type": "",
@@ -1551,7 +1533,7 @@
         "sorter": "",
         "id": ""
     },
-    "85www.willmcgugan.": {
+    "WillCMcgugan": {
         "text": "",
         "link": "https://www.willmcgugan.com/",
         "type": "",
@@ -1569,7 +1551,7 @@
         "sorter": "",
         "id": ""
     },
-    "86github.comDarkKr": {
+    "SpotifyPlaylistGenerator": {
         "text": "",
         "link": "https://github.com/DarkKronicle/SpotifyPlaylistGenerator",
         "type": "",
@@ -1587,7 +1569,7 @@
         "sorter": "",
         "id": ""
     },
-    "87github.comNorfai": {
+    "NixPreCommitHooks": {
         "text": "",
         "link": "https://github.com/NorfairKing/nix-pre-commit-hooks",
         "type": "",
@@ -1605,7 +1587,7 @@
         "sorter": "",
         "id": ""
     },
-    "88github.comggerga": {
+    "WhisperCpp": {
         "text": "",
         "link": "https://github.com/ggerganov/whisper.cpp",
         "type": "",
@@ -1623,7 +1605,7 @@
         "sorter": "",
         "id": ""
     },
-    "89whhone.compostsw": {
+    "WebdavSyncthing": {
         "text": "",
         "link": "https://whhone.com/posts/webdav-syncthing/",
         "type": "",
@@ -1641,7 +1623,7 @@
         "sorter": "",
         "id": ""
     },
-    "90github.comwakati": {
+    "ReplPythonWakatime": {
         "text": "",
         "link": "https://github.com/wakatime/repl-python-wakatime",
         "type": "",
@@ -1659,7 +1641,7 @@
         "sorter": "",
         "id": ""
     },
-    "91www.well-typed.c": {
+    "WellTyped": {
         "text": "",
         "link": "https://www.well-typed.com/",
         "type": "",
@@ -1677,7 +1659,7 @@
         "sorter": "",
         "id": ""
     },
-    "92jacobzelko.com": {
+    "JacobZelko": {
         "text": "",
         "link": "https://jacobzelko.com/",
         "type": "",
@@ -1695,7 +1677,7 @@
         "sorter": "",
         "id": ""
     },
-    "93jacobzelko.com01": {
+    "CatTheoryAwodey": {
         "text": "",
         "link": "https://jacobzelko.com/01132024210133-category-theory-awodey/",
         "type": "",
@@ -1713,7 +1695,7 @@
         "sorter": "",
         "id": ""
     },
-    "94blogtrottr.comab": {
+    "Blogtrottr": {
         "text": "",
         "link": "https://blogtrottr.com/about/",
         "type": "",
@@ -1731,7 +1713,7 @@
         "sorter": "",
         "id": ""
     },
-    "95github.comemad-e": {
+    "Dirtree": {
         "text": "",
         "link": "https://github.com/emad-elsaid/dirtree",
         "type": "",
@@ -1749,7 +1731,7 @@
         "sorter": "",
         "id": ""
     },
-    "96github.comemad-e": {
+    "Lsgh": {
         "text": "",
         "link": "https://github.com/emad-elsaid/lsgh",
         "type": "",
@@ -1767,7 +1749,7 @@
         "sorter": "",
         "id": ""
     },
-    "97github.comjgmsky": {
+    "Skylighting": {
         "text": "",
         "link": "https://github.com/jgm/skylighting",
         "type": "",
@@ -1785,7 +1767,7 @@
         "sorter": "",
         "id": ""
     },
-    "98pypi.orgprojectp": {
+    "Pdf4llm": {
         "text": "",
         "link": "https://pypi.org/project/pdf4llm/ ",
         "type": "",
@@ -1803,7 +1785,7 @@
         "sorter": "",
         "id": ""
     },
-    "99": {
+    "NotesClipboardAndEditorIdea": {
         "text": "Add clipboard and $EDITOR functionality to notes, so that adding a long multi-line note is supported and comfortable.",
         "link": "",
         "type": "",
@@ -1821,7 +1803,7 @@
         "sorter": "",
         "id": ""
     },
-    "100": {
+    "ConsiliumLinksIdea": {
         "text": "Add support for links to text files in the jn directory under `long-notes`; then simply include path in text: ```json ``text``: [``-->``, ``long-notes/...``],```",
         "link": "",
         "type": "",
@@ -1839,7 +1821,7 @@
         "sorter": "",
         "id": ""
     },
-    "101": {
+    "Turbogit": {
         "text": "turbogit,",
         "link": "",
         "type": "",
@@ -1857,7 +1839,7 @@
         "sorter": "",
         "id": ""
     },
-    "102discourse.nixos.": {
+    "YelircaasiNUR": {
         "text": "set up https://github.com/yelircaasi/nur-packages https://github.com/yelircaasi/nur-packages to contain all ad hoc packages for my config (→ read https://discourse.nixos.org/t/introducing-nur-the-nix-user-repostory-share-all-your-nix-expressions/",
         "link": "https://discourse.nixos.org/t/introducing-nur-the-nix-user-repostory-share-all-your-nix-expressions/431/2)",
         "type": "",
@@ -1875,7 +1857,7 @@
         "sorter": "",
         "id": ""
     },
-    "103": {
+    "IdeaRemoveRoadmaps": {
         "text": "TODO Remove roadmaps from Nebokrai as an organizing unit; change it to a metadata tag. Flatter structure means more adaptability and simpler algorithms. Usong a roadmap tag allows for flexible views.",
         "link": "",
         "type": "",
@@ -1893,7 +1875,7 @@
         "sorter": "",
         "id": ""
     },
-    "104": {
+    "TaskProperties": {
         "text": "properties: desirability - how good will it be to achieve this? | severity - how bad will it be not to achieve this? | dread - how hard is it to get started? | effort - how demanding is the task? | NoteConverter: convert notes between restricted subsets of different file formats (markdown, json, norg, xit, todo.txt, etc)",
         "link": "",
         "type": "",
@@ -1911,7 +1893,7 @@
         "sorter": "",
         "id": ""
     },
-    "105github.comviperM": {
+    "nh": {
         "text": "",
         "link": "https://github.com/viperML/nh",
         "type": "",
@@ -1929,7 +1911,7 @@
         "sorter": "",
         "id": ""
     },
-    "106github.commaralo": {
+    "___": {
         "text": "",
         "link": "https://github.com/maralorn/nix-output-monitor",
         "type": "",
@@ -1947,7 +1929,7 @@
         "sorter": "",
         "id": ""
     },
-    "107www.google.comse": {
+    "___": {
         "text": "",
         "link": "https://www.google.com/search?q=bank+mit+online+banking+im+browser&client=firefox-b-d&sca_esv=aabad935989ed720&sca_upv=1&sxsrf=ADLYWIJ6mYmnXjtMvOURKWnLrTId5-IVRA%3A1716037967519&ei=T6lIZuOsH-Xwi-gP9K2K2AE&ved=0ahUKEwijkObLo5eGAxVl-AIHHfSWAhsQ4dUDCBA&uact=5&oq=bank+mit+online+banking+im+browser&gs_lp=Egxnd3Mtd2l6LXNlcnAiImJhbmsgbWl0IG9ubGluZSBiYW5raW5nIGltIGJyb3dzZXIyCBAAGIAEGKIESKwRUJ4FWKQOcAF4AZABAJgBXqABvgWqAQE5uAEDyAEA-AEBmAIKoALQBcICChAAGLADGNYEGEfCAgcQIxiwAhgnmAMAiAYBkAYIkgcCMTCgB_so&sclient=gws-wiz-serp",
         "type": "",
@@ -1965,7 +1947,7 @@
         "sorter": "",
         "id": ""
     },
-    "108": {
+    "OnlineBankingRooted": {
         "text": "→ look for German banks that allow 2fa / online banking without the requirement of non-rooted Android",
         "link": "",
         "type": "",
@@ -1983,7 +1965,7 @@
         "sorter": "",
         "id": ""
     },
-    "109www.comdirect.de": {
+    "Comdirect": {
         "text": "",
         "link": "https://www.comdirect.de/",
         "type": "",
@@ -2001,7 +1983,7 @@
         "sorter": "",
         "id": ""
     },
-    "110github.comregebr": {
+    "Hovercraft": {
         "text": "",
         "link": "https://github.com/regebro/hovercraft",
         "type": "",
@@ -2019,7 +2001,7 @@
         "sorter": "",
         "id": ""
     },
-    "111marp.app": {
+    "MarpApp": {
         "text": "",
         "link": "https://marp.app/ ",
         "type": "",
@@ -2037,7 +2019,7 @@
         "sorter": "",
         "id": ""
     },
-    "112play.presenta.cc": {
+    "PresentaCc": {
         "text": "",
         "link": "https://play.presenta.cc/ ",
         "type": "",
@@ -2055,7 +2037,7 @@
         "sorter": "",
         "id": ""
     },
-    "113svn.emphy.deimpr": {
+    "Impressive": {
         "text": "",
         "link": "https://svn.emphy.de/impressive/ https://impressive.sourceforge.net/impressive.html",
         "type": "",
@@ -2073,7 +2055,7 @@
         "sorter": "",
         "id": ""
     },
-    "114github.comdivsho": {
+    "Markdeck": {
         "text": "",
         "link": "https://github.com/divshot/markdeck",
         "type": "",
@@ -2091,7 +2073,7 @@
         "sorter": "",
         "id": ""
     },
-    "115sozi.baierouge.f": {
+    "Sozi": {
         "text": "",
         "link": "https://sozi.baierouge.fr/pages/10-about.html ",
         "type": "",
@@ -2109,7 +2091,7 @@
         "sorter": "",
         "id": ""
     },
-    "116github.comromgrk": {
+    "KuiNvim": {
         "text": "",
         "link": "https://github.com/romgrk/kui.nvim",
         "type": "",
@@ -2127,7 +2109,7 @@
         "sorter": "",
         "id": ""
     },
-    "117github.comromgrk": {
+    "KirbyNvim": {
         "text": "",
         "link": "https://github.com/romgrk/kirby.nvim",
         "type": "",
@@ -2145,7 +2127,7 @@
         "sorter": "",
         "id": ""
     },
-    "118github.comwinter": {
+    "___": {
         "text": "",
         "link": "https://github.com/winteriscariot/dotfiles/tree/main/labwc",
         "type": "",
@@ -2163,7 +2145,7 @@
         "sorter": "",
         "id": ""
     },
-    "119beeware.org": {
+    "Beeware": {
         "text": "",
         "link": "https://beeware.org/",
         "type": "",
@@ -2181,7 +2163,7 @@
         "sorter": "",
         "id": ""
     },
-    "120flet.dev": {
+    "Flet": {
         "text": "",
         "link": "https://flet.dev/",
         "type": "",
@@ -2199,7 +2181,7 @@
         "sorter": "",
         "id": ""
     },
-    "121reflex.dev": {
+    "Reflex": {
         "text": "",
         "link": "https://reflex.dev/",
         "type": "",
@@ -2217,7 +2199,7 @@
         "sorter": "",
         "id": ""
     },
-    "122www.zenflowchart": {
+    "GtdFlowchart": {
         "text": "",
         "link": "https://www.zenflowchart.com/guides/gtd-flowchart",
         "type": "",
@@ -2235,7 +2217,7 @@
         "sorter": "",
         "id": ""
     },
-    "123github.comnjvack": {
+    "MarkdownToJson": {
         "text": "",
         "link": "https://github.com/njvack/markdown-to-json",
         "type": "",
@@ -2253,7 +2235,7 @@
         "sorter": "",
         "id": ""
     },
-    "124hackage.haskell.": {
+    "DiffHaskell": {
         "text": "",
         "link": "https://hackage.haskell.org/package/Diff",
         "type": "",
@@ -2271,7 +2253,7 @@
         "sorter": "",
         "id": ""
     },
-    "125ably.comblogprac": {
+    "PracticalGuideToDiffAlgorithms": {
         "text": "",
         "link": "https://ably.com/blog/practical-guide-to-diff-algorithms",
         "type": "",
@@ -2289,7 +2271,7 @@
         "sorter": "",
         "id": ""
     },
-    "126en.m.wikipedia.o": {
+    "DiffWikipedia": {
         "text": "",
         "link": "https://en.m.wikipedia.org/wiki/Diff",
         "type": "",
@@ -2307,7 +2289,7 @@
         "sorter": "",
         "id": ""
     },
-    "127luppeng.wordpres": {
+    "GitDiffAlgorithms": {
         "text": "",
         "link": "https://luppeng.wordpress.com/2020/10/10/when-to-use-each-of-the-git-diff-algorithms/",
         "type": "",
@@ -2325,7 +2307,7 @@
         "sorter": "",
         "id": ""
     },
-    "128github.comfloccu": {
+    "Floccus": {
         "text": "",
         "link": "https://github.com/floccusaddon/floccus",
         "type": "",
@@ -2343,7 +2325,7 @@
         "sorter": "",
         "id": ""
     },
-    "129github.comnextcl": {
+    "NextcloudBookmarks": {
         "text": "",
         "link": "https://github.com/nextcloud/bookmarks",
         "type": "",
@@ -2361,7 +2343,7 @@
         "sorter": "",
         "id": ""
     },
-    "130ubports.comenblo": {
+    "___": {
         "text": "",
         "link": "https://ubports.com/en/blog/ubports-news-1/post/android-apps-on-ubuntu-touch-with-anbox-3115",
         "type": "",
@@ -2379,7 +2361,7 @@
         "sorter": "",
         "id": ""
     },
-    "131": {
+    "___": {
         "text": "Quillpad",
         "link": "",
         "type": "",
@@ -2397,7 +2379,7 @@
         "sorter": "",
         "id": ""
     },
-    "132": {
+    "___": {
         "text": "Syncthing-Fork",
         "link": "",
         "type": "",
@@ -2415,7 +2397,7 @@
         "sorter": "",
         "id": ""
     },
-    "133": {
+    "___": {
         "text": "Nextcloud Dev",
         "link": "",
         "type": "",
@@ -2433,7 +2415,7 @@
         "sorter": "",
         "id": ""
     },
-    "134": {
+    "___": {
         "text": "mLauncher - Minimal and Clutter Free",
         "link": "",
         "type": "",
@@ -2451,7 +2433,7 @@
         "sorter": "",
         "id": ""
     },
-    "135": {
+    "___": {
         "text": "Immich",
         "link": "",
         "type": "",
@@ -2469,7 +2451,7 @@
         "sorter": "",
         "id": ""
     },
-    "136": {
+    "___": {
         "text": "ArityCalc",
         "link": "",
         "type": "",
@@ -2487,7 +2469,7 @@
         "sorter": "",
         "id": ""
     },
-    "137": {
+    "___": {
         "text": "Android Apps on Ubuntu Touch with Anbox | UBports https://ubports.com/en/blog/ubports-news-1/post/android-apps-on-ubuntu-touch-with-anbox-3115 ",
         "link": "",
         "type": "",
@@ -2505,7 +2487,7 @@
         "sorter": "",
         "id": ""
     },
-    "138anbox-cloud.io": {
+    "___": {
         "text": "",
         "link": "https://anbox-cloud.io/",
         "type": "",
@@ -2523,7 +2505,7 @@
         "sorter": "",
         "id": ""
     },
-    "139waydro.id": {
+    "___": {
         "text": "",
         "link": "https://waydro.id/",
         "type": "",
@@ -2541,7 +2523,7 @@
         "sorter": "",
         "id": ""
     },
-    "140": {
+    "___": {
         "text": "Podverse Android",
         "link": "",
         "type": "",
@@ -2559,7 +2541,7 @@
         "sorter": "",
         "id": ""
     },
-    "141jami.net": {
+    "___": {
         "text": "",
         "link": "https://jami.net/",
         "type": "",
@@ -2577,7 +2559,7 @@
         "sorter": "",
         "id": ""
     },
-    "142osmand.net": {
+    "___": {
         "text": "",
         "link": "https://osmand.net/",
         "type": "",
@@ -2595,7 +2577,7 @@
         "sorter": "",
         "id": ""
     },
-    "143": {
+    "___": {
         "text": "Money Manager Ex",
         "link": "",
         "type": "",
@@ -2613,7 +2595,7 @@
         "sorter": "",
         "id": ""
     },
-    "144gitlab.comVALTIE": {
+    "___": {
         "text": "",
         "link": "https://gitlab.com/VALTIELENTINE/dotfiles",
         "type": "",
@@ -2631,7 +2613,7 @@
         "sorter": "",
         "id": ""
     },
-    "145github.comratatu": {
+    "___": {
         "text": "",
         "link": "https://github.com/ratatui-org/awesome-ratatui",
         "type": "",
@@ -2649,7 +2631,7 @@
         "sorter": "",
         "id": ""
     },
-    "146github.comwinter": {
+    "___": {
         "text": "",
         "link": "https://github.com/wintermute-cell/ngrrram",
         "type": "",
@@ -2667,7 +2649,7 @@
         "sorter": "",
         "id": ""
     },
-    "147github.comCoopyd": {
+    "___": {
         "text": "",
         "link": "https://github.com/Coopydood/HyperFluent-GRUB-Theme",
         "type": "",
@@ -2685,7 +2667,7 @@
         "sorter": "",
         "id": ""
     },
-    "148codeberg.orgd13g": {
+    "___": {
         "text": "",
         "link": "https://codeberg.org/d13g0/dotfiles.git",
         "type": "",
@@ -2703,7 +2685,7 @@
         "sorter": "",
         "id": ""
     },
-    "149git.disroot.orgd": {
+    "___": {
         "text": "",
         "link": "https://git.disroot.org/d13g0x/Voidlinux_repository",
         "type": "",
@@ -2721,7 +2703,7 @@
         "sorter": "",
         "id": ""
     },
-    "150retrage.github.i": {
+    "___": {
         "text": "",
         "link": "https://retrage.github.io/lkl-js/",
         "type": "",
@@ -2739,7 +2721,7 @@
         "sorter": "",
         "id": ""
     },
-    "151github.comVoreck": {
+    "___": {
         "text": "",
         "link": "https://github.com/VoreckLukas/norg-pandoc-rs/blob/master/.github/workflows/doc.yml",
         "type": "",
@@ -2757,7 +2739,7 @@
         "sorter": "",
         "id": ""
     },
-    "152github.comnvim-n": {
+    "___": {
         "text": "",
         "link": "https://github.com/nvim-neorg/tree-sitter-norg",
         "type": "",
@@ -2775,7 +2757,7 @@
         "sorter": "",
         "id": ""
     },
-    "153github.comnvim-n": {
+    "___": {
         "text": "",
         "link": "https://github.com/nvim-neorocks/rocks-config.nvim",
         "type": "",
@@ -2793,7 +2775,7 @@
         "sorter": "",
         "id": ""
     },
-    "154github.comnvim-n": {
+    "___": {
         "text": "",
         "link": "https://github.com/nvim-neorocks/rocks-binaries",
         "type": "",
@@ -2811,7 +2793,7 @@
         "sorter": "",
         "id": ""
     },
-    "155github.comnvim-n": {
+    "___": {
         "text": "",
         "link": "https://github.com/nvim-neorg/neorg/blob/main/ROADMAP.md",
         "type": "",
@@ -2829,7 +2811,7 @@
         "sorter": "",
         "id": ""
     },
-    "156": {
+    "___": {
         "text": "Olga YT UK https://m.youtube.com/watch?v=-Ygs_1ReOn8&t=534s&cbrd=1",
         "link": "",
         "type": "",
@@ -2847,7 +2829,7 @@
         "sorter": "",
         "id": ""
     },
-    "157simplex.chat": {
+    "___": {
         "text": "",
         "link": "https://simplex.chat/",
         "type": "",
@@ -2865,7 +2847,7 @@
         "sorter": "",
         "id": ""
     },
-    "158": {
+    "___": {
         "text": "PL Tier List https://www.youtube.com/watch?v=EMO-KcaCX9c",
         "link": "",
         "type": "",
@@ -2883,7 +2865,7 @@
         "sorter": "",
         "id": ""
     },
-    "159github.comnvim-n": {
+    "___": {
         "text": "",
         "link": "https://github.com/nvim-neorg/rust-norg",
         "type": "",
@@ -2901,7 +2883,7 @@
         "sorter": "",
         "id": ""
     },
-    "160": {
+    "___": {
         "text": "use the taskifist name for the (haskell) converter (to and from many formats)",
         "link": "",
         "type": "",
@@ -2919,7 +2901,7 @@
         "sorter": "",
         "id": ""
     },
-    "161clickable-ut.dev": {
+    "___": {
         "text": "",
         "link": "https://clickable-ut.dev/en/latest/install.html",
         "type": "",
@@ -2937,7 +2919,7 @@
         "sorter": "",
         "id": ""
     },
-    "162clickable-ut.dev": {
+    "___": {
         "text": "",
         "link": "https://clickable-ut.dev/en/latest/index.html",
         "type": "",
@@ -2955,7 +2937,7 @@
         "sorter": "",
         "id": ""
     },
-    "163github.comHigher": {
+    "___": {
         "text": "",
         "link": "https://github.com/HigherOrderCO/HVM",
         "type": "",
@@ -2973,7 +2955,7 @@
         "sorter": "",
         "id": ""
     },
-    "164ubports.gitlab.i": {
+    "___": {
         "text": "",
         "link": "https://ubports.gitlab.io/docs/api-docs/index.html?p=qtqml%2Fqtqml-index.html",
         "type": "",
@@ -2991,7 +2973,7 @@
         "sorter": "",
         "id": ""
     },
-    "165forum.aux.comput": {
+    "___": {
         "text": "",
         "link": "https://forum.aux.computer/t/call-for-python-maintainers/29/4",
         "type": "",
@@ -3009,7 +2991,7 @@
         "sorter": "",
         "id": ""
     },
-    "166www.thenewhumani": {
+    "___": {
         "text": "",
         "link": "https://www.thenewhumanitarian.org/editorial/2023/10/23/media-coverage-israel-and-gaza-double-standards",
         "type": "",
@@ -3027,7 +3009,7 @@
         "sorter": "",
         "id": ""
     },
-    "167github.comadsrml": {
+    "___": {
         "text": "",
         "link": "https://github.com/adsr/mle",
         "type": "",
@@ -3045,7 +3027,7 @@
         "sorter": "",
         "id": ""
     },
-    "168elm-lang.org": {
+    "___": {
         "text": "",
         "link": "https://elm-lang.org/",
         "type": "",
@@ -3063,7 +3045,7 @@
         "sorter": "",
         "id": ""
     },
-    "169www.roc-lang.org": {
+    "___": {
         "text": "",
         "link": "https://www.roc-lang.org/",
         "type": "",
@@ -3081,7 +3063,7 @@
         "sorter": "",
         "id": ""
     },
-    "170github.comafifys": {
+    "___": {
         "text": "",
         "link": "https://github.com/afify/sfm",
         "type": "",
@@ -3099,7 +3081,7 @@
         "sorter": "",
         "id": ""
     },
-    "171": {
+    "___": {
         "text": "Sanderson Commencement Speech https://www.youtube.com/watch?v=W3I3kAg2J7w",
         "link": "",
         "type": "",
@@ -3117,7 +3099,7 @@
         "sorter": "",
         "id": ""
     },
-    "172": {
+    "___": {
         "text": "how should I feel about the genocide my ancestors committed?",
         "link": "",
         "type": "",
@@ -3135,7 +3117,7 @@
         "sorter": "",
         "id": ""
     },
-    "173": {
+    "___": {
         "text": "Acknowledging Intergenerational Moral Responsibility in the Aftermath of Genocide https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=1140&context=gsp",
         "link": "",
         "type": "",
@@ -3153,7 +3135,7 @@
         "sorter": "",
         "id": ""
     },
-    "174cmsmc.orgpublica": {
+    "___": {
         "text": "",
         "link": "https://cmsmc.org/publications/history-should-make-you-uncomfortable ",
         "type": "",
@@ -3171,7 +3153,7 @@
         "sorter": "",
         "id": ""
     },
-    "175cwmemory.com2022": {
+    "___": {
         "text": "",
         "link": "https://cwmemory.com/2022/02/16/confronting-the-past-should-make-us-uncomfortable/ ",
         "type": "",
@@ -3189,7 +3171,7 @@
         "sorter": "",
         "id": ""
     },
-    "176www.saturdayeven": {
+    "___": {
         "text": "",
         "link": "https://www.saturdayeveningpost.com/2021/11/considering-history-why-learning-about-the-past-should-be-uncomfortable/ ",
         "type": "",
@@ -3207,7 +3189,7 @@
         "sorter": "",
         "id": ""
     },
-    "177quillette.com202": {
+    "___": {
         "text": "",
         "link": "https://quillette.com/2023/04/27/uncomfortable-history/ ",
         "type": "",
@@ -3225,7 +3207,7 @@
         "sorter": "",
         "id": ""
     },
-    "178steady.substack.": {
+    "___": {
         "text": "",
         "link": "https://steady.substack.com/p/history-is-not-comfortable",
         "type": "",
@@ -3243,7 +3225,7 @@
         "sorter": "",
         "id": ""
     },
-    "179guide.elm-lang.o": {
+    "___": {
         "text": "",
         "link": "https://guide.elm-lang.org/architecture/",
         "type": "",
@@ -3261,7 +3243,7 @@
         "sorter": "",
         "id": ""
     },
-    "180github.comdimkou": {
+    "___": {
         "text": "",
         "link": "https://github.com/dimkouv/protonmail-cli -> look at as inspiration for proton drive",
         "type": "",
@@ -3279,7 +3261,7 @@
         "sorter": "",
         "id": ""
     },
-    "181github.comemersi": {
+    "___": {
         "text": "",
         "link": "https://github.com/emersion/hydroxide",
         "type": "",
@@ -3297,7 +3279,7 @@
         "sorter": "",
         "id": ""
     },
-    "182github.comhenryb": {
+    "___": {
         "text": "",
         "link": "https://github.com/henrybear327/go-proton-api https://github.com/ProtonMail/go-proton-api ",
         "type": "",
@@ -3315,7 +3297,7 @@
         "sorter": "",
         "id": ""
     },
-    "183github.comhenryb": {
+    "___": {
         "text": "",
         "link": "https://github.com/henrybear327/Proton-API-Bridge -> make proton",
         "type": "",
@@ -3333,7 +3315,7 @@
         "sorter": "",
         "id": ""
     },
-    "184github.comProton": {
+    "___": {
         "text": "",
         "link": "https://github.com/ProtonMail ->",
         "type": "",
@@ -3351,7 +3333,7 @@
         "sorter": "",
         "id": ""
     },
-    "185github.comProton": {
+    "___": {
         "text": "",
         "link": "https://github.com/ProtonMail/android-mail",
         "type": "",
@@ -3369,7 +3351,7 @@
         "sorter": "",
         "id": ""
     },
-    "186github.comProton": {
+    "___": {
         "text": "",
         "link": "https://github.com/ProtonMail/gluon ",
         "type": "",
@@ -3387,7 +3369,7 @@
         "sorter": "",
         "id": ""
     },
-    "187github.comProton": {
+    "___": {
         "text": "",
         "link": "https://github.com/ProtonMail/proton-bridge",
         "type": "",
@@ -3405,7 +3387,7 @@
         "sorter": "",
         "id": ""
     },
-    "188github.comProton": {
+    "___": {
         "text": "",
         "link": "https://github.com/ProtonMail/proton-python-client ",
         "type": "",
@@ -3423,7 +3405,7 @@
         "sorter": "",
         "id": ""
     },
-    "189github.comstecca": {
+    "___": {
         "text": "",
         "link": "https://github.com/steccas/ProtonClient",
         "type": "",
@@ -3441,7 +3423,7 @@
         "sorter": "",
         "id": ""
     },
-    "190protonapps.com": {
+    "___": {
         "text": "",
         "link": "https://protonapps.com/",
         "type": "",
@@ -3459,7 +3441,7 @@
         "sorter": "",
         "id": ""
     },
-    "191rclone.orgproton": {
+    "___": {
         "text": "",
         "link": "https://rclone.org/protondrive/ ",
         "type": "",
@@ -3477,7 +3459,7 @@
         "sorter": "",
         "id": ""
     },
-    "192github.commeganz": {
+    "___": {
         "text": "",
         "link": "https://github.com/meganz/MEGAcmd/ https://github.com/NixOS/nixpkgs/blob/nixos-23.11/pkgs/applications/misc/megacmd/default.nix#L74 -> use instead of google drive; keep gd as a backup last resort / for experimental hacking",
         "type": "",
@@ -3495,7 +3477,7 @@
         "sorter": "",
         "id": ""
     },
-    "193": {
+    "___": {
         "text": "megasync https://github.com/NixOS/nixpkgs/blob/nixos-23.11/pkgs/applications/misc/megasync/default.nix#L122 ",
         "link": "",
         "type": "",
@@ -3513,7 +3495,7 @@
         "sorter": "",
         "id": ""
     },
-    "194frameruserconten": {
+    "___": {
         "text": "[Generic type-safe diff and patch for families of datatypes",
         "link": "https://framerusercontent.com/modules/assets/W0FPtOiYB5aHUypMumYlpnG77tY~j726rxGmiVQeNwjJG80vY7DkVkAz8gy1sSA9NjtMODc.pdf",
         "type": "",
@@ -3531,7 +3513,7 @@
         "sorter": "",
         "id": ""
     },
-    "195crates.iocratess": {
+    "___": {
         "text": "",
         "link": "https://crates.io/crates/systemctl-tui",
         "type": "",
@@ -3549,7 +3531,7 @@
         "sorter": "",
         "id": ""
     },
-    "196": {
+    "___": {
         "text": "nix-shell -p gdrive3  https://github.com/glotlabs/gdrive",
         "link": "",
         "type": "",
@@ -3567,7 +3549,7 @@
         "sorter": "",
         "id": ""
     },
-    "197github.competerl": {
+    "___": {
         "text": "",
         "link": "https://github.com/peterldowns/nix-search-cli",
         "type": "",
@@ -3585,7 +3567,7 @@
         "sorter": "",
         "id": ""
     },
-    "198noogle.devgithub": {
+    "___": {
         "text": "",
         "link": "https://noogle.dev https://github.com/nix-community/noogle",
         "type": "",
@@ -3603,7 +3585,7 @@
         "sorter": "",
         "id": ""
     },
-    "199github.comandrey": {
+    "___": {
         "text": "",
         "link": "https://github.com/andrey-utkin/wearable-computer/wiki",
         "type": "",
@@ -3621,7 +3603,7 @@
         "sorter": "",
         "id": ""
     },
-    "200": {
+    "___": {
         "text": "Improving Table of Contents Recognition Using Layout-Based Features.pdf",
         "link": "",
         "type": "",
@@ -3639,7 +3621,7 @@
         "sorter": "",
         "id": ""
     },
-    "201": {
+    "___": {
         "text": "on phone: ntodotxt, simpletask, markor https://f-droid.org/packages/de.tnmgl.ntodotxt/ https://f-droid.org/packages/nl.mpcjanssen.simpletask.webdav/",
         "link": "",
         "type": "",
@@ -3657,7 +3639,7 @@
         "sorter": "",
         "id": ""
     },
-    "202www.webdav.orgsp": {
+    "___": {
         "text": "",
         "link": "http://www.webdav.org/specs/",
         "type": "",
@@ -3675,7 +3657,7 @@
         "sorter": "",
         "id": ""
     },
-    "203www.webdav.orgsp": {
+    "___": {
         "text": "[HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)",
         "link": "http://www.webdav.org/specs/rfc4918.html",
         "type": "",
@@ -3693,7 +3675,7 @@
         "sorter": "",
         "id": ""
     },
-    "204wsgidav.readthed": {
+    "___": {
         "text": "",
         "link": "https://wsgidav.readthedocs.io/en/latest/",
         "type": "",
@@ -3711,7 +3693,7 @@
         "sorter": "",
         "id": ""
     },
-    "205ema.srid.ca": {
+    "___": {
         "text": "",
         "link": "https://ema.srid.ca/",
         "type": "",
@@ -3729,7 +3711,7 @@
         "sorter": "",
         "id": ""
     },
-    "206www.hetzner.com$": {
+    "___": {
         "text": "",
         "link": "https://www.hetzner.com/ $$$",
         "type": "",
@@ -3747,7 +3729,7 @@
         "sorter": "",
         "id": ""
     },
-    "207yandex.comsuppor": {
+    "___": {
         "text": "",
         "link": "https://yandex.com/support/disk-desktop-linux/",
         "type": "",
@@ -3765,7 +3747,7 @@
         "sorter": "",
         "id": ""
     },
-    "208savannah.nongnu.": {
+    "___": {
         "text": "",
         "link": "https://savannah.nongnu.org/projects/davfs2",
         "type": "",
@@ -3783,7 +3765,7 @@
         "sorter": "",
         "id": ""
     },
-    "209github.comdrakka": {
+    "___": {
         "text": "",
         "link": "https://github.com/drakkan/sftpgo",
         "type": "",
@@ -3801,7 +3783,7 @@
         "sorter": "",
         "id": ""
     },
-    "210gitlab.gnome.org": {
+    "___": {
         "text": "",
         "link": "https://gitlab.gnome.org/GNOME/phodav",
         "type": "",
@@ -3819,7 +3801,7 @@
         "sorter": "",
         "id": ""
     },
-    "211github.commiquel": {
+    "___": {
         "text": "",
         "link": "https://github.com/miquels/webdav-server-rs",
         "type": "",
@@ -3837,7 +3819,7 @@
         "sorter": "",
         "id": ""
     },
-    "212www.unifiedremot": {
+    "___": {
         "text": "",
         "link": "https://www.unifiedremote.com/",
         "type": "",
@@ -3855,7 +3837,7 @@
         "sorter": "",
         "id": ""
     },
-    "213www.webdav.orgne": {
+    "___": {
         "text": "",
         "link": "http://www.webdav.org/neon/litmus/",
         "type": "",
@@ -3873,7 +3855,7 @@
         "sorter": "",
         "id": ""
     },
-    "214github.comhacdia": {
+    "___": {
         "text": "",
         "link": "https://github.com/hacdias/webdav",
         "type": "",
@@ -3891,7 +3873,7 @@
         "sorter": "",
         "id": ""
     },
-    "215github.commicrom": {
+    "___": {
         "text": "",
         "link": "https://github.com/micromata/dave/forks",
         "type": "",
@@ -3909,7 +3891,7 @@
         "sorter": "",
         "id": ""
     },
-    "216github.comdensti": {
+    "___": {
         "text": "",
         "link": "https://github.com/denstiny/styledoc.nvim",
         "type": "",
@@ -3927,7 +3909,7 @@
         "sorter": "",
         "id": ""
     },
-    "217github.comv1nh1s": {
+    "___": {
         "text": "",
         "link": "https://github.com/v1nh1shungry/plantuml-preview.nvim",
         "type": "",
@@ -3945,7 +3927,7 @@
         "sorter": "",
         "id": ""
     },
-    "218builds.sr.ht~acs": {
+    "___": {
         "text": "",
         "link": "https://builds.sr.ht/~acsqdotme",
         "type": "",
@@ -3963,7 +3945,7 @@
         "sorter": "",
         "id": ""
     },
-    "219github.comobsidi": {
+    "___": {
         "text": "",
         "link": "https://github.com/obsidiansystems $$$$$$$$$ https://obsidian.systems/",
         "type": "",
@@ -3981,7 +3963,7 @@
         "sorter": "",
         "id": ""
     },
-    "220reflex-frp.org": {
+    "___": {
         "text": "",
         "link": "https://reflex-frp.org/",
         "type": "",
@@ -3999,7 +3981,7 @@
         "sorter": "",
         "id": ""
     },
-    "221github.comobsidi": {
+    "___": {
         "text": "",
         "link": "https://github.com/obsidiansystems/obelisk",
         "type": "",
@@ -4017,7 +3999,7 @@
         "sorter": "",
         "id": ""
     },
-    "222www.dailypausenb": {
+    "___": {
         "text": "",
         "link": "https://www.dailypausenbrot.de/p/ilya-sutskever-und-jan-leike-verlassen-openai",
         "type": "",
@@ -4035,7 +4017,7 @@
         "sorter": "",
         "id": ""
     },
-    "223github.combibjaw": {
+    "___": {
         "text": "",
         "link": "https://github.com/bibjaw99/workstation/tree/master/.config%2Fpolybar_floating",
         "type": "",
@@ -4053,7 +4035,7 @@
         "sorter": "",
         "id": ""
     },
-    "224github.comaquova": {
+    "___": {
         "text": "",
         "link": "https://github.com/aquova/chip8-book",
         "type": "",
@@ -4071,7 +4053,7 @@
         "sorter": "",
         "id": ""
     },
-    "225github.comneoSna": {
+    "___": {
         "text": "",
         "link": "https://github.com/neoSnakex34/go_kit_yourfetch",
         "type": "",
@@ -4089,7 +4071,7 @@
         "sorter": "",
         "id": ""
     },
-    "226github.comEsteba": {
+    "___": {
         "text": "",
         "link": "https://github.com/Esteban528/FreshDots",
         "type": "",
@@ -4107,7 +4089,7 @@
         "sorter": "",
         "id": ""
     },
-    "227github.comdeathb": {
+    "___": {
         "text": "",
         "link": "https://github.com/deathbeam/dotfiles",
         "type": "",
@@ -4125,7 +4107,7 @@
         "sorter": "",
         "id": ""
     },
-    "228esolangs.orgwiki": {
+    "___": {
         "text": "Maze",
         "link": "https://esolangs.org/wiki/Maze",
         "type": "",
@@ -4143,7 +4125,7 @@
         "sorter": "",
         "id": ""
     },
-    "229github.comvincel": {
+    "___": {
         "text": "",
         "link": "https://github.com/vinceliuice/grub2-themes",
         "type": "",
@@ -4161,7 +4143,7 @@
         "sorter": "",
         "id": ""
     },
-    "230github.comKozeat": {
+    "___": {
         "text": "",
         "link": "https://github.com/Kozea/tinycss2",
         "type": "",
@@ -4179,7 +4161,7 @@
         "sorter": "",
         "id": ""
     },
-    "231www.w3.orgTRscre": {
+    "___": {
         "text": "",
         "link": "https://www.w3.org/TR/screen-capture/",
         "type": "",
@@ -4197,7 +4179,7 @@
         "sorter": "",
         "id": ""
     },
-    "232developer.mozill": {
+    "___": {
         "text": "",
         "link": "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getDisplayMedia",
         "type": "",
@@ -4215,7 +4197,7 @@
         "sorter": "",
         "id": ""
     },
-    "233developer.mozill": {
+    "___": {
         "text": "",
         "link": "https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API/Using_Screen_Capture",
         "type": "",
@@ -4233,7 +4215,7 @@
         "sorter": "",
         "id": ""
     },
-    "234html2canvas.hert": {
+    "___": {
         "text": "",
         "link": "https://html2canvas.hertzen.com/",
         "type": "",
@@ -4251,7 +4233,7 @@
         "sorter": "",
         "id": ""
     },
-    "235github.comniklas": {
+    "___": {
         "text": "",
         "link": "https://github.com/niklasvh/html2canvas/forks",
         "type": "",
@@ -4269,7 +4251,7 @@
         "sorter": "",
         "id": ""
     },
-    "236github.comyelirc": {
+    "___": {
         "text": "",
         "link": "https://github.com/yelircaasi/nix-config/tree/main/home%2Fapplications%2Fdevelopment%2Fneovim%2Flanguage-independent-features%2Fstatus-line",
         "type": "",
@@ -4287,7 +4269,7 @@
         "sorter": "",
         "id": ""
     },
-    "237noogle.devfpkgsa": {
+    "___": {
         "text": "",
         "link": "https://noogle.dev/f/pkgs/applyPatches",
         "type": "",
@@ -4305,7 +4287,7 @@
         "sorter": "",
         "id": ""
     },
-    "238git.grimmauld.de": {
+    "___": {
         "text": "",
         "link": "https://git.grimmauld.de/Grimmauld/grimm-nixos-laptop/commit/462a2c6463db25f07b1065705056009567791d04",
         "type": "",
@@ -4377,7 +4359,7 @@
         "sorter": "",
         "id": ""
     },
-    "242": {
+    "___": {
         "text": "[https://stackshare.io](https://stackshare.io/) ",
         "link": "",
         "type": "",
@@ -4485,7 +4467,7 @@
         "sorter": "",
         "id": ""
     },
-    "248python.libhunt.c": {
+    "___": {
         "text": "",
         "link": "https://python.libhunt.com/",
         "type": "",
@@ -4503,7 +4485,7 @@
         "sorter": "",
         "id": ""
     },
-    "249www.libhunt.com": {
+    "___": {
         "text": "",
         "link": "https://www.libhunt.com/",
         "type": "",
@@ -4521,7 +4503,7 @@
         "sorter": "",
         "id": ""
     },
-    "250alternativeto.ne": {
+    "___": {
         "text": "",
         "link": "https://alternativeto.net/",
         "type": "",
@@ -4539,7 +4521,7 @@
         "sorter": "",
         "id": ""
     },
-    "251thenewstack.io": {
+    "___": {
         "text": "",
         "link": "https://thenewstack.io/",
         "type": "",
@@ -4557,7 +4539,7 @@
         "sorter": "",
         "id": ""
     },
-    "252github.comwaffle": {
+    "___": {
         "text": "",
         "link": "https://github.com/waffle87/dots/tree/saturn",
         "type": "",
@@ -4575,7 +4557,7 @@
         "sorter": "",
         "id": ""
     },
-    "253github.comtanidm": {
+    "___": {
         "text": "",
         "link": "https://github.com/tani/dmacro.nvim",
         "type": "",
@@ -4593,7 +4575,7 @@
         "sorter": "",
         "id": ""
     },
-    "254www.rememberthem": {
+    "___": {
         "text": "",
         "link": "https://www.rememberthemilk.com/services/milkscript/",
         "type": "",
@@ -4611,7 +4593,7 @@
         "sorter": "",
         "id": ""
     },
-    "255www.rememberthem": {
+    "___": {
         "text": "",
         "link": "https://www.rememberthemilk.com/",
         "type": "",
@@ -4629,7 +4611,7 @@
         "sorter": "",
         "id": ""
     },
-    "256www.haskell.orgt": {
+    "___": {
         "text": "",
         "link": "https://www.haskell.org/tutorial/monads.html",
         "type": "",
@@ -4647,7 +4629,7 @@
         "sorter": "",
         "id": ""
     },
-    "257www.haskell.orgt": {
+    "___": {
         "text": "",
         "link": "https://www.haskell.org/tutorial/monads.html",
         "type": "",
@@ -4665,7 +4647,7 @@
         "sorter": "",
         "id": ""
     },
-    "258www.reddit.comrh": {
+    "___": {
         "text": "",
         "link": "https://www.reddit.com/r/haskell/comments/11p1ary/can_someone_define_a_monad_in_simple_terms/?rdt=35655",
         "type": "",
@@ -4683,7 +4665,7 @@
         "sorter": "",
         "id": ""
     },
-    "259github.commint44": {
+    "___": {
         "text": "",
         "link": "https://github.com/mint44/.dotfiles/tree/main",
         "type": "",
@@ -4701,7 +4683,7 @@
         "sorter": "",
         "id": ""
     },
-    "260github.commint44": {
+    "___": {
         "text": "",
         "link": "https://github.com/mint44/.dotfiles/tree/main",
         "type": "",
@@ -4719,7 +4701,7 @@
         "sorter": "",
         "id": ""
     },
-    "261github.combigbun": {
+    "___": {
         "text": "",
         "link": "https://github.com/bigbuny/dots/tree/dots",
         "type": "",
@@ -4737,7 +4719,7 @@
         "sorter": "",
         "id": ""
     },
-    "262github.comjgrego": {
+    "___": {
         "text": "",
         "link": "https://github.com/jgregoire/dotfiles/blob/master/obsidian/Dashboard.md?plain=1",
         "type": "",
@@ -4755,7 +4737,7 @@
         "sorter": "",
         "id": ""
     },
-    "263academy.mondaymo": {
+    "___": {
         "text": "",
         "link": "https://academy.mondaymorninghaskell.com/p/making-sense-of-monads",
         "type": "",
@@ -4773,7 +4755,7 @@
         "sorter": "",
         "id": ""
     },
-    "264tree-sitter.gith": {
+    "___": {
         "text": "",
         "link": "https://tree-sitter.github.io/tree-sitter/",
         "type": "",
@@ -4791,7 +4773,7 @@
         "sorter": "",
         "id": ""
     },
-    "265www.fpcomplete.c": {
+    "___": {
         "text": "",
         "link": "https://www.fpcomplete.com/haskell/tutorial/operators/",
         "type": "",
@@ -4809,7 +4791,7 @@
         "sorter": "",
         "id": ""
     },
-    "266www.reddit.comru": {
+    "___": {
         "text": "",
         "link": "https://www.reddit.com/r/unixporn/s/8VJbXAlvS7",
         "type": "",
@@ -4827,7 +4809,7 @@
         "sorter": "",
         "id": ""
     },
-    "267github.comcococr": {
+    "___": {
         "text": "",
         "link": "https://github.com/cococry/leif",
         "type": "",
@@ -4845,7 +4827,7 @@
         "sorter": "",
         "id": ""
     },
-    "268www.fpcomplete.c": {
+    "___": {
         "text": "",
         "link": "https://www.fpcomplete.com/haskell/tutorial/operators/ ",
         "type": "",
@@ -4863,7 +4845,7 @@
         "sorter": "",
         "id": ""
     },
-    "269www.imada.sdu.dk": {
+    "___": {
         "text": "",
         "link": "https://www.imada.sdu.dk/u/rolf/Edu/DM22/F06/haskell-operatorer.pdf ",
         "type": "",
@@ -4881,7 +4863,7 @@
         "sorter": "",
         "id": ""
     },
-    "270hackage.haskell.": {
+    "___": {
         "text": "",
         "link": "https://hackage.haskell.org/package/optparse-applicative-0.18.1.0/docs/Options-Applicative.html",
         "type": "",
@@ -4899,7 +4881,7 @@
         "sorter": "",
         "id": ""
     },
-    "271www.reddit.comru": {
+    "___": {
         "text": "",
         "link": "https://www.reddit.com/r/unixporn/s/X8ni0jYEje",
         "type": "",
@@ -4917,7 +4899,7 @@
         "sorter": "",
         "id": ""
     },
-    "272github.comboxyld": {
+    "___": {
         "text": "",
         "link": "https://github.com/boxyld/godot-powermenu",
         "type": "",
@@ -4935,7 +4917,7 @@
         "sorter": "",
         "id": ""
     },
-    "273github.comsembek": {
+    "___": {
         "text": "",
         "link": "https://github.com/sembekov/dotfiles",
         "type": "",
@@ -4953,7 +4935,7 @@
         "sorter": "",
         "id": ""
     },
-    "274www.reddit.comrG": {
+    "___": {
         "text": "",
         "link": "https://www.reddit.com/r/GUIX/s/a61Zf6hxts",
         "type": "",
@@ -4971,7 +4953,7 @@
         "sorter": "",
         "id": ""
     },
-    "275www.fpcomplete.c": {
+    "___": {
         "text": "",
         "link": "https://www.fpcomplete.com/haskell/tutorial/operators/",
         "type": "",
@@ -4989,7 +4971,7 @@
         "sorter": "",
         "id": ""
     },
-    "276symbolica.io": {
+    "___": {
         "text": "",
         "link": "https://symbolica.io/",
         "type": "",
@@ -5007,7 +4989,7 @@
         "sorter": "",
         "id": ""
     },
-    "277github.compaolol": {
+    "___": {
         "text": "",
         "link": "https://github.com/paololazzari/play",
         "type": "",
@@ -5025,7 +5007,7 @@
         "sorter": "",
         "id": ""
     },
-    "278codeberg.orgnota": {
+    "___": {
         "text": "",
         "link": "https://codeberg.org/notanamber/nerd_tree",
         "type": "",
@@ -5043,7 +5025,7 @@
         "sorter": "",
         "id": ""
     },
-    "279www.reddit.comrh": {
+    "___": {
         "text": "",
         "link": "https://www.reddit.com/r/hyprland/s/OWy8ZqSDFl",
         "type": "",
@@ -5061,7 +5043,7 @@
         "sorter": "",
         "id": ""
     },
-    "280github.commrivna": {
+    "___": {
         "text": "",
         "link": "https://github.com/mrivnak/spaceconf",
         "type": "",
@@ -5079,7 +5061,7 @@
         "sorter": "",
         "id": ""
     },
-    "281github.comTrudeE": {
+    "___": {
         "text": "",
         "link": "https://github.com/TrudeEH/dotfiles",
         "type": "",
@@ -5097,7 +5079,7 @@
         "sorter": "",
         "id": ""
     },
-    "282github.comchipte": {
+    "___": {
         "text": "",
         "link": "https://github.com/chip/telescope-software-licenses.nvim",
         "type": "",
@@ -5115,7 +5097,7 @@
         "sorter": "",
         "id": ""
     },
-    "283github.comstevea": {
+    "___": {
         "text": "",
         "link": "https://github.com/stevearc/resession.nvim",
         "type": "",
@@ -5133,7 +5115,7 @@
         "sorter": "",
         "id": ""
     },
-    "284github.comvsedov": {
+    "___": {
         "text": "",
         "link": "https://github.com/vsedov/nvim/tree/master",
         "type": "",
@@ -5151,7 +5133,7 @@
         "sorter": "",
         "id": ""
     },
-    "285keats.github.iot": {
+    "___": {
         "text": "",
         "link": "https://keats.github.io/tera/",
         "type": "",
@@ -5169,7 +5151,7 @@
         "sorter": "",
         "id": ""
     },
-    "286gitlab.comdavidw": {
+    "___": {
         "text": "",
         "link": "https://gitlab.com/davidwoodburn/itrm",
         "type": "",
@@ -5187,7 +5169,7 @@
         "sorter": "",
         "id": ""
     },
-    "287github.comMHNigh": {
+    "___": {
         "text": "",
         "link": "https://github.com/MHNightCat/superfile",
         "type": "",
@@ -5205,7 +5187,7 @@
         "sorter": "",
         "id": ""
     },
-    "288github.comsub-ar": {
+    "___": {
         "text": "",
         "link": "https://github.com/sub-arctic/dotfiles",
         "type": "",
@@ -5223,7 +5205,7 @@
         "sorter": "",
         "id": ""
     },
-    "289www.reddit.comru": {
+    "___": {
         "text": "",
         "link": "https://www.reddit.com/r/unixporn/s/GVH8366ujN",
         "type": "",
@@ -5241,7 +5223,7 @@
         "sorter": "",
         "id": ""
     },
-    "290scrollart.org": {
+    "___": {
         "text": "",
         "link": "https://scrollart.org/",
         "type": "",
@@ -5259,7 +5241,7 @@
         "sorter": "",
         "id": ""
     },
-    "291ugrep.com": {
+    "___": {
         "text": "",
         "link": "https://ugrep.com/",
         "type": "",
@@ -5277,7 +5259,7 @@
         "sorter": "",
         "id": ""
     },
-    "292github.comxkcd38": {
+    "___": {
         "text": "",
         "link": "https://github.com/xkcd386at/scripts/blob/master/vgc",
         "type": "",
@@ -5295,7 +5277,7 @@
         "sorter": "",
         "id": ""
     },
-    "293github.comxkcd38": {
+    "___": {
         "text": "",
         "link": "https://github.com/xkcd386at/scripts",
         "type": "",
@@ -5313,7 +5295,7 @@
         "sorter": "",
         "id": ""
     },
-    "294github.comjakobk": {
+    "___": {
         "text": "",
         "link": "https://github.com/jakobkhansen/journal.nvim",
         "type": "",
@@ -5331,7 +5313,7 @@
         "sorter": "",
         "id": ""
     },
-    "295": {
+    "___": {
         "text": "A [Neo-tree](https://github.com/nvim-neo-tree/neo-tree.nvim) source for [Jujutsu/jj](https://github.com/martinvonz/jj).",
         "link": "",
         "type": "",
@@ -5349,7 +5331,7 @@
         "sorter": "",
         "id": ""
     },
-    "296github.comCretez": {
+    "___": {
         "text": "",
         "link": "https://github.com/Cretezy/neo-tree-jj.nvim",
         "type": "",
@@ -5367,7 +5349,7 @@
         "sorter": "",
         "id": ""
     },
-    "297github.comyujiny": {
+    "___": {
         "text": "",
         "link": "https://github.com/yujinyuz/gitpad.nvim",
         "type": "",
@@ -5385,7 +5367,7 @@
         "sorter": "",
         "id": ""
     },
-    "298github.comeklair": {
+    "___": {
         "text": "",
         "link": "https://github.com/eklairs/tlock",
         "type": "",
@@ -5403,7 +5385,7 @@
         "sorter": "",
         "id": ""
     },
-    "299github.comLierBf": {
+    "___": {
         "text": "",
         "link": "https://github.com/LierB/fastfetch",
         "type": "",
@@ -5421,7 +5403,7 @@
         "sorter": "",
         "id": ""
     },
-    "300github.comblankR": {
+    "___": {
         "text": "",
         "link": "https://github.com/blankRiot96/waybar-dots",
         "type": "",
@@ -5439,7 +5421,7 @@
         "sorter": "",
         "id": ""
     },
-    "301flox.dev": {
+    "___": {
         "text": "",
         "link": "https://flox.dev/",
         "type": "",
@@ -5457,7 +5439,7 @@
         "sorter": "",
         "id": ""
     },
-    "302github.comY2Zmon": {
+    "___": {
         "text": "",
         "link": "https://github.com/Y2Z/monolith",
         "type": "",
@@ -5475,7 +5457,7 @@
         "sorter": "",
         "id": ""
     },
-    "303dystroy.orgbacon": {
+    "___": {
         "text": "",
         "link": "https://dystroy.org/bacon/",
         "type": "",
@@ -5493,7 +5475,7 @@
         "sorter": "",
         "id": ""
     },
-    "304engineering.fb.c": {
+    "___": {
         "text": "",
         "link": "https://engineering.fb.com/category/developer-tools/",
         "type": "",
@@ -5511,7 +5493,7 @@
         "sorter": "",
         "id": ""
     },
-    "305gitlab.compublic": {
+    "___": {
         "text": "",
         "link": "https://gitlab.com/publicvoit/orgdown",
         "type": "",
@@ -5529,7 +5511,7 @@
         "sorter": "",
         "id": ""
     },
-    "306www.reddit.comrn": {
+    "___": {
         "text": "",
         "link": "https://www.reddit.com/r/neovim/comments/x09uww/one_thing_a_dislike_about_nvim_plugins_is/?rdt=43088",
         "type": "",
@@ -5547,7 +5529,7 @@
         "sorter": "",
         "id": ""
     },
-    "307hackage.haskell.": {
+    "___": {
         "text": "",
         "link": "https://hackage.haskell.org/package/optparse-applicative",
         "type": "",
@@ -5565,7 +5547,7 @@
         "sorter": "",
         "id": ""
     },
-    "308www.notion.so40d": {
+    "___": {
         "text": "[https://soliez.notion.site/How-to-work-with-files-in-Google-Drive-from-your-terminal-40df95b44b5c4c1087e52acf0e87875d",
         "link": "https://www.notion.so/40df95b44b5c4c1087e52acf0e87875d?pvs=21",
         "type": "",
@@ -5583,7 +5565,7 @@
         "sorter": "",
         "id": ""
     },
-    "309github.comnoobco": {
+    "___": {
         "text": "",
         "link": "https://github.com/noobcollective/cwf",
         "type": "",
@@ -5601,7 +5583,7 @@
         "sorter": "",
         "id": ""
     },
-    "310github.comRaySla": {
+    "___": {
         "text": "",
         "link": "https://github.com/RaySlash/nixos-config/blob/master/modules%2Fhome-manager%2Fhyprland-addons%2Fdefault.nix",
         "type": "",
@@ -5619,7 +5601,7 @@
         "sorter": "",
         "id": ""
     },
-    "311github.comRaySla": {
+    "___": {
         "text": "",
         "link": "https://github.com/RaySlash/nixos-config/blob/master/modules%2Fnixos%2Fhyprland-custom%2Fdefault.nix",
         "type": "",
@@ -5637,7 +5619,7 @@
         "sorter": "",
         "id": ""
     },
-    "312github.comdharmx": {
+    "___": {
         "text": "",
         "link": "https://github.com/dharmx/track.nvim",
         "type": "",
@@ -5655,7 +5637,7 @@
         "sorter": "",
         "id": ""
     },
-    "313www.wired.comsto": {
+    "___": {
         "text": "",
         "link": "https://www.wired.com/story/inside-the-cult-of-the-haskell-programmer/",
         "type": "",
@@ -5673,7 +5655,7 @@
         "sorter": "",
         "id": ""
     },
-    "314www.zdnet.comart": {
+    "___": {
         "text": "",
         "link": "https://www.zdnet.com/article/ ibm-open-sources-its-granite-ai-models-and-they-mean-business/",
         "type": "",
@@ -5691,7 +5673,7 @@
         "sorter": "",
         "id": ""
     },
-    "315github.comMythic": {
+    "___": {
         "text": "",
         "link": "https://github.com/Mythicsoul/dotfiles",
         "type": "",
@@ -5709,7 +5691,7 @@
         "sorter": "",
         "id": ""
     },
-    "316github.combdrung": {
+    "___": {
         "text": "",
         "link": "https://github.com/bdrung/startup-time",
         "type": "",
@@ -5727,7 +5709,7 @@
         "sorter": "",
         "id": ""
     },
-    "317en.m.wikipedia.o": {
+    "___": {
         "text": "",
         "link": "https://en.m.wikipedia.org/wiki/Beyond_Compare",
         "type": "",
@@ -5745,7 +5727,7 @@
         "sorter": "",
         "id": ""
     },
-    "318en.m.wikipedia.o": {
+    "___": {
         "text": "[https://en.m.wikipedia.org/wiki/Category:Pascal_(programming_language)_software",
         "link": "https://en.m.wikipedia.org/wiki/Category:Pascal_(programming_language)_software",
         "type": "",
@@ -5763,7 +5745,7 @@
         "sorter": "",
         "id": ""
     },
-    "319en.m.wikipedia.o": {
+    "___": {
         "text": "",
         "link": "https://en.m.wikipedia.org/wiki/Cartes_du_Ciel",
         "type": "",
@@ -5781,7 +5763,7 @@
         "sorter": "",
         "id": ""
     },
-    "320wiki.freepascal.": {
+    "___": {
         "text": "",
         "link": "https://wiki.freepascal.org/Why_Pascal_is_Not_My_Favorite_Programming_Language",
         "type": "",
@@ -5799,7 +5781,7 @@
         "sorter": "",
         "id": ""
     },
-    "321github.commaster": {
+    "___": {
         "text": "",
         "link": "https://github.com/mastermach50/Hyprland-Waybar-Dots",
         "type": "",
@@ -5817,7 +5799,7 @@
         "sorter": "",
         "id": ""
     },
-    "322heynote.com": {
+    "___": {
         "text": "",
         "link": "https://heynote.com/",
         "type": "",
@@ -5835,7 +5817,7 @@
         "sorter": "",
         "id": ""
     },
-    "323github.comorg-ro": {
+    "___": {
         "text": "",
         "link": "https://github.com/org-roam/org-roam-ui?",
         "type": "",
@@ -5853,7 +5835,7 @@
         "sorter": "",
         "id": ""
     },
-    "324www.orgroam.com": {
+    "___": {
         "text": "",
         "link": "https://www.orgroam.com/",
         "type": "",
@@ -5871,7 +5853,7 @@
         "sorter": "",
         "id": ""
     },
-    "325github.comchipse": {
+    "___": {
         "text": "",
         "link": "https://github.com/chipsenkbeil/org-roam.nvim",
         "type": "",
@@ -5889,7 +5871,7 @@
         "sorter": "",
         "id": ""
     },
-    "326hackage.haskell.": {
+    "___": {
         "text": "",
         "link": "https://hackage.haskell.org/package/serialise",
         "type": "",
@@ -5907,7 +5889,7 @@
         "sorter": "",
         "id": ""
     },
-    "327github.comnbossa": {
+    "___": {
         "text": "",
         "link": "https://github.com/nbossard/taskplantdep",
         "type": "",
@@ -5925,7 +5907,7 @@
         "sorter": "",
         "id": ""
     },
-    "328react.devlearnre": {
+    "___": {
         "text": "",
         "link": "https://react.dev/learn/react-compiler",
         "type": "",
@@ -5943,7 +5925,7 @@
         "sorter": "",
         "id": ""
     },
-    "329github.comjustin": {
+    "___": {
         "text": "",
         "link": "https://github.com/justinlime/dotfiles",
         "type": "",
@@ -5961,7 +5943,7 @@
         "sorter": "",
         "id": ""
     },
-    "330www.reddit.comru": {
+    "___": {
         "text": "",
         "link": "https://www.reddit.com/r/unixporn/s/28VF6OR7Nw",
         "type": "",
@@ -5979,7 +5961,7 @@
         "sorter": "",
         "id": ""
     },
-    "331github.comSteave": {
+    "___": {
         "text": "",
         "link": "https://github.com/SteavenGamerYT/dot-files",
         "type": "",
@@ -5997,7 +5979,7 @@
         "sorter": "",
         "id": ""
     },
-    "332github.comSteave": {
+    "___": {
         "text": "",
         "link": "https://github.com/SteavenGamerYT/dot-files",
         "type": "",
@@ -6015,7 +5997,7 @@
         "sorter": "",
         "id": ""
     },
-    "333github.comcamj2v": {
+    "___": {
         "text": "",
         "link": "https://github.com/camj2/void",
         "type": "",
@@ -6033,7 +6015,7 @@
         "sorter": "",
         "id": ""
     },
-    "334github.comAhmeda": {
+    "___": {
         "text": "",
         "link": "https://github.com/Ahmedazim7804/flutter_bar_hyprland",
         "type": "",
@@ -6053,7 +6035,7 @@
         "sorter": "",
         "id": ""
     },
-    "335github.comevdunb": {
+    "___": {
         "text": "",
         "link": "https://github.com/evdunbar/dotfiles  perfect $$$$$$$$ #dots",
         "type": "",
@@ -6071,7 +6053,7 @@
         "sorter": "",
         "id": ""
     },
-    "336github.comparano": {
+    "___": {
         "text": "",
         "link": "https://github.com/paranoidbarbie/Mtfuji",
         "type": "",
@@ -6089,7 +6071,7 @@
         "sorter": "",
         "id": ""
     },
-    "337github.comHyxal-": {
+    "___": {
         "text": "",
         "link": "https://github.com/Hyxal-V/My-Dotfiles #dots",
         "type": "",
@@ -6107,7 +6089,7 @@
         "sorter": "",
         "id": ""
     },
-    "338www.infoworld.co": {
+    "___": {
         "text": "",
         "link": "https://www.infoworld.com/article/3697740/wasmer-melds-webassembly-posix-with-wasix-spec.html #wasm",
         "type": "",
@@ -6125,7 +6107,7 @@
         "sorter": "",
         "id": ""
     },
-    "339github.comakhile": {
+    "___": {
         "text": "",
         "link": "https://github.com/akhilesh-w/dotfiles/ #wasm",
         "type": "",
@@ -6143,7 +6125,7 @@
         "sorter": "",
         "id": ""
     },
-    "340rust-exercises.c": {
+    "___": {
         "text": "",
         "link": "https://rust-exercises.com/",
         "type": "",
@@ -6162,7 +6144,7 @@
         "sorter": "",
         "id": ""
     },
-    "341github.comcym13b": {
+    "___": {
         "text": "",
         "link": "https://github.com/cym13/bulkrename",
         "type": "",
@@ -6181,7 +6163,7 @@
         "sorter": "",
         "id": ""
     },
-    "342www.reddit.comrl": {
+    "___": {
         "text": "",
         "link": "https://www.reddit.com/r/linux/s/jE0STPl8k0 #reddit,?l",
         "type": "",
@@ -6199,7 +6181,7 @@
         "sorter": "",
         "id": ""
     },
-    "343github.comgabrie": {
+    "___": {
         "text": "",
         "link": "https://github.com/gabrieldlima/nix-config- #dit",
         "type": "",
@@ -6217,7 +6199,7 @@
         "sorter": "",
         "id": ""
     },
-    "344www.hackster.io": {
+    "___": {
         "text": "[hackster",
         "link": "https://www.hackster.io/",
         "type": "",
@@ -6235,7 +6217,7 @@
         "sorter": "",
         "id": ""
     },
-    "345simpleprogrammer": {
+    "___": {
         "text": "[performance blog for developers",
         "link": "https://simpleprogrammer.com/",
         "type": "",
@@ -6253,7 +6235,7 @@
         "sorter": "",
         "id": ""
     },
-    "346libgen.rsbookind": {
+    "___": {
         "text": "[Practical System Programming for Rust Developers: Build fast and secure software for Linux/Unix systems with the help of practical examples",
         "link": "https://libgen.rs/book/index.php?md5=46C9B5B1BED7E89C1326087FB6224676",
         "type": "",
@@ -6271,7 +6253,7 @@
         "sorter": "",
         "id": ""
     },
-    "347libgen.rsbookind": {
+    "___": {
         "text": "Effective Software Testing: A developer's guide",
         "link": "http://libgen.rs/book/index.php?md5=4D46EA435A8FF063AB9FBFA8C22F5328",
         "type": "",
@@ -6289,7 +6271,7 @@
         "sorter": "",
         "id": ""
     },
-    "348libgen.rsbookind": {
+    "___": {
         "text": "The Software Developer's Career Handbook",
         "link": "http://libgen.rs/book/index.php?md5=70C84C114D9F82002E4761179E559612",
         "type": "",
@@ -6307,7 +6289,7 @@
         "sorter": "",
         "id": ""
     },
-    "349libgen.rsbookind": {
+    "___": {
         "text": "The Software Developer's Guide to Linux: A practical, no-nonsense guide to using the Linux command line and utilities as a software developer",
         "link": "http://libgen.rs/book/index.php?md5=1069A8ECE887677C67E0408DCE7F024B",
         "type": "",
@@ -6325,7 +6307,7 @@
         "sorter": "",
         "id": ""
     },
-    "350libgen.rsbookind": {
+    "___": {
         "text": "The Complete Software Developer’s Career Guide",
         "link": "http://libgen.rs/book/index.php?md5=F62D8836C50B6B5191AEF25C3C1161B5",
         "type": "",
@@ -6343,7 +6325,7 @@
         "sorter": "",
         "id": ""
     },
-    "351www.programming-": {
+    "___": {
         "text": "programming-idioms cheatsheets",
         "link": "https://www.programming-idioms.org/cheatsheets",
         "type": "",
@@ -6361,7 +6343,7 @@
         "sorter": "",
         "id": ""
     },
-    "352isaacfreund.coms": {
+    "___": {
         "text": "Isaac Freund's Site",
         "link": "https://isaacfreund.com/software/",
         "type": "",
@@ -6379,7 +6361,7 @@
         "sorter": "",
         "id": ""
     },
-    "353github.commfusse": {
+    "___": {
         "text": "nvim-jdtls",
         "link": "https://github.com/mfussenegger/nvim-jdtls",
         "type": "",
@@ -6397,7 +6379,7 @@
         "sorter": "",
         "id": ""
     },
-    "354github.comsavedr": {
+    "___": {
         "text": "clipse - Configurable TUI clipboard manager for Unix",
         "link": "https://github.com/savedra1/clipse",
         "type": "",
@@ -6415,7 +6397,7 @@
         "sorter": "",
         "id": ""
     },
-    "355github.comrxtsel": {
+    "___": {
         "text": "green space",
         "link": "https://github.com/rxtsel/dot/blob/hyprland/wallpapers/default.png",
         "type": "",
@@ -6433,7 +6415,7 @@
         "sorter": "",
         "id": ""
     },
-    "356github.comvincel": {
+    "___": {
         "text": "Orchis-theme",
         "link": "https://github.com/vinceliuice/Orchis-theme",
         "type": "",
@@ -6451,7 +6433,7 @@
         "sorter": "",
         "id": ""
     },
-    "357github.compineap": {
+    "___": {
         "text": "spaceduck - colortheme for nvim",
         "link": "https://github.com/pineapplegiant/spaceduck",
         "type": "",
@@ -6469,7 +6451,7 @@
         "sorter": "",
         "id": ""
     },
-    "358mmhaskell.common": {
+    "___": {
         "text": "Monads Series",
         "link": "https://mmhaskell.com/monads",
         "type": "",
@@ -6487,7 +6469,7 @@
         "sorter": "",
         "id": ""
     },
-    "359pushover.netpric": {
+    "___": {
         "text": "pushover",
         "link": "https://pushover.net/pricing",
         "type": "",
@@ -6505,7 +6487,7 @@
         "sorter": "",
         "id": ""
     },
-    "360nixpkgs.zulipcha": {
+    "___": {
         "text": "NixOS governance discussion",
         "link": "https://nixpkgs.zulipchat.com/#narrow/stream/435724-governance/topic/Fundamental.20Principles",
         "type": "",
@@ -6523,7 +6505,7 @@
         "sorter": "",
         "id": ""
     },
-    "361nixpkgs.zulipcha": {
+    "___": {
         "text": "NixOS Zulip",
         "link": "https://nixpkgs.zulipchat.com/",
         "type": "",
@@ -6541,7 +6523,7 @@
         "sorter": "",
         "id": ""
     },
-    "362libera.chat": {
+    "___": {
         "text": "libera.chat",
         "link": "https://libera.chat/",
         "type": "",
@@ -6559,7 +6541,7 @@
         "sorter": "",
         "id": ""
     },
-    "363libera.chatguide": {
+    "___": {
         "text": "Communication Guidelines",
         "link": "https://libera.chat/guides/catalyst",
         "type": "",
@@ -6577,7 +6559,7 @@
         "sorter": "",
         "id": ""
     },
-    "364www.reddit.comru": {
+    "___": {
         "text": "Fastfetch with image",
         "link": "https://www.reddit.com/r/unixporn/s/brxG0VoFgk",
         "type": "",
@@ -6595,7 +6577,7 @@
         "sorter": "",
         "id": ""
     },
-    "365www.youtube.comw": {
+    "___": {
         "text": "floorp video",
         "link": "https://www.youtube.com/watch?v=7DGkiMWDqE8",
         "type": "",
@@ -6613,7 +6595,7 @@
         "sorter": "",
         "id": ""
     },
-    "366www.youtube.comw": {
+    "___": {
         "text": "browser video",
         "link": "https://www.youtube.com/watch?v=5rLFYtXHo9s",
         "type": "",
@@ -6631,7 +6613,7 @@
         "sorter": "",
         "id": ""
     },
-    "367www.youtube.comw": {
+    "___": {
         "text": "browser video",
         "link": "https://www.youtube.com/watch?v=0IsQqJ7pwhw",
         "type": "",
@@ -6649,7 +6631,7 @@
         "sorter": "",
         "id": ""
     },
-    "368www.youtube.comw": {
+    "___": {
         "text": "FF history",
         "link": "https://www.youtube.com/watch?v=1qUlxXTp-ko",
         "type": "",
@@ -6667,7 +6649,7 @@
         "sorter": "",
         "id": ""
     },
-    "369www.youtube.comw": {
+    "___": {
         "text": "FF video",
         "link": "https://www.youtube.com/watch?v=7xvtz3pN_Sw",
         "type": "",
@@ -6685,7 +6667,7 @@
         "sorter": "",
         "id": ""
     },
-    "370www.youtube.comw": {
+    "___": {
         "text": "How AI Was Stolen",
         "link": "https://www.youtube.com/watch?v=BQTXv5jm6s4",
         "type": "",
@@ -6703,7 +6685,7 @@
         "sorter": "",
         "id": ""
     },
-    "371www.linuxlinks.c": {
+    "___": {
         "text": "GNU Typist",
         "link": "https://www.linuxlinks.com/gnutypist/",
         "type": "",
@@ -6721,7 +6703,7 @@
         "sorter": "",
         "id": ""
     },
-    "372minuet.kde.org)(": {
+    "___": {
         "text": "minuet",
         "link": "https://minuet.kde.org/), ( ) [solfege](https://www.gnu.org/software/solfege/solfege.html), [lenmus](https://sourceforge.net/projects/lenmus/",
         "type": "",
@@ -6739,7 +6721,7 @@
         "sorter": "",
         "id": ""
     },
-    "373www.youtube.comw": {
+    "___": {
         "text": "2024 Browser Tier List",
         "link": "https://www.youtube.com/watch?v=lGKonh65WiU",
         "type": "",
@@ -6757,7 +6739,7 @@
         "sorter": "",
         "id": ""
     },
-    "374www.cyberciti.bi": {
+    "___": {
         "text": "-> Linux: What is Dash ( /bin/dash ) Shell? - nixCraft",
         "link": "https://www.cyberciti.biz/faq/debian-ubuntu-linux-binbash-vs-bindash-vs-binshshell/",
         "type": "",
@@ -6775,7 +6757,7 @@
         "sorter": "",
         "id": ""
     },
-    "375www.nushell.shbo": {
+    "___": {
         "text": "-> book/",
         "link": "https://www.nushell.sh/book/",
         "type": "",
@@ -6793,7 +6775,7 @@
         "sorter": "",
         "id": ""
     },
-    "376elv.shlearn": {
+    "___": {
         "text": "-> elv.sh",
         "link": "https://elv.sh/learn/",
         "type": "",
@@ -6811,7 +6793,7 @@
         "sorter": "",
         "id": ""
     },
-    "377freedomlibrary.h": {
+    "___": {
         "text": "-> russia history",
         "link": "https://freedomlibrary.hillsdale.edu/programs/cca-i-russia/russia-from-1696-1917-an-overview",
         "type": "",
@@ -6829,7 +6811,7 @@
         "sorter": "",
         "id": ""
     },
-    "378gpt4all.ioindex.": {
+    "___": {
         "text": "-> gpt4all",
         "link": "https://gpt4all.io/index.html",
         "type": "",
@@ -6847,7 +6829,7 @@
         "sorter": "",
         "id": ""
     },
-    "379": {
+    "___": {
         "text": "Convert floating point in x1, y1, x2, y2 to int? (1→down, 2→up)? Saves storage and slightly expands the bbox (good thing)",
         "link": "",
         "type": "",
@@ -6865,7 +6847,7 @@
         "sorter": "",
         "id": ""
     },
-    "380cybernetist.com2": {
+    "___": {
         "text": "cybernetist.com/2024/04/25/go-or-rust-just-listen-to-the-bots/",
         "link": "https://cybernetist.com/2024/04/25/go-or-rust-just-listen-to-the-bots/",
         "type": "",
@@ -6883,7 +6865,7 @@
         "sorter": "",
         "id": ""
     },
-    "381debugpointnews.c": {
+    "___": {
         "text": "debugpointnews.com/nixbsd-freebsd/?amp=1",
         "link": "https://debugpointnews.com/nixbsd-freebsd/?amp=1",
         "type": "",
@@ -6901,7 +6883,7 @@
         "sorter": "",
         "id": ""
     },
-    "382discord.comchann": {
+    "___": {
         "text": "discord...",
         "link": "https://discord.com/channels/834325286664929280/834821523021758474/1232763301746966568",
         "type": "",
@@ -6919,7 +6901,7 @@
         "sorter": "",
         "id": ""
     },
-    "383kupfer.gitlab.io": {
+    "___": {
         "text": "kupfer.gitlab.io/",
         "link": "https://kupfer.gitlab.io/",
         "type": "",
@@ -6937,7 +6919,7 @@
         "sorter": "",
         "id": ""
     },
-    "384neurosciencenews": {
+    "___": {
         "text": "neurosciencenews.com/dopamine-mapping-neurotech-25975/",
         "link": "https://neurosciencenews.com/dopamine-mapping-neurotech-25975/",
         "type": "",
@@ -6955,7 +6937,7 @@
         "sorter": "",
         "id": ""
     },
-    "385open.spotify.com": {
+    "___": {
         "text": "open.spotify.com/show/6vEh6ZpQr1Eoeoz8TbsMKx?si=4H1KgFyCQ7eu9e571swDkA",
         "link": "https://open.spotify.com/show/6vEh6ZpQr1Eoeoz8TbsMKx?si=4H1KgFyCQ7eu9e571swDkA",
         "type": "",
@@ -6973,7 +6955,7 @@
         "sorter": "",
         "id": ""
     },
-    "386qsynth.sourcefor": {
+    "___": {
         "text": "qsynth.sourceforge.io/",
         "link": "https://qsynth.sourceforge.io/",
         "type": "",
@@ -6991,7 +6973,7 @@
         "sorter": "",
         "id": ""
     },
-    "387www.sarhne.com16": {
+    "___": {
         "text": "sarhne.com/1600546883462056",
         "link": "https://www.sarhne.com/1600546883462056",
         "type": "",
@@ -7009,7 +6991,7 @@
         "sorter": "",
         "id": ""
     },
-    "388www.smbc-comics.": {
+    "___": {
         "text": "smbc-comics.com/",
         "link": "https://www.smbc-comics.com/",
         "type": "",
@@ -7027,7 +7009,7 @@
         "sorter": "",
         "id": ""
     },
-    "389yoshimi.sourcefo": {
+    "___": {
         "text": "yoshimi.sourceforge.io/",
         "link": "https://yoshimi.sourceforge.io/",
         "type": "",
@@ -7045,7 +7027,7 @@
         "sorter": "",
         "id": ""
     },
-    "390aidoskyneen.eu": {
+    "___": {
         "text": "aidoskyneen.eu/",
         "link": "https://aidoskyneen.eu/",
         "type": "",
@@ -7063,7 +7045,7 @@
         "sorter": "",
         "id": ""
     },
-    "391aux.computer": {
+    "___": {
         "text": "aux.computer/",
         "link": "https://aux.computer/",
         "type": "",
@@ -7081,7 +7063,7 @@
         "sorter": "",
         "id": ""
     },
-    "392canonical-subiqu": {
+    "___": {
         "text": "canonical-subiquity.readthedocs-hosted.com/en/latest/intro-to-autoinstall.html",
         "link": "https://canonical-subiquity.readthedocs-hosted.com/en/latest/intro-to-autoinstall.html",
         "type": "",
@@ -7099,7 +7081,7 @@
         "sorter": "",
         "id": ""
     },
-    "393dataswamp.org~so": {
+    "___": {
         "text": "dataswamp solene workstation-going-stateless.html",
         "link": "https://dataswamp.org/~solene/2024-04-20-workstation-going-stateless.html",
         "type": "",
@@ -7117,7 +7099,7 @@
         "sorter": "",
         "id": ""
     },
-    "394drive.google.com": {
+    "___": {
         "text": "drive.google.com/file/d/1KIgI8U9kf0AbNYNpM07g9rViFpLDNXYu/view?usp=sharing",
         "link": "https://drive.google.com/file/d/1KIgI8U9kf0AbNYNpM07g9rViFpLDNXYu/view?usp=sharing",
         "type": "",
@@ -7135,7 +7117,7 @@
         "sorter": "",
         "id": ""
     },
-    "395economicsfromthe": {
+    "___": {
         "text": "nixing-technological-lock-in/",
         "link": "https://economicsfromthetopdown.com/2024/02/17/nixing-technological-lock-in/",
         "type": "",
@@ -7153,7 +7135,7 @@
         "sorter": "",
         "id": ""
     },
-    "396farbenfroh.io": {
+    "___": {
         "text": "farbenfroh.io/",
         "link": "https://farbenfroh.io/",
         "type": "",
@@ -7171,7 +7153,7 @@
         "sorter": "",
         "id": ""
     },
-    "397forum.aux.comput": {
+    "___": {
         "text": "forum.aux.computer/latest",
         "link": "https://forum.aux.computer/latest",
         "type": "",
@@ -7189,7 +7171,7 @@
         "sorter": "",
         "id": ""
     },
-    "398fosstodon.org@fr": {
+    "___": {
         "text": "fosstodon.org/@frameworkcomputer/112371823004642927",
         "link": "https://fosstodon.org/@frameworkcomputer/112371823004642927",
         "type": "",
@@ -7207,7 +7189,7 @@
         "sorter": "",
         "id": ""
     },
-    "399gitlab.gnome.org": {
+    "___": {
         "text": "gitlab.gnome.org/GNOME/gtk/-/blob/gtk-3-24/gtk/theme/Adwaita/_colors-public.scss",
         "link": "https://gitlab.gnome.org/GNOME/gtk/-/blob/gtk-3-24/gtk/theme/Adwaita/_colors-public.scss",
         "type": "",
@@ -7225,7 +7207,7 @@
         "sorter": "",
         "id": ""
     },
-    "400itsfoss.comthuna": {
+    "___": {
         "text": "itsfoss.com/thunar-tweaks/",
         "link": "https://itsfoss.com/thunar-tweaks/",
         "type": "",
@@ -7243,7 +7225,7 @@
         "sorter": "",
         "id": ""
     },
-    "401meyerweb.comeric": {
+    "___": {
         "text": "meyerweb.com/eric/tools/color-blend",
         "link": "https://meyerweb.com/eric/tools/color-blend",
         "type": "",
@@ -7261,7 +7243,7 @@
         "sorter": "",
         "id": ""
     },
-    "402open.spotify.com": {
+    "___": {
         "text": "open.spotify.com/episode/5KSB5id1TL546szZiwDiSM?si=uiI6v8LdSuav3v-JqJEQng",
         "link": "https://open.spotify.com/episode/5KSB5id1TL546szZiwDiSM?si=uiI6v8LdSuav3v-JqJEQng",
         "type": "",
@@ -7279,7 +7261,7 @@
         "sorter": "",
         "id": ""
     },
-    "403pwasforfirefox.f": {
+    "___": {
         "text": "pwasforfirefox.filips.si/",
         "link": "https://pwasforfirefox.filips.si/",
         "type": "",
@@ -7315,7 +7297,7 @@
         "sorter": "",
         "id": ""
     },
-    "405rheinneckar.soci": {
+    "___": {
         "text": "rheinneckar.social/@NixRust/111613794220902127",
         "link": "https://rheinneckar.social/@NixRust/111613794220902127",
         "type": "",
@@ -7333,7 +7315,7 @@
         "sorter": "",
         "id": ""
     },
-    "406rheinneckar.soci": {
+    "___": {
         "text": "rheinneckar.social/@hackerstolz",
         "link": "https://rheinneckar.social/@hackerstolz",
         "type": "",
@@ -7351,7 +7333,7 @@
         "sorter": "",
         "id": ""
     },
-    "407spacezero.source": {
+    "___": {
         "text": "spacezero.sourceforge.net/files/INSTALL",
         "link": "https://spacezero.sourceforge.net/files/INSTALL",
         "type": "",
@@ -7369,7 +7351,7 @@
         "sorter": "",
         "id": ""
     },
-    "408typst.appunivers": {
+    "___": {
         "text": "typst.app/universe/package/conchord",
         "link": "https://typst.app/universe/package/conchord",
         "type": "",
@@ -7387,7 +7369,7 @@
         "sorter": "",
         "id": ""
     },
-    "409www.maxthon.come": {
+    "___": {
         "text": "www.maxthon.com/en/",
         "link": "https://www.maxthon.com/en/",
         "type": "",
@@ -7405,7 +7387,7 @@
         "sorter": "",
         "id": ""
     },
-    "410www.rgbtohex.net": {
+    "___": {
         "text": "www.rgbtohex.net/",
         "link": "https://www.rgbtohex.net/",
         "type": "",
@@ -7423,7 +7405,7 @@
         "sorter": "",
         "id": ""
     },
-    "411www.yesodweb.com": {
+    "___": {
         "text": "www.yesodweb.com/book",
         "link": "https://www.yesodweb.com/book",
         "type": "",
@@ -7441,7 +7423,7 @@
         "sorter": "",
         "id": ""
     },
-    "412duckduckgo.com?q": {
+    "___": {
         "text": "→ duckduckgo.com",
         "link": "https://duckduckgo.com/?q%3Dcontent-addressed%2Bstorage%2Bin%2Bnix%26ia%3Dweb",
         "type": "",
@@ -7459,7 +7441,7 @@
         "sorter": "",
         "id": ""
     },
-    "413www.jsxc.orginst": {
+    "___": {
         "text": "",
         "link": "https://www.jsxc.org/installation.html#nextcloud",
         "type": "",
@@ -7477,7 +7459,7 @@
         "sorter": "",
         "id": ""
     },
-    "414github.comjgraph": {
+    "___": {
         "text": "",
         "link": "https://github.com/jgraph/drawio-nextcloud",
         "type": "",
@@ -7495,7 +7477,7 @@
         "sorter": "",
         "id": ""
     },
-    "415github.comACTomf": {
+    "___": {
         "text": "",
         "link": "https://github.com/ACTom/files_mindmap",
         "type": "",
@@ -7513,7 +7495,7 @@
         "sorter": "",
         "id": ""
     },
-    "416apps.nextcloud.c": {
+    "___": {
         "text": "",
         "link": "https://apps.nextcloud.com/apps/appointments",
         "type": "",
@@ -7531,7 +7513,7 @@
         "sorter": "",
         "id": ""
     },
-    "417github.comnextcl": {
+    "___": {
         "text": "",
         "link": "https://github.com/nextcloud/fulltextsearch",
         "type": "",
@@ -7549,7 +7531,7 @@
         "sorter": "",
         "id": ""
     },
-    "418apps.nextcloud.c": {
+    "___": {
         "text": "",
         "link": "https://apps.nextcloud.com/apps/ncdownloader",
         "type": "",
@@ -7567,7 +7549,7 @@
         "sorter": "",
         "id": ""
     },
-    "419apps.nextcloud.c": {
+    "___": {
         "text": "",
         "link": "https://apps.nextcloud.com/apps/carnet",
         "type": "",
@@ -7585,7 +7567,7 @@
         "sorter": "",
         "id": ""
     },
-    "420apps.nextcloud.c": {
+    "___": {
         "text": "",
         "link": "https://apps.nextcloud.com/apps/notes",
         "type": "",
@@ -7603,7 +7585,7 @@
         "sorter": "",
         "id": ""
     },
-    "421apps.nextcloud.c": {
+    "___": {
         "text": "",
         "link": "https://apps.nextcloud.com/apps/files_ebookreader",
         "type": "",
@@ -7621,7 +7603,7 @@
         "sorter": "",
         "id": ""
     },
-    "422apps.nextcloud.c": {
+    "___": {
         "text": "",
         "link": "https://apps.nextcloud.com/apps/libresign",
         "type": "",
@@ -7639,7 +7621,7 @@
         "sorter": "",
         "id": ""
     },
-    "423apps.nextcloud.c": {
+    "___": {
         "text": "",
         "link": "https://apps.nextcloud.com/apps/breezedark",
         "type": "",
@@ -7657,7 +7639,7 @@
         "sorter": "",
         "id": ""
     },
-    "424github.comnextcl": {
+    "___": {
         "text": "",
         "link": "https://github.com/nextcloud/theming_customcss",
         "type": "",
@@ -7675,7 +7657,7 @@
         "sorter": "",
         "id": ""
     },
-    "425library.lolmain1": {
+    "___": {
         "text": "-> Language Server Protocol and Implementation: Supporting Language-Smart Editing and Programming Tools",
         "link": "http://library.lol/main/17784F897F0B546E826B1B92846ECC7A",
         "type": "",
@@ -7693,7 +7675,7 @@
         "sorter": "",
         "id": ""
     },
-    "426library.lolmain8": {
+    "___": {
         "text": "-> Mastering JavaScript Functional Programming: Write clean, robust, and maintainable web and server code using functional JavaScript and TypeScript",
         "link": "http://library.lol/main/893641748E984949326D20FB2E64EF95",
         "type": "",
@@ -7711,7 +7693,7 @@
         "sorter": "",
         "id": ""
     },
-    "427github.comGabrie": {
+    "___": {
         "text": "",
         "link": "https://github.com/Gabriella439/nix-diff",
         "type": "",
@@ -7729,7 +7711,7 @@
         "sorter": "",
         "id": ""
     },
-    "428github.comstanda": {
+    "___": {
         "text": "",
         "link": "https://github.com/standard/standard",
         "type": "",
@@ -7747,7 +7729,7 @@
         "sorter": "",
         "id": ""
     },
-    "429github.comadrian": {
+    "___": {
         "text": "",
         "link": "https://github.com/adriancable/8086tiny",
         "type": "",
@@ -7765,7 +7747,7 @@
         "sorter": "",
         "id": ""
     },
-    "430": {
+    "___": {
         "text": "dwl install https://www.youtube.com/watch?v=OyXAl_EOAO8",
         "link": "",
         "type": "",
@@ -7783,7 +7765,7 @@
         "sorter": "",
         "id": ""
     },
-    "431github.comcodedo": {
+    "___": {
         "text": "",
         "link": "https://github.com/codedownio/codedown-languages - use for",
         "type": "",
@@ -7801,7 +7783,7 @@
         "sorter": "",
         "id": ""
     },
-    "432birdfont.org": {
+    "___": {
         "text": "",
         "link": "https://birdfont.org/",
         "type": "",
@@ -7819,7 +7801,7 @@
         "sorter": "",
         "id": ""
     },
-    "433github.comartems": {
+    "___": {
         "text": "",
         "link": "https://github.com/artemsen/swayimg $$$$$$$$$",
         "type": "",
@@ -7837,7 +7819,7 @@
         "sorter": "",
         "id": ""
     },
-    "434squawkhq.comgith": {
+    "___": {
         "text": "",
         "link": "https://squawkhq.com/  https://github.com/sbdchd/squawk",
         "type": "",
@@ -7855,7 +7837,7 @@
         "sorter": "",
         "id": ""
     },
-    "435smxi.orgdocsinxi": {
+    "___": {
         "text": "",
         "link": "https://smxi.org/docs/inxi.htm",
         "type": "",
@@ -7873,7 +7855,7 @@
         "sorter": "",
         "id": ""
     },
-    "436www.vultr.com": {
+    "___": {
         "text": "",
         "link": "https://www.vultr.com/",
         "type": "",
@@ -7891,7 +7873,7 @@
         "sorter": "",
         "id": ""
     },
-    "437github.comAlecad": {
+    "___": {
         "text": "",
         "link": "https://github.com/Alecaddd/taxi",
         "type": "",
@@ -7909,7 +7891,7 @@
         "sorter": "",
         "id": ""
     },
-    "438github.comwkenta": {
+    "___": {
         "text": "",
         "link": "https://github.com/wkentaro/gdown",
         "type": "",
@@ -7927,7 +7909,7 @@
         "sorter": "",
         "id": ""
     },
-    "439github.comnix-co": {
+    "___": {
         "text": "",
         "link": "https://github.com/nix-community/rnix-parser",
         "type": "",
@@ -7945,7 +7927,7 @@
         "sorter": "",
         "id": ""
     },
-    "440github.comkamado": {
+    "___": {
         "text": "",
         "link": "https://github.com/kamadorueda/nixel",
         "type": "",
@@ -7963,7 +7945,7 @@
         "sorter": "",
         "id": ""
     },
-    "441github.comjgmdjo": {
+    "___": {
         "text": "",
         "link": "https://github.com/jgm/djot.lua",
         "type": "",
@@ -7981,7 +7963,7 @@
         "sorter": "",
         "id": ""
     },
-    "442github.comjgmdjo": {
+    "___": {
         "text": "",
         "link": "https://github.com/jgm/djot.js",
         "type": "",
@@ -7999,7 +7981,7 @@
         "sorter": "",
         "id": ""
     },
-    "443github.comhellux": {
+    "___": {
         "text": "",
         "link": "https://github.com/hellux/jotdown",
         "type": "",
@@ -8017,7 +7999,7 @@
         "sorter": "",
         "id": ""
     },
-    "444hackage.haskell.": {
+    "___": {
         "text": "",
         "link": "https://hackage.haskell.org/package/pdf-toolbox-core",
         "type": "",
@@ -8035,7 +8017,7 @@
         "sorter": "",
         "id": ""
     },
-    "445hackage.haskell.": {
+    "___": {
         "text": "",
         "link": "https://hackage.haskell.org/package/fay",
         "type": "",
@@ -8053,7 +8035,7 @@
         "sorter": "",
         "id": ""
     },
-    "446github.comtweagm": {
+    "___": {
         "text": "",
         "link": "https://github.com/tweag/monad-bayes",
         "type": "",
@@ -8071,7 +8053,7 @@
         "sorter": "",
         "id": ""
     },
-    "447docs.haskellstac": {
+    "___": {
         "text": "",
         "link": "https://docs.haskellstack.org/en/stable/",
         "type": "",
@@ -8089,7 +8071,7 @@
         "sorter": "",
         "id": ""
     },
-    "448nix-ci.com": {
+    "___": {
         "text": "",
         "link": "https://nix-ci.com/",
         "type": "",
@@ -8107,7 +8089,7 @@
         "sorter": "",
         "id": ""
     },
-    "449github.comNorfai": {
+    "___": {
         "text": "",
         "link": "https://github.com/NorfairKing/centjes",
         "type": "",
@@ -8125,7 +8107,7 @@
         "sorter": "",
         "id": ""
     },
-    "450github.comNorfai": {
+    "___": {
         "text": "",
         "link": "https://github.com/NorfairKing/intray",
         "type": "",
@@ -8143,7 +8125,7 @@
         "sorter": "",
         "id": ""
     },
-    "451github.comNorfai": {
+    "___": {
         "text": "",
         "link": "https://github.com/NorfairKing/nix-pre-commit-hooks",
         "type": "",
@@ -8161,7 +8143,7 @@
         "sorter": "",
         "id": ""
     },
-    "452templates.cs-syd": {
+    "___": {
         "text": "",
         "link": "https://templates.cs-syd.eu/ https://github.com/NorfairKing/template-filler",
         "type": "",
@@ -8179,7 +8161,7 @@
         "sorter": "",
         "id": ""
     },
-    "453intray.eu": {
+    "___": {
         "text": "",
         "link": "https://intray.eu/",
         "type": "",
@@ -8197,7 +8179,7 @@
         "sorter": "",
         "id": ""
     },
-    "454tickler.cs-syd.e": {
+    "___": {
         "text": "",
         "link": "https://tickler.cs-syd.eu/",
         "type": "",
@@ -8215,7 +8197,7 @@
         "sorter": "",
         "id": ""
     },
-    "455github.comNorfai": {
+    "___": {
         "text": "",
         "link": "https://github.com/NorfairKing/sparep",
         "type": "",
@@ -8233,7 +8215,7 @@
         "sorter": "",
         "id": ""
     },
-    "456github.comNorfai": {
+    "___": {
         "text": "",
         "link": "https://github.com/NorfairKing/habitscipline",
         "type": "",
@@ -8251,7 +8233,7 @@
         "sorter": "",
         "id": ""
     },
-    "457": {
+    "___": {
         "text": "How does knowledge aggregation and distillation work? Can I develop systems and structures that add something to existing technologies? What would the ideal system for KD&A be?",
         "link": "",
         "type": "",
@@ -8269,7 +8251,7 @@
         "sorter": "",
         "id": ""
     },
-    "458": {
+    "___": {
         "text": "idea 1. Software to create an interactive progressive reader: running list of vocab/lemmata, grammar principles; get lemmatizers and parsers off the",
         "link": "",
         "type": "",
@@ -8287,7 +8269,7 @@
         "sorter": "",
         "id": ""
     },
-    "459": {
+    "___": {
         "text": "idea 2. make NixOS custom starter ISOs for my devices & scripts to build ISO from any given",
         "link": "",
         "type": "",
@@ -8305,7 +8287,7 @@
         "sorter": "",
         "id": ""
     },
-    "460": {
+    "___": {
         "text": "idea 3. Set up delilah cli test container in",
         "link": "",
         "type": "",
@@ -8323,7 +8305,7 @@
         "sorter": "",
         "id": ""
     },
-    "461": {
+    "___": {
         "text": "idea 4. add meal planning and workout planning to",
         "link": "",
         "type": "",
@@ -8341,7 +8323,7 @@
         "sorter": "",
         "id": ""
     },
-    "462github.comHexlet": {
+    "___": {
         "text": "->  Hexlet/awesome-lsp-servers",
         "link": "https://github.com/Hexlet/awesome-lsp-servers",
         "type": "",
@@ -8359,7 +8341,7 @@
         "sorter": "",
         "id": ""
     },
-    "463github.comjuspay": {
+    "___": {
         "text": "->  juspay/hyperswitch",
         "link": "https://github.com/juspay/hyperswitch",
         "type": "",
@@ -8377,7 +8359,7 @@
         "sorter": "",
         "id": ""
     },
-    "464github.comHaruzo": {
+    "___": {
         "text": "Haruzona/penguinFox",
         "link": "https://github.com/Haruzona/penguinFox",
         "type": "",
@@ -8395,7 +8377,7 @@
         "sorter": "",
         "id": ""
     },
-    "465github.comJaredk": {
+    "___": {
         "text": "Jaredk3nt/homepage",
         "link": "https://github.com/Jaredk3nt/homepage",
         "type": "",
@@ -8413,7 +8395,7 @@
         "sorter": "",
         "id": ""
     },
-    "466github.comLazyVi": {
+    "___": {
         "text": "LazyVim/LazyVim/discussions/1972",
         "link": "https://github.com/LazyVim/LazyVim/discussions/1972",
         "type": "",
@@ -8431,7 +8413,7 @@
         "sorter": "",
         "id": ""
     },
-    "467github.comMrVive": {
+    "___": {
         "text": "MrVivekRajan/Grub-Themes",
         "link": "https://github.com/MrVivekRajan/Grub-Themes",
         "type": "",
@@ -8449,7 +8431,7 @@
         "sorter": "",
         "id": ""
     },
-    "468github.comNishan": {
+    "___": {
         "text": "Nishantdd/miniFox",
         "link": "https://github.com/Nishantdd/miniFox",
         "type": "",
@@ -8467,7 +8449,7 @@
         "sorter": "",
         "id": ""
     },
-    "469github.comXN75Mi": {
+    "___": {
         "text": "XN75/MintConfig",
         "link": "https://github.com/XN75/MintConfig",
         "type": "",
@@ -8485,7 +8467,7 @@
         "sorter": "",
         "id": ""
     },
-    "470github.combnjbvr": {
+    "___": {
         "text": "bnjbvr/rouille",
         "link": "https://github.com/bnjbvr/rouille",
         "type": "",
@@ -8503,7 +8485,7 @@
         "sorter": "",
         "id": ""
     },
-    "471github.comcascad": {
+    "___": {
         "text": "cascadefox/cascade",
         "link": "https://github.com/cascadefox/cascade",
         "type": "",
@@ -8521,7 +8503,7 @@
         "sorter": "",
         "id": ""
     },
-    "472github.comcollin": {
+    "___": {
         "text": "collinalexbell/HackMatrix",
         "link": "https://github.com/collinalexbell/HackMatrix",
         "type": "",
@@ -8539,7 +8521,7 @@
         "sorter": "",
         "id": ""
     },
-    "473gist.github.comV": {
+    "___": {
         "text": "gist.github.com/Vertecedoc4545/3b077301299c20c5b9b4db00f4ca6000",
         "link": "https://gist.github.com/Vertecedoc4545/3b077301299c20c5b9b4db00f4ca6000",
         "type": "",
@@ -8557,7 +8539,7 @@
         "sorter": "",
         "id": ""
     },
-    "474hlop3z.github.io": {
+    "___": {
         "text": "hlop3z.github.io/interviews-python/",
         "link": "https://hlop3z.github.io/interviews-python/",
         "type": "",
@@ -8575,7 +8557,7 @@
         "sorter": "",
         "id": ""
     },
-    "475github.comiipeac": {
+    "___": {
         "text": "iipeace/guider",
         "link": "https://github.com/iipeace/guider",
         "type": "",
@@ -8593,7 +8575,7 @@
         "sorter": "",
         "id": ""
     },
-    "476github.comjonhoo": {
+    "___": {
         "text": "jonhoo/inferno",
         "link": "https://github.com/jonhoo/inferno",
         "type": "",
@@ -8611,7 +8593,7 @@
         "sorter": "",
         "id": ""
     },
-    "477github.comketsum": {
+    "___": {
         "text": "ketsumashu/nixx",
         "link": "https://github.com/ketsumashu/nixx",
         "type": "",
@@ -8629,7 +8611,7 @@
         "sorter": "",
         "id": ""
     },
-    "478llandy3d.github.": {
+    "___": {
         "text": "llandy3d.github.io/sway-on-ubuntu/",
         "link": "https://llandy3d.github.io/sway-on-ubuntu/",
         "type": "",
@@ -8647,7 +8629,7 @@
         "sorter": "",
         "id": ""
     },
-    "479github.commattka": {
+    "___": {
         "text": "mattkae/miracle-wm/releases/tag/v0.1.0",
         "link": "https://github.com/mattkae/miracle-wm/releases/tag/v0.1.0",
         "type": "",
@@ -8665,7 +8647,7 @@
         "sorter": "",
         "id": ""
     },
-    "480github.commiguer": {
+    "___": {
         "text": "migueravila/SimpleFox",
         "link": "https://github.com/migueravila/SimpleFox",
         "type": "",
@@ -8683,7 +8665,7 @@
         "sorter": "",
         "id": ""
     },
-    "481github.comoblivi": {
+    "___": {
         "text": "oblivikun",
         "link": "https://github.com/oblivikun",
         "type": "",
@@ -8701,7 +8683,7 @@
         "sorter": "",
         "id": ""
     },
-    "482github.comobsqrb": {
+    "___": {
         "text": "obsqrbtz/nixdots",
         "link": "https://github.com/obsqrbtz/nixdots",
         "type": "",
@@ -8719,7 +8701,7 @@
         "sorter": "",
         "id": ""
     },
-    "483github.comrefact": {
+    "___": {
         "text": "refact0r/midnight-discord",
         "link": "https://github.com/refact0r/midnight-discord",
         "type": "",
@@ -8737,7 +8719,7 @@
         "sorter": "",
         "id": ""
     },
-    "484github.comwasmer": {
+    "___": {
         "text": "wasmerio/py2wasm",
         "link": "https://github.com/wasmerio/py2wasm",
         "type": "",
@@ -8755,7 +8737,7 @@
         "sorter": "",
         "id": ""
     },
-    "485github.comwayblu": {
+    "___": {
         "text": "wayblueorg/wayblue/",
         "link": "https://github.com/wayblueorg/wayblue/",
         "type": "",
@@ -8773,7 +8755,7 @@
         "sorter": "",
         "id": ""
     },
-    "486github.comwouter": {
+    "___": {
         "text": "crystalruby",
         "link": "https://github.com/wouterken/crystalruby",
         "type": "",
@@ -8998,7 +8980,7 @@
         "sorter": "",
         "id": ""
     },
-    "498github.comcatppu": {
+    "___": {
         "text": "catppuccin",
         "link": "https://github.com/catppuccin/userstyles/issues/207",
         "type": "",
@@ -9106,7 +9088,7 @@
         "sorter": "",
         "id": ""
     },
-    "504github.commagnus": {
+    "___": {
         "text": "magnusKue",
         "link": "https://github.com/magnusKue/wal-switcher",
         "type": "",
@@ -9124,7 +9106,7 @@
         "sorter": "",
         "id": ""
     },
-    "505github.commattwp": {
+    "___": {
         "text": "mattwparas",
         "link": "https://github.com/mattwparas/steel",
         "type": "",
@@ -9142,7 +9124,7 @@
         "sorter": "",
         "id": ""
     },
-    "506github.commish1g": {
+    "___": {
         "text": "mish1git",
         "link": "https://github.com/mish1git/dotfileshyprland",
         "type": "",
@@ -9160,7 +9142,7 @@
         "sorter": "",
         "id": ""
     },
-    "507github.comnekowi": {
+    "___": {
         "text": "nekowinston",
         "link": "https://github.com/nekowinston/farbenfroh.io",
         "type": "",
@@ -9286,7 +9268,7 @@
         "sorter": "",
         "id": ""
     },
-    "514valentjn.github.": {
+    "___": {
         "text": "valentjn.github.io/ltex/index.html",
         "link": "https://valentjn.github.io/ltex/index.html",
         "type": "",
@@ -9304,7 +9286,7 @@
         "sorter": "",
         "id": ""
     },
-    "515newsletter.ruder": {
+    "___": {
         "text": "->  newsletter.ruder.io",
         "link": "https://newsletter.ruder.io/p/the-big-picture-of-ai-research",
         "type": "",
@@ -9706,7 +9688,7 @@
         "sorter": "",
         "id": ""
     },
-    "537codeberg.orgAnof": {
+    "___": {
         "text": "codeberg.org/Anofio/nvim/src/branch/main/lua/kiradzero/plugins/ui/alpha-nvim.lua",
         "link": "https://codeberg.org/Anofio/nvim/src/branch/main/lua/kiradzero/plugins/ui/alpha-nvim.lua",
         "type": "",
@@ -9724,7 +9706,7 @@
         "sorter": "",
         "id": ""
     },
-    "538www.marktechpost": {
+    "___": {
         "text": "kolmogorov-arnold-networks",
         "link": "https://www.marktechpost.com/2024/05/02/kolmogorov-arnold-networks-kans-a-new-era-of-interpretability-and-accuracy-in-deep-learning/",
         "type": "",
@@ -9742,7 +9724,7 @@
         "sorter": "",
         "id": ""
     },
-    "539www.marktechpost": {
+    "___": {
         "text": "www.marktechpost.com/2024/05/04/mit-researchers-propose-finch-a-new-programming-language-that-supports-both-flexible-control-flow-and-diverse-data-structures/",
         "link": "https://www.marktechpost.com/2024/05/04/mit-researchers-propose-finch-a-new-programming-language-that-supports-both-flexible-control-flow-and-diverse-data-structures/",
         "type": "",
@@ -9760,7 +9742,7 @@
         "sorter": "",
         "id": ""
     },
-    "540news.ycombinator": {
+    "___": {
         "text": "news.ycombinator.com/item?id=37555651",
         "link": "https://news.ycombinator.com/item?id=37555651",
         "type": "",
@@ -9778,7 +9760,7 @@
         "sorter": "",
         "id": ""
     },
-    "541news.ycombinator": {
+    "___": {
         "text": "news.ycombinator.com/item?id=40166912",
         "link": "https://news.ycombinator.com/item?id=40166912",
         "type": "",
@@ -9796,7 +9778,7 @@
         "sorter": "",
         "id": ""
     },
-    "542news.ycombinator": {
+    "___": {
         "text": "news.ycombinator.com/item?id=25446061",
         "link": "https://news.ycombinator.com/item?id=25446061",
         "type": "",
@@ -9814,7 +9796,7 @@
         "sorter": "",
         "id": ""
     },
-    "543news.ycombinator": {
+    "___": {
         "text": "news.ycombinator.com/item?id=38346862",
         "link": "https://news.ycombinator.com/item?id=38346862",
         "type": "",
@@ -9832,7 +9814,7 @@
         "sorter": "",
         "id": ""
     },
-    "544news.ycombinator": {
+    "___": {
         "text": "news.ycombinator.com/item?id=40200343",
         "link": "https://news.ycombinator.com/item?id=40200343",
         "type": "",
@@ -9850,7 +9832,7 @@
         "sorter": "",
         "id": ""
     },
-    "545": {
+    "___": {
         "text": "Nix-like dependency management, but with feature/symbol/function-based dependencies instead of version/hash-modulated dependency paradigm",
         "link": "",
         "type": "",
@@ -9868,7 +9850,7 @@
         "sorter": "",
         "id": ""
     },
-    "546save-nix-togethe": {
+    "___": {
         "text": "save-nix-together.org/",
         "link": "https://save-nix-together.org/",
         "type": "",
@@ -9886,7 +9868,7 @@
         "sorter": "",
         "id": ""
     },
-    "547pkl-lang.orginde": {
+    "___": {
         "text": "JSON alts for global-defs: nix, dhall, nickel, hcl, pkl-lang.org/index.html,",
         "link": "https://pkl-lang.org/index.html,",
         "type": "",
@@ -9906,7 +9888,7 @@
         "sorter": "",
         "id": ""
     },
-    "548": {
+    "___": {
         "text": "Write a parser in Haskell for a restricted subset of Nix, to use for colors and keybindings?",
         "link": "",
         "type": "",
@@ -9924,7 +9906,7 @@
         "sorter": "",
         "id": ""
     },
-    "549github.comhaskel": {
+    "___": {
         "text": "haskell-nix",
         "link": "https://github.com/haskell-nix/hnix",
         "type": "",
@@ -9942,7 +9924,7 @@
         "sorter": "",
         "id": ""
     },
-    "550github.comdhall-": {
+    "___": {
         "text": "dhall-lang/dhall-haskell/tree/main/dhall-nix",
         "link": "https://github.com/dhall-lang/dhall-haskell/tree/main/dhall-nix",
         "type": "",
@@ -9965,7 +9947,7 @@
         "sorter": "",
         "id": ""
     },
-    "551github.comdhall-": {
+    "___": {
         "text": "dhall-lang/dhall-haskell/tree/main/dhall-nix",
         "link": "https://github.com/dhall-lang/dhall-haskell/tree/main/dhall-nix",
         "type": "",
@@ -9988,7 +9970,7 @@
         "sorter": "",
         "id": ""
     },
-    "552search.nixos.org": {
+    "___": {
         "text": "-> tools NixOS Search - Packages - nix",
         "link": "https://search.nixos.org/packages?channel%3Dunstable%26from%3D0%26size%3D50%26sort%3Drelevance%26type%3Dpackages%26query%3Dnix",
         "type": "",
@@ -10007,7 +9989,7 @@
         "sorter": "",
         "id": ""
     },
-    "553nixos.orgmanualn": {
+    "___": {
         "text": "nixos.org/manual/nix/stable/command-ref/nix-copy-closure",
         "link": "https://nixos.org/manual/nix/stable/command-ref/nix-copy-closure",
         "type": "",
@@ -10026,7 +10008,7 @@
         "sorter": "",
         "id": ""
     },
-    "554determinate.syst": {
+    "___": {
         "text": "determinate.systems/posts/on-community-in-nix/",
         "link": "https://determinate.systems/posts/on-community-in-nix/",
         "type": "",
@@ -10044,7 +10026,7 @@
         "sorter": "",
         "id": ""
     },
-    "555johns.codesblogo": {
+    "___": {
         "text": "johns.codes/blog/organizing-system-configs-with-nixos",
         "link": "https://johns.codes/blog/organizing-system-configs-with-nixos",
         "type": "",
@@ -10062,7 +10044,7 @@
         "sorter": "",
         "id": ""
     },
-    "556discourse.nixos.": {
+    "___": {
         "text": "discourse.nixos.org/t/declare-firefox-extensions-and-settings/36265/14",
         "link": "https://discourse.nixos.org/t/declare-firefox-extensions-and-settings/36265/14",
         "type": "",
@@ -10080,7 +10062,7 @@
         "sorter": "",
         "id": ""
     },
-    "557gvolpe.comblogni": {
+    "___": {
         "text": "gvolpe.com/blog/nixos-binary-cache-ci/",
         "link": "https://gvolpe.com/blog/nixos-binary-cache-ci/",
         "type": "",
@@ -10098,7 +10080,7 @@
         "sorter": "",
         "id": ""
     },
-    "558github.comMeande": {
+    "___": {
         "text": "MeanderingProgrammer",
         "link": "https://github.com/MeanderingProgrammer/markdown.nvim",
         "type": "",
@@ -10116,7 +10098,7 @@
         "sorter": "",
         "id": ""
     },
-    "559github.come-qokc": {
+    "___": {
         "text": "e-q",
         "link": "https://github.com/e-q/okcolors.nvim",
         "type": "",
@@ -10134,7 +10116,7 @@
         "sorter": "",
         "id": ""
     },
-    "560github.comrktjmp": {
+    "___": {
         "text": "rktjmp",
         "link": "https://github.com/rktjmp/playtime.nvim",
         "type": "",
@@ -10152,7 +10134,7 @@
         "sorter": "",
         "id": ""
     },
-    "561github.comstevea": {
+    "___": {
         "text": "stevearc",
         "link": "https://github.com/stevearc/profile.nvim",
         "type": "",
@@ -10170,7 +10152,7 @@
         "sorter": "",
         "id": ""
     },
-    "562aidoskyneen.euim": {
+    "___": {
         "text": "Vanessa Hollmeier - Intro to Nix",
         "link": "https://aidoskyneen.eu/impure/Slides%20Introduction%20to%20Nix%20(Vanessa%20Hollmeier).pdf",
         "type": "",
@@ -10188,7 +10170,7 @@
         "sorter": "",
         "id": ""
     },
-    "563static.sched.com": {
+    "___": {
         "text": "Guider Talk",
         "link": "https://static.sched.com/hosted_files/ossna2024/c1/OSS_NA24_LinuxCon_Optimizing%20Linux%20Systems%20-%20Leveraging%20Guider%20for%20Advanced%20Performance%20Analysis%20and%20Monitoring.pdf",
         "type": "",
@@ -10206,7 +10188,7 @@
         "sorter": "",
         "id": ""
     },
-    "564hirrolot.github.": {
+    "___": {
         "text": "hirrolot.github.io/posts/announcing-beatrice.html",
         "link": "https://hirrolot.github.io/posts/announcing-beatrice.html",
         "type": "",
@@ -10224,7 +10206,7 @@
         "sorter": "",
         "id": ""
     },
-    "565vhyrro.github.io": {
+    "___": {
         "text": "vhyrro.github.io/posts/neorg-macros/",
         "link": "https://vhyrro.github.io/posts/neorg-macros/",
         "type": "",
@@ -10242,7 +10224,7 @@
         "sorter": "",
         "id": ""
     },
-    "566vhyrro.github.io": {
+    "___": {
         "text": "vhyrro.github.io/posts/neorg-macros/",
         "link": "https://vhyrro.github.io/posts/neorg-macros/",
         "type": "",
@@ -10260,7 +10242,7 @@
         "sorter": "",
         "id": ""
     },
-    "567www.reddit.comre": {
+    "___": {
         "text": "www.reddit.com/r/emacs/comments/1chepky/mu4e_look_and_feel/?rdt=52189",
         "link": "https://www.reddit.com/r/emacs/comments/1chepky/mu4e_look_and_feel/?rdt=52189",
         "type": "",
@@ -10279,7 +10261,7 @@
         "sorter": "",
         "id": ""
     },
-    "568www.reddit.comrq": {
+    "___": {
         "text": "www.reddit.com/r/qutebrowser/comments/u5iq2j/comment/i58rdsp/",
         "link": "https://www.reddit.com/r/qutebrowser/comments/u5iq2j/comment/i58rdsp/",
         "type": "",
@@ -10298,7 +10280,7 @@
         "sorter": "",
         "id": ""
     },
-    "569www.reddit.comrb": {
+    "___": {
         "text": "r/browsers/s/GuvHRD1Y1C",
         "link": "https://www.reddit.com/r/browsers/s/GuvHRD1Y1C",
         "type": "",
@@ -10316,7 +10298,7 @@
         "sorter": "",
         "id": ""
     },
-    "570www.reddit.comrc": {
+    "___": {
         "text": "www.reddit.com/r/commandline/s/1wozAMGjxH",
         "link": "https://www.reddit.com/r/commandline/s/1wozAMGjxH",
         "type": "",
@@ -10334,7 +10316,7 @@
         "sorter": "",
         "id": ""
     },
-    "571www.reddit.comrf": {
+    "___": {
         "text": "www.reddit.com/r/functionalprogramming/s/F7z9f1FLMF",
         "link": "https://www.reddit.com/r/functionalprogramming/s/F7z9f1FLMF",
         "type": "",
@@ -10352,7 +10334,7 @@
         "sorter": "",
         "id": ""
     },
-    "572www.reddit.comrg": {
+    "___": {
         "text": "www.reddit.com/r/golang/s/zHWWN0bErg",
         "link": "https://www.reddit.com/r/golang/s/zHWWN0bErg",
         "type": "",
@@ -10370,7 +10352,7 @@
         "sorter": "",
         "id": ""
     },
-    "573www.reddit.comrl": {
+    "___": {
         "text": "www.reddit.com/r/linux/s/aKHrKMiEz9",
         "link": "https://www.reddit.com/r/linux/s/aKHrKMiEz9",
         "type": "",
@@ -10388,7 +10370,7 @@
         "sorter": "",
         "id": ""
     },
-    "574www.reddit.comrn": {
+    "___": {
         "text": "www.reddit.com/r/neovim/s/Gys0LdTAzX",
         "link": "https://www.reddit.com/r/neovim/s/Gys0LdTAzX",
         "type": "",
@@ -10406,7 +10388,7 @@
         "sorter": "",
         "id": ""
     },
-    "575www.reddit.comrN": {
+    "___": {
         "text": "r/NixOS/s/F4Y7Sq0bTP",
         "link": "https://www.reddit.com/r/NixOS/s/F4Y7Sq0bTP",
         "type": "",
@@ -10424,7 +10406,7 @@
         "sorter": "",
         "id": ""
     },
-    "576np.reddit.comrun": {
+    "___": {
         "text": "-> np.reddit.com",
         "link": "https://np.reddit.com/r/unixporn/comments/obak1a/awesome_still_in_love_with_alpine/h3o2uuh/",
         "type": "",
@@ -10442,7 +10424,7 @@
         "sorter": "",
         "id": ""
     },
-    "577github.commrzool": {
+    "___": {
         "text": "-> mrzool/unix-as-ide: The ebook version of Tom Ryder's series on the Unix programming environment",
         "link": "https://github.com/mrzool/unix-as-ide",
         "type": "",
@@ -10460,7 +10442,7 @@
         "sorter": "",
         "id": ""
     },
-    "578github.comkcleje": {
+    "___": {
         "text": "kclejeune",
         "link": "https://github.com/kclejeune/system",
         "type": "",
@@ -10478,7 +10460,7 @@
         "sorter": "",
         "id": ""
     },
-    "579lix.systems": {
+    "___": {
         "text": "lix.systems/",
         "link": "https://lix.systems/",
         "type": "",
@@ -10496,7 +10478,7 @@
         "sorter": "",
         "id": ""
     },
-    "580www.marktechpost": {
+    "___": {
         "text": "flowmind",
         "link": "https://www.marktechpost.com/2024/04/24/jp-morgan-ai-research-introduces-flowmind-a-novel-machine-learning-approach-that-leverages-the-capabilities-of-llms-such-as-gpt-to-create-an-automatic-workflow-generation-system/",
         "type": "",
@@ -10514,7 +10496,7 @@
         "sorter": "",
         "id": ""
     },
-    "581nickel-lang.orgu": {
+    "___": {
         "text": "nickel-lang.org/user-manual/typing#type-system",
         "link": "https://nickel-lang.org/user-manual/typing#type-system",
         "type": "",
@@ -10532,7 +10514,7 @@
         "sorter": "",
         "id": ""
     },
-    "582cs.tvl.fyidepot-": {
+    "___": {
         "text": "cs.tvl.fyi/depot/-/tree/tvix",
         "link": "https://cs.tvl.fyi/depot/-/tree/tvix",
         "type": "",
@@ -10550,7 +10532,7 @@
         "sorter": "",
         "id": ""
     },
-    "583github.comse7en-": {
+    "___": {
         "text": "se7en-x230",
         "link": "https://github.com/se7en-x230/dotfiles_v2/tree/master",
         "type": "",
@@ -10568,7 +10550,7 @@
         "sorter": "",
         "id": ""
     },
-    "584github.comend-4d": {
+    "___": {
         "text": "end-4",
         "link": "https://github.com/end-4/dots-hyprland/tree/main",
         "type": "",
@@ -10589,7 +10571,7 @@
         "sorter": "",
         "id": ""
     },
-    "585github.comKyleGe": {
+    "___": {
         "text": "KyleGeil",
         "link": "https://github.com/KyleGeil/hyprdots/tree/main",
         "type": "",
@@ -10607,7 +10589,7 @@
         "sorter": "",
         "id": ""
     },
-    "586github.comKyleGe": {
+    "___": {
         "text": "KyleGeil",
         "link": "https://github.com/KyleGeil/hyprdots/tree/main",
         "type": "",
@@ -10625,7 +10607,7 @@
         "sorter": "",
         "id": ""
     },
-    "587wiki.archlinux.o": {
+    "___": {
         "text": "wiki.archlinux.org/title/Installation_guide",
         "link": "https://wiki.archlinux.org/title/Installation_guide",
         "type": "",
@@ -10643,7 +10625,7 @@
         "sorter": "",
         "id": ""
     },
-    "588wiki.hyprland.or": {
+    "___": {
         "text": "wiki.hyprland.org/Getting-Started/Installation/",
         "link": "https://wiki.hyprland.org/Getting-Started/Installation/",
         "type": "",
@@ -10661,7 +10643,7 @@
         "sorter": "",
         "id": ""
     },
-    "589imslp.orgwikiMai": {
+    "___": {
         "text": "-> * IMSLP: Free Sheet Music PDF Download",
         "link": "https://imslp.org/wiki/Main_Page",
         "type": "",
@@ -10680,7 +10662,7 @@
         "sorter": "",
         "id": ""
     },
-    "590www.youtube.com@": {
+    "___": {
         "text": "video",
         "link": "https://www.youtube.com/@Serokell/playlists",
         "type": "",
@@ -10698,7 +10680,7 @@
         "sorter": "",
         "id": ""
     },
-    "591www.youtube.comp": {
+    "___": {
         "text": "www.youtube.com/playlist?list=PLqq-6Pq4lTTYFJxC9NLJ7dSTI5Z1WWB6K",
         "link": "https://www.youtube.com/playlist?list=PLqq-6Pq4lTTYFJxC9NLJ7dSTI5Z1WWB6K",
         "type": "",
@@ -10716,7 +10698,7 @@
         "sorter": "",
         "id": ""
     },
-    "592www.youtube.comp": {
+    "___": {
         "text": "Advanced Functional Programming in Haskell",
         "link": "https://www.youtube.com/playlist?list=PLF1Z-APd9zK5uFc8FKr_di9bfsYv8-lbc",
         "type": "",
@@ -10734,7 +10716,7 @@
         "sorter": "",
         "id": ""
     },
-    "593": {
+    "___": {
         "text": "Haskell for Imperative Programmers #36 - Category Theory (Functors, Applicatives, Monads) - YouTube",
         "link": "",
         "type": "",
@@ -10755,7 +10737,7 @@
         "sorter": "",
         "id": ""
     },
-    "594www.youtube.comw": {
+    "___": {
         "text": "Functors Applicatives and Monads in Haskell - Part 1 (Functors)",
         "link": "https://www.youtube.com/watch?v=xCut-QT2cpI",
         "type": "",
@@ -10777,7 +10759,7 @@
         "sorter": "",
         "id": ""
     },
-    "595www.youtube.comw": {
+    "___": {
         "text": "Functors Applicatives and Monads in Haskell - Part 2 (Applicatives)",
         "link": "https://www.youtube.com/watch?v=CNOff5LPKQI&pp=ygUTaGFza2VsbCBhcHBsaWNhdGl2ZQ%3D%3D",
         "type": "",
@@ -10799,7 +10781,7 @@
         "sorter": "",
         "id": ""
     },
-    "596www.youtube.comw": {
+    "___": {
         "text": "Haskell: Applicative Functor",
         "link": "https://www.youtube.com/watch?v=4GcwM1Exu5o&pp=ygUTaGFza2VsbCBhcHBsaWNhdGl2ZQ%3D%3D",
         "type": "",
@@ -10821,7 +10803,7 @@
         "sorter": "",
         "id": ""
     },
-    "597www.youtube.comw": {
+    "___": {
         "text": "Zeiger und Referenzen in C www.youtube.com/watch?v=AmmMorti9Cg",
         "link": "https://www.youtube.com/watch?v=AmmMorti9Cg",
         "type": "videoAtom",
@@ -10839,7 +10821,7 @@
         "sorter": "",
         "id": ""
     },
-    "598m.youtube.comwat": {
+    "___": {
         "text": "...",
         "link": "https://m.youtube.com/watch?v=72y2EC5fkcE",
         "type": "videoAtom",
@@ -10857,7 +10839,7 @@
         "sorter": "",
         "id": ""
     },
-    "599m.youtube.comwat": {
+    "___": {
         "text": "...",
         "link": "https://m.youtube.com/watch?v=GVlPQjkb8SE",
         "type": "videoAtom",
@@ -10875,7 +10857,7 @@
         "sorter": "",
         "id": ""
     },
-    "600m.youtube.comwat": {
+    "___": {
         "text": "m.youtube.com/watch?v=kFw64hlJkoI",
         "link": "https://m.youtube.com/watch?v=kFw64hlJkoI",
         "type": "videoAtom",
@@ -10893,7 +10875,7 @@
         "sorter": "",
         "id": ""
     },
-    "601www.youtube.comw": {
+    "___": {
         "text": "www.youtube.com/watch?v=Jsmt4uaL1O8&pp=ygUTaGFza2VsbCBhcHBsaWNhdGl2ZQ%3D%3D",
         "link": "https://www.youtube.com/watch?v=Jsmt4uaL1O8&pp=ygUTaGFza2VsbCBhcHBsaWNhdGl2ZQ%3D%3D",
         "type": "videoAtom",
@@ -11110,7 +11092,7 @@
         "sorter": "",
         "id": ""
     },
-    "tecmint.com/be": {
+    "LinuxImageEditorList": {
         "text": "-> https://www.tecmint.com/best-image-photo-editors-for-linux/",
         "link": "",
         "type": "",
@@ -11182,7 +11164,7 @@
         "sorter": "",
         "id": ""
     },
-    "mmand groups: ": {
+    "ConsiliumSubcommandGroups": {
         "text": "consilium subcommand groups: declare, derive, journal, note, maintain (with aliases {} ++ [] :: ~~)",
         "link": "",
         "type": "",
@@ -11200,7 +11182,7 @@
         "sorter": "",
         "id": ""
     },
-    "sideration for": {
+    "SchedulingTwoStageIdea": {
         "text": "algorithmic consideration for scheduling: I should first compute a feasible schedule based on easy constraints, then follow a series of optimizations to move tasks according to score -> incremental approach is computationally faster and a brute-force search of the schedule space, and is still likely to yield very good results. Basic idea: make change if one score/metric can be improved without hurting others (or without decreasing some weighted global score), perhaps to find a pareto optimal schedule -> requires a number of metrics, i.e. score functions, which may be arbitrarily complex, but should ideally be reasonably fast to",
         "link": "",
         "type": "",
@@ -11451,7 +11433,7 @@
         "sorter": "",
         "id": ""
     },
-    "nch.github.io/bird-bench.githu": {
+    "BirdBench": {
         "text": "",
         "link": "https://bird-bench.github.io/",
         "type": "",
@@ -11491,7 +11473,7 @@
         "sorter": "",
         "id": ""
     },
-    "ge.mdaemon.comknowledge.mdaemo": {
+    "CaldavSyncArticle": {
         "text": "",
         "link": "https://knowledge.mdaemon.com/how-to-sync-calendars-and-tasks-using-caldav-sync-for-android-devices",
         "type": "",
@@ -11511,27 +11493,9 @@
         "sorter": "",
         "id": ""
     },
-    "e-taking app t": {
+    "WDNotes": {
         "text": "WD Notes (A note-taking app that syncs with any WebDAV server)",
-        "link": "",
-        "type": "",
-        "subtype": "",
-        "tags": [
-            ""
-        ],
-        "subtags": [],
-        "status": "toFix",
-        "dateCreated": "2024-05-31",
-        "dateModified": "2024-05-31",
-        "extra": {
-            "language": ""
-        },
-        "sorter": "",
-        "id": ""
-    },
-    "WDNOTES": {
-        "text": "    https://f-droid.org/packages/es.ideotec.wdnotes/]]",
-        "link": "",
+        "link": "https://f-droid.org/packages/es.ideotec.wdnotes/",
         "type": "",
         "subtype": "",
         "tags": [
@@ -11552,25 +11516,7 @@
     },
     "Davx5": {
         "text": "DAVx⁵ (CalDAV/CardDAV Synchronization and Client)",
-        "link": "",
-        "type": "",
-        "subtype": "",
-        "tags": [
-            ""
-        ],
-        "subtags": [],
-        "status": "toFix",
-        "dateCreated": "2024-05-31",
-        "dateModified": "2024-05-31",
-        "extra": {
-            "language": ""
-        },
-        "sorter": "",
-        "id": ""
-    },
-    "DAVDROID": {
-        "text": "    https://f-droid.org/packages/at.bitfire.davdroid/]]",
-        "link": "",
+        "link": "https://f-droid.org/packages/at.bitfire.davdroid/",
         "type": "",
         "subtype": "",
         "tags": [
@@ -11631,7 +11577,7 @@
         "sorter": "",
         "id": ""
     },
-    "timeto.me.apk ": {
+    "TimetoMeApp": {
         "text": "Received file: timeto.me.apk [https://matrix.org/_matrix/media/r0/download/matrix.org/LQzYdJRxglDLNjjdQjdqfhXe]",
         "link": "",
         "type": "",
@@ -11765,7 +11711,7 @@
         "sorter": "",
         "id": ""
     },
-    " Pro (Calendar": {
+    "___": {
         "text": "Simple Calendar Pro (Calendar 2023 widget for Android. Appointment scheduler, planner, and reminder)",
         "link": "",
         "type": "",
@@ -11803,7 +11749,7 @@
         "sorter": "",
         "id": ""
     },
-    "obiletools.comsimplemobiletool": {
+    "SimpleMobileTools": {
         "text": "",
         "link": "https://simplemobiletools.com/ android $$$$$$",
         "type": "",
@@ -11821,7 +11767,7 @@
         "sorter": "",
         "id": ""
     },
-    "s (Online rout": {
+    "GraphHopperMaps": {
         "text": "GraphHopper Maps (Online route planner and experimental GPS navigation)",
         "link": "",
         "type": "",
@@ -11860,7 +11806,7 @@
         "sorter": "",
         "id": ""
     },
-    "nisms: breaks,": {
+    "SchedulingMechanisms": {
         "text": "* [[other mechanisms: breaks, buffer time (small time variation), flextime (larger time block for arbitrary catch-up or activity from list of time-independent activities]]",
         "link": "",
         "type": "",
@@ -11879,7 +11825,7 @@
         "sorter": "",
         "id": ""
     },
-    "sms: breaks, b": {
+    "SchedulingMechanisms_DFGH": {
         "text": "[[other mechanisms: breaks, buffer time (small time variation), flextime (larger time block for arbitrary catch-up or activity from list of time-independent",
         "link": "",
         "type": "",
@@ -11897,7 +11843,7 @@
         "sorter": "",
         "id": ""
     },
-    "search ids? li": {
+    "FuzzySearchIds": {
         "text": "[[how to fuzzy-search ids? limit on tags & attributes, then do fuzzy search (edit distance or n-gram overlap) on all returned note text -> alternatively ''?'' wild-card id to signify that there should be a link, but I couldn't remember the id  ]]",
         "link": "",
         "type": "",
@@ -11960,7 +11906,7 @@
         "sorter": "",
         "id": ""
     },
-    "webdavServerAdSi": {
+    "___": {
         "text": "",
         "link": "https://github.com/ad-si/webdavServer",
         "type": "",
@@ -12068,7 +12014,7 @@
         "sorter": "",
         "id": ""
     },
-    "sagar.com/blogvaibhavsagar.com": {
+    "VaibhavSagarArticle": {
         "text": "",
         "link": "https://vaibhavsagar.com/blog/2017/08/13/i-haskell-a-git/",
         "type": "",
@@ -12151,7 +12097,7 @@
         "sorter": "",
         "id": ""
     },
-    "-developers.cowww.xda-develope": {
+    "___": {
         "text": "",
         "link": "https://www.xda-developers.com/x-best-free-alternatives-to-the-most-popular-paid-software/",
         "type": "",
@@ -12373,8 +12319,8 @@
         "sorter": "",
         "id": ""
     },
-    "e/poc4ctbnDYA?youtu.bepoc4ctbn": {
-        "text": "",
+    "ProductivityBooksVideo": {
+        "text": "I Read 107 Productivity Books. Here's What Actually Works.",
         "link": "https://youtu.be/poc4ctbnDYA?feature=shared ",
         "type": "",
         "subtype": "",
@@ -12453,7 +12399,7 @@
         "sorter": "",
         "id": ""
     },
-    "sarkar.net/posabhinavsarkar.ne": {
+    "JSONParsingFromScratchHaskell": {
         "text": "",
         "link": "https://abhinavsarkar.net/posts/json-parsing-from-scratch-in-haskell/",
         "type": "",
@@ -12474,7 +12420,7 @@
         "sorter": "",
         "id": ""
     },
-    "ium.ai/blog/wiwww.codium.aiblo": {
+    "AIProgJobArticle": {
         "text": "",
         "link": "https://www.codium.ai/blog/will-ai-take-over-your-programming-job/",
         "type": "",
@@ -12492,7 +12438,7 @@
         "sorter": "",
         "id": ""
     },
-    "dit.com/r/hyprwww.reddit.comrh": {
+    "HyprlandDiscussion_GHJK": {
         "text": "",
         "link": "https://www.reddit.com/r/hyprland/s/DwEodEMk2H",
         "type": "",
@@ -12511,8 +12457,8 @@
         "sorter": "",
         "id": ""
     },
-    "rs/search.php?libgen.rssearch.": {
-        "text": "",
+    "ProgLangBookSearch": {
+        "text": "Libgen books on programming languages",
         "link": "https://libgen.rs/search.php?&req=programming+languages&phrase=1&view=simple&column=def&sort=year&sortmode=DESC",
         "type": "",
         "subtype": "",
@@ -12530,11 +12476,11 @@
         "sorter": "",
         "id": ""
     },
-    "n.rs/book/inde": {
-        "text": "* https://libgen.rs/book/index.php?md5=DAEE1D13FD140052ABD1EAA3D861B389 book",
-        "link": "",
-        "type": "",
-        "subtype": "",
+    "IntroToProgLangsBook": {
+        "text": "An Introduction to Programming Languages: Simultaneous Learning in Multiple Coding Environments",
+        "link": "https://libgen.rs/book/index.php?md5=DAEE1D13FD140052ABD1EAA3D861B389",
+        "type": "readingSet",
+        "subtype": "book",
         "tags": [
             "proglang",
             "history",
@@ -12550,11 +12496,11 @@
         "sorter": "",
         "id": ""
     },
-    "ry.lol/main/DA": {
-        "text": "* https://library.lol/main/DA22B0292993361AA8F29958B7D731CF ",
-        "link": "",
-        "type": "",
-        "subtype": "",
+    "PeruginiBook": {
+        "text": "Programming Languages. Concepts and Implementations",
+        "link": "https://library.lol/main/DA22B0292993361AA8F29958B7D731CF",
+        "type": "readingSet",
+        "subtype": "book",
         "tags": [
             "book",
             "proglang",
@@ -12570,8 +12516,8 @@
         "sorter": "",
         "id": ""
     },
-    "???libgen.rsbookind": {
-        "text": "",
+    "ProgLangsPPBook": {
+        "text": "Programming Languages: Principles and Paradigms (2nd Edition)",
         "link": "https://libgen.rs/book/index.php?md5=4006048A5168499A3B5766C6D96EDB6B",
         "type": "",
         "subtype": "",
@@ -12589,7 +12535,7 @@
         "sorter": "",
         "id": ""
     },
-    ".lol/main/DA22library.lolmainD": {
+    "": {
         "text": "",
         "link": "https://library.lol/main/DA22B0292993361AA8F29958B7D731CF",
         "type": "",
@@ -12608,7 +12554,7 @@
         "sorter": "",
         "id": ""
     },
-    "????libgen.rsbookind": {
+    "": {
         "text": "",
         "link": "https://libgen.rs/book/index.php?md5=DAEE1D13FD140052ABD1EAA3D861B389",
         "type": "",
@@ -12726,7 +12672,7 @@
         "sorter": "",
         "id": ""
     },
-    "tering [[ basi": {
+    "ConsiliumTagSuggAlg": {
         "text": "[[ basic tag suggestion by computing most frequent tags  when tags A and B are present: p(C | A, B) (maybe only above sone frequency threshold) ]]",
         "link": "",
         "type": "",
@@ -12746,7 +12692,7 @@
         "sorter": "",
         "id": ""
     },
-    "nkdrop.app/t/hforum.inkdrop.ap": {
+    "InkdropAppDiscussion": {
         "text": "",
         "link": "https://forum.inkdrop.app/t/how-do-you-organize-notes/2545/9",
         "type": "",
@@ -12785,7 +12731,7 @@
         "sorter": "",
         "id": ""
     },
-    "m.com/geekcultmedium.comgeekcu": {
+    "OptimizedNoteTaking": {
         "text": "[[use a hack to read this]]",
         "link": "https://medium.com/geekculture/optimized-note-taking-9d663eec898c",
         "type": "",
@@ -12824,7 +12770,7 @@
         "sorter": "",
         "id": ""
     },
-    " in double squ": {
+    "ConsiliumMatrixSyntax": {
         "text": "[[ syntax: text in double square brackets, tags comma-separated, attributes, other attributes with a colon, as attrName:attrValue, extra attrs prefixed by '&', rating prefix-optional (e.g. *****), status using single-letter code ]]",
         "link": "",
         "type": "",
@@ -12928,7 +12874,7 @@
         "sorter": "",
         "id": ""
     },
-    "hms for sugges": {
+    "ConsiliumIdeaTagSugg": {
         "text": "[[ make algorithms for suggesting tags based on text and pre-existing tags ]]",
         "link": "",
         "type": "",
@@ -12950,7 +12896,7 @@
         "sorter": "",
         "id": ""
     },
-    "phisticated JS": {
+    "JSONDiffIdea": {
         "text": "[[ integrate sophisticated JSON-diffing tools and algorithms -> search for available software and algorithms I can use ]]",
         "link": "",
         "type": "",
@@ -12972,7 +12918,7 @@
         "sorter": "",
         "id": ""
     },
-    " history to ne": {
+    "ConsiliumBuiltInHistory": {
         "text": "[[ add built-in history to nebokrai declaration to track and visualize how my long-term goals and plans have evolved ]]",
         "link": "",
         "type": "",
@@ -13036,7 +12982,7 @@
         "sorter": "",
         "id": ""
     },
-    "udwards.net/whwww.cloudwards.n": {
+    "WebdavArticle_TYPG": {
         "text": "",
         "link": "https://www.cloudwards.net/what-is-webdav/ ",
         "type": "",
@@ -13094,7 +13040,7 @@
         "sorter": "",
         "id": ""
     },
-    "pp.org/help/apjoplinapp.orghel": {
+    "JoplinWebdav": {
         "text": "",
         "link": "https://joplinapp.org/help/apps/sync/webdav",
         "type": "",
@@ -13316,7 +13262,7 @@
         "sorter": "",
         "id": ""
     },
-    "tack.io/meet-gthenewstack.iome": {
+    "GrainLangIntro": {
         "text": "",
         "link": "https://thenewstack.io/meet-grain-the-high-level-language-optimized-for-webassembly/",
         "type": "",
@@ -13336,8 +13282,8 @@
         "sorter": "",
         "id": ""
     },
-    "rs/book/index.libgen.rsbookind": {
-        "text": "",
+    "FreierWilleBuch": {
+        "text": "Illusion freier Wille?: Grenzen einer empirischen Annäherung an ein philosophisches Problem",
         "link": "https://libgen.rs/book/index.php?md5=BD32537EDBAD3B772230218B05A38C9F",
         "type": "",
         "subtype": "",
@@ -13356,7 +13302,7 @@
         "sorter": "",
         "id": ""
     },
-    "ep track of th": {
+    "DailyDozenApp": {
         "text": "Daily Dozen (Keep track of the foods that Dr Greger recommends in his book How Not to Die)",
         "link": "",
         "type": "",
@@ -13415,7 +13361,7 @@
         "sorter": "",
         "id": ""
     },
-    "ivity Tracker ": {
+    "AATApp": {
         "text": "AAT Another Activity Tracker (GPS-tracking application for sportive activities, with emphasis on cycling.)",
         "link": "",
         "type": "",
@@ -13690,27 +13636,9 @@
         "sorter": "",
         "id": ""
     },
-    "s app built fo": {
+    "SaberApp": {
         "text": "Saber (The notes app built for handwriting)",
-        "link": "",
-        "type": "",
-        "subtype": "",
-        "tags": [
-            ""
-        ],
-        "subtags": [],
-        "status": "toFix",
-        "dateCreated": "2024-05-31",
-        "dateModified": "2024-05-31",
-        "extra": {
-            "language": ""
-        },
-        "sorter": "",
-        "id": ""
-    },
-    "Saber": {
-        "text": "    https://f-droid.org/packages/com.adilhanney.saber/",
-        "link": "",
+        "link": "https://f-droid.org/packages/com.adilhanney.saber/",
         "type": "",
         "subtype": "",
         "tags": [
@@ -13788,7 +13716,7 @@
         "sorter": "",
         "id": ""
     },
-    ".org/ #proglanjsonnet.org": {
+    "Jsonnet": {
         "text": "",
         "link": "https://jsonnet.org/",
         "type": "",
@@ -13865,7 +13793,7 @@
         "sorter": "",
         "id": ""
     },
-    " to add a star": {
+    "StartupWrapperScriptIdea": {
         "text": "I need to add a startup wrapper script for each termulator to set the TERMINAL_NAME envvar -> important for image protocol commands, mpl, ipython,",
         "link": "",
         "type": "",
@@ -13903,7 +13831,7 @@
         "sorter": "",
         "id": ""
     },
-    "d.space/pub/rcgit.mccd.spacepu": {
+    "DotsMccd": {
         "text": "",
         "link": "https://git.mccd.space/pub/rcm/",
         "type": "",
@@ -13921,8 +13849,8 @@
         "sorter": "",
         "id": ""
     },
-    "d.space/pub/stgit.mccd.spacepu": {
-        "text": "",
+    "StitchNotes": {
+        "text": "stitch: Note Managing for Messy Minimalists",
         "link": "https://git.mccd.space/pub/stitch/about/ rating:*******",
         "type": "",
         "subtype": "",
@@ -14129,27 +14057,9 @@
         "sorter": "",
         "id": ""
     },
-    "featured email": {
+    "K9Mail": {
         "text": "K-9 Mail (Full-featured email client)",
-        "link": "",
-        "type": "",
-        "subtype": "",
-        "tags": [
-            ""
-        ],
-        "subtags": [],
-        "status": "toFix",
-        "dateCreated": "2024-05-31",
-        "dateModified": "2024-05-31",
-        "extra": {
-            "language": ""
-        },
-        "sorter": "",
-        "id": ""
-    },
-    "K9": {
-        "text": "    https://f-droid.org/packages/com.fsck.k9/",
-        "link": "",
+        "link": "https://f-droid.org/packages/com.fsck.k9/",
         "type": "",
         "subtype": "",
         "tags": [
@@ -14187,27 +14097,9 @@
         "sorter": "",
         "id": ""
     },
-    "re and organiz": {
-        "text": "Movie DB (Explore and organize your personal collection of movies and tv shows)",
-        "link": "",
-        "type": "",
-        "subtype": "",
-        "tags": [
-            ""
-        ],
-        "subtags": [],
-        "status": "toFix",
-        "dateCreated": "2024-05-31",
-        "dateModified": "2024-05-31",
-        "extra": {
-            "language": ""
-        },
-        "sorter": "",
-        "id": ""
-    },
     "AndroidMovieDB": {
-        "text": "    https://f-droid.org/packages/com.wirelessalien.android.moviedb/",
-        "link": "",
+        "text": "Movie DB (Explore and organize your personal collection of movies and tv shows)",
+        "link": "https://f-droid.org/packages/com.wirelessalien.android.moviedb/",
         "type": "",
         "subtype": "",
         "tags": [
@@ -14397,7 +14289,7 @@
         "sorter": "",
         "id": ""
     },
-    "ox.io/python-oobjectbox.iopyth": {
+    "ObjectboxOnDeviceAI": {
         "text": "",
         "link": "https://objectbox.io/python-on-device-vector-and-object-database-for-local-ai/",
         "type": "",
@@ -14767,7 +14659,7 @@
         "sorter": "",
         "id": ""
     },
-    "tti.me/parsingtomassetti.mepar": {
+    "ParsingInPython": {
         "text": "Parsing in Python",
         "link": "https://tomassetti.me/parsing-in-python/",
         "type": "",
@@ -14857,8 +14749,8 @@
         "sorter": "",
         "id": ""
     },
-    "n/grammar.md agithub.comjbranc": {
-        "text": "jbranchaud/js-play",
+    "JsPlayGrammarc": {
+        "text": "",
         "link": "https://github.com/jbranchaud/js-play/blob/master/Markdown/grammar.md",
         "type": "",
         "subtype": "",
@@ -14929,7 +14821,7 @@
         "sorter": "",
         "id": ""
     },
-    "pg (JPEG Imageics.uci.edu~patt": {
+    "FavoriteGraph": {
         "text": "favoritegraph.jpg (JPEG Image, 2381 × 3151 pixels) — Scaled (28%)",
         "link": "https://ics.uci.edu/~pattis/images/favoritegraph.jpg",
         "type": "",
@@ -14947,7 +14839,7 @@
         "sorter": "",
         "id": ""
     },
-    "y unavoidable github.comelythh": {
+    "NixDotsElythh": {
         "text": "elythh/flake: my unavoidable system configuration",
         "link": "https://github.com/elythh/flake",
         "type": "",
@@ -15019,7 +14911,7 @@
         "sorter": "",
         "id": ""
     },
-    "xt(Gen) OS - R": {
+    "RedoxOS": {
         "text": "Redox - Your Next(Gen) OS - Redox - Your Next(Gen) OS https://www.redox-os.org/",
         "link": "",
         "type": "",
@@ -15037,7 +14929,7 @@
         "sorter": "",
         "id": ""
     },
-    "s: Writing an ": {
+    "PhilOppOSInRust": {
         "text": "phil-opp/blog_os: Writing an OS in Rust https://github.com/phil-opp/blog_os",
         "link": "",
         "type": "",
@@ -15091,9 +14983,9 @@
         "sorter": "",
         "id": ""
     },
-    ": Spring 2024 ": {
-        "text": "6.5840 Schedule: Spring 2024 https://pdos.csail.mit.edu/6.824/schedule.html",
-        "link": "",
+    "DistSystCourse": {
+        "text": "Distributed Systems 6.5840 Schedule: Spring 2024 ",
+        "link": "https://pdos.csail.mit.edu/6.824/schedule.html",
         "type": "",
         "subtype": "",
         "tags": [
@@ -15127,9 +15019,9 @@
         "sorter": "",
         "id": ""
     },
-    ": Ronald Petty": {
-        "text": "Library Genesis: Ronald Petty and Jan Newmarch - Network Programming with Go Language http://libgen.rs/book/index.php?md5=1201770C08778A112C8E80E29F2A0AFC",
-        "link": "",
+    "NetworkProgWithGo": {
+        "text": "Library Genesis: Ronald Petty and Jan Newmarch - Network Programming with Go Language",
+        "link": "http://libgen.rs/book/index.php?md5=1201770C08778A112C8E80E29F2A0AFC",
         "type": "",
         "subtype": "",
         "tags": [
@@ -15145,9 +15037,9 @@
         "sorter": "",
         "id": ""
     },
-    " of the canoni": {
-        "text": "Is there a list of the canonical introductory textbooks covering the major branches of computer science? : r/compsci https://www.reddit.com/r/compsci/comments/gprp0/is_there_a_list_of_the_canonical_introductory/",
-        "link": "",
+    "IntroCSBooks": {
+        "text": "Is there a list of the canonical introductory textbooks covering the major branches of computer science? : r/compsci ",
+        "link": "https://www.reddit.com/r/compsci/comments/gprp0/is_there_a_list_of_the_canonical_introductory/",
         "type": "",
         "subtype": "",
         "tags": [
@@ -15163,9 +15055,9 @@
         "sorter": "",
         "id": ""
     },
-    "Brml - Home Pa": {
-        "text": "David Barber : Brml - Home Page browse http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.HomePage",
-        "link": "",
+    "DavidBarberHomepage": {
+        "text": "David Barber : Brml - Home Page browse",
+        "link": "http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.HomePage",
         "type": "",
         "subtype": "",
         "tags": [
@@ -15182,8 +15074,8 @@
         "id": ""
     },
     "NETWORKBEEJ": {
-        "text": "Beej's Guide to Network Programming https://beej.us/guide/bgnet/html/split/",
-        "link": "",
+        "text": "Beej's Guide to Network Programming",
+        "link": "https://beej.us/guide/bgnet/html/split",
         "type": "",
         "subtype": "",
         "tags": [
@@ -15199,9 +15091,9 @@
         "sorter": "",
         "id": ""
     },
-    "SMARTQUESTIONS": {
-        "text": "How To Ask Questions The Smart Way http://www.catb.org/~esr/faqs/smart-questions.html",
-        "link": "",
+    "SmartQuestionsBeej": {
+        "text": "How To Ask Questions The Smart Way",
+        "link": "http://www.catb.org/~esr/faqs/smart-questions.html",
         "type": "",
         "subtype": "",
         "tags": [
@@ -15217,7 +15109,7 @@
         "sorter": "",
         "id": ""
     },
-    "NETWORKBEEJ2": {
+    "BeejNetworkGuide": {
         "text": "Beej's Guide to Network Programming https://beej.us/guide/bgnet/html/split/index.html",
         "link": "",
         "type": "",
@@ -15235,7 +15127,7 @@
         "sorter": "",
         "id": ""
     },
-    "BEEJ": {
+    "BeejWebsite": {
         "text": "Beej's Web Page https://beej.us/",
         "link": "",
         "type": "",
@@ -15253,7 +15145,7 @@
         "sorter": "",
         "id": ""
     },
-    "opt Abseil? ht": {
+    "WhyAdoptAbseil": {
         "text": "abseil / Why Adopt Abseil? https://abseil.io/about/philosophy#upgrade-support",
         "link": "",
         "type": "",
@@ -15560,8 +15452,8 @@
         "sorter": "",
         "id": ""
     },
-    "": {
-        "text": "",
+    "SearchBuildYourOwn": {
+        "text": "build your own smith",
         "link": "https://libgen.rs/search.php?req=build+your+own+smith&open=0&res=25&view=simple&phrase=1&column=def",
         "type": "",
         "subtype": "",
@@ -15578,7 +15470,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "DSLParserJS": {
         "text": "javascript - Creating a DSL expressions parser / rules engine - Stack Overflow",
         "link": "https://stackoverflow.com/questions/62643102/creating-a-dsl-expressions-parser-rules-engine",
         "type": "",
@@ -15596,7 +15488,7 @@
         "sorter": "",
         "id": ""
     },
-    "ASTEXPLORER": {
+    "AstExplorer": {
         "text": "AST explorer",
         "link": "https://astexplorer.net/#/gist/4555ca767bf04e4663201606b2473ca2/09e3351224be731fbe7a57b9a5722800e1cd1ba1",
         "type": "",
@@ -15614,7 +15506,7 @@
         "sorter": "",
         "id": ""
     },
-    "KISKAE": {
+    "Kiskae": {
         "text": "kiskae",
         "link": "https://github.com/Kiskae",
         "type": "",
@@ -15632,7 +15524,7 @@
         "sorter": "",
         "id": ""
     },
-    "LOLCOMMITS": {
+    "Lolcommits": {
         "text": "lolcommits",
         "link": "https://github.com/lolcommits/lolcommits",
         "type": "",
@@ -15650,7 +15542,7 @@
         "sorter": "",
         "id": ""
     },
-    "UNDOTREE": {
+    "Undotree": {
         "text": "undotree",
         "link": "https://github.com/jiaoshijie/undotree",
         "type": "",
@@ -15668,7 +15560,7 @@
         "sorter": "",
         "id": ""
     },
-    "ASTRANOTE": {
+    "Astranote": {
         "text": "",
         "link": "https://astranote.ai/",
         "type": "",
@@ -15704,7 +15596,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "SuperSandro2000": {
         "text": "",
         "link": "https://github.com/SuperSandro2000",
         "type": "",
@@ -15758,7 +15650,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "DotsUnwiredfromreality": {
         "text": "",
         "link": "https://github.com/unwiredfromreality/dots-and-stuff",
         "type": "",
@@ -15776,8 +15668,8 @@
         "sorter": "",
         "id": ""
     },
-    "": {
-        "text": "",
+    "Kompad": {
+        "text": "kompad",
         "link": "https://github.com/hudy9x/kompad",
         "type": "",
         "subtype": "",
@@ -15816,7 +15708,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "DotsParkerwise": {
         "text": "",
         "link": "https://github.com/Parkerwise/dotfiles",
         "type": "",
@@ -15834,7 +15726,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "AzurePlasmaThemes": {
         "text": "",
         "link": "https://github.com/L4ki/Azure-Plasma-Themes",
         "type": "",
@@ -15852,7 +15744,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "Jnv": {
         "text": "",
         "link": "https://github.com/ynqa/jnv",
         "type": "",
@@ -15870,7 +15762,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "LspAi": {
         "text": "",
         "link": "https://github.com/SilasMarvin/lsp-ai",
         "type": "",
@@ -15888,7 +15780,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "QuickCodeRunnerNvim": {
         "text": "",
         "link": "https://github.com/jellydn/quick-code-runner.nvim",
         "type": "",
@@ -15906,7 +15798,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "Sixkcd": {
         "text": "",
         "link": "https://github.com/ChausseBenjamin/sixkcd",
         "type": "",
@@ -15924,7 +15816,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "Xlotus": {
         "text": "scripts",
         "link": "https://github.com/warrior0x7/xlotus",
         "type": "",
@@ -15942,8 +15834,8 @@
         "sorter": "",
         "id": ""
     },
-    "": {
-        "text": " [i3] Everforest Dark/Light (and others themes)",
+    "I3Everforest": {
+        "text": "[i3] Everforest Dark/Light (and others themes)",
         "link": "",
         "type": "",
         "subtype": "",
@@ -15960,7 +15852,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "DotsRemyIsCool": {
         "text": "",
         "link": "https://github.com/RemyIsCool/arch-dotfiles",
         "type": "",
@@ -15978,7 +15870,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "MarCLIdown": {
         "text": "MarCLIdown: A decent way to render markdown files directly in your linux terminal.",
         "link": "",
         "type": "",
@@ -15996,7 +15888,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "WaypaperXHyprpaper": {
         "text": "Waypaper now supports hyprpaper!",
         "link": "https://www.reddit.com/r/hyprland/s/e81He9nY2S",
         "type": "",
@@ -16014,7 +15906,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "VirgilLang": {
         "text": "titzer/virgil: A fast and lightweight native programming language",
         "link": "https://github.com/titzer/virgil?utm_source=the+new+stack&utm_medium=referral&utm_content=inline-mention&utm_campaign=tns+platform",
         "type": "",
@@ -16032,7 +15924,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "DotsHyprlandGreeter": {
         "text": "hyprland dots greeter",
         "link": "https://github.com/debechu/dotfiles",
         "type": "",
@@ -16050,7 +15942,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "SearchBuildYourOwn_FGHR": {
         "text": "",
         "link": "https://libgen.rs/search.php?&req=build+your+own&phrase=1&view=simple&column=def&sort=year&sortmode=DESC",
         "type": "",
@@ -16068,7 +15960,7 @@
         "sorter": "",
         "id": ""
     },
-    "webx": {
+    "Webx": {
         "text": "face-hh/webx: An alternative for the World Wide Web - browse websites such as buss://yippie.rizz made in HTML, CSS and Lua. Custom web browser, custom HTML rendering engine, custom search engine, and more.",
         "link": "https://github.com/face-hh/webx",
         "type": "",
@@ -16086,7 +15978,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "CmdPolkit": {
         "text": "polkit",
         "link": "https://github.com/OmarCastro/cmd-polkit",
         "type": "",
@@ -16104,7 +15996,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "ColorConverterReddit": {
         "text": "[OC] Color converter: hex, rgb, 0-255 terminal color",
         "link": "https://www.reddit.com/r/unixporn/s/3venoyCFtw",
         "type": "",
@@ -16122,7 +16014,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "DotsFishbowl84": {
         "text": "",
         "link": "https://github.com/fishbowl84/archdots2",
         "type": "",
@@ -16140,7 +16032,7 @@
         "sorter": "",
         "id": ""
     },
-    "SANSIO": {
+    "SansIO": {
         "text": "Network protocols, sans I/O — Sans I/O 1.0.0 documentation",
         "link": "https://sans-io.readthedocs.io/",
         "type": "",
@@ -16158,7 +16050,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "RedditUnixpornHyprland_DFJR": {
         "text": "“Where there's life there's hope.” [Hyprland]",
         "link": "https://www.reddit.com/r/unixporn/s/YyMwtebYfm",
         "type": "",
@@ -16176,7 +16068,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "RedditUnixporn_DFTK": {
         "text": "[GNOME] Basic, but stylish",
         "link": "https://www.reddit.com/r/unixporn/s/DGqaR6RJXZ",
         "type": "",
@@ -16194,7 +16086,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "LetsBuildACompiler": {
         "text": "Jack W. Crenshaw - Let’s build a Compiler",
         "link": "https://libgen.rs/book/index.php?md5=D007CAD34319D4BF9D624DF7679DF627",
         "type": "",
@@ -16212,7 +16104,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "HTTPServerFromScratchInC": {
         "text": "How I Built a Simple HTTP Server from Scratch using C - DEV Community",
         "link": "https://dev.to/jeffreythecoder/how-i-built-a-simple-http-server-from-scratch-using-c-739",
         "type": "",
@@ -16230,7 +16122,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "DotfilesRepcake": {
         "text": "",
         "link": "https://github.com/Repcake/.dotfiles",
         "type": "",
@@ -16250,7 +16142,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "LineageFP4Upgrade": {
         "text": "Upgrade LineageOS on FP4 | LineageOS Wiki",
         "link": "https://wiki.lineageos.org/devices/FP4/upgrade/",
         "type": "",
@@ -16268,7 +16160,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "I3Antiwayland": {
         "text": "[i3] Imagine using wayland 🤮",
         "link": "https://www.reddit.com/r/unixporn/s/YRb7gFxao7",
         "type": "",
@@ -16286,7 +16178,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "PkmsNotesApp": {
         "text": "[r/PKMS] Two of us built a more productive notes app over 5 years. Looking for feedback, AMA",
         "link": "https://www.reddit.com/r/PKMS/s/8luA9G3CnD",
         "type": "",
@@ -16304,7 +16196,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "ConsiliumFoodIdeas": {
         "text": "How to add food to consilium command hierarchy? Keep with each relevant category, with appropriate subsubcommands and attributes. -> food is its own part of plan, schedule, etc -> do same for clothes",
         "link": "",
         "type": "",
@@ -16322,7 +16214,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "IdeaCodeiumNvim": {
         "text": " Use Codeium.nvim",
         "link": "",
         "type": "",
@@ -16340,7 +16232,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "FiveAITools": {
         "text": "5 wild new AI tools you can try right now - YouTube",
         "link": "https://www.youtube.com/watch?v=BY81yNttfpg",
         "type": "",
@@ -16358,7 +16250,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "PythonCLIs": {
         "text": "Python's many command-line utilities - Python Morsels",
         "link": "https://www.pythonmorsels.com/cli-tools/",
         "type": "",
@@ -16376,7 +16268,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "LetsBuildACompiler_SDHR": {
         "text": "Jack W. Crenshaw - Let’s build a Compiler (v.1.9)",
         "link": "https://libgen.rs/book/index.php?md5=E3C0FAE0C2C0F747BE305C83E837ACFA",
         "type": "",
@@ -16394,7 +16286,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "FunctionVsArray": {
         "text": "Functional vs Array Programming - YouTube",
         "link": "https://www.youtube.com/watch?v=UogkQ67d0nY",
         "type": "",
@@ -16412,7 +16304,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "Beautydream": {
         "text": "icons sajjad606 / Beautydream · GitLab",
         "link": "https://www.opencode.net/sajjad606/beautydream",
         "type": "",
@@ -16430,7 +16322,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "WritingACCompiler": {
         "text": "Nora Sandler - Writing a C Compiler: Build a Real Programming Language from Scratch",
         "link": "https://libgen.rs/book/index.php?md5=9150BB88BB08926DC7BE182513BFCA14",
         "type": "",
@@ -16448,7 +16340,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "BuildYourOwn": {
         "text": "Build Your Own X From Scratch Books",
         "link": "https://build-your-own.org/",
         "type": "",
@@ -16466,7 +16358,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "BuildYourOwnWebServer": {
         "text": "Build Your Own Web Server In Node.JS | Build Your Own Web Server From Scratch In Node.JS",
         "link": "https://build-your-own.org/webserver/",
         "type": "",
@@ -16484,7 +16376,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "MatrixSpecification": {
         "text": "Matrix Specification",
         "link": "https://spec.matrix.org/latest/",
         "type": "",
@@ -16502,7 +16394,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "BuildingAWebServerFromScratch": {
         "text": "Building a Web Server from Scratch: A DIY Guide - Alibaba Cloud",
         "link": "https://www.alibabacloud.com/tech-news/a/web_server/guigqouzst-building-a-web-server-from-scratch-a-diy-guide",
         "type": "",
@@ -16538,7 +16430,7 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "LuaFun": {
         "text": "luafun/luafun: Lua Fun is a high-performance functional programming library for Lua designed with LuaJIT's trace compiler in mind.",
         "link": "https://github.com/luafun/luafun",
         "type": "",
@@ -16556,63 +16448,9 @@
         "sorter": "",
         "id": ""
     },
-    "": {
+    "NitruxLinuxArticle": {
         "text": "Say goodbye to Microsoft Windows 11: Nitrux Linux 3.5.0 is the operating system you need! | BetaNews",
         "link": "https://betanews.com/2024/06/03/say-goodbye-microsoft-windows-11-nitrux-linux-350/",
-        "type": "",
-        "subtype": "",
-        "tags": [
-            ""
-        ],
-        "subtags": [],
-        "status": "toFix",
-        "dateCreated": "2024-05-31",
-        "dateModified": "2024-05-31",
-        "extra": {
-            "language": ""
-        },
-        "sorter": "",
-        "id": ""
-    },
-    "": {
-        "text": "",
-        "link": "",
-        "type": "",
-        "subtype": "",
-        "tags": [
-            ""
-        ],
-        "subtags": [],
-        "status": "toFix",
-        "dateCreated": "2024-05-31",
-        "dateModified": "2024-05-31",
-        "extra": {
-            "language": ""
-        },
-        "sorter": "",
-        "id": ""
-    },
-    "": {
-        "text": "",
-        "link": "",
-        "type": "",
-        "subtype": "",
-        "tags": [
-            ""
-        ],
-        "subtags": [],
-        "status": "toFix",
-        "dateCreated": "2024-05-31",
-        "dateModified": "2024-05-31",
-        "extra": {
-            "language": ""
-        },
-        "sorter": "",
-        "id": ""
-    },
-    "": {
-        "text": "",
-        "link": "",
         "type": "",
         "subtype": "",
         "tags": [
