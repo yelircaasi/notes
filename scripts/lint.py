@@ -704,7 +704,7 @@ def lint_tags(tags: list[str]) -> list[str]:
 
 def make_id() -> str:
     random16 = "".join(random.choices(string.ascii_uppercase + string.digits, k=16))
-    return f"AUTO:{random16}"
+    return f"Auto_{random16}"
 
 
 def lint_note(note: dict) -> dict:

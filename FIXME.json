@@ -11019,7 +11019,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/yutkat/my-github.comyutkat": {
+    "NvimPluginlistYutkat": {
         "text": " <- get recent",
         "link": "https://github.com/yutkat/my-neovim-pluginlist",
         "type": "",
@@ -11037,7 +11037,7 @@
         "sorter": "",
         "id": ""
     },
-    "PAINTNVIMgithub.comfolkep": {
+    "PaintNvim": {
         "text": "for note",
         "link": "https://github.com/folke/paint.nvim ",
         "type": "",
@@ -11056,7 +11056,7 @@
         "sorter": "",
         "id": ""
     },
-    "TSADDPARSERgithub.comnvim-t": {
+    "TsAddParser": {
         "text": "alternative for note",
         "link": "https://github.com/nvim-treesitter/nvim-treesitter#adding-parsers",
         "type": "",
@@ -11074,7 +11074,7 @@
         "sorter": "",
         "id": ""
     },
-    "FINCHthenextweb.comne": {
+    "FinchArticle": {
         "text": "Finch Proglang",
         "link": "https://thenextweb.com/news/everything-you-need-to-know-about-finch-the-latest-programming-language-developed-by-mit",
         "type": "",
@@ -11092,7 +11092,7 @@
         "sorter": "",
         "id": ""
     },
-    "IMAGEEDITORgithub.comDartyp": {
+    "ImageEditor": {
         "text": "image-editor",
         "link": "https://github.com/Dartypier/image-editor",
         "type": "",
@@ -11218,7 +11218,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/Facundo-c-github.comFacund": {
+    "DotsLabwcSolus": {
         "text": "",
         "link": "https://github.com/Facundo-c-c/labwc-solus-dotefiles",
         "type": "",
@@ -11236,9 +11236,9 @@
         "sorter": "",
         "id": ""
     },
-    "DIFFVSAUTOREG": {
-        "text": "Why Does Diffusion Work Better than Auto-Regression? https://m.youtube.com/watch?v=zc5NTeJbk-k",
-        "link": "",
+    "DiffusionVsAutoreg": {
+        "text": "Why Does Diffusion Work Better than Auto-Regression? ",
+        "link": "https://m.youtube.com/watch?v=zc5NTeJbk-k",
         "type": "",
         "subtype": "",
         "tags": [
@@ -11256,9 +11256,9 @@
         "sorter": "",
         "id": ""
     },
-    "BACKPROPKIRSANOV": {
-        "text": "The Most Important Algorithm in Machine Learning https://m.youtube.com/watch?v=SmZmBKc7Lrs",
-        "link": "",
+    "BackpropKirsanov": {
+        "text": "The Most Important Algorithm in Machine Learning",
+        "link": "https://m.youtube.com/watch?v=SmZmBKc7Lrs",
         "type": "",
         "subtype": "",
         "tags": [
@@ -11275,7 +11275,7 @@
         "sorter": "",
         "id": ""
     },
-    "CATTHEORYm.youtube.comwat": {
+    "CategoryTheory_GKLR": {
         "text": "",
         "link": "https://m.youtube.com/watch?v=UbPYnigL344&feature=youtu.be",
         "type": "",
@@ -11294,7 +11294,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/rikodot/kagithub.comrikodo": {
+    "KardiNotesApi": {
         "text": "",
         "link": "https://github.com/rikodot/kardi_notes_api",
         "type": "",
@@ -11313,7 +11313,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/VikParuchugithub.comVikPar": {
+    "MarkerVikParuchuri": {
         "text": "",
         "link": "https://github.com/VikParuchuri/marker",
         "type": "",
@@ -11333,7 +11333,7 @@
         "sorter": "",
         "id": ""
     },
-    "VikParuchugithub.comVikPar": {
+    "SuryaVikParuchuri": {
         "text": "",
         "link": "https://github.com/VikParuchuri/surya",
         "type": "",
@@ -11352,7 +11352,7 @@
         "sorter": "",
         "id": ""
     },
-    "CODEREPORTcodereport.githu": {
+    "Codereport": {
         "text": "",
         "link": "https://codereport.github.io/about/",
         "type": "",
@@ -11372,7 +11372,7 @@
         "sorter": "",
         "id": ""
     },
-    "here.com/googladvanywhere.comg": {
+    "GpxExportGoogleMaps": {
         "text": "",
         "link": "https://advanywhere.com/google-maps-exporting-your-pins-gpx-file/",
         "type": "",
@@ -11393,7 +11393,7 @@
         "sorter": "",
         "id": ""
     },
-    "EPISODE:JDFGNDFopen.spotify.com": {
+    "Episode_JDFGNDF": {
         "text": "",
         "link": "https://open.spotify.com/episode/5cTkLZLrtlQXAoFbZTsWkl?si=fZNTlYI0RaCI1yQTIMyrRg",
         "type": "",
@@ -11413,7 +11413,7 @@
         "sorter": "",
         "id": ""
     },
-    "EPISODE:SDHFSDAGGopen.spotify.com": {
+    "Episode:SDHFSDAGG": {
         "text": "",
         "link": "https://open.spotify.com/episode/7nE3gGSEhTaMxlo7D29NGX?si=JxfD6x63TWqKD_eUJlYaLg",
         "type": "",
@@ -11432,7 +11432,7 @@
         "sorter": "",
         "id": ""
     },
-    "EPISODE:SFHTYRIWEopen.spotify.com": {
+    "Episode:SFHTYRIWE": {
         "text": "",
         "link": "https://open.spotify.com/episode/1MkeiZYxvIKKRaZrCQR6Po?si=-02a2HcmQFWnXfVmoW8FPw",
         "type": "",
@@ -11470,7 +11470,7 @@
         "sorter": "",
         "id": ""
     },
-    "ium.com/ softwtechnitium.com": {
+    "Technitium": {
         "text": "",
         "link": "https://technitium.com/",
         "type": "",
@@ -11550,7 +11550,7 @@
         "sorter": "",
         "id": ""
     },
-    "ardDAV Synchro": {
+    "Davx5": {
         "text": "DAVx⁵ (CalDAV/CardDAV Synchronization and Client)",
         "link": "",
         "type": "",
@@ -11649,27 +11649,9 @@
         "sorter": "",
         "id": ""
     },
-    "c contacts, ca": {
+    "DecSync": {
         "text": "DecSync CC (Sync contacts, calendars and tasks without a server using DecSync)",
-        "link": "",
-        "type": "",
-        "subtype": "",
-        "tags": [
-            ""
-        ],
-        "subtags": [],
-        "status": "toFix",
-        "dateCreated": "2024-05-31",
-        "dateModified": "2024-05-31",
-        "extra": {
-            "language": ""
-        },
-        "sorter": "",
-        "id": ""
-    },
-    "DECSYNC": {
-        "text": "    https://f-droid.org/packages/org.decsync.cc/ ]]",
-        "link": "",
+        "link": "https://f-droid.org/packages/org.decsync.cc/",
         "type": "",
         "subtype": "",
         "tags": [
@@ -11687,7 +11669,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/FossifyOrggithub.comFossif": {
+    "CalendarFossifyOrg": {
         "text": "",
         "link": "https://github.com/FossifyOrg/Calendar",
         "type": "",
@@ -11706,7 +11688,7 @@
         "sorter": "",
         "id": ""
     },
-    "ETARCALENDARgithub.comEtar-G": {
+    "EtarCalendar": {
         "text": "",
         "link": "https://github.com/Etar-Group/Etar-Calendar",
         "type": "",
@@ -11978,7 +11960,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/ad-si/webdgithub.comad-siw": {
+    "webdavServerAdSi": {
         "text": "",
         "link": "https://github.com/ad-si/webdavServer",
         "type": "",
@@ -12065,7 +12047,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/forste/hasgithub.comforste": {
+    "HaskellVCSWrapper": {
         "text": "",
         "link": "https://github.com/forste/haskellVCSWrapper",
         "type": "",
@@ -12107,7 +12089,7 @@
         "sorter": "",
         "id": ""
     },
-    "b.com/vincenth": {
+    "HaskellLibgit": {
         "text": "* https://github.com/vincenthz/hs-libgit",
         "link": "",
         "type": "",
@@ -12128,7 +12110,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/mitchellwrgithub.commitche": {
+    "MitRepo": {
         "text": "",
         "link": "https://github.com/mitchellwrosen/mit",
         "type": "",
@@ -12149,7 +12131,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/vincenthz/github.comvincen": {
+    "HaskellLibgit_GFJR": {
         "text": "",
         "link": "https://github.com/vincenthz/hs-libgit",
         "type": "",
@@ -12784,7 +12766,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/nvim-neorogithub.comnvim-n": {
+    "NvimBestPractices": {
         "text": "",
         "link": "https://github.com/nvim-neorocks/nvim-best-practices",
         "type": "",
@@ -12822,7 +12804,7 @@
         "sorter": "",
         "id": ""
     },
-    "clustering, in": {
+    "ConsiliumIdeaClustering": {
         "text": "[[ interactive clustering, including tree-structure options, or automatic sorting algorithms, e.g. sort first on tag frequency ]]",
         "link": "",
         "type": "",
@@ -12863,7 +12845,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/sachinchaugithub.comsachin": {
+    "NixvimFlakeSachin": {
         "text": "",
         "link": "https://github.com/sachinchaudhary1808/nixvim-flake",
         "type": "",
@@ -12884,7 +12866,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/TarunDaCodgithub.comTarunD": {
+    "AlphaNvim": {
         "text": "",
         "link": "https://github.com/TarunDaCoder/AlphaNvim",
         "type": "",
@@ -12904,7 +12886,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/NTBBloodbagithub.comNTBBlo": {
+    "NorgolithThemes": {
         "text": "",
         "link": "https://github.com/NTBBloodbath/norgolith/blob/master/doc/themes.norg",
         "type": "",
@@ -13011,7 +12993,7 @@
         "sorter": "",
         "id": ""
     },
-    "asks, add cust": {
+    "ConsiliumIdea_FXNP": {
         "text": "//add tags to tasks, add custom workout generation algorithms to declaration editor to add workout items -> easily editable by tag; use arbitrarily complex increment algorithm (increasing/decreasing rate of increase, custom function of reps, sets, weight, subjective difficulty, etc -> need to first collect some data to see which increase algorithms are reasonable//",
         "link": "",
         "type": "",
@@ -13033,7 +13015,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/fioncat/otgithub.comfionca": {
+    "Otree": {
         "text": "",
         "link": "https://github.com/fioncat/otree  proglang:rust rating:$$$$$$",
         "type": "",
@@ -13412,7 +13394,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/bahaaTuffagithub.combahaaT": {
+    "ProjectClosetArchive": {
         "text": "",
         "link": "https://github.com/bahaaTuffaha/Project-ClosetArchive",
         "type": "",
@@ -13628,7 +13610,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/Desarrollogithub.comDesarr": {
+    "ShioriAndroidClient": {
         "text": "",
         "link": "https://github.com/DesarrolloAntonio/Shiori-Android-Client",
         "type": "",
@@ -13648,7 +13630,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/go-shiori/github.comgo-shi": {
+    "Shiori": {
         "text": "",
         "link": "https://github.com/go-shiori/shiori",
         "type": "",
@@ -13668,7 +13650,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/appml/neutgithub.comappmln": {
+    "Neutrinote": {
         "text": "",
         "link": "https://github.com/appml/neutrinote rating:*****",
         "type": "",
@@ -13689,27 +13671,9 @@
         "sorter": "",
         "id": ""
     },
-    " a client app ": {
+    "ImmichClientApp": {
         "text": "Immich (This is a client app for the self-hostable Immich Server)",
-        "link": "",
-        "type": "",
-        "subtype": "",
-        "tags": [
-            ""
-        ],
-        "subtags": [],
-        "status": "toFix",
-        "dateCreated": "2024-05-31",
-        "dateModified": "2024-05-31",
-        "extra": {
-            "language": ""
-        },
-        "sorter": "",
-        "id": ""
-    },
-    "IMMICH": {
-        "text": "    https://f-droid.org/packages/app.alextran.immich/",
-        "link": "",
+        "link": "https://f-droid.org/packages/app.alextran.immich/",
         "type": "",
         "subtype": "",
         "tags": [
@@ -13744,7 +13708,7 @@
         "sorter": "",
         "id": ""
     },
-    "SABER": {
+    "Saber": {
         "text": "    https://f-droid.org/packages/com.adilhanney.saber/",
         "link": "",
         "type": "",
@@ -13764,7 +13728,7 @@
         "sorter": "",
         "id": ""
     },
-    "OTPHELPERf-droid.orgpacka": {
+    "Otphelper": {
         "text": "Copy SMS Code - OTP Helper (an open-source app that can detect and copy any code for you)",
         "link": "https://f-droid.org/packages/io.github.jd1378.otphelper/",
         "type": "",
@@ -13784,7 +13748,7 @@
         "sorter": "",
         "id": ""
     },
-    "w, edit and sy": {
+    "Imapnotes3": {
         "text": "ImapNotes3 (View, edit and synchronize HTML notes and check lists on your IMAP mailboxes)",
         "link": "",
         "type": "",
@@ -13844,7 +13808,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/lj3954/quigithub.comlj3954": {
+    "QuickemuRs": {
         "text": "",
         "link": "https://github.com/lj3954/quickemu-rs",
         "type": "",
@@ -13864,13 +13828,13 @@
         "sorter": "",
         "id": ""
     },
-    "com/harsh-m-pagithub.comharsh-": {
+    "DotsHarshMPatil": {
         "text": "",
-        "link": "https://github.com/harsh-m-patil/.dotfiles #dots",
+        "link": "https://github.com/harsh-m-patil/.dotfiles",
         "type": "",
         "subtype": "",
         "tags": [
-            ""
+            "dots"
         ],
         "subtags": [],
         "status": "toFix",
@@ -13976,7 +13940,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/IamPyu/ndogitlab.comIamPyu": {
+    "DotsIamPyu": {
         "text": "",
         "link": "https://gitlab.com/IamPyu/ndots",
         "type": "",
@@ -13994,7 +13958,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/troutcobblgithub.comtroutc": {
+    "Goober": {
         "text": "",
         "link": "https://github.com/troutcobbler/goober",
         "type": "",
@@ -14013,7 +13977,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/Sheebeehs/github.comSheebe": {
+    "DotsSheebeehs": {
         "text": "",
         "link": "https://github.com/Sheebeehs/dotfiles",
         "type": "",
@@ -14031,7 +13995,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/Rustnot/Tegithub.comRustno": {
+    "Tetrisfetch": {
         "text": "",
         "link": "https://github.com/Rustnot/Tetrisfetch",
         "type": "",
@@ -14050,7 +14014,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/water-suckgithub.comwater-": {
+    "NixDotsWaterSucks": {
         "text": "",
         "link": "https://github.com/water-sucks/nixos",
         "type": "",
@@ -14070,7 +14034,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/SamuelBanygithub.comSamuel": {
+    "MorrowindTheme": {
         "text": "",
         "link": "https://github.com/SamuelBanya/morrowind-theme?tab=readme-ov-file",
         "type": "",
@@ -14090,7 +14054,7 @@
         "sorter": "",
         "id": ""
     },
-    "https://github.com/xavierog/moulti": {
+    "Moulti": {
         "text": "",
         "link": "https://github.com/xavierog/moulti",
         "type": "",
@@ -14261,7 +14225,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/vicolo-devgithub.comvicolo": {
+    "Chrono": {
         "text": "",
         "link": "https://github.com/vicolo-dev/chrono",
         "type": "",
@@ -14282,7 +14246,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/streetwritgithub.comstreet": {
+    "Notesnook": {
         "text": "",
         "link": "https://github.com/streetwriters/notesnook",
         "type": "",
@@ -14301,7 +14265,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/bitfireAT/github.combitfir": {
+    "Davx5Ose": {
         "text": "",
         "link": "https://github.com/bitfireAT/davx5-ose rating:******",
         "type": "",
@@ -14321,7 +14285,7 @@
         "sorter": "",
         "id": ""
     },
-    "jderochervlk/rdev.tojderocherv": {
+    "BlogpostRescript": {
         "text": "",
         "link": "https://dev.to/jderochervlk/rescript-has-come-a-long-way-maybe-its-time-to-switch-from-typescript-29he",
         "type": "",
@@ -14339,7 +14303,7 @@
         "sorter": "",
         "id": ""
     },
-    "dit.com/r/haskwww.reddit.comrh": {
+    "HaskellDiscussion_GKVN": {
         "text": "",
         "link": "https://www.reddit.com/r/haskell/comments/9t7jmp/haskell_worse_than_go_ocaml_yes_this_is_a/",
         "type": "",
@@ -14358,7 +14322,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/empirical-danluu.comempiri": {
+    "EmpiricalPl": {
         "text": "",
         "link": "https://danluu.com/empirical-pl/",
         "type": "",
@@ -14377,8 +14341,8 @@
         "sorter": "",
         "id": ""
     },
-    "a/2019/04/29/cthume.ca20190429": {
-        "text": "",
+    "ComparingCompilers": {
+        "text": "Comparing compilers in Rust, Haskell, C, and Python",
         "link": "https://thume.ca/2019/04/29/comparing-compilers-in-rust-haskell-c-and-python/",
         "type": "",
         "subtype": "",
@@ -14395,7 +14359,7 @@
         "sorter": "",
         "id": ""
     },
-    "are.io/stackupstackshare.iosta": {
+    "MakeVsRake": {
         "text": "",
         "link": "https://stackshare.io/stackups/make-vs-rake",
         "type": "",
@@ -14413,7 +14377,7 @@
         "sorter": "",
         "id": ""
     },
-    "netto.dev/en/peltonminetto.dev": {
+    "MakeAlternatives": {
         "text": "",
         "link": "https://eltonminetto.dev/en/post/2024-05-26-alternatives-make/",
         "type": "",
@@ -14453,7 +14417,7 @@
         "sorter": "",
         "id": ""
     },
-    "be.com/@kitlanm.youtube.com@ki": {
+    "ChannelKitLangton": {
         "text": "",
         "link": "https://m.youtube.com/@kitlangton",
         "type": "",
@@ -14730,7 +14694,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/Manas2325/github.comManas2": {
+    "DotsHyprlandManas2325": {
         "text": "",
         "link": "https://github.com/Manas2325/Hyprland",
         "type": "",
@@ -14785,7 +14749,7 @@
         "sorter": "",
         "id": ""
     },
-    "com/ARKye03/Hygithub.comARKye0": {
+    "DotsHyprlandArkye03": {
         "text": "",
         "link": "https://github.com/ARKye03/HyprDots",
         "type": "",
@@ -14821,7 +14785,7 @@
         "sorter": "",
         "id": ""
     },
-    "cript: (functi": {
+    "Columnate": {
         "text": "Columnate javascript: (function () {function Columnate(){var LoadStylesheet=function(url){var c=document.createElement(%22link%22);c.rel=%22stylesheet%22,c.type=%22text/css%22,c.media=%22all%22,c.href=url,document.getElementsByTagName(%22head%22)[0].appendChild(c)},MakeReadable=function(){var doclone=document.cloneNode(!0),article=new Readability(doclone).parse(),htmltag=document.getElementsByTagName(%22html%22)[0];htmltag.removeAttribute(%22class%22),htmltag.removeAttribute(%22style%22),document.head.innerHTML=%22%22,LoadStylesheet(%22//anoved.github.io/Columnate/columnate.css%22),LoadStylesheet(%22//anoved.github.io/Columnate/appearance.css%22),document.title=article.title,document.body.removeAttribute(%22class%22),document.body.removeAttribute(%22style%22),document.body.innerHTML=%22<h1>%22+article.title+%22</h1>%22+article.content};cmjs=document.createElement(%22script%22),cmjs.type=%22text/javascript%22,cmjs.src=%22//anoved.github.io/Columnate/readability/Readability.js%22,cmjs.onreadystatechange=MakeReadable,cmjs.onload=MakeReadable,document.getElementsByTagName(%22head%22)[0].appendChild(cmjs)}Columnate();}())",
         "link": "",
         "type": "",
@@ -14839,7 +14803,7 @@
         "sorter": "",
         "id": ""
     },
-    "ne Who Sees - www.youtube.comw": {
+    "HagarArabicFilm": {
         "text": "Hagar and the One Who Sees - Arabic Short Film",
         "link": "https://www.youtube.com/watch?v=0Mio8vP4jNY",
         "type": "",

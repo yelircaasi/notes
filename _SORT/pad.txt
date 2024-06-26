@@ -1,39 +1,8 @@
 https://github.com/nix-community/home-manager/blob/master/modules/programs/taskwarrior.nix
 
-https://www.modular.com/blog/what-ownership-is-really-about-a-mental-model-approac
+https://www.modular.com/blog/what-ownership-is-really-about-a-mental-model-approach
 
-===================================================================
-Keyboard Shortcuts
-Designate a special kanata leader key combination? Something like META
-Layers:
-- US default
-    -> access via 
-- programming special characters
-    -> 
-- numeric
-    -> 
-- APL https://dfns.dyalog.com/n_keyboards.htm
-    -> 
-- German (convenience for germans)
-    -> 
-- latin (US layout) + basic internationals via modifiers
-    -> 
-- latin extended international
-    -> 
-- ukrainian
-    -> 
-- russian
-    -> 
-- arabic
-    -> 
-- chinese traditional stroke-based
-    -> 
-- chinese traditional bopomofo-based (functionally equivalent to pinyin-based)
-    -> 
-- chinese simplified stroke-based
-    -> 
-- chinese simplified bopomofo-based (functionally equivalent to pinyin-based)
-    -> 
+
 
 ==================================================================
 Strength Training Planning
