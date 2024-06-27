@@ -29,8 +29,8 @@
             "closePath": "]",
             "matchEmpty": "?",
             "valueBinder": ":",
-            "openRegex": "｟",
-            "closeRegex": "｠"
+            "openRegex": "⸨",
+            "closeRegex": "⸩"
         },
         "alias": {
             "id": "=",
@@ -50,5 +50,124 @@
 
         },
         "unusedSpecial": ["]", "-"]
+    },
+    "querySupportMatrix": {
+        "tag": {
+            "prefix": "",
+            "complexSubexpression": true,
+            "binding": false,
+            "exactness": false,
+            "negationSpecialInterpretation": false,
+            "supportsMatchEmpty": false,
+            "regex": true
+        },
+        "id": {
+            "prefix": "=",
+            "complexSubexpression": true,
+            "binding": false,
+            "exactness": false,
+            "negationSpecialInterpretation": false,
+            "supportsMatchEmpty": false,
+            "regex": true
+        },
+        "dateCreated": {
+            "prefix": "©",
+            "complexSubexpression": false,
+            "binding": false,
+            "exactness": true,
+            "negationSpecialInterpretation": true,
+            "supportsMatchEmpty": false,
+            "regex": true
+        },
+        "dateModified": {
+            "prefix": "^",
+            "complexSubexpression": false,
+            "binding": false,
+            "exactness": true,
+            "negationSpecialInterpretation": true,
+            "supportsMatchEmpty": false,
+            "regex": true
+        },
+        "status": {
+            "prefix": "/",
+            "complexSubexpression": true,
+            "binding": false,
+            "exactness": false,
+            "negationSpecialInterpretation": false,
+            "supportsMatchEmpty": true,
+            "regex": true
+        },
+        "rating": {
+            "prefix": "*",
+            "complexSubexpression": true,
+            "binding": false,
+            "exactness": true,
+            "negationSpecialInterpretation": false,
+            "supportsMatchEmpty": true,
+            "regex": true
+        },
+        "tagSubtagComposite": {
+            "prefix": "",
+            "complexSubexpression": true,
+            "binding": true,
+            "exactness": false,
+            "negationSpecialInterpretation": false,
+            "supportsMatchEmpty": true,
+            "regex": true
+        },
+        "subtag": {
+            "prefix": ":",
+            "complexSubexpression": false,
+            "binding": false,
+            "exactness": false,
+            "negationSpecialInterpretation": false,
+            "supportsMatchEmpty": true,
+            "regex": true
+        },
+        "typeSubtypeComposite": {
+            "prefix": "%",
+            "complexSubexpression": true,
+            "binding": true,
+            "exactness": false,
+            "negationSpecialInterpretation": false,
+            "supportsMatchEmpty": true,
+            "regex": true
+        },
+        "subtype": {
+            "prefix": null,
+            "complexSubexpression": false,
+            "binding": false,
+            "exactness": false,
+            "negationSpecialInterpretation": false,
+            "supportsMatchEmpty": true,
+            "regex": true
+        },
+        "extraAttr": {
+            "prefix": "+",
+            "complexSubexpression": false,
+            "binding": true,
+            "exactness": false,
+            "negationSpecialInterpretation": false,
+            "supportsMatchEmpty": true,
+            "regex": true
+        },
+        "language": {
+            "prefix": "€",
+            "complexSubexpression": false,
+            "binding": true,
+            "exactness": false,
+            "negationSpecialInterpretation": false,
+            "supportsMatchEmpty": true,
+            "regex": true
+        },
+        "progLang": {
+            "prefix": "_",
+            "complexSubexpression": false,
+            "binding": true,
+            "exactness": false,
+            "negationSpecialInterpretation": false,
+            "supportsMatchEmpty": true,
+            "regex": true
+        }
     }
 }

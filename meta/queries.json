@@ -1,6 +1,6 @@
 {
     "appFlowyGood": {
-        "query": "%software.noteManagement._appFlowy.*3",
+        "query": "%software.noteManagement._appFlowy.*A",
         "tokens": [
             {
                 "PREFIX_TYPE": "%"
@@ -30,7 +30,7 @@
                 "PREFIX_RATING": "*"
             },
             {
-                "IDENTIFIER": "3"
+                "IDENTIFIER": "A"
             }
         ],
         "ast": [],
@@ -57,16 +57,18 @@
                 {
                     "ATOM": {
                         "TYPE": "rating",
-                        "VALUE": "3"
+                        "VALUE": "A"
                     }
                 }
             ]
         },
-        "equivalentPythonCode": "lambda d: (d['type'] == software) and ('noteManagement' in d['tags']) and ('appFlowy' in d['subtags']) and (d['extra']['rating'] >= 3)"
+        "equivalentPythonCode": "lambda d: (d['type'] == software) and ('noteManagement' in d['tags']) and ('appFlowy' in d['subtags']) and (d['extra']['rating'] <= 'A')"
     },
     "notesPyRsHs": "%software.noteManagement.{…python,…rust,…haskell}",
     "noteAndTask": "noteManagement,todoManagement",
     "testComplex": "tagA,{tagB,tagC}.{tagD,{tagE.tagF.tagG}}",
-    "testComplexRegex": "tagA,｟^In the beginning｠.{tagB,tagC}.{tagD,{tagE.tagF.tagG}}",
-    "testAttrs": "=idA,asdf,｟^In the beginning｠._subtagA,%typeA:subtypeC,/status,+extraA,€EN,…python,*~~ratingB,*ratingA,^2024-05-07,@cached,©2021-04-04"
+    "testComplexRegex": "tagA,⸨^In the beginning⸩.{tagB,tagC}.{tagD,{tagE.tagF.tagG}}",
+    "testAttrs": "=idA,asdf,⸨^In the beginning⸩._subtagA,%typeA:subtypeC,/status,+extraA,€EN,…python,*~~ratingB,*ratingA,^2024-05-07,@cached,©2021-04-04",
+    "allSimple": "tag1,^2023-05-05.^~2025-01-01,=id1,⸨^regex1$⸩,%type1:subtype1,/status1./status2,+extraAttr:extraVal,*~~3,*2.*~4.@cachedQuery.©2025-01-01,©~2028-06-07",
+    "allComplex": "{tag1,tag2.{tag3,tag4]}."
 }
